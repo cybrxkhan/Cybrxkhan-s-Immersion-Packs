@@ -1,0 +1,74 @@
+#Stuff;;;;;;;;;;;;;;x
+VIET_harran_temple_of_the_moon;Temple of the Moon;;;;;;;;;;;;;x
+VIET_harran_temple_of_the_moon_desc;The Temple of Moon in the city of Harran has stood here for centuries if not millennia, a testament to the city's devotion to the pagan gods of yore. Their practices and rituals are a curious mixture of Hellenic paganism, Mesopotamian paganism, and Neoplatonism.;;;;;;;;;;;;;x
+VIET_harran_neoplatonic_academy;Neoplatonic Academy;;;;;;;;;;;;;x
+VIET_harran_neoplatonic_academy_desc;The scholars and wise men of Harran have claimed their lineage comes directly from the Neoplatonic philosophers of late Rome, and, in turn, the philosophers of Plato's Academy. Whether their claims are true or not, the Neoplatonic Academy at Harran is the last bastion of this ancient, pagan heritage.;;;;;;;;;;;;;x
+patronize_neoplatonic_academy;Patronize the Neoplatonic Academy;;;;;;;;;;;;;x
+patronize_neoplatonic_academy_desc;As the last vestige of ancient Hellenic learning, the Neoplatonic Academy in Harran is constantly in need of investment from generous rulers, willing to overlook its unusual beliefs and teachings.;;;;;;;;;;;;;x
+destroy_the_temple_of_the_moon;Destroy the Temple of the Moon;;;;;;;;;;;;;x
+destroy_the_temple_of_the_moon_desc;For too long have we allowed the blasphemous temple at Harran to stand. It is time for it to raze it to the ground!;;;;;;;;;;;;;x
+make_offerings_to_the_temple_of_the_moon;Make Offerings to the Temple of the Moon;;;;;;;;;;;;;x
+make_offerings_to_the_temple_of_the_moon_desc;Though the paganism of the Harranians is a curious mix of Hellenic and Semitic paganism as well as Neoplatonism, it is still wise to pay respects to the gods every now and then, no matter what form they take.;;;;;;;;;;;;;x
+VIET_harran_divination_good;Good Moon Readings;;;;;;;;;;;;;x
+VIET_harran_divination_good_desc;The pagan astrologers of Harran have foretold that good things will happen to Harran in the near future.;;;;;;;;;;;;;x
+VIET_harran_divination_bad;Bad Moon Readings;;;;;;;;;;;;;x
+VIET_harran_divination_bad_desc;The pagan astrologers of Harran have foretold that bad things will happen to Harran in the near future.;;;;;;;;;;;;;x
+monogatari.100.desc;xxxxx;;;;;;;;;;;;;x
+monogatari.100.a;xxxxx;;;;;;;;;;;;;x
+monogatari.101.desc;xxxxx;;;;;;;;;;;;;x
+monogatari.101.a;xxxxx;;;;;;;;;;;;;x
+monogatari.102.desc;Members of the Neoplatonic Academy in Harran are grateful for our financial and moral support. With our help, they will continue to pass on the centuries of wisdom they possess to others.;;;;;;;;;;;;;x
+monogatari.102.a;Very good.;;;;;;;;;;;;;x
+monogatari.103.title;Temple of the Moon;;;;;;;;;;;;;x
+monogatari.103.desc;I approach the altar. Around me are idols to various deities, such as Tammuz, also known to the Greeks as Adonis. At the center of the temple stands the idol of the moon deity, known locally as Sin. I pay my respects in the Harranian manner, presenting my offerings and praying. Though the walls are worn and the temple has definitely seen better days, I can feel the centuries of history bearing down on me.;;;;;;;;;;;;;x
+monogatari.103.a;I hope the heavens will bless me with divine favor.;;;;;;;;;;;;;x
+monogatari.103.b;Let these offerings show my devotion! ;;;;;;;;;;;;;x
+monogatari.104.desc;You ignore the protests and pleas of the few remaining blasphemers in Harran, and your mind will not be swayed. The Temple of the Moon in Harran will no longer be host to these false believers. You have a number of men at your disposal, ready to do your bidding. However, a decision must be made: should we raze it to the ground completely, or convert it into a more useful structure?;;;;;;;;;;;;;x
+monogatari.104.a;Loot and burn it to the ground!;;;;;;;;;;;;;x
+monogatari.104.b;Let's convert it into something else.;;;;;;;;;;;;;x
+monogatari.105.title;Harran's Pagan Temple;;;;;;;;;;;;;x
+monogatari.105.desc;The Temple of the Moon in Harran has stood since time immemorial, one of the few reminders of an era long gone. It is as ancient as the Egyptians, and survived calamity after calamity. It was already millennia old by the time of Alexander the Great and Julius Caesar. It outlived Empires such as the Achaemenids, the Mauryans, and the Romans. It continued to endure even after the rise of the Cross and the Crescent. In an age of war and strife, it was a refuge for the dwindling worshippers of deities as diverse as Hermes, Tammuz, and of course, Sin, the ancient moon deity.\n\nNow, however, it has finally met its end. On the orders of the [From.GetTitledName], it has been destroyed. The few remaining pagans of Harran have lost their temple, and their days are surely numbered.;;;;;;;;;;;;;x
+monogatari.105.a;This is a dark day.;;;;;;;;;;;;;x
+monogatari.105.b;This is of no concern to us.;;;;;;;;;;;;;x
+monogatari.105.c;A testament to the vanity and folly of our forebears!;;;;;;;;;;;;;x
+monogatari.106.desc;The citizens of Harran have for centuries been one of the last bastions of ancient, pagan beliefs. Many among them are renowned throughout the region for their knowledge and wisdom. Today, one such man comes to your court. If you support him and his family, he will in exchange provide his services as a scholar and thinker.;;;;;;;;;;;;;x
+monogatari.106.a;Sounds like a deal! Welcome them.;;;;;;;;;;;;;x
+monogatari.106.b;I have no use for such a man.;;;;;;;;;;;;;x
+monogatari.107.desc;Our patronage of the Neoplatonic Academy in Harran has proven to be a great investment. Harranian scholars and philosophers have made significant gains recently.;;;;;;;;;;;;;x
+monogatari.107.a;Great!;;;;;;;;;;;;;x
+monogatari.108.desc;For millennia, one of the major festivals of the pagans of Harran is the festival of Tammuz, where they lament their deity Tammuz - also identified with the Greek Adonis - who dies every year. They would make a public show of their grief, weeping and mourning. This year's festival has been considered an unusually successful one, inspiring the local pagans to work hard and live in peace and harmony.;;;;;;;;;;;;;x
+monogatari.108.a;Interesting.;;;;;;;;;;;;;x
+monogatari.108.b;Heathen blasphemies, nothing more!;;;;;;;;;;;;;x
+monogatari.109.desc;In my dreams, an old man approaches me. His beard is a silver color, his eyes regal and wise. He introduces himself as one of the ancient Greek philosophers, though I do not catch his name - perhaps it is Plato, or Aristotle, or another great thinker, lost to time. As we chat, he thanks me for all the support I have shown to the Neoplatonic Academy in Harran to ensure its survival.;;;;;;;;;;;;;x
+monogatari.109.a;"My eternal thanks, child. May the gods bless you.";;;;;;;;;;;;;x
+monogatari.109.b;"Though you are [Root.Religion.GetName], truth appears in many ways.";;;;;;;;;;;;;x
+monogatari.110.desc;In recent years, the Neoplatonic Academy at Harran has been in the decline. In this era, few follow the pagan ways, even in Harran. Now, with the death of its last true teacher, it is effectively defunct with no one to continue its lineage.;;;;;;;;;;;;;x
+monogatari.110.a;I see.;;;;;;;;;;;;;x
+monogatari.111.title;End of Neoplatonism;;;;;;;;;;;;;x
+monogatari.111.desc;Everything must wither away, one day or another. The Neoplatonic Academy in Harran was once a vibrant community of scholars, the last remnants of the Hellenic civilization of antiquity. For centuries, the philosophers and mystics of the Academy passed down their vestigial lineage of knowledge to the next generation.\n\nBut no more.\n\nThe last teacher of the school has passed away, and with Harran's pagan community in decline, without any financial and moral support the Academy will fade into the annals of history.;;;;;;;;;;;;;x
+monogatari.111.a;Alas!;;;;;;;;;;;;;x
+monogatari.111.b;So it is, so shall it be.;;;;;;;;;;;;;x
+monogatari.111.c;They were heathens, not scholars!;;;;;;;;;;;;;x
+monogatari.112.desc;For many centuries, the pagans of Harran have often went to the nearby oasis of Sumatar Harabesi to pray to one of their gods, the moon deity Sin. Even now, there are still many idols and altars there. The Harranians have recently gone there for a major ceremony, which went by without incident.;;;;;;;;;;;;;x
+monogatari.112.a;So it is.;;;;;;;;;;;;;x
+monogatari.113.desc;The pagans of Harran are experienced practitioners of the arts of divination. They are skilled in reading the stars and plotting the course of the future. Recent moon readings from Harranian astrologers foretell good things will soon happen to the people of Harran, it seems. Perhaps it will inspire them to be even more productive and capable in their endeavors.;;;;;;;;;;;;;x
+monogatari.113.a;Perhaps it shall!;;;;;;;;;;;;;x
+monogatari.114.desc;The pagans of Harran are experienced practitioners of the arts of divination. They are skilled in reading the stars and plotting the course of the future. Recent moon readings from Harranian astrologers  foretell bad things will soon happen to the people of Harran, it seems. Perhaps it will cause some panic and distress amongst them for some time.;;;;;;;;;;;;;x
+monogatari.114.a;Will it really be that bad?;;;;;;;;;;;;;x
+monogatari.115.desc;The learned Harranian scholar at my court, [target_VIET_harranian_teacher.GetFullName], has recently taught [target_VIET_harranian_student.GetFullName] more about the mystic arts. Clearly, the Harranians come from a very ancient and wise people who have much to show us! It is good we are learning from them, for their knowledge will surely prove not only useful to us, but spiritually rewarding as well.;;;;;;;;;;;;;x
+monogatari.115.a;Good.;;;;;;;;;;;;;x
+monogatari.116.desc;The pagans of Harran have many distinct traditions, strange even to other pagans. For example, since time immemorial they have lived in houses shaped like beehives. Today as you pay a visit to the local leadership of Harran, you enter one of these houses belonging to a Harranian nobleman to discuss matters. It is the largest of its kind, and more a mansion.;;;;;;;;;;;;;x
+monogatari.116.a;Fascinating buildings! They are beautiful.;;;;;;;;;;;;;x
+monogatari.116.b;These are just ordinary, what's the fuss?;;;;;;;;;;;;;x
+monogatari.117.desc;xxxxx;;;;;;;;;;;;;x
+monogatari.117.a;xxxxx;;;;;;;;;;;;;x
+VIET_harran_tammuz_festival_good;Great Tammuz Festival;;;;;;;;;;;;;x
+VIET_harran_tammuz_festival_good_desc;The festival of Tammuz is an ancient tradition in Harran. A recent iteration of this event was unusually successful, inspiring the local pagans.;;;;;;;;;;;;;x
+VIET_patronize_neoplatonic_academy_1;Patron of the Neoplatonic Academy;;;;;;;;;;;;;x
+VIET_patronize_neoplatonic_academy_1_desc;This character has generously donated some of their assets to the Neoplatonic Academy in Harran, thus ensuring that its esteemed lineage of pagan thinkers and scholars will continue to grow and thrive.;;;;;;;;;;;;;x
+VIET_patronize_neoplatonic_academy_2;Patron of the Neoplatonic Academy;;;;;;;;;;;;;x
+VIET_patronize_neoplatonic_academy_2_desc;This character has generously donated some of their assets to the Neoplatonic Academy in Harran, thus ensuring that its esteemed lineage of pagan thinkers and scholars will continue to grow and thrive.;;;;;;;;;;;;;x
+VIET_harranian_spawn_tooltip;A Harranian pagan, hopefully learned in ancient wisdom, joins your court. He may have a family accompanying him.;;;;;;;;;;;;;x
+VIET_harran_destroyed_moon_temple;Destroyed the Temple of the Moon;;;;;;;;;;;;;x
+VIET_harran_destroyed_moon_temple_desc;This character was responsible for the end of the Temple of the Moon. Destroying an ancient, decrepit building maintained by a few defenseless pagans was definitely the crowning achievement of this ruler's reign.;;;;;;;;;;;;;x
+VIET_recent_harran_temple_visit;Recently visited the Temple of the Moon in Harran;;;;;;;;;;;;;x

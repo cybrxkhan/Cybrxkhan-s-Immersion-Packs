@@ -1,0 +1,23 @@
+##################################
+# Harranian Graphics		  	 #
+##################################
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_evt_harranian"
+		texturefile = "gfx\\event_pictures\harranian.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_patronize_neoplatonic_academy"
+		texturefile = "gfx\\interface\\decision_icon_patronize_neoplatonic_academy.dds"
+	}
+	spriteType = {
+		name = "GFX_destroy_the_temple_of_the_moon"
+		texturefile = "gfx\\interface\\decision_icon_destroy_the_temple_of_the_moon.dds"
+	}
+	spriteType = {
+		name = "GFX_make_offerings_to_the_temple_of_the_moon"
+		texturefile = "gfx\\interface\\decision_icon_make_offerings_to_the_temple_of_the_moon.dds"
+	}
+}

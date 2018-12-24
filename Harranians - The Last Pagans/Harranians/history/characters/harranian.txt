@@ -1,0 +1,95 @@
+########################################################################################################################
+#
+# Harranian Characters
+#
+# 100015890 - 100015891
+#
+########################################################################################################################
+
+100015890 = { #Thabit ibn Qurra's father
+	name="Qurra"
+	religion="hellenic_pagan"
+	culture="levantine_arabic"
+	add_trait="scholarly_theologian"
+	add_trait="scholar"
+	add_trait="mystic"
+	753.1.1={ #made up dates
+		birth="753.1.1"
+	}
+	769.1.1 = {
+		employer=34002
+	}
+	835.1.1={
+		death="835.1.1"
+	}
+}
+100015891 = { #Thabit ibn Qurra himself
+	name="Thabit"
+	religion="hellenic_pagan"
+	culture="levantine_arabic"
+	add_trait="mastermind_theologian"
+	add_trait="quick"
+	add_trait="scholar"
+	add_trait="mystic"
+	father=100015890
+	826.1.1={
+		birth="826.1.1"
+	}
+	867.1.1 = {
+		employer=34014
+	}
+	901.1.1={
+		death="901.1.1"
+	}
+}
+100015892 = { #Al-Battani's grandfather
+	name="Sinan"
+	religion="hellenic_pagan"
+	culture="levantine_arabic"
+	add_trait="scholarly_theologian"
+	add_trait="scholar"
+	753.1.1={ #made up dates
+		birth="753.1.1"
+	}
+	769.1.1 = {
+		employer=34002
+	}
+	833.1.1={
+		death="833.1.1"
+	}
+}
+100015893 = { #Al-Battani's father
+	name="Jabir"
+	religion="hellenic_pagan"
+	culture="levantine_arabic"
+	add_trait="scholarly_theologian"
+	add_trait="scholar"
+	father=100015892
+	820.1.1={ #made up dates 
+		birth="820.1.1"
+	}
+	867.1.1 = {
+		employer=34014
+	}
+	888.1.1={
+		death="888.1.1"
+	}
+}
+100015894 = { #Al-Battani
+	name="Abu"
+	religion="hellenic_pagan" #probably Muslim, but let's pretend he converted later in life
+	culture="levantine_arabic"
+	add_trait="mastermind_theologian"
+	add_trait="scholar"
+	add_trait="quick"
+	father=100015893
+	858.1.1={ #made up dates
+		birth="858.1.1"
+	}
+	867.1.1 = {
+		employer=34014
+	}
+	929.1.1={
+		death="929.1.1"
+	}
+}

@@ -1,0 +1,148 @@
+decisions = {
+	
+	patronize_neoplatonic_academy = {
+		only_playable = yes
+		#is_high_prio = yes
+		ai_check_interval = 60
+		
+		potential = {
+			is_playable = yes
+			has_global_flag = VIET_harran_neoplatonic_academy_active
+			OR = {
+				any_demesne_province = {
+					has_province_modifier = VIET_harran_neoplatonic_academy
+				}
+				any_realm_province = {
+					has_province_modifier = VIET_harran_neoplatonic_academy
+				}
+				#any_neighbor_province = {
+				#	has_province_modifier = VIET_harran_neoplatonic_academy
+				#}
+			}
+			OR = {
+				ai = no
+				religion_group = pagan_group
+				trait = scholar
+				trait = physician
+				trait = sympathy_pagans
+				society_member_of = hermetics
+			}
+		}
+		allow = {
+			NOT = {
+				has_character_modifier = VIET_patronize_neoplatonic_academy_1
+			}
+			NOT = {
+				has_character_modifier = VIET_patronize_neoplatonic_academy_2
+			}
+			wealth = 50
+		}
+		effect = {
+			wealth = -50
+			hidden_tooltip = {
+				character_event = { id = monogatari.102 }
+				set_character_flag = VIET_harran_neoplatonic_academy_flag
+			}
+		}
+		ai_will_do = {
+			factor = 0.5
+		}
+	}
+	
+	destroy_the_temple_of_the_moon = {
+		only_playable = yes
+		#is_high_prio = yes
+		ai_check_interval = 12
+		
+		potential = {
+			is_playable = yes
+			has_global_flag = VIET_harran_temple_of_the_moon_active
+			year = 900
+			has_landed_title = c_edessa
+			NOT = { religion_group = pagan_group }
+			NOT = { secret_religion_group = pagan_group }
+		}
+		allow = {
+			NOT = { trait = kind }
+			NOT = { trait = content }
+			NOT = { trait = sympathy_pagans }
+			wealth = 50
+		}
+		effect = {
+			wealth = -50
+			hidden_tooltip = {
+				long_character_event = { id = monogatari.104 }
+			}
+		}
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				year = 1000
+				factor = 2
+			}
+			modifier = {
+				year = 1050
+				factor = 3
+			}
+			modifier = {
+				year = 1100
+				factor = 4
+			}
+			modifier = {
+				trait = zealous
+				factor = 2
+			}
+		}
+	}
+	
+	make_offerings_to_the_temple_of_the_moon = {
+		only_playable = yes
+		#is_high_prio = yes
+		ai_check_interval = 24
+		
+		potential = {
+			is_playable = yes
+			has_global_flag = VIET_harran_temple_of_the_moon_active
+			OR = {
+				any_demesne_province = {
+					has_province_modifier = VIET_harran_temple_of_the_moon
+				}
+				any_realm_province = {
+					has_province_modifier = VIET_harran_temple_of_the_moon
+				}
+				#any_neighbor_province = {
+				#	has_province_modifier = VIET_harran_temple_of_the_moon
+				#}
+			}
+			religion_group = pagan_group
+		}
+		allow = {
+			custom_tooltip = { text = VIET_recent_harran_temple_visit }
+			hidden_tooltip = {
+				NOT = { has_character_modifier = VIET_harran_temple_of_the_moon_timer }
+			}
+			wealth = 25
+		}
+		effect = {
+			wealth = -25
+			hidden_tooltip = {
+				character_event = { id = monogatari.103 }
+			}
+		}
+		ai_will_do = {
+			factor = 0.3
+			modifier = {
+				trait = zealous
+				factor = 2
+			}
+			modifier = {
+				OR = {
+					religion = hellenic_pagan
+					religion = hellenic_pagan_reformed
+				}
+				factor = 2
+			}
+		}
+	}
+
+}

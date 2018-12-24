@@ -1,0 +1,1668 @@
+##########################################################################
+#
+# HARRANIANS: THE LAST PAGANS
+#
+# monogatari.100-119 reserved
+#
+# 100 - startup event
+# 101 - Generate waifus/children for courtiers
+# 102 - Ruler patronizes the Neoplatonic Academy
+# 103 - Make Offerings to the Temple of the Moon
+# 104 - Destruction of the Temple of the Moon
+# 105 - Destruction of the Temple of the Moon (narrative)
+# 106 - Harranian courtier spawn
+# 107 - Boost in learning for patronizing Neoplatonism
+# 108 - Successful Tammuz Festival
+# 109 - Greek Philosopher appears in a dream
+# 110 - Decline of the Neoplatonic Academy
+# 111 - Decline of the Neoplatonic Academy (narrative)
+# 112 - Sumatar Harabesi oasis   
+# 113 - Harranian divination good   
+# 114 - Harranian divination bad  
+# 115 - Harranian courtier teaches
+# 116 - Visiting beehive houses
+#   
+##########################################################################
+
+namespace = monogatari
+
+#Set up Harranian province, flags, and a few randomly generated courtiers - fires on the Sunni Caliph
+character_event =  {
+	id = monogatari.100
+	
+	hide_window = yes
+	is_triggered_only = yes
+	
+	only_playable = yes
+	religion = sunni
+
+	trigger = {
+		is_save_game = no
+		NOT = { year = 1050 }
+		has_landed_title = e_arabia
+		NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		NOT = {
+			has_alternate_start_parameter = {
+				key = culture_names
+				value = random
+			}
+		}
+	}
+	
+	immediate = {
+		set_global_flag = VIET_harran_temple_of_the_moon_active
+		set_global_flag = VIET_harran_neoplatonic_academy_active
+		699 = {
+			culture = levantine_arabic
+			religion = hellenic_pagan
+			add_province_modifier = {
+				name = VIET_harran_temple_of_the_moon
+				duration = -1
+			}
+			add_province_modifier = {
+				name = VIET_harran_neoplatonic_academy
+				duration = -1
+			}
+		}
+		if = {
+			limit = {
+				is_alternate_start = yes
+			}
+			c_edessa = {
+				holder_scope = {
+					religion = hellenic_pagan
+					culture = levantine_arabic
+					set_graphical_culture = levantine_arabic
+					any_realm_character = {
+						religion = hellenic_pagan
+						culture = levantine_arabic
+						set_graphical_culture = levantine_arabic
+					}
+				}
+			}
+		}
+		random_playable_ruler = {
+			limit = {
+				capital_scope = {
+					OR = {
+						kingdom = { title = k_mesopotamia }
+						kingdom = { title = k_syria }
+						kingdom = { title = k_iraq }
+					}
+				}
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = none
+				female = no
+				religion = hellenic_pagan
+				culture = levantine_arabic
+				flag = ai_flag_refuse_conversion
+				historical = yes
+				attributes = {
+					diplomacy = 3
+					martial = 3
+					stewardship = 3
+					intrigue = 3
+					learning = 10
+				}
+			}
+			new_character = {
+				set_character_flag = VIET_spawned_courtier	
+				remove_trait = slow
+				remove_trait = imbecile
+				remove_trait = dull
+				random_list = {
+					60 = { add_trait = scholar }
+					40 = { add_trait = mystic }
+				}
+				random = {
+					add_trait = physician
+					chance = 30
+				}
+				random = {
+					add_trait = poet
+					chance = 50
+				}
+				random = {
+					character_event = { id = monogatari.101 }
+					chance = 50
+				}
+			}
+		}
+		random_playable_ruler = {
+			limit = {
+				capital_scope = {
+					OR = {
+						kingdom = { title = k_mesopotamia }
+						kingdom = { title = k_syria }
+						kingdom = { title = k_iraq }
+					}
+				}
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = none
+				female = no
+				religion = hellenic_pagan
+				culture = levantine_arabic
+				flag = ai_flag_refuse_conversion
+				historical = yes
+				attributes = {
+					diplomacy = 5
+					martial = 5
+					stewardship = 5
+					intrigue = 5
+					learning = 13
+				}
+			}
+			new_character = {
+				set_character_flag = VIET_spawned_courtier
+				remove_trait = slow
+				remove_trait = imbecile
+				remove_trait = dull
+				random_list = {
+					60 = { add_trait = scholar }
+					40 = { add_trait = mystic }
+				}
+				random = {
+					add_trait = physician
+					chance = 30
+				}
+				random = {
+					add_trait = poet
+					chance = 50
+				}
+				random = {
+					character_event = { id = monogatari.101 }
+					chance = 50
+				}				
+			}
+		}
+		random_playable_ruler = {
+			limit = {
+				capital_scope = {
+					OR = {
+						kingdom = { title = k_mesopotamia }
+						kingdom = { title = k_syria }
+						kingdom = { title = k_iraq }
+					}
+				}
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = none
+				female = no
+				religion = hellenic_pagan
+				culture = levantine_arabic
+				flag = ai_flag_refuse_conversion
+				historical = yes
+				attributes = {
+					diplomacy = 7
+					martial = 7
+					stewardship = 7
+					intrigue = 7
+					learning = 16
+				}
+			}
+			new_character = {
+				set_character_flag = VIET_spawned_courtier
+				remove_trait = slow
+				remove_trait = imbecile
+				remove_trait = dull
+				random_list = {
+					60 = { add_trait = scholar }
+					40 = { add_trait = mystic }
+				}
+				random = {
+					add_trait = physician
+					chance = 30
+				}
+				random = {
+					add_trait = poet
+					chance = 50
+				}
+				random = {
+					character_event = { id = monogatari.101 }
+					chance = 50
+				}
+			}
+		}
+		random_playable_ruler = {
+			limit = {
+				has_landed_title = e_arabia
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = none
+				female = no
+				religion = hellenic_pagan
+				culture = levantine_arabic
+				trait = scholar
+				flag = ai_flag_refuse_conversion
+				historical = yes
+			}
+			new_character = {
+				set_character_flag = VIET_spawned_courtier
+				remove_trait = slow
+				remove_trait = imbecile
+				remove_trait = dull
+				random_list = {
+					60 = { add_trait = scholar }
+					40 = { add_trait = mystic }
+				}
+				random = {
+					add_trait = physician
+					chance = 30
+				}
+				random = {
+					add_trait = poet
+					chance = 50
+				}	
+				random = {
+					character_event = { id = monogatari.101 }
+					chance = 50
+				}			
+			}
+		}
+		random_playable_ruler = {
+			limit = {
+				has_landed_title = e_arabia
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = none
+				female = yes
+				religion = hellenic_pagan
+				culture = levantine_arabic
+				trait = scholar
+				flag = ai_flag_refuse_conversion
+				historical = yes
+			}
+			new_character = {
+				set_character_flag = VIET_spawned_courtier
+				remove_trait = slow
+				remove_trait = imbecile
+				remove_trait = dull
+				random = {
+					add_trait = physician
+					chance = 30
+				}
+				random = {
+					add_trait = poet
+					chance = 30
+				}
+				random = {
+					add_trait = fair
+					chance = 30
+				}
+				random_list = {
+					20 = { add_trait = genius }
+					10 = { add_trait = quick }
+					30 = { add_trait = shrewd }
+					50 = { }
+				}			
+			}
+		}
+		random_playable_ruler = {
+			limit = {
+				capital_scope = {
+					OR = {
+						kingdom = { title = k_mesopotamia }
+						kingdom = { title = k_syria }
+						kingdom = { title = k_iraq }
+					}
+				}
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = none
+				female = yes
+				religion = hellenic_pagan
+				culture = levantine_arabic
+				trait = scholar
+				flag = ai_flag_refuse_conversion
+				historical = yes
+			}
+			new_character = {
+				set_character_flag = VIET_spawned_courtier
+				remove_trait = slow
+				remove_trait = imbecile
+				remove_trait = dull
+				random = {
+					add_trait = physician
+					chance = 30
+				}
+				random = {
+					add_trait = poet
+					chance = 30
+				}
+				random = {
+					add_trait = fair
+					chance = 30
+				}
+				random_list = {
+					20 = { add_trait = genius }
+					10 = { add_trait = quick }
+					30 = { add_trait = shrewd }
+					50 = { }
+				}			
+			}
+		}
+	}
+}
+
+# Give Harranian courtiers some waifus and children
+character_event =  {
+	id = monogatari.101
+	
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = {
+	
+		random_list = {
+			50 = { #young waifu no kids
+				create_character = {
+					age = 18
+					random_traits = yes
+					dynasty = none
+					female = yes
+					religion = hellenic_pagan
+					culture = levantine_arabic
+					flag = ai_flag_refuse_conversion
+					historical = yes
+				}
+				new_character = {
+					set_character_flag = VIET_spawned_courtier	
+					add_spouse = ROOT	
+					remove_trait = slow
+					remove_trait = imbecile
+					remove_trait = dull
+					random = {
+						add_trait = physician
+						chance = 10
+					}
+					random = {
+						add_trait = poet
+						chance = 10
+					}
+					random = {
+						add_trait = fair
+						chance = 10
+					}
+					random = {
+						add_trait = scholar
+						chance = 10
+					}
+					random = {
+						add_trait = mystic
+						chance = 10
+					}
+					random_list = {
+						5 = { add_trait = genius }
+						10 = { add_trait = quick }
+						10 = { add_trait = shrewd }
+						75 = { }
+					}				
+				}			
+			}
+
+			25 = { #young waifu with kid
+				create_character = {
+					age = 25
+					random_traits = yes
+					dynasty = none
+					female = yes
+					religion = hellenic_pagan
+					culture = levantine_arabic
+					flag = ai_flag_refuse_conversion
+					historical = yes
+				}
+				new_character = {
+					set_character_flag = VIET_spawned_courtier	
+					add_spouse = ROOT	
+					remove_trait = slow
+					remove_trait = imbecile
+					remove_trait = dull
+					random = {
+						add_trait = physician
+						chance = 10
+					}
+					random = {
+						add_trait = poet
+						chance = 10
+					}
+					random = {
+						add_trait = fair
+						chance = 10
+					}
+					random = {
+						add_trait = scholar
+						chance = 10
+					}
+					random = {
+						add_trait = mystic
+						chance = 10
+					}
+					random_list = {
+						5 = { add_trait = genius }
+						10 = { add_trait = quick }
+						10 = { add_trait = shrewd }
+						75 = { }
+					}
+					create_character = {
+						age = 6
+						dynasty = none
+						random_traits = yes
+						female = 50
+						religion = hellenic_pagan
+						culture = levantine_arabic
+						genetic_father = ROOT
+						genetic_mother = PREV
+						historical = yes
+					}
+					new_character = {
+						set_father = ROOT
+						set_mother = PREV
+					}					
+				}			
+			}
+
+			25 = { #middle aged waifu with no kid
+				modifier = {
+					NOT = { age = 30 }
+					factor = 0.5
+				}
+				modifier = {
+					NOT = { age = 35 }
+					factor = 0.1
+				}
+				create_character = {
+					age = 35
+					random_traits = yes
+					dynasty = none
+					female = yes
+					religion = hellenic_pagan
+					culture = levantine_arabic
+					flag = ai_flag_refuse_conversion
+					historical = yes
+				}
+				new_character = {
+					set_character_flag = VIET_spawned_courtier	
+					add_spouse = ROOT	
+					remove_trait = slow
+					remove_trait = imbecile
+					remove_trait = dull
+					random = {
+						add_trait = physician
+						chance = 10
+					}
+					random = {
+						add_trait = poet
+						chance = 10
+					}
+					random = {
+						add_trait = fair
+						chance = 10
+					}
+					random = {
+						add_trait = scholar
+						chance = 10
+					}
+					random = {
+						add_trait = mystic
+						chance = 10
+					}
+					random_list = {
+						5 = { add_trait = genius }
+						10 = { add_trait = quick }
+						10 = { add_trait = shrewd }
+						75 = { }
+					}				
+				}			
+			}
+
+			25 = { #middle aged waifu with adult kid
+				modifier = {
+					NOT = { age = 40 }
+					factor = 0
+				}
+				modifier = {
+					age = 40
+					factor = 3
+				}
+				create_character = {
+					age = 44
+					random_traits = yes
+					dynasty = none
+					female = yes
+					religion = hellenic_pagan
+					culture = levantine_arabic
+					flag = ai_flag_refuse_conversion
+					historical = yes
+				}
+				new_character = {
+					set_character_flag = VIET_spawned_courtier	
+					add_spouse = ROOT
+					remove_trait = slow
+					remove_trait = imbecile
+					remove_trait = dull	
+					random = {
+						add_trait = physician
+						chance = 10
+					}
+					random = {
+						add_trait = poet
+						chance = 10
+					}
+					random = {
+						add_trait = fair
+						chance = 10
+					}
+					random = {
+						add_trait = scholar
+						chance = 10
+					}
+					random = {
+						add_trait = mystic
+						chance = 10
+					}
+					random_list = {
+						5 = { add_trait = genius }
+						10 = { add_trait = quick }
+						10 = { add_trait = shrewd }
+						75 = { }
+					}
+					create_character = {
+						age = 20
+						random_traits = yes
+						dynasty = none
+						female = 50
+						religion = hellenic_pagan
+						culture = levantine_arabic
+						genetic_father = ROOT
+						genetic_mother = PREV
+						historical = yes
+					}
+					new_character = {
+						set_father = ROOT
+						set_mother = PREV
+					}					
+				}			
+			}
+
+			50 = { # adult child only
+				modifier = {
+					NOT = { age = 40 }
+					factor = 0
+				}
+				create_character = {
+					age = 18
+					random_traits = yes
+					dynasty = none
+					female = 50
+					religion = hellenic_pagan
+					culture = levantine_arabic
+					flag = ai_flag_refuse_conversion
+					genetic_father = ROOT
+					historical = yes
+				}
+				new_character = {
+					set_character_flag = VIET_spawned_courtier
+					remove_trait = slow
+					remove_trait = imbecile
+					remove_trait = dull
+					random_list = {
+						10 = { add_trait = scholar }
+						10 = { add_trait = mystic }
+						10 = { add_trait = poet }
+						10 = { add_trait = physician }
+						60 = {}
+					}	
+				}				
+			}
+		}		
+	}
+}
+
+# Ruler patronizes the Neoplatonic Academy
+character_event =  {
+	id = monogatari.102
+	desc = monogatari.102.desc
+	picture = "GFX_evt_harranian"
+
+	is_triggered_only = yes
+	
+	immediate = {
+		if = {
+			limit = {
+				year = 900
+				NOT = { has_global_flag = hellenic_reformation }
+			}
+			random = {
+				set_global_flag = VIET_neoplatonic_academy_decline_delayed
+				chance = 50
+			}
+		}
+	}
+	
+	option = {
+		name = monogatari.102.a
+		if = {
+			limit = {
+				NOT = { religion = hellenic_pagan }
+				NOT = { religion = hellenic_pagan_reformed }
+			}
+			add_character_modifier = {
+				name = VIET_patronize_neoplatonic_academy_1
+				duration = 1825
+			}
+			hidden_tooltip = {
+				random = {
+					character_event = { id = monogatari.109 }
+					chance = 20
+				}
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					religion = hellenic_pagan
+					religion = hellenic_pagan_reformed
+				}
+			}
+			add_character_modifier = {
+				name = VIET_patronize_neoplatonic_academy_2
+				duration = 1825
+			}
+			hidden_tooltip = {
+				random = {
+					character_event = { id = monogatari.109 }
+					chance = 30
+				}
+			}
+		}
+		clr_character_flag = VIET_harran_neoplatonic_academy_flag
+	}	
+}
+
+# Ruler makes offerings to the Temple of the Moon
+long_character_event = {
+	id = monogatari.103
+	desc = monogatari.103.desc
+	picture = "GFX_evt_harranian"
+
+	is_triggered_only = yes
+	
+	immediate = {
+		add_character_modifier = {
+			name = VIET_harran_temple_of_the_moon_timer
+			duration = 1095
+			hidden = yes
+		}
+	}
+	
+	option = { #choose prestige
+		name = monogatari.103.a
+		if = {
+			limit = {
+				NOT = { religion = hellenic_pagan }
+				NOT = { religion = hellenic_pagan_reformed }
+			}
+			random_list = {
+				40 = { prestige = 5 }
+				30 = { prestige = 10 }
+				20 = { prestige = 20 }
+				10 = { prestige = 30 }
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					religion = hellenic_pagan
+					religion = hellenic_pagan_reformed
+				}
+			}
+			random_list = {
+				40 = { prestige = 10 }
+				30 = { prestige = 20 }
+				20 = { prestige = 30 }
+				10 = { prestige = 40 }
+			}
+		}
+	}	
+	option = { #choose piety
+		name = monogatari.103.b
+		if = {
+			limit = {
+				NOT = { religion = hellenic_pagan }
+				NOT = { religion = hellenic_pagan_reformed }
+			}
+			random_list = {
+				40 = { piety = 5 }
+				30 = { piety = 10 }
+				20 = { piety = 20 }
+				10 = { piety = 30 }
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					religion = hellenic_pagan
+					religion = hellenic_pagan_reformed
+				}
+			}
+			random_list = {
+				40 = { piety = 10 }
+				30 = { piety = 20 }
+				20 = { piety = 30 }
+				10 = { piety = 40 }
+			}
+		}
+	}	
+}
+
+# Destroying the Temple of the Moon
+long_character_event = {
+	id = monogatari.104
+	desc = monogatari.104.desc
+	picture = GFX_evt_comet
+	#border = GFX_event_narrative_frame_religion
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		699 = {
+			remove_province_modifier = VIET_harran_temple_of_the_moon
+		}
+		clr_global_flag = VIET_harran_temple_of_the_moon_active
+	}
+	
+	option = { #raze it
+		name = monogatari.104.a
+		wealth = 500
+		prestige = 100
+		piety = 100
+		hidden_tooltip = {
+			narrative_event = { id = monogatari.105 }
+			any_playable_ruler = {
+				limit = { 
+					ai = no 
+					#NOT = { character = ROOT }
+				}
+				narrative_event = { id = monogatari.105 }
+			}
+		}
+		add_character_modifier = {
+			name = VIET_harran_destroyed_moon_temple
+			duration = -1
+		}
+	}	
+	option = { #convert it into a holding
+		name = monogatari.104.b
+		trigger = {
+			699 = { NOT = { num_of_max_settlements = 7 } }
+		}
+		prestige = 100
+		699 = {
+			add_holding_slot = 1
+		}
+		hidden_tooltip = {
+			narrative_event = { id = monogatari.105 }
+			any_playable_ruler = {
+				limit = { 
+					ai = no 
+					#NOT = { character = ROOT }
+				}
+				narrative_event = { id = monogatari.105 }
+			}
+		}
+		add_character_modifier = {
+			name = VIET_harran_destroyed_moon_temple
+			duration = -1
+		}
+	}	
+}
+
+
+# Destroying the Temple of the Moon Part 2
+narrative_event = {
+	id = monogatari.105
+	title = monogatari.105.title
+	desc = monogatari.105.desc
+	picture = GFX_evt_comet
+	border = GFX_event_narrative_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = monogatari.105.a
+		trigger = {
+			OR = {
+				religion = hellenic_pagan
+				religion = hellenic_pagan_reformed
+			}
+		}
+	}
+	option = {
+		name = monogatari.105.b
+		trigger = {
+			NOT = {
+				religion = hellenic_pagan
+				religion = hellenic_pagan_reformed
+			}
+		}
+	}
+	option = {
+		name = monogatari.105.c
+		trigger = {
+			NOT = {
+				religion = hellenic_pagan
+				religion = hellenic_pagan_reformed
+			}
+		}
+	}
+}
+
+
+#
+# Harranian courtier spawn
+#
+# Three different potential scholars that can appear:
+#
+# Random bloke
+# Average scholar
+# Brilliant mind
+#
+# Quality chance depends on if Neoplatonic Academy is being patronized; if it is no longer remaining, quality lowers.
+#
+
+
+character_event = {
+	id = monogatari.106
+	desc = monogatari.106.desc
+	picture = GFX_evt_harranian
+
+	prisoner = no
+	only_playable = yes
+	capable_only = yes
+	
+	trigger = {
+		NOT = { is_inaccessible_trigger = yes }
+		NOT = { religion_group = pagan_group }
+		NOT = {
+			OR = {
+				culture = levantine_arabic
+				culture = assyrian
+			}
+		}
+		NOT = {
+			any_courtier = {
+				has_character_flag = VIET_harranian_courtier
+			}
+		}
+		capital_scope = {
+			#NOT = { duchy = { title = d_samarkand } }
+			OR = {
+				region = world_middle_east_jerusalem
+				region = world_middle_east_arabia
+				region = world_asia_minor
+				duchy = { title = d_azerbaijan }
+				duchy = { title = d_kurdistan }
+				duchy = { title = d_hamadan }
+				duchy = { title = d_tabriz }
+				duchy = { title = d_khozistan }
+			}			
+		}
+		OR = {
+			has_global_flag = VIET_harran_neoplatonic_academy_active
+			has_global_flag = VIET_harran_temple_of_the_moon_active
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 2500
+		
+		modifier = {
+			factor = 0.9
+			religion_group = muslim
+		}
+		
+		modifier = {
+			factor = 0.9
+			OR = {
+				trait = scholar
+				trait = poet
+				trait = mystic
+				learning = 15
+				society_member_of = hermetics
+			}
+		}
+		
+		modifier = {
+			factor = 3
+			NOT = {
+				OR = {
+					religion = hellenic_pagan
+					religion = hellenic_pagan_reformed
+				}
+			}
+			trait = zealous
+		}
+
+		modifier = {
+			factor = 5
+			NOT = { has_global_flag = VIET_harran_neoplatonic_academy_active }
+		}
+
+		modifier = {
+			factor = 5
+			any_courtier = {
+				has_character_flag = VIET_spawned_courtier
+			}
+		}
+
+		modifier = {
+			factor = 0.7
+
+			OR = {
+				any_demesne_province = {
+					has_province_modifier = VIET_harran_temple_of_the_moon
+				}
+				any_realm_province = {
+					has_province_modifier = VIET_harran_temple_of_the_moon
+				}
+				#any_neighbor_province = {
+				#	has_province_modifier = VIET_harran_temple_of_the_moon
+				#}
+			}
+			
+		}
+		
+	}
+	
+	option = {
+		name = "monogatari.106.a"
+		custom_tooltip = { text = VIET_harranian_spawn_tooltip }
+		
+		hidden_tooltip = {
+
+			random_list = {
+				40 = { #random bloke
+					create_character = {
+						random_traits = yes
+						dynasty = none
+						female = no
+						religion = hellenic_pagan
+						culture = levantine_arabic
+						historical = yes
+						flag = ai_flag_refuse_conversion
+					}
+					new_character = {
+						set_character_flag = VIET_spawned_courtier
+						set_character_flag = VIET_harranian_courtier
+						remove_trait = slow
+						remove_trait = imbecile
+						remove_trait = dull
+						#opinion = {
+						#	modifier = opinion_patron
+						#	who = ROOT
+						#	years = 20
+						#}
+						#reverse_opinion = {
+						#	modifier = opinion_new_courtier
+						#	who = ROOT
+						#	years = 5
+						#}
+						random_list = {
+							30 = { add_trait = scholar }
+							10 = { add_trait = mystic }
+							10 = { add_trait = poet }
+							10 = { add_trait = physician }
+							40 = {}
+						}
+						random_list = {
+							50 = {}
+							30 = { add_trait = shrewd }
+							15 = { add_trait = quick }
+							5 = { add_trait = genius }
+						}
+						random = {
+							character_event = { id = monogatari.101 }
+							chance = 50
+						}			
+					}			
+				}
+				40 = { #average scholar
+					modifier = { 
+						NOT = { has_global_flag = VIET_harran_neoplatonic_academy_active }
+						factor = 0.5
+					}
+					modifier = {
+						OR = {
+							has_character_modifier = VIET_patronize_neoplatonic_academy_1
+							has_character_modifier = VIET_patronize_neoplatonic_academy_2
+						}
+						factor = 1.75
+					}
+					create_character = {
+						random_traits = yes
+						dynasty = none
+						female = no
+						religion = hellenic_pagan
+						culture = levantine_arabic
+						historical = yes
+						flag = ai_flag_refuse_conversion
+						attributes = {
+							diplomacy = 4
+							martial = 4
+							stewardship = 4
+							intrigue = 4
+							learning = 12
+						}
+					}
+					new_character = {
+						set_character_flag = VIET_spawned_courtier
+						set_character_flag = VIET_harranian_courtier
+						remove_trait = slow
+						remove_trait = imbecile
+						remove_trait = dull
+						#opinion = {
+						#	modifier = opinion_patron
+						#	who = ROOT
+						#	years = 20
+						#}
+						#reverse_opinion = {
+						#	modifier = opinion_new_courtier
+						#	who = ROOT
+						#	years = 5
+						#}
+						random_list = {
+							35 = { add_trait = scholar }
+							15 = { add_trait = mystic }
+							15 = { add_trait = poet }
+							15 = { add_trait = physician }
+							20 = {}
+						}
+						random_list = {
+							50 = {}
+							30 = { add_trait = shrewd }
+							15 = { add_trait = quick }
+							5 = { add_trait = genius }
+						}
+						random = {
+							character_event = { id = monogatari.101 }
+							chance = 50
+						}			
+					}			
+				}
+				20 = { #brilliant mind
+					modifier = { 
+						NOT = { has_global_flag = VIET_harran_neoplatonic_academy_active }
+						factor = 0.1 
+					}
+					modifier = {
+						OR = {
+							has_character_modifier = VIET_patronize_neoplatonic_academy_1
+							has_character_modifier = VIET_patronize_neoplatonic_academy_2
+						}
+						factor = 1.5
+					}
+					create_character = {
+						random_traits = yes
+						dynasty = none
+						female = no
+						religion = hellenic_pagan
+						culture = levantine_arabic
+						historical = yes
+						flag = ai_flag_refuse_conversion
+						attributes = {
+							diplomacy = 8
+							martial = 8
+							stewardship = 8
+							intrigue = 8
+							learning = 16
+						}
+					}
+					new_character = {
+						set_character_flag = VIET_spawned_courtier
+						set_character_flag = VIET_harranian_courtier
+						remove_trait = slow
+						remove_trait = imbecile
+						remove_trait = dull
+						#opinion = {
+						#	modifier = opinion_patron
+						#	who = ROOT
+						#	years = 20
+						#}
+						#reverse_opinion = {
+						#	modifier = opinion_new_courtier
+						#	who = ROOT
+						#	years = 5
+						#}
+						random_list = {
+							40 = { add_trait = scholar }
+							25 = { add_trait = mystic }
+							15 = { add_trait = poet }
+							20 = { add_trait = physician }
+						}
+						random_list = {
+							50 = {}
+							30 = { add_trait = shrewd }
+							15 = { add_trait = quick }
+							5 = { add_trait = genius }
+						}
+						random = {
+							character_event = { id = monogatari.101 }
+							chance = 50
+						}			
+					}			
+				}
+			}
+		
+		}
+		
+	}
+	
+	option = {
+		name = "monogatari.106.b"
+	}	
+	
+}
+
+
+
+
+# Boost in learning from patronizing Neoplatonism
+character_event = {
+	id = monogatari.107
+	desc = monogatari.107.desc
+	picture = GFX_evt_harranian
+	
+	prisoner = no
+	only_playable = yes
+	capable_only = yes
+	#war = no
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { is_inaccessible_trigger = yes }
+		has_global_flag = VIET_harran_neoplatonic_academy_active
+		OR = {
+			has_character_modifier = VIET_patronize_neoplatonic_academy_1
+			has_character_modifier = VIET_patronize_neoplatonic_academy_2
+		}		
+	}
+	
+	weight_multiplier = {
+		days = 1
+		
+		modifier = {
+			factor = 2
+			NOT = {
+				any_courtier = {
+					has_character_flag = VIET_harranian_courtier
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 0.9
+			OR = {
+				trait = scholar
+				trait = poet
+				trait = mystic
+				learning = 15
+				society_member_of = hermetics
+			}
+		}
+		
+		modifier = {
+			factor = 5
+			NOT = {
+				OR = {
+					religion = hellenic_pagan
+					religion = hellenic_pagan_reformed
+				}
+			}
+			trait = zealous
+		}
+		
+	}
+	
+	option = {
+		name = monogatari.107.a
+		economy_techpoints = 50
+		culture_techpoints = 50
+		military_techpoints = 50
+		prestige = 20
+	}
+}
+
+
+# Successful Tammuz Festival
+province_event = {
+	id = monogatari.108
+	desc = monogatari.108.desc
+	picture = GFX_evt_harranian
+	#border = "GFX_event_normal_frame_religion"
+	
+	trigger = {
+		has_province_modifier = VIET_harran_temple_of_the_moon
+		religion_group = pagan_group
+		NOT = { has_province_modifier = VIET_harran_tammuz_festival_good }
+	}
+	
+	mean_time_to_happen = {
+		months = 1000		
+	}
+	
+	option = {
+		name = monogatari.108.a
+		add_province_modifier = {
+			name = VIET_harran_tammuz_festival_good
+			duration = 365
+		}
+	}	
+	option = {
+		name = monogatari.108.b
+		trigger = {
+			owner = {
+				trait = zealous
+				NOT = { religion_group = pagan_group }			
+			}
+		}
+		add_province_modifier = {
+			name = VIET_harran_tammuz_festival_good
+			duration = 365
+		}
+	}
+}
+
+
+
+# Greek philosopher visits in dream
+character_event = {
+	id = monogatari.109
+	desc = monogatari.109.desc
+	picture = GFX_evt_harranian
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = monogatari.109.a
+		trigger = {
+			OR = {
+				religion = hellenic_pagan
+				religion = hellenic_pagan_reformed
+			}		
+		}
+		prestige = 15
+		piety = 15
+	}	
+	option = {
+		name = monogatari.109.b
+		trigger = {
+			NOT = {
+				OR = {
+					religion = hellenic_pagan
+					religion = hellenic_pagan_reformed
+				}	
+			}		
+		}
+		prestige = 10
+		piety = 10
+	}
+}
+
+
+# Neoplatonic Academy declines
+province_event = {
+	id = monogatari.110
+	desc = monogatari.110.desc
+	picture = GFX_evt_harranian
+	#border = "GFX_event_normal_frame_religion"
+	
+	trigger = {
+		has_province_modifier = VIET_harran_neoplatonic_academy
+		NOT = { religion_group = pagan_group }
+		owner = {
+			NOT = { religion_group = pagan_group } 
+		}
+		owner = {
+			any_liege = {
+				NOT = { religion_group = pagan_group } 
+			}
+		}
+		year = 900
+		NOT = { has_global_flag = hellenic_reformation }
+	}
+	
+	mean_time_to_happen = {
+		months = 120
+
+		modifier = {
+			factor = 2
+			has_global_flag = VIET_neoplatonic_academy_decline_delayed
+		}
+		
+	}
+	
+	immediate = {
+		clr_global_flag = VIET_harran_neoplatonic_academy_active
+	}
+	
+	option = {
+		name = monogatari.110.a
+		remove_province_modifier = VIET_harran_neoplatonic_academy
+		#narrative_event = { id = monogatari.111 }
+		hidden_tooltip = {
+			any_playable_ruler = {
+				#limit = { 
+				#	ai = no 
+					#NOT = { character = ROOT }
+				#}
+				narrative_event = { id = monogatari.111 }
+			}
+		} #the last philosopher?????
+	}
+}
+
+
+# Neoplatonic Academy Declines Part 2
+narrative_event = {
+	id = monogatari.111
+	title = monogatari.111.title
+	desc = monogatari.111.desc
+	picture = GFX_evt_comet
+	border = GFX_event_narrative_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = monogatari.111.a
+		trigger = {
+			OR = {
+				religion = hellenic_pagan
+				religion = hellenic_pagan_reformed
+			}
+		}
+	}
+	option = {
+		name = monogatari.111.b
+		trigger = {
+			NOR = {
+				religion = hellenic_pagan
+				religion = hellenic_pagan_reformed
+			}
+		}
+	}
+	option = {
+		name = monogatari.111.c
+		trigger = {
+			NOR = {
+				religion = hellenic_pagan
+				religion = hellenic_pagan_reformed
+			}
+		}
+	}
+}
+
+
+
+
+# Sumatar Harabesi oasis
+character_event = {
+	id = monogatari.112
+	desc = monogatari.112.desc
+	picture = GFX_evt_hellenic_temple
+	
+	prisoner = no
+	only_playable = yes
+	capable_only = yes
+	#war = no
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { is_inaccessible_trigger = yes }
+		has_landed_title = c_edessa
+		has_global_flag = VIET_harran_temple_of_the_moon_active
+	}
+	
+	weight_multiplier = {
+		days = 1
+		
+		modifier = {
+			factor = 0.2
+			699 = {
+				NOR = {
+					religion = hellenic_pagan
+					religion = hellenic_pagan_reformed					
+				}
+			}			
+		}		
+	}
+	
+	option = {
+		name = monogatari.112.a
+		prestige = 10
+	}
+}
+
+# Harran divination good
+character_event = {
+	id = monogatari.113
+	desc = monogatari.113.desc
+	picture = GFX_evt_comet
+	
+	prisoner = no
+	only_playable = yes
+	capable_only = yes
+	#war = no
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { is_inaccessible_trigger = yes }
+		has_landed_title = c_edessa
+		has_global_flag = VIET_harran_temple_of_the_moon_active
+		699 = {
+			NOR = {
+				has_province_modifier = VIET_harran_divination_good
+				has_province_modifier = VIET_harran_divination_bad				
+			}
+		}	
+	}
+	
+	weight_multiplier = {
+		days = 1		
+	}
+	
+	option = {
+		name = monogatari.113.a
+		699 = {
+			add_province_modifier = {
+				name = VIET_harran_divination_good
+				duration = 1095
+			}		
+		}
+	}
+}
+
+# Harran divination bad
+character_event = {
+	id = monogatari.114
+	desc = monogatari.114.desc
+	picture = GFX_evt_comet
+	
+	prisoner = no
+	only_playable = yes
+	capable_only = yes
+	#war = no
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { is_inaccessible_trigger = yes }
+		has_landed_title = c_edessa
+		has_global_flag = VIET_harran_temple_of_the_moon_active
+		699 = {
+			NOR = {
+				has_province_modifier = VIET_harran_divination_good
+				has_province_modifier = VIET_harran_divination_bad
+			}
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1		
+	}
+	
+	option = {
+		name = monogatari.114.a
+		699 = {
+			add_province_modifier = {
+				name = VIET_harran_divination_bad
+				duration = 1095
+			}		
+		}
+	}
+}
+
+# Harranian courtier teaches
+character_event = {
+	id = monogatari.115
+	desc = monogatari.115.desc
+	picture = GFX_evt_harranian
+	
+	prisoner = no
+	only_playable = yes
+	capable_only = yes
+	#war = no
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { is_inaccessible_trigger = yes }
+		any_courtier = {
+			has_character_flag = VIET_harranian_courtier
+			NOT = { trait = incapable }
+			OR = {
+				learning = 10
+				trait = scholar
+				trait = mystic
+				trait = genius
+				trait = quick
+				trait = shrewd
+			}
+		}
+		any_courtier = {
+			NOT = { has_character_flag = VIET_harranian_courtier }
+			NOT = { trait = incapable }
+			age = 10
+			NAND = {
+				trait = zealous
+				NOT = { religion_group = pagan_group }
+			}
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1		
+	}
+	
+	immediate = {
+
+		random_courtier = {
+			limit = {
+				has_character_flag = VIET_harranian_courtier
+				NOT = { trait = incapable }
+				OR = {
+					learning = 10
+					trait = scholar
+					trait = mystic
+					trait = genius
+					trait = quick
+					trait = shrewd
+				}			
+			}
+			save_event_target_as = target_VIET_harranian_teacher
+		}
+		random_courtier = {
+			limit = {
+				NOT = { has_character_flag = VIET_harranian_courtier }
+				NOT = { trait = incapable }
+				age = 10
+				NAND = {
+					trait = zealous
+					NOT = { religion_group = pagan_group }
+				}		
+			}
+			save_event_target_as = target_VIET_harranian_student
+		}
+		
+	}
+	
+	option = {
+		name = monogatari.115.a
+		event_target:target_VIET_harranian_teacher = {
+			prestige = 10
+		}
+		event_target:target_VIET_harranian_student = {
+			random_list = {
+				20 = { change_diplomacy = 1 }
+				20 = { change_martial = 1 }
+				20 = { change_stewardship = 1 }
+				20 = { change_intrigue = 1 }
+				20 = { change_learning = 1 }
+				10 = { change_diplomacy = 2 }
+				10 = { change_martial = 2 }
+				10 = { change_stewardship = 2 }
+				10 = { change_intrigue = 2 }
+				10 = { change_learning = 2 }
+				5 = { change_diplomacy = 3 }
+				5 = { change_martial = 3 }
+				5 = { change_stewardship = 3 }
+				5 = { change_intrigue = 3 }
+				5 = { change_learning = 3 }
+			}
+		}
+	}
+}
+
+# Visiting hive hosues
+character_event = {
+	id = monogatari.116
+	desc = monogatari.116.desc
+	picture = GFX_evt_harranian
+	
+	prisoner = no
+	only_playable = yes
+	capable_only = yes
+	war = no
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { is_inaccessible_trigger = yes }		
+		has_landed_title = c_edessa
+		has_global_flag = VIET_harran_temple_of_the_moon_active
+	}
+	
+	weight_multiplier = {
+		days = 1		
+	}
+	
+	option = {
+		name = monogatari.116.a
+		prestige = 5
+	}
+	
+	option = {
+		name = monogatari.116.b
+		piety = 5
+	}
+}
