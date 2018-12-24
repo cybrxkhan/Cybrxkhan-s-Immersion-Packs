@@ -1,4 +1,4 @@
-HARRANIANS: THE LAST PAGANS
+#HARRANIANS: THE LAST PAGANS
 
 Many do not know, but it is possible that the last Hellenic pagans were not the impoverished mountain peasants of the Peloponnese, but the cosmopolitan denizens of the city of Harran. For centuries, the pagans of Harran - erroneously confused with the Sabians in the Quran - have continued to worship a curious mix of Mesopotamian and Hellenic deities, and they even housed the remnants of the Neoplatonic Academy. Several Harranians famously served at the court of the Abbasids, and the temple in Harran may have been used as late as the 1000s (though this may be exaggeration).
 
@@ -7,12 +7,12 @@ In this Immersion Pack, you'll have the opportunity to interact with these pagan
 As a side note, I know it’s a huge stretch to make Edessa pagan, but it’s honestly more sensible than making Monemvasia pagan, since Harran was a huge major city rather than a bunch of isolated villages in the middle of nowhere. There’s a lot of controversy and uncertainty in the scholarly community about the Harranian pagans (and a lot of bunk and wishful thinking in more mainstream, New Agey type places online). For more scholarly information on the Harranians, please see Tamara Green’s The City of the Moon God: Religious Traditions of Harran.
 
 
-SOURCES AND FURTHER READING
+##SOURCES AND FURTHER READING
 
 The City of the Moon God: Religious Traditions of Harran, Tamara Green
 
 
-FEATURES
+##FEATURES
 
 - Province of Edessa is now Hellenic Pagan at the Charlemagne and Old Gods start, via a startup event (to prevent conflicts in the history files)
 - "Temple of the Moon" modifier added to Edessa also through the startup event. It provides a bonus to revolt risk and tax rate in the province.
