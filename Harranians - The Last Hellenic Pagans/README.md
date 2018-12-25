@@ -1,4 +1,4 @@
-# HARRANIANS: THE LAST PAGANS
+# HARRANIANS: THE LAST HELLENIC PAGANS
 
 Many do not know, but it is possible that the last Hellenic pagans were not the impoverished mountain peasants of the Peloponnese, but the cosmopolitan denizens of the city of Harran. For centuries, the pagans of Harran - erroneously confused with the Sabians in the Quran - have continued to worship a curious mix of Mesopotamian and Hellenic deities, and they even housed the remnants of the Neoplatonic Academy. Several Harranians famously served at the court of the Abbasids, and the temple in Harran may have been used as late as the 1000s (though this may be exaggeration).
 

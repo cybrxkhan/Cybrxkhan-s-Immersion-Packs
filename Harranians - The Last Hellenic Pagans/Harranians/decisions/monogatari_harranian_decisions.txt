@@ -75,7 +75,7 @@ decisions = {
 			}
 		}
 		ai_will_do = {
-			factor = 100
+			factor = 1
 			modifier = {
 				year = 1000
 				factor = 2

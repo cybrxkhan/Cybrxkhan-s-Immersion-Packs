@@ -21,7 +21,7 @@ Currently, the following Immersion Packs are available:
 
 ## Manual Installation Steps
 
-DO NOT manually use the master branch unless you know what you're doing as it is the WIP version that is constantly being updated!
+DO NOT manually download the master branch unless you know what you're doing as it is the WIP version that is constantly being updated!
 
 1. Extract the .rar file you wish to install to Documents\Paradox Interactive\Crusader Kings II\mod
 2. Launch CKII and select the Immersion Pack you wish to install in the mod tab.
