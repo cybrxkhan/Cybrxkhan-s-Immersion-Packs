@@ -126,7 +126,7 @@ decisions = {
 		effect = {
 			wealth = -25
 			hidden_tooltip = {
-				character_event = { id = monogatari.103 }
+				long_character_event = { id = monogatari.103 }
 			}
 		}
 		ai_will_do = {
