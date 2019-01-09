@@ -1,0 +1,52 @@
+##################################
+# Harranian Graphics		  	 #
+##################################
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_evt_arcadian_fort"
+		texturefile = "gfx\\event_pictures\arcadian_fort.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_argos_home"
+		texturefile = "gfx\\event_pictures\argos_home.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_greek_cliffs"
+		texturefile = "gfx\\event_pictures\greek_cliffs.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_maniot_inlet"
+		texturefile = "gfx\\event_pictures\maniot_inlet.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_sclaveni_battle"
+		texturefile = "gfx\\event_pictures\sclaveni_battle.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_tsakonia_coast"
+		texturefile = "gfx\\event_pictures\tsakonia_coast.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_restore_fountain_of_peirene"
+		texturefile = "gfx\\interface\\decision_icon_restore_fountain_of_peirene.dds"
+	}
+	spriteType = {
+		name = "GFX_hold_hyacinthia_festival"
+		texturefile = "gfx\\interface\\decision_icon_hold_hyacinthia_festival.dds"
+	}
+	spriteType = {
+		name = "GFX_rebuild_hexamilion_wall"
+		texturefile = "gfx\\interface\\decision_icon_rebuild_hexamilion_wall.dds"
+	}
+	spriteType = {
+		name = "GFX_levy_peloponnesian_slavic_soldiers"
+		texturefile = "gfx\\interface\\decision_icon_levy_peloponnesian_slavic_soldiers.dds"
+	}
+}

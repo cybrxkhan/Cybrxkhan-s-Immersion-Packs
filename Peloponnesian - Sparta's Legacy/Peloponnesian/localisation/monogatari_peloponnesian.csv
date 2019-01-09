@@ -1,0 +1,108 @@
+#Peloponnesian Immersion Pack Stuff;;;;;;;;;;;;;;x
+tsakonian;Tsakonian;;;;;;;;;;;;;x
+VIET_peloponnesian_tyrian_purple;Peloponnesian Purple Dye;;;;;;;;;;;;;x
+VIET_peloponnesian_tyrian_purple_desc;The sea-snail that produces the famed and rare Tyrian purple dye can be found in the coasts of this region. The demand for Tyrian purple is always high, which helps support the local economy.;;;;;;;;;;;;;x
+VIET_peloponnesian_kalamata_olives;Kalamata Olives;;;;;;;;;;;;;x
+VIET_peloponnesian_kalamata_olives_desc;The world-famous Kalamata olives hail from this region.;;;;;;;;;;;;;x
+VIET_peloponnesian_corinthian_silk;Corinthian Silk;;;;;;;;;;;;;x
+VIET_peloponnesian_corinthian_silk_desc;The city of Corinth is the site of a flourishing silk industry, one of the few outside China.;;;;;;;;;;;;;x
+VIET_melingoi_soldier;Melingoi Soldier;;;;;;;;;;;;;x
+VIET_melingoi_soldier_desc;This warrior comes from the Melingoi tribe. Of the two Slavic tribes on the Peloponnese, the Melingoi are stronger and more prosperous compared to their Ezeritai cousins, and they thus have more official contacts with the Greeks.;;;;;;;;;;;;;x
+VIET_ezeritai_soldier;Ezeritai Soldier;;;;;;;;;;;;;x
+VIET_ezeritai_soldier_desc;This warrior comes from the Ezeritai tribe. Of the two Slavic tribes on the Peloponnese, the Ezeritai are weaker and more isolated, and are thus an even more rugged and hardy people.;;;;;;;;;;;;;x
+monogatari.150.desc;xxxxx;;;;;;;;;;;x
+monogatari.150.a;Xxxxxxffff;;;;;;;;;;;;;x
+monogatari.151.desc;xxxxx;;;;;;;;;;;x
+monogatari.151.a;Xxxxxxffff;;;;;;;;;;;;;x
+monogatari.152.desc;Ever since the Slavic invasions of Greece many generations ago, a number of Slavs have lived in scattered villages across my Peloponnesian holdings. Divided into two tribes, the Melingoi and the Ezeritai, their martial skills are useful to those willing to make use of them. We have the opportunity to recruit a renowned fighter from one of these tribes to fight for us.;;;;;;;;;;;x
+monogatari.152.a;Recruit a Melingoi soldier;;;;;;;;;;;;;x
+monogatari.152.b;Recruit an Ezeritai soldier;;;;;;;;;;;;;x
+monogatari.152.c;I have no need for these Slavs;;;;;;;;;;;;;x
+VIET_peloponnesian_melingoi_spawn_tooltip;A Melingoi soldier, trained in the arts of war, joins your court. He may have a family accompanying him.;;;;;;;;;;;x
+VIET_peloponnesian_ezeritai_spawn_tooltip;An Ezeritai soldier, trained in the arts of war, joins your court. He may have a family accompanying him.;;;;;;;;;;;x
+#monogatari.153.title;Rebirth of Sparta;;;;;;;;;;;x
+#monogatari.153.desc;The Spartans are a people of legend. The great rival to Athens and the home of famous warriors like Leonidas, the Kingdom of Sparta was once powerful and mighty. But hubris became its undoing, and it was successfully conquered - first by its former Greek vassals and enemies, then by the Romans.\n\nWith the restoration of ancient Hellenic and Roman values across the Mediterranean, [From.GetTitledName] has re-established the Kingdom of Sparta, and wishes to continue its ancient legacy. Whether the Spartan warriors shall be feared once more has yet to be seen, however.;;;;;;;;;;;x
+#monogatari.153.a;Only time will tell.;;;;;;;;;;;;;x
+monogatari.154.desc;Many inhabitants of the rugged regions of the Peloponnese are the descendants of the ancient Dorians, including the famed Spartans. Even to this day, they are renowned for their ferocity in battle, and prove useful to those who can win their loyalty. Today, we have an opportunity to recruit a renowned fighter from one of these tribes to fight for us.;;;;;;;;;;;x
+monogatari.154.a;Recruit a Tsakonian marine;;;;;;;;;;;;;x
+monogatari.154.b;Recruit a Maniot warrior;;;;;;;;;;;;;x
+monogatari.154.c;I have no need for their services right now;;;;;;;;;;;;;x
+VIET_peloponnesian_tsakonian_spawn_tooltip;A Tsakonian, and a former marine in one of the Greek navies, joins your court. He may have a family accompanying him.;;;;;;;;;;;x
+VIET_peloponnesian_maniot_spawn_tooltip;A Maniot, a ruthless warrior from an isolated, rugged village, joins your court. He may have a family accompanying him.;;;;;;;;;;;x
+monogatari.155.title;Peirene;;;;;;;;;;;x
+monogatari.155.desc;The waterworks of Corinth were famous in ancient times as a site of pagan pilgrimage, but they have fallen into ruin over the centuries. The fountain of Peirene, in particular, was the most important of these waterworks. It was supposedly the favored watering hole of the divine stallion Pegasus, and was sacred to the muses - poets would often visit the fountain to drink its blessed waters in the hope they would receive inspiration. After some initial hurdles, I have set aside some funds for the restoration of the fountain.;;;;;;;;;;;x
+monogatari.155.a;Its holy waters flow, once again.;;;;;;;;;;;;;x
+monogatari.156.desc;We are ready to levy some of the local Slavic tribesmen. Should we focus on levying the Melingoi or the Ezeritai? If we have the resources, we might want to levy both. The wealthier Melingoi are better armed and disciplined, while the rugged Ezeritai are better at guerrilla tactics.;;;;;;;;;;;x
+monogatari.156.a;Melingoi;;;;;;;;;;;;;x
+monogatari.156.b;Ezeritai;;;;;;;;;;;;;x
+monogatari.156.c;Both;;;;;;;;;;;;;x
+monogatari.157.desc;xxxxx;;;;;;;;;;;x
+monogatari.157.a;Xxxxxxffff;;;;;;;;;;;;;x
+monogatari.158.desc;xxxxx;;;;;;;;;;;x
+monogatari.158.a;Xxxxxxffff;;;;;;;;;;;;;x
+monogatari.159.desc;xxxxx;;;;;;;;;;;x
+monogatari.159.a;Xxxxxxffff;;;;;;;;;;;;;x
+monogatari.160.desc;xxxxx;;;;;;;;;;;x
+monogatari.160.a;Xxxxxxffff;;;;;;;;;;;;;x
+monogatari.161.desc;xxxxx;;;;;;;;;;;x
+monogatari.161.a;Xxxxxxffff;;;;;;;;;;;;;x
+monogatari.162.desc;xxxxx;;;;;;;;;;;x
+monogatari.162.a;Xxxxxxffff;;;;;;;;;;;;;x
+monogatari.163.desc;xxxxx;;;;;;;;;;;x
+monogatari.163.a;Xxxxxxffff;;;;;;;;;;;;;x
+monogatari.164.desc;xxxxx;;;;;;;;;;;x
+monogatari.164.a;Xxxxxxffff;;;;;;;;;;;;;x
+monogatari.165.desc;xxxxx;;;;;;;;;;;x
+monogatari.165.a;Xxxxxxffff;;;;;;;;;;;;;x
+monogatari.166.desc;xxxxx;;;;;;;;;;;x
+monogatari.166.a;Xxxxxxffff;;;;;;;;;;;;;x
+monogatari.167.desc;xxxxx;;;;;;;;;;;x
+monogatari.167.a;Xxxxxxffff;;;;;;;;;;;;;x
+monogatari.168.desc;xxxxx;;;;;;;;;;;x
+monogatari.168.a;Xxxxxxffff;;;;;;;;;;;;;x
+monogatari.169.desc;xxxxx;;;;;;;;;;;x
+monogatari.169.a;Xxxxxxffff;;;;;;;;;;;;;x
+monogatari.170.desc;xxxxx;;;;;;;;;;;x
+monogatari.170.a;Xxxxxxffff;;;;;;;;;;;;;x
+monogatari.171.desc;xxxxx;;;;;;;;;;;x
+monogatari.171.a;Xxxxxxffff;;;;;;;;;;;;;x
+monogatari.172.desc;xxxxx;;;;;;;;;;;x
+monogatari.172.a;Xxxxxxffff;;;;;;;;;;;;;x
+monogatari.173.desc;xxxxx;;;;;;;;;;;x
+monogatari.173.a;Xxxxxxffff;;;;;;;;;;;;;x
+monogatari.174.desc;xxxxx;;;;;;;;;;;x
+monogatari.174.a;Xxxxxxffff;;;;;;;;;;;;;x
+monogatari.175.desc;xxxxx;;;;;;;;;;;x
+monogatari.175.a;Xxxxxxffff;;;;;;;;;;;;;x
+monogatari.176.desc;xxxxx;;;;;;;;;;;x
+monogatari.176.a;Xxxxxxffff;;;;;;;;;;;;;x
+monogatari.177.desc;xxxxx;;;;;;;;;;;x
+monogatari.177.a;Xxxxxxffff;;;;;;;;;;;;;x
+monogatari.178.desc;xxxxx;;;;;;;;;;;x
+monogatari.178.a;Xxxxxxffff;;;;;;;;;;;;;x
+monogatari.179.desc;xxxxx;;;;;;;;;;;x
+monogatari.179.a;Xxxxxxffff;;;;;;;;;;;;;x
+k_peloponnesian_sparta;Sparta;;;;;;;;;;;;;x
+k_peloponnesian_sparta_adj;Spartan;;;;;;;;;;;;;x
+reform_spartan_kingdom;Reform the Kingdom of Sparta;;;;;;;;;;;;;x
+reform_spartan_kingdom_desc;The Kingdom of Sparta, also known as the Kingdom of Lacedaemon, was one of the most feared powers of the ancient world. It is time we re-established it!;;;;;;;;;;;;;x
+restore_fountain_of_peirene;Restore the Fountains of Peirene;;;;;;;;;;;;;x
+restore_fountain_of_peirene_desc;Corinth's waterworks were once a major site of pilgrimage, particularly the Fountain of Peirene. With Hellenic Paganism on the rise again, perhaps we should restore this holy fountain?;;;;;;;;;;;;;x
+hold_hyacinthia_festival;Hold Hyacinthia Festival;;;;;;;;;;;;;x
+hold_hyacinthia_festival_desc;The Hyacinthia Festival was the most important festivals of ancient Sparta. It is a time to mourn the death of the hero Hyacinthus, lover of the god Apollo.;;;;;;;;;;;;;x
+VIET_tsakonian_soldier;Tsakonian Marine;;;;;;;;;;;;;x
+VIET_tsakonian_soldier_desc;This man once served in the marine forces of one of the Greek fleets.;;;;;;;;;;;;;x
+VIET_maniot_soldier;Maniot Warrior;;;;;;;;;;;;;x
+VIET_maniot_soldier_desc;This man is a ruthless warrior from the rugged Mani Peninsula.;;;;;;;;;;;;;x
+VIET_peirene_fountain;Fountain of Peirene;;;;;;;;;;;;;x
+VIET_peirene_fountain_desc;The ancient pagan fountain of Peirene in Corinth - sacred to the Muses, and said to be the favored watering hole of Pegasus - has been restored. Like in the days of old, pilgrims flock to the area from far and wide in hope of receiving inspiration from it. Alongside the Peirene, other fabulous waterworks in Corinth have also been restored.;;;;;;;;;;;;;x
+VIET_peloponnesian_slavic_recent;Not levied Slavic clansmen within the past five years;;;;;;;;;;;;;x
+levy_peloponnesian_slavic_soldiers;Levy Slavic Tribesmen of the Peloponnese;;;;;;;;;;;;;x
+levy_peloponnesian_slavic_soldiers_desc;We can levy the Melingoi or Ezeritai Slavs living in our Peloponnesian holdings to assist us in our current wars.;;;;;;;;;;;;;x
+rebuild_hexamilion_wall;Rebuild the Hexamilion Wall;;;;;;;;;;;;;x
+rebuild_hexamilion_wall_desc;The Hexamilion Wall was built during the reign of the Roman Emperor Theodosius II, protecting the region from the incursions of various Germanic tribes. In recent years, however, it is no longer being actively maintained. Perhaps we should restore it to its former glory....;;;;;;;;;;;;;x
+VIET_hexamilion_wall;Hexamilion Wall;;;;;;;;;;;;;x
+VIET_hexamilion_wall_desc;The original Hexamilion Wall, built during the reign of Roman Emperor Theodosius II, has been restored to its former glory. A six mile long bulwark stretching across the Isthmus of Corinth, it guards the only land route into the Peloponnesian peninsula from Greece.;;;;;;;;;;;;;x
+VIET_recently_built_hexamilion_wall;Recently Rebuilt the Hexamilion Wall;;;;;;;;;;;;;x
+VIET_recently_built_hexamilion_wall_desc;The local leadership recently spent a considerable amount of time and resources rebuilding the Hexamilion Wall, diverting resources away from other, less critical projects.;;;;;;;;;;;;;x
+xxxxxxxxxxxxxxxxxxxxx;Baklava;;;;;;;;;;;;;x

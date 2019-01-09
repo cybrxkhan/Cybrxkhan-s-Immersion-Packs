@@ -1,0 +1,21 @@
+#character
+on_startup = {
+	events = {
+		monogatari.150
+	}
+}
+##character
+#on_yearly_pulse = {
+#	random_events = {
+#		harranian = {
+#			delay = 10
+#			1000 = 0
+#			20 = monogatari.107
+#			20 = monogatari.112
+#			20 = monogatari.113
+#			20 = monogatari.114
+#			20 = monogatari.115
+#			20 = monogatari.116
+#		}
+#	}
+#}

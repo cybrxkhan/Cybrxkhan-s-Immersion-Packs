@@ -1,0 +1,213 @@
+########################################################
+#
+# PELOPONNESIAN DYNASTIES
+#
+# 1000088460-1000088489 Tsakonian
+# 1000088490-1000088509 Greek
+#
+########################################################
+
+
+1000088460 = {
+	name="Sgouromalles"
+	culture = tsakonian
+}
+1000088461 = {
+	name="Chryssomallis"
+	culture = tsakonian
+}
+1000088462 = {
+	name="Panagakos"
+	culture = tsakonian
+}	
+1000088463 = {
+	name="Kladas"
+	culture = tsakonian
+}
+1000088464 = {
+	name="Nikliani"
+	culture = tsakonian
+}
+1000088465 = {
+	name="Sprantzes"
+	culture = tsakonian
+}
+1000088466 = {
+	name="Sgouros"
+	culture = tsakonian
+}
+1000088467 = {
+	name="Chamaretos"
+	culture = tsakonian
+}
+1000088468 = {
+	name="Grigorakis"
+	culture = tsakonian
+}
+1000088469 = {
+	name="Spanis"
+	culture = tsakonian
+}
+
+1000088470 = {
+	name="Gerakaris"
+	culture = tsakonian
+}
+1000088471 = {
+	name="Mavromichalis"
+	culture = tsakonian
+}
+1000088472 = {
+	name="Kolokotronis"
+	culture = tsakonian
+}	
+1000088473 = {
+	name="Venetsanakis"
+	culture = tsakonian
+}
+1000088474 = {
+	name="Troupakis"
+	culture = tsakonian
+}
+1000088475 = {
+	name="Katsonis"
+	culture = tsakonian
+}
+1000088476 = {
+	name="Androutsos"
+	culture = tsakonian
+}
+1000088477 = {
+	name="Barbitsiotis"
+	culture = tsakonian
+}
+1000088478 = {
+	name="Koumoundoureas"
+	culture = tsakonian
+}
+1000088479 = {
+	name="Pentalonas"
+	culture = tsakonian
+}
+1000088480 = {
+	name="Bezenikos"
+	culture = tsakonian
+}
+1000088481 = {
+	name="Helladikos"
+	culture = tsakonian
+}
+1000088482 = {
+	name="Xarhakos"
+	culture = tsakonian
+}	
+1000088483 = {
+	name="Kyrgiakos"
+	culture = tsakonian
+}
+1000088484 = {
+	name="Stephanopoulos"
+	culture = tsakonian
+}
+1000088485 = {
+	name="Koteas"
+	culture = tsakonian
+}
+1000088486 = {
+	name="Georgeas"
+	culture = tsakonian
+}
+1000088487 = {
+	name="Charisteas"
+	culture = tsakonian
+}
+1000088488 = {
+	name="Servopoulos"
+	culture = tsakonian
+}
+1000088489 = {
+	name="Frangopoulos"
+	culture = tsakonian
+}
+
+1000088490 = {
+	name="Gemistos"
+	culture = greek
+}
+1000088491 = {
+	name="Pachymeres"
+	culture = greek
+}
+1000088492 = {
+	name="Apokaukos"
+	culture = greek
+}	
+1000088493 = {
+	name="Asanes"
+	culture = greek
+}
+1000088494 = {
+	name="Hagiotheodorites"
+	culture = greek
+}
+1000088495 = {
+	name="Aristenos"
+	culture = greek
+}
+1000088496 = {
+	name="Krenites"
+	culture = greek
+}
+1000088497 = {
+	name="Tarchaneiotes"
+	culture = greek
+}
+1000088498 = {
+	name="Synadenos"
+	culture = greek
+}
+1000088499 = {
+	name="Strategopoulos"
+	culture = greek
+}
+
+1000088500 = {
+	name="Chortasmenos"
+	culture = greek
+}
+1000088501 = {
+	name="Akropolites"
+	culture = greek
+}
+1000088502 = {
+	name="Hexapterygos"
+	culture = greek
+}	
+1000088503 = {
+	name="Blemmydes"
+	culture = greek
+}
+1000088504 = {
+	name="Vatatzes"
+	culture = greek
+}
+1000088505 = {
+	name="Gregoras"
+	culture = greek
+}
+1000088506 = {
+	name="Palamas"
+	culture = greek
+}
+1000088507 = {
+	name="Metochites"
+	culture = greek
+}
+1000088508 = {
+	name="Geometres"
+	culture = greek
+}
+1000088509 = {
+	name="Sgouros"
+	culture = greek
+}
