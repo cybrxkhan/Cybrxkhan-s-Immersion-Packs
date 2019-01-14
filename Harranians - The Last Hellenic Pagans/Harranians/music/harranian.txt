@@ -1,0 +1,100 @@
+# Harranian - Middle Eastern and Caucasus stuff
+#
+# Credits/Sources:
+#
+# Thabit ibn Qurra
+# Lovely Spring - Djivan Gasparyan 
+# https://soundcloud.com/seif-helal/lovely-spring-djivan-gasparyan
+#
+# The Last Prayer at the Temple of the Moon
+# Chronicle - Scott Buckley
+# https://soundcloud.com/scottbuckley/chronicle
+#
+# Ishtar's Lament
+# Wirrawind - Tuonela
+# https://soundcloud.com/tuonela-1/wirrawind
+#
+
+
+
+song = {
+	name = "ishtars_lament.ogg"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			OR = {
+				religion_group = muslim
+				religion_group = zoroastrian_group
+				culture_group = arabic
+				culture_group = iranian
+				culture_group = byzantine
+				religion = hellenic_pagan
+				religion = hellenic_pagan_reformed
+				any_demesne_province = {
+					OR = {
+						culture_group = byzantine
+						culture_group = iranian
+						culture_group = arabic					
+					}
+				}
+				has_landed_title = c_edessa
+			}
+		}
+	}	
+}
+song = {
+	name = "thabit_ibn_qurra.ogg"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			OR = {
+				religion_group = muslim
+				religion_group = zoroastrian_group
+				culture_group = arabic
+				culture_group = iranian
+				culture_group = byzantine
+				religion = hellenic_pagan
+				religion = hellenic_pagan_reformed
+				any_demesne_province = {
+					OR = {
+						culture_group = byzantine
+						culture_group = iranian
+						culture_group = arabic					
+					}
+				}
+				has_landed_title = c_edessa
+			}
+		}
+	}	
+}
+song = {
+	name = "the_last_prayer_at_the_temple_of_the_moon.ogg"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			OR = {
+				religion_group = muslim
+				religion_group = zoroastrian_group
+				culture_group = arabic
+				culture_group = iranian
+				culture_group = byzantine
+				religion = hellenic_pagan
+				religion = hellenic_pagan_reformed
+				any_demesne_province = {
+					OR = {
+						culture_group = byzantine
+						culture_group = iranian
+						culture_group = arabic					
+					}
+				}
+				has_landed_title = c_edessa
+			}
+		}
+	}	
+}

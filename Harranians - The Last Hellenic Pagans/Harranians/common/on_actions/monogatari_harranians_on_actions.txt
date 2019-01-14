@@ -2,6 +2,7 @@
 on_startup = {
 	events = {
 		monogatari.100
+		monogatari.117
 	}
 }
 #character
@@ -16,6 +17,11 @@ on_yearly_pulse = {
 			20 = monogatari.114
 			20 = monogatari.115
 			20 = monogatari.116
+		}
+		harranian_book = {
+			delay = 33
+			199 = 0
+			1 = monogatari.130
 		}
 	}
 }

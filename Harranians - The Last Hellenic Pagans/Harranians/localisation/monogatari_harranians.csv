@@ -60,8 +60,90 @@ monogatari.115.a;Good.;Bien.;;;;;;;;;;;;x
 monogatari.116.desc;The pagans of Harran have many distinct traditions, strange even to other pagans. For example, since time immemorial they have lived in houses shaped like beehives. Today as you pay a visit to the local leadership of Harran, you enter one of these houses belonging to a Harranian nobleman to discuss matters. It is the largest of its kind, and more a mansion.;Les païens de Harran ont de nombreuses traditions distinctes, étranges même pour les autres païens. Par exemple, depuis des temps immémoriaux, ils vivent dans des maisons en forme de ruches. Aujourd'hui, alors que vous rendez visite aux dirigeants locaux de Harran, vous entrez dans l'une de ces maisons appartenant à un noble de Harranian pour discuter de questions. C'est le plus grand de son genre, et plus un hôtel particulier.;;;;;;;;;;;;x
 monogatari.116.a;Fascinating buildings! They are beautiful.;Des bâtiments fascinants ! Ils sont beaux.;;;;;;;;;;;;x
 monogatari.116.b;These are just ordinary, what's the fuss?;Ce sont juste des bâtiments ordinaires, quel est le problème ?;;;;;;;;;;;;x
-monogatari.117.desc;xxxxx;xxxxx;;;;;;;;;;;;x
-monogatari.117.a;xxxxx;xxxxx;;;;;;;;;;;;x
+monogatari.117.desc;The pagans of Harran demand greater autonomy and freedom. Perhaps it might be wise to give a scion of an influential Harranian family some level of official power to act as the leader of the entire Harranian community...;;;;;;;;;;;;;x
+monogatari.117.a;No, there is no need for this.;;;;;;;;;;;;;x
+monogatari.117.b;Yes, let us look among the Harranian clans.;;;;;;;;;;;;;x
+VIET_harran_play_tooltip;\nThis decision cannot be reversed!\n\n;;;;;;;;;;;;;x
+VIET_harran_play_tooltip_cm_start;\nSwitch player character to §YThabit ibn Karaya§!, the great-grandfather of the famous Harranian scholar §YThabit ibn Qurra§!, who came from an influential, powerful Harranian family. You will be a §YHellenic Pagan§! ruling over the province of §YEdessa§!. This decision cannot be reversed!\n\n ;;;;;;;;;;;;;x
+VIET_harran_play_tooltip_tog_start;\nSwitch player character to §YThabit ibn Qurra§!, the famous Harranian scholar, who came from an influential, powerful Harranian family. You will be a §YHellenic Pagan§! ruling over the province of §YEdessa§!. This decision cannot be reversed!\n\n ;;;;;;;;;;;;;x
+monogatari.118.title;Homecoming;;;;;;;;;;;;;x
+monogatari.118.desc;Those who read the stars know that fate can have a mind of its own. I did not expect to ever return to my hometown of Harran, much less as its leader. [From.GetTitledName] decided to give us Harranians greater autonomy by granting one of us rulership over the region. My clan had been prominent in this region for many generations, so as the current head of the family, l was a natural choice for the position.\n\nStrange. Just mere weeks ago I was a humble scholar at Baghdad’s House of Wisdom. Yet here I am. How many years has it been?;;;;;;;;;;;;;x
+monogatari.118.a;My life has been one of many twists and turns.;;;;;;;;;;;;;x
+monogatari.119.tooltip;So it was written in the stars...;;;;;;;;;;;;;x
+monogatari.119.title;Childhood;;;;;;;;;;;;;x
+monogatari.119.desc;Shortly after I was born, my family took me to a local astrologer. We Harranians are proud of their knowledge of the celestial bodies, passed down from generation to generation since the days of the Greeks and Romans. Even when I was a scholar at the House of Wisdom, much of my work focused on astronomical matters.\n\nThe astrologer said I would lead an interesting life, for I was born under the influence of a certain star. According to the astrologer, this star blessed me with not only fame and great intelligence but also...;;;;;;;;;;;;;x
+monogatari.119.a;Good looks and charm;;;;;;;;;;;;;x
+monogatari.119.b;An unusually strong constitution;;;;;;;;;;;;;x
+monogatari.119.c;A happy family blessed by the Gods;;;;;;;;;;;;;x
+monogatari.119.d;Recognition and fame as a child prodigy;;;;;;;;;;;;;x
+VIET_thabit_CYOA_siblings;We sometimes fought, we sometimes got along like all other siblings;;;;;;;;;;;x
+VIET_thabit_CYOA_no_siblings;As an only child, most of my family focused their attention on me;;;;;;;;;;;x
+monogatari.120.desc;My father and grandfather held a number of important posts in the local Harranian leadership. They were also prosperous landowners and renowned scholars, and we were thus quite prominent in Harran. Though I came from a privileged family, as a child I was not alone for I had the company of...;;;;;;;;;;;x
+monogatari.120.a;My brother;;;;;;;;;;;;;x
+monogatari.120.b;My sister;;;;;;;;;;;;;x
+monogatari.120.c;Several siblings;;;;;;;;;;;;;x
+monogatari.120.d;The neighborhood children;;;;;;;;;;;;;x
+monogatari.121.desc;Life wasn't always happy. When I was young, I had the misfortune of having a traumatic experience that changed my outlook on life forever:;;;;;;;;;;;x
+monogatari.121.a;Bandits ransacked and looted my family's mansion;;;;;;;;;;;;;x
+monogatari.121.b;I nearly died from a long and painful illness;;;;;;;;;;;;;x
+monogatari.121.c;My friend, my first love - she died;;;;;;;;;;;;;x
+monogatari.121.d;A nobleman’s son - the local bully - and his minions assaulted me;;;;;;;;;;;;;x
+VIET_thabit_CYOA_exp_bandits;They took many of our valuables, but thankfully we escaped mostly unharmed. Despite my young age, I was brave, and alerted most of my household before they could harm us.;;;;;;;;;;;x
+VIET_thabit_CYOA_exp_illness;I wasted away for a year, and only lived thanks to the efforts of a traveling physician. I learned the hard way about just how fleeting life could be, but at least I survived.;;;;;;;;;;;x
+VIET_thabit_CYOA_exp_sweetheart;I could've saved her! But it was all my fault, wasn't it? If only…. No. She’s gone. There’s nothing I can do now, but my memory of her remains.;;;;;;;;;;;x
+VIET_thabit_CYOA_exp_bully;They left me scarred and deformed, but my resolve had never been stronger afterwards. But to this day, I still hate the bastard.;;;;;;;;;;;x
+monogatari.122.title;Youth;;;;;;;;;;;x
+monogatari.122.desc;Thus, despite being born into the upper echelons of Harranian society, my life wasn’t always all fun and games. Coming from a family of distinguished Harranian scholars going back at least two or three centuries, there were many expectations put on me.\n\nI was fortunate enough to study at Harran’s Neoplatonic Academy, which has a lineage stretching back to the ancient Greeks and still stands proudly today. For me and the other students at the Academy, it was an immense burden trying to uphold what many see as a dying legacy. Nevertheless, my teachers commended my thirst for knowledge, and I was most particularly interested in learning about...;;;;;;;;;;;x
+monogatari.122.a;Astronomy and mathematics;;;;;;;;;;;;;x
+monogatari.122.b;Greek philosophy;;;;;;;;;;;;;x
+monogatari.122.c;History, literature, and rhetoric;;;;;;;;;;;;;x
+monogatari.122.d;Anything I could get my hands on;;;;;;;;;;;;;x
+monogatari.123.desc;After my studies were complete, I spent a few years as a scholar in a foreign city. Specifically, I traveled to…;;;;;;;;;;;x
+monogatari.123.a;Constantinople, the throne of the Romans;;;;;;;;;;;;;x
+monogatari.123.b;Alexandria, in the ancient lands of Egypt;;;;;;;;;;;;;x
+monogatari.123.c;Samarkand, jewel of the Silk Road;;;;;;;;;;;;;x
+monogatari.123.d;Hormuz, the decadent port of the Indian Sea;;;;;;;;;;;;;x
+monogatari.124.desc;I was a young man, uncertain of his future, who was employed as a scholar in the local court. I was in a cosmopolitan world, full of energy. I no longer felt alone as one of the few Harranians, for there were people from all over, and I experienced many things outside the realm of dusty tomes of arcane, ancient lore. I still fondly recall how I often spent my free time in the city's…;;;;;;;;;;;x
+monogatari.124.a;Pleasure houses;;;;;;;;;;;;;x
+monogatari.124.b;Merchant's quarters;;;;;;;;;;;;;x
+monogatari.124.c;Gardens, fountains, libraries;;;;;;;;;;;;;x
+monogatari.124.d;Aristocratic manors;;;;;;;;;;;;;x
+VIET_thabit_CYOA_pleasure_houses;The courtesans were most beautiful, charming and intelligent;;;;;;;;;;;x
+VIET_thabit_CYOA_merchant_quarters;Trade flowed through the Silk Road, and I did business with people from different places;;;;;;;;;;;x
+VIET_thabit_CYOA_paradisa;I preferred to spend time by myself, to reflect on many things;;;;;;;;;;;x
+VIET_thabit_CYOA_cloud_district;It took some work, but I managed to find some contacts in high society despite my origins;;;;;;;;;;;x
+monogatari.125.title;Adulthood;;;;;;;;;;;x
+monogatari.125.desc;Eventually, my fame as a scholar grew and I was accepted into the House of Wisdom in Baghdad, where the greatest scholars from across the world gathered. I quickly gained much fame and influence at this prestigious institution. Some thought that my Harranian background gave me an innate understanding of the ancient mysteries of the universe. Rumor had it my intellectual lineage was passed down unperturbed from the likes of Plato all the way to me!\n\nIt was a good time, all said. I met and corresponded with not only fellow Harranians, but Arabs, Persians, Assyrians, Greeks, Indians, even a Chinese, and more. They all had their reasons for working here, but as for me, I...;;;;;;;;;;;x
+monogatari.125.a;Had a duty to uphold my ancestors’ legacy;;;;;;;;;;;;;x
+monogatari.125.b;Wanted to win immortality as a great thinker;;;;;;;;;;;;;x
+monogatari.125.c;Wanted to contribute to society and help others;;;;;;;;;;;;;x
+monogatari.125.d;Was bored and had nothing better to do;;;;;;;;;;;;;x
+monogatari.126.desc;I also made important allies in the court of the Abbasid Caliph, despite our differences in religion, among other things. One of them - arguably my closest friend - even accompanied me here to Harran, saying he wished to help me manage the city. I am in debt to this man for such generosity and camaraderie, for he is quite capable. In Baghdad, he was a...;;;;;;;;;;;x
+monogatari.126.a;Scribe in the bureaucracy, involved with bookkeeping;;;;;;;;;;;;;x
+monogatari.126.b;Last heir to a family fortune, a spoiled but good man;;;;;;;;;;;;;x
+monogatari.126.c;Guardsman and former mercenary who knew nothing but war;;;;;;;;;;;;;x
+monogatari.126.d;Former criminal, who has since reformed (mostly);;;;;;;;;;;;;x
+monogatari.127.desc;It was also during this time that I found a wife, as my family had hoped for years. She wasn't a random strumpet from nowhere. In fact, she was a...;;;;;;;;;;;x
+monogatari.127.a;Childhood friend of mine;;;;;;;;;;;;;x
+monogatari.127.b;Member of another prominent Harranian clan;;;;;;;;;;;;;x
+monogatari.127.c;Daughter of a foreign scholar;;;;;;;;;;;;;x
+monogatari.127.d;Talented courtesan I met years ago;;;;;;;;;;;;;x
+monogatari.127.e;Cunning trader I met years ago;;;;;;;;;;;;;x
+monogatari.127.f;Daughter of a bookkeeper I met years ago;;;;;;;;;;;;;x
+monogatari.127.g;Slave girl belonging to an acquaintance;;;;;;;;;;;;;x
+VIET_thabit_CYOA_marry_childhood_friend;Her origins were humble, but my family recognized her virtue and ability. We love each other dearly, and she is my muse.;;;;;;;;;;;x
+VIET_thabit_CYOA_marry_heiress;She was the heiress to a fortune. Thus, the marriage was obviously practical, but I think there have been plenty of worse marriages.;;;;;;;;;;;x
+VIET_thabit_CYOA_marry_mentor_daughter;I met her father through my contacts in Baghdad, and he was one of my main mentors. Sadly, he recently passed away.;;;;;;;;;;;x
+VIET_thabit_CYOA_marry_city_woman;Back when I lived in the foreign city, we fell in love. I told her once I made a name for myself, we could marry.;;;;;;;;;;;x
+VIET_thabit_CYOA_marry_slave_girl;Back when I lived in the foreign city, we fell in love. She was a brilliant and beautiful girl owned by an elderly scholar I often worked with. Once I made a name for myself, I promised her I’d buy her freedom and marry her.;;;;;;;;;;;x
+monogatari.128.title;The Last Hellenes;;;;;;;;;;;x
+monogatari.128.desc;Now I am home, no longer a mere boy, but the leader of all Harran! It is an immense honor, but also an unenviable position. Some among us say in this age of new faiths, our prospects of survival as a distinct community are dim. I do not disagree. Time is against us.\n\nToday, while walking as the sun set, I passed by the grand temple in Harran. On its door are carved the words of Plato: "He who knows his own essence becomes divine."\n\nI read the quote a few times, before looking up to the increasingly dark sky. I gazed at the stars, pretending I could somehow read our fate, before continuing on my way home.;;;;;;;;;;;x
+monogatari.128.a;I am [Root.GetFirstName] of the Harranians, and we are the last Hellenes.;;;;;;;;;;;;;x
+monogatari.129.desc;xxxxx;;;;;;;;;;;x
+monogatari.129.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIET_harran_courtier_scholar_make_book;§Y[target_VIET_harranian_scholar.GetFullName]§! finishes writing a treatise on an academic subject and gives it to you.;;;;;;;;;;;;;x
+monogatari.130.desc;The Harranian scholar at my court, [target_VIET_harranian_scholar.GetFullName], has completed writing a scholarly treatise, and has presented me with a copy. The ancient knowledge of the Harranians must be shared with the rest of the world, after all.;;;;;;;;;;;;;x
+monogatari.130.a;Wonderful!;;;;;;;;;;;;;x
 VIET_harran_tammuz_festival_good;Great Tammuz Festival;Grand festival de Tammuz;;;;;;;;;;;;x
 VIET_harran_tammuz_festival_good_desc;The festival of Tammuz is an ancient tradition in Harran. A recent iteration of this event was unusually successful, inspiring the local pagans.;Le festival de Tammuz est une tradition ancienne à Harran. Une itération récente de cet événement a été un succès inhabituel, inspirant les païens locaux.;;;;;;;;;;;;x
 VIET_patronize_neoplatonic_academy_1;Patron of the Neoplatonic Academy;Patron de l'école néoplatonicienne;;;;;;;;;;;;x
@@ -72,3 +154,32 @@ VIET_harranian_spawn_tooltip;A Harranian pagan, hopefully learned in ancient wis
 VIET_harran_destroyed_moon_temple;Destroyed the Temple of the Moon;A détruit le temple de la Lune;;;;;;;;;;;;x
 VIET_harran_destroyed_moon_temple_desc;This character was responsible for the end of the Temple of the Moon. Destroying an ancient, decrepit building maintained by a few defenseless pagans was definitely the crowning achievement of this ruler's reign.;Ce personnage était responsable de la fin du temple de la Lune. De détruire un vieux bâtiment décrépit, entretenu par quelques païens sans défense, était sans conteste l’atout suprême de ce règne.;;;;;;;;;;;;x
 VIET_recent_harran_temple_visit;Recently visited the Temple of the Moon in Harran;A récemment visité le temple de la Lune à Harran;;;;;;;;;;;;x
+VIET_harran_courtier_former_moneylender;Former Harranian Moneylender;xxx;;;;;;;;;;;;x
+VIET_harran_courtier_former_moneylender_desc;Although now deeply involved in the academic world, this Harranian was once a moneylender.;xxx;;;;;;;;;;;;x
+VIET_harran_courtier_prominent_harranian;Prominent Harranian;xxx;;;;;;;;;;;;x
+VIET_harran_courtier_prominent_harranian_desc;This Harranian used to be an influential leader in the Harranian community.;xxx;;;;;;;;;;;;x
+VIET_harran_courtier_neoplatonic_fanatic;Neoplatonic Fanatic;xxx;;;;;;;;;;;;x
+VIET_harran_courtier_neoplatonic_fanatic_desc;This Harranian is a strong believer in Neoplatonic ideals.;xxx;;;;;;;;;;;;x
+VIET_harran_courtier_ostracized_harranian;Ostracized Harranian;xxx;;;;;;;;;;;;x
+VIET_harran_courtier_ostracized_harranian_desc;This Harranian possesses a number of unorthodox beliefs and ideas for a Harranian pagan, and had a number of disagreements with many prominent individuals in Harran.;xxx;;;;;;;;;;;;x
+VIET_harran_courtier_devout_planet_worshipper;Devout Planet Worshipper;xxx;;;;;;;;;;;;x
+VIET_harran_courtier_devout_planet_worshipper_desc;This Harranian is very devoted to the worship of the seven planets, in the Harranian manner.;xxx;;;;;;;;;;;;x
+VIET_tammuz_devotee;Tammuz Devotee;xxx;;;;;;;;;;;;x
+VIET_tammuz_devotee_desc;This Harranian is devoted to the worship of the old Mesopotamian fertility deity Tammuz, known to the Greeks as Adonis.;xxx;;;;;;;;;;;;x
+monogatari_harranian_treatise_astronomy;Treatise on Star Tables;xxx;;;;;;;;;;;;x
+monogatari_harranian_treatise_astronomy_desc;A treatise on astronomical matters, written by the Harranian scholar in the court of [From.OriginalOwner.GetTitledName];xxx;;;;;;;;;;;;x
+monogatari_harranian_treatise_geometry;Treatise on Measurements and Figures;xxx;;;;;;;;;;;;x
+monogatari_harranian_treatise_geometry_desc;A treatise on geometry, covering topics such as ratios and measurements, written by the Harranian scholar in the court of [From.OriginalOwner.GetTitledName];xxx;;;;;;;;;;;;x
+monogatari_harranian_treatise_algebra;Treatise on Solving Mathematical Problems;xxx;;;;;;;;;;;;x
+monogatari_harranian_treatise_algebra_desc;A treatise on algebra, covering topics such as solving equations, written by the Harranian scholar in the court of [From.OriginalOwner.GetTitledName];xxx;;;;;;;;;;;;x
+monogatari_harranian_treatise_greek_philosophy;Treatise on the Greek Philosophers;xxx;;;;;;;;;;;;x
+monogatari_harranian_treatise_greek_philosophy_desc;A treatise on ancient thinkers like Plato and Aristotle, written by the Harranian scholar in the court of [From.OriginalOwner.GetTitledName];xxx;;;;;;;;;;;;x
+monogatari_harranian_treatise_harranian_history;Treatise on Harranian History;xxx;;;;;;;;;;;;x
+monogatari_harranian_treatise_harranian_history_desc;A treatise on the history of the Harranians, written by the Harranian scholar in the court of [From.OriginalOwner.GetTitledName];xxx;;;;;;;;;;;;x
+monogatari_harranian_treatise_mysticism;Treatise on Images and Visions;xxx;;;;;;;;;;;;x
+monogatari_harranian_treatise_mysticism_desc;A treatise on various esoteric topics, written by the Harranian scholar in the court of [From.OriginalOwner.GetTitledName];xxx;;;;;;;;;;;;x
+monogatari_harranian_treatise_medicine;Treatise on the Garden of Medicine;xxx;;;;;;;;;;;;x
+monogatari_harranian_treatise_medicine_desc;A treatise on medicine and the biological sciences, written by the Harranian scholar in the court of [From.OriginalOwner.GetTitledName];xxx;;;;;;;;;;;;x
+monogatari_harranian_bloodline;Harranian Blood;xxx;;;;;;;;;;;;x
+monogatari_harranian_bloodline_desc;A descendant of one of the prominent Harranian clans. These scholars claimed descent from the Greek and Roman philosophers and nobles of antiquity.;xxx;;;;;;;;;;;;x
+yoyoyo;xxx;xxx;;;;;;;;;;;;x

@@ -1,0 +1,17 @@
+########################################################
+#
+# HARRANIAN DYNASTIES
+#
+# 1000088510-1000088511 Harranian
+#
+########################################################
+
+
+1000088510 = {
+	name="Harrani"
+	culture = levantine_arabic
+}
+1000088511 = {
+	name="Battani"
+	culture = levantine_arabic
+}

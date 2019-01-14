@@ -8,32 +8,37 @@
 
 100015890 = { #Thabit ibn Qurra's father
 	name="Qurra"
+	dynasty=1000088510
 	religion="hellenic_pagan"
 	culture="levantine_arabic"
-	add_trait="scholarly_theologian"
-	add_trait="scholar"
-	add_trait="mystic"
-	753.1.1={ #made up dates
-		birth="753.1.1"
+	trait="quick"
+	trait="scholarly_theologian"
+	trait="scholar"
+	trait="mystic"
+	father=100015895
+	800.1.1={ #made up dates
+		birth="800.1.1"
+		effect = { set_character_flag = is_thabit_ibn_qurra_father }
 	}
-	769.1.1 = {
-		employer=34002
-	}
-	835.1.1={
-		death="835.1.1"
+	869.1.1={
+		death="869.1.1"
 	}
 }
 100015891 = { #Thabit ibn Qurra himself
 	name="Thabit"
+	dynasty=1000088510
 	religion="hellenic_pagan"
 	culture="levantine_arabic"
-	add_trait="mastermind_theologian"
-	add_trait="quick"
-	add_trait="scholar"
-	add_trait="mystic"
+	learning = 10
+	trait="midas_touched" # earlier in his life he was a moneylender of some sort
+	trait="genius"
+	trait="scholar"
+	trait="mystic"
+	trait="cynical" #seemed to have some disagreements with some Harranians in doctrinal matters
 	father=100015890
-	826.1.1={
-		birth="826.1.1"
+	836.1.1={ #some sources online say 826, but I'm going with 836 to make him younger at the 867 start
+		birth="836.1.1"
+		effect = { set_character_flag = is_thabit_ibn_qurra_himself }
 	}
 	867.1.1 = {
 		employer=34014
@@ -44,12 +49,17 @@
 }
 100015892 = { #Al-Battani's grandfather
 	name="Sinan"
+	dynasty=1000088511
 	religion="hellenic_pagan"
 	culture="levantine_arabic"
-	add_trait="scholarly_theologian"
-	add_trait="scholar"
+	trait="scholarly_theologian"
+	trait="scholar"
 	753.1.1={ #made up dates
 		birth="753.1.1"
+		create_bloodline = {
+			type = monogatari_harranian_bloodline
+			has_dlc = "Holy Fury"
+		}
 	}
 	769.1.1 = {
 		employer=34002
@@ -60,13 +70,14 @@
 }
 100015893 = { #Al-Battani's father
 	name="Jabir"
+	dynasty=1000088511
 	religion="hellenic_pagan"
 	culture="levantine_arabic"
-	add_trait="scholarly_theologian"
-	add_trait="scholar"
+	trait="scholarly_theologian"
+	trait="scholar"
 	father=100015892
-	820.1.1={ #made up dates 
-		birth="820.1.1"
+	813.1.1={ #made up dates 
+		birth="813.1.1"
 	}
 	867.1.1 = {
 		employer=34014
@@ -77,13 +88,14 @@
 }
 100015894 = { #Al-Battani
 	name="Abu"
+	dynasty=1000088511
 	religion="hellenic_pagan" #probably Muslim, but let's pretend he converted later in life
 	culture="levantine_arabic"
-	add_trait="mastermind_theologian"
-	add_trait="scholar"
-	add_trait="quick"
+	trait="mastermind_theologian"
+	trait="scholar"
+	trait="quick"
 	father=100015893
-	858.1.1={ #made up dates
+	858.1.1={
 		birth="858.1.1"
 	}
 	867.1.1 = {
@@ -91,5 +103,173 @@
 	}
 	929.1.1={
 		death="929.1.1"
+	}
+}
+100015895 = { #Thabit ibn Qurra's grandfather - also had the name Marwan
+	name="Zahrun"
+	dynasty=1000088510
+	religion="hellenic_pagan"
+	culture="levantine_arabic"
+	trait="scholarly_theologian"
+	trait="scholar"
+	trait="mystic"
+	trait="quick"
+	father=100015896
+	768.1.1={ #made up dates
+		birth="768.1.1"
+		effect = { set_character_flag = is_thabit_ibn_qurra_grandfather }
+		employer=34002
+	}
+	835.1.1={
+		death="835.1.1"
+	}
+}
+100015896 = { #Thabit ibn Qurra's great-grandfather - coincidentally named Thabit
+	name="Thabit"
+	dynasty=1000088510
+	religion="hellenic_pagan"
+	culture="levantine_arabic"
+	trait="scholarly_theologian"
+	trait="scholar"
+	trait="mystic"
+	trait="quick"
+	father=100015897
+	746.1.1={ #made up dates
+		birth="746.1.1"
+		effect = { set_character_flag = is_thabit_ibn_qurra_greatgrandfather }
+		employer=34002
+	}
+	825.1.1={
+		death="825.1.1"
+	}
+}
+100015897 = { #Thabit ibn Qurra's great-great-grandfather
+	name="Karaya"
+	dynasty=1000088510
+	religion="hellenic_pagan"
+	culture="levantine_arabic"
+	trait="scholar"
+	father=100015898
+	710.1.1={ #made up dates
+		birth="710.1.1"
+	}
+	770.1.1={
+		death="770.1.1"
+	}
+}
+100015898 = { #Thabit ibn Qurra's great-great-great-grandfather
+	name="Ibrahim"
+	dynasty=1000088510
+	religion="hellenic_pagan"
+	culture="levantine_arabic"
+	trait="scholar"
+	father=100015899
+	678.1.1={ #made up dates
+		birth="678.1.1"
+	}
+	751.1.1={
+		death="751.1.1"
+	}
+}
+100015899 = { #Thabit ibn Qurra's great-great-great-great-grandfather
+	name="Karaya"
+	dynasty=1000088510
+	religion="hellenic_pagan"
+	culture="levantine_arabic"
+	trait="scholar"
+	father=100015900
+	650.1.1={ #made up dates
+		birth="650.1.1"
+	}
+	714.1.1={
+		death="714.1.1"
+	}
+}
+100015900 = { #Thabit ibn Qurra's great-great-great-great-great-grandfather
+	name="Marinus" #Apparently had the name Marinus, so for funsies we'll pretend he's Romanized
+	dynasty=1000088510
+	religion="hellenic_pagan"
+	culture="roman"
+	trait="scholar"
+	father=100015901
+	582.1.1={ #made up dates
+		birth="582.1.1"
+		culture="levantine_arabic"
+	}
+	666.1.1={
+		death="666.1.1"
+	}
+}
+100015901 = { #Thabit ibn Qurra's great-great-great-great-great-great-grandfather
+	name="Salamanus" #Apparently had the name Salamanus, so for funsies we'll pretend he's Romanized
+	dynasty=1000088510
+	religion="hellenic_pagan"
+	culture="roman"
+	trait="scholar"
+	555.1.1={ #made up dates
+		birth="555.1.1"
+		#culture="levantine_arabic"
+		create_bloodline = {
+			type = monogatari_harranian_bloodline
+			has_dlc = "Holy Fury"
+		}
+	}
+	633.1.1={
+		death="633.1.1"
+	}
+}
+
+100015902 = { #Thabit ibn Qurra's other grandson
+	name="Thabit"
+	dynasty=1000088510
+	religion="hellenic_pagan"
+	culture="levantine_arabic"
+	trait="scholarly_theologian"
+	trait="quick"
+	trait="scholar"
+	father=100015903
+	890.1.1={ #made up dates
+		birth="890.1.1"
+	}
+	950.1.1={
+		death="950.1.1"
+	}
+}
+100015903 = { #Thabit ibn Qurra's son
+	name="Sinan"
+	dynasty=1000088510
+	religion="hellenic_pagan"
+	culture="levantine_arabic"
+	trait="scholarly_theologian"
+	trait="quick"
+	#trait="physician"
+	father=100015891
+	866.1.1={ #made up dates
+		birth="866.1.1"
+		effect = { set_character_flag = is_thabit_ibn_qurra_son	}
+	}
+	886.1.1={
+		effect = { 
+			add_trait="physician" 
+		}	
+	}
+	922.1.1={
+		death="922.1.1"
+	}
+}
+100015904 = { #Thabit ibn Qurra's grandson
+	name="Ibrahim"
+	dynasty=1000088510
+	religion="hellenic_pagan"
+	culture="levantine_arabic"
+	trait="scholarly_theologian"
+	trait="quick"
+	trait="scholar"
+	father=100015903
+	888.1.1={ #made up dates
+		birth="888.1.1"
+	}
+	954.1.1={
+		death="954.1.1"
 	}
 }

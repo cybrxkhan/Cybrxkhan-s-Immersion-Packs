@@ -124,3 +124,43 @@ VIET_harran_divination_bad = {
 	land_morale = -0.02
 	icon = 80
 }
+VIET_harran_courtier_former_moneylender = {
+	stewardship = 3
+	intrigue = 1
+	monthly_character_wealth = 0.1
+	general_opinion = -20
+	icon = 48
+}
+VIET_harran_courtier_prominent_harranian = {
+	hellenic_pagan_opinion = 20
+	hellenic_pagan_reformed_opinion = 20	
+	monthly_character_prestige = 0.25
+	monthly_character_wealth = 0.2
+	icon = 48
+}
+VIET_harran_courtier_neoplatonic_fanatic = {
+	diplomacy = -1
+	intrigue = 1
+	learning = 1
+	icon = 48
+}
+VIET_harran_courtier_ostracized_harranian = {
+	diplomacy = -1
+	learning = 3
+	hellenic_pagan_opinion = -25
+	hellenic_pagan_reformed_opinion = -25
+	monthly_character_piety = -0.02
+	monthly_character_prestige = -0.02
+	icon = 48
+}
+VIET_harran_courtier_devout_planet_worshipper = {
+	learning = 1
+	monthly_character_piety = 0.2
+	icon = 48
+}
+VIET_tammuz_devotee = {
+	health = 0.5
+	fertility = 0.15
+	monthly_character_piety = 0.2
+	icon = 48
+}

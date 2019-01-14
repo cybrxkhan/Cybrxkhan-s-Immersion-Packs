@@ -1,0 +1,80 @@
+### Harranian Generic Books ###
+
+monogatari_harranian_treatise_astronomy = {
+	monthly_character_prestige = 0.3
+	monthly_character_piety = 0.1
+	intrigue = 1
+	learning = 2
+	quality = 3
+	flags = { book harranian }
+	#stacking = no
+	picture = "GFX_monogatari_harranian_treatise"
+	slot = library
+}
+monogatari_harranian_treatise_geometry = {
+	monthly_character_prestige = 0.4
+	stewardship = 2
+	learning = 1
+	quality = 3
+	flags = { book harranian }
+	#stacking = no
+	picture = "GFX_monogatari_harranian_treatise"
+	slot = library
+}
+monogatari_harranian_treatise_algebra = {
+	monthly_character_prestige = 0.4
+	stewardship = 1
+	learning = 2
+	quality = 3
+	flags = { book harranian }
+	#stacking = no
+	picture = "GFX_monogatari_harranian_treatise"
+	slot = library
+}
+monogatari_harranian_treatise_greek_philosophy = {
+	monthly_character_prestige = 0.2
+	monthly_character_piety = 0.2
+	learning = 3
+	quality = 3
+	flags = { book harranian }
+	#stacking = no
+	picture = "GFX_monogatari_harranian_treatise"
+	slot = library
+}
+monogatari_harranian_treatise_harranian_history = {
+	monthly_character_prestige = 0.4
+	diplomacy = 1
+	martial = 1
+	learning = 1
+	quality = 3
+	flags = { book harranian }
+	#stacking = no
+	picture = "GFX_monogatari_harranian_treatise"
+	slot = library
+}
+monogatari_harranian_treatise_mysticism = {
+	monthly_character_prestige = 0.1
+	monthly_character_piety = 0.3
+	health = 0.3
+	murder_plot_power_modifier = 0.05
+	plot_discovery_chance = 0.05
+	intrigue = 1
+	learning = 1
+	quality = 3
+	flags = { book harranian }
+	#stacking = no
+	picture = "GFX_monogatari_harranian_treatise"
+	slot = library
+}
+monogatari_harranian_treatise_medicine = {
+	monthly_character_prestige = 0.2
+	monthly_character_piety = 0.2
+	health = 0.6
+	intrigue = 1
+	learning = 1
+	quality = 3
+	flags = { book harranian }
+	#stacking = no
+	picture = "GFX_monogatari_harranian_treatise"
+	slot = library
+}
