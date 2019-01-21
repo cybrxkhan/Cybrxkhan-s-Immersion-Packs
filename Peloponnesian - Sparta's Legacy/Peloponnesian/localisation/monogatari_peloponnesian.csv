@@ -42,44 +42,73 @@ monogatari.158.desc;xxxxx;;;;;;;;;;;x
 monogatari.158.a;Xxxxxxffff;;;;;;;;;;;;;x
 monogatari.159.desc;xxxxx;;;;;;;;;;;x
 monogatari.159.a;Xxxxxxffff;;;;;;;;;;;;;x
-monogatari.160.desc;xxxxx;;;;;;;;;;;x
-monogatari.160.a;Xxxxxxffff;;;;;;;;;;;;;x
-monogatari.161.desc;xxxxx;;;;;;;;;;;x
-monogatari.161.a;Xxxxxxffff;;;;;;;;;;;;;x
-monogatari.162.desc;xxxxx;;;;;;;;;;;x
-monogatari.162.a;Xxxxxxffff;;;;;;;;;;;;;x
-monogatari.163.desc;xxxxx;;;;;;;;;;;x
-monogatari.163.a;Xxxxxxffff;;;;;;;;;;;;;x
-monogatari.164.desc;xxxxx;;;;;;;;;;;x
-monogatari.164.a;Xxxxxxffff;;;;;;;;;;;;;x
-monogatari.165.desc;xxxxx;;;;;;;;;;;x
-monogatari.165.a;Xxxxxxffff;;;;;;;;;;;;;x
-monogatari.166.desc;xxxxx;;;;;;;;;;;x
-monogatari.166.a;Xxxxxxffff;;;;;;;;;;;;;x
-monogatari.167.desc;xxxxx;;;;;;;;;;;x
-monogatari.167.a;Xxxxxxffff;;;;;;;;;;;;;x
-monogatari.168.desc;xxxxx;;;;;;;;;;;x
-monogatari.168.a;Xxxxxxffff;;;;;;;;;;;;;x
-monogatari.169.desc;xxxxx;;;;;;;;;;;x
-monogatari.169.a;Xxxxxxffff;;;;;;;;;;;;;x
-monogatari.170.desc;xxxxx;;;;;;;;;;;x
-monogatari.170.a;Xxxxxxffff;;;;;;;;;;;;;x
-monogatari.171.desc;xxxxx;;;;;;;;;;;x
-monogatari.171.a;Xxxxxxffff;;;;;;;;;;;;;x
-monogatari.172.desc;xxxxx;;;;;;;;;;;x
-monogatari.172.a;Xxxxxxffff;;;;;;;;;;;;;x
-monogatari.173.desc;xxxxx;;;;;;;;;;;x
-monogatari.173.a;Xxxxxxffff;;;;;;;;;;;;;x
-monogatari.174.desc;xxxxx;;;;;;;;;;;x
-monogatari.174.a;Xxxxxxffff;;;;;;;;;;;;;x
-monogatari.175.desc;xxxxx;;;;;;;;;;;x
-monogatari.175.a;Xxxxxxffff;;;;;;;;;;;;;x
+monogatari.160.desc;Every year, the Hellenes of Laconia hold the Hyacinthia festival. Dating back to antiquity, this festival was one of the Spartans' most important celebrations, lasting several days. This time, I've decided to officially attend the one of the celebrations myself, and made some financial contributions to the festival this year.;;;;;;;;;;;x
+monogatari.160.a;And now we wait.;;;;;;;;;;;;;x
+monogatari.161.desc;The first day of the Hyacinthia festival is here. I and my entourage have arrived at the festival grounds, ready to witness the entire week's worth of activities.;;;;;;;;;;;x
+monogatari.161.a;Let's begin!;;;;;;;;;;;;;x
+monogatari.162.title;The First Day;;;;;;;;;;;x
+monogatari.162.desc;The first day is a day of mourning for Hyacinthus. The legends tell how Hyacinthus was the god Apollo’s lover. One day, the two had a friendly competition of throwing the discus, but when Hyacinthus threw his discus, it flew back and hit him, wounding him mortally. Apollo tried everything to save Hyacinthus, but one cannot stop a death dictated by the Fates.\n\nFrom Hyacinthus’ blood, Apollo created the Hyacinth flower, and he promised that he would forever remember his lost lover in song and music.\n\nOn this first day, sacrifices are offered to the dead, particularly Hyacinthus. Many openly weep for Hyacinthus.;;;;;;;;;;;x
+monogatari.162.a;I don’t cry at all.;;;;;;;;;;;;;x
+monogatari.162.b;I cry a little, just to keep appearances.;;;;;;;;;;;;;x
+monogatari.162.c;I cry an appropriate amount.;;;;;;;;;;;;;x
+monogatari.162.d;I cry a lot!;;;;;;;;;;;;;x
+monogatari.163.title;Second Day;;;;;;;;;;;x
+monogatari.163.desc;The second day of Hyacinthia is upon us! It is livelier and more cheerful than the first day, and thus is more typical of an Apollonian festival. Today, devotees celebrate Hyacinthus’ rebirth as the hyacinth plant. In the spirit of celebrations, even foreigners, non-believers, and slaves are allowed to participate in the activities and great banquets of this day.\n\nMany exciting games and activities are held, to test local youths and let them demonstrate their abilities and knowledge as a rite of passage. Most prominent of the activities is a procession of beautifully adorned maidens, riding in highly ornate, decorated chariots made of wicker-work.;;;;;;;;;;;x
+monogatari.163.a;Sounds like a lot of fun!;;;;;;;;;;;;;x
+monogatari.164.title;Third Day;;;;;;;;;;;x
+monogatari.164.desc;It is now the third day of the Hyacinthia. After the joyous celebrations of the second day, the atmosphere is now solemn once more, as many important rituals are conducted.\n\nFurthermore, as part of the festival’s focus as a rite of passage for young men and women, some of them are initiated into various mysteries dedicated to various deities or heroes. Most important of these mystery cults are those of Apollo’s, of course, but Dionysus’ is also quite prominent as well, particularly among the women.;;;;;;;;;;;x
+monogatari.164.a;Let the day proceed.;;;;;;;;;;;;;x
+monogatari.165.title;The Hyacinthia Ends;;;;;;;;;;;x
+monogatari.165.desc;The Hyacinthia is over. The festival was a touching experience, a way for us to remember the hero Hyacinthus who died long ago, as well as an opportunity for the local youths to partake in many important rites of passage to ensure they will become productive members of society. Through these many celebrations and mournings, we remind ourselves of the things we value most in people such as bravery, respect, duty, and wisdom.;;;;;;;;;;;x
+monogatari.165.a;Until next time.;;;;;;;;;;;;;x
+monogatari.166.desc;The food during the first day of the Hyacinthia is very bland, as befits such a solemn day. Still, the bread tastes horribly plain, and the rest of the food offered is meager, and it is a far cry from the usual delicacies I eat at home.;;;;;;;;;;;x
+monogatari.166.a;How are the others managing it?;;;;;;;;;;;;;x
+monogatari.166.b;That’s no problem for me!;;;;;;;;;;;;;x
+monogatari.167.desc;What sort of offering did I bring with me beforehand to offer to the dead during the Hyacinthia?;;;;;;;;;;;x
+monogatari.167.a;Just my presence is enough respect!;;;;;;;;;;;;;x
+monogatari.167.b;A small offering - a token present to put on the altar.;;;;;;;;;;;;;x
+monogatari.167.c;A medium offering - something decent but not too much.;;;;;;;;;;;;;x
+monogatari.167.d;A large offering - a sacrifice worthy of the gods!;;;;;;;;;;;;;x
+monogatari.168.desc;During the rituals of the first day of the Hyacinthia, I must remain solemn and quiet as I mourn Hyacinthus’ death.;;;;;;;;;;;x
+monogatari.168.a;A tragic story, it is.;;;;;;;;;;;;;x
+monogatari.169.desc;Local youths have assembled as part of the Hyacinthia, with lyres and flutes in their hands. These young boys and girls form various choruses, and sing and play music for the glory of Apollo. Some of the festival attendees even begin dancing to the music, moving around and swaying their bodies in the ancient Dorian way.;;;;;;;;;;;x
+monogatari.169.a;It is good music!;;;;;;;;;;;;;x
+monogatari.169.b;I will join in on the dancing!;;;;;;;;;;;;;x
+monogatari.170.desc;On the second day of the Hyacinthia, people hold small sacrifices inside their homes, and many often invite others - stranger and friend alike - to come to their house to partake in these. I myself have been invited to join in on a sacrifice.;;;;;;;;;;;x
+monogatari.170.a;Very well! I’ll gladly join.;;;;;;;;;;;;;x
+monogatari.170.b;I have other things to attend to at the festivities!;;;;;;;;;;;;;x
+monogatari.171.desc;The second day of the Hyacinthia is full of good eats too, and I don’t want to miss out on any. It’s simpler fare than I’m used to, but delicious nonetheless. I think I’ll get started with the…;;;;;;;;;;;x
+monogatari.171.a;Bread and meat;;;;;;;;;;;;;x
+monogatari.171.b;Herbal soup;;;;;;;;;;;;;x
+monogatari.171.c;Fresh olives;;;;;;;;;;;;;x
+monogatari.171.d;Eggs and crumbly cheese;;;;;;;;;;;;;x
+monogatari.172.desc;Ah! What a good meal that was! Now it is time to finish with some dessert…;;;;;;;;;;;x
+monogatari.172.a;Fresh figs;;;;;;;;;;;;;x
+monogatari.172.b;Sweetcake;;;;;;;;;;;;;x
+monogatari.172.c;Syrupy baklava;;;;;;;;;;;;;x
+monogatari.172.d;Juicy grapes;;;;;;;;;;;;;x
+monogatari.173.desc;Horse races are an important, time-honored tradition of the Hyacinthia’s second day. The contestants cover a good distance of ground, both in the local villages and the nearby countryside. I am spectating a certain horse race between four youths, and decide to support the…;;;;;;;;;;;x
+monogatari.173.a;First contestant;;;;;;;;;;;;;x
+monogatari.173.b;Second contestant;;;;;;;;;;;;;x
+monogatari.173.c;Third contestant;;;;;;;;;;;;;x
+monogatari.173.d;Fourth contestant;;;;;;;;;;;;;x
+monogatari.174.desc;Alas, it appears my chosen contestant did not win the horse race. The youth appears crestfallen at this loss.;;;;;;;;;;;x
+monogatari.174.a;Pathetic! And to think I thought you had a chance!;;;;;;;;;;;;;x
+monogatari.174.b;Man up! Loss is a part of life.;;;;;;;;;;;;;x
+monogatari.174.c;You did very well, and should be proud of yourself.;;;;;;;;;;;;;x
+monogatari.174.d;It’s just a silly race, don’t worry about it.;;;;;;;;;;;;;x
+monogatari.175.desc;Hurrah! My chosen contestant won the horse race. The youth looks quite pleased with himself.;;;;;;;;;;;x
+monogatari.175.a;Congratulations to a victory well-earned!;;;;;;;;;;;;;x
 monogatari.176.desc;xxxxx;;;;;;;;;;;x
 monogatari.176.a;Xxxxxxffff;;;;;;;;;;;;;x
 monogatari.177.desc;xxxxx;;;;;;;;;;;x
 monogatari.177.a;Xxxxxxffff;;;;;;;;;;;;;x
-monogatari.178.desc;xxxxx;;;;;;;;;;;x
-monogatari.178.a;Xxxxxxffff;;;;;;;;;;;;;x
+monogatari.178.desc.girl;[target_VIET_hyacinthia_courtier.GetFullName] has distinguished herself at the Hyacinthia this year. Her singing, grace, and beautiful was admired by all. Typically, this would mean that she is a highly eligible marriage prospect for many of the local bachelors, but given the presence of a great [Root.GetTitle] such as yourself, perhaps you can offer her something even greater.;;;;;;;;;;;x
+monogatari.178.desc.boy;[target_VIET_hyacinthia_courtier.GetFullName] has distinguished himself at the Hyacinthia this year. He proved himself a worthy man during the various activities, was admired by all. Typically, this would mean he is ensured an important place in the local community, but given the presence of a great [Root.GetTitle] such as yourself, perhaps you can offer her something even greater.;;;;;;;;;;;x
+monogatari.178.a;I think they are better suited serving their community.;;;;;;;;;;;;;x
+monogatari.178.b;Let them join my court. Perhaps they will achieve great things.;;;;;;;;;;;;;x
+monogatari.178.c;I know a courtier I think would make a decent spouse for them.;;;;;;;;;;;;;x
+monogatari.178.d;I wish to take her as my consort.;;;;;;;;;;;;;x
 monogatari.179.desc;xxxxx;;;;;;;;;;;x
 monogatari.179.a;Xxxxxxffff;;;;;;;;;;;;;x
 k_peloponnesian_sparta;Sparta;;;;;;;;;;;;;x
@@ -89,7 +118,7 @@ reform_spartan_kingdom_desc;The Kingdom of Sparta, also known as the Kingdom of 
 restore_fountain_of_peirene;Restore the Fountains of Peirene;;;;;;;;;;;;;x
 restore_fountain_of_peirene_desc;Corinth's waterworks were once a major site of pilgrimage, particularly the Fountain of Peirene. With Hellenic Paganism on the rise again, perhaps we should restore this holy fountain?;;;;;;;;;;;;;x
 hold_hyacinthia_festival;Hold Hyacinthia Festival;;;;;;;;;;;;;x
-hold_hyacinthia_festival_desc;The Hyacinthia Festival was the most important festivals of ancient Sparta. It is a time to mourn the death of the hero Hyacinthus, lover of the god Apollo.;;;;;;;;;;;;;x
+hold_hyacinthia_festival_desc;The Hyacinthia Festival was the most important festivals of ancient Sparta. It is a time to mourn the death of the hero Hyacinthus, lover of the god Apollo, as well as a rite of passage for many young men and women.;;;;;;;;;;;;;x
 VIET_tsakonian_soldier;Tsakonian Marine;;;;;;;;;;;;;x
 VIET_tsakonian_soldier_desc;This man once served in the marine forces of one of the Greek fleets.;;;;;;;;;;;;;x
 VIET_maniot_soldier;Maniot Warrior;;;;;;;;;;;;;x
@@ -105,4 +134,55 @@ VIET_hexamilion_wall;Hexamilion Wall;;;;;;;;;;;;;x
 VIET_hexamilion_wall_desc;The original Hexamilion Wall, built during the reign of Roman Emperor Theodosius II, has been restored to its former glory. A six mile long bulwark stretching across the Isthmus of Corinth, it guards the only land route into the Peloponnesian peninsula from Greece.;;;;;;;;;;;;;x
 VIET_recently_built_hexamilion_wall;Recently Rebuilt the Hexamilion Wall;;;;;;;;;;;;;x
 VIET_recently_built_hexamilion_wall_desc;The local leadership recently spent a considerable amount of time and resources rebuilding the Hexamilion Wall, diverting resources away from other, less critical projects.;;;;;;;;;;;;;x
+VIET_distinguished_at_hyacinthia;Celebrated Hyacinthia Participant;;;;;;;;;;;;;x
+VIET_distinguished_at_hyacinthia_desc;In their youth, this character distinguished themselves during the rites of passage at a Hyacinthia, the ancient Doric festival to the god Apollo and his mortal lover Hyacinthus.;;;;;;;;;;;;;x
+VIET_hyacinthia_recent_text;Hasn't recently attended a Hyacinthia festival;;;;;;;;;;;;;x
+monogatari.180.desc;There is a celebration nearby today, and though I could not attend, the villages presented me with a gift of Diples, a traditional Peloponnesian dessert of thin dough, fried and dipped in syrup and honey.;;;;;;;;;;;x
+monogatari.180.a;A kind gesture.;;;;;;;;;;;;;x
+monogatari.181.desc;The honey from [Root.GetName] is, like many kinds of honey from the Peloponnese, famous throughout much of Greece and Anatolia, and perhaps even beyond in places like Italy and Egypt. Even I need to have some on stock every now and then to present to guests, or for my cooks to use in my food.;;;;;;;;;;;x
+monogatari.181.a;I don’t need to buy any.;;;;;;;;;;;;;x
+monogatari.181.b;I will buy a little for now.;;;;;;;;;;;;;x
+monogatari.181.c;I will buy a lot!;;;;;;;;;;;;;x
+monogatari.182.desc;Recently, a young man from a prominent local Maniot clan died, one you have had some contact with in the past. Yet when you came by to show your sympathies, you noticed his family and friends were not in mourning at all during the funeral. They seemed disappointed and strangely disrespectful if anything else. ;;;;;;;;;;;x
+monogatari.182.a;How insensitive of them! Do they not care for him?;;;;;;;;;;;;;x
+monogatari.182.b;An odd reaction, but it is of no concern to me.;;;;;;;;;;;;;x
+monogatari.182.c;Perhaps there is a reason behind this.;;;;;;;;;;;;;x
+monogatari.183.desc;An elder, who must've seen your confused expression, explained: “When a man dies in such a manner we lament him as unslain, unbled, unjustified. These are the men who give a bad name to Mani and render it hateful wherever they go. Let no one salute them but fly from them as a serpent.”;;;;;;;;;;;x
+monogatari.183.a;A noble ideal! You do your Spartan ancestors proud.;;;;;;;;;;;;;x
+monogatari.183.b;Just like the old Spartans. I will not judge either way.;;;;;;;;;;;;;x
+monogatari.183.c;An odd and cruel worldview.;;;;;;;;;;;;;x
+monogatari.184.desc;xxxxx;;;;;;;;;;;x
+monogatari.184.a;Xxxxxxffff;;;;;;;;;;;;;x
+monogatari.185.desc;xxxxx;;;;;;;;;;;x
+monogatari.185.a;Xxxxxxffff;;;;;;;;;;;;;x
+monogatari.186.desc;xxxxx;;;;;;;;;;;x
+monogatari.186.a;Xxxxxxffff;;;;;;;;;;;;;x
+monogatari.187.desc;xxxxx;;;;;;;;;;;x
+monogatari.187.a;Xxxxxxffff;;;;;;;;;;;;;x
+monogatari.188.desc;xxxxx;;;;;;;;;;;x
+monogatari.188.a;Xxxxxxffff;;;;;;;;;;;;;x
+monogatari.189.desc;xxxxx;;;;;;;;;;;x
+monogatari.189.a;Xxxxxxffff;;;;;;;;;;;;;x
+monogatari.190.desc;xxxxx;;;;;;;;;;;x
+monogatari.190.a;Xxxxxxffff;;;;;;;;;;;;;x
+monogatari.191.desc;xxxxx;;;;;;;;;;;x
+monogatari.191.a;Xxxxxxffff;;;;;;;;;;;;;x
+monogatari.192.desc;xxxxx;;;;;;;;;;;x
+monogatari.192.a;Xxxxxxffff;;;;;;;;;;;;;x
+monogatari.193.desc;xxxxx;;;;;;;;;;;x
+monogatari.193.a;Xxxxxxffff;;;;;;;;;;;;;x
+monogatari.194.desc;xxxxx;;;;;;;;;;;x
+monogatari.194.a;Xxxxxxffff;;;;;;;;;;;;;x
+monogatari.195.desc;xxxxx;;;;;;;;;;;x
+monogatari.195.a;Xxxxxxffff;;;;;;;;;;;;;x
+monogatari.196.desc;xxxxx;;;;;;;;;;;x
+monogatari.196.a;Xxxxxxffff;;;;;;;;;;;;;x
+monogatari.197.desc;xxxxx;;;;;;;;;;;x
+monogatari.197.a;Xxxxxxffff;;;;;;;;;;;;;x
+monogatari.198.desc;xxxxx;;;;;;;;;;;x
+monogatari.198.a;Xxxxxxffff;;;;;;;;;;;;;x
+monogatari.199.desc;xxxxx;;;;;;;;;;;x
+monogatari.199.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIET_peloponnesian_honey;Peloponnesian Honey;;;;;;;;;;;;;x
+VIET_peloponnesian_honey_desc;This character keeps a good stock of famous Peloponnesian honey at home for their cooks to use in food, especially to serve to guests.;;;;;;;;;;;;;x
 xxxxxxxxxxxxxxxxxxxxx;Baklava;;;;;;;;;;;;;x

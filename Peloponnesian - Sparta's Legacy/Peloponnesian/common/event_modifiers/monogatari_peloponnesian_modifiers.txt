@@ -140,3 +140,22 @@ VIET_recently_built_hexamilion_wall = {
 	local_build_cost_modifier = 1.25
 	icon = 22
 }
+VIET_distinguished_at_hyacinthia = {
+	diplomacy = 1
+	martial = 1
+	combat_rating = 5
+	general_opinion = 10
+	sex_appeal_opinion = 10
+	monthly_character_piety = 0.1
+	monthly_character_prestige = 0.1
+	icon = 18
+}
+held_hyacinthia_festival_cooldown = {
+	icon = 18
+}
+VIET_peloponnesian_honey = {
+	general_opinion = 5
+	health = 0.5
+	monthly_character_prestige = 0.05
+	icon = 59
+}

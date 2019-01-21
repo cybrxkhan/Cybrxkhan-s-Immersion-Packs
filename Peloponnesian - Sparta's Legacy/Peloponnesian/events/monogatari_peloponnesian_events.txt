@@ -12,9 +12,9 @@
 # 155 - Peirene Fountain event  
 # 156 - Slavic levy decision event
 # 
-# monogatari.160-169 Hyacinthia Festival Events
+# monogatari.160-178 Hyacinthia Festival Events
 # 
-# 
+# monogatari.180-xxx Generic Flavor Events
 # 
 # 
 ##########################################################################
@@ -1531,15 +1531,1097 @@ character_event = {
 #########################################
 
 
-# Hyacinthia festival start
+# Hyacinthia festival preparations
 character_event = {
 	id = monogatari.160
 	desc = monogatari.160.desc
-	picture = GFX_evt_sclaveni_battle
+	picture = GFX_evt_maniot_inlet
 
 	is_triggered_only = yes
 	
 	option = { #Ok
 		name = "monogatari.160.a"
+		hidden_tooltip = {
+			character_event = { id = monogatari.161 days = 10 }
+		}
+	}
+}
+
+# Hyacinthia festival start
+character_event = {
+	id = monogatari.161
+	desc = monogatari.161.desc
+	picture = GFX_evt_argos_home
+
+	is_triggered_only = yes
+	
+	option = { #Ok
+		name = "monogatari.161.a"
+		hidden_tooltip = {
+			narrative_event = { id = monogatari.162 days = 3 random = 3 }
+		}
+	}
+}
+
+# First day - offerings to the dead
+narrative_event = {
+	id = monogatari.162
+	title = monogatari.162.title
+	desc = monogatari.162.desc
+	picture = GFX_evt_doric_festival
+
+	is_triggered_only = yes
+	
+	option = { #Ok
+		name = "monogatari.162.a"
+		trigger = {
+			NOT = { trait = zealous }
+		}
+		piety = -5
+		random = {
+			add_trait = cynical
+			chance = 20
+		}
+		hidden_tooltip = {
+			narrative_event = { id = monogatari.163 days = 4 random = 3 }
+			#Potential random events
+			#Bland food
+			random = {
+				character_event = { id = monogatari.166 days = 2 random = 2 }	
+				chance = 50
+			}	
+			#Make an offering?
+			random = {
+				character_event = { id = monogatari.167 }	
+				chance = 50
+			}	
+			#Must remain quiet
+			random = {
+				character_event = { id = monogatari.168 }	
+				chance = 50
+			}
+		}
+	}	
+	option = { #Ok
+		name = "monogatari.162.b"
+		hidden_tooltip = {
+			narrative_event = { id = monogatari.163 days = 4 random = 3 }
+			#Potential random events
+			#Bland food
+			random = {
+				character_event = { id = monogatari.166 }	
+				chance = 50
+			}	
+			#Make an offering?
+			random = {
+				character_event = { id = monogatari.167 }	
+				chance = 50
+			}	
+			#Must remain quiet
+			random = {
+				character_event = { id = monogatari.168 }	
+				chance = 50
+			}
+		}
+	}	
+	option = { #Ok
+		name = "monogatari.162.c"
+		piety = 5
+		prestige = -5
+		hidden_tooltip = {
+			narrative_event = { id = monogatari.163 days = 4 random = 3 }
+			#Potential random events
+			#Bland food
+			random = {
+				character_event = { id = monogatari.166 days = 1 random = 2 }	
+				chance = 50
+			}	
+			#Make an offering?
+			random = {
+				character_event = { id = monogatari.167 days = 1 random = 2 }	
+				chance = 50
+			}	
+			#Must remain quiet
+			random = {
+				character_event = { id = monogatari.168 days = 1 random = 2 }	
+				chance = 50
+			}
+		}
+	}	
+	option = { #Ok
+		name = "monogatari.162.d"
+		piety = 10
+		prestige = -10
+		hidden_tooltip = {
+			narrative_event = { id = monogatari.163 days = 4 random = 3 }
+			#Potential random events
+			#Bland food
+			random = {
+				character_event = { id = monogatari.166 days = 1 random = 2 }	
+				chance = 50
+			}	
+			#Make an offering?
+			random = {
+				character_event = { id = monogatari.167 days = 1 random = 2 }	
+				chance = 50
+			}	
+			#Must remain quiet
+			random = {
+				character_event = { id = monogatari.168 days = 1 random = 2 }	
+				chance = 50
+			}
+		}
+	}
+}
+
+# Second day - celebration of the rebirth
+narrative_event = {
+	id = monogatari.163
+	title = monogatari.163.title
+	desc = monogatari.163.desc
+	picture = GFX_evt_doric_festival_outside
+
+	is_triggered_only = yes
+	
+	option = { #Ok
+		name = "monogatari.163.a"
+		hidden_tooltip = {
+			narrative_event = { id = monogatari.164 days = 4 random = 3 }
+			#Potential random events	
+			#Local youths sing
+			random = {
+				character_event = { id = monogatari.169 days = 1 random = 2 }	
+				chance = 50
+			}
+			#Inviting strangers for sacrifice
+			random = {
+				character_event = { id = monogatari.170 days = 1 random = 2 }	
+				chance = 50
+			}
+			#Eating food
+			random = {
+				character_event = { id = monogatari.171 days = 1 random = 2 }	
+				chance = 50
+			}
+			#Horse race
+			random = {
+				character_event = { id = monogatari.173 days = 1 random = 2 }	
+				chance = 50
+			}		
+		}
+	}
+}
+
+# Third day - mysteries
+narrative_event = {
+	id = monogatari.164
+	title = monogatari.164.title
+	desc = monogatari.164.desc
+	picture = GFX_evt_doric_festival
+
+	is_triggered_only = yes
+	
+	option = { #Ok
+		name = "monogatari.164.a"
+		hidden_tooltip = {
+			narrative_event = { id = monogatari.165 days = 4 random = 3 }
+			#Potential random events
+			#Youth or maiden distinguishes themselves at the festival
+			random_list = {
+				15 = { 
+					set_character_flag = VIET_hyacinthia_maiden
+					character_event = { id = monogatari.176 days = 1 random = 2 } 
+				}
+				15 = { 
+					set_character_flag = VIET_hyacinthia_youth
+					character_event = { id = monogatari.176 days = 1 random = 2 } 
+				}
+				70 = { }
+			}
+		}
+	}
+}
+
+# Festival ends
+narrative_event = {
+	id = monogatari.165
+	title = monogatari.165.title
+	desc = monogatari.165.desc
+	picture = GFX_evt_greek_cliffs
+
+	is_triggered_only = yes
+	
+	immediate = {
+		clr_character_flag = VIET_holding_hyacinthia_festival
+		clr_character_flag = VIET_hyacinthia_maiden
+		clr_character_flag = VIET_hyacinthia_youth
+		clr_character_flag = do_not_disturb
+		add_character_modifier = {
+			name = held_hyacinthia_festival_cooldown
+			duration = 1825			
+			hidden = yes
+		}	
+	}
+	
+	option = { #Ok
+		name = "monogatari.165.a"
+		prestige = 20
+		piety = 20
+	}
+}
+
+# First day - bland food
+character_event = {
+	id = monogatari.166
+	desc = monogatari.166.desc
+	picture = GFX_evt_baklava_peloponnesian
+
+	is_triggered_only = yes
+	
+	option = { # Can't do it
+		name = "monogatari.166.a"
+		trigger = {
+			NOT = { trait = temperate }
+		}
+		piety = -5
+		random_list = {
+			10 = { add_trait = proud }
+			10 = { add_trait = cynical }
+			80 = { }
+		}
+	}	
+	option = { # Not a problem!
+		name = "monogatari.166.b"
+		trigger = {
+			NOT = { trait = gluttonous }
+		}
+		piety = 5
+	}
+}
+
+# First day - what sort of offering to make?
+character_event = {
+	id = monogatari.167
+	desc = monogatari.167.desc
+	picture = GFX_evt_hellenic_temple
+
+	is_triggered_only = yes
+	
+	option = { # Myself
+		name = "monogatari.167.a"
+		piety = -5
+		prestige = 5
+	}	
+	option = { # Small offering
+		name = "monogatari.167.b"
+		wealth = -5
+		random_list = {
+			40 = { }
+			30 = { piety = 5 }
+			20 = { piety = 10 }
+			10 = { piety = 15 }
+		}
+	}
+	option = { # Medium offering
+		name = "monogatari.167.c"
+		trigger = {
+			OR = {
+				wealth = 10
+				ai = no
+			}
+		}
+		wealth = -10
+		random_list = {
+			40 = { piety = 5 }
+			30 = { piety = 10 }
+			20 = { piety = 15 }
+			10 = { piety = 20 }
+		}
+	}
+	option = { # Large offering
+		name = "monogatari.167.d"
+		trigger = {
+			OR = {
+				wealth = 20
+				ai = no
+			}
+		}
+		wealth = -20
+		random_list = {
+			40 = { piety = 10 }
+			30 = { piety = 20 }
+			20 = { piety = 30 }
+			10 = { piety = 40 }
+		}
+	}
+}
+
+# First day - remain quiet
+character_event = {
+	id = monogatari.168
+	desc = monogatari.168.desc
+	picture = GFX_evt_tsakonia_coast
+
+	is_triggered_only = yes
+	
+	option = { # Myself
+		name = "monogatari.168.a"
+		piety = 5
+	}
+}
+
+# Second day - singing youths
+character_event = {
+	id = monogatari.169
+	desc = monogatari.169.desc
+	picture = GFX_evt_doric_festival_outside
+
+	is_triggered_only = yes
+	
+	option = { # Ok
+		name = "monogatari.169.a"
+		prestige = 5
+	}	
+	option = { # Join in dancing!
+		name = "monogatari.169.b"
+		prestige = 5
+		random = {
+			add_trait = gregarious
+			chance = 25
+		}
+	}
+}
+
+# Second day - inviting strangers to partake in sacrifices
+character_event = {
+	id = monogatari.170
+	desc = monogatari.170.desc
+	picture = GFX_evt_doric_festival_outside
+
+	is_triggered_only = yes
+	
+	option = { # Ok
+		name = "monogatari.170.a"
+		piety = 5
+		random = {
+			add_trait = humble
+			chance = 25
+		}
+	}	
+	option = { # No
+		name = "monogatari.170.b"
+		prestige = 5
+		random_list = {
+			10 = { add_trait = shy }
+			10 = { add_trait = proud }
+			10 = { add_trait = diligent }
+			70 = { }
+		}
+	}
+}
+
+# Second day - time to eat
+character_event = {
+	id = monogatari.171
+	desc = monogatari.171.desc
+	picture = GFX_evt_baklava_peloponnesian
+
+	is_triggered_only = yes
+	
+	option = { # Bread and meat
+		name = "monogatari.171.a"
+		random_list = {
+			15 = { piety = 5 }
+			15 = { prestige = 5 }
+			70 = { }
+		}
+		hidden_tooltip = {
+			character_event = { id = monogatari.172 }
+		}
+	}	
+	option = { # Herbal soup
+		name = "monogatari.171.b"
+		random_list = {
+			15 = { piety = 5 }
+			15 = { prestige = 5 }
+			70 = { }
+		}
+		hidden_tooltip = {
+			character_event = { id = monogatari.172 }
+		}
+	}	
+	option = { # Fresh olives
+		name = "monogatari.171.c"
+		random_list = {
+			15 = { piety = 5 }
+			15 = { prestige = 5 }
+			70 = { }
+		}
+		hidden_tooltip = {
+			character_event = { id = monogatari.172 }
+		}
+	}	
+	option = { # Eggs and feta cheese
+		name = "monogatari.171.d"
+		random_list = {
+			15 = { piety = 5 }
+			15 = { prestige = 5 }
+			70 = { }
+		}
+		hidden_tooltip = {
+			character_event = { id = monogatari.172 }
+		}
+	}
+}
+
+# Second day - dessert
+character_event = {
+	id = monogatari.172
+	desc = monogatari.172.desc
+	picture = GFX_evt_baklava_peloponnesian
+
+	is_triggered_only = yes
+	
+	option = { # Figs
+		name = "monogatari.172.a"
+		random_list = {
+			15 = { piety = 5 }
+			15 = { prestige = 5 }
+			70 = { }
+		}
+	}	
+	option = { # Sweetcake
+		name = "monogatari.172.b"
+		random_list = {
+			15 = { piety = 5 }
+			15 = { prestige = 5 }
+			70 = { }
+		}
+	}	
+	option = { # Baklava
+		name = "monogatari.172.c"
+		random_list = {
+			15 = { piety = 5 }
+			15 = { prestige = 5 }
+			70 = { }
+		}
+	}	
+	option = { # Grapes
+		name = "monogatari.172.d"
+		random_list = {
+			15 = { piety = 5 }
+			15 = { prestige = 5 }
+			70 = { }
+		}
+	}
+}
+
+# Second day - horse race
+character_event = {
+	id = monogatari.173
+	desc = monogatari.173.desc
+	picture = GFX_evt_arcadian_fort
+
+	is_triggered_only = yes
+	
+	option = { # Contestant 1
+		name = "monogatari.173.a"
+		hidden_tooltip = {
+			random_list = {
+				50 = { character_event = { id = monogatari.174 } }
+				50 = { character_event = { id = monogatari.175 } }
+			}
+		}
+	}	
+	option = { # Contestant 2
+		name = "monogatari.173.b"
+		hidden_tooltip = {
+			random_list = {
+				50 = { character_event = { id = monogatari.174 } }
+				50 = { character_event = { id = monogatari.175 } }
+			}
+		}
+	}	
+	option = { # Contestant 3
+		name = "monogatari.173.c"
+		hidden_tooltip = {
+			random_list = {
+				50 = { character_event = { id = monogatari.174 } }
+				50 = { character_event = { id = monogatari.175 } }
+			}
+		}
+	}	
+	option = { # Contestant 4
+		name = "monogatari.173.d"
+		hidden_tooltip = {
+			random_list = {
+				50 = { character_event = { id = monogatari.174 } }
+				50 = { character_event = { id = monogatari.175 } }
+			}
+		}
+	}
+}
+
+# Second day - horse race contestant loses
+character_event = {
+	id = monogatari.174
+	desc = monogatari.174.desc
+	picture = GFX_evt_arcadian_fort
+
+	is_triggered_only = yes
+	
+	option = { # Pathetic
+		name = "monogatari.174.a"
+		trigger = {
+			NOR = {
+				trait = kind
+				trait = trusting
+				trait = humble
+			}
+		}
+		random_list = {
+			10 = { add_trait = proud }
+			10 = { add_trait = stubborn }
+			10 = { add_trait = cruel }
+			70 = { }
+		}
+	}	
+	option = { # Man up
+		name = "monogatari.174.b"
+		random_list = {
+			10 = { add_trait = proud }
+			20 = { prestige = 5 }
+			70 = { }
+		}
+	}	
+	option = { # Did well
+		name = "monogatari.174.c"
+		random_list = {
+			10 = { add_trait = kind }
+			10 = { add_trait = trusting }
+			10 = { add_trait = humble }
+			70 = { }
+		}
+	}	
+	option = { # Don't worry
+		name = "monogatari.174.d"
+		random_list = {
+			10 = { add_trait = content }
+			10 = { add_trait = cynical }
+			10 = { add_trait = patient }
+			70 = { }
+		}
+	}
+}
+
+# Second day - horse race contestant wins
+character_event = {
+	id = monogatari.175
+	desc = monogatari.175.desc
+	picture = GFX_evt_arcadian_fort
+
+	is_triggered_only = yes
+	
+	option = { # Cool
+		name = "monogatari.175.a"
+		prestige = 5
+	}
+}
+
+# Third day - maiden or youth distinguishes themselves
+character_event = {
+	id = monogatari.176
+	hide_window = yes
+
+	is_triggered_only = yes
+	
+	immediate = {
+		if = {
+			limit = {
+				has_character_flag = VIET_hyacinthia_maiden
+			}
+			create_character = {
+				religion = ROOT
+				culture = ROOT
+				dynasty = random
+				age = 16
+				random_traits = yes
+				female = yes
+			}
+			new_character = {
+				set_character_flag = no_court_invites
+				set_character_flag = VIET_peloponnesian_hyacinthia_maiden
+				remove_trait = slow
+				remove_trait = imbecile
+				remove_trait = dull
+				remove_trait = uncouth
+				random_list = {
+					50 = { add_trait = fair }
+					50 = { add_trait = groomed }
+				}
+				save_event_target_as = target_VIET_hyacinthia_courtier
+				character_event = { id = monogatari.177 }
+			}	
+		}
+		if = {
+			limit = {
+				has_character_flag = VIET_hyacinthia_youth
+			}
+			create_character = {
+				religion = ROOT
+				culture = ROOT
+				dynasty = actually_culture
+				age = 16
+				random_traits = yes
+				female = no
+			}
+			new_character = {
+				set_character_flag = no_court_invites
+				set_character_flag = VIET_peloponnesian_hyacinthia_youth
+				remove_trait = slow
+				remove_trait = imbecile
+				remove_trait = dull
+				remove_trait = uncouth
+				remove_trait = frail
+				random_list = {
+					10 = { add_trait = fair }
+					20 = { add_trait = groomed }
+					10 = { add_trait = strong }
+					20 = { add_trait = robust }
+				}
+				save_event_target_as = target_VIET_hyacinthia_courtier
+				character_event = { id = monogatari.177 }
+			}	
+		}	
+	}
+}
+
+# Third day - ping
+character_event = {
+	id = monogatari.177
+	hide_window = yes
+	hide_new = yes
+	is_triggered_only = yes
+
+	immediate = {
+		FROM = { character_event = { id = monogatari.178 } }
+	}
+}
+
+# Third day - invite to court?
+character_event = {
+	id = monogatari.178
+	#desc = monogatari.178.desc
+	picture = GFX_evt_argos_home
+	
+	portrait = event_target:target_VIET_hyacinthia_courtier
+
+	is_triggered_only = yes
+	
+	desc = {
+		text = monogatari.178.desc.girl
+		picture = GFX_evt_argos_home
+		trigger = { has_character_flag = VIET_hyacinthia_maiden } 
+	}	
+	desc = {
+		text = monogatari.178.desc.boy
+		picture = GFX_evt_arcadian_fort
+		trigger = { has_character_flag = VIET_hyacinthia_youth } 
+	}
+	
+	immediate = {
+		if = {
+			limit = {
+				has_character_flag = VIET_hyacinthia_maiden
+				any_courtier = {
+					is_adult = yes
+					is_female = no
+					NOT = { age = 45 }
+					NOT = { trait = incapable }
+					is_married = no
+					has_lover = no
+				}			
+			}
+			random_courtier = {
+				limit = {
+					is_adult = yes
+					is_female = no
+					NOT = { age = 45 }
+					NOT = { trait = incapable }
+					is_married = no
+					has_lover = no
+				}
+				save_event_target_as = target_VIET_hyacinthia_groom
+			}
+		}
+		if = {
+			limit = {
+				has_character_flag = VIET_hyacinthia_youth
+				any_courtier = {
+					is_adult = yes
+					is_female = yes
+					NOT = { age = 30 }
+					NOT = { trait = incapable }
+					is_married = no
+					has_lover = no
+				}			
+			}
+			random_courtier = {
+				limit = {
+					is_adult = yes
+					is_female = yes
+					NOT = { age = 30 }
+					NOT = { trait = incapable }
+					is_married = no
+					has_lover = no
+				}
+				save_event_target_as = target_VIET_hyacinthia_bride
+			}
+		}
+	}
+	
+	option = { # Cool
+		name = "monogatari.178.a"
+		prestige = 5
+		hidden_tooltip = {
+			event_target:target_VIET_hyacinthia_courtier = { 
+				death = {
+					death_reason = death_missing
+				}
+			}
+		}
+	}	
+	option = { # Cool
+		name = "monogatari.178.b"
+		hidden_tooltip = {
+			event_target:target_VIET_hyacinthia_courtier = { 
+				prestige = 50
+				add_character_modifier = {
+					name = VIET_distinguished_at_hyacinthia
+					duration = -1
+				}
+			}
+		}
+	}
+	option = { # Matchmaker
+		name = "monogatari.178.c"
+		trigger = {
+			has_character_flag = VIET_hyacinthia_maiden
+			any_courtier = {
+				is_adult = yes
+				is_female = no
+				NOT = { age = 45 }
+				NOT = { trait = incapable }
+				is_married = no
+				has_lover = no
+			}
+		}
+		event_target:target_VIET_hyacinthia_courtier = {
+			add_spouse = event_target:target_VIET_hyacinthia_groom
+		}
+		hidden_tooltip = {
+			event_target:target_VIET_hyacinthia_courtier = { 
+				prestige = 50
+				add_character_modifier = {
+					name = VIET_distinguished_at_hyacinthia
+					duration = -1
+				}
+			}
+		}
+	}
+	option = { # Matchmaker
+		name = "monogatari.178.c"
+		trigger = {
+			has_character_flag = VIET_hyacinthia_youth
+			any_courtier = {
+				is_adult = yes
+				is_female = yes
+				NOT = { age = 30 }
+				NOT = { trait = incapable }
+				is_married = no
+				has_lover = no
+			}
+		}
+		event_target:target_VIET_hyacinthia_courtier = {
+			add_spouse = event_target:target_VIET_hyacinthia_bride
+		}
+		hidden_tooltip = {
+			event_target:target_VIET_hyacinthia_courtier = { 
+				prestige = 50
+				add_character_modifier = {
+					name = VIET_distinguished_at_hyacinthia
+					duration = -1
+				}
+			}
+		}
+	}
+	option = { # Marry myself
+		name = "monogatari.178.d"
+		trigger = {
+			is_married = no
+			is_female = no
+			has_character_flag = VIET_hyacinthia_maiden
+		}
+		add_spouse = event_target:target_VIET_hyacinthia_courtier
+		hidden_tooltip = {
+			event_target:target_VIET_hyacinthia_courtier = { 
+				prestige = 50
+				add_character_modifier = {
+					name = VIET_distinguished_at_hyacinthia
+					duration = -1
+				}
+			}
+		}
+	}
+}
+
+
+######################################################
+#
+# GENERIC FLAVOR EVENTS
+# monogatari.180-???
+#
+######################################################
+
+
+
+# Peasants present a gift of Diples
+character_event = {
+	id = monogatari.180
+	desc = monogatari.180.desc
+	picture = GFX_evt_baklava_peloponnesian
+
+	min_age = 16	
+	prisoner = no
+	only_playable = yes
+	capable_only = yes
+	war = no
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		OR = {
+			any_demesne_province = {
+				culture = tsakonian
+			}
+			has_landed_title = c_korinthos
+			has_landed_title = c_achaia
+			has_landed_title = c_methone
+			has_landed_title = c_monemvasia
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1		
+	}
+	
+	option = {
+		name = monogatari.180.a
+		prestige = 5
+	}
+}
+
+
+# Keeping a stock of Peloponnesian honey
+province_event = {
+	id = monogatari.181
+	desc = monogatari.181.desc
+	picture = GFX_evt_baklava_peloponnesian
+	
+	trigger = {
+		OR = {
+			province_id = 476
+			province_id = 477
+			province_id = 478
+			province_id = 481
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1000		
+	}
+	
+	option = {
+		name = monogatari.181.a
+	}	
+	
+	option = {
+		name = monogatari.181.b
+		trigger = {
+			owner = {
+				OR = {
+					ai = no
+					wealth = 10
+				}
+			}
+		}
+		wealth = -10
+		add_character_modifier = {
+			name = VIET_peloponnesian_honey
+			duration = 365
+		}
+	}	
+	
+	option = {
+		name = monogatari.181.c
+		trigger = {
+			owner = {
+				OR = {
+					ai = no
+					wealth = 20
+				}
+			}
+		}
+		wealth = -20
+		add_character_modifier = {
+			name = VIET_peloponnesian_honey
+			duration = 1095
+		}
+	}	
+}
+
+
+# Maniot funeral of young man
+character_event = {
+	id = monogatari.182
+	desc = monogatari.182.desc
+	picture = GFX_evt_maniot_inlet
+
+	min_age = 16	
+	prisoner = no
+	only_playable = yes
+	capable_only = yes
+	war = no
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { culture = tsakonian }
+		OR = {
+			any_demesne_province = {
+				culture = tsakonian
+			}
+			has_landed_title = c_korinthos
+			has_landed_title = c_achaia
+			has_landed_title = c_methone
+			has_landed_title = c_monemvasia
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1		
+	}
+	
+	option = { #Insensitive!
+		name = monogatari.182.a
+		random_list = {
+			10 = { add_trait = just }
+			10 = { add_trait = wroth }
+			5 = { add_trait = diligent }
+			5 = { add_trait = paranoid }
+			70 = { }
+		}
+		if = {
+			limit = {
+				trait = content
+			}
+			random = {
+				remove_trait = content
+				chance = 20
+			}
+		}
+		hidden_tooltip = {
+			character_event = { id = monogatari.183 }
+		}
+	}	
+	option = { #No concern
+		name = monogatari.182.b
+		random_list = {
+			10 = { add_trait = slothful }
+			10 = { add_trait = content }
+			80 = { }
+		}
+		hidden_tooltip = {
+			character_event = { id = monogatari.183 }
+		}
+	}	
+	option = { #Maybe a reason?
+		name = monogatari.182.c
+		random_list = {
+			10 = { trait = trusting }
+			10 = { trait = content }
+			80 = { }
+		}
+		hidden_tooltip = {
+			character_event = { id = monogatari.183 }
+		}
+	}
+}
+
+# Maniot funeral of young man - part 2
+character_event = {
+	id = monogatari.183
+	desc = monogatari.183.desc
+	picture = GFX_evt_arcadian_fort
+	
+	is_triggered_only = yes
+	
+	option = { # Make Spartan ancestors proud!
+		name = monogatari.183.a
+		prestige = 5
+		piety = -5
+	}		
+	option = { # Don't care
+		name = monogatari.183.b
+	}			
+	option = { # Cruel worldview
+		name = monogatari.183.c
+		piety = 5
+		presige = -5
+	}	
+}
+
+# Sightings of the Erymanthian  boar
+character_event = {
+	id = monogatari.184
+	desc = monogatari.184.desc
+	picture = GFX_evt_arcadian_fort
+
+	min_age = 16	
+	prisoner = no
+	only_playable = yes
+	capable_only = yes
+	war = no
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		OR = {
+			has_landed_title = c_korinthos
+			has_landed_title = c_achaia
+			has_landed_title = c_methone
+			has_landed_title = c_monemvasia
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1		
+	}
+	
+	option = { #Send in soldiers
+		name = monogatari.182.a
+		piety = 5
+		random = {
+			add_trait = diligent
+			chance = 15
+		}
+	}	
+	option = { #Silly superstition
+		name = monogatari.182.b
+		prestige = 5
+		random = {
+			add_trait = cynical
+			chance = 15
+		}
 	}
 }

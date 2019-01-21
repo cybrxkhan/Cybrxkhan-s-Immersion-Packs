@@ -39,6 +39,16 @@ spriteTypes = {
 		allwaystransparent = yes
 	}
 	spriteType = {
+		name = "GFX_evt_doric_festival_outside"
+		texturefile = "gfx\\event_pictures\doric_festival_outside.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_baklava_peloponnesian"
+		texturefile = "gfx\\event_pictures\baklava_peloponnesian.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
 		name = "GFX_restore_fountain_of_peirene"
 		texturefile = "gfx\\interface\\decision_icon_restore_fountain_of_peirene.dds"
 	}

@@ -150,7 +150,6 @@ decisions = {
 			is_playable = yes
 			is_adult = yes
 			prisoner = no
-			NOT = { has_character_modifier = held_hyacinthia_festival_cooldown }
 			NOT = {	has_character_flag = flag_holding_great_tribal_festival }
 			OR = {
 				religion = hellenic_pagan
@@ -173,8 +172,12 @@ decisions = {
 				hidden_tooltip = { NOT = { has_character_flag = do_not_disturb } }
 			}
 			wealth = 25
-			month = 5
+			month = 4
 			NOT = { month = 8 }
+			custom_tooltip = {
+				text = VIET_hyacinthia_recent_text
+				NOT = { has_character_modifier = held_hyacinthia_festival_cooldown }
+			}
 		}
 		effect = {
 			wealth = -25
