@@ -646,7 +646,7 @@ character_event =  {
 						age = 6
 						dynasty = ROOT
 						random_traits = yes
-						female = 50
+						female = random
 						religion = hellenic_pagan
 						culture = levantine_arabic
 						genetic_father = ROOT
@@ -769,7 +769,7 @@ character_event =  {
 						age = 20
 						random_traits = yes
 						dynasty = ROOT
-						female = 50
+						female = random
 						religion = hellenic_pagan
 						culture = levantine_arabic
 						genetic_father = ROOT
@@ -792,7 +792,7 @@ character_event =  {
 					age = 18
 					random_traits = yes
 					dynasty = ROOT
-					female = 50
+					female = random
 					religion = hellenic_pagan
 					culture = levantine_arabic
 					flag = ai_flag_refuse_conversion
@@ -1206,7 +1206,7 @@ character_event = {
 				40 = { #random bloke
 					create_character = {
 						random_traits = yes
-						dynasty = none
+						dynasty = random
 						female = no
 						religion = hellenic_pagan
 						culture = levantine_arabic
@@ -1305,7 +1305,7 @@ character_event = {
 					}
 					create_character = {
 						random_traits = yes
-						dynasty = none
+						dynasty = random
 						female = no
 						religion = hellenic_pagan
 						culture = levantine_arabic
@@ -1411,7 +1411,7 @@ character_event = {
 					}
 					create_character = {
 						random_traits = yes
-						dynasty = none
+						dynasty = random
 						female = no
 						religion = hellenic_pagan
 						culture = levantine_arabic
@@ -2764,7 +2764,7 @@ character_event = {
 					religion = hellenic_pagan
 					culture = levantine_arabic
 					female = no
-					age = 33
+					age = 26
 					historical = yes
 				}
 				new_character = {
@@ -2837,7 +2837,7 @@ character_event = {
 					religion = hellenic_pagan
 					culture = levantine_arabic
 					female = yes
-					age = 33
+					age = 26
 					historical = yes
 				}
 				new_character = {
@@ -3050,7 +3050,7 @@ character_event = {
 					religion = hellenic_pagan
 					culture = levantine_arabic
 					female = no
-					age = 33
+					age = 28
 					historical = yes
 				}
 				new_character = {
@@ -3077,7 +3077,7 @@ character_event = {
 					religion = hellenic_pagan
 					culture = levantine_arabic
 					female = yes
-					age = 31
+					age = 24
 					historical = yes
 				}
 				new_character = {
@@ -3107,7 +3107,7 @@ character_event = {
 							religion = hellenic_pagan
 							culture = levantine_arabic
 							female = yes
-							age = 28
+							age = 16
 							historical = yes
 						}
 						new_character = {
@@ -3136,7 +3136,7 @@ character_event = {
 							religion = hellenic_pagan
 							culture = levantine_arabic
 							female = no
-							age = 28
+							age = 16
 							historical = yes
 						}
 						new_character = {
@@ -3165,7 +3165,7 @@ character_event = {
 							religion = hellenic_pagan
 							culture = levantine_arabic
 							female = no
-							age = 28
+							age = 16
 							historical = yes
 						}
 						new_character = {
@@ -3193,7 +3193,7 @@ character_event = {
 							religion = hellenic_pagan
 							culture = levantine_arabic
 							female = yes
-							age = 28
+							age = 16
 							historical = yes
 						}
 						new_character = {
@@ -3597,6 +3597,9 @@ character_event = {
 				culture = levantine_arabic
 				female = no
 				historical = yes
+				attributes = {
+					diplomacy = 8
+				}
 			}
 			new_character = {
 				set_character_flag = ai_flag_refuse_marriage
@@ -3678,6 +3681,9 @@ character_event = {
 				culture = levantine_arabic
 				female = no
 				historical = yes
+				attributes = {
+					stewardship = 8
+				}
 			}
 			new_character = {
 				wealth = 100
@@ -3761,6 +3767,9 @@ character_event = {
 				culture = levantine_arabic
 				female = no
 				historical = yes
+				attributes = {
+					martial = 8
+				}
 			}
 			new_character = {
 				set_character_flag = ai_flag_refuse_marriage
@@ -3856,6 +3865,9 @@ character_event = {
 				culture = levantine_arabic
 				female = no
 				historical = yes
+				attributes = {
+					intrigue = 8
+				}
 			}
 			new_character = {
 				set_character_flag = ai_flag_refuse_marriage
@@ -4213,7 +4225,7 @@ character_event = {
 		name = monogatari.127.c
 		custom_tooltip = { text = VIET_thabit_CYOA_marry_mentor_daughter }
 		hidden_tooltip = {
-			piety = -30
+			piety = -10
 			prestige = 10
 			change_learning = 2
 			random_list = {
@@ -5329,9 +5341,10 @@ character_event = {
 							#Appearance randomizer
 							random_list = {
 								50 = { }
-								25 = { set_graphical_culture = levantine_arabic }
+								20 = { set_graphical_culture = levantine_arabic }
 								10 = { set_graphical_culture = persian }
 								5 = { set_graphical_culture = turkish }
+								5 = { set_graphical_culture = serbian }
 							}
 							#Archetypes
 							random_list = {
@@ -7461,9 +7474,10 @@ character_event = {
 							#Appearance randomizer
 							random_list = {
 								50 = { }
-								25 = { set_graphical_culture = levantine_arabic }
+								20 = { set_graphical_culture = levantine_arabic }
 								10 = { set_graphical_culture = persian }
 								5 = { set_graphical_culture = turkish }
+								5 = { set_graphical_culture = serbian }
 							}			
 						}				
 					}
@@ -8014,9 +8028,78 @@ character_event = {
 							#Appearance randomizer
 							random_list = {
 								50 = { }
-								25 = { set_graphical_culture = levantine_arabic }
+								20 = { set_graphical_culture = levantine_arabic }
 								10 = { set_graphical_culture = persian }
 								5 = { set_graphical_culture = turkish }
+								5 = { set_graphical_culture = serbian }
+							}
+							#Nerdy archetype
+							random_list = {
+								#Shy bookworm - super introvert
+								10 = {
+									add_trait = scholar
+									add_trait = shy
+									add_trait = humble
+									add_trait = kind
+									add_trait = craven
+									add_trait = content
+								}
+								#Shy bookworm - warm up to you
+								10 = {
+									add_trait = scholar
+									add_trait = shy
+									add_trait = patient
+									add_trait = kind
+									add_trait = honest
+									add_trait = trusting
+								}
+								#Classy poet
+								10 = {
+									add_trait = poet
+									add_trait = gregarious
+									add_trait = erudite
+									add_trait = honest
+									add_trait = just
+								}
+								#Naive generic female lead
+								10 = {
+									add_trait = kind
+									add_trait = stubborn
+									add_trait = diligent
+									add_trait = just
+									add_trait = humble
+								}
+								#Sassy
+								10 = {
+									add_trait = cynical
+									add_trait = honest
+									add_trait = stubborn
+									add_trait = just
+								}
+								#reads hentai
+								10 = {
+									add_trait = lustful
+									add_trait = shy
+									add_trait = diligent
+									add_trait = deceitful
+								}
+								#tomboy
+								10 = {
+									add_trait = scholar
+									add_trait = brave
+									add_trait = gregarious
+									add_trait = gluttonous
+									add_trait = slothful
+								}
+								#Hippie
+								10 = {
+									add_trait = mystic
+									add_trait = arbitrary
+									add_trait = kind
+									add_trait = humble
+									add_trait = temperate
+									add_trait = patient
+								}
 							}			
 						}				
 					}
@@ -9540,9 +9623,9 @@ character_event = {
 						event_target:target_VIET_harranian_scholar = { NOT = { stewardship = 6 } }
 					}
 					add_artifact = monogatari_harranian_treatise_astronomy
-					new_artifact = {
-						set_artifact_original_owner = event_target:target_VIET_harranian_scholar
-					}
+					#new_artifact = {
+					#	set_artifact_original_owner = event_target:target_VIET_harranian_scholar
+					#}
 				}
 				10 = {
 					modifier = {
@@ -9550,9 +9633,9 @@ character_event = {
 						event_target:target_VIET_harranian_scholar = { NOT = { stewardship = 6 } }
 					}
 					add_artifact = monogatari_harranian_treatise_geometry
-					new_artifact = {
-						set_artifact_original_owner = event_target:target_VIET_harranian_scholar
-					}
+					#new_artifact = {
+					#	set_artifact_original_owner = event_target:target_VIET_harranian_scholar
+					#}
 				}
 				10 = {
 					modifier = {
@@ -9560,9 +9643,9 @@ character_event = {
 						event_target:target_VIET_harranian_scholar = { NOT = { stewardship = 6 } }
 					}
 					add_artifact = monogatari_harranian_treatise_algebra
-					new_artifact = {
-						set_artifact_original_owner = event_target:target_VIET_harranian_scholar
-					}
+					#new_artifact = {
+					#	set_artifact_original_owner = event_target:target_VIET_harranian_scholar
+					#}
 				}
 				10 = {
 					modifier = {
@@ -9570,9 +9653,9 @@ character_event = {
 						event_target:target_VIET_harranian_scholar = { NOT = { diplomacy = 6 } }
 					}
 					add_artifact = monogatari_harranian_treatise_greek_philosophy
-					new_artifact = {
-						set_artifact_original_owner = event_target:target_VIET_harranian_scholar
-					}
+					#new_artifact = {
+					#	set_artifact_original_owner = event_target:target_VIET_harranian_scholar
+					#}
 				}
 				10 = {
 					modifier = {
@@ -9584,9 +9667,9 @@ character_event = {
 						event_target:target_VIET_harranian_scholar = { NOT = { diplomacy = 6 } }
 					}
 					add_artifact = monogatari_harranian_treatise_harranian_history
-					new_artifact = {
-						set_artifact_original_owner = event_target:target_VIET_harranian_scholar
-					}
+					#new_artifact = {
+					#	set_artifact_original_owner = event_target:target_VIET_harranian_scholar
+					#}
 				}
 				10 = {
 					modifier = {
@@ -9598,9 +9681,9 @@ character_event = {
 						event_target:target_VIET_harranian_scholar = { trait = cynical }
 					}
 					add_artifact = monogatari_harranian_treatise_mysticism
-					new_artifact = {
-						set_artifact_original_owner = event_target:target_VIET_harranian_scholar
-					}
+					#new_artifact = {
+					#	set_artifact_original_owner = event_target:target_VIET_harranian_scholar
+					#}
 				}
 				10 = {
 					modifier = {
@@ -9612,9 +9695,9 @@ character_event = {
 						event_target:target_VIET_harranian_scholar = { NOT = { intrigue = 6 } }
 					}
 					add_artifact = monogatari_harranian_treatise_medicine
-					new_artifact = {
-						set_artifact_original_owner = event_target:target_VIET_harranian_scholar
-					}
+					#new_artifact = {
+					#	set_artifact_original_owner = event_target:target_VIET_harranian_scholar
+					#}
 				}
 			}
 		}

@@ -16,9 +16,12 @@
 	trait="scholar"
 	trait="mystic"
 	father=100015895
-	800.1.1={ #made up dates
-		birth="800.1.1"
-		effect = { set_character_flag = is_thabit_ibn_qurra_father }
+	800.3.15={ #made up dates
+		birth="800.3.15"
+		effect = { 
+			set_character_flag = is_thabit_ibn_qurra_father 
+			set_character_flag = VIET_harranian_courtier 
+		}
 	}
 	869.1.1={
 		death="869.1.1"
@@ -36,9 +39,12 @@
 	trait="mystic"
 	trait="cynical" #seemed to have some disagreements with some Harranians in doctrinal matters
 	father=100015890
-	836.1.1={ #some sources online say 826, but I'm going with 836 to make him younger at the 867 start
-		birth="836.1.1"
-		effect = { set_character_flag = is_thabit_ibn_qurra_himself }
+	836.4.13={ #some sources online say 826, but I'm going with 836 to make him younger at the 867 start
+		birth="836.4.13"
+		effect = { 
+			set_character_flag = is_thabit_ibn_qurra_himself 
+			set_character_flag = VIET_harranian_courtier 
+		}
 	}
 	867.1.1 = {
 		employer=34014
@@ -60,6 +66,9 @@
 			type = monogatari_harranian_bloodline
 			has_dlc = "Holy Fury"
 		}
+		effect = {
+			set_character_flag = VIET_harranian_courtier 
+		}
 	}
 	769.1.1 = {
 		employer=34002
@@ -76,8 +85,11 @@
 	trait="scholarly_theologian"
 	trait="scholar"
 	father=100015892
-	813.1.1={ #made up dates 
-		birth="813.1.1"
+	813.6.6={ #made up dates 
+		birth="813.6.6"
+		effect = {
+			set_character_flag = VIET_harranian_courtier 
+		}
 	}
 	867.1.1 = {
 		employer=34014
@@ -95,8 +107,11 @@
 	trait="scholar"
 	trait="quick"
 	father=100015893
-	858.1.1={
-		birth="858.1.1"
+	858.8.2={
+		birth="858.8.2"
+		effect = {
+			set_character_flag = VIET_harranian_courtier 
+		}
 	}
 	867.1.1 = {
 		employer=34014
@@ -115,9 +130,12 @@
 	trait="mystic"
 	trait="quick"
 	father=100015896
-	768.1.1={ #made up dates
-		birth="768.1.1"
-		effect = { set_character_flag = is_thabit_ibn_qurra_grandfather }
+	768.5.7={ #made up dates
+		birth="768.5.7"
+		effect = { 
+			set_character_flag = is_thabit_ibn_qurra_grandfather 
+			set_character_flag = VIET_harranian_courtier 
+		}
 		employer=34002
 	}
 	835.1.1={
@@ -134,9 +152,12 @@
 	trait="mystic"
 	trait="quick"
 	father=100015897
-	746.1.1={ #made up dates
-		birth="746.1.1"
-		effect = { set_character_flag = is_thabit_ibn_qurra_greatgrandfather }
+	746.4.4={ #made up dates
+		birth="746.4.4"
+		effect = { 
+			set_character_flag = is_thabit_ibn_qurra_greatgrandfather 
+			set_character_flag = VIET_harranian_courtier 
+		}
 		employer=34002
 	}
 	825.1.1={
@@ -150,8 +171,11 @@
 	culture="levantine_arabic"
 	trait="scholar"
 	father=100015898
-	710.1.1={ #made up dates
-		birth="710.1.1"
+	710.11.15={ #made up dates
+		birth="710.11.15"
+		effect = {
+			set_character_flag = VIET_harranian_courtier 
+		}
 	}
 	770.1.1={
 		death="770.1.1"
@@ -228,8 +252,8 @@
 	trait="quick"
 	trait="scholar"
 	father=100015903
-	890.1.1={ #made up dates
-		birth="890.1.1"
+	890.7.1={ #made up dates
+		birth="890.7.1"
 	}
 	950.1.1={
 		death="950.1.1"
@@ -246,7 +270,10 @@
 	father=100015891
 	866.1.1={ #made up dates
 		birth="866.1.1"
-		effect = { set_character_flag = is_thabit_ibn_qurra_son	}
+		effect = { 
+			set_character_flag = is_thabit_ibn_qurra_son	
+			set_character_flag = VIET_harranian_courtier	
+		}
 	}
 	886.1.1={
 		effect = { 
