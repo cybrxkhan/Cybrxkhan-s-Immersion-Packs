@@ -1,0 +1,168 @@
+# Peloponnesian music - more likely to play for those of the Byzantine culture groups, or those whose capitals have such cultures, or Hellenic Pagans
+#
+# Tracks and sources:
+#
+# 0 AD music: https://play0ad.com/media/music/
+# Zeus Soundtrack: http://sierrachest.com/index.php?a=games&id=81&title=master-of-olympus&fld=music
+#
+
+
+song = { # "Forging a City-State" from 0 AD Soundtrack
+	name = "power_of_corinth.ogg"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			OR = {
+				culture_group = byzantine
+				culture = roman
+				capital_scope = { 
+					OR = {
+						culture_group = byzantine
+						culture = roman
+						religion = hellenic_pagan
+						religion = hellenic_pagan_reformed
+						region = world_asia_minor
+						region = world_europe_south
+						region = world_europe_west_iberia
+						region = world_middle_east
+					}
+				}
+			}
+		}
+	}		
+}
+
+song = { # "Rise of Macedon" from 0 AD Soundtrack
+	name = "maniot_mists.ogg"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			OR = {
+				culture_group = byzantine
+				culture = roman
+				capital_scope = { 
+					OR = {
+						culture_group = byzantine
+						culture = roman
+						religion = hellenic_pagan
+						religion = hellenic_pagan_reformed
+						region = world_asia_minor
+						region = world_europe_south
+						region = world_europe_west_iberia
+						region = world_middle_east
+					}
+				}
+			}
+		}
+	}		
+}
+
+song = { # "Setup" from Zeus soundtrack
+	name = "glory_of_sparta_and_athens.ogg"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			OR = {
+				culture_group = byzantine
+				culture = roman
+				capital_scope = { 
+					OR = {
+						culture_group = byzantine
+						culture = roman
+						religion = hellenic_pagan
+						religion = hellenic_pagan_reformed
+						region = world_asia_minor
+						region = world_europe_south
+					}
+				}
+			}
+		}
+	}		
+}
+
+song = { # "Perifanos" from Zeus soundtrack
+	name = "artemis_dream.ogg"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			OR = {
+				culture_group = byzantine
+				culture = roman
+				capital_scope = { 
+					OR = {
+						culture_group = byzantine
+						culture = roman
+						religion = hellenic_pagan
+						religion = hellenic_pagan_reformed
+						region = world_asia_minor
+						region = world_europe_south
+					}
+				}
+			}
+		}
+	}		
+}
+
+song = { # "Amolfi" from Zeus soundtrack
+	name = "arcadian_paradise.ogg"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			OR = {
+				culture_group = byzantine
+				culture = roman
+				capital_scope = { 
+					OR = {
+						culture_group = byzantine
+						culture = roman
+						religion = hellenic_pagan
+						religion = hellenic_pagan_reformed
+						region = world_asia_minor
+						region = world_europe_south
+					}
+				}
+			}
+		}
+	}		
+}
+
+song = { # "Calm Before the Storm" from 0 AD Soundtrack
+	name = "plethons_will.ogg"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			OR = {
+				culture_group = byzantine
+				culture_group = latin
+				culture_group = iberian
+				culture_group = north_african
+				capital_scope = { 
+					OR = {
+						culture_group = byzantine
+						culture_group = latin
+						culture_group = iberian
+						culture_group = north_african
+						religion = hellenic_pagan
+						religion = hellenic_pagan_reformed
+						region = world_asia_minor
+						region = world_europe_south
+						region = world_europe_west_iberia
+						region = world_middle_east
+					}
+				}
+			}
+		}
+	}		
+}
