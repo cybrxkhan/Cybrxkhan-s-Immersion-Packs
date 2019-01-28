@@ -4,4 +4,4 @@ tags=
 {
 	History Events Decisions Map Religions Cultures cybrxkhan Immersion Pack Immersion Hellenic Pagan Byzantine Slavic 
 }
-picture="peloponnesian.jpg"
+picture="Peloponnesian.jpg"
