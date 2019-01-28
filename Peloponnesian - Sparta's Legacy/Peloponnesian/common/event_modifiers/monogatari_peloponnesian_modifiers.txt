@@ -82,18 +82,18 @@
 
 # Province
 VIET_peloponnesian_corinthian_silk = {
-	local_tax_modifier = 0.05
-	tradevalue = 5
+	local_tax_modifier = 0.1
+	tradevalue = 12
 	icon = 6
 }
 VIET_peloponnesian_kalamata_olives = {
 	local_tax_modifier = 0.01
-	tradevalue = 1
+	tradevalue = 4
 	icon = 6
 }
 VIET_peloponnesian_tyrian_purple = {
-	local_tax_modifier = 0.05
-	tradevalue = 5
+	local_tax_modifier = 0.1
+	tradevalue = 12
 	icon = 6
 }
 VIET_melingoi_soldier = {
@@ -159,3 +159,58 @@ VIET_peloponnesian_honey = {
 	monthly_character_prestige = 0.05
 	icon = 59
 }
+VIET_peloponnesian_snacks = {
+	health = 0.25
+	monthly_character_piety = 0.01
+	icon = 59
+}
+VIET_tsakonian_masons_small = {
+	stewardship = 1
+	local_build_time_modifier = -0.2
+	local_build_cost_modifier = -0.2
+	monthly_character_prestige = 0.1
+	icon = 12
+}
+VIET_tsakonian_masons_big = {
+	stewardship = 1
+	local_build_time_modifier = -0.4
+	local_build_cost_modifier = -0.4
+	monthly_character_prestige = 0.2
+	icon = 12
+}
+VIET_greek_and_slav_trade = {
+	local_tax_modifier = 0.05
+	tradevalue = 3
+	icon = 6
+}
+VIET_spartan_frugal_lifestyle = {
+	diplomacy = -2
+	health = 0.5
+	monthly_character_prestige = 0.25
+	monthly_character_piety = 0.25
+	icon = 1
+}
+VIET_is_danielis_modifier = {
+	diplomacy = 1
+	stewardship = 3
+	health = 0.5
+	monthly_character_prestige = 0.5
+	monthly_character_piety = 0.25
+	monthly_character_wealth = 1
+	icon = 4
+}
+VIET_is_plethon_modifier = {
+	learning = 2
+	monthly_character_prestige = 0.25
+	monthly_character_piety = 0.5
+	monthly_character_wealth = 0.05
+	icon = 4
+}
+#VIET_danielis_support = {
+#	diplomacy = 3
+#	martial = 5
+#	intrigue = 3
+#	monthly_character_prestige = 0.5
+#	monthly_character_wealth = 0.05	
+#	icon = 4
+#}

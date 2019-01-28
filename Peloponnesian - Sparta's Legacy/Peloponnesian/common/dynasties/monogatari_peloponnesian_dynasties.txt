@@ -48,7 +48,6 @@
 	name="Spanis"
 	culture = tsakonian
 }
-
 1000088470 = {
 	name="Gerakaris"
 	culture = tsakonian
@@ -129,8 +128,8 @@
 	name="Frangopoulos"
 	culture = tsakonian
 }
-
 1000088490 = {
+	used_for_random=no
 	name="Gemistos"
 	culture = greek
 }
@@ -170,7 +169,6 @@
 	name="Strategopoulos"
 	culture = greek
 }
-
 1000088500 = {
 	name="Chortasmenos"
 	culture = greek

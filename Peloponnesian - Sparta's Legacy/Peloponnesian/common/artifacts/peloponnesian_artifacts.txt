@@ -1,0 +1,26 @@
+### Harranian Generic Books ###
+
+monogatari_plethon_nomoi = {
+	monthly_character_prestige = 0.05
+	monthly_character_piety = 0.05
+	stewardship = 1
+	learning = 3
+	hellenic_pagan_opinion = 10
+	hellenic_pagan_reformed_opinion = 10
+	quality = 4
+	flags = { book peloponnesian }
+	stacking = no
+	picture = "GFX_monogatari_plethon_nomoi"
+	slot = library
+}
+monogatari_chronicle_of_monemvasia = {
+	monthly_character_prestige = 0.04
+	diplomacy = 1
+	stewardship = 1
+	learning = 1
+	quality = 4
+	flags = { book peloponnesian }
+	stacking = no
+	picture = "GFX_monogatari_chronicle_of_monemvasia"
+	slot = library
+}

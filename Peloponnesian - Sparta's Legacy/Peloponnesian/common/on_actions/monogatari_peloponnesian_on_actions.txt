@@ -1,21 +1,46 @@
 #character
 on_startup = {
 	events = {
-		monogatari.150
+		monogatari.150 # Setup event
 	}
 }
 ##character
-#on_yearly_pulse = {
-#	random_events = {
-#		harranian = {
-#			delay = 10
-#			1000 = 0
-#			20 = monogatari.107
-#			20 = monogatari.112
-#			20 = monogatari.113
-#			20 = monogatari.114
-#			20 = monogatari.115
-#			20 = monogatari.116
-#		}
-#	}
-#}
+on_yearly_pulse = {
+
+	events = {
+		monogatari.200 # Collapse of Corinthian Silk and Tyrian Dye industries
+		monogatari.203 # Danielis success
+	}
+	
+	random_events = {
+		peloponnesian = {
+		
+			delay = 11
+			
+			3000 = 0
+			
+			40 = monogatari.180 # Gift of diples
+			20 = monogatari.182 # Maniot funeral of a young man
+			20 = monogatari.184 # Sightings of the Erymanthian boar
+			40 = monogatari.185 # Peloponnesian food - snacks
+			40 = monogatari.186 # Peloponnesian food - cheese
+			20 = monogatari.187 # Tsakonian masons offer help
+			20 = monogatari.188 # Is Arcadia beautiful?
+			20 = monogatari.191 # Tenarus - the supposed entrance to the underworld
+			20 = monogatari.192 # Character travels by Lake Stymphalia, where once dwelled the Stymphalian birds
+			10 = monogatari.193 # Live like a simple Spartan?
+			20 = monogatari.194 # Opinions on the ancient Spartans?
+			
+			#Total: 270
+		}		
+		
+		peloponnesian_historical_events = {
+			1000 = 0
+			100 = monogatari.206  	#Plethon writes Nomoi
+			10 = monogatari.201 	# Danielis appears
+			10 = monogatari.204 	# Plethon appears
+			10 = monogatari.209 	# Scholarly character writes the Chronicle of Monemvasia
+		}
+	}	
+	
+}

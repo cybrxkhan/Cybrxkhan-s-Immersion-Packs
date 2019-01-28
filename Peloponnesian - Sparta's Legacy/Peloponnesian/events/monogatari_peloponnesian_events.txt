@@ -14,8 +14,9 @@
 # 
 # monogatari.160-178 Hyacinthia Festival Events
 # 
-# monogatari.180-xxx Generic Flavor Events
+# monogatari.180-194 Generic Flavor Events
 # 
+# monogatari.200-xxx Historical Events
 # 
 ##########################################################################
 
@@ -35,12 +36,7 @@ character_event =  {
 		is_save_game = no
 		has_landed_title = k_papal_state # Pope's always around
 		NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
-		NOT = {
-			has_alternate_start_parameter = {
-				key = culture_names
-				value = random
-			}
-		}
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
 	}
 	
 	immediate = {
@@ -84,9 +80,13 @@ character_event =  {
 				limit = {
 					culture_group = byzantine
 					lower_tier_than = duke
-					#is_lowborn = yes
+					is_lowborn = yes
 				}
-				culture = tsakonian
+				random = {
+					culture = tsakonian
+					set_graphical_culture = tsakonian
+					chance = 66
+				}
 			}
 			add_province_modifier = {
 				name = VIET_peloponnesian_tyrian_purple
@@ -111,6 +111,24 @@ character_event =  {
 				name = VIET_peloponnesian_corinthian_silk
 				duration = -1
 			}
+		}
+		if = {
+			limit = {
+				year = 850
+			}
+			set_global_flag = VIET_danielis_spawned
+		}
+		if = {
+			limit = {
+				year = 1100
+			}
+			set_global_flag = VIET_chronicle_monemvasia_written
+		}
+		if = {
+			limit = {
+				year = 1205
+			}
+			set_global_flag = VIET_peloponnesian_industries_collapse
 		}
 	}
 }
@@ -361,6 +379,8 @@ character_event = {
 		any_demesne_province = {
 			duchy = { title = d_achaia }		
 		}
+		NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
 	}
 	
 	mean_time_to_happen = {
@@ -1022,6 +1042,8 @@ character_event = {
 		any_demesne_province = {
 			duchy = { title = d_achaia }		
 		}
+		NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
 	}
 	
 	mean_time_to_happen = {
@@ -2182,7 +2204,7 @@ character_event = {
 				remove_trait = imbecile
 				remove_trait = dull
 				remove_trait = uncouth
-				remove_trait = frail
+				remove_trait = feeble
 				random_list = {
 					10 = { add_trait = fair }
 					20 = { add_trait = groomed }
@@ -2379,7 +2401,7 @@ character_event = {
 ######################################################
 #
 # GENERIC FLAVOR EVENTS
-# monogatari.180-???
+# monogatari.180-194
 #
 ######################################################
 
@@ -2409,6 +2431,7 @@ character_event = {
 			has_landed_title = c_methone
 			has_landed_title = c_monemvasia
 		}
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
 	}
 	
 	weight_multiplier = {
@@ -2435,10 +2458,16 @@ province_event = {
 			province_id = 478
 			province_id = 481
 		}
+		NOT = {
+			owner = {
+				has_character_modifier = VIET_peloponnesian_honey
+			}
+		}
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
 	}
 	
 	mean_time_to_happen = {
-		months = 1000		
+		months = 4000		
 	}
 	
 	option = {
@@ -2455,10 +2484,12 @@ province_event = {
 				}
 			}
 		}
-		wealth = -10
-		add_character_modifier = {
-			name = VIET_peloponnesian_honey
-			duration = 365
+		owner = {
+			wealth = -10
+			add_character_modifier = {
+				name = VIET_peloponnesian_honey
+				duration = 365
+			}		
 		}
 	}	
 	
@@ -2472,10 +2503,12 @@ province_event = {
 				}
 			}
 		}
-		wealth = -20
-		add_character_modifier = {
-			name = VIET_peloponnesian_honey
-			duration = 1095
+		owner = {
+			wealth = -20
+			add_character_modifier = {
+				name = VIET_peloponnesian_honey
+				duration = 1095
+			}		
 		}
 	}	
 }
@@ -2506,6 +2539,7 @@ character_event = {
 			has_landed_title = c_methone
 			has_landed_title = c_monemvasia
 		}
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
 	}
 	
 	weight_multiplier = {
@@ -2548,8 +2582,8 @@ character_event = {
 	option = { #Maybe a reason?
 		name = monogatari.182.c
 		random_list = {
-			10 = { trait = trusting }
-			10 = { trait = content }
+			10 = { add_trait = trusting }
+			10 = { add_trait = content }
 			80 = { }
 		}
 		hidden_tooltip = {
@@ -2577,11 +2611,11 @@ character_event = {
 	option = { # Cruel worldview
 		name = monogatari.183.c
 		piety = 5
-		presige = -5
+		prestige = -5
 	}	
 }
 
-# Sightings of the Erymanthian  boar
+# Sightings of the Erymanthian boar
 character_event = {
 	id = monogatari.184
 	desc = monogatari.184.desc
@@ -2602,6 +2636,8 @@ character_event = {
 			has_landed_title = c_methone
 			has_landed_title = c_monemvasia
 		}
+		NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
 	}
 	
 	weight_multiplier = {
@@ -2609,7 +2645,7 @@ character_event = {
 	}
 	
 	option = { #Send in soldiers
-		name = monogatari.182.a
+		name = monogatari.184.a
 		piety = 5
 		random = {
 			add_trait = diligent
@@ -2617,11 +2653,1499 @@ character_event = {
 		}
 	}	
 	option = { #Silly superstition
-		name = monogatari.182.b
+		name = monogatari.184.b
 		prestige = 5
 		random = {
 			add_trait = cynical
 			chance = 15
+		}
+	}
+}
+
+# Peloponnesian food - snacks
+character_event = {
+	id = monogatari.185
+	desc = monogatari.185.desc
+	picture = GFX_evt_baklava_peloponnesian
+
+	min_age = 16	
+	prisoner = no
+	only_playable = yes
+	capable_only = yes
+	war = no
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		OR = {
+			has_landed_title = c_korinthos
+			has_landed_title = c_achaia
+			has_landed_title = c_methone
+			has_landed_title = c_monemvasia
+			culture = tsakonian
+		}
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	weight_multiplier = {
+		days = 1		
+	}
+	
+	option = { # Raisins
+		name = monogatari.185.a
+		add_character_modifier = {
+			name = VIET_peloponnesian_snacks
+			duration = 365
+		}
+	}
+	
+	option = { # Melons
+		name = monogatari.185.b
+		add_character_modifier = {
+			name = VIET_peloponnesian_snacks
+			duration = 365
+		}
+	}
+	
+	option = { # Eggplants
+		name = monogatari.185.c
+		add_character_modifier = {
+			name = VIET_peloponnesian_snacks
+			duration = 365
+		}
+	}
+	
+	option = { # Chestnuts
+		name = monogatari.185.d
+		add_character_modifier = {
+			name = VIET_peloponnesian_snacks
+			duration = 365
+		}
+	}
+}
+
+# Peloponnesian food - cheese
+character_event = {
+	id = monogatari.186
+	desc = monogatari.186.desc
+	picture = GFX_evt_argos_home
+
+	min_age = 16	
+	prisoner = no
+	only_playable = yes
+	capable_only = yes
+	war = no
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		OR = {
+			has_landed_title = c_korinthos
+			has_landed_title = c_achaia
+			has_landed_title = c_methone
+			has_landed_title = c_monemvasia
+			culture = tsakonian
+		}
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	weight_multiplier = {
+		days = 1		
+	}
+	
+	option = { # Fiery feta
+		name = monogatari.186.a
+		add_character_modifier = {
+			name = VIET_peloponnesian_snacks
+			duration = 365
+		}
+	}
+	
+	option = { # Grilled
+		name = monogatari.186.b
+		add_character_modifier = {
+			name = VIET_peloponnesian_snacks
+			duration = 365
+		}
+	}
+	
+	option = { # Hardy
+		name = monogatari.186.c
+		add_character_modifier = {
+			name = VIET_peloponnesian_snacks
+			duration = 365
+		}
+	}
+	
+	option = { # Sweet and salty
+		name = monogatari.186.d
+		add_character_modifier = {
+			name = VIET_peloponnesian_snacks
+			duration = 365
+		}
+	}
+}
+
+# Tsakonian masons offer help
+character_event = {
+	id = monogatari.187
+	desc = monogatari.187.desc
+	picture = GFX_evt_maniot_inlet
+
+	min_age = 16	
+	prisoner = no
+	only_playable = yes
+	capable_only = yes
+	war = no
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		OR = {
+			has_landed_title = c_korinthos
+			has_landed_title = c_achaia
+			has_landed_title = c_methone
+			has_landed_title = c_monemvasia
+			culture = tsakonian
+		}
+		NOT = { has_character_modifier = VIET_tsakonian_masons_small }
+		NOT = { has_character_modifier = VIET_tsakonian_masons_big }
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	weight_multiplier = {
+		days = 1		
+	}
+	
+	option = { # Small help
+		name = monogatari.187.a
+		trigger = {
+			OR = {
+				ai = no
+				wealth = 25
+			}
+		}
+		wealth = -25
+		add_character_modifier = {
+			name = VIET_tsakonian_masons_small
+			duration = 1095
+		}
+	}
+	
+	option = { # Big help
+		name = monogatari.187.b
+		trigger = {
+			OR = {
+				ai = no
+				wealth = 50
+			}
+		}
+		wealth = -50
+		add_character_modifier = {
+			name = VIET_tsakonian_masons_big
+			duration = 1095
+		}
+	}
+	
+	option = { # No help
+		name = monogatari.187.c
+	}
+}
+
+# Is Arcadia beautiful?
+character_event = {
+	id = monogatari.188
+	desc = monogatari.188.desc
+	picture = GFX_evt_arcadian_fort
+
+	min_age = 16	
+	prisoner = no
+	only_playable = yes
+	capable_only = yes
+	war = no
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		OR = {
+			has_landed_title = c_korinthos
+			has_landed_title = c_achaia
+			has_landed_title = c_methone
+			has_landed_title = c_monemvasia
+			#culture = tsakonian
+		}
+		NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	weight_multiplier = {
+		days = 1		
+	}
+	
+	option = { # Yes
+		name = monogatari.188.a
+		random_list = {
+			50 = { prestige = 5 }
+			50 = { piety = 5 }
+		}
+		prestige = 5
+		if = {
+			limit = {
+				NOT = { trait = content }
+			}
+			random = {
+				add_trait = content
+				chance = 20
+			}
+		}
+		if = {
+			limit = {
+				trait = envious
+			}
+			random = {
+				remove_trait = envious
+				chance = 25
+			}
+		}		
+	}	
+	option = { # We worked hard
+		name = monogatari.188.b
+		prestige = 5
+		if = {
+			limit = {
+				NOT = { trait = proud }
+			}
+			random = {
+				add_trait = proud
+				chance = 20
+			}
+		}
+		if = {
+			limit = {
+				trait = slothful
+			}
+			random = {
+				remove_trait = slothful
+				chance = 25
+			}
+		}
+	}	
+	option = { # Focus on what's important
+		name = monogatari.188.c
+		piety = 5
+		random_list = {
+			80 = { }
+			10 = { add_trait = just }
+			10 = { add_trait = diligent }
+		}
+	}	
+	option = { # Exaggerations
+		name = monogatari.188.d
+		random_list = {
+			75 = { }
+			10 = { add_trait = cynical }
+			15 = { add_trait = humble }
+		}
+	}
+}
+
+
+
+
+
+# Greeks and Slavs trade
+province_event = {
+	id = monogatari.189
+	desc = monogatari.189.desc
+	picture = GFX_evt_maniot_inlet
+	
+	trigger = {
+		OR = {
+			culture = greek
+			culture = tsakonian
+		}
+		OR = {
+			province_id = 476
+			province_id = 477
+			province_id = 478
+			province_id = 481
+		}
+		NOT = { has_province_modifier = VIET_greek_and_slav_trade }
+		NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	mean_time_to_happen = {
+		months = 6000		
+	}
+	
+	option = {
+		name = monogatari.189.a
+		add_province_modifier = {
+			name = VIET_greek_and_slav_trade
+			duration = 1825
+		}
+	}		
+}
+
+
+
+# Ship capsizes off the Peloponnesian
+province_event = {
+	id = monogatari.190
+	desc = monogatari.190.desc
+	picture = GFX_evt_greek_cliffs
+	
+	trigger = {
+		OR = {
+			province_id = 476
+			province_id = 477
+			province_id = 478
+			province_id = 481
+		}
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	mean_time_to_happen = {
+		months = 5000		
+	}
+	
+	option = { #Let locals keep it
+		name = monogatari.190.a
+		owner = {
+			piety = 10
+			if = {
+				limit = {
+					trait = greedy
+				}
+				random = {
+					remove_trait = greedy
+					chance = 45
+				}
+			}
+			else = {
+				random = {
+					add_trait = charitable
+					chance = 55
+				}
+			}		
+		}
+	}	
+	option = { #Split it with locals
+		name = monogatari.190.b
+		owner = {
+			random_list = {
+				40 = { wealth = 5 }
+				30 = { wealth = 10 }
+				20 = { wealth = 20 }
+				10 = { wealth = 30 }
+			}		
+		}
+	}	
+	option = { #Keep it all
+		name = monogatari.190.c
+		owner = {
+			piety = -10
+			if = {
+				limit = {
+					trait = charitable
+				}
+				random = {
+					remove_trait = charitable
+					chance = 60
+				}
+			}
+			else = {
+				random = {
+					add_trait = greedy
+					chance = 40
+				}
+			}
+			random_list = {
+				40 = { wealth = 20 }
+				30 = { wealth = 30 }
+				20 = { wealth = 40 }
+				10 = { wealth = 50 }
+			}		
+		}
+	}		
+}
+
+# Tenarus - the supposed entrance to the underworld
+character_event = {
+	id = monogatari.191
+	desc = monogatari.191.desc
+	picture = GFX_evt_tsakonia_coast
+
+	min_age = 16	
+	prisoner = no
+	only_playable = yes
+	capable_only = yes
+	war = no
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		#OR = {
+			#has_landed_title = c_korinthos
+			#has_landed_title = c_achaia
+			#has_landed_title = c_methone
+			has_landed_title = c_monemvasia
+			#culture = tsakonian
+		#}
+		NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	weight_multiplier = {
+		days = 1		
+	}
+	
+	option = { # Not scared - non-pagan
+		name = monogatari.191.a
+		trigger = {
+			NOT = { religion_group = pagan_group }
+		}
+		random_list = {
+			50 = { prestige = 5 }
+			50 = { piety = 5 }
+		}
+		if = {
+			limit = {
+				trait = trusting
+			}
+			random	= {
+				remove_trait = trusting
+				chance = 30
+			}
+		}
+	}		
+	option = { # Not scared - pagan
+		name = monogatari.191.b
+		trigger = {
+			religion_group = pagan_group
+		}
+		random_list = {
+			50 = { prestige = 5 }
+			50 = { piety = 5 }
+		}
+		if = {
+			limit = {
+				trait = trusting
+			}
+			random	= {
+				remove_trait = trusting
+				chance = 30
+			}
+		}
+	}		
+	option = { # Uh oh!
+		name = monogatari.191.c
+		piety = 5
+		random_list = {
+			80 = { }
+			10 = { add_trait = humble }
+			10 = { add_trait = paranoid }
+		}
+	}			
+	option = { # What a joke
+		name = monogatari.191.d
+		prestige = 5
+		piety = -5
+		random_list = {
+			70 = { }
+			15 = { add_trait = brave }
+			15 = { add_trait = stubborn }
+		}
+	}		
+}
+
+# Character travels by Lake Stymphalia, where once dwelled the Stymphalian birds
+character_event = {
+	id = monogatari.192
+	desc = monogatari.192.desc
+	picture = GFX_evt_arcadian_fort
+
+	min_age = 16	
+	prisoner = no
+	only_playable = yes
+	capable_only = yes
+	war = no
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		#OR = {
+			has_landed_title = c_korinthos
+			#has_landed_title = c_achaia
+			#has_landed_title = c_methone
+			#has_landed_title = c_monemvasia
+			#culture = tsakonian
+		#}
+		NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	weight_multiplier = {
+		days = 1		
+	}
+	
+	option = { # Silly tales - non-pagan
+		name = monogatari.192.a
+		trigger = {
+			NOT = { religion_group = pagan_group }
+		}
+		piety = 5
+	}		
+	option = { # Silly tales - pagan
+		name = monogatari.192.b
+		trigger = {
+			religion_group = pagan_group
+		}
+		prestige = 5
+	}		
+	option = { # Interesting!
+		name = monogatari.192.c
+		if = {
+			limit = {
+				religion_group = pagan_group
+			}
+			piety = 5
+		}
+		else = {
+			prestige = 5
+		}
+	}		
+}
+
+# Live like a simple Spartan?
+character_event = {
+	id = monogatari.193
+	desc = monogatari.193.desc
+	picture = GFX_evt_doric_festival_outside
+
+	min_age = 16	
+	prisoner = no
+	only_playable = yes
+	capable_only = yes
+	war = no
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		OR = {
+			religion = hellenic_pagan
+			religion = hellenic_pagan_reformed
+			culture = tsakonian
+			trait = sympathy_pagans
+		}
+		OR = {
+			has_landed_title = c_korinthos
+			has_landed_title = c_achaia
+			has_landed_title = c_methone
+			has_landed_title = c_monemvasia
+		}
+		NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	weight_multiplier = {
+		days = 1		
+	}
+	
+	option = { # Do it
+		name = monogatari.193.a
+		if = {
+			limit = {
+				trait = gluttonous
+			}
+			remove_trait = gluttonous
+		}
+		if = {
+			limit = {
+				trait = greedy
+			}
+			remove_trait = greedy
+		}
+		add_character_modifier = {
+			name = VIET_spartan_frugal_lifestyle
+			duration = -1
+		}
+		any_courtier = {
+			limit = {
+				is_adult = yes
+				NOT = { trait = incapable }
+				OR = {
+					religion = hellenic_pagan
+					religion = hellenic_pagan_reformed
+					culture = tsakonian
+					trait = sympathy_pagans
+				}
+				OR = {
+					trait = temperate
+					trait = humble
+					trait = content
+					AND = {
+						trait = zealous
+						religion_group = pagan_group
+					}
+				}
+				NAND = {
+					trait = zealous
+					NOT = { religion_group = pagan_group }
+				}
+				NOT = { trait = gluttonous }
+				NOT = { trait = cynical }
+			}
+			random = {
+				add_character_modifier = {
+					name = VIET_spartan_frugal_lifestyle
+					duration = -1
+				}	
+				chance = 25
+			}
+		}
+	}	
+	option = { # Don't do it
+		name = monogatari.193.b
+	}		
+}
+
+# Opinions on the ancient Spartans?
+character_event = {
+	id = monogatari.194
+	desc = monogatari.194.desc
+	picture = GFX_evt_doric_festival
+
+	min_age = 16	
+	prisoner = no
+	only_playable = yes
+	capable_only = yes
+	war = no
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		OR = {
+			religion = hellenic_pagan
+			religion = hellenic_pagan_reformed
+		}
+		OR = {
+			has_landed_title = c_korinthos
+			has_landed_title = c_achaia
+			has_landed_title = c_methone
+			has_landed_title = c_monemvasia
+			culture = tsakonian
+		}
+		NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	weight_multiplier = {
+		days = 1		
+	}
+	
+	option = { # False - Spartans were people too
+		name = monogatari.194.a
+		piety = 5
+		random_list = {
+			80 = { }
+			10 = { add_trait = trusting }
+			10 = { add_trait = kind }
+		}
+	}		
+	option = { # False - Athenians were liars
+		name = monogatari.194.b
+		prestige = 5
+		random = {
+			add_trait = cynical
+			chance = 20
+		}
+	}			
+	option = { # True - Can't tolerate wimps
+		name = monogatari.194.c
+		#trigger = {
+		#	NOR = {
+		#		trait = craven
+		#		trait = kind
+		#	}
+		#}
+		prestige = 5
+		random_list = {
+			80 = { }
+			10 = { add_trait = cruel }
+			10 = { add_trait = brave }
+		}
+	}				
+	option = { # True - Spartans were terrible
+		name = monogatari.194.d
+		piety = 5
+		if = {
+			limit = {
+				trait = cruel
+			}
+			random = {
+				remove_trait = cruel
+				chance = 50
+			}
+		}
+	}		
+}
+
+######################################################################################
+#
+# Historical Events and Characters
+#
+######################################################################################
+
+
+# Collapse of Corinthian Silk and Tyrian Dye industries
+narrative_event = {
+	id = monogatari.200
+	title = monogatari.200.title
+	desc = { 
+		trigger = { 
+			e_latin_empire = {
+				has_holder = yes
+			}
+		} 
+		text = monogatari.200.desc.a
+	}
+	desc = { 
+		trigger = {  
+			e_latin_empire = {
+				has_holder = no
+			}
+		} 
+		text = monogatari.200.desc.b
+	}
+	picture = GFX_evt_arcadian_fort
+
+	major = yes
+	
+	hide_from = yes
+	
+	only_playable = yes
+	religion = catholic
+	#has_global_flag = VIET_peloponnesian_turned_on
+
+	is_triggered_only = yes
+	
+	trigger = {
+		NOR = {
+			e_byzantium = {
+				has_holder = yes
+			}
+			e_roman_empire = {
+				has_holder = yes
+			}
+			#is_title_active = e_byzantium
+			#is_title_active = e_roman_empire
+		}
+		NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		NOT = { has_global_flag = VIET_peloponnesian_industries_collapse }
+		controls_religion = yes # Let it happen for the Pope - he's always around
+	}
+	
+	immediate = {
+		set_global_flag = VIET_peloponnesian_industries_collapse
+
+		478 = { 
+			remove_province_modifier = VIET_peloponnesian_tyrian_purple
+		}
+		481 = {			
+			remove_province_modifier = VIET_peloponnesian_corinthian_silk
+		}		
+	}
+
+	option = {
+		name = monogatari.200.a
+		if = {
+			limit = {
+				OR = {
+					has_landed_title = c_monemvasia
+					has_landed_title = c_korinthos
+				}
+			}
+			custom_tooltip = { text = VIET_peloponnesian_lose_industries }
+		}
+	}
+}
+
+
+# Danielis appears - hidden
+character_event = {
+	id = monogatari.201
+	hide_window = yes
+
+	ai = no
+	only_rulers = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { year = 900 }
+		NOR = {
+			tier = emperor
+			tier = king
+		}
+		top_liege = {
+			OR = {
+				has_landed_title = e_byzantium
+				has_landed_title = e_roman_empire
+			}
+		}
+		NOR = {
+			has_strong_claim = e_byzantium
+			has_strong_claim = e_roman_empire
+		}
+		#OR = {
+		#	culture_group = byzantine
+		#	culture_group = latin
+		#	religion = hellenic_pagan
+		#	religion = hellenic_pagan_reformed
+		#}
+		NOT = { has_global_flag = VIET_danielis_spawned }
+		NOT = { has_character_flag = VIET_danielis_special }
+		prestige = 100
+		piety = 100
+		OR = {
+			prestige = 1000
+			piety = 1000
+		}
+		#OR = {
+		#	is_title_active = e_byzantium
+		#	is_title_active = e_roman_empire
+		#}
+		OR = {
+			trait = ambitious
+			trait = diligent
+			trait = kind
+			trait = just
+			trait = brave
+		}
+		OR = {
+			diplomacy = 12
+			martial = 12
+			stewardship = 12
+		}
+		NOR = {
+			trait = content
+			trait = slothful
+			trait = craven
+		}
+		OR = {
+			has_landed_title = c_korinthos
+			has_landed_title = c_achaia
+			has_landed_title = c_methone
+			has_landed_title = c_monemvasia		
+		}
+		NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 0.2
+			NOT = { year = 800 }
+		}
+		modifier = {
+			factor = 0.6
+			NOT = { year = 820 }
+		}
+		modifier = {
+			factor = 1.5
+			year = 840
+		}
+		modifier = {
+			factor = 3
+			year = 860
+		}
+	}	
+	
+	immediate = {
+		set_global_flag = VIET_danielis_spawned
+		create_character = {
+			random_traits = no
+			name = "Danielis"
+			dynasty = random
+			religion = ROOT
+			culture = ROOT
+			female = yes
+			age = 35
+			trait = celibate
+			trait = zealous
+			trait = charitable
+			trait = gregarious
+			trait = brave
+			trait = diligent
+			trait = mystic
+			trait = quick
+			trait = midas_touched
+			attributes = {
+				diplomacy = 10
+				martial = 4
+				stewardship = 12
+				intrigue = 8
+				learning = 8
+			}
+			historical = yes
+		}
+		new_character = {
+			set_character_flag = VIET_is_danielis
+			set_character_flag = ai_flag_refuse_concubinage
+			set_character_flag = ai_flag_refuse_marriage
+			set_character_flag = no_court_invites
+			set_character_flag = cannot_marry
+			will_not_marry_effect = yes
+			set_character_flag = special_treasurer
+			set_character_flag = special_chancellor
+			add_character_modifier = {
+				name = VIET_is_danielis_modifier
+				duration = -1
+			}
+			opinion = {
+				modifier = opinion_loyal_servant
+				who = ROOT
+				years = 100
+			}
+			wealth = 200
+		}
+		narrative_event = { id = monogatari.202 }
+	}	
+}
+
+
+
+# Danielis - appears
+narrative_event = {
+	id = monogatari.202
+	title = monogatari.202.title
+	desc = monogatari.202.desc
+	picture = GFX_evt_tsakonia_coast
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		set_character_flag = VIET_danielis_chosen
+	}
+	
+	option = { # ok
+		name = monogatari.202.a
+		if = {
+			limit = {
+				top_liege = {
+					has_landed_title = e_byzantium
+				}
+			}
+			add_pressed_claim = e_byzantium
+		}
+		if = {
+			limit = {
+				top_liege = {
+					has_landed_title = e_roman_empire
+				}
+			}
+			add_pressed_claim = e_roman_empire
+		}
+		wealth = 500
+		prestige = 300
+		piety = 100
+		change_diplomacy = 2
+		change_martial = 2
+		change_intrigue = 2
+	}	
+}
+
+
+# Danielis - gains title
+narrative_event = {
+	id = monogatari.203
+	title = monogatari.203.title
+	desc = monogatari.203.desc
+	picture = GFX_evt_emissary_byzantine
+	
+	ai = no
+	only_rulers = yes
+	has_character_flag = VIET_danielis_chosen
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		OR = {
+			has_landed_title = e_byzantium
+			has_landed_title = e_roman_empire
+		}
+		any_courtier = {
+			has_character_flag = VIET_is_danielis
+		}
+		NOT = { has_global_flag = VIET_danielis_success }
+	}
+	
+	immediate = {
+		set_global_flag = VIET_danielis_success
+	}
+	
+	option = { # ok
+		name = monogatari.203.a
+		random_courtier = {
+			limit = {
+				has_character_flag = VIET_is_danielis
+			}
+			give_nickname = nick_VIET_danielis_basileometor
+			prestige = 100
+		}		
+	}	
+}
+
+# Plethon appears - hidden
+character_event = {
+	id = monogatari.204
+	hide_window = yes
+
+	ai = no
+	only_rulers = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		year = 1300
+		NOT = { religion_group = pagan_group }
+		culture_group = byzantine
+		NOT = { has_global_flag = VIET_plethon_spawned }
+		prestige = 100
+		piety = 100
+		OR = {
+			e_byzantium = {
+				has_holder = yes
+			}
+			e_roman_empire = {
+				has_holder = yes
+			}
+		}
+		OR = {
+			has_landed_title = c_korinthos
+			has_landed_title = c_achaia
+			has_landed_title = c_methone
+			has_landed_title = c_monemvasia		
+		}
+		NOT = { trait = zealous }
+		learning = 8
+		OR = {
+			trait = sympathy_pagans
+			trait = erudite
+			is_benevolent_trigger = yes
+			is_pious_trigger = yes
+			learning = 15
+		}
+		NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}	
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 0.2
+			NOT = { year = 1350 }
+		}
+		modifier = {
+			factor = 0.6
+			NOT = { year = 1375 }
+		}
+		modifier = {
+			factor = 1.5
+			year = 1400
+		}
+		modifier = {
+			factor = 3
+			year = 1425
+		}
+	}	
+	
+	immediate = {
+		set_global_flag = VIET_plethon_spawned
+		create_character = {
+			random_traits = no
+			name = "Georgios"
+			dynasty = 1000088490
+			religion = hellenic_pagan
+			culture = greek
+			female = no
+			trait = erudite
+			trait = diligent
+			trait = patient
+			trait = temperate
+			trait = just
+			trait = scholar
+			trait = genius
+			trait = mastermind_theologian
+			attributes = {
+				diplomacy = 9
+				martial = 2
+				stewardship = 4
+				intrigue = 2
+				learning = 11
+			}
+			flag = ai_flag_refuse_conversion
+			historical = yes
+		}
+		new_character = {
+			set_character_flag = VIET_is_plethon
+			set_character_flag = ai_flag_refuse_concubinage
+			set_character_flag = ai_flag_refuse_marriage
+			set_character_flag = no_court_invites
+			add_character_modifier = {
+				name = VIET_is_plethon_modifier
+				duration = -1
+			}
+			opinion = {
+				modifier = opinion_loyal_servant
+				who = ROOT
+				years = 100
+			}
+			prestige = 200
+			piety = 200
+			give_nickname = nick_VIET_plethon
+			if = {
+				limit = {
+					has_global_flag = hellenic_reformation
+				}
+				religion = hellenic_pagan_reformed
+			}
+		}
+		narrative_event = { id = monogatari.205 }
+	}	
+}
+
+# Plethon - appears
+narrative_event = {
+	id = monogatari.205
+	title = monogatari.205.title
+	desc = monogatari.205.desc
+	picture = GFX_evt_emissary_byzantine
+	
+	is_triggered_only = yes
+	
+	option = { # ok
+		name = monogatari.205.a
+		prestige = 50
+	}	
+}
+
+# Plethon writes Nomoi, the Book of Laws
+character_event = {
+	id = monogatari.206
+	hide_window = yes
+
+	ai = no
+	only_rulers = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_global_flag = VIET_plethon_publishes_nomoi }
+		any_courtier = {
+			NOT = { trait = incapable }
+			has_character_flag = VIET_is_plethon
+		}
+	}
+	
+	immediate = {
+		set_global_flag = VIET_plethon_publishes_nomoi
+		random_courtier = {
+			limit = {
+				NOT = { trait = incapable }
+				has_character_flag = VIET_is_plethon		
+			}
+			add_artifact = monogatari_plethon_nomoi
+			character_event = { id = monogatari.207 }
+		}
+	}
+}
+
+# Ping to Plethon
+character_event = {
+	id = monogatari.207
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		FROM = {
+			narrative_event = { id = monogatari.208 }
+		}
+	}
+}
+
+# Ping back to ruler
+narrative_event = {
+	id = monogatari.208
+	title = monogatari.208.title
+	desc = monogatari.208.desc
+	picture = GFX_evt_open_book_hf
+	
+	is_triggered_only = yes
+	
+	option = { # Have no interest
+		name = monogatari.208.a
+		any_courtier = {
+			limit = {
+				has_artifact = monogatari_plethon_nomoi
+			}
+			piety = 10
+		}
+		if = {
+			limit = {
+				NOR = {
+					religion = hellenic_pagan
+					religion = hellenic_pagan_reformed
+				}
+			}
+			piety = 20
+			prestige = 20
+		}
+		if = {
+			limit = {
+				OR = {
+					religion = hellenic_pagan
+					religion = hellenic_pagan_reformed
+				}
+			}
+			piety = -20
+			prestige = -20
+		}
+	}		
+	option = { # Interested
+		name = monogatari.208.b
+		any_courtier = {
+			limit = {
+				has_artifact = monogatari_plethon_nomoi
+			}
+			prestige = 100
+			piety = 50
+			random_artifact = {
+				limit = {
+					artifact_type = monogatari_plethon_nomoi
+				}
+				transfer_artifact = {
+					from = FROM
+					to = ROOT
+				}
+			}
+			opinion = {
+				modifier = opinion_happy
+				who = ROOT
+				years = 5
+			}
+		}
+		if = {
+			limit = {
+				NOR = {
+					religion = hellenic_pagan
+					religion = hellenic_pagan_reformed
+				}
+			}
+			piety = -20
+			prestige = 20
+		}
+		if = {
+			limit = {
+				OR = {
+					religion = hellenic_pagan
+					religion = hellenic_pagan_reformed
+				}
+			}
+			piety = 20
+			prestige = 20
+		}
+	}	
+	option = { # Destroy it!
+		name = monogatari.208.c
+		trigger = {
+			NOR = {
+				religion = hellenic_pagan
+				religion = hellenic_pagan_reformed
+				AND = {
+					OR = {
+						trait = erudite
+						trait = sympathy_pagans
+						trait = scholar
+						trait = mystic
+					}
+					NOT = {
+						trait = zealous						
+					}
+				}
+			}
+		}
+		any_courtier = {
+			limit = {
+				has_artifact = monogatari_plethon_nomoi
+			}
+			random_artifact = {
+				limit = {
+					artifact_type = monogatari_plethon_nomoi
+				}
+				destroy_artifact = yes
+			}
+			prestige = -50
+			opinion = {
+				modifier = opinion_angry
+				who = ROOT
+				years = 100
+			}
+			add_rival = ROOT
+		}
+		if = {
+			limit = {
+				NOR = {
+					religion = hellenic_pagan
+					religion = hellenic_pagan_reformed
+				}
+			}
+			piety = 20
+			prestige = -20
+		}
+	}	
+}
+
+# Scholarly character writes the Chronicle of Monemvasia
+character_event = {
+	id = monogatari.209
+	hide_window = yes
+
+	ai = no
+	only_rulers = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { year = 1100 }
+		OR = {
+			NOT = { religion_group = pagan_group }
+			religion = hellenic_pagan
+			religion = hellenic_pagan_reformed
+		}
+		culture_group = byzantine
+		NOT = { has_global_flag = VIET_chronicle_monemvasia_written }
+		OR = {
+			has_landed_title = c_korinthos
+			has_landed_title = c_achaia
+			has_landed_title = c_methone
+			has_landed_title = c_monemvasia		
+		}
+		any_courtier = {
+			is_adult = yes
+			NOT = { trait = incapable }
+			culture_group = byzantine
+			religion = ROOT
+			OR = {
+				trait = scholar
+				trait = mystic
+				trait = erudite
+				trait = genius
+				trait = quick
+				trait = shrewd
+			}
+			diplomacy = 8
+			learning = 10
+		}
+		NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}	
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 0.2
+			NOT = { year = 800 }
+		}
+		modifier = {
+			factor = 0.6
+			NOT = { year = 850 }
+		}
+		modifier = {
+			factor = 1.5
+			year = 950
+		}
+		modifier = {
+			factor = 3
+			year = 1050
+		}
+	}	
+	
+	immediate = {
+		random_courtier = {
+			limit = {
+				is_adult = yes
+				NOT = { trait = incapable }
+				culture_group = byzantine
+				religion = ROOT
+				OR = {
+					trait = scholar
+					trait = mystic
+					trait = erudite
+					trait = genius
+					trait = quick
+					trait = shrewd
+				}
+				diplomacy = 8
+				learning = 10
+			}	
+			add_artifact = monogatari_chronicle_of_monemvasia
+			character_event = { id = monogatari.210 }
+		}
+	}
+}
+
+# Ping to writer
+character_event = {
+	id = monogatari.210
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		FROM = {
+			long_character_event = { id = monogatari.211 }
+		}
+	}
+}
+
+# Ping back to ruler
+long_character_event = {
+	id = monogatari.211
+	title = monogatari.211.title
+	desc = monogatari.211.desc
+	picture = GFX_evt_open_book_hf
+	
+	is_triggered_only = yes
+	
+	option = { # Thanks
+		name = monogatari.211.a
+		prestige = 20
+		any_courtier = {
+			limit = {
+				has_artifact = monogatari_chronicle_of_monemvasia
+			}
+			prestige = 50
+			piety = 50
+			random_artifact = {
+				limit = {
+					artifact_type = monogatari_chronicle_of_monemvasia
+				}
+				transfer_artifact = {
+					from = FROM
+					to = ROOT
+				}
+			}
+			opinion = {
+				modifier = opinion_happy
+				who = ROOT
+				years = 5
+			}
 		}
 	}
 }
