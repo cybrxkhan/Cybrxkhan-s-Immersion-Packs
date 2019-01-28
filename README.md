@@ -16,6 +16,7 @@ Please feel free to use my work in your mods, all I ask is that I am credited.
 Currently, the following Immersion Packs are available:
 
 - Harranians: The Last Pagans
+- Peloponnesian: Sparta's Legacy
 
 
 
