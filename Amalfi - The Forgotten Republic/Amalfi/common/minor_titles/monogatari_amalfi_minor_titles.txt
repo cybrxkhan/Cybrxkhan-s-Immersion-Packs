@@ -1,0 +1,53 @@
+########################################################
+# MINOR TITLES
+# Characters can have any number of these
+########################################################
+#	grant_limit: Max number of holders.
+#	realm_in_name: Append the name of the country after the title (Queen [of Sweden])
+#	allowed_to_hold: conditions for the character to hold the title
+#	allowed_to_grant: conditions for a ruler to grant the title
+#	regent: This is the title for regents (not really "minor")
+#	gain_effect: fires when the title is granted
+#	lose_effect: fires when a title is lost through most causes
+#	retire_effect: fires when a title is lost due to the character stepping down
+#	death_effect: fires when a title is lost due to the character dying
+#	message: should fire a message to the its owner when set
+#	The other fields are all character modifiers.
+
+title_warden_of_gallo_lungo = {
+	dignity = 0.05
+	#realm_in_name = no
+	grant_limit = 1
+	opinion_effect = 10
+	
+	monthly_salary = 0.04
+	monthly_prestige = 0.5
+	
+	is_unique = yes
+	
+	allowed_to_hold = {
+		NOT = {
+			primary_title = { temporary = yes }
+		}
+		is_adult = yes
+		OR = {
+			male_can_hold_minor_title_trigger = yes
+			female_can_hold_minor_commander_title_trigger = yes
+		}
+		NOT = { has_character_flag = guru }
+		NOT = { trait = incapable }
+	}
+	
+	allowed_to_grant = {
+		has_landed_title = c_amalfi
+		is_nomadic = no
+		has_global_flag = VIET_amalfi_gallo_lungo_built
+	}
+	
+	gain_effect = {
+	}
+	lose_effect = {
+	}
+
+	message = yes
+}

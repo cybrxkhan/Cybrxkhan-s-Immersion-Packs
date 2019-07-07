@@ -1,0 +1,90 @@
+# Italian music - more likely to play for Latins, Byzantines, Lombards, and merchant republics
+#
+# Tracks and sources:
+#
+# http://www.jsayles.com/familypages/earlymusic.htm
+#
+
+song = {
+	name = "villa_in_capri.ogg"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			OR = {
+				culture_group = byzantine
+				capital_scope = { culture_group = byzantine }
+				culture_group = latin
+				capital_scope = { culture_group = latin }
+				culture = lombard
+				capital_scope = { culture = lombard }
+				is_patrician = yes
+				is_merchant_republic = yes
+			}
+		}
+	}		
+}
+
+song = {
+	name = "navigators_of_amalfi.ogg"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			OR = {
+				culture_group = byzantine
+				capital_scope = { culture_group = byzantine }
+				culture_group = latin
+				capital_scope = { culture_group = latin }
+				culture = lombard
+				capital_scope = { culture = lombard }
+				is_patrician = yes
+				is_merchant_republic = yes
+			}
+		}
+	}		
+}
+
+song = {
+	name = "sirens_dance.ogg"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			OR = {
+				culture_group = byzantine
+				capital_scope = { culture_group = byzantine }
+				culture_group = latin
+				capital_scope = { culture_group = latin }
+				culture = lombard
+				capital_scope = { culture = lombard }
+				is_patrician = yes
+				is_merchant_republic = yes
+			}
+		}
+	}		
+}
+
+song = {
+	name = "a_sip_of_limoncello.ogg"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			OR = {
+				culture_group = byzantine
+				capital_scope = { culture_group = byzantine }
+				culture_group = latin
+				capital_scope = { culture_group = latin }
+				culture = lombard
+				capital_scope = { culture = lombard }
+				is_patrician = yes
+				is_merchant_republic = yes
+			}
+		}
+	}		
+}

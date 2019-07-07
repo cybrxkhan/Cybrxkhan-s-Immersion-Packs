@@ -1,0 +1,121 @@
+########################################################
+#
+# AMALFI DYNASTIES
+#
+# 1000088512-1000088539 Amalfi / Italian
+#
+########################################################
+
+
+1000088512 = {
+	name="Alagno"
+	culture = italian
+}
+1000088513 = {
+	name="Mauro Comite"
+	culture = italian
+}
+1000088514 = {
+	name="Comite Lane"
+	culture = italian
+}
+1000088515 = {
+	name="Augustariccio"
+	culture = italian
+}
+1000088516 = {
+	name="Viarecta"
+	culture = italian
+}
+1000088517 = {
+	name="Amalfitani"
+	culture = italian
+}
+1000088518 = {
+	name="Milano"
+	culture = italian
+}
+1000088519 = {
+	name="Rufolo"
+	culture = italian
+}
+1000088520 = {
+	name="d'Aflitto"
+	culture = italian
+}
+1000088521 = {
+	name="Confalone"
+	culture = italian
+}
+1000088522 = {
+	name="Della Marra"
+	culture = italian
+}
+1000088523 = {
+	name="Accongiogioco"
+	culture = italian
+}
+1000088524 = {
+	name="Fusco"
+	culture = italian
+}
+1000088525 = {
+	name="Amici"
+	culture = italian
+}
+1000088526 = {
+	name="Gioia"
+	culture = italian
+}
+1000088527 = {
+	name="Piccolomini"
+	culture = italian
+}
+1000088528 = {
+	name="Sanseverino"
+	culture = italian
+}
+1000088529 = {
+	name="Colonna"
+	culture = italian
+}
+1000088530 = {
+	name="Bove"
+	culture = italian
+}
+1000088531 = {
+	name="Brancia"
+	culture = italian
+}
+1000088532 = {
+	name="Piscicelli"
+	culture = italian
+}
+1000088533 = {
+	name="Siconolfi"
+	culture = italian
+}
+1000088534 = {
+	name="Benusi"
+	culture = italian
+}
+1000088535 = {
+	name="Ioncatella"
+	culture = italian
+}
+1000088536 = {
+	name="Sfagilla"
+	culture = italian
+}
+1000088537 = {
+	name="Roibuli"
+	culture = italian
+}
+1000088538 = {
+	name="Claratrovi"
+	culture = italian
+}
+1000088539 = {
+	name="Bocavitello"
+	culture = italian
+}

@@ -1,0 +1,50 @@
+##################################
+# Harranian Graphics		  	 #
+##################################
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_enact_amalfi_laws"
+		texturefile = "gfx\\interface\\decision_icon_enact_amalfi_laws.dds"
+	}
+	spriteType = {
+		name = "GFX_reform_amalfi_laws"
+		texturefile = "gfx\\interface\\decision_icon_enact_amalfi_laws.dds"
+	}
+	spriteType = {
+		name = "GFX_restore_temple_of_the_sirens"
+		texturefile = "gfx\\interface\\decision_icon_restore_temple_of_the_sirens.dds"
+	}
+	spriteType = {
+		name = "GFX_make_offerings_to_sirens"
+		texturefile = "gfx\\interface\\decision_icon_make_offerings_to_sirens.dds"
+	}
+	spriteType = {
+		name = "GFX_bambagina_paper_status"
+		texturefile = "gfx\\interface\\decision_icon_bambagina_paper_status.dds"
+	}
+	spriteType = {
+		name = "GFX_choose_amalfi_business_focus"
+		texturefile = "gfx\\interface\\decision_icon_choose_amalfi_business_focus.dds"
+	}
+	spriteType = {
+		name = "GFX_evt_amalfi_coast"
+		texturefile = "gfx\\event_pictures\amalfi_coast.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_amalfi_town"
+		texturefile = "gfx\\event_pictures\amalfi_town.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_amalfi_villa"
+		texturefile = "gfx\\event_pictures\amalfi_villa.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_sirens"
+		texturefile = "gfx\\event_pictures\sirens.tga"
+		allwaystransparent = yes
+	}
+}

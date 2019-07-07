@@ -1,0 +1,38 @@
+#character
+on_startup = {
+	events = {
+		amalfi.0 # Setup event
+	}
+}
+##character
+on_yearly_pulse = {
+
+	events = {
+		amalfi.35	# Bambagina Paper failsafe if missing
+		amalfi.36	# Bambagina Paper failsafe if multiple
+	}
+	
+	random_events = {
+		amalfi = {
+		
+			delay = 12
+			
+			3000 = 0
+			
+			30 = amalfi.70	# Harvest of Amalfi lemons is good
+			10 = amalfi.71	# Ancient Roman villa along the Amalfi coast discovered
+			30 = amalfi.72	# Presented with a gift of Limoncello liqueur
+			20 = amalfi.75	# Vendors selling ceramics in Vietri
+			20 = amalfi.76	# Passing by Dragone
+			30 = amalfi.77	# Chestnut festival of Scala
+			10 = amalfi.78	# Hearing about the Blue Grotto of Capri
+			20 = amalfi.80	# Visiting Orthodox monk with ties to Amalfion
+			20 = amalfi.81	# Send gift to the Amalfion?
+			10 = amalfi.82	# Catholic monk from Amalfion arrives in Amalfi
+			
+			10 = amalfi.40	# Tower of Gallo Lungo
+			
+			#Total: 200
+		}		
+	}	
+}

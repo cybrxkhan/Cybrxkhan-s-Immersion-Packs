@@ -1,0 +1,284 @@
+#################################################################################################
+# scriptable and usable for event-system below.
+##################################################################################################
+#
+# ICONS:
+#
+# Good 			<=> 		Bad
+#
+#  1 - Martial 				- 19
+#  2 - Learning 			- 20
+#  3 - Diplomacy 			- 21
+#  4 - Stewardship 			- 22
+#  5 - Intrigue 			- 23
+#  6 - Money 				- 24
+#  7 - Prestige 			- 25
+#  8 - Piety 				- 26
+#  9 - Titles 				- 27
+# 10 - Council 				- 28 
+# 11 - Laws 				- 29
+# 12 - Tech 				- 30 
+# 13 - Military 			- 31
+# 14 - Plots 				- 32
+# 15 - Messages 			- 33
+# 16 - Diplomatic actions 	- 34
+# 17 - Church 				- 35
+# 18 - Characters 			- 36
+# 37 - Prison 				- 38
+# 39 - Love 				- 40
+# 41 - Death 				- 42
+# 43 - Indian religion 		- 44
+# 45 - Dog					- 65
+# 46 - Cat					- 66
+# 47 - Owl					- 67
+# 48 - Pagan religion       - 49
+# 50 - Staff of Asclepius   - 51
+# 52 - Mystic               - 53
+# 54 - Bonesaw              - 55
+# 56 - Horseshoe            - 57
+# 58 - Parrot				- 68
+# 59 - Ham					- 60
+# 61 - Anchor				- 62
+# 63 - Jewish religion		- 64
+# 69 - Bed					- 70
+# 71 - Wolf					- 72
+# 73 - Raven				- 74
+# 75 - Demon horns			- 76
+# 77 - Trident				- 78
+# 79 - Stars				- 80
+# 81 - Eye					- 82
+# 83 - Test-tubes			- 84
+# 85 - Science flask		- 86
+# 87 - Flower				- 88
+# 89 - Rats		 			- 90
+# 91 - Otter				- 92
+# 93 - Hedgehog				- 94
+# 95 - Taoist				- 96
+# 97 - Paper				- 98
+# 99 - Bamboo Book			- 100
+# 101 - Pagoda				- 102
+# 103 - Firework			- 104
+# 105 - Torch				- 106
+# 107 - Panda				- 108
+# 109 - Dragon				- 110
+# 111 - Eagle				- 112
+# 113 - Pregnancy			- 114
+# 115 - Evil Sword			- 116
+# 117 - Combat Skill		- 118
+# 119 - Broken Bone			- 120
+# 121 - Chicken				- 122
+# 123 - Combat Skill (New)	- 124
+# 125 - Bear 				- 126
+# 127 - Lion 				- 128
+# 129 - Rain Good           - 130
+# 131 - Rain Storm          - 132
+# 133 - Sun   	            - 134
+
+# game\gfx\interface\modifier_icons.dds
+
+#Variables:
+#  is_visible: trigger, root is viewer, from is holder. Decides if the viewer can see this trait on holder, default is yes
+
+
+# Province
+VIET_amalfian_laws_enacted = {
+	local_tax_modifier = 0.25
+	tradevalue = 12
+	tech_growth_modifier_economy = 0.1
+	tech_growth_modifier_culture = 0.05
+	tech_growth_modifier_military = 0.05
+	icon = 11
+}
+VIET_amalfian_laws_reformed = {
+	local_tax_modifier = 0.15
+	tradevalue = 6
+	tech_growth_modifier_economy = 0.05
+	tech_growth_modifier_culture = 0.02
+	tech_growth_modifier_military = 0.02
+	icon = 11
+}
+VIET_temple_of_sirens = {
+	icon = 48
+}
+VIET_bambagina_paper_support = {
+	tradevalue = 12
+	local_tax_modifier = 0.1
+	add_prestige_modifier = -1
+	icon = 97
+}
+VIET_bambagina_paper_tolerate = {
+	tradevalue = 3
+	local_tax_modifier = 0.025
+	add_prestige_modifier = -0.25
+	icon = 97
+}
+VIET_bambagina_paper_ban = {
+	local_tax_modifier = -0.1
+	add_prestige_modifier = 0.5
+	icon = 97
+}
+VIET_bambagina_paper_timer = {
+	icon = 97
+}
+VIET_amalfi_limoncello_trade_booming = {
+	local_tax_modifier = 0.2
+	icon = 87
+}
+VIET_amalfi_fabric_trade_booming = {
+	local_tax_modifier = 0.1
+	icon = 87
+}
+VIET_amalfi_resort_villas = {
+	tradevalue = 2
+	local_tax_modifier = 0.1
+	icon = 133
+}
+#Character
+VIET_amalfi_law_creator = {
+	diplomacy = 1
+	stewardship = 3
+	monthly_character_prestige = 0.3
+	icon = 11
+}
+VIET_amalfi_law_reformer = {
+	diplomacy = 1
+	stewardship = 3
+	monthly_character_prestige = 0.3
+	icon = 11
+}
+VIET_rebuilt_temple_of_sirens = {
+	hellenic_pagan_opinion = 20
+	hellenic_pagan_reformed_opinion = 20
+	monthly_character_prestige = 0.4
+	icon = 11
+}
+VIET_siren_temple_timer = {
+	icon = 49
+}
+VIET_siren_enchantment_curse = {
+	diplomacy = -1
+	stewardship = -1
+	icon = 49
+}
+VIET_siren_enchantment_neutral = {
+	monthly_character_piety = 0.1
+	icon = 48
+}
+VIET_siren_enchantment_blessing = {
+	monthly_character_piety = 0.5
+	monthly_character_prestige = 0.5
+	diplomacy = 1
+	stewardship = 1
+	icon = 48
+}
+VIET_siren_danger_curse = {
+	martial = -1
+	health = -0.5
+	combat_rating = -5
+	icon = 49
+}
+VIET_siren_danger_neutral = {
+	monthly_character_piety = 0.1
+	icon = 48
+}
+VIET_siren_danger_blessing = {
+	monthly_character_piety = 0.5
+	martial = 2
+	health = 1
+	combat_rating = 10
+	icon = 48
+}
+VIET_siren_mystery_curse = {
+	intrigue = -1
+	fertility = -0.1
+	icon = 49
+}
+VIET_siren_mystery_neutral = {
+	monthly_character_piety = 0.1
+	icon = 48
+}
+VIET_siren_mystery_blessing = {
+	monthly_character_piety = 0.5
+	intrigue = 2
+	learning = 1
+	fertility = 0.2
+	icon = 48
+}
+VIET_new_amalfi_resort_home = {
+	diplomacy = 1
+	health = 0.25
+	fertility = 0.03
+	monthly_character_prestige = 0.1
+	icon = 87
+}
+VIET_new_amalfi_resort_temple = {
+	learning = 1
+	global_revolt_risk = -0.02
+	church_opinion = 10
+	monthly_character_piety = 0.1
+	icon = 17
+}
+VIET_new_amalfi_resort_hostel = {
+	stewardship = 1
+	monthly_character_wealth = 0.5
+	monthly_character_prestige = 0.05
+	icon = 133
+}
+VIET_amalfi_blue_grotto_riches = {
+	diplomacy = 1
+	monthly_character_prestige = 0.1
+	icon = 4
+}
+VIET_amalfion_connections = {
+	intrigue = 1
+	learning = 1
+	monthly_character_piety = 0.1
+	monthly_character_prestige = 0.05
+	icon = 17
+}
+VIET_amalfion_monk_background = {
+	diplomacy = 1
+	intrigue = 1
+	learning = 3
+	monthly_character_piety = 0.03
+	icon = 17
+}
+VIET_amalfi_chestnut_focus = {
+	fertility = 0.05
+	intrigue = 2
+	monthly_character_wealth = 0.5
+	icon = 17
+}
+VIET_amalfi_ceramics_focus = {
+	tech_growth_modifier = 0.04
+	monthly_character_wealth = 0.5
+	icon = 17
+}
+VIET_amalfi_silk_focus = {
+	monthly_character_wealth = 1
+	icon = 17
+}
+VIET_amalfi_fish_focus = {
+	land_morale = 0.1
+	levy_reinforce_rate = 0.1
+	monthly_character_wealth = 0.5
+	icon = 17
+}
+VIET_amalfi_coral_focus = {
+	learning = 2
+	monthly_character_piety = 0.5
+	monthly_character_wealth = 0.5
+	icon = 17
+}
+VIET_amalfi_lemon_focus = {
+	diplomacy = 2
+	monthly_character_prestige = 0.5
+	monthly_character_wealth = 0.5
+	icon = 17
+}
+VIET_amalfi_gallo_lungo_watchtower = {
+	fort_level = 0.5
+	levy_reinforce_rate = 0.1
+	land_organisation = 0.1
+	icon = 13
+}
