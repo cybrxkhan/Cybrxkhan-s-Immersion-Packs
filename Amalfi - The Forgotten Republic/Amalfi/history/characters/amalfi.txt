@@ -6,31 +6,31 @@
 #
 ########################################################################################################################
 
-100015905 = { #fictional
-	name=Andronikos
-	dynasty=9590
-	religion=orthodox
-	culture=greek
-	father=168382
-	mother=168390
-	1048.1.1={		
-		birth=yes	
-	}
-	1120.1.1={		
-		death=yes	
-	}
-}
-100015906 = { #fictional
-	name=Zotto
-	dynasty=9593
-	father=168427
-	mother=168429
-	religion=catholic
-	culture=lombard
-	1043.1.1={
-		birth=yes
-	}
-	1109.1.1={
-		death=yes
-	}
-}
+#100015905 = { #fictional
+#	name=Andronikos
+#	dynasty=9590
+#	religion=orthodox
+#	culture=greek
+#	father=168382
+#	mother=168390
+#	1048.1.1={		
+#		birth=yes	
+#	}
+#	1120.1.1={		
+#		death=yes	
+#	}
+#}
+#100015906 = { #fictional
+#	name=Zotto
+#	dynasty=9593
+#	father=168427
+#	mother=168429
+#	religion=catholic
+#	culture=lombard
+#	1043.1.1={
+#		birth=yes
+#	}
+#	1109.1.1={
+#		death=yes
+#	}
+#}
