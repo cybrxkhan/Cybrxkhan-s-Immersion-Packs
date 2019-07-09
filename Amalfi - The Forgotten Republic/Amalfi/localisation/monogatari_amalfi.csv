@@ -37,7 +37,7 @@ VIET_new_amalfi_resort_temple;New House of Worship in Amalfi;xxxxx;;;;;;;;;;x
 VIET_new_amalfi_resort_temple_desc;This character recently transformed an ancient Roman ruin along the Amalfi Coast into a house of worship.;xxxxx;;;;;;;;;;x
 VIET_new_amalfi_resort_hostel;New Hostel in Amalfi;xxxxx;;;;;;;;;;x
 VIET_new_amalfi_resort_hostel_desc;This character recently transformed an ancient Roman ruin along the Amalfi Coast into a hostel, a sly business decision, given that the region has always attracted tourists and travelers since ancient times.;xxxxx;;;;;;;;;;x
-VIET_amalfi_limoncello_trade_booming;Limoncello Liqueur Trade is Booming;xxxxx;;;;;;;;;;x
+VIET_amalfi_limoncello_trade_booming;Lemon Flavored Liquor Trade is Booming;xxxxx;;;;;;;;;;x
 VIET_amalfi_fabric_trade_booming;Atrani's Fabric Trade is Booming;xxxxx;;;;;;;;;;x
 VIET_amalfi_blue_grotto_riches;Riches of the Blue Grotto;xxxxx;;;;;;;;;;x
 VIET_amalfi_blue_grotto_riches_desc;This character recently acquired a number of ancient treasures previously submerged in the famous Blue Grotto of Capri.;xxxxx;;;;;;;;;;x
@@ -50,8 +50,8 @@ VIET_amalfi_resort_villas;Villas of the Amalfi Coast;xxxxx;;;;;;;;;;x
 VIET_amalfi_resort_villas_desc;For centuries, the Amalfi Coast has served as a place for relaxation and fun for those aristocrats and elites around the Mediterranean who could afford to travel to and visit there. Many of them, particularly powerful local families, have kept vacation villas for generations, some supposedly since Roman times.;xxxxx;;;;;;;;;;x
 fp_amalfi_lemon_1;Lemon Garden;xxxxx;;;;;;;;;;x
 fp_amalfi_lemon_1_desc;In the manor's garden are some lemon trees. The Amalfi Coast has always been renowned for its unique lemons, called "sfusato amalfitano." ;xxxxx;;;;;;;;;;x
-fp_amalfi_lemon_2;Limoncello Maker;xxxxx;;;;;;;;;;x
-fp_amalfi_lemon_2_desc;A limoncello maker has been set up in the palace courtyard. Limoncello liqueur is a major imports of Amalfi and made using the special lemons produced along the Amalfi Coast.;xxxxx;;;;;;;;;;x
+fp_amalfi_lemon_2;Lemon Alcohol Maker;xxxxx;;;;;;;;;;x
+fp_amalfi_lemon_2_desc;An alochol maker has been set up in the palace courtyard. Lemon flavored alcoholic beverages are a major export of Amalfi and made using the special lemons produced along the Amalfi Coast.;xxxxx;;;;;;;;;;x
 fp_amalfi_lemon_3;Lemon Groves;xxxxx;;;;;;;;;;x
 fp_amalfi_lemon_3_desc;Besides this manor are many terraced lemon groves. The Amalfi Coast has always been renowned for its unique lemons, called "sfusato amalfitano." ;xxxxx;;;;;;;;;;x
 fp_amalfi_chestnuts;Chestnut Farms of Scala;xxxxx;;;;;;;;;;x
@@ -65,7 +65,7 @@ fp_amalfi_fish_desc;This family is focusing its business investments in Amalfi's
 fp_amalfi_coral;Coral Workers of Amalfi;xxxxx;;;;;;;;;;x
 fp_amalfi_coral_desc;This family is focusing its business investments in Amalfi's coral industry. The coral is taken from seaside villages along the Amalfi Coast like Praiano, before being turned into jewelry and prayer beads in the workshops of Scala, a nearby town.;xxxxx;;;;;;;;;;x
 fp_amalfi_lemon;Lemon Growers of Amalfi;xxxxx;;;;;;;;;;x
-fp_amalfi_lemon_desc;This family is focusing its business investments in Amalfi's famous lemon industry. Though many powerful Amalfian families keep lemon groves or are involved in the Limoncello Liqueur business, this family seeks to dominate these markets!;xxxxx;;;;;;;;;;x
+fp_amalfi_lemon_desc;This family is focusing its business investments in Amalfi's famous lemon industry. Though many powerful Amalfian families keep lemon groves, this family seeks to dominate these markets!;xxxxx;;;;;;;;;;x
 VIET_amalfi_chestnut_focus;Business Focus on the Chestnut Farms of Scala;xxxxx;;;;;;;;;;x
 VIET_amalfi_chestnut_focus_desc;This family is focusing its business investments in the chestnut farms of Scala, a settlement on the Amalfi Coast. The town's chestnuts are popular across the region.;xxxxx;;;;;;;;;;x
 VIET_amalfi_ceramics_focus;Business Focus on the Ceramic Kilns of Vietri sul Mare;xxxxx;;;;;;;;;;x
@@ -77,7 +77,7 @@ VIET_amalfi_fish_focus_desc;This family is focusing its business investments in 
 VIET_amalfi_coral_focus;Business Focus on the Coral Workers of Amalfi;xxxxx;;;;;;;;;;x
 VIET_amalfi_coral_focus_desc;This family is focusing its business investments in Amalfi's coral industry. The coral is taken from seaside villages along the Amalfi Coast like Praiano, before being turned into jewelry and prayer beads in the workshops of Scala, a nearby town.;xxxxx;;;;;;;;;;x
 VIET_amalfi_lemon_focus;Business Focus on the Lemon Growers of Amalfi;xxxxx;;;;;;;;;;x
-VIET_amalfi_lemon_focus_desc;This family is focusing its business investments in Amalfi's famous lemon industry. Though many powerful Amalfian families keep lemon groves or are involved in the Limoncello Liqueur business, this family seeks to dominate these markets!;xxxxx;;;;;;;;;;x
+VIET_amalfi_lemon_focus_desc;This family is focusing its business investments in Amalfi's famous lemon industry. Though many powerful Amalfian families keep lemon groves, this family seeks to dominate these markets!;xxxxx;;;;;;;;;;x
 title_warden_of_gallo_lungo;Warden of Gallo Lungo;xxxxx;;;;;;;;;;x
 title_warden_of_gallo_lungo_desc;On the small island of Gallo Lungo is a watchtower which was built to warn the inhabitants of the Amalfi Coast about any incoming pirates and attackers. Because of its importance, the person assigned to be in charge of this tower has to be responsible and dutiful.;xxxxx;;;;;;;;;;x
 VIET_no_current_amalfi_focus;Does not have a current Amalfian business focus;xxxxx;;;;;;;;;;x
@@ -85,6 +85,17 @@ choose_amalfi_business_focus;Choose a Business Focus in Amalfi;xxxxx;;;;;;;;;;x
 choose_amalfi_business_focus_desc;As one of the prominent patrician families in Amalfi, it is imperative that we invest in one of Amalfi's major industries in order to expand our wealth and connections.;xxxxx;;;;;;;;;;x
 VIET_amalfi_gallo_lungo_watchtower;Watchtower of Gallo Lungo;xxxxx;;;;;;;;;;x
 VIET_amalfi_gallo_lungo_watchtower_desc;Some distance from the Amalfian town of Positano are a group of islands called the Sirenusas. On the largest island, Gallo Lungo, stands a small but mighty watchtower, whose purpose is to warn the inhabitants of the Amalfi Coast about any incoming pirates or invaders.;xxxxx;;;;;;;;;;x
+VIET_amalfi_agerola_white_rose;Bought White Rosaria from Agerola;xxxxx;;;;;;;;;;x
+VIET_amalfi_sorrentine_wood_deal;Exclusive Exporter of Sorrentine Lumber;xxxxx;;;;;;;;;;x
+VIET_amalfi_sorrentine_wood_deal_desc;This patrician has an exclusive deal with a foreign customer to export lumber made from the abundant woodlands of the Sorrentine peninsula.;xxxxx;;;;;;;;;;x
+VIET_amalfi_sorrentine_wood_military;Sorrentine Wood Surplus used for Military;xxxxx;;;;;;;;;;x
+VIET_amalfi_sorrentine_wood_building;Sorrentine Wood Surplus used for Construction;xxxxx;;;;;;;;;;x
+found_amalfion;Found the Monastery of Amalfion;xxxxx;;;;;;;;;;x
+found_amalfion_desc;A number of Benedictine monks in the region have been proposing that we help establish a monastery in Mount Athos, to encourage relations between the Western and Eastern Churches.;xxxxx;;;;;;;;;;x
+VIET_amalfi_established_amalfion;Helped Found Amalfion;xxxxx;;;;;;;;;;x
+VIET_amalfi_established_amalfion_desc;This Amalfion patrician led the effort to establish the Amalfion, a Latin monastery on Mount Athos.;xxxxx;;;;;;;;;;x
+monogatari_amalfi_amalfion_established;Helped Found Amalfion;xxxxx;;;;;;;;;;x
+monogatari_amalfi_improving_amalfion;Improving relations through Amalfion;xxxxx;;;;;;;;;;x
 xxxxxxxxxxxxxxxxx;xxxxx;xxxxx;;;;;;;;;;x
 amalfi.0.desc;xxxxx;xxxxx;;;;;;;;;;x
 amalfi.0.a;Xxxxxxffff;Xxxxxxffff;;;;;;;;;;;;x
@@ -223,10 +234,16 @@ amalfi.48.desc;xxxxx;xxxxx;;;;;;;;;;x
 amalfi.48.a;Xxxxxxffff;Xxxxxxffff;;;;;;;;;;;;x
 amalfi.49.desc;xxxxx;xxxxx;;;;;;;;;;x
 amalfi.49.a;Xxxxxxffff;Xxxxxxffff;;;;;;;;;;;;x
-amalfi.50.desc;xxxxx;xxxxx;;;;;;;;;;x
-amalfi.50.a;Xxxxxxffff;Xxxxxxffff;;;;;;;;;;;;x
-amalfi.51.desc;xxxxx;xxxxx;;;;;;;;;;x
-amalfi.51.a;Xxxxxxffff;Xxxxxxffff;;;;;;;;;;;;x
+amalfi.50.title;A New Monastery;xxxxx;;;;;;;;;;x
+amalfi.50.desc;A number of Benedictine monks have proposed that we set up a monastery on Mount Athos, the famous mountain in Greece that has become a center of the Eastern Church's spirituality and monasticism. By establishing a Latin monastery there, dialogue and cooperation between the two groups can be encouraged. Amalfi has historically had a mix of followers from both the Western and Eastern Churches, so we are ideally suited to this noble endeavor.;xxxxx;;;;;;;;;;x
+amalfi.50.a;They have my blessing.;Xxxxxxffff;;;;;;;;;;;;x
+amalfi.51.title;Amalfion Established;xxxxx;;;;;;;;;;x
+amalfi.51.desc;Amalfi has always enjoyed close relations with the Eastern Roman Empire, in contrast to some of the other Republics and petty feudal realms of the Italian Peninsula. A number of Benedictine monks, working together with [From.GetTitledName], have established a Latin monastery on Mount Athos, the great monastic haven of Greece. In doing so, they hope to improve relations between the Western and Eastern Churches. Due to the prominence of Amalfians in founding and developing the monastery, many have started calling this monastery the Amalfion.;xxxxx;;;;;;;;;;x
+amalfi.51.a;Interesting news! Hopefully it will work out.;Xxxxxxffff;;;;;;;;;;;;x
+amalfi.51.b;We are honored by our brothers and sisters from Amalfi.;Xxxxxxffff;;;;;;;;;;;;x
+amalfi.51.c;What happens with those Christians is of no concern to us.;Xxxxxxffff;;;;;;;;;;;;x
+amalfi.51.d;I am proud of our work. For the glory of God!;Xxxxxxffff;;;;;;;;;;;;x
+VIET_improved_relations_amalfion;Our relations with the ruler of Amalfi have improved greatly;xxxxx;;;;;;;;;;x
 amalfi.52.desc;xxxxx;xxxxx;;;;;;;;;;x
 amalfi.52.a;Xxxxxxffff;Xxxxxxffff;;;;;;;;;;;;x
 amalfi.53.desc;xxxxx;xxxxx;;;;;;;;;;x
@@ -270,12 +287,17 @@ amalfi.71.a;Splendid. Another resort home wouldn't hurt.;Xxxxxxffff;;;;;;;;;;;;x
 amalfi.71.b;This is a waste of money.;Xxxxxxffff;;;;;;;;;;;;x
 amalfi.71.c;Convert it into a house of worship instead.;Xxxxxxffff;;;;;;;;;;;;x
 amalfi.71.d;Turn it into a hostel for travelers.;Xxxxxxffff;;;;;;;;;;;;x
-amalfi.72.desc;Limoncello liqueur has been a prized product of the Amalfi Coast for many years. Today some local dignitaries present me with some of the highest quality Limoncello as a gift. Even if I have no desire to drink it, I can still give it to someone or present it to esteemed guests at a banquet.;xxxxx;;;;;;;;;;x
+amalfi.72.desc;Lemon flavored alcoholic beverages have been a major export of the Amalfi Coast for many years. Today some local dignitaries present me with some of this prized product as a gift. Even if I have no desire to drink it, I can still give it to someone or present it to esteemed guests at a banquet.;xxxxx;;;;;;;;;;x
 amalfi.72.a;Much appreciated.;Xxxxxxffff;;;;;;;;;;;;x
-amalfi.73.desc;For many years, Limoncello has been one of the Amalfi Coast's major exports, and its popularity has been booming even more as of late, bringing in more income to many businesses and merchants in the area. This liqueur, made from only the finest of the Amalfian lemons, is sure to bring much prosperity to the region for generations to come.;xxxxx;;;;;;;;;;x
-amalfi.73.a;Great!;Xxxxxxffff;;;;;;;;;;;;x
-amalfi.74.desc;The fabric factories of Atrani have always been the city's pride and joy, and one of the reasons many consider it second only to Amalfi among the cities of the Amalfi Coast. Lately, this trade in fabrics has been exploding, bringing in additional profit to many involved in the business.;xxxxx;;;;;;;;;;x
-amalfi.74.a;Very good!;Xxxxxxffff;;;;;;;;;;;;x
+#amalfi.73.desc;For many years, Limoncello has been one of the Amalfi Coast's major exports, and its popularity has been booming even more as of late, bringing in more income to many businesses and merchants in the area. This liqueur, made from only the finest of the Amalfian lemons, is sure to bring much prosperity to the region for generations to come.;xxxxx;;;;;;;;;;x
+#amalfi.73.a;Great!;Xxxxxxffff;;;;;;;;;;;;x
+amalfi.74.desc;I am inspecting some of the lemon groves in Amalfi owned by my family today. I discuss with one of the laborers about the terraces, stone canals, and water tanks that make up the intricate system used to irrigate these groves, which are often situated on the hillier parts of the Amalfi Coast.;xxxxx;;;;;;;;;;x
+amalfi.74.a;An interesting discussion, all said!;Xxxxxxffff;;;;;;;;;;;;x
+amalfi.75.desc;Today I am in the village of Scala, which is the center of Amalfi's coral industry. They bring coral harvested from the other nearby villages, and it is here that they turn this coral into a variety of beautiful products, such as rosary beads and necklaces. As I travel through Scala, I hear the simple yet moving songs sung by the coral workers and fishermen of Scala as they work.;xxxxx;;;;;;;;;;x
+amalfi.75.a;A pleasant thing to listen to, no?;Xxxxxxffff;;;;;;;;;;;;x
+amalfi.75.b;Just some peasants rambling and barking nonsense.;Xxxxxxffff;;;;;;;;;;;;x
+#amalfi.74.desc;The fabric factories of Atrani have always been the city's pride and joy, and one of the reasons many consider it second only to Amalfi among the cities of the Amalfi Coast. Lately, this trade in fabrics has been exploding, bringing in additional profit to many involved in the business.;xxxxx;;;;;;;;;;x
+#amalfi.74.a;Very good!;Xxxxxxffff;;;;;;;;;;;;x
 amalfi.75.desc;I am passing through Vietri, a small town on the far end of the Amalfian Coast. This humble town is well known for the quality of its ceramics. I observe some of the vendors selling colorful pottery, and wonder if I should bring some home with me.;xxxxx;;;;;;;;;;x
 amalfi.75.a;On second thought, perhaps not.;Xxxxxxffff;;;;;;;;;;;;x
 amalfi.75.b;Sounds like a good idea!;Xxxxxxffff;;;;;;;;;;;;x
@@ -306,30 +328,53 @@ amalfi.81.b;Send a great gift.;Xxxxxxffff;;;;;;;;;;;;x
 amalfi.81.c;I've changed my mind - don't send anything.;Xxxxxxffff;;;;;;;;;;;;x
 amalfi.82.desc;A Catholic monk from Mount Athos has arrived at my court and offers his services. He has strong ties with Amalfion, a Latin monastery that has been at Athos for many years. Amalfion has served as an important site for dialogue between the Western and Eastern churches for many years. His connections with the Eastern Church and experience could help us significantly.;xxxxx;;;;;;;;;;x
 amalfi.82.a;Let us hope so!;Xxxxxxffff;;;;;;;;;;;;x
-amalfi.83.desc;xxxxx;xxxxx;;;;;;;;;;x
-amalfi.83.a;Xxxxxxffff;Xxxxxxffff;;;;;;;;;;;;x
-amalfi.84.desc;xxxxx;xxxxx;;;;;;;;;;x
-amalfi.84.a;Xxxxxxffff;Xxxxxxffff;;;;;;;;;;;;x
-amalfi.85.desc;xxxxx;xxxxx;;;;;;;;;;x
-amalfi.85.a;Xxxxxxffff;Xxxxxxffff;;;;;;;;;;;;x
-amalfi.86.desc;xxxxx;xxxxx;;;;;;;;;;x
-amalfi.86.a;Xxxxxxffff;Xxxxxxffff;;;;;;;;;;;;x
-amalfi.87.desc;xxxxx;xxxxx;;;;;;;;;;x
-amalfi.87.a;Xxxxxxffff;Xxxxxxffff;;;;;;;;;;;;x
-amalfi.88.desc;xxxxx;xxxxx;;;;;;;;;;x
-amalfi.88.a;Xxxxxxffff;Xxxxxxffff;;;;;;;;;;;;x
-amalfi.89.desc;xxxxx;xxxxx;;;;;;;;;;x
-amalfi.89.a;Xxxxxxffff;Xxxxxxffff;;;;;;;;;;;;x
-amalfi.90.desc;xxxxx;xxxxx;;;;;;;;;;x
-amalfi.90.a;Xxxxxxffff;Xxxxxxffff;;;;;;;;;;;;x
-amalfi.91.desc;xxxxx;xxxxx;;;;;;;;;;x
-amalfi.91.a;Xxxxxxffff;Xxxxxxffff;;;;;;;;;;;;x
-amalfi.92.desc;xxxxx;xxxxx;;;;;;;;;;x
-amalfi.92.a;Xxxxxxffff;Xxxxxxffff;;;;;;;;;;;;x
-amalfi.93.desc;xxxxx;xxxxx;;;;;;;;;;x
-amalfi.93.a;Xxxxxxffff;Xxxxxxffff;;;;;;;;;;;;x
-amalfi.94.desc;xxxxx;xxxxx;;;;;;;;;;x
-amalfi.94.a;Xxxxxxffff;Xxxxxxffff;;;;;;;;;;;;x
+amalfi.83.desc;For dinner, I will host some important visitors from afar, and have decided to offer them the best of Amalfian cuisine. My cooks are able to make a number of delicious dishes, so what shall be the star of tonight's banquet?;xxxxx;;;;;;;;;;x
+amalfi.83.a;Squid sauteed with olive oil and arugula;Xxxxxxffff;;;;;;;;;;;;x
+amalfi.83.b;Peppered mussels served with fine Amalfi lemons;Xxxxxxffff;;;;;;;;;;;;x
+amalfi.83.c;Sea bass in salt crust with herbs;Xxxxxxffff;;;;;;;;;;;;x
+amalfi.83.d;Eggplant topped with anchovy and spices;Xxxxxxffff;;;;;;;;;;;;x
+amalfi.84.desc;Literary and artistic figures have been attracted to the town of Ravello along the Amalfi Coast for many centuries, for it is quite a sight to behold, with lush gardens and serene beaches that contrast with the mountains that nestle around it. During a recent trip there, I met one such writer who was visiting Ravello for inspiration. By chance, I inspired him to write about the...;xxxxx;;;;;;;;;;x
+amalfi.84.a;Deeds of my glorious dynasty;Xxxxxxffff;;;;;;;;;;;;x
+amalfi.84.b;Trade that flows through the region;Xxxxxxffff;;;;;;;;;;;;x
+amalfi.84.c;Long history of the area;Xxxxxxffff;;;;;;;;;;;;x
+amalfi.84.d;Struggles and triumphs of the local people;Xxxxxxffff;;;;;;;;;;;;x
+amalfi.85.desc;I have been hard at work for too long, and decide to spend a day of rest and see some of the local sights in Amalfi. Where should I go? There are many picturesque places to see along the Amalfi Coast.;xxxxx;;;;;;;;;;x
+amalfi.85.a;Relax at a pebbled beach by a village;Xxxxxxffff;;;;;;;;;;;;x
+amalfi.85.b;Hike up the lovely Luttari Mountains to enjoy the view;Xxxxxxffff;;;;;;;;;;;;x
+amalfi.85.c;Stroll through one of the quaint, hilly seaside villages;Xxxxxxffff;;;;;;;;;;;;x
+amalfi.85.d;Explore one of the caves along the cliffsides;Xxxxxxffff;;;;;;;;;;;;x
+amalfi.86.desc;Gragnano, a hamlet near the larger settlement of Sorrento, has gained some renown in recent years for its pasta's quality, though it is still only well-known among locals. I recently had an opportunity to sample some while passing through.;xxxxx;;;;;;;;;;x
+amalfi.86.a;It was tasty!;Xxxxxxffff;;;;;;;;;;;;x
+amalfi.87.desc;The little hamlet of Agerola, nestled between the Amalfi Coast and the mountains, has a flourishing local industry dedicated to a special variety rose, the white rosaria. I have considered buying some.;xxxxx;;;;;;;;;;x
+amalfi.87.a;Why not, it would be a good purchase.;Xxxxxxffff;;;;;;;;;;;;x
+amalfi.87.b;On second thought, never mind.;Xxxxxxffff;;;;;;;;;;;;x
+amalfi.88.desc;You are on an excursion to the Amalfi Coast for business, and pass by the hamlet of Massa Lubrense, which is not too far from the Bay of Ieranto. It is from this bay that one can partially see the island of Capri and three smaller islands known as the Sirenusas. According to local legend, the Sirens of legend once dwelled there, tempting sailors and travelers like Odysseus.;xxxxx;;;;;;;;;;x
+amalfi.88.a;Ha! As if! The sirens aren't real.;Xxxxxxffff;;;;;;;;;;;;x
+amalfi.88.b;How frightening - what if the sirens are still there?;Xxxxxxffff;;;;;;;;;;;;x
+amalfi.88.c;Interesting local lore, I suppose, but I have business to attend to.;Xxxxxxffff;;;;;;;;;;;;x
+amalfi.88.d;Sirens or not, why don't we go to the beach here?;Xxxxxxffff;;;;;;;;;;;;x
+amalfi.89.desc;Through our business contacts, we have recently made a lot of coin selling some products from Sorrento to important and powerful clients elsewhere. In particular, we sold a lot of Sorrento's...;xxxxx;;;;;;;;;;x
+amalfi.89.a;Wine;Xxxxxxffff;;;;;;;;;;;;x
+amalfi.89.b;Olive oil;Xxxxxxffff;;;;;;;;;;;;x
+amalfi.89.c;Citrus fruit;Xxxxxxffff;;;;;;;;;;;;x
+amalfi.90.desc;I am on the island of Capri off the coast of the Sorrentine Peninsula, meeting with a local acquaintance, who takes me sightseeing. We encounter the Arco Naturale, a large natural arch that has stood on the island, and my acquaintance remarks at how beautiful and majestic the arch looks.;xxxxx;;;;;;;;;;x
+amalfi.90.a;I agree!;Xxxxxxffff;;;;;;;;;;;;x
+amalfi.90.b;It's not that great.;Xxxxxxffff;;;;;;;;;;;;x
+amalfi.91.desc;I need to go to the island of Capri for business. Usually, as it is not too far from Amalfi, traveling there not a huge hassle. However, this time, I need to go to the village of Anacapri on the island. It is so isolated, it can only be reached by going through a long and steep stone stairway against the cliffs known as the Phoenician Steps. It is dangerous and consists of 921 stone steps.;xxxxx;;;;;;;;;;x
+amalfi.91.a;I have no choice. Work is work!;Xxxxxxffff;;;;;;;;;;;;x
+amalfi.91.b;I will send a courtier in my stead.;Xxxxxxffff;;;;;;;;;;;;x
+amalfi.91.c;I can send one of my servants.;Xxxxxxffff;;;;;;;;;;;;x
+amalfi.91.d;Cancel the meeting.;Xxxxxxffff;;;;;;;;;;;;x
+amalfi.92.desc;The woodlands of the Sorrentine Peninsula are abundant in wood, and its lumber has been exported to outside sources for many years. We just concluded an advantageous deal with a foreign customer, to be the exclusive provider of lumber to their realm for a number of years.;xxxxx;;;;;;;;;;x
+amalfi.92.a;A great deal!;Xxxxxxffff;;;;;;;;;;;;x
+amalfi.93.desc;A large shipment of Colatura di Alici has arrived at my residence. Similar to the Roman fish sauce garum, it is a traditional sauce from the village of Cetara along the Amalfi Coast, made by fermenting anchovies in brine. What should I do with it?;xxxxx;;;;;;;;;;x
+amalfi.93.a;Isn't it obvious? Let's save it to use in our food!;Xxxxxxffff;;;;;;;;;;;;x
+amalfi.93.b;I would prefer to sell it and make a bit of profit.;Xxxxxxffff;;;;;;;;;;;;x
+amalfi.93.c;Donate it to the poor and local temples.;Xxxxxxffff;;;;;;;;;;;;x
+amalfi.94.desc;We've received a large shipment of Sorrentine wood from our business contacts. While it is common to export this lumber elsewhere, given the abundance of wood from the Sorrentine Peninsula, perhaps we can make use of this wood for our own purposes.;xxxxx;;;;;;;;;;x
+amalfi.94.a;Use it for our navy and army's needs;Xxxxxxffff;;;;;;;;;;;;x
+amalfi.94.b;Use it for any construction projects we have;Xxxxxxffff;;;;;;;;;;;;x
+amalfi.94.c;Sell it to someone, we have more than enough here;Xxxxxxffff;;;;;;;;;;;;x
 amalfi.95.desc;xxxxx;xxxxx;;;;;;;;;;x
 amalfi.95.a;Xxxxxxffff;Xxxxxxffff;;;;;;;;;;;;x
 amalfi.96.desc;xxxxx;xxxxx;;;;;;;;;;x

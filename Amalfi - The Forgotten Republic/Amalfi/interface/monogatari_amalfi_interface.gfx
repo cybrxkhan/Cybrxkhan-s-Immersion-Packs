@@ -28,6 +28,10 @@ spriteTypes = {
 		texturefile = "gfx\\interface\\decision_icon_choose_amalfi_business_focus.dds"
 	}
 	spriteType = {
+		name = "GFX_found_amalfion"
+		texturefile = "gfx\\interface\\decision_icon_found_amalfion.dds"
+	}
+	spriteType = {
 		name = "GFX_evt_amalfi_coast"
 		texturefile = "gfx\\event_pictures\amalfi_coast.tga"
 		allwaystransparent = yes

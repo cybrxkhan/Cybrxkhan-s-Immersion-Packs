@@ -8,6 +8,8 @@
 # amalfi.20-29	# Restore/Worship at Temple of the Sirens
 # amalfi.30-39	# Bambagina Paper
 # amalfi.40-49	# Tower of Gallo Lungo
+# amalfi.50-59	# Amalfion Founded
+# amalfi.60-69	# Castle on Capri: see https://en.wikipedia.org/wiki/Castello_Barbarossa
 # amalfi.70-99	# Flavor Events
 # 
 ##########################################################################
@@ -34,6 +36,12 @@ character_event =  {
 	immediate = {
 		if = {
 			limit = {
+				year = 985 # Amalfion already founded by this date
+			}
+			set_global_flag = VIET_amalfi_amalfion_founded
+		}
+		if = {
+			limit = {
 				year = 1076 # When Amalfi ceases to exist in-game
 			}
 			set_global_flag = VIET_amalfi_laws_enacted
@@ -50,6 +58,15 @@ character_event =  {
 				duration = -1
 			}
 		}
+		#Change the culture of the fictional Ursus patrician to Langobardisch if running SWMH
+		#if = {
+		#	limit = {
+		#		has_global_flag = SWMH # if running SWMH
+		#	}
+		#	c_100015906 = {
+		#		culture = langobardisch
+		#	}
+		#}
 	}
 }
 
@@ -395,6 +412,8 @@ narrative_event = {
 # TEMPLE OF SIRENS
 #########################################################
 
+#Where's the amalfi.20?
+
 # Temple of the Sirens - notification 
 long_character_event = {
 	id = amalfi.21
@@ -516,7 +535,7 @@ narrative_event = {
 }
 
 
-# Ruler makes offerings to the Temple of the Sirens - determine quality of blessing/curse
+# Ruler worships and makes offerings at the Temple of the Sirens - determine quality of blessing/curse
 character_event = {
 	id = amalfi.24
 	desc = amalfi.24.desc
@@ -576,7 +595,7 @@ character_event = {
 			limit = {
 				trait = proud
 			}
-			change_variable = { which = amalfi_siren_value value = -1 }
+			change_variable = { which = amalfi_siren_value value = -3 }
 		}
 		if = {
 			limit = {
@@ -628,7 +647,7 @@ character_event = {
 	
 	option = { #small offering
 		name = amalfi.24.a
-		wealth = -10
+		wealth = -20
 		hidden_tooltip = {
 			random_list = {
 				30 = { change_variable = { which = amalfi_siren_value value = 1 } }
@@ -642,7 +661,7 @@ character_event = {
 	}	
 	option = { #medium offering
 		name = amalfi.24.b
-		wealth = -20
+		wealth = -40
 		hidden_tooltip = {
 			random_list = {
 				10 = { change_variable = { which = amalfi_siren_value value = 1 } }
@@ -656,7 +675,7 @@ character_event = {
 	}	
 	option = { #large offering
 		name = amalfi.24.c
-		wealth = -30
+		wealth = -60
 		hidden_tooltip = {
 			random_list = {
 				5 = { change_variable = { which = amalfi_siren_value value = 1 } }
@@ -1006,7 +1025,7 @@ narrative_event = {
 	trigger = {
 		has_landed_title = c_amalfi
 		NOT = { has_global_flag = VIET_bambagina_paper_invented }
-		year = 800
+		year = 900
 	}
 
 	major_trigger = {
@@ -1021,14 +1040,18 @@ narrative_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 400
+		months = 600
 		modifier = {
 			factor = 8
-			NOT = { year = 900 }
+			NOT = { year = 1000 }
 		}
 		modifier = {
 			factor = 4
-			NOT = { year = 1000 }
+			NOT = { year = 1100 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { year = 1200 }
 		}
 	}
 	
@@ -1502,7 +1525,7 @@ narrative_event = {
 	}
 }
 
-# Limoncello trade booming
+# Gallo Lungo Watchtower built
 province_event = {
 	id = amalfi.42
 	desc = amalfi.42.desc
@@ -1520,8 +1543,300 @@ province_event = {
 		custom_tooltip = {
 			text = VIET_amalfi_gallo_lungo_minor_title_now_available
 		}
+		hidden_tooltip = {
+			owner = {
+				narrative_event = { id = amalfi.43 }
+			}
+			any_playable_ruler = {
+				limit = { 
+					ai = no 
+					#NOT = { character = ROOT }
+					OR = {
+						capital_scope = {
+							NOT = {
+								distance = {
+									where = 935 # Amalfi
+									value = 950	# Same part of the world
+								}
+							}
+						}
+					}
+				}
+				narrative_event = { id = amalfi.43 }
+			}
+		}    
+	}	
+}
+
+
+# Narrative Event about the building of the watchtower
+narrative_event = {
+	id = amalfi.43
+	title = amalfi.43.title
+	desc = amalfi.43.desc
+	picture = GFX_evt_amalfi_coast
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = amalfi.43.a
 	}
 }
+
+
+#########################################################
+# FOUND AMALFION - amalfi.50-amalfi.59
+#########################################################
+
+
+# Establish the Monastery
+long_character_event = {
+	id = amalfi.50
+	title = amalfi.50.title
+	desc = amalfi.50.desc
+	picture = GFX_evt_amalfi_coast
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		set_global_flag = VIET_amalfi_amalfion_founded
+	}
+	
+	option = { #ok
+		name = amalfi.50.a
+
+		add_character_modifier = {
+			name = VIET_amalfi_established_amalfion
+			duration = -1
+		}
+
+		if = {
+			limit = {
+				is_title_active = e_byzantium
+				e_byzantium = {
+					owner = {
+						religion_group = christian
+						NOT = { has_landed_title = c_chalkidike }
+						NOT = { has_landed_title = b_mntathos }
+					}
+				}
+			}
+			e_byzantium = {
+				owner = {
+					opinion = {
+						modifier = monogatari_amalfi_amalfion_established
+						who = ROOT
+						years = 100
+					}	
+					reverse_opinion = {
+						modifier = monogatari_amalfi_improving_amalfion
+						who = ROOT
+						years = 100
+					}					
+				}
+			}
+		}
+
+		if = {
+			limit = {
+				is_title_active = e_roman_empire
+				e_roman_empire = {
+					owner = {
+						religion_group = christian
+						NOT = { has_landed_title = c_chalkidike }
+						NOT = { has_landed_title = b_mntathos }
+					}
+				}
+			}
+			e_roman_empire = {
+				owner = {
+					opinion = {
+						modifier = monogatari_amalfi_amalfion_established
+						who = ROOT
+						years = 100
+					}	
+					reverse_opinion = {
+						modifier = monogatari_amalfi_improving_amalfion
+						who = ROOT
+						years = 100
+					}					
+				}
+			}
+		}
+
+		if = {
+			limit = {
+				c_chalkidike = {
+					owner = {
+						religion_group = christian
+						NOT = { has_landed_title = b_mntathos }
+					}
+				}
+			}
+			c_chalkidike = {
+				owner = {
+					opinion = {
+						modifier = monogatari_amalfi_amalfion_established
+						who = ROOT
+						years = 100
+					}	
+					reverse_opinion = {
+						modifier = monogatari_amalfi_improving_amalfion
+						who = ROOT
+						years = 100
+					}					
+				}
+			}
+		}
+
+		if = {
+			limit = {
+				b_mntathos = {
+					owner = {
+						religion_group = christian
+					}
+				}
+			}
+			b_mntathos = {
+				owner = {
+					opinion = {
+						modifier = monogatari_amalfi_amalfion_established
+						who = ROOT
+						years = 100
+					}	
+					reverse_opinion = {
+						modifier = monogatari_amalfi_improving_amalfion
+						who = ROOT
+						years = 100
+					}					
+				}
+			}
+		}
+
+		hidden_tooltip = {
+			owner = {
+				narrative_event = { id = amalfi.51 }
+			}
+			any_playable_ruler = {
+				limit = {
+					OR = {
+						ai = no
+						AND = {
+							has_landed_title = b_mntathos
+							religion_group = christian
+						}
+						AND = {
+							has_landed_title = c_chalkidike
+							religion_group = christian
+						}
+						AND = {
+							has_landed_title = e_byzantium
+							religion_group = christian
+						}
+						AND = {
+							has_landed_title = e_roman_empire
+							religion_group = christian
+						}
+					}
+					#NOT = { character = ROOT }
+					capital_scope = {
+						OR = {
+							NOT = {
+								distance = {
+									where = 935 # Amalfi
+									value = 950	# Same part of the world
+								}
+							}
+							region = world_asia_minor
+							region = world_europe_south_east							
+						}
+					}
+				}
+				narrative_event = { id = amalfi.51 }
+			}
+		}    
+	}	
+}
+
+
+# Established Amalfion - notification
+narrative_event = {
+	id = amalfi.51
+	title = amalfi.51.title
+	desc = amalfi.51.desc
+	picture = GFX_evt_amalfi_coast
+	border = GFX_event_narrative_frame_religion
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = amalfi.51.a
+		trigger = {
+			religion_group = christian
+			NOR = {
+				has_landed_title = b_mntathos
+				has_landed_title = c_chalkidike
+				has_landed_title = e_byzantium
+				has_landed_title = e_roman_empire
+			}
+			NOT = {
+				has_character_modifier = VIET_amalfi_established_amalfion
+			}
+		}
+	}	
+	option = {
+		name = amalfi.51.b
+		trigger = {
+			religion_group = christian
+			OR = {
+				has_landed_title = b_mntathos
+				has_landed_title = c_chalkidike
+				has_landed_title = e_byzantium
+				has_landed_title = e_roman_empire
+			}
+			NOT = {
+				has_character_modifier = VIET_amalfi_established_amalfion
+			}
+		}
+		custom_tooltip = { text = VIET_improved_relations_amalfion }
+	}	
+	option = {
+		name = amalfi.51.c
+		trigger = {
+			NOT = { religion_group = christian }
+			NOT = {
+				has_character_modifier = VIET_amalfi_established_amalfion
+			}
+		}
+	}	
+	option = {
+		name = amalfi.51.d
+		trigger = {
+			has_character_modifier = VIET_amalfi_established_amalfion
+		}
+	}
+}
+
+
+# Test event
+#narrative_event = {
+#	id = amalfi.52
+#	title = amalfi.52.title
+#	desc = amalfi.52.desc
+#	picture = GFX_evt_amalfi_coast
+#	border = GFX_event_narrative_frame_religion
+#	
+#	is_triggered_only = yes
+#	
+#	option = {
+#		name = amalfi.52.a
+#		935 = {
+#			owner = {
+#				long_character_event = { id = amalfi.50 }
+#			}
+#		}
+#	}
+#}
 
 
 
@@ -1542,6 +1857,7 @@ character_event = {
 	capable_only = yes
 	prisoner = no
 	#war = no
+	is_patrician = yes
 	
 	trigger = {
 		#in_command = no
@@ -1549,8 +1865,8 @@ character_event = {
 			has_landed_title = c_amalfi
 			has_landed_title = d_amalfi
 			has_landed_title = k_amalfi
-			AND = {
-				is_patrician = yes
+			#AND = {
+			#	is_patrician = yes
 				any_liege = {
 					OR = {
 						has_landed_title = c_amalfi
@@ -1558,7 +1874,7 @@ character_event = {
 						has_landed_title = k_amalfi
 					}
 				}
-			}
+			#}
 		}
 	}
 	
@@ -1733,63 +2049,186 @@ character_event = {
 }
 
 
-# Limoncello trade booming
-province_event = {
+
+# Discussing Amalfi's irrigation system for lemon groves
+character_event = {
 	id = amalfi.73
 	desc = amalfi.73.desc
-	picture = GFX_evt_amalfi_villa
+	picture = GFX_evt_amalfi_town
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
 	
 	trigger = {
-		NOT = { has_province_modifier = VIET_amalfi_limoncello_trade_booming }
-		NOT = { religion_group = muslim }
-		owner = {
-			is_nomadic = no
+		in_command = no
+		OR = {
+			has_landed_title = c_amalfi
+			has_landed_title = d_amalfi
+			has_landed_title = k_amalfi
+			AND = {
+				is_patrician = yes
+				any_liege = {
+					OR = {
+						has_landed_title = c_amalfi
+						has_landed_title = d_amalfi
+						has_landed_title = k_amalfi
+					}
+				}
+			}
 		}
-		province_id = 935
 	}
 	
-	mean_time_to_happen = {
-		months = 10000
+	weight_multiplier = {
+		days = 1		
+		modifier = {
+			factor = 1.2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.8
+			trait = slothful
+		}
 	}
 	
-
 	option = { # ok
 		name = amalfi.73.a
-		add_province_modifier = {
-			name = VIET_amalfi_limoncello_trade_booming
-			duration = 1095
+		random_list = {
+			10 = { change_learning = 1 }
+			10 = { change_stewardship = 1 }
+			80 = { }
 		}
 	}
 }
+
+
+
+# Hearing Scala's coral workers' songs
+character_event = {
+	id = amalfi.74
+	desc = amalfi.74.desc
+	picture = GFX_evt_amalfi_villa
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		OR = {
+			has_landed_title = c_amalfi
+			has_landed_title = d_amalfi
+			has_landed_title = k_amalfi
+			AND = {
+				is_patrician = yes
+				any_liege = {
+					OR = {
+						has_landed_title = c_amalfi
+						has_landed_title = d_amalfi
+						has_landed_title = k_amalfi
+					}
+				}
+			}
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1		
+		modifier = {
+			factor = 1.2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}
+	}
+	
+	option = { # ok
+		name = amalfi.74.a
+		piety = 5
+	}	
+	option = { # Bah peasants
+		name = amalfi.74.b
+		trigger = {
+			NOT = { trait = humble }
+			NOT = { trait = kind }
+			NOT = { trait = just }
+			NOT = { trait = patient }
+		}
+		random = {
+			add_trait = proud
+			chance = 30
+		}
+	}
+}
+
+
+# Limoncello trade booming
+#province_event = {
+#	id = amalfi.73
+#	desc = amalfi.73.desc
+#	picture = GFX_evt_amalfi_villa
+#	
+#	trigger = {
+#		NOT = { has_province_modifier = VIET_amalfi_limoncello_trade_booming }
+#		NOT = { religion_group = muslim }
+#		owner = {
+#			is_nomadic = no
+#		}
+#		province_id = 935
+#	}
+#	
+#	mean_time_to_happen = {
+#		months = 10000
+#	}
+#	
+#
+#	option = { # ok
+#		name = amalfi.73.a
+#		add_province_modifier = {
+#			name = VIET_amalfi_limoncello_trade_booming
+#			duration = 1095
+#		}
+#	}
+#}
 
 
 # Atrani fabric trade booming
-province_event = {
-	id = amalfi.74
-	desc = amalfi.74.desc
-	picture = GFX_evt_amalfi_town
-	
-	trigger = {
-		NOT = { has_province_modifier = VIET_amalfi_fabric_trade_booming }
-		owner = {
-			is_nomadic = no
-		}
-		province_id = 935
-	}
-	
-	mean_time_to_happen = {
-		months = 10000
-	}
-	
-
-	option = { # ok
-		name = amalfi.74.a
-		add_province_modifier = {
-			name = VIET_amalfi_fabric_trade_booming
-			duration = 1095
-		}
-	}
-}
+#province_event = {
+#	id = amalfi.74
+#	desc = amalfi.74.desc
+#	picture = GFX_evt_amalfi_town
+#	
+#	trigger = {
+#		NOT = { has_province_modifier = VIET_amalfi_fabric_trade_booming }
+#		owner = {
+#			is_nomadic = no
+#		}
+#		province_id = 935
+#	}
+#	
+#	mean_time_to_happen = {
+#		months = 10000
+#	}
+#	
+#
+#	option = { # ok
+#		name = amalfi.74.a
+#		add_province_modifier = {
+#			name = VIET_amalfi_fabric_trade_booming
+#			duration = 1095
+#		}
+#	}
+#}
 
 # Vendors selling ceramics in Vietri
 character_event = {
@@ -2201,6 +2640,7 @@ character_event = {
 				}
 			}
 		}
+		NOT = { has_global_flag = VIET_amalfi_amalfion_founded }
 	}
 	
 	weight_multiplier = {
@@ -2261,6 +2701,7 @@ character_event = {
 				}
 			}
 		}
+		NOT = { has_global_flag = VIET_amalfi_amalfion_founded }
 	}
 	
 	weight_multiplier = {
@@ -2328,6 +2769,7 @@ character_event = {
 				}
 			}
 		}
+		NOT = { has_global_flag = VIET_amalfi_amalfion_founded }
 	}
 	
 	weight_multiplier = {
@@ -2709,4 +3151,897 @@ character_event = {
 			}
 		}
 	}
+}
+
+
+
+
+# Food for an Amalfian feast
+character_event = {
+	id = amalfi.83
+	desc = amalfi.83.desc
+	picture = GFX_evt_amalfi_villa
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		OR = {
+			has_landed_title = c_amalfi
+			has_landed_title = d_amalfi
+			has_landed_title = k_amalfi
+			AND = {
+				is_patrician = yes
+				any_liege = {
+					OR = {
+						has_landed_title = c_amalfi
+						has_landed_title = d_amalfi
+						has_landed_title = k_amalfi
+					}
+				}
+			}
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1		
+		modifier = {
+			factor = 1.2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}
+	}
+	
+	option = { # Sauteed Squid
+		name = amalfi.83.a
+		prestige = 5
+		random_list = {
+			75 = { prestige = 5 }
+			25 = { piety = 5 }
+		}
+	}	
+	option = { # Peppered mussels
+		name = amalfi.83.b
+		prestige = 5
+		random = {
+			prestige = 5
+			chance = 50
+		}
+	}	
+	option = { # Sea bass
+		name = amalfi.83.c
+		prestige = 5
+		random = {
+			piety = 5
+			chance = 50
+		}
+	}
+	option = { # Eggplant and anchovy
+		name = amalfi.83.d
+		prestige = 5
+		random_list = {
+			25 = { prestige = 5 }
+			75 = { piety = 5 }
+		}
+	}
+}
+
+
+# Traveling writer passes by Ravello and gets inspired by you
+character_event = {
+	id = amalfi.84
+	desc = amalfi.84.desc
+	picture = GFX_evt_amalfi_town
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		OR = {
+			has_landed_title = c_amalfi
+			has_landed_title = d_amalfi
+			has_landed_title = k_amalfi
+			AND = {
+				is_patrician = yes
+				any_liege = {
+					OR = {
+						has_landed_title = c_amalfi
+						has_landed_title = d_amalfi
+						has_landed_title = k_amalfi
+					}
+				}
+			}
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1		
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+	}
+	
+	option = { # Write about family
+		name = amalfi.84.a
+		prestige = 10
+		random = {
+			add_trait = proud
+			chance = 20
+		}
+	}	
+	option = { # Write about trade
+		name = amalfi.84.b
+		prestige = 10
+		random = {
+			add_trait = gregarious
+			chance = 20
+		}
+	}	
+	option = { # Write about history
+		name = amalfi.84.c
+		piety = 10
+		random = {
+			add_trait = erudite
+			chance = 20
+		}
+	}	
+	option = { # Write about locals
+		name = amalfi.84.d
+		piety = 10
+		random = {
+			add_trait = humble
+			chance = 20
+		}
+	}
+}
+
+
+# Go on a staycation in Amalfi
+character_event = {
+	id = amalfi.85
+	desc = amalfi.85.desc
+	picture = GFX_evt_amalfi_coast
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		OR = {
+			has_landed_title = c_amalfi
+			has_landed_title = d_amalfi
+			has_landed_title = k_amalfi
+			AND = {
+				is_patrician = yes
+				any_liege = {
+					OR = {
+						has_landed_title = c_amalfi
+						has_landed_title = d_amalfi
+						has_landed_title = k_amalfi
+					}
+				}
+			}
+		}
+		has_severe_disability_trigger = no
+		has_disease_trigger = no
+	}
+	
+	weight_multiplier = {
+		days = 1		
+		modifier = {
+			factor = 1.2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.8
+			trait = slothful
+		}
+	}
+	
+	option = { # Beach
+		name = amalfi.85.a
+		random_list = {
+			50 = { piety = 5 }
+			50 = { prestige = 5 }
+		}
+		random = {
+			add_trait = humble
+			chance = 15
+		}
+	}	
+	option = { # Mountains
+		name = amalfi.85.b
+		piety = 5
+		random = {
+			health = 0.5
+			chance = 15
+		}
+	}	
+	option = { # Villages
+		name = amalfi.85.c
+		random_list = {
+			50 = { piety = 5 }
+			50 = { prestige = 5 }
+		}
+		random = {
+			add_trait = gregarious
+			chance = 15
+		}
+	}	
+	option = { # Caves
+		name = amalfi.85.d
+		prestige = 5
+		random = {
+			add_trait = brave
+			chance = 15
+		}
+	}	
+}
+
+
+# Gragnano pasta
+character_event = {
+	id = amalfi.86
+	desc = amalfi.86.desc
+	picture = GFX_evt_amalfi_villa
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		OR = {
+			has_landed_title = c_amalfi
+			has_landed_title = d_amalfi
+			has_landed_title = k_amalfi
+			AND = {
+				is_patrician = yes
+				any_liege = {
+					OR = {
+						has_landed_title = c_amalfi
+						has_landed_title = d_amalfi
+						has_landed_title = k_amalfi
+					}
+				}
+			}
+		}	
+		#Gragnano wasn't known for its pasta until the 15th century
+		NOT = { year = 900 }
+	}
+	
+	weight_multiplier = {
+		days = 1		
+		#Gragnano wasn't known for its pasta until the 15th century
+		modifier = {
+			factor = 0.1
+			NOT = { year = 1000 }
+		}		
+		modifier = {
+			factor = 0.4
+			NOT = { year = 1150 }
+		}			
+		modifier = {
+			factor = 0.7
+			NOT = { year = 1300 }
+		}		
+		modifier = {
+			factor = 1.2
+			trait = gluttonous
+		}
+		modifier = {
+			factor = 0.8
+			trait = temperate
+		}
+	}
+	
+	option = { # Ok
+		name = amalfi.86.a
+		prestige = 5
+	}	
+}
+
+
+# White rosaria of Agerola
+character_event = {
+	id = amalfi.87
+	desc = amalfi.87.desc
+	picture = GFX_evt_amalfi_coast
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		OR = {
+			has_landed_title = c_amalfi
+			has_landed_title = d_amalfi
+			has_landed_title = k_amalfi
+			AND = {
+				is_patrician = yes
+				any_liege = {
+					OR = {
+						has_landed_title = c_amalfi
+						has_landed_title = d_amalfi
+						has_landed_title = k_amalfi
+					}
+				}
+			}
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1	
+		modifier = {
+			factor = 1.2
+			trait = lustful
+		}
+		modifier = {
+			factor = 0.8
+			trait = chaste
+		}
+	}
+	
+	option = { # Ok
+		name = amalfi.87.a
+		wealth = -10
+		add_character_modifier = {
+			name = VIET_amalfi_agerola_white_rose
+			duration = 365
+		}
+	}	
+	option = { # Ok
+		name = amalfi.87.b
+		if = {
+			limit = {
+				trait = proud
+			}
+			random = {
+				remove_trait = proud
+				chance = 33
+			}
+		}
+	}	
+}
+
+
+# Bay of Ieranto, overlooking the Sirenusas
+character_event = {
+	id = amalfi.88
+	desc = amalfi.88.desc
+	picture = GFX_evt_sirens
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		OR = {
+			has_landed_title = c_amalfi
+			has_landed_title = d_amalfi
+			has_landed_title = k_amalfi
+			AND = {
+				is_patrician = yes
+				any_liege = {
+					OR = {
+						has_landed_title = c_amalfi
+						has_landed_title = d_amalfi
+						has_landed_title = k_amalfi
+					}
+				}
+			}
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1	
+		modifier = {
+			factor = 1.2
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.8
+			trait = content
+		}
+	}
+	
+	option = { # Not scared
+		name = amalfi.88.a
+		random_list = {
+			70 = { }
+			20 = { add_trait = cynical }
+			10 = { add_trait = brave }
+		}
+	}		
+	option = { # Scary
+		name = amalfi.88.b
+		random = {
+			piety = 5
+			chance = 50
+		}
+	}			
+	option = { # Attend to business
+		name = amalfi.88.c
+		random = {
+			prestige = 5
+			chance = 50
+		}
+	}			
+	option = { # Go down to the beach
+		name = amalfi.88.d
+		random_list = {
+			70 = { }
+			20 = { add_trait = trusting }
+			10 = { add_trait = slothful }
+		}
+	}	
+}
+
+
+# Selling Sorrento products
+character_event = {
+	id = amalfi.89
+	desc = amalfi.89.desc
+	picture = GFX_evt_amalfi_villa
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	is_patrician = yes
+	
+	trigger = {
+		in_command = no
+		OR = {
+			has_landed_title = c_amalfi
+			has_landed_title = d_amalfi
+			has_landed_title = k_amalfi
+			#AND = {
+			#	is_patrician = yes
+				any_liege = {
+					OR = {
+						has_landed_title = c_amalfi
+						has_landed_title = d_amalfi
+						has_landed_title = k_amalfi
+					}
+				}
+			#}
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1	
+		modifier = {
+			factor = 1.2
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.8
+			trait = content
+		}
+	}
+	
+	option = { # Wine
+		name = amalfi.89.a
+		wealth = 100
+		prestige = 30
+	}		
+	option = { # Olive Oil
+		name = amalfi.89.b
+		wealth = 100
+		prestige = 15
+		piety = 15
+	}			
+	option = { # Citrus fruit
+		name = amalfi.89.c
+		wealth = 100
+		piety = 30
+	}	
+}
+
+
+# Arco Naturale on Capri
+character_event = {
+	id = amalfi.90
+	desc = amalfi.90.desc
+	picture = GFX_evt_amalfi_coast
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		OR = {
+			has_landed_title = c_amalfi
+			has_landed_title = d_amalfi
+			has_landed_title = k_amalfi
+			AND = {
+				is_patrician = yes
+				any_liege = {
+					OR = {
+						has_landed_title = c_amalfi
+						has_landed_title = d_amalfi
+						has_landed_title = k_amalfi
+					}
+				}
+			}
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1	
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+	}
+	
+	option = { # Ok
+		name = amalfi.90.a
+		piety = 5
+	}		
+	option = { # Not that impressive
+		name = amalfi.90.b
+		random = {
+			add_trait = cynical
+			chance = 25
+		}
+	}	
+}
+
+
+# Going to the village of Anacapri through the Phoenician Steps
+character_event = {
+	id = amalfi.91
+	desc = amalfi.91.desc
+	picture = GFX_evt_amalfi_coast
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		OR = {
+			has_landed_title = c_amalfi
+			has_landed_title = d_amalfi
+			has_landed_title = k_amalfi
+			AND = {
+				is_patrician = yes
+				any_liege = {
+					OR = {
+						has_landed_title = c_amalfi
+						has_landed_title = d_amalfi
+						has_landed_title = k_amalfi
+					}
+				}
+			}
+		}
+		has_severe_disability_trigger = no
+		has_disease_trigger = no
+	}
+	
+	weight_multiplier = {
+		days = 1	
+		modifier = {
+			factor = 1.2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.8
+			trait = slothful
+		}
+	}
+	
+	option = { # Ok
+		name = amalfi.91.a
+		prestige = 10
+		wealth = 25
+		random = {
+			add_trait = diligent
+			chance = 20
+		}
+		random = {
+			add_trait = wounded
+			chance = 20
+		}
+	}		
+	option = { # Send a courtier
+		name = amalfi.91.b
+		trigger = {
+			any_courtier = {
+				is_adult = yes
+				NOT = { trait = incapable }
+				has_severe_disability_trigger = no
+				has_disease_trigger = no
+			}
+		}
+		random_courtier = {
+			limit = {
+				is_adult = yes
+				NOT = { trait = incapable }
+				has_severe_disability_trigger = no
+				has_disease_trigger = no
+			}
+			prestige = 10
+			random = {
+				add_trait = diligent
+				chance = 20
+			}
+			random = {
+				add_trait = wounded
+				chance = 20
+			}
+		}
+	}	
+	option = { # Send a servant
+		name = amalfi.91.c
+		prestige = -20
+		wealth = 25
+	}		
+	option = { # Cancel the meeting
+		name = amalfi.91.d
+		prestige = -40
+		random_list = {
+			add_trait = slothful
+			chance = 20
+		}
+	}	
+}
+
+
+# Made a deal with a foreign state to export Sorrentine wood
+character_event = {
+	id = amalfi.92
+	desc = amalfi.92.desc
+	picture = GFX_evt_amalfi_coast
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	is_patrician = yes
+	
+	trigger = {
+		in_command = no
+		OR = {
+			has_landed_title = c_amalfi
+			has_landed_title = d_amalfi
+			has_landed_title = k_amalfi
+			#AND = {
+			#	is_patrician = yes
+				any_liege = {
+					OR = {
+						has_landed_title = c_amalfi
+						has_landed_title = d_amalfi
+						has_landed_title = k_amalfi
+					}
+				}
+			#}
+		}
+		NOT = { has_character_modifier = VIET_amalfi_sorrentine_wood_deal }
+	}
+	
+	weight_multiplier = {
+		days = 1	
+		modifier = {
+			factor = 1.2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.8
+			trait = slothful
+		}
+	}
+	
+	option = { # Ok
+		name = amalfi.92.a
+		wealth = 50
+		add_character_modifier = {
+			name = VIET_amalfi_sorrentine_wood_deal
+			duration = 1825
+		}
+	}	
+}
+
+
+
+# Colatura di Alici from Cetara
+character_event = {
+	id = amalfi.93
+	desc = amalfi.93.desc
+	picture = GFX_evt_amalfi_town
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		OR = {
+			has_landed_title = c_amalfi
+			has_landed_title = d_amalfi
+			has_landed_title = k_amalfi
+			AND = {
+				is_patrician = yes
+				any_liege = {
+					OR = {
+						has_landed_title = c_amalfi
+						has_landed_title = d_amalfi
+						has_landed_title = k_amalfi
+					}
+				}
+			}
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1	
+		modifier = {
+			factor = 1.2
+			trait = gluttonous
+		}
+		modifier = {
+			factor = 0.8
+			trait = temperate
+		}
+	}
+	
+	option = { # Ok
+		name = amalfi.93.a
+		prestige = 10
+		random_list = {
+			80 = { }
+			10 = { add_trait = gluttonous }
+			10 = { add_trait = gregarious }
+		}
+	}		
+	option = { # Sell it
+		name = amalfi.93.b
+		wealth = 10
+		random_list = {
+			80 = { }
+			10 = { add_trait = greedy }
+			10 = { add_trait = diligent }
+		}
+	}		
+	option = { # Donate it
+		name = amalfi.93.c
+		piety = 10
+		random_list = {
+			80 = { }
+			10 = { add_trait = kind }
+			10 = { add_trait = charitable }
+		}
+	}	
+}
+
+# Shipment of Sorrentine wood arrives
+character_event = {
+	id = amalfi.94
+	desc = amalfi.94.desc
+	picture = GFX_evt_amalfi_coast
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		OR = {
+			has_landed_title = c_amalfi
+			has_landed_title = d_amalfi
+			has_landed_title = k_amalfi
+			AND = {
+				is_patrician = yes
+				any_liege = {
+					OR = {
+						has_landed_title = c_amalfi
+						has_landed_title = d_amalfi
+						has_landed_title = k_amalfi
+					}
+				}
+			}
+		}
+		NOR = {
+			has_character_modifier = VIET_amalfi_sorrentine_wood_military
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1	
+		modifier = {
+			factor = 1.2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.8
+			trait = slothful
+		}
+	}
+	
+	option = { # Navy and army
+		name = amalfi.94.a
+		add_character_modifier = {
+			name = VIET_amalfi_sorrentine_wood_military
+			duration = 1095
+		}
+	}	
+	option = { # Building
+		name = amalfi.94.b
+		add_character_modifier = {
+			name = VIET_amalfi_sorrentine_wood_building
+			duration = 1095
+		}
+	}		
+	option = { # Sell it
+		name = amalfi.94.c
+		wealth = 100
+	}	
 }

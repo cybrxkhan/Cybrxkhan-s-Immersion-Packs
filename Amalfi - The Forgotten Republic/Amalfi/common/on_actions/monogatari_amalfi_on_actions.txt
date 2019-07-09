@@ -17,11 +17,13 @@ on_yearly_pulse = {
 		
 			delay = 12
 			
-			3000 = 0
+			5000 = 0
 			
 			30 = amalfi.70	# Harvest of Amalfi lemons is good
 			10 = amalfi.71	# Ancient Roman villa along the Amalfi coast discovered
 			30 = amalfi.72	# Presented with a gift of Limoncello liqueur
+			20 = amalfi.73	# Discussing Amalfi's irrigation system for lemon groves
+			20 = amalfi.74	# Hearing Scala's coral workers' songs
 			20 = amalfi.75	# Vendors selling ceramics in Vietri
 			20 = amalfi.76	# Passing by Dragone
 			30 = amalfi.77	# Chestnut festival of Scala
@@ -29,10 +31,22 @@ on_yearly_pulse = {
 			20 = amalfi.80	# Visiting Orthodox monk with ties to Amalfion
 			20 = amalfi.81	# Send gift to the Amalfion?
 			10 = amalfi.82	# Catholic monk from Amalfion arrives in Amalfi
+			30 = amalfi.83	# Food for an Amalfian feast
+			10 = amalfi.84	# Traveling writer passes by Ravello and gets inspired by you
+			30 = amalfi.85	# Go on a staycation in Amalfi
+			20 = amalfi.86	# Gragnano pasta
+			20 = amalfi.87	# White rosaria of Agerola
+			10 = amalfi.88	# Bay of Ieranto, overlooking the Sirenusas
+			30 = amalfi.89	# Selling Sorrento products
+			10 = amalfi.90	# Arco Naturale on Capri
+			10 = amalfi.91	# Going to the village of Anacapri through the Phoenician Steps
+			20 = amalfi.92	# Made a deal with a foreign state to export Sorrentine wood
+			30 = amalfi.93	# Colatura di Alici from Cetara
+			30 = amalfi.94	# Shipment of Sorrentine wood arrives
 			
-			10 = amalfi.40	# Tower of Gallo Lungo
+			5 = amalfi.40	# Tower of Gallo Lungo
 			
-			#Total: 200
+			#Total: 495
 		}		
 	}	
 }

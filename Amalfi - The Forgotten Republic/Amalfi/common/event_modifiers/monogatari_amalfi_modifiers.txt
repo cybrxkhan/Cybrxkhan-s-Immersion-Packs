@@ -113,8 +113,9 @@ VIET_bambagina_paper_tolerate = {
 	icon = 97
 }
 VIET_bambagina_paper_ban = {
+	tradevalue = -3
 	local_tax_modifier = -0.1
-	add_prestige_modifier = 0.5
+	add_prestige_modifier = 0.75
 	icon = 97
 }
 VIET_bambagina_paper_timer = {
@@ -132,6 +133,12 @@ VIET_amalfi_resort_villas = {
 	tradevalue = 2
 	local_tax_modifier = 0.1
 	icon = 133
+}
+VIET_amalfi_gallo_lungo_watchtower = {
+	fort_level = 0.5
+	levy_reinforce_rate = 0.1
+	land_organisation = 0.1
+	icon = 13
 }
 #Character
 VIET_amalfi_law_creator = {
@@ -247,38 +254,61 @@ VIET_amalfi_chestnut_focus = {
 	fertility = 0.05
 	intrigue = 2
 	monthly_character_wealth = 0.5
-	icon = 17
+	icon = 6
 }
 VIET_amalfi_ceramics_focus = {
 	tech_growth_modifier = 0.04
 	monthly_character_wealth = 0.5
-	icon = 17
+	icon = 6
 }
 VIET_amalfi_silk_focus = {
 	monthly_character_wealth = 1
-	icon = 17
+	icon = 6
 }
 VIET_amalfi_fish_focus = {
 	land_morale = 0.1
 	levy_reinforce_rate = 0.1
 	monthly_character_wealth = 0.5
-	icon = 17
+	icon = 6
 }
 VIET_amalfi_coral_focus = {
 	learning = 2
 	monthly_character_piety = 0.5
 	monthly_character_wealth = 0.5
-	icon = 17
+	icon = 6
 }
 VIET_amalfi_lemon_focus = {
 	diplomacy = 2
 	monthly_character_prestige = 0.5
 	monthly_character_wealth = 0.5
-	icon = 17
+	icon = 6
 }
-VIET_amalfi_gallo_lungo_watchtower = {
-	fort_level = 0.5
-	levy_reinforce_rate = 0.1
+VIET_amalfi_agerola_white_rose = {
+	diplomacy = 1
+	general_opinion = 10
+	fertility = 0.05
+	icon = 87
+}
+VIET_amalfi_sorrentine_wood_deal = {
+	monthly_character_wealth = 0.4
+	icon = 61
+}
+VIET_amalfi_sorrentine_wood_military = {
 	land_organisation = 0.1
-	icon = 13
+	land_morale = 0.1
+	martial = 1
+	icon = 12
+}
+VIET_amalfi_sorrentine_wood_building = {
+	build_cost_modifier = -0.15
+	build_time_modifier = -0.15
+	stewardship = 1
+	icon = 12
+}
+VIET_amalfi_established_amalfion = {
+	christian_opinion = 10
+	diplomacy = 1
+	learning = 1
+	monthly_character_piety = 0.5
+	icon = 8
 }

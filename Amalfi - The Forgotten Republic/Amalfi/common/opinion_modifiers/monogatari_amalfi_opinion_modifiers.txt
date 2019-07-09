@@ -1,0 +1,9 @@
+
+monogatari_amalfi_amalfion_established = {
+	opinion = 25
+}
+monogatari_amalfi_improving_amalfion = {
+	opinion = 25
+}
+
+

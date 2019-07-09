@@ -226,10 +226,10 @@ decisions = {
 			hidden_tooltip = {
 				NOT = { has_character_modifier = VIET_siren_temple_timer }
 			}
-			wealth = 25
+			wealth = 20
 		}
 		effect = {
-			wealth = -25
+			#wealth = -25
 			hidden_tooltip = {
 				set_variable = { which = amalfi_siren_value value = 0 }
 				character_event = { id = amalfi.24 }
@@ -314,7 +314,7 @@ decisions = {
 				}
 			}
 			modifier = {
-				factor = 1.5
+				factor = 2
 				935 = {
 					has_province_modifier = VIET_bambagina_paper_ban
 				}
@@ -328,9 +328,130 @@ decisions = {
 				trait = slothful
 			}
 			modifier = {
+				factor = 3
+				trait = ambitious
+			}
+		}
+	}	
+
+	found_amalfion = {
+		only_playable = yes
+		#is_high_prio = yes
+		ai_check_interval = 100
+		
+		potential = {
+			#is_playable = yes
+			is_patrician = yes
+			is_adult = yes
+			OR = {
+				has_landed_title = c_amalfi
+				has_landed_title = d_amalfi
+				has_landed_title = k_amalfi	
+			}
+			NOT = { has_global_flag = VIET_amalfi_amalfion_founded }
+			NOT = { has_global_flag = schism_mended }
+			NOT = { has_character_modifier = VIET_amalfi_established_amalfion }
+			religion_group = christian
+		}
+		allow = {
+			war = no
+			prisoner = no
+			NOT = { trait = incapable }
+			NOT = { is_inaccessible_trigger = yes }
+			wealth = 100
+			OR = {
+				is_title_active = e_byzantium
+				is_title_active = e_roman_empire
+				491 = {
+					owner = {
+						religion_group = christian
+					}
+				}
+			}
+			491 = {
+				religion_group = christian
+			}
+			#e_byzantium = {
+			#	owner = {
+			#		realm_size = 50
+			#		OR = {
+			#			has_landed_title = c_byzantion
+			#			any_vassal = {
+			#				has_landed_title = c_byzantion
+			#			}
+			#		}
+			#		NOT = {
+			#			religion = ROOT
+			#		}
+			#		religion_group = ROOT
+			#	}
+			#}
+			#d_thrace = {
+			#	de_jure_liege = k_thrace
+			#}
+			OR = {
+				935 = {
+					TECH_RELIGIOUS_CUSTOMS = 2	
+					TECH_CULTURE_FLEX = 2	
+				}
+				year = 900
+				has_global_flag = VIET_amalfi_laws_cheat
+			}
+		}
+		effect = {
+			wealth = -100
+			prestige = 100
+			piety = 200
+			hidden_tooltip = {
+				long_character_event = { id = amalfi.50 }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.1
+				trait = content
+			}
+			modifier = {
+				factor = 0.1
+				trait = slothful
+			}
+			modifier = {
 				factor = 2
 				trait = ambitious
 			}
+			modifier = {
+				factor = 2
+				trait = diligent
+			}
+			modifier = {
+				factor = 0
+				trait = cynical
+			}
+			modifier = {
+				factor = 0
+				trait = zealous
+			}
+			modifier = {
+				factor = 0
+				trait = cynical
+			}
+			modifier = {
+				factor = 0
+				NOT = { year = 800 }
+			}
+			modifier = {
+				factor = 0.3
+				NOT = { year = 900 }
+			}
+			modifier = {
+				factor = 0.7
+				NOT = { year = 950 }
+			}
+			#modifier = { #for testing purposes
+			#	factor = 1000
+			#	year = 930
+			#}
 		}
 	}	
 
@@ -357,7 +478,7 @@ decisions = {
 			}
 		}
 		allow = {
-			war = no
+			#war = no
 			prisoner = no
 			NOT = { trait = incapable }
 			NOT = { is_inaccessible_trigger = yes }
