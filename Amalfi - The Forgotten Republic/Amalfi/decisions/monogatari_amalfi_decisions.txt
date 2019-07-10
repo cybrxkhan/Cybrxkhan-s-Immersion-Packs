@@ -8,6 +8,7 @@ decisions = {
 		potential = {
 			is_playable = yes
 			NOT = { has_global_flag = VIET_amalfi_laws_enacted }
+			NOT = { has_character_flag = VIET_amalfi_laws_enacting_happening }
 			OR = {
 				has_landed_title = c_amalfi
 				has_landed_title = d_amalfi
@@ -38,6 +39,7 @@ decisions = {
 		effect = {
 			wealth = -100
 			hidden_tooltip = {
+				set_character_flag = VIET_amalfi_laws_enacting_happening
 				set_global_flag = VIET_amalfi_laws_enacted
 				long_character_event = { id = amalfi.10 }
 			}
@@ -96,6 +98,7 @@ decisions = {
 			}
 			NOT = { has_character_modifier = VIET_amalfi_law_creator }
 			NOT = { has_character_modifier = VIET_amalfi_law_reformer }
+			NOT = { has_character_flag = VIET_amalfi_laws_reform_happening }
 		}
 		allow = {
 			war = no
@@ -111,6 +114,7 @@ decisions = {
 		effect = {
 			wealth = -50
 			hidden_tooltip = {
+				set_character_flag = VIET_amalfi_laws_reform_happening
 				long_character_event = { id = amalfi.12 }
 			}
 		}
@@ -431,10 +435,6 @@ decisions = {
 			modifier = {
 				factor = 0
 				trait = zealous
-			}
-			modifier = {
-				factor = 0
-				trait = cynical
 			}
 			modifier = {
 				factor = 0

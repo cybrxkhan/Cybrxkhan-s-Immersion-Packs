@@ -220,8 +220,9 @@ amalfi.42.b;One of my vassals thinks they are worthy.;Xxxxxxffff;;;;;;;;;;;;x
 amalfi.42.c;A courtier of mine seems interested.;Xxxxxxffff;;;;;;;;;;;;x
 amalfi.42.d;I want to think this over first.;Xxxxxxffff;;;;;;;;;;;;x
 VIET_amalfi_gallo_lungo_minor_title_now_available;\n\nCan now award the "Warden of Gallo Lungo" minor title;xxxxx;;;;;;;;;;x
-amalfi.43.desc;xxxxx;xxxxx;;;;;;;;;;x
-amalfi.43.a;Xxxxxxffff;Xxxxxxffff;;;;;;;;;;;;x
+amalfi.43.title;Gallo Lungo;xxxxx;;;;;;;;;;x
+amalfi.43.desc;[From.Holder.GetTitledName], the current ruler of Amalfi, has completed a new watchtower on the island of Gallo Lungo. Built on the ruins of an old Roman watchtower, though it is not a remarkable fortification in and of itself, it is located on a strategic site, and meant to play a role in defending the Amalfi Coast from pirates and invaders who seek to plunder the riches of the region, as its inhabitants now have more time to prepare themselves from any onslaught.;xxxxx;;;;;;;;;;x
+amalfi.43.a;Interesting.;Xxxxxxffff;;;;;;;;;;;;x
 amalfi.44.desc;xxxxx;xxxxx;;;;;;;;;;x
 amalfi.44.a;Xxxxxxffff;Xxxxxxffff;;;;;;;;;;;;x
 amalfi.45.desc;xxxxx;xxxxx;;;;;;;;;;x
@@ -291,11 +292,11 @@ amalfi.72.desc;Lemon flavored alcoholic beverages have been a major export of th
 amalfi.72.a;Much appreciated.;Xxxxxxffff;;;;;;;;;;;;x
 #amalfi.73.desc;For many years, Limoncello has been one of the Amalfi Coast's major exports, and its popularity has been booming even more as of late, bringing in more income to many businesses and merchants in the area. This liqueur, made from only the finest of the Amalfian lemons, is sure to bring much prosperity to the region for generations to come.;xxxxx;;;;;;;;;;x
 #amalfi.73.a;Great!;Xxxxxxffff;;;;;;;;;;;;x
-amalfi.74.desc;I am inspecting some of the lemon groves in Amalfi owned by my family today. I discuss with one of the laborers about the terraces, stone canals, and water tanks that make up the intricate system used to irrigate these groves, which are often situated on the hillier parts of the Amalfi Coast.;xxxxx;;;;;;;;;;x
-amalfi.74.a;An interesting discussion, all said!;Xxxxxxffff;;;;;;;;;;;;x
-amalfi.75.desc;Today I am in the village of Scala, which is the center of Amalfi's coral industry. They bring coral harvested from the other nearby villages, and it is here that they turn this coral into a variety of beautiful products, such as rosary beads and necklaces. As I travel through Scala, I hear the simple yet moving songs sung by the coral workers and fishermen of Scala as they work.;xxxxx;;;;;;;;;;x
-amalfi.75.a;A pleasant thing to listen to, no?;Xxxxxxffff;;;;;;;;;;;;x
-amalfi.75.b;Just some peasants rambling and barking nonsense.;Xxxxxxffff;;;;;;;;;;;;x
+amalfi.73.desc;I am inspecting some of the lemon groves in Amalfi owned by my family today. I discuss with one of the laborers about the terraces, stone canals, and water tanks that make up the intricate system used to irrigate these groves, which are often situated on the hillier parts of the Amalfi Coast.;xxxxx;;;;;;;;;;x
+amalfi.73.a;An interesting discussion, all said!;Xxxxxxffff;;;;;;;;;;;;x
+amalfi.74.desc;Today I am in the village of Scala, which is the center of Amalfi's coral industry. They bring coral harvested from the other nearby villages, and it is here that they turn this coral into a variety of beautiful products, such as rosary beads and necklaces. As I travel through Scala, I hear the simple yet moving songs sung by the coral workers and fishermen of Scala as they work.;xxxxx;;;;;;;;;;x
+amalfi.74.a;A pleasant thing to listen to, no?;Xxxxxxffff;;;;;;;;;;;;x
+amalfi.74.b;Just some peasants rambling and barking nonsense.;Xxxxxxffff;;;;;;;;;;;;x
 #amalfi.74.desc;The fabric factories of Atrani have always been the city's pride and joy, and one of the reasons many consider it second only to Amalfi among the cities of the Amalfi Coast. Lately, this trade in fabrics has been exploding, bringing in additional profit to many involved in the business.;xxxxx;;;;;;;;;;x
 #amalfi.74.a;Very good!;Xxxxxxffff;;;;;;;;;;;;x
 amalfi.75.desc;I am passing through Vietri, a small town on the far end of the Amalfian Coast. This humble town is well known for the quality of its ceramics. I observe some of the vendors selling colorful pottery, and wonder if I should bring some home with me.;xxxxx;;;;;;;;;;x

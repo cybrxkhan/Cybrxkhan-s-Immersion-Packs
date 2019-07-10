@@ -269,6 +269,7 @@ long_character_event = {
 	option = { #ok
 		name = amalfi.10.a
 		prestige = 300
+		clr_character_flag = VIET_amalfi_laws_enacting_happening
 		hidden_tooltip = {
 			narrative_event = { id = amalfi.11 }
 			any_playable_ruler = {
@@ -345,6 +346,7 @@ long_character_event = {
 	option = { #ok
 		name = amalfi.12.a
 		prestige = 200
+		clr_character_flag = VIET_amalfi_laws_reform_happening
 		hidden_tooltip = {
 			narrative_event = { id = amalfi.13 }
 			any_playable_ruler = {
@@ -1455,15 +1457,23 @@ long_character_event = {
 		}		
 		modifier = {
 			factor = 0.1
-			NOT = { year = 1000 }
+			NOT = { year = 900 }
 		}
 		modifier = {
 			factor = 0.4
-			NOT = { year = 1100 }
+			NOT = { year = 1000 }
 		}	
 		modifier = {
 			factor = 0.7
-			NOT = { year = 1200 }
+			NOT = { year = 1100 }
+		}		
+		modifier = {
+			factor = 2
+			year = 1200
+		}		
+		modifier = {
+			factor = 5
+			year = 1300
 		}			
 		modifier = {
 			factor = 1.2
@@ -1548,16 +1558,14 @@ province_event = {
 				narrative_event = { id = amalfi.43 }
 			}
 			any_playable_ruler = {
-				limit = { 
+				limit = {
 					ai = no 
 					#NOT = { character = ROOT }
-					OR = {
-						capital_scope = {
-							NOT = {
-								distance = {
-									where = 935 # Amalfi
-									value = 950	# Same part of the world
-								}
+					capital_scope = {
+						NOT = {
+							distance = {
+								where = 935 # Amalfi
+								value = 950	# Same part of the world
 							}
 						}
 					}
@@ -1714,9 +1722,7 @@ long_character_event = {
 		}
 
 		hidden_tooltip = {
-			owner = {
-				narrative_event = { id = amalfi.51 }
-			}
+			narrative_event = { id = amalfi.51 }
 			any_playable_ruler = {
 				limit = {
 					OR = {
@@ -3837,7 +3843,7 @@ character_event = {
 	option = { # Cancel the meeting
 		name = amalfi.91.d
 		prestige = -40
-		random_list = {
+		random = {
 			add_trait = slothful
 			chance = 20
 		}
