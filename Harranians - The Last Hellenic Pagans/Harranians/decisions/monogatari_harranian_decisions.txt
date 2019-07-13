@@ -61,11 +61,20 @@ decisions = {
 			has_landed_title = c_edessa
 			NOT = { religion_group = pagan_group }
 			NOT = { secret_religion_group = pagan_group }
+			has_game_rule = {
+				name = monogatari_harranian_modifiers_rule
+				value = harranian_rule_on
+			}	
 		}
 		allow = {
 			NOT = { trait = kind }
 			NOT = { trait = content }
 			NOT = { trait = sympathy_pagans }
+			NOT = {
+				any_liege = {
+					religion_group = pagan_group
+				}
+			}
 			wealth = 50
 		}
 		effect = {
@@ -75,9 +84,29 @@ decisions = {
 			}
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 0.1
 			modifier = {
-				year = 1000
+				trait = scholar
+				factor = 0
+			}
+			modifier = {
+				trait = mystic
+				factor = 0
+			}
+			modifier = {
+				trait = cynical
+				factor = 0.1
+			}
+			modifier = {
+				trait = humble
+				factor = 0.1
+			}
+			modifier = {
+				trait = erudite
+				factor = 0.1
+			}
+			modifier = {
+				year = 1025
 				factor = 2
 			}
 			modifier = {
@@ -91,6 +120,14 @@ decisions = {
 			modifier = {
 				trait = zealous
 				factor = 2
+			}
+			modifier = {
+				NOT = { year = 975 }
+				factor = 0.25
+			}
+			modifier = {
+				NOT = { year = 1000 }
+				factor = 0.25
 			}
 		}
 	}

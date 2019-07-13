@@ -49,6 +49,13 @@ character_event =  {
 
 	trigger = {
 		is_save_game = no
+		OR = {
+			NOT = { year = 1050 }
+			has_game_rule = {
+				name = monogatari_harranian_modifiers_rule
+				value = harranian_rule_off
+			}	
+		}
 		NOT = { year = 1050 }
 		has_landed_title = e_arabia
 		NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
@@ -845,6 +852,8 @@ character_event =  {
 			limit = {
 				NOT = { religion = hellenic_pagan }
 				NOT = { religion = hellenic_pagan_reformed }
+				NOT = { religion = titan_pagan } # Ancient Religions Reborn compatibility
+				NOT = { religion = promethean_pagan } # Ancient Religions Reborn compatibility
 			}
 			add_character_modifier = {
 				name = VIET_patronize_neoplatonic_academy_1
@@ -862,6 +871,8 @@ character_event =  {
 				OR = {
 					religion = hellenic_pagan
 					religion = hellenic_pagan_reformed
+					religion = titan_pagan 		# Ancient Religions Reborn compatibility
+					religion = promethean_pagan	# Ancient Religions Reborn compatibility
 				}
 			}
 			add_character_modifier = {
@@ -901,6 +912,8 @@ long_character_event = {
 			limit = {
 				NOT = { religion = hellenic_pagan }
 				NOT = { religion = hellenic_pagan_reformed }
+				NOT = { religion = titan_pagan } # Ancient Religions Reborn compatibility
+				NOT = { religion = promethean_pagan } # Ancient Religions Reborn compatibility
 			}
 			random_list = {
 				40 = { prestige = 5 }
@@ -914,6 +927,8 @@ long_character_event = {
 				OR = {
 					religion = hellenic_pagan
 					religion = hellenic_pagan_reformed
+					religion = titan_pagan 		# Ancient Religions Reborn compatibility
+					religion = promethean_pagan	# Ancient Religions Reborn compatibility
 				}
 			}
 			random_list = {
@@ -930,6 +945,8 @@ long_character_event = {
 			limit = {
 				NOT = { religion = hellenic_pagan }
 				NOT = { religion = hellenic_pagan_reformed }
+				NOT = { religion = titan_pagan } # Ancient Religions Reborn compatibility
+				NOT = { religion = promethean_pagan } # Ancient Religions Reborn compatibility
 			}
 			random_list = {
 				40 = { piety = 5 }
@@ -943,6 +960,8 @@ long_character_event = {
 				OR = {
 					religion = hellenic_pagan
 					religion = hellenic_pagan_reformed
+					religion = titan_pagan 		# Ancient Religions Reborn compatibility
+					religion = promethean_pagan	# Ancient Religions Reborn compatibility
 				}
 			}
 			random_list = {
@@ -1034,6 +1053,8 @@ narrative_event = {
 			OR = {
 				religion = hellenic_pagan
 				religion = hellenic_pagan_reformed
+				religion = titan_pagan 		# Ancient Religions Reborn compatibility
+				religion = promethean_pagan	# Ancient Religions Reborn compatibility
 			}
 		}
 	}
@@ -1043,6 +1064,8 @@ narrative_event = {
 			NOT = {
 				religion = hellenic_pagan
 				religion = hellenic_pagan_reformed
+				religion = titan_pagan 		# Ancient Religions Reborn compatibility
+				religion = promethean_pagan	# Ancient Religions Reborn compatibility
 			}
 		}
 	}
@@ -1052,6 +1075,8 @@ narrative_event = {
 			NOT = {
 				religion = hellenic_pagan
 				religion = hellenic_pagan_reformed
+				religion = titan_pagan 		# Ancient Religions Reborn compatibility
+				religion = promethean_pagan	# Ancient Religions Reborn compatibility
 			}
 		}
 	}
@@ -1122,6 +1147,8 @@ character_event = {
 			OR = {
 				religion = hellenic_pagan
 				religion = hellenic_pagan_reformed
+				religion = titan_pagan 		# Ancient Religions Reborn compatibility
+				religion = promethean_pagan	# Ancient Religions Reborn compatibility
 			}
 		}
 		
@@ -1160,6 +1187,8 @@ character_event = {
 				OR = {
 					religion = hellenic_pagan
 					religion = hellenic_pagan_reformed
+					religion = titan_pagan 		# Ancient Religions Reborn compatibility
+					religion = promethean_pagan	# Ancient Religions Reborn compatibility
 				}
 			}
 			trait = zealous
@@ -1564,6 +1593,8 @@ character_event = {
 				OR = {
 					religion = hellenic_pagan
 					religion = hellenic_pagan_reformed
+					religion = titan_pagan 		# Ancient Religions Reborn compatibility
+					religion = promethean_pagan	# Ancient Religions Reborn compatibility
 				}
 			}
 			trait = zealous
@@ -1636,6 +1667,8 @@ character_event = {
 			OR = {
 				religion = hellenic_pagan
 				religion = hellenic_pagan_reformed
+				religion = titan_pagan 		# Ancient Religions Reborn compatibility
+				religion = promethean_pagan	# Ancient Religions Reborn compatibility
 			}		
 		}
 		prestige = 15
@@ -1648,6 +1681,8 @@ character_event = {
 				OR = {
 					religion = hellenic_pagan
 					religion = hellenic_pagan_reformed
+					religion = titan_pagan 		# Ancient Religions Reborn compatibility
+					religion = promethean_pagan	# Ancient Religions Reborn compatibility
 				}	
 			}		
 		}
@@ -1677,6 +1712,10 @@ province_event = {
 		}
 		year = 900
 		NOT = { has_global_flag = hellenic_reformation }
+		has_game_rule = {
+			name = monogatari_harranian_modifiers_rule
+			value = harranian_rule_on
+		}	
 	}
 	
 	mean_time_to_happen = {
@@ -1726,6 +1765,8 @@ narrative_event = {
 			OR = {
 				religion = hellenic_pagan
 				religion = hellenic_pagan_reformed
+				religion = titan_pagan 		# Ancient Religions Reborn compatibility
+				religion = promethean_pagan	# Ancient Religions Reborn compatibility
 			}
 		}
 	}
@@ -1735,6 +1776,8 @@ narrative_event = {
 			NOR = {
 				religion = hellenic_pagan
 				religion = hellenic_pagan_reformed
+				religion = titan_pagan 		# Ancient Religions Reborn compatibility
+				religion = promethean_pagan	# Ancient Religions Reborn compatibility
 			}
 		}
 	}
@@ -1744,6 +1787,8 @@ narrative_event = {
 			NOR = {
 				religion = hellenic_pagan
 				religion = hellenic_pagan_reformed
+				religion = titan_pagan 		# Ancient Religions Reborn compatibility
+				religion = promethean_pagan	# Ancient Religions Reborn compatibility
 			}
 		}
 	}
@@ -1779,7 +1824,9 @@ character_event = {
 			699 = {
 				NOR = {
 					religion = hellenic_pagan
-					religion = hellenic_pagan_reformed					
+					religion = hellenic_pagan_reformed	
+					religion = titan_pagan 		# Ancient Religions Reborn compatibility
+					religion = promethean_pagan	# Ancient Religions Reborn compatibility				
 				}
 			}			
 		}		
