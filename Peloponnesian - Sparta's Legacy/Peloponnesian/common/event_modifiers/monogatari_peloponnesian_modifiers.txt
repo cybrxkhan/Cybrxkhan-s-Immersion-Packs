@@ -131,7 +131,9 @@ VIET_peloponnesian_maniot_timer = {
 }
 VIET_hexamilion_wall = {
 	land_morale = 0.5
-	garrison_size = 1
+	fort_level = 0.5
+	land_organisation = 0.2
+	garrison_size = 0.5
 	icon = 117
 }
 VIET_recently_built_hexamilion_wall = {

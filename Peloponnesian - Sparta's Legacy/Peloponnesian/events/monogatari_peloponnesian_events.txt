@@ -114,6 +114,26 @@ character_event =  {
 		}
 		if = {
 			limit = {
+				has_global_flag = SWMH #if running SWMH
+			}
+			1266 = { #c_arcadia in SWMH
+				culture = tsakonian
+				any_province_character = {
+					limit = {
+						culture_group = byzantine
+						lower_tier_than = count
+						is_lowborn = yes
+					}
+					random = {
+						culture = tsakonian
+						set_graphical_culture = tsakonian
+						chance = 33
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
 				year = 850
 			}
 			set_global_flag = VIET_danielis_spawned
@@ -2430,6 +2450,7 @@ character_event = {
 			has_landed_title = c_achaia
 			has_landed_title = c_methone
 			has_landed_title = c_monemvasia
+			has_landed_title = c_achaia #SWMH compatibility
 		}
 		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
 	}
@@ -2457,6 +2478,10 @@ province_event = {
 			province_id = 477
 			province_id = 478
 			province_id = 481
+			AND = {
+				province_id = 1266
+				has_global_flag = SWMH
+			}
 		}
 		NOT = {
 			owner = {
@@ -2538,6 +2563,7 @@ character_event = {
 			has_landed_title = c_achaia
 			has_landed_title = c_methone
 			has_landed_title = c_monemvasia
+			has_landed_title = c_arcadia #SWMH compatibility
 		}
 		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
 	}
@@ -2635,6 +2661,7 @@ character_event = {
 			has_landed_title = c_achaia
 			has_landed_title = c_methone
 			has_landed_title = c_monemvasia
+			has_landed_title = c_arcadia #SWMH compatibility
 		}
 		NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
 		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
@@ -2682,6 +2709,7 @@ character_event = {
 			has_landed_title = c_achaia
 			has_landed_title = c_methone
 			has_landed_title = c_monemvasia
+			has_landed_title = c_arcadia #SWMH compatibility
 			culture = tsakonian
 		}
 		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
@@ -2744,6 +2772,7 @@ character_event = {
 			has_landed_title = c_achaia
 			has_landed_title = c_methone
 			has_landed_title = c_monemvasia
+			has_landed_title = c_arcadia #SWMH compatibility
 			culture = tsakonian
 		}
 		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
@@ -2806,6 +2835,7 @@ character_event = {
 			has_landed_title = c_achaia
 			has_landed_title = c_methone
 			has_landed_title = c_monemvasia
+			has_landed_title = c_arcadia #SWMH compatibility
 			culture = tsakonian
 		}
 		NOT = { has_character_modifier = VIET_tsakonian_masons_small }
@@ -2872,6 +2902,7 @@ character_event = {
 			has_landed_title = c_achaia
 			has_landed_title = c_methone
 			has_landed_title = c_monemvasia
+			has_landed_title = c_arcadia #SWMH compatibility
 			#culture = tsakonian
 		}
 		NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
@@ -2969,6 +3000,10 @@ province_event = {
 			province_id = 477
 			province_id = 478
 			province_id = 481
+			AND = {
+				province_id = 1266
+				has_global_flag = SWMH
+			}
 		}
 		NOT = { has_province_modifier = VIET_greek_and_slav_trade }
 		NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
@@ -3002,6 +3037,10 @@ province_event = {
 			province_id = 477
 			province_id = 478
 			province_id = 481
+			#AND = { #ship can't capsize in inland province
+			#	province_id = 1266
+			#	has_global_flag = SWMH
+			#}
 		}
 		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
 	}
@@ -3236,6 +3275,8 @@ character_event = {
 		OR = {
 			religion = hellenic_pagan
 			religion = hellenic_pagan_reformed
+			religion = titan_pagan 		# Ancient Religions Reborn compatibility
+			religion = promethean_pagan	# Ancient Religions Reborn compatibility
 			culture = tsakonian
 			trait = sympathy_pagans
 		}
@@ -3244,6 +3285,7 @@ character_event = {
 			has_landed_title = c_achaia
 			has_landed_title = c_methone
 			has_landed_title = c_monemvasia
+			has_landed_title = c_arcadia # SWMH compatibility
 		}
 		NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
 		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
@@ -3278,6 +3320,8 @@ character_event = {
 				OR = {
 					religion = hellenic_pagan
 					religion = hellenic_pagan_reformed
+					religion = titan_pagan 		# Ancient Religions Reborn compatibility
+					religion = promethean_pagan	# Ancient Religions Reborn compatibility
 					culture = tsakonian
 					trait = sympathy_pagans
 				}
@@ -3329,13 +3373,15 @@ character_event = {
 		OR = {
 			religion = hellenic_pagan
 			religion = hellenic_pagan_reformed
+			religion = titan_pagan 		# Ancient Religions Reborn compatibility
+			religion = promethean_pagan	# Ancient Religions Reborn compatibility
 		}
 		OR = {
 			has_landed_title = c_korinthos
 			has_landed_title = c_achaia
 			has_landed_title = c_methone
 			has_landed_title = c_monemvasia
-			culture = tsakonian
+			has_landed_title = c_arcadia # SWMH compatibility
 		}
 		NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
 		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
@@ -3446,6 +3492,10 @@ narrative_event = {
 		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
 		NOT = { has_global_flag = VIET_peloponnesian_industries_collapse }
 		controls_religion = yes # Let it happen for the Pope - he's always around
+		has_game_rule = {
+			name = monogatari_peloponnesian_modifiers_rule
+			value = peloponnesian_rule_on
+		}	
 	}
 	
 	immediate = {
@@ -3540,6 +3590,7 @@ character_event = {
 			has_landed_title = c_achaia
 			has_landed_title = c_methone
 			has_landed_title = c_monemvasia		
+			has_landed_title = c_arcadia # SWMH compatibility		
 		}
 		NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
 		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
@@ -3730,6 +3781,7 @@ character_event = {
 			has_landed_title = c_achaia
 			has_landed_title = c_methone
 			has_landed_title = c_monemvasia		
+			has_landed_title = c_arcadia # SWMH compatibility		
 		}
 		NOT = { trait = zealous }
 		learning = 8
@@ -3901,6 +3953,8 @@ narrative_event = {
 				NOR = {
 					religion = hellenic_pagan
 					religion = hellenic_pagan_reformed
+					religion = titan_pagan 		# Ancient Religions Reborn compatibility
+					religion = promethean_pagan	# Ancient Religions Reborn compatibility
 				}
 			}
 			piety = 20
@@ -3911,6 +3965,8 @@ narrative_event = {
 				OR = {
 					religion = hellenic_pagan
 					religion = hellenic_pagan_reformed
+					religion = titan_pagan 		# Ancient Religions Reborn compatibility
+					religion = promethean_pagan	# Ancient Religions Reborn compatibility
 				}
 			}
 			piety = -20
@@ -3945,6 +4001,8 @@ narrative_event = {
 				NOR = {
 					religion = hellenic_pagan
 					religion = hellenic_pagan_reformed
+					religion = titan_pagan 		# Ancient Religions Reborn compatibility
+					religion = promethean_pagan	# Ancient Religions Reborn compatibility
 				}
 			}
 			piety = -20
@@ -3955,6 +4013,8 @@ narrative_event = {
 				OR = {
 					religion = hellenic_pagan
 					religion = hellenic_pagan_reformed
+					religion = titan_pagan 		# Ancient Religions Reborn compatibility
+					religion = promethean_pagan	# Ancient Religions Reborn compatibility
 				}
 			}
 			piety = 20
@@ -3967,6 +4027,8 @@ narrative_event = {
 			NOR = {
 				religion = hellenic_pagan
 				religion = hellenic_pagan_reformed
+				religion = titan_pagan 		# Ancient Religions Reborn compatibility
+				religion = promethean_pagan	# Ancient Religions Reborn compatibility
 				AND = {
 					OR = {
 						trait = erudite
@@ -4003,6 +4065,8 @@ narrative_event = {
 				NOR = {
 					religion = hellenic_pagan
 					religion = hellenic_pagan_reformed
+					religion = titan_pagan 		# Ancient Religions Reborn compatibility
+					religion = promethean_pagan	# Ancient Religions Reborn compatibility
 				}
 			}
 			piety = 20
@@ -4027,6 +4091,8 @@ character_event = {
 			NOT = { religion_group = pagan_group }
 			religion = hellenic_pagan
 			religion = hellenic_pagan_reformed
+			religion = titan_pagan		# Ancient Religions Reborn compatibility
+			religion = promethean_pagan	# Ancient Religions Reborn compatibility
 		}
 		culture_group = byzantine
 		NOT = { has_global_flag = VIET_chronicle_monemvasia_written }
@@ -4035,6 +4101,7 @@ character_event = {
 			has_landed_title = c_achaia
 			has_landed_title = c_methone
 			has_landed_title = c_monemvasia		
+			has_landed_title = c_arcadia # SWMH compatibility		
 		}
 		any_courtier = {
 			is_adult = yes

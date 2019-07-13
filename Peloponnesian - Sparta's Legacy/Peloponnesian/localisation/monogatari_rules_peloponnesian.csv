@@ -1,0 +1,7 @@
+#VIET Events Rules;;;;;;;;;;;;;;x
+RULE_PELOPONNESIAN;§BPeloponnesian Economic Decline§!;xxxxx;;;;;;;;;;;;x
+RULE_GROUP_MONOGATARI;CYBRXKHAN'S IMMERSION PACKS;xxxxx;;;;;;;;;;;;x
+RULE_PELOPONNESIAN_ON;On (Default);xxxxx;;;;;;;;;;;;x
+RULE_PELOPONNESIAN_ON_DESC;Province modifiers representing the Peloponnesian industries of Tyrian Purple and Corinthian Silk, will decline like historically and be removed if the Byzantine Empire collapses.;xxxxx;;;;;;;;;;;;x
+RULE_PELOPONNESIAN_OFF;Off;xxxxx;;;;;;;;;;;;x
+RULE_PELOPONNESIAN_OFF_DESC;Province modifiers representing the Peloponnesian industries of Tyrian Purple and Corinthian Silk, will not be removed even if the Byzantine Empire collapses, and will be present in later dates.;xxxxx;;;;;;;;;;;;x

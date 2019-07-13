@@ -24,13 +24,12 @@ decisions = {
 					}
 				}
 			}
-			any_demesne_province = {
-				OR = {
-					province_id = 476
-					province_id = 477
-					province_id = 478
-					province_id = 481
-				}
+			OR = {
+				has_landed_title = c_korinthos
+				has_landed_title = c_achaia
+				has_landed_title = c_methone
+				has_landed_title = c_monemvasia
+				has_landed_title = c_arcadia #SWMH compatibility
 			}
 			NOR = {
 				culture_group = south_slavic
@@ -94,7 +93,7 @@ decisions = {
 				}
 				add_province_modifier = {
 					name = VIET_recently_built_hexamilion_wall
-					duration = 7300
+					duration = 730
 				}
 			}
 			set_global_flag = VIET_hexamilion_wall_rebuilt
@@ -120,6 +119,8 @@ decisions = {
 			OR = {
 				religion = hellenic_pagan
 				religion = hellenic_pagan_reformed
+				religion = titan_pagan		# ACR compatibility
+				religion = promethean_pagan	# ACR compatibility
 			}
 		}
 		allow = {
@@ -127,6 +128,8 @@ decisions = {
 				OR = {
 					religion = hellenic_pagan
 					religion = hellenic_pagan_reformed
+					religion = titan_pagan		# ACR compatibility
+					religion = promethean_pagan	# ACR compatibility
 				}
 			}
 			wealth = 50
@@ -154,12 +157,15 @@ decisions = {
 			OR = {
 				religion = hellenic_pagan
 				religion = hellenic_pagan_reformed
+				religion = titan_pagan		# ACR compatibility
+				religion = promethean_pagan	# ACR compatibility
 			}
 			OR = {
 				has_landed_title = c_korinthos
 				has_landed_title = c_achaia
 				has_landed_title = c_methone
 				has_landed_title = c_monemvasia
+				has_landed_title = c_arcadia #SWMH compatibility
 			}
 		}
 		allow = {
