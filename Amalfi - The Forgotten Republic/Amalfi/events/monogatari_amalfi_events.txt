@@ -1436,7 +1436,7 @@ long_character_event = {
 	capable_only = yes
 	prisoner = no
 	#war = no
-	only_independent = yes
+	#only_independent = yes
 	
 	trigger = {
 		#in_command = no
@@ -1493,11 +1493,19 @@ long_character_event = {
 		}		
 		modifier = {
 			factor = 3
-			is_patrician = yes
+			OR = {
+				is_patrician = yes
+				tier = king
+				tier = emperor
+			}
 		}
 		modifier = {
 			factor = 0.33
-			is_patrician = no
+			NOR = {
+				is_patrician = yes
+				tier = king
+				tier = emperor
+			}
 		}
 	}
 	
