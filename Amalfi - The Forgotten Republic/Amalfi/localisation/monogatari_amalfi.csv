@@ -192,190 +192,190 @@ amalfi.31.d;Never mind.;ffff;;;;;;;;;;;;x
 amalfi.32.title;Bambagina Paper Support;Soutenir le papier Bambagina;;;;;;;;;;x;x
 amalfi.32.desc;Bambagina paper has for many years been one of Amalfi's major exports. Though it is not as durable as more traditional kinds of parchment, it is cheaper and easier to produce, and considered to be quite beautiful in appearance and style by many.\n\n[From.GetTitledName], the ruler of Amalfi, in concert with other Amalfian lawmakers and elites, has recently decreed a new law encouraging the production of Bambagina paper, and that it will be used in more official capacities in the future. This is certainly a great day for the paper mills of Amalfi, though there are those who undoubtedly dislike the implementation of such a policy given how Bambagina paper is not as durable as other kinds.;Le papier Bambagina est depuis de nombreuses années l'une des principales exportations d'Amalfi. Bien qu’il ne soit pas aussi durable que les types de parchemins plus traditionnels, il est moins chère et plus facile à produire, et il est considéré comme de très belle d’apparence et de style par beaucoup.\n\n[From.GetTitledName], le souverain d’Amalfi, de concert avec d’autres législateurs et élites amalfiens, a récemment adopté une nouvelle loi encourageant la production de papier Bambagina, qui sera utilisé à des fins plus officielles à l’avenir. C’est certainement un grand jour pour les papeteries d’Amalfi, bien que certains désapprouvent sans aucun doute la mise en œuvre d’une telle politique compte tenu du fait que le papier Bambagina n’est pas aussi durable que d’autres.;;;;;;;;;;x;x
 amalfi.32.a;Interesting.;ffff;;;;;;;;;;;;x
-amalfi.33.title;Bambagina Paper Tolerated;Papier Bambagina Toléré;;;;;;;;;;x;x
-amalfi.33.desc;Bambagina paper has for many years been one of Amalfi's major exports. Though it is not as durable as more traditional kinds of parchment, it is cheaper and easier to produce, and considered to be quite beautiful in appearance and style by many.\n\n[From.GetTitledName], the ruler of Amalfi, in concert with other Amalfian lawmakers and elites, has recently decreed new policies in regards to the production of Bambagina paper. Specifically, all previous laws related to Bambagina paper are no longer in effect. While the paper mills producing this paper will not be officially endorsed, neither will they be banned from producing this paper. Only time will tell what the papermakers of Amalfi will make of these recent changes.;;;;;;;;;;;x
-amalfi.33.a;Indeed.;ffff;;;;;;;;;;;;x
-amalfi.34.title;Bambagina Paper Banned;;;;;;;;;;;x
-amalfi.34.desc;Bambagina paper has for many years been one of Amalfi's major exports. Though it is not as durable as more traditional kinds of parchment, it is cheaper and easier to produce, and considered to be quite beautiful in appearance and style by many.\n\n[From.GetTitledName], the ruler of Amalfi, in concert with other Amalfian lawmakers and elites, has banned the paper's use in official functions, and proscribed the use of only more durable forms of parchment. While Bambagina paper can still be produced for use by commoners, this will clearly deal a heavy blow to Amalfi's papermaking industry.;ffff;;;;;;;;;;;;x
-amalfi.34.a;I see.;;;;;;;;;;;x
-amalfi.35.desc;;;;;;;;;;;;x
-amalfi.35.a;ffff;ffff;;;;;;;;;;;;x
-amalfi.36.desc;;;;;;;;;;;;x
-amalfi.36.a;ffff;ffff;;;;;;;;;;;;x
-amalfi.37.desc;;;;;;;;;;;;x
-amalfi.37.a;ffff;ffff;;;;;;;;;;;;x
-amalfi.38.desc;;;;;;;;;;;;x
-amalfi.38.a;ffff;ffff;;;;;;;;;;;;x
-amalfi.39.desc;;;;;;;;;;;;x
-amalfi.39.a;ffff;ffff;;;;;;;;;;;;x
-amalfi.40.desc;Piracy has been an increasing concern among the settlements of the Amalfi Coast. The current system of watchtowers and fortresses, while by no means horrible, needs improvements if it is to adequately warn those living among the Amalfi Coast of any incoming pirates or invaders in time. Because the Amalfi region is of high importance due to its economic, cultural, strategic value, it is therefore imperative we find a good location to situate a large watchtower that can meet our needs. Let us send experts to survey the coastline and prepare construction materials!;;;;;;;;;;;x
-amalfi.40.a;A splendid idea. Let's do this.;ffff;;;;;;;;;;;;x
-amalfi.40.b;I don't have the funds for such a thing.;ffff;;;;;;;;;;;;x
-amalfi.41.title;A Promising Site;;;;;;;;;;;x
-amalfi.41.desc;After spending quite some time surveying the Amalfi Coast, we've found a perfect place for a new watchtower, one which will be able to see incoming pirate fleets from far away, yet is relatively close by, and will be hard for the pirates to attack and reach.\n\nA few miles off the coast by the town of Positano are the Sirenusas, an archipelago of several islands called so because the ancient Greeks and Romans believed they were inhabited by the Sirens of myth and legend. Gallo Lungo, the largest island, is shaped in a crescent moon and has housed a small monastery for years. Our surveyors also found the ruins of a small Roman tower, which we can use as a solid foundation for our own watchtower.;;;;;;;;;;;x
-amalfi.41.a;Good! Start construction immediately.;ffff;;;;;;;;;;;;x
-amalfi.42.desc;The watchtower at Gallo Lungo has been completed, and a garrison of a few soldiers have been sent to maintain it. It will be crucial in ensuring the safety and defense of the Amalfi Coast. One final matter remains: who shall we formally appoint as warden of this fortification? Because of its strategic location, ownership of the tower should not give this to just anyone or any family. Even if it is an honorary position, we should consider carefully who will administer this tower.;;;;;;;;;;;x
-amalfi.42.a;Find a local military officer who has proven himself.;ffff;;;;;;;;;;;;x
-amalfi.42.b;One of my vassals thinks they are worthy.;ffff;;;;;;;;;;;;x
-amalfi.42.c;A courtier of mine seems interested.;ffff;;;;;;;;;;;;x
-amalfi.42.d;I want to think this over first.;ffff;;;;;;;;;;;;x
-VIET_amalfi_gallo_lungo_minor_title_now_available;\n\nCan now award the "Warden of Gallo Lungo" minor title;;;;;;;;;;;x
-amalfi.43.title;Gallo Lungo;;;;;;;;;;;x
-amalfi.43.desc;[From.Holder.GetTitledName], the current ruler of Amalfi, has completed a new watchtower on the island of Gallo Lungo. Built on the ruins of an old Roman watchtower, though it is not a remarkable fortification in and of itself, it is located on a strategic site, and meant to play a role in defending the Amalfi Coast from pirates and invaders who seek to plunder the riches of the region, as its inhabitants now have more time to prepare themselves from any onslaught.;;;;;;;;;;;x
-amalfi.43.a;Interesting.;ffff;;;;;;;;;;;;x
-amalfi.44.desc;;;;;;;;;;;;x
-amalfi.44.a;ffff;ffff;;;;;;;;;;;;x
-amalfi.45.desc;;;;;;;;;;;;x
-amalfi.45.a;ffff;ffff;;;;;;;;;;;;x
-amalfi.46.desc;;;;;;;;;;;;x
-amalfi.46.a;ffff;ffff;;;;;;;;;;;;x
-amalfi.47.desc;;;;;;;;;;;;x
-amalfi.47.a;ffff;ffff;;;;;;;;;;;;x
-amalfi.48.desc;;;;;;;;;;;;x
-amalfi.48.a;ffff;ffff;;;;;;;;;;;;x
-amalfi.49.desc;;;;;;;;;;;;x
-amalfi.49.a;ffff;ffff;;;;;;;;;;;;x
-amalfi.50.title;A New Monastery;;;;;;;;;;;x
-amalfi.50.desc;A number of Benedictine monks have proposed that we set up a monastery on Mount Athos, the famous mountain in Greece that has become a center of the Eastern Church's spirituality and monasticism. By establishing a Latin monastery there, dialogue and cooperation between the two groups can be encouraged. Amalfi has historically had a mix of followers from both the Western and Eastern Churches, so we are ideally suited to this noble endeavor.;;;;;;;;;;;x
-amalfi.50.a;They have my blessing.;ffff;;;;;;;;;;;;x
-amalfi.51.title;Amalfion Established;;;;;;;;;;;x
-amalfi.51.desc;Amalfi has always enjoyed close relations with the Eastern Roman Empire, in contrast to some of the other Republics and petty feudal realms of the Italian Peninsula. A number of Benedictine monks, working together with [From.GetTitledName], have established a Latin monastery on Mount Athos, the great monastic haven of Greece. In doing so, they hope to improve relations between the Western and Eastern Churches. Due to the prominence of Amalfians in founding and developing the monastery, many have started calling this monastery the Amalfion.;;;;;;;;;;;x
-amalfi.51.a;Interesting news! Hopefully it will work out.;ffff;;;;;;;;;;;;x
-amalfi.51.b;We are honored by our brothers and sisters from Amalfi.;ffff;;;;;;;;;;;;x
-amalfi.51.c;What happens with those Christians is of no concern to us.;ffff;;;;;;;;;;;;x
-amalfi.51.d;I am proud of our work. For the glory of God!;ffff;;;;;;;;;;;;x
-VIET_improved_relations_amalfion;Our relations with the ruler of Amalfi have improved greatly;;;;;;;;;;;x
-amalfi.52.desc;;;;;;;;;;;;x
-amalfi.52.a;ffff;ffff;;;;;;;;;;;;x
-amalfi.53.desc;;;;;;;;;;;;x
-amalfi.53.a;ffff;ffff;;;;;;;;;;;;x
-amalfi.54.desc;;;;;;;;;;;;x
-amalfi.54.a;ffff;ffff;;;;;;;;;;;;x
-amalfi.55.desc;;;;;;;;;;;;x
-amalfi.55.a;ffff;ffff;;;;;;;;;;;;x
-amalfi.56.desc;;;;;;;;;;;;x
-amalfi.56.a;ffff;ffff;;;;;;;;;;;;x
-amalfi.57.desc;;;;;;;;;;;;x
-amalfi.57.a;ffff;ffff;;;;;;;;;;;;x
-amalfi.58.desc;;;;;;;;;;;;x
-amalfi.58.a;ffff;ffff;;;;;;;;;;;;x
-amalfi.59.desc;;;;;;;;;;;;x
-amalfi.59.a;ffff;ffff;;;;;;;;;;;;x
-amalfi.60.desc;;;;;;;;;;;;x
-amalfi.60.a;ffff;ffff;;;;;;;;;;;;x
-amalfi.61.desc;;;;;;;;;;;;x
-amalfi.61.a;ffff;ffff;;;;;;;;;;;;x
-amalfi.62.desc;;;;;;;;;;;;x
-amalfi.62.a;ffff;ffff;;;;;;;;;;;;x
-amalfi.63.desc;;;;;;;;;;;;x
-amalfi.63.a;ffff;ffff;;;;;;;;;;;;x
-amalfi.64.desc;;;;;;;;;;;;x
-amalfi.64.a;ffff;ffff;;;;;;;;;;;;x
-amalfi.65.desc;;;;;;;;;;;;x
-amalfi.65.a;ffff;ffff;;;;;;;;;;;;x
-amalfi.66.desc;;;;;;;;;;;;x
-amalfi.66.a;ffff;ffff;;;;;;;;;;;;x
-amalfi.67.desc;;;;;;;;;;;;x
-amalfi.67.a;ffff;ffff;;;;;;;;;;;;x
-amalfi.68.desc;;;;;;;;;;;;x
-amalfi.68.a;ffff;ffff;;;;;;;;;;;;x
-amalfi.69.desc;;;;;;;;;;;;x
-amalfi.69.a;ffff;ffff;;;;;;;;;;;;x
-amalfi.70.desc;The harvest of lemons in the Amalfian region from last year was unusually good. As a result, local merchants have been raking in quite a profit this year, given how popular Amalfian lemons are. We too have made some extra coin on the side through our contacts.;;;;;;;;;;;x
-amalfi.70.a;Glad to hear it!;ffff;;;;;;;;;;;;x
-amalfi.71.desc;We have recently discovered the ruins of an old Roman villa on some land belonging to us along the Amalfi Coast. Even in antiquity, this region was a well-known resort destination. The ruins we found are in good condition, and perhaps can be renovated for our own use.;;;;;;;;;;;x
-amalfi.71.a;Splendid. Another resort home wouldn't hurt.;ffff;;;;;;;;;;;;x
-amalfi.71.b;This is a waste of money.;ffff;;;;;;;;;;;;x
-amalfi.71.c;Convert it into a house of worship instead.;ffff;;;;;;;;;;;;x
-amalfi.71.d;Turn it into a hostel for travelers.;ffff;;;;;;;;;;;;x
-amalfi.72.desc;Lemon flavored alcoholic beverages have been a major export of the Amalfi Coast for many years. Today some local dignitaries present me with some of this prized product as a gift. Even if I have no desire to drink it, I can still give it to someone or present it to esteemed guests at a banquet.;;;;;;;;;;;x
-amalfi.72.a;Much appreciated.;ffff;;;;;;;;;;;;x
+amalfi.33.title;Bambagina Paper Tolerated;Papier Bambagina toléré;;;;;;;;;;x;x
+amalfi.33.desc;Bambagina paper has for many years been one of Amalfi's major exports. Though it is not as durable as more traditional kinds of parchment, it is cheaper and easier to produce, and considered to be quite beautiful in appearance and style by many.\n\n[From.GetTitledName], the ruler of Amalfi, in concert with other Amalfian lawmakers and elites, has recently decreed new policies in regards to the production of Bambagina paper. Specifically, all previous laws related to Bambagina paper are no longer in effect. While the paper mills producing this paper will not be officially endorsed, neither will they be banned from producing this paper. Only time will tell what the papermakers of Amalfi will make of these recent changes.;Le papier Bambagina est depuis de nombreuses années l'une des principales exportations d'Amalfi. Bien qu'il ne soit pas aussi durable que les parchemins plus traditionnels, il est moins cher et plus facile à produire, et il est considéré comme très beau en apparence et en style par beaucoup.\n\n[From.GetTitledName], le dirigeant d'Amalfi, en accord avec d'autres législateurs amalfitains et les élites, a récemment adopté de nouvelles règles concernant la production du papier Bambagina. Plus précisément, toutes les lois antérieures relatives au papier Bambagina ne sont plus en vigueur. Bien que les papeteries qui produisent ce papier ne seront pas officiellement approuvées, elles ne seront pas non plus interdites de produire ce papier. Seul le temps nous dira ce que les papetiers d'Amalfi vont faire de ces changements récents.;;;;;;;;;;x;x
+amalfi.33.a;Indeed.;En effet.;;;;;;;;;;;;x
+amalfi.34.title;Bambagina Paper Banned;Papier Bambagina interdit;;;;;;;;;;x;x
+amalfi.34.desc;Bambagina paper has for many years been one of Amalfi's major exports. Though it is not as durable as more traditional kinds of parchment, it is cheaper and easier to produce, and considered to be quite beautiful in appearance and style by many.\n\n[From.GetTitledName], the ruler of Amalfi, in concert with other Amalfian lawmakers and elites, has banned the paper's use in official functions, and proscribed the use of only more durable forms of parchment. While Bambagina paper can still be produced for use by commoners, this will clearly deal a heavy blow to Amalfi's papermaking industry.;Le papier Bambagina est depuis de nombreuses années l'une des principales exportations d'Amalfi. Bien qu'il ne soit pas aussi durable que les parchemins plus traditionnels, il est moins cher et plus facile à produire, et il est considéré comme très beau en apparence et en style par un grand nombre.\n\n[From.GetTitledName], le dirigeant d'Amalfi, de concert avec d'autres législateurs et les élites amalfitaines, a interdit son utilisation pour les fonctions officielles et a interdit uniquement les formes les plus durables du papier parchemin. Bien qu'il soit encore possible de produire du papier Bambagina pour les roturiers, l'industrie papetière d'Amalfi en souffrira de toute évidence cruellement.;;;;;;;;;;;;x
+amalfi.34.a;I see.;Je vois.;;;;;;;;;;x;x
+amalfi.35.desc;xxxxx;xxxxx;;;;;;;;;;x
+amalfi.35.a;Xxxxxxffff;Xxxxxxffff;;;;;;;;;;;;x
+amalfi.36.desc;xxxxx;xxxxx;;;;;;;;;;x
+amalfi.36.a;Xxxxxxffff;Xxxxxxffff;;;;;;;;;;;;x
+amalfi.37.desc;xxxxx;xxxxx;;;;;;;;;;x
+amalfi.37.a;Xxxxxxffff;Xxxxxxffff;;;;;;;;;;;;x
+amalfi.38.desc;xxxxx;xxxxx;;;;;;;;;;x
+amalfi.38.a;Xxxxxxffff;Xxxxxxffff;;;;;;;;;;;;x
+amalfi.39.desc;xxxxx;xxxxx;;;;;;;;;;x
+amalfi.39.a;Xxxxxxffff;Xxxxxxffff;;;;;;;;;;;;x
+amalfi.40.desc;Piracy has been an increasing concern among the settlements of the Amalfi Coast. The current system of watchtowers and fortresses, while by no means horrible, needs improvements if it is to adequately warn those living among the Amalfi Coast of any incoming pirates or invaders in time. Because the Amalfi region is of high importance due to its economic, cultural, strategic value, it is therefore imperative we find a good location to situate a large watchtower that can meet our needs. Let us send experts to survey the coastline and prepare construction materials!;La piraterie est une préoccupation croissante parmi les colonies de peuplement de la côte amalfitaine. Le système actuel de tours de guet et de forteresses, bien qu'il soit loin d'être horrible, a besoin d'être amélioré si l'on veut avertir à temps les habitants de la côte amalfitaine de la présence de pirates ou d'envahisseurs. Parce que la région d'Amalfi est d'une grande importance en raison de sa valeur économique, culturelle, stratégique, il est donc impératif de trouver un bon emplacement pour situer une grande tour de guet qui puisse répondre à nos besoins. Envoyons des experts pour surveiller le littoral et préparer les matériaux de construction !;;;;;;;;;;x;x
+amalfi.40.a;A splendid idea. Let's do this.;Une idée magnifique. Faisons cela.;;;;;;;;;;;;x
+amalfi.40.b;I don't have the funds for such a thing.;Je n'ai pas les fonds pour une telle chose.;;;;;;;;;;;;x
+amalfi.41.title;A Promising Site;Un site prometteur;;;;;;;;;;x;x
+amalfi.41.desc;After spending quite some time surveying the Amalfi Coast, we've found a perfect place for a new watchtower, one which will be able to see incoming pirate fleets from far away, yet is relatively close by, and will be hard for the pirates to attack and reach.\n\nA few miles off the coast by the town of Positano are the Sirenusas, an archipelago of several islands called so because the ancient Greeks and Romans believed they were inhabited by the Sirens of myth and legend. Gallo Lungo, the largest island, is shaped in a crescent moon and has housed a small monastery for years. Our surveyors also found the ruins of a small Roman tower, which we can use as a solid foundation for our own watchtower.;Après avoir passé pas mal de temps à arpenter la côte amalfitaine, nous avons trouvé un endroit parfait pour une nouvelle tour de guet, qui pourra voir les flottes de pirates arrivant de loin, mais qui est relativement proche, et qui sera difficile à attaquer et à atteindre pour les pirates. Les îles Sirenuse, un archipel de plusieurs îles appelé ainsi car les anciens Grecs et Romains les croyaient habités par les Sirènes de la légende et des mythes, sont quelques kilomètres au large des côtes, aux abords de la ville de Positano. Gallo Lungo, la plus grande île, est en forme de croissant de lune et abrite un petit monastère depuis des années. Nos arpenteurs ont également trouvé les ruines d'une petite tour romaine, que nous pouvons utiliser comme base solide pour notre propre tour de guet.;;;;;;;;;;x;x
+amalfi.41.a;Good! Start construction immediately.;Bien ! Commencez la construction immédiatement.;;;;;;;;;;;;x
+amalfi.42.desc;The watchtower at Gallo Lungo has been completed, and a garrison of a few soldiers have been sent to maintain it. It will be crucial in ensuring the safety and defense of the Amalfi Coast. One final matter remains: who shall we formally appoint as warden of this fortification? Because of its strategic location, ownership of the tower should not give this to just anyone or any family. Even if it is an honorary position, we should consider carefully who will administer this tower.;La tour de guet de Gallo Lungo est terminée et une garnison de quelques soldats a été envoyée pour l'entretenir. Elle sera cruciale pour assurer la sécurité et la défense de la côte amalfitaine. Une dernière question demeure : qui nommerons-nous formellement comme directeur de cette fortification ? En raison de son emplacement stratégique, la propriété de la tour ne devrait pas être confiée à n'importe qui ou à n'importe quelle famille. Même s'il s'agit d'un poste honorifique, nous devrions examiner attentivement qui administrera cette tour.;;;;;;;;;;x;x
+amalfi.42.a;Find a local military officer who has proven himself.;Trouvez un officier militaire local qui a fait ses preuves.;;;;;;;;;;;;x
+amalfi.42.b;One of my vassals thinks they are worthy.;Un de mes vassaux pense qu'il en vaut la peine.;;;;;;;;;;;;x
+amalfi.42.c;A courtier of mine seems interested.;Un de mes courtisans semble intéressé.;;;;;;;;;;;;x
+amalfi.42.d;I want to think this over first.;Je veux d'abord y réfléchir.;;;;;;;;;;;;x
+VIET_amalfi_gallo_lungo_minor_title_now_available;\n\nCan now award the "Warden of Gallo Lungo" minor title;\n\nPeut maintenant attribuer le titre mineur "Gardien de Gallo Lungo".;;;;;;;;;;x;x
+amalfi.43.title;Gallo Lungo;Gallo Lungo;;;;;;;;;;x;x
+amalfi.43.desc;[From.Holder.GetTitledName], the current ruler of Amalfi, has completed a new watchtower on the island of Gallo Lungo. Built on the ruins of an old Roman watchtower, though it is not a remarkable fortification in and of itself, it is located on a strategic site, and meant to play a role in defending the Amalfi Coast from pirates and invaders who seek to plunder the riches of the region, as its inhabitants now have more time to prepare themselves from any onslaught.;[From.Holder.GetTitledName], l'actuel dirigeant d'Amalfi, a achevé une nouvelle tour de guet sur l'île de Gallo Lungo. Construite sur les ruines d'une ancienne tour de guet romaine, bien qu'elle ne soit pas une remarquable fortification en soi, elle est située sur un site stratégique et est destinée à jouer un rôle dans la défense de la côte amalfitaine contre les pirates et les envahisseurs qui cherchent à piller les richesses de la région, car ses habitants ont maintenant plus de temps pour se préparer à tout assaut.;;;;;;;;;;x;x
+amalfi.43.a;Interesting.;Intéressant.;;;;;;;;;;;;x
+amalfi.44.desc;xxxxx;xxxxx;;;;;;;;;;x
+amalfi.44.a;Xxxxxxffff;Xxxxxxffff;;;;;;;;;;;;x
+amalfi.45.desc;xxxxx;xxxxx;;;;;;;;;;x
+amalfi.45.a;Xxxxxxffff;Xxxxxxffff;;;;;;;;;;;;x
+amalfi.46.desc;xxxxx;xxxxx;;;;;;;;;;x
+amalfi.46.a;Xxxxxxffff;Xxxxxxffff;;;;;;;;;;;;x
+amalfi.47.desc;xxxxx;xxxxx;;;;;;;;;;x
+amalfi.47.a;Xxxxxxffff;Xxxxxxffff;;;;;;;;;;;;x
+amalfi.48.desc;xxxxx;xxxxx;;;;;;;;;;x
+amalfi.48.a;Xxxxxxffff;Xxxxxxffff;;;;;;;;;;;;x
+amalfi.49.desc;xxxxx;xxxxx;;;;;;;;;;x
+amalfi.49.a;Xxxxxxffff;Xxxxxxffff;;;;;;;;;;;;x
+amalfi.50.title;A New Monastery;Un nouveau monastère;;;;;;;;;;x;x
+amalfi.50.desc;A number of Benedictine monks have proposed that we set up a monastery on Mount Athos, the famous mountain in Greece that has become a center of the Eastern Church's spirituality and monasticism. By establishing a Latin monastery there, dialogue and cooperation between the two groups can be encouraged. Amalfi has historically had a mix of followers from both the Western and Eastern Churches, so we are ideally suited to this noble endeavor.;Un certain nombre de moines bénédictins nous ont proposé d'établir un monastère sur le Mont Athos, la célèbre montagne de Grèce qui est devenue le centre de la spiritualité et du monachisme de l'Église orientale. En y établissant un monastère latin, le dialogue et la coopération entre les deux groupes peuvent être encouragés. Amalfi a historiquement eu un mélange d'adeptes des Églises occidentale et orientale, donc nous sommes parfaitement adaptés à cette noble entreprise.;;;;;;;;;;x;x
+amalfi.50.a;They have my blessing.;Ils ont ma bénédiction.;;;;;;;;;;;;x
+amalfi.51.title;Amalfion Established;Amalfion établi;;;;;;;;;;x;x
+amalfi.51.desc;Amalfi has always enjoyed close relations with the Eastern Roman Empire, in contrast to some of the other Republics and petty feudal realms of the Italian Peninsula. A number of Benedictine monks, working together with [From.GetTitledName], have established a Latin monastery on Mount Athos, the great monastic haven of Greece. In doing so, they hope to improve relations between the Western and Eastern Churches. Due to the prominence of Amalfians in founding and developing the monastery, many have started calling this monastery the Amalfion.;Amalfi a toujours entretenu des relations étroites avec l'Empire romain d'Orient, contrairement à d'autres républiques et aux petits domaines féodaux de la péninsule italienne. Un certain nombre de moines bénédictins, en collaboration avec [From.GetTitledName], ont établi un monastère latin sur le mont Athos, le grand port monastique de Grèce. Ce faisant, ils espèrent améliorer les relations entre les Églises occidentale et orientale. En raison de l'importance des amalfitains dans la fondation et le développement du monastère, beaucoup ont commencé à appeler ce monastère l'Amalfion.;;;;;;;;;;x;x
+amalfi.51.a;Interesting news! Hopefully it will work out.;Des nouvelles intéressantes ! J'espère que ça fonctionnera.;;;;;;;;;;;;x
+amalfi.51.b;We are honored by our brothers and sisters from Amalfi.;Nous sommes honorés par nos frères et sœurs d'Amalfi.;;;;;;;;;;;;x
+amalfi.51.c;What happens with those Christians is of no concern to us.;Ce qui se passe avec ces chrétiens ne nous concerne pas.;;;;;;;;;;;;x
+amalfi.51.d;I am proud of our work. For the glory of God!;Je suis fier de notre travail. Pour la gloire de Dieu !;;;;;;;;;;;;x
+VIET_improved_relations_amalfion;Our relations with the ruler of Amalfi have improved greatly;Nos relations avec le souverain d'Amalfi se sont considérablement améliorées;;;;;;;;;;x;x
+amalfi.52.desc;xxxxx;xxxxx;;;;;;;;;;x
+amalfi.52.a;Xxxxxxffff;Xxxxxxffff;;;;;;;;;;;;x
+amalfi.53.desc;xxxxx;xxxxx;;;;;;;;;;x
+amalfi.53.a;Xxxxxxffff;Xxxxxxffff;;;;;;;;;;;;x
+amalfi.54.desc;xxxxx;xxxxx;;;;;;;;;;x
+amalfi.54.a;Xxxxxxffff;Xxxxxxffff;;;;;;;;;;;;x
+amalfi.55.desc;xxxxx;xxxxx;;;;;;;;;;x
+amalfi.55.a;Xxxxxxffff;Xxxxxxffff;;;;;;;;;;;;x
+amalfi.56.desc;xxxxx;xxxxx;;;;;;;;;;x
+amalfi.56.a;Xxxxxxffff;Xxxxxxffff;;;;;;;;;;;;x
+amalfi.57.desc;xxxxx;xxxxx;;;;;;;;;;x
+amalfi.57.a;Xxxxxxffff;Xxxxxxffff;;;;;;;;;;;;x
+amalfi.58.desc;xxxxx;xxxxx;;;;;;;;;;x
+amalfi.58.a;Xxxxxxffff;Xxxxxxffff;;;;;;;;;;;;x
+amalfi.59.desc;xxxxx;xxxxx;;;;;;;;;;x
+amalfi.59.a;Xxxxxxffff;Xxxxxxffff;;;;;;;;;;;;x
+amalfi.60.desc;xxxxx;xxxxx;;;;;;;;;;x
+amalfi.60.a;Xxxxxxffff;Xxxxxxffff;;;;;;;;;;;;x
+amalfi.61.desc;xxxxx;xxxxx;;;;;;;;;;x
+amalfi.61.a;Xxxxxxffff;Xxxxxxffff;;;;;;;;;;;;x
+amalfi.62.desc;xxxxx;xxxxx;;;;;;;;;;x
+amalfi.62.a;Xxxxxxffff;Xxxxxxffff;;;;;;;;;;;;x
+amalfi.63.desc;xxxxx;xxxxx;;;;;;;;;;x
+amalfi.63.a;Xxxxxxffff;Xxxxxxffff;;;;;;;;;;;;x
+amalfi.64.desc;xxxxx;xxxxx;;;;;;;;;;x
+amalfi.64.a;Xxxxxxffff;Xxxxxxffff;;;;;;;;;;;;x
+amalfi.65.desc;xxxxx;xxxxx;;;;;;;;;;x
+amalfi.65.a;Xxxxxxffff;Xxxxxxffff;;;;;;;;;;;;x
+amalfi.66.desc;xxxxx;xxxxx;;;;;;;;;;x
+amalfi.66.a;Xxxxxxffff;Xxxxxxffff;;;;;;;;;;;;x
+amalfi.67.desc;xxxxx;xxxxx;;;;;;;;;;x
+amalfi.67.a;Xxxxxxffff;Xxxxxxffff;;;;;;;;;;;;x
+amalfi.68.desc;xxxxx;xxxxx;;;;;;;;;;x
+amalfi.68.a;Xxxxxxffff;Xxxxxxffff;;;;;;;;;;;;x
+amalfi.69.desc;xxxxx;xxxxx;;;;;;;;;;x
+amalfi.69.a;Xxxxxxffff;Xxxxxxffff;;;;;;;;;;;;x
+amalfi.70.desc;The harvest of lemons in the Amalfian region from last year was unusually good. As a result, local merchants have been raking in quite a profit this year, given how popular Amalfian lemons are. We too have made some extra coin on the side through our contacts.;La récolte de citrons dans la région amalfitaine de l'année dernière a été exceptionnellement bonne. Par conséquent, les marchands locaux ont fait des profits cette année, en raison de la popularité des citrons d'Amalfi. Nous aussi, nous avons gagné un peu plus d'argent grâce à nos contacts.;;;;;;;;;;x;x
+amalfi.70.a;Glad to hear it!;Ravi de l'apprendre !;;;;;;;;;;;;x
+amalfi.71.desc;We have recently discovered the ruins of an old Roman villa on some land belonging to us along the Amalfi Coast. Even in antiquity, this region was a well-known resort destination. The ruins we found are in good condition, and perhaps can be renovated for our own use.;Nous avons récemment découvert les ruines d'une ancienne villa romaine sur un terrain qui nous appartient le long de la côte amalfitaine. Même durant l'Antiquité, cette région était une destination touristique bien connue. Les ruines que nous avons trouvées sont en bon état et peuvent peut-être être rénovées pour notre propre usage.;;;;;;;;;;x;x
+amalfi.71.a;Splendid. Another resort home wouldn't hurt.;Splendide. Une autre maison de vacances ne ferait pas de mal.;;;;;;;;;;x
+amalfi.71.b;This is a waste of money.;C'est un gaspillage d'argent.;;;;;;;;;;;;x
+amalfi.71.c;Convert it into a house of worship instead.;Convertissez-le plutôt en un lieu de culte.;;;;;;;;;;;;x
+amalfi.71.d;Turn it into a hostel for travelers.;Faites-en une auberge pour les voyageurs.;;;;;;;;;;;;x
+amalfi.72.desc;Lemon flavored alcoholic beverages have been a major export of the Amalfi Coast for many years. Today some local dignitaries present me with some of this prized product as a gift. Even if I have no desire to drink it, I can still give it to someone or present it to esteemed guests at a banquet.;Les boissons alcoolisées aromatisées au citron ont été une exportation majeure de la côte amalfitaine pendant de nombreuses années. Aujourd'hui, des dignitaires locaux m'offrent en cadeau une partie de ce produit très prisé. Même si je n'ai pas envie de le boire, je peux toujours le donner à quelqu'un ou le présenter à des invités estimés lors d'un banquet.;;;;;;;;;;;;x
+amalfi.72.a;Much appreciated.;Très apprécié.;;;;;;;;;;x;x
 #amalfi.73.desc;For many years, Limoncello has been one of the Amalfi Coast's major exports, and its popularity has been booming even more as of late, bringing in more income to many businesses and merchants in the area. This liqueur, made from only the finest of the Amalfian lemons, is sure to bring much prosperity to the region for generations to come.;;;;;;;;;;;x
 #amalfi.73.a;Great!;ffff;;;;;;;;;;;;x
-amalfi.73.desc;I am inspecting some of the lemon groves in Amalfi owned by my family today. I discuss with one of the laborers about the terraces, stone canals, and water tanks that make up the intricate system used to irrigate these groves, which are often situated on the hillier parts of the Amalfi Coast.;;;;;;;;;;;x
-amalfi.73.a;An interesting discussion, all said!;ffff;;;;;;;;;;;;x
-amalfi.74.desc;Today I am in the village of Scala, which is the center of Amalfi's coral industry. They bring coral harvested from the other nearby villages, and it is here that they turn this coral into a variety of beautiful products, such as rosary beads and necklaces. As I travel through Scala, I hear the simple yet moving songs sung by the coral workers and fishermen of Scala as they work.;;;;;;;;;;;x
-amalfi.74.a;A pleasant thing to listen to, no?;ffff;;;;;;;;;;;;x
-amalfi.74.b;Just some peasants rambling and barking nonsense.;ffff;;;;;;;;;;;;x
+amalfi.73.desc;I am inspecting some of the lemon groves in Amalfi owned by my family today. I discuss with one of the laborers about the terraces, stone canals, and water tanks that make up the intricate system used to irrigate these groves, which are often situated on the hillier parts of the Amalfi Coast.;xxxxxJ'inspecte quelques citronniers d'Amalfi appartenant à ma famille aujourd'hui. Je discute avec l'un des ouvriers des terrasses, des canaux en pierre et des réservoirs d'eau qui constituent le système complexe utilisé pour irriguer ces bosquets, qui sont souvent situés sur les parties les plus accidentées de la côte amalfitaine.;;;;;;;;;;;;x
+amalfi.73.a;An interesting discussion, all said!;Une discussion intéressante, tout compte fait !;;;;;;;;;;x;x
+amalfi.74.desc;Today I am in the village of Scala, which is the center of Amalfi's coral industry. They bring coral harvested from the other nearby villages, and it is here that they turn this coral into a variety of beautiful products, such as rosary beads and necklaces. As I travel through Scala, I hear the simple yet moving songs sung by the coral workers and fishermen of Scala as they work.;Aujourd'hui je suis dans le village de Scala, qui est le centre de l'industrie corallienne d'Amalfi. Ils apportent du corail récolté dans les autres villages voisins et c'est là qu'ils transforment ce corail en une variété de beaux produits, tels que des chapelets et des colliers. En parcourant Scala, j'entends les chansons simples mais émouvantes chantées par les ouvriers coralliens et les pêcheurs pendant qu'ils travaillent.;;;;;;;;;;;;x
+amalfi.74.a;A pleasant thing to listen to, no?;C'est agréable à écouter, non ?;;;;;;;;;;x;x
+amalfi.74.b;Just some peasants rambling and barking nonsense.;Juste des paysans qui divaguent et aboient des bêtises.;;;;;;;;;;;;x
 #amalfi.74.desc;The fabric factories of Atrani have always been the city's pride and joy, and one of the reasons many consider it second only to Amalfi among the cities of the Amalfi Coast. Lately, this trade in fabrics has been exploding, bringing in additional profit to many involved in the business.;;;;;;;;;;;x
 #amalfi.74.a;Very good!;ffff;;;;;;;;;;;;x
-amalfi.75.desc;I am passing through Vietri, a small town on the far end of the Amalfian Coast. This humble town is well known for the quality of its ceramics. I observe some of the vendors selling colorful pottery, and wonder if I should bring some home with me.;;;;;;;;;;;x
-amalfi.75.a;On second thought, perhaps not.;ffff;;;;;;;;;;;;x
-amalfi.75.b;Sounds like a good idea!;ffff;;;;;;;;;;;;x
-amalfi.75.c;I would like to buy some to my spouse.;ffff;;;;;;;;;;;;x
-amalfi.75.d;I would like to buy some for my courtier.;ffff;;;;;;;;;;;;x
-amalfi.76.desc;The small seaside town of Atrani, located not too far from Amalfi, sits beside a river called the Dragone river. While visiting there on business one day, the locals tell me how legend has it that a fire breathing dragon once lived in the area and would hide in the river, hence the origin of the name.;;;;;;;;;;;x
-amalfi.76.a;A silly superstitious tale!;ffff;;;;;;;;;;;;x
-amalfi.76.b;Fascinating lore. Tell me more.;ffff;;;;;;;;;;;;x
-amalfi.76.c;Let's get back to business first.;ffff;;;;;;;;;;;;x
-amalfi.77.desc;The Amalfian town of Scala is famous throughout the region for its chestnuts. Frequently, festivals celebrating the chestnuts are held there, and you had the good fortune to attend one recently.;;;;;;;;;;;x
-amalfi.77.a;It was fun and I got to eat a lot.;ffff;;;;;;;;;;;;x
-amalfi.77.b;I wanted to meet and understand the commoners.;ffff;;;;;;;;;;;;x
-amalfi.77.c;A terrible experience!;ffff;;;;;;;;;;;;x
-amalfi.78.desc;The Blue Grotto of Capri is one of the most famed landmarks of the Amalfi Coast, which gets its name from how the cave walls illuminate the water to glow with a bright, mesmerizing blue color. For generations, locals have avoided this massive cave said to house monsters, witches, and demons. Even ignoring that, it is a perilous place to explore, and many have drowned in it.;;;;;;;;;;;x
-amalfi.78.a;Indeed it is best to be careful around such places.;ffff;;;;;;;;;;;;x
-amalfi.78.b;Ask the locals if they know more.;ffff;;;;;;;;;;;;x
-amalfi.79.desc;While discussing the Blue Grotto with the locals in Capri, you meet some local boys who recently tried venturing inside the cave, but had to escape once the tide was rising too high. However, they managed to scavenge some ancient Greek and Roman statues, jewels, and other valuables from the bottom of the underwater cave floor. They offer to sell some of it to you.;;;;;;;;;;;x
-amalfi.79.a;I have no interest in such trinkets.;ffff;;;;;;;;;;;;x
-amalfi.79.b;I'll be glad to buy it!;ffff;;;;;;;;;;;;x
-amalfi.79.c;Let me negotiate a better price, first.;ffff;;;;;;;;;;;;x
-amalfi.79.d;I'm a [Root.GetTitle], I'll just take it from them!;;;;;;;;;;;x
-amalfi.80.desc;A prominent Orthodox monk from Mount Athos is passing through Amalfi. Long ago, Benedictine monks from Amalfi established a monastery at Athos known as the Amalfion, where dialogue between different Christian traditions thrives despite tensions between the Western and Eastern churches. Perhaps we should entertain this esteemed guest in honor of this bond.;;;;;;;;;;;x
-amalfi.80.a;Invite him to a feast, hosted by us.;ffff;;;;;;;;;;;;x
-amalfi.80.b;No need, he is not that important.;ffff;;;;;;;;;;;;x
-amalfi.81.desc;For many years, the monastery of Amalfion has served not only as an important place of worship for those who follow the Catholic Church in Greece and surrounding region. You are considering sending some supplies and gifts to Amalfion as a sign of your support for this great monastery on Mount Athos.;;;;;;;;;;;x
-amalfi.81.a;Send a small token gift.;ffff;;;;;;;;;;;;x
-amalfi.81.b;Send a great gift.;ffff;;;;;;;;;;;;x
-amalfi.81.c;I've changed my mind - don't send anything.;ffff;;;;;;;;;;;;x
-amalfi.82.desc;A Catholic monk from Mount Athos has arrived at my court and offers his services. He has strong ties with Amalfion, a Latin monastery that has been at Athos for many years. Amalfion has served as an important site for dialogue between the Western and Eastern churches for many years. His connections with the Eastern Church and experience could help us significantly.;;;;;;;;;;;x
-amalfi.82.a;Let us hope so!;ffff;;;;;;;;;;;;x
-amalfi.83.desc;For dinner, I will host some important visitors from afar, and have decided to offer them the best of Amalfian cuisine. My cooks are able to make a number of delicious dishes, so what shall be the star of tonight's banquet?;;;;;;;;;;;x
-amalfi.83.a;Squid sauteed with olive oil and arugula;ffff;;;;;;;;;;;;x
-amalfi.83.b;Peppered mussels served with fine Amalfi lemons;ffff;;;;;;;;;;;;x
-amalfi.83.c;Sea bass in salt crust with herbs;ffff;;;;;;;;;;;;x
-amalfi.83.d;Eggplant topped with anchovy and spices;ffff;;;;;;;;;;;;x
-amalfi.84.desc;Literary and artistic figures have been attracted to the town of Ravello along the Amalfi Coast for many centuries, for it is quite a sight to behold, with lush gardens and serene beaches that contrast with the mountains that nestle around it. During a recent trip there, I met one such writer who was visiting Ravello for inspiration. By chance, I inspired him to write about the...;;;;;;;;;;;x
-amalfi.84.a;Deeds of my glorious dynasty;ffff;;;;;;;;;;;;x
-amalfi.84.b;Trade that flows through the region;ffff;;;;;;;;;;;;x
-amalfi.84.c;Long history of the area;ffff;;;;;;;;;;;;x
-amalfi.84.d;Struggles and triumphs of the local people;ffff;;;;;;;;;;;;x
-amalfi.85.desc;I have been hard at work for too long, and decide to spend a day of rest and see some of the local sights in Amalfi. Where should I go? There are many picturesque places to see along the Amalfi Coast.;;;;;;;;;;;x
-amalfi.85.a;Relax at a pebbled beach by a village;ffff;;;;;;;;;;;;x
-amalfi.85.b;Hike up the lovely Luttari Mountains to enjoy the view;ffff;;;;;;;;;;;;x
-amalfi.85.c;Stroll through one of the quaint, hilly seaside villages;ffff;;;;;;;;;;;;x
-amalfi.85.d;Explore one of the caves along the cliffsides;ffff;;;;;;;;;;;;x
-amalfi.86.desc;Gragnano, a hamlet near the larger settlement of Sorrento, has gained some renown in recent years for its pasta's quality, though it is still only well-known among locals. I recently had an opportunity to sample some while passing through.;;;;;;;;;;;x
-amalfi.86.a;It was tasty!;ffff;;;;;;;;;;;;x
-amalfi.87.desc;The little hamlet of Agerola, nestled between the Amalfi Coast and the mountains, has a flourishing local industry dedicated to a special variety rose, the white rosaria. I have considered buying some.;;;;;;;;;;;x
-amalfi.87.a;Why not, it would be a good purchase.;ffff;;;;;;;;;;;;x
-amalfi.87.b;On second thought, never mind.;ffff;;;;;;;;;;;;x
-amalfi.88.desc;You are on an excursion to the Amalfi Coast for business, and pass by the hamlet of Massa Lubrense, which is not too far from the Bay of Ieranto. It is from this bay that one can partially see the island of Capri and three smaller islands known as the Sirenusas. According to local legend, the Sirens of legend once dwelled there, tempting sailors and travelers like Odysseus.;;;;;;;;;;;x
-amalfi.88.a;Ha! As if! The sirens aren't real.;ffff;;;;;;;;;;;;x
-amalfi.88.b;How frightening - what if the sirens are still there?;ffff;;;;;;;;;;;;x
-amalfi.88.c;Interesting local lore, I suppose, but I have business to attend to.;ffff;;;;;;;;;;;;x
-amalfi.88.d;Sirens or not, why don't we go to the beach here?;ffff;;;;;;;;;;;;x
-amalfi.89.desc;Through our business contacts, we have recently made a lot of coin selling some products from Sorrento to important and powerful clients elsewhere. In particular, we sold a lot of Sorrento's...;;;;;;;;;;;x
-amalfi.89.a;Wine;ffff;;;;;;;;;;;;x
-amalfi.89.b;Olive oil;ffff;;;;;;;;;;;;x
-amalfi.89.c;Citrus fruit;ffff;;;;;;;;;;;;x
-amalfi.90.desc;I am on the island of Capri off the coast of the Sorrentine Peninsula, meeting with a local acquaintance, who takes me sightseeing. We encounter the Arco Naturale, a large natural arch that has stood on the island, and my acquaintance remarks at how beautiful and majestic the arch looks.;;;;;;;;;;;x
-amalfi.90.a;I agree!;ffff;;;;;;;;;;;;x
-amalfi.90.b;It's not that great.;ffff;;;;;;;;;;;;x
-amalfi.91.desc;I need to go to the island of Capri for business. Usually, as it is not too far from Amalfi, traveling there not a huge hassle. However, this time, I need to go to the village of Anacapri on the island. It is so isolated, it can only be reached by going through a long and steep stone stairway against the cliffs known as the Phoenician Steps. It is dangerous and consists of 921 stone steps.;;;;;;;;;;;x
-amalfi.91.a;I have no choice. Work is work!;ffff;;;;;;;;;;;;x
-amalfi.91.b;I will send a courtier in my stead.;ffff;;;;;;;;;;;;x
-amalfi.91.c;I can send one of my servants.;ffff;;;;;;;;;;;;x
-amalfi.91.d;Cancel the meeting.;ffff;;;;;;;;;;;;x
-amalfi.92.desc;The woodlands of the Sorrentine Peninsula are abundant in wood, and its lumber has been exported to outside sources for many years. We just concluded an advantageous deal with a foreign customer, to be the exclusive provider of lumber to their realm for a number of years.;;;;;;;;;;;x
-amalfi.92.a;A great deal!;ffff;;;;;;;;;;;;x
-amalfi.93.desc;A large shipment of Colatura di Alici has arrived at my residence. Similar to the Roman fish sauce garum, it is a traditional sauce from the village of Cetara along the Amalfi Coast, made by fermenting anchovies in brine. What should I do with it?;;;;;;;;;;;x
-amalfi.93.a;Isn't it obvious? Let's save it to use in our food!;ffff;;;;;;;;;;;;x
-amalfi.93.b;I would prefer to sell it and make a bit of profit.;ffff;;;;;;;;;;;;x
-amalfi.93.c;Donate it to the poor and local temples.;ffff;;;;;;;;;;;;x
-amalfi.94.desc;We've received a large shipment of Sorrentine wood from our business contacts. While it is common to export this lumber elsewhere, given the abundance of wood from the Sorrentine Peninsula, perhaps we can make use of this wood for our own purposes.;;;;;;;;;;;x
-amalfi.94.a;Use it for our navy and army's needs;ffff;;;;;;;;;;;;x
-amalfi.94.b;Use it for any construction projects we have;ffff;;;;;;;;;;;;x
-amalfi.94.c;Sell it to someone, we have more than enough here;ffff;;;;;;;;;;;;x
+amalfi.75.desc;I am passing through Vietri, a small town on the far end of the Amalfian Coast. This humble town is well known for the quality of its ceramics. I observe some of the vendors selling colorful pottery, and wonder if I should bring some home with me.;Je passe par Vietri, une petite ville au bout de la côte amalfitaine. Cette humble ville est bien connue pour la qualité de ses céramiques. J'observe certains des vendeurs qui vendent de la poterie colorée, et je me demande si je ne devrais pas en rapporter chez moi.;;;;;;;;;;;;x
+amalfi.75.a;On second thought, perhaps not.;En y repensant, peut-être pas.;;;;;;;;;;x;x
+amalfi.75.b;Sounds like a good idea!;Ça a l'air d'être une bonne idée !;;;;;;;;;;;;x
+amalfi.75.c;I would like to buy some to my spouse.;Je voudrais en acheter pour mon épouse.;;;;;;;;;;;;x
+amalfi.75.d;I would like to buy some for my courtier.;Je voudrais en acheter pour mon courtisan.;;;;;;;;;;;;x
+amalfi.76.desc;The small seaside town of Atrani, located not too far from Amalfi, sits beside a river called the Dragone river. While visiting there on business one day, the locals tell me how legend has it that a fire breathing dragon once lived in the area and would hide in the river, hence the origin of the name.;La petite ville balnéaire d'Atrani, située non loin d'Amalfi, est au bord d'une rivière appelée la Dragone. Lors d'une visite d'affaires, les habitants de la région me racontent comment la légende raconte qu'un dragon qui respirait le feu vivait autrefois dans la région et se cachait dans la rivière, d'où l'origine de son nom.;;;;;;;;;;;;x
+amalfi.76.a;A silly superstitious tale!;Un conte stupide et superstitieux !;;;;;;;;;;x;x
+amalfi.76.b;Fascinating lore. Tell me more.;Une histoire fascinante. Dites-m'en plus.;;;;;;;;;;;;x
+amalfi.76.c;Let's get back to business first.;Revenons d'abord aux affaires.;;;;;;;;;;;;x
+amalfi.77.desc;The Amalfian town of Scala is famous throughout the region for its chestnuts. Frequently, festivals celebrating the chestnuts are held there, and you had the good fortune to attend one recently.;La ville amalfitaine de Scala est célèbre dans toute la région pour ses châtaignes. Fréquemment, des festivals célébrant les châtaignes y sont organisés, et vous avez eu la chance d'y assister récemment.;;;;;;;;;;;;x
+amalfi.77.a;It was fun and I got to eat a lot.;C'était amusant et j'ai beaucoup mangé.;;;;;;;;;;x;x
+amalfi.77.b;I wanted to meet and understand the commoners.;Je voulais rencontrer et comprendre les roturiers.;;;;;;;;;;;;x
+amalfi.77.c;A terrible experience!;Une expérience horrible !;;;;;;;;;;;;x
+amalfi.78.desc;The Blue Grotto of Capri is one of the most famed landmarks of the Amalfi Coast, which gets its name from how the cave walls illuminate the water to glow with a bright, mesmerizing blue color. For generations, locals have avoided this massive cave said to house monsters, witches, and demons. Even ignoring that, it is a perilous place to explore, and many have drowned in it.;La grotte bleue de Capri est l'un des sites les plus célèbres de la côte amalfitaine, qui tire son nom de la façon dont les murs de la grotte illuminent l'eau pour briller avec une couleur bleue lumineuse et envoûtante. Depuis des générations, les gens d'ici évitent cette grotte massive qui abrite des monstres, des sorcières et des démons. Même en ignorant cela, c'est un endroit périlleux à explorer, et beaucoup s'y sont noyés.;;;;;;;;;;;;x
+amalfi.78.a;Indeed it is best to be careful around such places.;En effet, il est préférable d'être prudent autour de ces endroits.;;;;;;;;;;x;x
+amalfi.78.b;Ask the locals if they know more.;Demandez aux habitants s'ils en savent plus.;;;;;;;;;;;;x
+amalfi.79.desc;While discussing the Blue Grotto with the locals in Capri, you meet some local boys who recently tried venturing inside the cave, but had to escape once the tide was rising too high. However, they managed to scavenge some ancient Greek and Roman statues, jewels, and other valuables from the bottom of the underwater cave floor. They offer to sell some of it to you.;En discutant de la grotte bleue avec les habitants de Capri, vous rencontrez des garçons qui ont récemment essayé de s'aventurer à l'intérieur de la grotte, mais qui ont dû s'échapper une fois que la marée était trop haute. Cependant, ils ont réussi à récupérer d'anciennes statues grecques et romaines, des bijoux et d'autres objets de valeur du fond de la grotte sous-marine. Ils proposent de vous en vendre une partie.;;;;;;;;;;;;x
+amalfi.79.a;I have no interest in such trinkets.;Ces babioles ne m'intéressent pas.;;;;;;;;;;x;x
+amalfi.79.b;I'll be glad to buy it!;Je serai ravi de l'acheter !;;;;;;;;;;;;x
+amalfi.79.c;Let me negotiate a better price, first.;Laissez-moi d'abord négocier un meilleur prix.;;;;;;;;;;;;x
+amalfi.79.d;I'm a [Root.GetTitle], I'll just take it from them!;Je suis un [Root.GetTitle], je vais juste le leur prendre !;;;;;;;;;;;;x
+amalfi.80.desc;A prominent Orthodox monk from Mount Athos is passing through Amalfi. Long ago, Benedictine monks from Amalfi established a monastery at Athos known as the Amalfion, where dialogue between different Christian traditions thrives despite tensions between the Western and Eastern churches. Perhaps we should entertain this esteemed guest in honor of this bond.;Un éminent moine orthodoxe du Mont Athos passe par Amalfi. Il y a longtemps, les moines bénédictins d'Amalfi ont établi un monastère à Athos, connu sous le nom d'Amalfion, où le dialogue entre les différentes traditions chrétiennes se développe malgré les tensions entre les églises occidentales et orientales. Peut-être devrions-nous recevoir cet invité estimé en l'honneur de ce lien.;;;;;;;;;;x;x
+amalfi.80.a;Invite him to a feast, hosted by us.;Invitons-le à un festin, organisé par nous.;;;;;;;;;;x;x
+amalfi.80.b;No need, he is not that important.;Pas besoin, il n'est pas si important.;;;;;;;;;;;;x
+amalfi.81.desc;For many years, the monastery of Amalfion has served not only as an important place of worship for those who follow the Catholic Church in Greece and surrounding region. You are considering sending some supplies and gifts to Amalfion as a sign of your support for this great monastery on Mount Athos.;Pendant de nombreuses années, le monastère d'Amalfion n'a pas seulement servi de lieu de culte important pour ceux qui suivent l'Eglise catholique en Grèce mais aussi dans la région environnante. Vous envisagez d'envoyer des fournitures et des cadeaux à Amalfion en signe de votre soutien à ce grand monastère du mont Athos.;;;;;;;;;;;;x
+amalfi.81.a;Send a small token gift.;Envoyez un petit cadeau symbolique.;;;;;;;;;;x;x
+amalfi.81.b;Send a great gift.;Envoyez un super cadeau.;;;;;;;;;;;;x
+amalfi.81.c;I've changed my mind - don't send anything.;J'ai changé d'avis - n'envoyez rien.;;;;;;;;;;;;x
+amalfi.82.desc;A Catholic monk from Mount Athos has arrived at my court and offers his services. He has strong ties with Amalfion, a Latin monastery that has been at Athos for many years. Amalfion has served as an important site for dialogue between the Western and Eastern churches for many years. His connections with the Eastern Church and experience could help us significantly.;Un moine catholique du Mont Athos est arrivé à ma cour et m'offre ses services. Il a des liens étroits avec Amalfion, un monastère latin qui se trouve à Athos depuis de nombreuses années. Depuis de nombreuses années, Amalfion est un lieu important de dialogue entre les Eglises occidentales et orientales. Ses liens avec l'Église orientale et son expérience pourraient nous aider considérablement.;;;;;;;;;;;;x
+amalfi.82.a;Let us hope so!;Espérons-le !;;;;;;;;;;x;x
+amalfi.83.desc;For dinner, I will host some important visitors from afar, and have decided to offer them the best of Amalfian cuisine. My cooks are able to make a number of delicious dishes, so what shall be the star of tonight's banquet?;Pour le dîner, j'accueillerai d'importants visiteurs de loin, et j'ai décidé de leur offrir le meilleur de la cuisine amalfitaine. Mes cuisiniers sont capables de faire un certain nombre de plats délicieux, alors quelle sera la star du banquet de ce soir ?;;;;;;;;;;;;x
+amalfi.83.a;Squid sauteed with olive oil and arugula;Des calmars sautés à l'huile d'olive avec de la roquette;;;;;;;;;;x;x
+amalfi.83.b;Peppered mussels served with fine Amalfi lemons;Des moules poivrées servies avec des citrons amalfitains de qualité.;;;;;;;;;;;;x
+amalfi.83.c;Sea bass in salt crust with herbs;Du bar en croûte de sel aux herbes;;;;;;;;;;;;x
+amalfi.83.d;Eggplant topped with anchovy and spices;Des aubergines garnies d'anchois et d'épices;;;;;;;;;;;;x
+amalfi.84.desc;Literary and artistic figures have been attracted to the town of Ravello along the Amalfi Coast for many centuries, for it is quite a sight to behold, with lush gardens and serene beaches that contrast with the mountains that nestle around it. During a recent trip there, I met one such writer who was visiting Ravello for inspiration. By chance, I inspired him to write about the...;Depuis des siècles, des personnages littéraires et artistiques sont attirés par la ville de Ravello le long de la côte amalfitaine, car c'est tout un spectacle à voir, avec ses jardins luxuriants et ses plages sereines qui contrastent avec les montagnes qui s'y trouvent. Lors d'un récent voyage là-bas, j'ai rencontré un de ces écrivains qui visitait Ravello pour trouver de l'inspiration. Par hasard, je l'ai inspiré à écrire sur....;;;;;;;;;;;;x
+amalfi.84.a;Deeds of my glorious dynasty;Les actes de ma glorieuse dynastie;;;;;;;;;;x;x
+amalfi.84.b;Trade that flows through the region;Les échanges commerciaux qui traversent la région;;;;;;;;;;;;x
+amalfi.84.c;Long history of the area;La longue histoire de la région;;;;;;;;;;;;x
+amalfi.84.d;Struggles and triumphs of the local people;Les luttes et les triomphes de la population locale;;;;;;;;;;;;x
+amalfi.85.desc;I have been hard at work for too long, and decide to spend a day of rest and see some of the local sights in Amalfi. Where should I go? There are many picturesque places to see along the Amalfi Coast.;J'ai travaillé durement pendant trop longtemps, et j'ai décidé de passer une journée de repos et de voir certains des sites touristiques locaux à Amalfi. Où dois-je aller ? Il y a beaucoup d'endroits pittoresques à voir le long de la côte amalfitaine.;;;;;;;;;;;;x
+amalfi.85.a;Relax at a pebbled beach by a village;Détendez-vous sur une plage de galets près d'un village;;;;;;;;;;x;x
+amalfi.85.b;Hike up the lovely Luttari Mountains to enjoy the view;Montez les magnifiques montagnes de Luttari pour profiter de la vue.;;;;;;;;;;;;x
+amalfi.85.c;Stroll through one of the quaint, hilly seaside villages;Promenez-vous dans l'un des villages pittoresques et vallonnés au bord de la mer.;;;;;;;;;;;;x
+amalfi.85.d;Explore one of the caves along the cliffsides;Explorez l'une des grottes le long des falaises.;;;;;;;;;;;;x
+amalfi.86.desc;Gragnano, a hamlet near the larger settlement of Sorrento, has gained some renown in recent years for its pasta's quality, though it is still only well-known among locals. I recently had an opportunity to sample some while passing through.;Gragnano, un hameau situé près de l'agglomération de Sorrente, a acquis une certaine renommée ces dernières années pour la qualité de ses pâtes, bien qu'elle ne soit encore connue que des habitants de la région. J'ai récemment eu l'occasion d'en goûter en passant.;;;;;;;;;;;;x
+amalfi.86.a;It was tasty!;C'était délicieux !;;;;;;;;;;x;x
+amalfi.87.desc;The little hamlet of Agerola, nestled between the Amalfi Coast and the mountains, has a flourishing local industry dedicated to a special variety rose, the white rosaria. I have considered buying some.;Le petit hameau d'Agerola, niché entre la côte amalfitaine et les montagnes, possède une industrie locale florissante dédiée à une variété spéciale de rose, la roseraie blanche. J'ai pensé à en acheter.;;;;;;;;;;;;x
+amalfi.87.a;Why not, it would be a good purchase.;Pourquoi pas, ce serait un bon achat.;;;;;;;;;;x;x
+amalfi.87.b;On second thought, never mind.;Tout bien réfléchi, peu importe.;;;;;;;;;;;;x
+amalfi.88.desc;You are on an excursion to the Amalfi Coast for business, and pass by the hamlet of Massa Lubrense, which is not too far from the Bay of Ieranto. It is from this bay that one can partially see the island of Capri and three smaller islands known as the Sirenusas. According to local legend, the Sirens of legend once dwelled there, tempting sailors and travelers like Odysseus.;Vous êtes en excursion sur la côte amalfitaine pour affaires, et passez par le hameau de Massa Lubrense, qui n'est pas trop loin de la baie d'Ieranto. C'est de cette baie que l'on peut partiellement voir l'île de Capri et trois îles plus petites connues sous le nom de Sirenusas. Selon la légende locale, les sirènes de la légende y ont jadis habité, tentant les marins et les voyageurs comme Odyssée.;;;;;;;;;;;;x
+amalfi.88.a;Ha! As if! The sirens aren't real.;Ha ! Comme si ! Les sirènes ne sont pas réelles.;;;;;;;;;;x;x
+amalfi.88.b;How frightening - what if the sirens are still there?;C'est effrayant - et si les sirènes sont toujours là ?;;;;;;;;;;;;x
+amalfi.88.c;Interesting local lore, I suppose, but I have business to attend to.;C'est une tradition locale intéressante, je suppose, mais j'ai des affaires à régler.;;;;;;;;;;;;x
+amalfi.88.d;Sirens or not, why don't we go to the beach here?;Sirènes ou pas, pourquoi n'irions-nous pas à la plage ici ?;;;;;;;;;;;;x
+amalfi.89.desc;Through our business contacts, we have recently made a lot of coin selling some products from Sorrento to important and powerful clients elsewhere. In particular, we sold a lot of Sorrento's...;Grâce à nos contacts d'affaires, nous avons récemment fait beaucoup d'argent en vendant certains produits de Sorrente à des clients importants et puissants ailleurs. En particulier, nous avons vendu beaucoup de....;;;;;;;;;;;;x
+amalfi.89.a;Wine;Vin;;;;;;;;;;x;x
+amalfi.89.b;Olive oil;Huile d'olive;;;;;;;;;;;;x
+amalfi.89.c;Citrus fruit;Agrumes;;;;;;;;;;;;x
+amalfi.90.desc;I am on the island of Capri off the coast of the Sorrentine Peninsula, meeting with a local acquaintance, who takes me sightseeing. We encounter the Arco Naturale, a large natural arch that has stood on the island, and my acquaintance remarks at how beautiful and majestic the arch looks.;Je suis sur l'île de Capri au large de la côte de la péninsule sorrentine, avec une connaissance locale, qui m'emmène faire du tourisme. Nous rencontrons l'Arco Naturale, une grande arche naturelle qui s'est dressée sur l'île, et ma connaissance remarque à quel point l'arche est belle et majestueuse.;;;;;;;;;;;;x
+amalfi.90.a;I agree!;Je suis d'accord !;;;;;;;;;;x;x
+amalfi.90.b;It's not that great.;Ce n'est pas si génial.;;;;;;;;;;;;
+amalfi.91.desc;I need to go to the island of Capri for business. Usually, as it is not too far from Amalfi, traveling there not a huge hassle. However, this time, I need to go to the village of Anacapri on the island. It is so isolated, it can only be reached by going through a long and steep stone stairway against the cliffs known as the Phoenician Steps. It is dangerous and consists of 921 stone steps.;Je dois aller sur l'île de Capri pour les affaires. Habituellement, comme il n'est pas trop loin d'Amalfi, il n'y a pas beaucoup de soucis pour s'y rendre. Cependant, cette fois-ci, je dois aller au village d'Anacapri sur l'île. Elle est si isolée qu'on ne peut y accéder qu'en empruntant un long escalier de pierre escarpé contre les falaises connues sous le nom d'escalier phénicien. Il est dangereux et comprend 921 marches en pierre.;;;;;;;;;;;;x
+amalfi.91.a;I have no choice. Work is work!;Je n'ai pas le choix. Le travail est le travail !;;;;;;;;;;x;x
+amalfi.91.b;I will send a courtier in my stead.;Je vais envoyer un courtisan à ma place.;;;;;;;;;;;;x
+amalfi.91.c;I can send one of my servants.;Je peux envoyer un de mes serviteurs.;;;;;;;;;;;;x
+amalfi.91.d;Cancel the meeting.;Annulez la réunion.;;;;;;;;;;;;x
+amalfi.92.desc;The woodlands of the Sorrentine Peninsula are abundant in wood, and its lumber has been exported to outside sources for many years. We just concluded an advantageous deal with a foreign customer, to be the exclusive provider of lumber to their realm for a number of years.;The woodlands of the Sorrentine Peninsula are abundant in wood, and its lumber has been exported to outside sources for many years. We just concluded an advantageous deal with a foreign customer, to be the exclusive provider of lumber to their realm for a number of years.;;;;;;;;;;;;x
+amalfi.92.a;A great deal!;Une bonne affaire !;;;;;;;;;;x;x
+amalfi.93.desc;A large shipment of Colatura di Alici has arrived at my residence. Similar to the Roman fish sauce garum, it is a traditional sauce from the village of Cetara along the Amalfi Coast, made by fermenting anchovies in brine. What should I do with it?;Une grosse cargaison de Colatura di Alici est arrivée chez moi. Semblable à la sauce de poisson romaine garum, c'est une sauce traditionnelle du village de Cetara le long de la côte amalfitaine, faite par fermentation d'anchois en saumure. Qu'est-ce que je dois en faire ?;;;;;;;;;;;;x
+amalfi.93.a;Isn't it obvious? Let's save it to use in our food!;Ce n'est pas évident ? Gardons-le pour l'utiliser dans notre alimentation !;;;;;;;;;;x;x
+amalfi.93.b;I would prefer to sell it and make a bit of profit.;Je préférerais le vendre et faire un peu de profit.;;;;;;;;;;;;x
+amalfi.93.c;Donate it to the poor and local temples.;Faites-en don aux pauvres et aux temples locaux.;;;;;;;;;;;;x
+amalfi.94.desc;We've received a large shipment of Sorrentine wood from our business contacts. While it is common to export this lumber elsewhere, given the abundance of wood from the Sorrentine Peninsula, perhaps we can make use of this wood for our own purposes.;Nous avons reçu une importante cargaison de bois de Sorrentine de nos contacts commerciaux. Bien qu'il soit courant d'exporter ce bois d'œuvre ailleurs, étant donné l'abondance du bois de la péninsule sorrentine, nous pouvons peut-être l'utiliser à nos propres fins.;;;;;;;;;;;;x
+amalfi.94.a;Use it for our navy and army's needs;Utilisons-le pour les besoins de la marine et de l'armée.;;;;;;;;;;x;x
+amalfi.94.b;Use it for any construction projects we have;Utilisez-le pour tous les projets de construction que nous avons;;;;;;;;;;;;x
+amalfi.94.c;Sell it to someone, we have more than enough here;Vendez-le à quelqu'un, nous en avons suffisamment ici.;;;;;;;;;;;;x
 amalfi.95.desc;;;;;;;;;;;;x
 amalfi.95.a;ffff;ffff;;;;;;;;;;;;x
 amalfi.96.desc;;;;;;;;;;;;x
