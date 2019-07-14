@@ -80,36 +80,36 @@ character_event = {
 	
 	#ai = no
 	#min_age = 16
-	only_rulers = yes
+	#only_rulers = yes
 	#capable_only = yes
 	#prisoner = no
-	is_patrician = yes
+	#is_patrician = yes
 	
-	trigger = {
-		FROMFROM = {
-			ai = no
-		}
-		OR = {
-			has_landed_title = c_amalfi
-			has_landed_title = d_amalfi
-			has_landed_title = k_amalfi	
-			any_liege = {
-				OR = {
-					has_landed_title = c_amalfi
-					has_landed_title = d_amalfi
-					has_landed_title = k_amalfi
-				}
-			}
-		}
-		NOR = {
-			has_character_modifier = VIET_amalfi_chestnut_focus
-			has_character_modifier = VIET_amalfi_ceramics_focus
-			has_character_modifier = VIET_amalfi_silk_focus
-			has_character_modifier = VIET_amalfi_fish_focus
-			has_character_modifier = VIET_amalfi_coral_focus
-			has_character_modifier = VIET_amalfi_lemon_focus
-		}
-	}
+	#trigger = {
+	#	FROMFROM = {
+	#		ai = no
+	#	}
+	#	OR = {
+	#		has_landed_title = c_amalfi
+	#		has_landed_title = d_amalfi
+	#		has_landed_title = k_amalfi	
+	#		any_liege = {
+	#			OR = {
+	#				has_landed_title = c_amalfi
+	#				has_landed_title = d_amalfi
+	#				has_landed_title = k_amalfi
+	#			}
+	#		}
+	#	}
+	#	NOR = {
+	#		has_character_modifier = VIET_amalfi_chestnut_focus
+	#		has_character_modifier = VIET_amalfi_ceramics_focus
+	#		has_character_modifier = VIET_amalfi_silk_focus
+	#		has_character_modifier = VIET_amalfi_fish_focus
+	#		has_character_modifier = VIET_amalfi_coral_focus
+	#		has_character_modifier = VIET_amalfi_lemon_focus
+	#	}
+	#}
 	
 	option = { # Chestnut farms of Scala
 		name = amalfi.1.a

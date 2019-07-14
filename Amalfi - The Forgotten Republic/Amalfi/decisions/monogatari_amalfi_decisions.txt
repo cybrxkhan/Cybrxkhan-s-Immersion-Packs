@@ -163,10 +163,10 @@ decisions = {
 			prisoner = no
 			NOT = { trait = incapable }
 			NOT = { is_inaccessible_trigger = yes }
-			wealth = 200
+			wealth = 100
 		}
 		effect = {
-			wealth = -200
+			wealth = -100
 			#set_global_flag = VIET_siren_temple_restored
 			hidden_tooltip = {
 				long_character_event = { id = amalfi.21 }
@@ -212,11 +212,15 @@ decisions = {
 			is_playable = yes
 			has_global_flag = VIET_siren_temple_restored
 			OR = {
-				any_demesne_province = {
-					has_province_modifier = VIET_temple_of_sirens
-				}
-				any_realm_province = {
-					has_province_modifier = VIET_temple_of_sirens
+				#any_demesne_province = {
+				#	has_province_modifier = VIET_temple_of_sirens
+				#}
+				#any_realm_province = {
+				#	has_province_modifier = VIET_temple_of_sirens
+				#}
+				has_landed_title = c_amalfi
+				any_liege = {
+					has_landed_title = c_amalfi
 				}
 			}
 			religion_group = pagan_group
@@ -226,9 +230,11 @@ decisions = {
 			prisoner = no
 			NOT = { trait = incapable }
 			NOT = { is_inaccessible_trigger = yes }
-			custom_tooltip = { text = VIET_recent_siren_temple_visit }
-			hidden_tooltip = {
-				NOT = { has_character_modifier = VIET_siren_temple_timer }
+			custom_tooltip = { 
+				text = VIET_recent_siren_temple_visit 
+				hidden_tooltip = {
+					NOT = { has_character_modifier = VIET_siren_temple_timer }
+				}
 			}
 			wealth = 20
 		}
