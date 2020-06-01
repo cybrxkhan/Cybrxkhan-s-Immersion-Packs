@@ -1,0 +1,112 @@
+### Harranian Generic Books ###
+
+VIET_dunhuang_han_manuscript = {
+	monthly_character_prestige = 0.02
+	monthly_character_piety = 0.02
+	diplomacy = 1
+	learning = 1
+	quality = 2
+	flags = { book dunhuang }
+	stacking = no
+	picture = "GFX_VIET_dunhuang_han_manuscript"
+	slot = library
+}
+VIET_dunhuang_khitan_manuscript = {
+	monthly_character_prestige = 0.02
+	monthly_character_piety = 0.02
+	diplomacy = 1
+	learning = 1
+	quality = 2
+	flags = { book dunhuang }
+	stacking = no
+	picture = "GFX_VIET_dunhuang_khitan_manuscript"
+	slot = library
+}
+VIET_dunhuang_sogdian_manuscript = {
+	monthly_character_prestige = 0.02
+	monthly_character_piety = 0.02
+	diplomacy = 1
+	learning = 1
+	quality = 2
+	flags = { book dunhuang }
+	stacking = no
+	picture = "GFX_VIET_dunhuang_sogdian_manuscript"
+	slot = library
+}
+VIET_dunhuang_tocharian_manuscript = {
+	monthly_character_prestige = 0.02
+	monthly_character_piety = 0.02
+	diplomacy = 1
+	learning = 1
+	quality = 2
+	flags = { book dunhuang }
+	stacking = no
+	picture = "GFX_VIET_dunhuang_tocharian_manuscript"
+	slot = library
+}
+VIET_dunhuang_khotanese_manuscript = {
+	monthly_character_prestige = 0.02
+	monthly_character_piety = 0.02
+	diplomacy = 1
+	learning = 1
+	quality = 2
+	flags = { book dunhuang }
+	stacking = no
+	picture = "GFX_VIET_dunhuang_khotanese_manuscript"
+	slot = library
+}
+VIET_dunhuang_persian_manuscript = {
+	monthly_character_prestige = 0.02
+	monthly_character_piety = 0.02
+	diplomacy = 1
+	learning = 1
+	quality = 2
+	flags = { book dunhuang }
+	stacking = no
+	picture = "GFX_VIET_dunhuang_persian_manuscript"
+	slot = library
+}
+VIET_dunhuang_tibetan_manuscript = {
+	monthly_character_prestige = 0.02
+	monthly_character_piety = 0.02
+	diplomacy = 1
+	learning = 1
+	quality = 2
+	flags = { book dunhuang }
+	stacking = no
+	picture = "GFX_VIET_dunhuang_tibetan_manuscript"
+	slot = library
+}
+VIET_dunhuang_tangut_manuscript = {
+	monthly_character_prestige = 0.02
+	monthly_character_piety = 0.02
+	diplomacy = 1
+	learning = 1
+	quality = 2
+	flags = { book dunhuang }
+	stacking = no
+	picture = "GFX_VIET_dunhuang_tangut_manuscript"
+	slot = library
+}
+VIET_dunhuang_mongol_manuscript = {
+	monthly_character_prestige = 0.02
+	monthly_character_piety = 0.02
+	diplomacy = 1
+	learning = 1
+	quality = 2
+	flags = { book dunhuang }
+	stacking = no
+	picture = "GFX_VIET_dunhuang_mongol_manuscript"
+	slot = library
+}
+VIET_dunhuang_turkic_manuscript = {
+	monthly_character_prestige = 0.02
+	monthly_character_piety = 0.02
+	diplomacy = 1
+	learning = 1
+	quality = 2
+	flags = { book dunhuang }
+	stacking = no
+	picture = "GFX_VIET_dunhuang_turkic_manuscript"
+	slot = library
+}

@@ -1,0 +1,45 @@
+altaic = {
+	alternate_start = { NOT = { has_alternate_start_parameter = { key = special_culture value = animal_world } } }
+	graphical_cultures = { turkishgfx mongolgfx muslimgfx }
+
+	mohe = {
+		graphical_cultures = { mongolgfx chinesegfx muslimgfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		alternate_start = {
+			OR = {
+				year < 900
+				has_alternate_start_parameter = { key = culture value = full_random }
+			}
+		}
+		dynasty_name_first = yes
+
+		horde = yes
+		
+		used_for_random = no
+		
+		color = { 116 104 111 }
+
+		male_names = {			
+			Adoutuofu Agulang Agunai Ayuxian Baohuoli Biyu Duozuo Fu Gao Hafu Huli Jinhang Kanfu Kenpu Lin Menyi Nishuliji Qiqi Shiyimeng Tou Tudiji Tumen Wen Wenxiu Wolu Wu Wugai Wulu Wushikemeng Wusukemung Yanpu Zhimen Zhongxiang Ziluo Zuorong
+		}
+		female_names = {			
+			Chijin Dahumo Diben Gongjing Gongzhu Hobang Jie Mingyi Nalan Nanga Pusan Shuhu Si Tangkuo Tushan Weishun Wendihen Wugulun Yijian Zhaosu Zhenxiao Zhusiban
+
+		}
+		
+		
+		dynasty_title_names = no
+		
+		from_dynasty_prefix = "of "
+		#founder_named_dynasties = yes
+		
+		allow_looting = yes
+		
+		modifier = default_culture_modifier
+		nomadic_in_alt_start = yes
+	}
+}
+
+
+

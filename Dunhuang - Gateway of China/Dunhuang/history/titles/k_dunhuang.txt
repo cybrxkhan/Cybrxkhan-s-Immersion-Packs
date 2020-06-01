@@ -1,0 +1,94 @@
+3.1.1 = {
+	name = KINGDOM_LIANG
+	adjective = KINGDOM_LIANG_ADJ
+}
+# FORMER LIANG
+# Nominally vassals to various Chinese regimes
+# Most never officially claimed title of King, though they did use "King" here and there
+# Depicted as Kings here for game purposes
+301.1.1 = {
+	holder = 100015913 # Zhang Gui, appointed governor by the Jin
+}
+314.1.1 = {
+	holder = 100015914 # Zhang Shi, declared Liang semi-independent vassal of Jin with collapse of the Jin
+}
+320.1.1 = {
+	holder = 100015915 # Zhang Mao, first Liang prince to maintain de facto independence from Jin
+}
+324.1.1 = {
+	holder = 100015916 # Zhang Jun
+}
+346.1.1 = {
+	holder = 100015920 # Zhang Chonghua
+}
+353.1.1 = {
+	holder = 100015923 # Zhang Yaoliang - only ruled for 3 months, dates unknown
+}
+353.3.1 = {
+	holder = 100015925 # Zhang Zuo - only Former Liang ruler to declare himself Emperor
+}
+355.1.1 = {
+	holder = 100015924 # Zhang Xuanjing
+}
+364.1.1 = {
+	holder = 100015929 # Zhang Tianxi
+}
+376.1.1 = {
+	holder = 0 # Surrendered to the Former Qin Dynasty, who were Di "barbarians"
+}
+386.1.1 = {
+	holder = 100015932 # Zhang Dayu attempted to claim the title of Governor of Liang in 386 but was killed by Lü Guang of the Later Liang in 387
+}
+
+
+# LATER LIANG
+# Technically Later Liang lasts until 403, but Northern Liang declared independence in 397; should be separate from Western Liang
+386.12.1 = {
+	holder = 100015934 # Lü Guang, founder - technically ruled before then, but 386 was when he declared himself independent
+}
+
+# WESTERN LIANG
+# Western Liang declared independence in 400
+400.1.1 = {
+	holder = 100015975 # Li Gao, ancestor of the Tang Dynasty
+}
+417.1.1 = {
+	holder = 100015982 # Li Xin
+}
+420.1.1 = {
+	holder = 100015984 # Li Xun
+}
+
+# NORTHERN LIANG
+# Surrendered to Northern Wei in 439, but remnants survived until 460
+421.1.1 = {
+	holder = 100015957 # Juqu Mengxun - should be ruler from 401 technically
+}
+433.1.1 = {
+	holder = 100015967 # Juqu Mujian - surrendered to Northern Wei in 439
+}
+439.1.1 = {
+	holder = 100015970 # Juqu Wuhui - Northern Liang holdout
+}
+444.1.1 = {
+	holder = 100015971 # Juqu Anzhou - Northern Liang holdout
+}
+460.1.1 = {
+	holder = 0 # Conquered and massacred by Rouruan
+}
+
+#LIANG
+#One of several states at the fall of the Sui Dynasty
+
+617.1.1 = {
+	holder = 100016090 # Li Gui of Liang, a major warlord during the transition from Sui to Tang
+}
+
+619.6.29 = {
+	holder = 0
+}
+
+1000.1.1 = {
+	reset_name = yes
+	reset_adjective = yes
+}

@@ -1,0 +1,540 @@
+# Dunhuang music - more likely to play for various Asian cultures, or those whose capitals have such cultures or in the Tarim Basin
+#
+# Tracks and sources:
+#
+# http://sierrachest.com/index.php?a=games&id=88&title=emperor&fld=music
+# Himalayan Echoes
+# Journey of Gu Qin
+# Buddha's Dream
+# Lonely Er Hu
+# San Xuan
+# Dance of the Great Wall
+#
+# https://soundcloud.com/sei_peridot/wuxia2_guzheng_pipa
+# https://soundcloud.com/guzhengman/raindrops-dancing-on-the-banana-leaves 
+# https://soundcloud.com/guzhengman/waves-scouring-the-sand
+# https://soundcloud.com/guzhengman/20131115-1
+# https://archive.org/details/TaiyoGoesToCampinYourDreams-UzumeTaiko
+#
+# Cao Cao trailer for Total War Three Kingdoms - from official website
+# Liu Bei trailer for Total War Three Kingdoms - from official website
+#
+ 
+song = {
+	name = "himalayan_echoes.ogg"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			OR = {
+				culture_group = chinese_group
+				culture_group = serindian
+				culture_group = tibetan_group
+				culture = khitan
+				culture = jurchen
+				culture = mohe
+				culture = tuyuhun
+				culture = xiongnu
+				culture = di
+				capital_scope = {
+					OR = {
+						culture_group = chinese_group
+						culture_group = serindian
+						culture_group = tibetan_group
+						culture = khitan
+						culture = jurchen
+						culture = mohe
+						culture = tuyuhun
+						culture = xiongnu
+						culture = di
+						region = world_steppe_east
+						region = world_steppe_tarim
+						region = world_himalayas
+					}
+				}
+			}
+		}
+	}		
+} 
+song = {
+	name = "journey_of_the_gu_qin.ogg"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			OR = {
+				culture_group = chinese_group
+				culture_group = serindian
+				culture_group = tibetan_group
+				culture = khitan
+				culture = jurchen
+				culture = mohe
+				culture = tuyuhun
+				culture = xiongnu
+				culture = di
+				capital_scope = {
+					OR = {
+						culture_group = chinese_group
+						culture_group = serindian
+						culture_group = tibetan_group
+						culture = khitan
+						culture = jurchen
+						culture = mohe
+						culture = tuyuhun
+						culture = xiongnu
+						culture = di
+						region = world_steppe_east
+						region = world_steppe_tarim
+						region = world_himalayas
+					}
+				}
+			}
+		}
+	}		
+} 
+song = {
+	name = "buddhas_dream.ogg"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			OR = {
+				culture_group = chinese_group
+				culture_group = serindian
+				culture_group = tibetan_group
+				culture = khitan
+				culture = jurchen
+				culture = mohe
+				culture = tuyuhun
+				culture = xiongnu
+				culture = di
+				capital_scope = {
+					OR = {
+						culture_group = chinese_group
+						culture_group = serindian
+						culture_group = tibetan_group
+						culture = khitan
+						culture = jurchen
+						culture = mohe
+						culture = tuyuhun
+						culture = xiongnu
+						culture = di
+						region = world_steppe_east
+						region = world_steppe_tarim
+						region = world_himalayas
+					}
+				}
+			}
+		}
+	}		
+} 
+song = {
+	name = "loney_er_hu.ogg"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			OR = {
+				culture_group = chinese_group
+				culture_group = serindian
+				culture_group = tibetan_group
+				culture = khitan
+				culture = jurchen
+				culture = mohe
+				culture = tuyuhun
+				culture = xiongnu
+				culture = di
+				capital_scope = {
+					OR = {
+						culture_group = chinese_group
+						culture_group = serindian
+						culture_group = tibetan_group
+						culture = khitan
+						culture = jurchen
+						culture = mohe
+						culture = tuyuhun
+						culture = xiongnu
+						culture = di
+						region = world_steppe_east
+						region = world_steppe_tarim
+						region = world_himalayas
+					}
+				}
+			}
+		}
+	}		
+} 
+song = {
+	name = "san_xuan.ogg"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			OR = {
+				culture_group = chinese_group
+				culture_group = serindian
+				culture_group = tibetan_group
+				culture = khitan
+				culture = jurchen
+				culture = mohe
+				culture = tuyuhun
+				culture = xiongnu
+				culture = di
+				capital_scope = {
+					OR = {
+						culture_group = chinese_group
+						culture_group = serindian
+						culture_group = tibetan_group
+						culture = khitan
+						culture = jurchen
+						culture = mohe
+						culture = tuyuhun
+						culture = xiongnu
+						culture = di
+						region = world_steppe_east
+						region = world_steppe_tarim
+						region = world_himalayas
+					}
+				}
+			}
+		}
+	}		
+} 
+song = {
+	name = "dance_of_the_great_wall.ogg"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			OR = {
+				culture_group = chinese_group
+				culture_group = serindian
+				culture_group = tibetan_group
+				culture = khitan
+				culture = jurchen
+				culture = mohe
+				culture = tuyuhun
+				culture = xiongnu
+				culture = di
+				capital_scope = {
+					OR = {
+						culture_group = chinese_group
+						culture_group = serindian
+						culture_group = tibetan_group
+						culture = khitan
+						culture = jurchen
+						culture = mohe
+						culture = tuyuhun
+						culture = xiongnu
+						culture = di
+						region = world_steppe_east
+						region = world_steppe_tarim
+						region = world_himalayas
+					}
+				}
+			}
+		}
+	}		
+} 
+song = {
+	name = "himalayan_echoes.ogg"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			OR = {
+				culture_group = chinese_group
+				culture_group = serindian
+				culture_group = tibetan_group
+				culture = khitan
+				culture = jurchen
+				culture = mohe
+				culture = tuyuhun
+				culture = xiongnu
+				culture = di
+				capital_scope = {
+					OR = {
+						culture_group = chinese_group
+						culture_group = serindian
+						culture_group = tibetan_group
+						culture = khitan
+						culture = jurchen
+						culture = mohe
+						culture = tuyuhun
+						culture = xiongnu
+						culture = di
+						region = world_steppe_east
+						region = world_steppe_tarim
+						region = world_himalayas
+					}
+				}
+			}
+		}
+	}		
+} 
+song = {
+	name = "caizi_jiaren.ogg"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			OR = {
+				culture_group = chinese_group
+				culture_group = serindian
+				culture_group = tibetan_group
+				culture = khitan
+				culture = jurchen
+				culture = mohe
+				culture = tuyuhun
+				culture = xiongnu
+				culture = di
+				capital_scope = {
+					OR = {
+						culture_group = chinese_group
+						culture_group = serindian
+						culture_group = tibetan_group
+						culture = khitan
+						culture = jurchen
+						culture = mohe
+						culture = tuyuhun
+						culture = xiongnu
+						culture = di
+						region = world_steppe_east
+						region = world_steppe_tarim
+						region = world_himalayas
+					}
+				}
+			}
+		}
+	}		
+} 
+song = {
+	name = "raindrops_dancing_on_banana_leaves.ogg"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			OR = {
+				culture_group = chinese_group
+				culture_group = serindian
+				culture_group = tibetan_group
+				culture = khitan
+				culture = jurchen
+				culture = mohe
+				culture = tuyuhun
+				culture = xiongnu
+				culture = di
+				capital_scope = {
+					OR = {
+						culture_group = chinese_group
+						culture_group = serindian
+						culture_group = tibetan_group
+						culture = khitan
+						culture = jurchen
+						culture = mohe
+						culture = tuyuhun
+						culture = xiongnu
+						culture = di
+						region = world_steppe_east
+						region = world_steppe_tarim
+						region = world_himalayas
+					}
+				}
+			}
+		}
+	}		
+} 
+song = {
+	name = "waves_scouring_the_sand.ogg"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			OR = {
+				culture_group = chinese_group
+				culture_group = serindian
+				culture_group = tibetan_group
+				culture = khitan
+				culture = jurchen
+				culture = mohe
+				culture = tuyuhun
+				culture = xiongnu
+				culture = di
+				capital_scope = {
+					OR = {
+						culture_group = chinese_group
+						culture_group = serindian
+						culture_group = tibetan_group
+						culture = khitan
+						culture = jurchen
+						culture = mohe
+						culture = tuyuhun
+						culture = xiongnu
+						culture = di
+						region = world_steppe_east
+						region = world_steppe_tarim
+						region = world_himalayas
+					}
+				}
+			}
+		}
+	}		
+} 
+song = {
+	name = "autumn_moon_on_west_lake.ogg"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			OR = {
+				culture_group = chinese_group
+				culture_group = serindian
+				culture_group = tibetan_group
+				culture = khitan
+				culture = jurchen
+				culture = mohe
+				culture = tuyuhun
+				culture = xiongnu
+				culture = di
+				capital_scope = {
+					OR = {
+						culture_group = chinese_group
+						culture_group = serindian
+						culture_group = tibetan_group
+						culture = khitan
+						culture = jurchen
+						culture = mohe
+						culture = tuyuhun
+						culture = xiongnu
+						culture = di
+						region = world_steppe_east
+						region = world_steppe_tarim
+						region = world_himalayas
+					}
+				}
+			}
+		}
+	}		
+}
+song = {
+	name = "tuyuhun_camp.ogg"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			OR = {
+				culture_group = chinese_group
+				culture_group = serindian
+				culture_group = tibetan_group
+				culture = khitan
+				culture = jurchen
+				culture = mohe
+				culture = tuyuhun
+				culture = xiongnu
+				culture = di
+				capital_scope = {
+					OR = {
+						culture_group = chinese_group
+						culture_group = serindian
+						culture_group = tibetan_group
+						culture = khitan
+						culture = jurchen
+						culture = mohe
+						culture = tuyuhun
+						culture = xiongnu
+						culture = di
+						region = world_steppe_east
+						region = world_steppe_tarim
+						region = world_himalayas
+					}
+				}
+			}
+		}
+	}		
+}
+song = {
+	name = "cao_cao.ogg"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			OR = {
+				culture_group = chinese_group
+				culture_group = serindian
+				culture_group = tibetan_group
+				culture = khitan
+				culture = jurchen
+				culture = mohe
+				culture = tuyuhun
+				culture = xiongnu
+				culture = di
+				capital_scope = {
+					OR = {
+						culture_group = chinese_group
+						culture_group = serindian
+						culture_group = tibetan_group
+						culture = khitan
+						culture = jurchen
+						culture = mohe
+						culture = tuyuhun
+						culture = xiongnu
+						culture = di
+						region = world_steppe_east
+						region = world_steppe_tarim
+						region = world_himalayas
+					}
+				}
+			}
+		}
+	}		
+}
+song = {
+	name = "liu_bei.ogg"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			OR = {
+				culture_group = chinese_group
+				culture_group = serindian
+				culture_group = tibetan_group
+				culture = khitan
+				culture = jurchen
+				culture = mohe
+				culture = tuyuhun
+				culture = xiongnu
+				culture = di
+				capital_scope = {
+					OR = {
+						culture_group = chinese_group
+						culture_group = serindian
+						culture_group = tibetan_group
+						culture = khitan
+						culture = jurchen
+						culture = mohe
+						culture = tuyuhun
+						culture = xiongnu
+						culture = di
+						region = world_steppe_east
+						region = world_steppe_tarim
+						region = world_himalayas
+					}
+				}
+			}
+		}
+	}		
+}

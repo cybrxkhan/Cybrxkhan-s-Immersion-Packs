@@ -1,0 +1,43 @@
+
+cao_cao_bloodline = {
+	picture = GFX_bloodlines_symbol_taoist
+	inheritance = patrilineal
+	allow_bastards = yes
+	taoist_opinion = 5
+	martial = 1
+	intrigue = 1
+	learning = 1
+	#bloodline_effect_great_heroes_appear = 1
+	bloodline_effect_ambition = 1
+	monthly_character_prestige = 0.15
+	flags = { historical_bloodline  }
+}
+longxi_li_bloodline = {
+	picture = GFX_bloodlines_symbol_taoist
+	inheritance = patrilineal
+	allow_bastards = yes
+	taoist_opinion = 10
+	combat_rating = 5
+	learning = 1
+	bloodline_effect_great_heroes_appear = 1
+	monthly_character_prestige = 0.25
+	flags = { historical_bloodline  }
+}
+#dunhuang_yin_bloodline = {
+#	picture = GFX_bloodlines_symbol_taoist
+#	inheritance = patrilineal
+#	allow_bastards = yes
+#	diplomacy = 1
+#	stewardship = 1
+#	monthly_character_prestige = 0.1
+#	flags = { historical_bloodline  }
+#}
+dunhuang_suo_bloodline = {
+	picture = GFX_bloodlines_symbol_taoist
+	inheritance = patrilineal
+	allow_bastards = yes
+	taoist_opinion = 5
+	learning = 2
+	monthly_character_prestige = 0.1
+	flags = { historical_bloodline  }
+}

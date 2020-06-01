@@ -1,0 +1,92 @@
+#character
+on_startup = {
+	events = {
+		dunhuang.0
+		dunhuang.6
+		dunhuang.10
+	}
+}
+#character
+on_yearly_pulse = {
+	random_events = {
+		cao_yijin_ambition = {
+			delay = 58
+			1000 = 0
+			100 = dunhuang.153	# Cao Yijin has ambitions to rule Dunhuang, gets strong claim
+		}
+		zhai_fengda_calendarist = {
+			delay = 28
+			2000 = 0
+			100 = dunhuang.155	# Zhai Fengda equivalent becomes interested in astronomy - randomly select person from within Kingdom of Dunhuang
+		}
+		dunhuang_generic_events = {
+		
+			delay = 12
+			
+			6000 = 0	
+
+			30 = dunhuang.200	# Visiting Mogao Caves with noble family depicted
+			20 = dunhuang.201	# Visiting Mogao Caves - see attractive person
+			20 = dunhuang.202	# Pass by a section of the Great War
+			30 = dunhuang.203	# Singing sand dunes
+			30 = dunhuang.204	# Foreign artists in Dunhuang give presents
+			10 = dunhuang.205	# Buddhist nun acquaintance passes away and leaves you some stuff in her will but her family disputes this
+			20 = dunhuang.206	# Elderly monk passes away and relatives fight over inheritance
+			20 = dunhuang.207	# Fake monks and nuns
+			30 = dunhuang.208	# Gift of juicy Dunhuang melons
+			10 = dunhuang.209	# Ancient hidden, sealed Mogao cave discovered
+			30 = dunhuang.210	# Visiting Crescent Lake
+			20 = dunhuang.211	# Dispute between Khotanese monk and Sogdian merchant
+			20 = dunhuang.212	# Taking Rhubarb for health reasons
+			20 = dunhuang.213	# Inspecting a new Mogao cave made by community effort
+			20 = dunhuang.214	# Come across a big Buddha in the Mogao cave
+			20 = dunhuang.215	# Come across a nobleman's cave in Dunhuang
+			30 = dunhuang.216	# Buy foreign art decor?
+			30 = dunhuang.217	# Family pays fine in silk
+			10 = dunhuang.218	# Acquaintance needs to sell a slave girl
+			10 = dunhuang.219	# Irrigation experts arrive from China
+			20 = dunhuang.220	# Sogdian buddy concludes business deal
+			30 = dunhuang.221	# Monk friend dedicates poetry
+			10 = dunhuang.222	# Horny courtier gets a Sogdian/Tocharian slave girl
+			30 = dunhuang.223	# Cao Cao's descendant has self-doubts
+			30 = dunhuang.224	# Cao Cao's descendant thinks of stories about Cao Cao
+			30 = dunhuang.225	# Li family member scoffs at those who deny their lineage
+			20 = dunhuang.226	# Sogdian merchant passes through Dunhuang
+			10 = dunhuang.227	# Visiting White Horse Pagoda
+			20 = dunhuang.228	# Encounter caravan praying at Mogao Cave
+			30 = dunhuang.229	# Acrobats from China
+			30 = dunhuang.230	# Performers from Tarim Basin at night
+		
+			# 30 = 12 = 390
+			# 20 = 12 = 240
+			# 10 = 6 = 60
+			# Total = 690
+		
+		}
+	}
+}
+
+
+#character
+on_bi_yearly_pulse = {
+	random_events = {
+		dunhuang_local_contacts = {
+			delay = 38
+			1000 = 0
+			100 = dunhuang.105 	# Offerings from locals, with tombola
+		}
+	}
+}
+
+# character
+on_adulthood = {
+	events = {
+		dunhuang.152 # Cao Yijin comes of age
+	}
+}
+
+on_death = {
+	events = {
+		dunhuang.159 #Zhang Yichao passes away
+	}
+}

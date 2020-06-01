@@ -1,0 +1,64 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_evt_mogao_caves_art"
+		texturefile = "gfx\\event_pictures\\mogao_caves_art.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_mogao_caves_working"
+		texturefile = "gfx\\event_pictures\\mogao_caves_working.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_silk_road_camels"
+		texturefile = "gfx\\event_pictures\\silk_road_camels.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_the_silk_road_dunhuang"
+		texturefile = "gfx\\event_pictures\\the_silk_road_dunhuang.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_travel_dunhuang"
+		texturefile = "gfx\\event_pictures\\travel_dunhuang.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_dunhuang_manor"
+		texturefile = "gfx\\event_pictures\\dunhuang_manor.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_mogao_caves_outside"
+		texturefile = "gfx\\event_pictures\\mogao_caves_outside.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_dunhuang_court"
+		texturefile = "gfx\\event_pictures\\dunhuang_court.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_cao_cao"
+		texturefile = "gfx\\event_pictures\\cao_cao.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_eastern_celebration"
+		texturefile = "gfx\\event_pictures\\eastern_celebration.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_chinese_night_village"
+		texturefile = "gfx\\event_pictures\\chinese_night_village.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_dunhuang_food"
+		texturefile = "gfx\\event_pictures\\dunhuang_food.tga"
+		allwaystransparent = yes
+	}
+}
+
+

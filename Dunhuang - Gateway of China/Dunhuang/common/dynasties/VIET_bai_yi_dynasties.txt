@@ -1,0 +1,201 @@
+
+1000033700 = {
+	name="Duan"
+	culture = bai
+}
+1000033701 = {
+	name="Gao"
+	culture = bai
+}
+1000033702 = {
+	name="Shen"
+	culture = bai
+}	
+1000033703 = {
+	name="Nama"
+	culture = bai
+}
+1000033704 = {
+	name="Yang"
+	culture = bai
+}
+1000033705 = {
+	name="Li"
+	culture = bai
+}
+1000033706 = {
+	name="Liu"
+	culture = bai
+}
+1000033707 = {
+	name="Zhou"
+	culture = bai
+}
+1000033708 = {
+	name="Chu"
+	culture = bai
+}
+1000033709 = {
+	name="Zhang"
+	culture = bai
+}
+1000033710 = {
+	name="Wu"
+	culture = bai
+}
+1000033711 = {
+	name="Zhu"
+	culture = bai
+}
+1000033712 = {
+	name="Zhao"
+	culture = bai
+}	
+1000033713 = {
+	name="Xu"
+	culture = bai
+}
+1000033714 = {
+	name="Wang"
+	culture = bai
+}
+1000033715 = {
+	name="Leimo"
+	culture = bai
+}
+1000033716 = {
+	name="Bijiang"
+	culture = bai
+}
+1000033717 = {
+	name="Jianchuan"
+	culture = bai
+}
+1000033718 = {
+	name="Panyi"
+	culture = bai
+}
+1000033719 = {
+	name="Tuoluo"
+	culture = bai
+}
+1000033720 = {
+	name="Gongxing"
+	culture = bai
+}
+1000033721 = {
+	name="Enqi"
+	culture = bai
+}
+1000033722 = {
+	name="Erhai"
+	culture = bai
+}	
+1000033723 = {
+	name="Miju"
+	culture = bai
+}
+1000033724 = {
+	name="Mici"
+	culture = bai
+}
+1000033725 = {
+	name="Bolou"
+	culture = bai
+}
+1000033726 = {
+	name="Mazhelong"
+	culture = bai
+}
+1000033727 = {
+	name="Jinxing"
+	culture = bai
+}
+1000033728 = {
+	name="Dashi"
+	culture = bai
+}
+1000033729 = {
+	name="Zhoucheng"
+	culture = bai
+}
+1000033730 = {
+	name="Meng"
+	culture = yi
+}
+1000033731 = {
+	name="Zheng"
+	culture = yi
+}
+1000033732 = {
+	name="Yang"
+	culture = yi
+}	
+1000033733 = {
+	name="Duan"
+	culture = yi
+}
+1000033734 = {
+	name="Mengshe"
+	culture = yi
+}
+1000033735 = {
+	name="Mengsui"
+	culture = yi
+}
+1000033736 = {
+	name="Langqiong"
+	culture = yi
+}
+1000033737 = {
+	name="Dengtan"
+	culture = yi
+}
+1000033738 = {
+	name="Shilang"
+	culture = yi
+}
+1000033739 = {
+	name="Yuexi"
+	culture = yi
+}
+1000033740 = {
+	name="Ni"
+	culture = yi
+}
+1000033741 = {
+	name="Lolo"
+	culture = yi
+}
+1000033742 = {
+	name="Axpu"
+	culture = yi
+}	
+1000033743 = {
+	name="Long"
+	culture = yi
+}
+1000033744 = {
+	name="Lu"
+	culture = yi
+}
+1000033745 = {
+	name="Zhang"
+	culture = yi
+}
+1000033746 = {
+	name="Dian"
+	culture = yi
+}
+1000033747 = {
+	name="Qiong"
+	culture = yi
+}
+1000033748 = {
+	name="Zuo"
+	culture = yi
+}
+1000033749 = {
+	name="Zhurong"
+	culture = yi
+}

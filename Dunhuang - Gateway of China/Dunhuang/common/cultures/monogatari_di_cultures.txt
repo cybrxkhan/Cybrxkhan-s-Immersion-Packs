@@ -1,0 +1,49 @@
+
+tibetan_group = {
+	alternate_start = { NOT = { has_alternate_start_parameter = { key = special_culture value = animal_world } } }
+	graphical_cultures = { bodpagfx mongolgfx indiangfx muslimgfx }
+	
+	di = {
+		graphical_cultures = { bodpagfx mongolgfx indiangfx muslimgfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		dynasty_name_first = yes
+		
+		alternate_start = {
+			#OR = {
+			#	year < 1000
+				has_alternate_start_parameter = { key = culture value = full_random }
+			#}
+		}
+		
+		#horde = yes
+		
+		used_for_random = no
+		
+		color = { 0.85 0.33 0.14  }
+		
+		male_names = {
+			An Bao Baochi Baozong Bian Bixie Chang Chong Chongzu Chu Chun Cuan Deng Deshi Di Ding Dong Duo Fa Fang Feilong Fi Fu Guang Guangxiang Guo Hong Houqi Huangmei Hui Jian Jin Jing Jiong Jishi Ju Jun Lao Leng Lin Liu Long Luo Maosou Mengsun Nandang Nandi Ning Pi Ping Polou Qiang Qianwan Qing Qiu Rang Rong Rou'er Rui Sengsi Shang Shao Shaoxian Shen Sheng Shi Shou Shuang Shuo Sou Teng Tong Wei Wende Wendu Wenhe Wenhong Wu Xi Xiong Xuan Xuanshuo Yan Yi Ying You Yuanhe Zhihui Zong Zuan Zun
+		}
+
+		female_names = {
+			Mingde Mu Shunyang
+		}
+		
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 25
+		father_name_chance = 25
+		
+		pat_grm_name_chance = 25
+		mat_grm_name_chance = 25
+		mother_name_chance = 0
+		
+		dukes_called_kings = yes
+		baron_titles_hidden = yes
+		count_titles_hidden = yes
+		
+		allow_looting = yes
+		
+		modifier = default_culture_modifier
+	}
+}

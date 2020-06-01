@@ -1,0 +1,22 @@
+##################################
+# Harranian Graphics		  	 #
+##################################
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_establish_kingdom_of_dunhuang"
+		texturefile = "gfx\\interface\\decision_icon_establish_kingdom_of_dunhuang.dds"
+	}
+	spriteType = {
+		name = "GFX_patronize_mogao_cave"
+		texturefile = "gfx\\interface\\decision_icon_patronize_mogao_cave.dds"
+	}
+	spriteType = {
+		name = "GFX_dunhuang_reinforce_relations"
+		texturefile = "gfx\\interface\\decision_icon_dunhuang_reinforce_relations.dds"
+	}
+	spriteType = {
+		name = "GFX_attend_nadun_festival"
+		texturefile = "gfx\\interface\\decision_icon_attend_nadun_festival.dds"
+	}
+}

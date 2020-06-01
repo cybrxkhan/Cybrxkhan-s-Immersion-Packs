@@ -1,0 +1,18 @@
+k_dunhuang = {
+	color={ 234 39 39 }
+	color2={ 255 255 255 }
+	
+	capital = 1448 # Dunhuang
+	
+	culture = han
+	
+	uyghur = "Dukhan"
+	vietnamese = "Don Hoang"
+	korean = "Dunhwang"
+	japanese = "Tonko"
+	
+	allow = {
+		always = no # Only created through special decisions
+	}
+	
+}

@@ -1,0 +1,18 @@
+opinion_nowruz_sympathy_for_me = {
+	opinion = 15
+}
+opinion_nowruz_no_sympathy_for_me = {
+	opinion = -10
+}
+opinion_nowruz_shamed_me = {
+	opinion = -5
+}
+opinion_nowruz_present_large = {
+	opinion = 15
+}
+opinion_nowruz_present_medium = {
+	opinion = 10
+}
+opinion_nowruz_present_small = {
+	opinion = 5
+}

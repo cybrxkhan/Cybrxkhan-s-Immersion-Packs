@@ -1,0 +1,867 @@
+##########################################################################
+#
+# ASIAN HISTORY EVENTS
+#
+##########################################################################
+
+
+
+namespace = azn
+
+#Set up global flags
+character_event =  {
+	id = azn.0
+	
+	hide_window = yes
+	is_triggered_only = yes
+	
+	only_playable = yes
+
+	trigger = {
+		is_save_game = no
+		controls_religion = yes # Let it happen for the Pope - he's always around
+		NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	immediate = {
+		if = {
+			limit = {
+				year = 938 # Ngo Quyen wins the Battle of Bach Dang against the Southern Han
+			}
+			set_global_flag = VIET_VIET_independence
+		}
+		if = {
+			limit = {
+				year = 940 # Rough date for rump state
+			}
+			set_global_flag = VIET_balhae_destruction
+		}
+		if = {
+			limit = {
+				year = 950 # Rough date
+			}
+			set_global_flag = VIET_japanese_samurai_rise
+		}
+		if = {
+			limit = {
+				year = 901 # Kingdom of Silla collapses
+			}
+			set_global_flag = VIET_collapse_of_silla
+		}
+		if = {
+			limit = {
+				year = 937 # Goryeo reunifies Korean peninsula
+			}
+			set_global_flag = VIET_rise_of_goryeo
+		}
+		if = {
+			limit = {
+				year = 944 # Anarchy of the 12 Warlords begins in Vietnam
+			}
+			set_global_flag = VIET_anarchy_of_12_warlords
+		}
+		#if = {
+		#	limit = {
+		#		year = 968 # Dinh Bo Linh reunifies Vietnam
+		#	}
+		#	set_global_flag = VIET_dinh_reunifies_vietnam
+		#}
+		#if = {
+		#	limit = {
+		#		year = 980 # Rise of the Le Dynasty
+		#	}
+		#	set_global_flag = VIET_rise_of_the_ly
+		#}
+		if = {
+			limit = {
+				year = 1009 # Rise of the Ly Dynasty
+			}
+			set_global_flag = VIET_collapse_of_silla
+		}
+		if = {
+			limit = {
+				year = 902 # Demise of Nanzhao
+			}
+			set_global_flag = VIET_demise_of_nanzhao
+		}
+		if = {
+			limit = {
+				year = 937 # Dali Established
+			}
+			set_global_flag = VIET_dali_established
+		}
+		#if = {
+		#	limit = {
+		#		year = 1019
+		#	}
+		#	set_global_flag = VIET_goryeo_battle_of_gwiju
+		#}
+	}
+}
+
+
+# Vietnam wins independence against China - will reduce the chances of Vietnamese courtier spawn
+character_event = {
+	id = azn.1
+	
+	hide_window = yes
+
+	only_playable = yes
+	religion = catholic
+
+	is_triggered_only = yes
+	
+	trigger = {
+		year = 900
+		NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		NOT = { has_global_flag = VIET_VIET_independence }
+		controls_religion = yes # Let it happen for the Pope - he's always around
+		offmap_china = { # Only happens if China is in chaos
+			OR = {
+				has_status = china_mongol_invasion
+				has_status = china_jurchen_invasion
+				has_status = china_civil_war
+				has_status = china_unrest
+				has_status = china_famine
+				has_status = china_plague
+			}
+		}
+	}
+
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 1.5
+			year = 920
+		}
+		modifier = {
+			factor = 2
+			year = 930
+		}
+		modifier = {
+			factor = 3
+			year = 940
+		}
+		modifier = {
+			factor = 4
+			year = 950
+		}
+		modifier = {
+			factor = 2
+			offmap_china = { # Only happens if China is in chaos
+				OR = {
+					has_status = china_mongol_invasion
+					has_status = china_jurchen_invasion
+					has_status = china_civil_war
+				}
+			}
+		}
+	}
+	
+	immediate = {
+		set_global_flag = VIET_VIET_independence
+		hidden_tooltip = {
+			#narrative_event = { id = azn.2 }
+			any_playable_ruler = {
+				limit = { 
+					ai = no 
+					#NOT = { character = ROOT }
+					capital_scope = {
+						NOT = {
+							distance = {
+								where = 1448 	# Dunhuang
+								value = 800		# Same part of the world
+							}
+						}
+					}
+				}
+				narrative_event = { id = azn.2 }
+			}
+		}
+	}
+	
+	option = {
+		name = OK
+	}
+}
+
+# Vietnam wins independence against China narrative event
+narrative_event = {
+	id = azn.2
+	title = azn.2.title
+	desc = azn.2.desc
+	picture = GFX_evt_china_expansionist #GFX_evt_china_unrest
+	
+	hide_from = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = azn.2.a
+	}
+}
+
+
+# Kingdom of Balhae collapses from nomad attacks and a volcanic eruption - will prevent any further Mohe courtier spawn
+character_event = {
+	id = azn.3
+	
+	hide_window = yes
+
+	only_playable = yes
+	religion = catholic
+
+	is_triggered_only = yes
+	
+	trigger = {
+		year = 900
+		NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		NOT = { has_global_flag = VIET_balhae_destruction }
+		controls_religion = yes # Let it happen for the Pope - he's always around
+	}
+
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 1.5
+			year = 920
+		}
+		modifier = {
+			factor = 2
+			year = 930
+		}
+		modifier = {
+			factor = 3
+			year = 940
+		}
+		modifier = {
+			factor = 4
+			year = 950
+		}
+	}
+	
+	immediate = {
+		set_global_flag = VIET_VIET_independence
+		hidden_tooltip = {
+			#narrative_event = { id = azn.4 }
+			any_playable_ruler = {
+				limit = { 
+					ai = no 
+					#NOT = { character = ROOT }
+					capital_scope = {
+						NOT = {
+							distance = {
+								where = 1448 	# Dunhuang
+								value = 800		# Same part of the world
+							}
+						}
+					}
+				}
+				narrative_event = { id = azn.4 }
+			}
+		}
+	}
+}
+
+# Kingdom of Balhae collapses China narrative event
+narrative_event = {
+	id = azn.4
+	title = azn.4.title
+	desc = azn.4.desc
+	picture = GFX_evt_china_famine
+	
+	hide_from = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = azn.4.a
+	}
+}
+
+
+# The Japanese samurai come to power - will reduce the chances of Japanese courtier spawn
+character_event = {
+	id = azn.5
+	
+	hide_window = yes
+
+	only_playable = yes
+	religion = catholic
+
+	is_triggered_only = yes
+	
+	trigger = {
+		year = 900
+		NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		NOT = { has_global_flag = VIET_japanese_samurai_rise }
+		controls_religion = yes # Let it happen for the Pope - he's always around
+		offmap_china = { # Only happens if China is in chaos
+			OR = {
+				has_status = china_mongol_invasion
+				has_status = china_jurchen_invasion
+				has_status = china_civil_war
+				has_status = china_unrest
+				has_status = china_famine
+				has_status = china_plague
+			}
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 3
+			offmap_china = { # Only happens if China is in chaos
+				OR = {
+					has_status = china_mongol_invasion
+					has_status = china_jurchen_invasion
+					has_status = china_civil_war
+					has_status = china_unrest
+				}
+			}
+		}
+	}
+	
+	immediate = {
+		set_global_flag = VIET_japanese_samurai_rise
+		hidden_tooltip = {
+			#narrative_event = { id = azn.6 }
+			any_playable_ruler = {
+				limit = { 
+					ai = no 
+					#NOT = { character = ROOT }
+					capital_scope = {
+						NOT = {
+							distance = {
+								where = 1448 	# Dunhuang
+								value = 800		# Same part of the world
+							}
+						}
+					}
+				}
+				narrative_event = { id = azn.6 }
+			}
+		}
+	}
+}
+
+# The Japanese samurai come to power narrative event
+narrative_event = {
+	id = azn.6
+	title = azn.6.title
+	desc = azn.6.desc
+	picture = GFX_evt_dunhuang_manor
+	
+	hide_from = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = azn.6.a
+	}
+}
+
+
+
+# Kingdom of Silla collapses - will reduce the chances of Korean courtier spawn
+character_event = {
+	id = azn.7
+	
+	hide_window = yes
+
+	only_playable = yes
+	religion = catholic
+
+	is_triggered_only = yes
+	
+	trigger = {
+		year = 880
+		NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		NOT = { has_global_flag = VIET_collapse_of_silla }
+		controls_religion = yes # Let it happen for the Pope - he's always around
+	}
+	
+
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 1.5
+			year = 890
+		}
+		modifier = {
+			factor = 2
+			year = 900
+		}
+		modifier = {
+			factor = 3
+			year = 910
+		}
+		modifier = {
+			factor = 4
+			year = 920
+		}
+		modifier = {
+			factor = 3
+			offmap_china = { # Only happens if China is in chaos
+				OR = {
+					has_status = china_mongol_invasion
+					has_status = china_jurchen_invasion
+					has_status = china_civil_war
+					has_status = china_unrest
+				}
+			}
+		}
+	}
+	
+	immediate = {
+		set_global_flag = VIET_collapse_of_silla
+		hidden_tooltip = {
+			#narrative_event = { id = azn.8 }
+			any_playable_ruler = {
+				limit = { 
+					ai = no 
+					#NOT = { character = ROOT }
+					capital_scope = {
+						NOT = {
+							distance = {
+								where = 1448 	# Dunhuang
+								value = 800		# Same part of the world
+							}
+						}
+					}
+				}
+				narrative_event = { id = azn.8 }
+			}
+		}
+	}
+}
+
+# Kingdom of Silla collapses narrative event
+narrative_event = {
+	id = azn.8
+	title = azn.8.title
+	desc = azn.8.desc
+	picture = GFX_evt_china_mongols_invade
+	
+	hide_from = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = azn.8.a
+	}
+}
+
+# Goryeo reunifies Korean peninsulas - will increase the chances of Korean courtier spawn (though not to levels before)
+character_event = {
+	id = azn.9
+	
+	hide_window = yes
+
+	only_playable = yes
+	religion = catholic
+
+	is_triggered_only = yes
+	
+	trigger = {
+		year = 900
+		NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		has_global_flag = VIET_collapse_of_silla
+		has_global_flag = VIET_balhae_destruction
+		NOT = { has_global_flag = VIET_rise_of_goryeo }
+		controls_religion = yes # Let it happen for the Pope - he's always around
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 1.5
+			year = 920
+		}
+		modifier = {
+			factor = 2
+			year = 930
+		}
+		modifier = {
+			factor = 3
+			year = 940
+		}
+		modifier = {
+			factor = 4
+			year = 950
+		}
+	}
+	
+	immediate = {
+		set_global_flag = VIET_rise_of_goryeo
+		hidden_tooltip = {
+			#narrative_event = { id = azn.10 }
+			any_playable_ruler = {
+				limit = { 
+					ai = no 
+					#NOT = { character = ROOT }
+					capital_scope = {
+						NOT = {
+							distance = {
+								where = 1448 	# Dunhuang
+								value = 800		# Same part of the world
+							}
+						}
+					}
+				}
+				narrative_event = { id = azn.10 }
+			}
+		}
+	}
+}
+
+# Goryeo reunifies Korean peninsula narrative event
+narrative_event = {
+	id = azn.10
+	title = azn.10.title
+	desc = azn.10.desc
+	picture = GFX_evt_china_rebel_general
+	
+	hide_from = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = azn.10.a
+	}
+}
+
+# Anarchy of the 12 Warlords begins in Vietnam - will decrease the chances of Vietnamese courtier spawn
+character_event = {
+	id = azn.11
+	
+	hide_window = yes
+
+	only_playable = yes
+	religion = catholic
+
+	is_triggered_only = yes
+	
+	trigger = {
+		year = 900
+		NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		has_global_flag = VIET_VIET_independence
+		NOT = { has_global_flag = VIET_anarchy_of_12_warlords }
+		controls_religion = yes # Let it happen for the Pope - he's always around
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 1.5
+			year = 940
+		}
+		modifier = {
+			factor = 2
+			year = 950
+		}
+		modifier = {
+			factor = 3
+			year = 960
+		}
+		modifier = {
+			factor = 4
+			year = 970
+		}
+	}
+	
+	immediate = {
+		set_global_flag = VIET_anarchy_of_12_warlords
+		hidden_tooltip = {
+			#narrative_event = { id = azn.12 }
+			any_playable_ruler = {
+				limit = { 
+					ai = no 
+					#NOT = { character = ROOT }
+					capital_scope = {
+						NOT = {
+							distance = {
+								where = 1448 	# Dunhuang
+								value = 800		# Same part of the world
+							}
+						}
+					}
+				}
+				narrative_event = { id = azn.12 }
+			}
+		}
+	}
+}
+
+# Anarchy of the 12 Warlords begins in Vietnam narrative event
+narrative_event = {
+	id = azn.12
+	title = azn.12.title
+	desc = azn.12.desc
+	picture = GFX_evt_china_civil_war
+	
+	hide_from = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = azn.12.a
+	}
+}
+
+# Rise of the Ly Dynasty - will increase the chances of Vietnamese courtier spawn (though not to levels before)
+character_event = {
+	id = azn.13
+	
+	hide_window = yes
+
+	only_playable = yes
+	religion = catholic
+
+	is_triggered_only = yes
+	
+	trigger = {
+		year = 900
+		NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		has_global_flag = VIET_anarchy_of_12_warlords
+		NOT = { has_global_flag = VIET_rise_of_the_ly }
+		controls_religion = yes # Let it happen for the Pope - he's always around
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 1.5
+			year = 950
+		}
+		modifier = {
+			factor = 2
+			year = 975
+		}
+		modifier = {
+			factor = 3
+			year = 1000
+		}
+		modifier = {
+			factor = 4
+			year = 1025
+		}
+	}
+	
+	immediate = {
+		set_global_flag = VIET_anarchy_of_12_warlords
+		hidden_tooltip = {
+			#narrative_event = { id = azn.14 }
+			any_playable_ruler = {
+				limit = { 
+					ai = no 
+					#NOT = { character = ROOT }
+					capital_scope = {
+						NOT = {
+							distance = {
+								where = 1448 	# Dunhuang
+								value = 800		# Same part of the world
+							}
+						}
+					}
+				}
+				narrative_event = { id = azn.14 }
+			}
+		}
+	}
+}
+
+# Rise of the Ly Dynasty narrative event
+narrative_event = {
+	id = azn.14
+	title = azn.14.title
+	desc = azn.14.desc
+	picture = GFX_evt_china_stable
+	
+	hide_from = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = azn.14.a
+	}
+}
+
+
+# Demise of Nanzhao - will decrease the chances of Bai and Yi courtier spawn
+character_event = {
+	id = azn.15
+	
+	hide_window = yes
+
+	only_playable = yes
+	religion = catholic
+
+	is_triggered_only = yes
+	
+	trigger = {
+		year = 880
+		NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		NOT = { has_global_flag = VIET_demise_of_nanzhao }
+		controls_religion = yes # Let it happen for the Pope - he's always around
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 1.5
+			year = 890
+		}
+		modifier = {
+			factor = 2
+			year = 900
+		}
+		modifier = {
+			factor = 3
+			year = 910
+		}
+		modifier = {
+			factor = 4
+			year = 920
+		}
+		modifier = {
+			factor = 3
+			offmap_china = { # Only happens if China is in chaos
+				OR = {
+					has_status = china_mongol_invasion
+					has_status = china_jurchen_invasion
+					has_status = china_civil_war
+					has_status = china_unrest
+				}
+			}
+		}
+	}
+	
+	immediate = {
+		set_global_flag = VIET_demise_of_nanzhao
+		hidden_tooltip = {
+			#narrative_event = { id = azn.16 }
+			any_playable_ruler = {
+				limit = { 
+					ai = no 
+					#NOT = { character = ROOT }
+					capital_scope = {
+						NOT = {
+							distance = {
+								where = 1448 	# Dunhuang
+								value = 800		# Same part of the world
+							}
+						}
+					}
+				}
+				narrative_event = { id = azn.16 }
+			}
+		}
+	}
+}
+
+# Demise of Nanzhao narrative event
+narrative_event = {
+	id = azn.16
+	title = azn.16.title
+	desc = azn.16.desc
+	picture = GFX_evt_china_unrest
+	
+	hide_from = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = azn.16.a
+	}
+}
+
+# Dali Established - will increase the chances of Bai and Yi courtier spawn
+character_event = {
+	id = azn.17
+	
+	hide_window = yes
+
+	only_playable = yes
+	religion = catholic
+
+	is_triggered_only = yes
+	
+	trigger = {
+		year = 900
+		NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		has_global_flag = VIET_demise_of_nanzhao
+		NOT = { has_global_flag = VIET_dali_established }
+		controls_religion = yes # Let it happen for the Pope - he's always around
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 1.5
+			year = 920
+		}
+		modifier = {
+			factor = 2
+			year = 930
+		}
+		modifier = {
+			factor = 3
+			year = 940
+		}
+		modifier = {
+			factor = 4
+			year = 950
+		}
+	}
+	
+	immediate = {
+		set_global_flag = VIET_dali_established
+		hidden_tooltip = {
+			#narrative_event = { id = azn.18 }
+			any_playable_ruler = {
+				limit = { 
+					ai = no 
+					#NOT = { character = ROOT }
+					capital_scope = {
+						NOT = {
+							distance = {
+								where = 1448 	# Dunhuang
+								value = 800		# Same part of the world
+							}
+						}
+					}
+				}
+				narrative_event = { id = azn.18 }
+			}
+		}
+	}
+}
+
+# Dali Established narrative event
+narrative_event = {
+	id = azn.18
+	title = azn.18.title
+	desc = azn.18.desc
+	picture = GFX_evt_china_stable
+	
+	hide_from = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = azn.18.a
+	}
+}
+

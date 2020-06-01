@@ -1,0 +1,49 @@
+altaic = {
+	alternate_start = { NOT = { has_alternate_start_parameter = { key = special_culture value = animal_world } } }
+	graphical_cultures = { turkishgfx mongolgfx muslimgfx }
+	
+	tuyuhun = {
+		graphical_cultures = { mongolgfx chinesegfx bodpagfx muslimgfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		#alternate_start = {
+		#	OR = {
+		#		year < 1000
+		#		has_alternate_start_parameter = { key = culture value = full_random }
+		#	}
+		#}
+		
+		dynasty_name_first = yes
+		
+		horde = yes
+		
+		color = { 0.35 0.45 0.88 }
+
+		male_names = {
+			
+			#Tuyuhun
+			Achai Dayan Duo Duyihou Fulianchou Fuyun Gui Huang Hui Jixun Kuala Kualü Kunlun Luozhou Mugui Muliyan Nuohebo Shegui Shifu Shilian Shipi Shiyin Shuluogan Shun Sudumomo Suixi Talumomo Tuyan Wei Wugeti Yanchao Yeyan Yicheng Zhong
+			
+			#Tang-era Xianbei (Tuyuhun predecessors/relatives)
+			Anye Baling Baolin Baoqi Cang Chan Changqing Changshou Chong Chounu Chun Da Dana Di Duba Dui Dun Gai Gang Gong Gu Hao Heng'an Hongye Hu Ji Jia Jian Jin Jiong Juyudun Kan Kegu Luo Mu Qidou Qifu Quan Rong Ruyuan Shan Shaozong Sheng Shou Shu Tai Tandouba Tianguang Tong Tuo Wu Wuji Xian Xiandao Xianshou Xin Xingbu Xiuli Xuandao Yichen You Yuchi Yue Yun Zan Zhangru Zhao Zhen Zheng Zhi Zhining Zhongxiang
+			#Shun
+			
+			#Xianbei from pre-Sui/Tang era
+			Ba Bao Bi Ce Chui Dai De Ding Du Han Hong Huan Jun Ke Lang Li Liang Lin Ling Long Lou Manu Min Mo Na Nong Ping Qian Rou She Wan Wen Wonu Xi Xiang Xiu Ye Yi Zhou
+			#Chong Hui Jian Sheng Wei Xian You Yu Yuan Yue Zhao Zhi
+			
+		}
+		female_names = {
+			#Mixture of all three categories
+			Awu Changle Chengchao Chengyang Cheng'ai Chifan Dabugan Daowu Deguang Eying Fengyi Guanghua Guangping Honghua Huihua Jialuo Jinyang Kezuhun Leshang Lihua Lingji Lize Manyue Mingda Mingjing Pingyuan Qieluo Qingdou Shunyang Song'e Tong'an Wen Wende Wenzhao Wu Xiangguo Xiangyang Xianyou Xihe Xincheng Xuan Xunying Yidu Yigui Yiyang Yi'an Yongfu Yuanfei Yuanzhen Yueyi Zhaocheng Zhong
+		}
+		
+		from_dynasty_prefix = "of "
+		#founder_named_dynasties = yes
+
+		allow_looting = yes
+		
+		modifier = default_culture_modifier
+		nomadic_in_alt_start = yes
+	}
+}

@@ -1,0 +1,24 @@
+#character
+on_startup = {
+	events = {
+		azn.0
+	}
+}
+#character
+on_yearly_pulse = {
+	random_events = {
+		asian_history_events = {
+			delay = 18
+			2800 = 0
+			100 = azn.1		# Vietnam wins independence against China - will reduce the chances of Vietnamese courtier spawn
+			100 = azn.3		# Kingdom of Balhae collapses from nomad attacks and a volcanic eruption - will prevent any further Mohe courtier spawn
+			100 = azn.5		# The Japanese samurai come to power - will reduce the chances of Japanese courtier spawn
+			100 = azn.7		# Kingdom of Silla collapses - will reduce the chances of Korean courtier spawn
+			100 = azn.9		# Goryeo reunifies Korean peninsulas - will increase the chances of Korean courtier spawn (though not to levels before)
+			100 = azn.11	# Anarchy of the 12 Warlords begins in Vietnam - will decrease the chances of Vietnamese courtier spawn
+			100 = azn.13	# Rise of the Ly Dynasty - will increase the chances of Vietnamese courtier spawn (though not to levels before)
+			100 = azn.15	# Demise of Nanzhao - will decrease the chances of Bai and Yi courtier spawn
+			100 = azn.17	# Dali Established - will increase the chances of Bai and Yi courtier spawn
+		}
+	}
+}

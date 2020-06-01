@@ -1,0 +1,1373 @@
+######################################################################################
+#
+# Surnames for Cultures of East and Southeast Asia
+#
+# i.e. Chinese, Khitan, Japanese, Korean, and Vietnamese
+#
+# Cultures are as follows:
+#
+# Ainu 1000092620-1000092639
+# Andamanese 1000092460-1000092479
+# Cham 1000092330-1000092339
+# Chinese 1000061500 - 1000061599, 1000091000-1000091019, 1000092480-1000092499
+# Emishi 1000092600-1000092619
+# Formosan 1000092550-1000092579
+# Javanese 1000092360-1000092379
+# Japanese 1000061640 - 1000061659, 1000091020-1000091029, 1000092100-1000092169 
+# Jurchen 100009240-1000092459 
+# Khitan 1000061600 - 1000061639 
+# Khmer 1000092300-1000092329
+# Korean 1000061660 - 1000061679, 1000091030-1000091039
+# Malay 1000092340-1000092359
+# Moluccan 1000092380-1000092389
+# Papuan 1000092500-1000092549
+# Ryukyuan 1000092170-1000092189
+# Tagalog 1000092390-1000092399 
+# Tai 1000092400-1000092439 
+# Vietnamese 1000061680 - 1000061699, 1000091040-1000091049, 1000092190-1000092199 
+#
+######################################################################################
+
+1000061500 = {
+	name="Cai"
+	culture = han
+}
+1000061501 = {
+	name="Fan"
+	culture = han
+}
+1000061502 = {
+	name="Han"
+	culture = han
+}	
+1000061503 = {
+	name="Li"
+	culture = han
+}
+1000061504 = {
+	name="Qin"
+	culture = han
+}
+1000061505 = {
+	name="Sima"
+	culture = han
+}
+1000061506 = {
+	name="Zhao"
+	culture = han
+}
+1000061507 = {
+	name="Cheng"
+	culture = han
+}
+1000061508 = {
+	name="Zhang"
+	culture = han
+}
+1000061509 = {
+	name="Shen"
+	culture = han
+}
+1000061510 = {
+	name="Guo"
+	culture = han
+}
+1000061511 = {
+	name="Wang"
+	culture = han
+}
+1000061512 = {
+	name="Su"
+	culture = han
+}	
+1000061513 = {
+	name="Tong"
+	culture = han
+}
+1000061514 = {
+	name="Yue"
+	culture = han
+}
+1000061515 = {
+	name="Hong"
+	culture = han
+}
+1000061516 = {
+	name="Liu"
+	culture = han
+}
+1000061517 = {
+	name="Jia"
+	culture = han
+}
+1000061518 = {
+	name="Bao"
+	culture = han
+}
+1000061519 = {
+	name="Song"
+	culture = han
+}
+1000061520 = {
+	name="Mi"
+	culture = han
+}
+1000061521 = {
+	name="Ouyang"
+	culture = han
+}
+1000061522 = {
+	name="Wuzhun"
+	culture = han
+}	
+1000061523 = {
+	name="Ma"
+	culture = han
+}
+1000061524 = {
+	name="Lu"
+	culture = han
+}
+1000061525 = {
+	name="Yang"
+	culture = han
+}
+1000061526 = {
+	name="Qin"
+	culture = han
+}
+1000061527 = {
+	name="Bi"
+	culture = han
+}
+1000061528 = {
+	name="Hua"
+	culture = han
+}
+1000061529 = {
+	name="Zhu"
+	culture = han
+}
+1000061530 = {
+	name="Qiao"
+	culture = han
+}
+1000061531 = {
+	name="Yu"
+	culture = han
+}
+1000061532 = {
+	name="Fan"
+	culture = han
+}	
+1000061533 = {
+	name="Hong"
+	culture = han
+}
+1000061534 = {
+	name="Zeng"
+	culture = han
+}
+1000061535 = {
+	name="Wen"
+	culture = han
+}
+1000061536 = {
+	name="Shao"
+	culture = han
+}
+1000061537 = {
+	name="Du"
+	culture = han
+}
+1000061538 = {
+	name="Chai"
+	culture = han
+}
+1000061539 = {
+	name="Chen"
+	culture = han
+}
+1000061540 = {
+	name="Wu"
+	culture = han
+}
+1000061541 = {
+	name="Wei"
+	culture = han
+}
+1000061542 = {
+	name="Zong"
+	culture = han
+}	
+1000061543 = {
+	name="Shi"
+	culture = han
+}
+1000061544 = {
+	name="Ding"
+	culture = han
+}
+1000061545 = {
+	name="Xie"
+	culture = han
+}
+1000061546 = {
+	name="Weng"
+	culture = han
+}
+1000061547 = {
+	name="Miao"
+	culture = han
+}
+1000061548 = {
+	name="Zheng"
+	culture = han
+}
+1000061549 = {
+	name="Hu"
+	culture = han
+}
+1000061550 = {
+	name="Mu"
+	culture = han
+}
+1000061551 = {
+	name="Jiang"
+	culture = han
+}
+1000061552 = {
+	name="Qiu"
+	culture = han
+}	
+1000061553 = {
+	name="Lan"
+	culture = han
+}
+1000061554 = {
+	name="Yuchi"
+	culture = han
+}
+1000061555 = {
+	name="Jiao"
+	culture = han
+}
+1000061556 = {
+	name="Fa"
+	culture = han
+}
+1000061557 = {
+	name="Chai"
+	culture = han
+}
+1000061558 = {
+	name="Linghu"
+	culture = han
+}
+1000061559 = {
+	name="Xiao"
+	culture = han
+}
+1000061560 = {
+	name="Xiahou"
+	culture = han
+}
+1000061561 = {
+	name="Bi"
+	culture = han
+}
+1000061562 = {
+	name="Cao"
+	culture = han
+}	
+1000061563 = {
+	name="Gao"
+	culture = han
+}
+1000061564 = {
+	name="Pei"
+	culture = han
+}
+1000061565 = {
+	name="Cui"
+	culture = han
+}
+1000061566 = {
+	name="Doulu"
+	culture = han
+}
+1000061567 = {
+	name="Kong"
+	culture = han
+}
+1000061568 = {
+	name="Zhuge"
+	culture = han
+}
+1000061569 = {
+	name="Sun"
+	culture = han
+}
+1000061570 = {
+	name="Dugu"
+	culture = han
+}
+1000061571 = {
+	name="Yang"
+	culture = han
+}
+1000061572 = {
+	name="Qian"
+	culture = han
+}	
+1000061573 = {
+	name="Ren"
+	culture = han
+}
+1000061574 = {
+	name="Lian"
+	culture = han
+}
+1000061575 = {
+	name="Ni"
+	culture = han
+}
+1000061576 = {
+	name="Meng"
+	culture = han
+}
+1000061577 = {
+	name="Guan"
+	culture = han
+}
+1000061578 = {
+	name="Pang"
+	culture = han
+}
+1000061579 = {
+	name="Su"
+	culture = han
+}
+1000061580 = {
+	name="Po"
+	culture = han
+}
+1000061581 = {
+	name="Zhang"
+	culture = han
+}
+1000061582 = {
+	name="Liu"
+	culture = han
+}	
+1000061583 = {
+	name="Wang"
+	culture = han
+}
+1000061584 = {
+	name="Ruan"
+	culture = han
+}
+1000061585 = {
+	name="Tu"
+	culture = han
+}
+1000061586 = {
+	name="Li"
+	culture = han
+}
+1000061587 = {
+	name="Chen"
+	culture = han
+}
+1000061588 = {
+	name="Dai"
+	culture = han
+}
+1000061589 = {
+	name="Zhangsun"
+	culture = han
+}
+1000061590 = {
+	name="Hao"
+	culture = han
+}
+1000061591 = {
+	name="Long"
+	culture = han
+}
+1000061592 = {
+	name="Duan"
+	culture = han
+}	
+1000061593 = {
+	name="Zhang"
+	culture = han
+}
+1000061594 = {
+	name="Liu"
+	culture = han
+}
+1000061595 = {
+	name="Wang"
+	culture = han
+}
+1000061596 = {
+	name="Zhao"
+	culture = han
+}
+1000061597 = {
+	name="Zhou"
+	culture = han
+}
+1000061598 = {
+	name="Ma"
+	culture = han
+}
+1000061599 = {
+	name="Dong"
+	culture = han
+}
+###
+###
+###
+1000061640 = {
+	name="Minamoto"
+	culture = japanese
+}
+1000061641 = {
+	name="Taira"
+	culture = japanese
+}
+1000061642 = {
+	name="Fujiwara"
+	culture = japanese
+}	
+1000061643 = {
+	name="Tokugawa"
+	culture = japanese
+}
+1000061644 = {
+	name="Oda"
+	culture = japanese
+}
+1000061645 = {
+	name="Date"
+	culture = japanese
+}
+1000061646 = {
+	name="Ashikaga"
+	culture = japanese
+}
+1000061647 = {
+	name="Honda"
+	culture = japanese
+}
+1000061648 = {
+	name="Hatakeyama"
+	culture = japanese
+}
+1000061649 = {
+	name="Hosokawa"
+	culture = japanese
+}
+1000061650 = {
+	name="Shimazu"
+	culture = japanese
+}
+1000061651 = {
+	name="Ishida"
+	culture = japanese
+}
+1000061652 = {
+	name="Yamada"
+	culture = japanese
+}	
+1000061653 = {
+	name="Mori"
+	culture = japanese
+}
+1000061654 = {
+	name="Takeda"
+	culture = japanese
+}
+1000061655 = {
+	name="Tachibana"
+	culture = japanese
+}
+1000061656 = {
+	name="Uesegi"
+	culture = japanese
+}
+1000061657 = {
+	name="Watanabe"
+	culture = japanese
+}
+1000061658 = {
+	name="Chitanda" #reference
+	culture = japanese
+}
+1000061659 = {
+	name="Oreki" #reference
+	culture = japanese
+}
+1000061660 = {
+	name="Lee"
+	culture = korean
+}
+1000061661 = {
+	name="Hwang"
+	culture = korean
+}
+1000061662 = {
+	name="Yi"
+	culture = korean
+}	
+1000061663 = {
+	name="Kim"
+	culture = korean
+}
+1000061664 = {
+	name="Pak"
+	culture = korean
+}
+1000061665 = {
+	name="Gang"
+	culture = korean
+}
+1000061666 = {
+	name="Chung"
+	culture = korean
+}
+1000061667 = {
+	name="Nam"
+	culture = korean
+}
+1000061668 = {
+	name="Cho"
+	culture = korean
+}
+1000061669 = {
+	name="Shin"
+	culture = korean
+}
+1000061670 = {
+	name="Yeom"
+	culture = korean
+}
+1000061671 = {
+	name="Choi"
+	culture = korean
+}
+1000061672 = {
+	name="Yoon"
+	culture = korean
+}	
+1000061673 = {
+	name="Yang"
+	culture = korean
+}
+1000061674 = {
+	name="Bae"
+	culture = korean
+}
+1000061675 = {
+	name="Bok"
+	culture = korean
+}
+1000061676 = {
+	name="Won"
+	culture = korean
+}
+1000061677 = {
+	name="Yoo"
+	culture = korean
+}
+1000061678 = {
+	name="Kwak"
+	culture = korean
+}
+1000061679 = {
+	name="Song"
+	culture = korean
+}
+1000061680 = {
+	name="Luu"
+	culture = vietnamese
+}
+1000061681 = {
+	name="Lieu"
+	culture = vietnamese
+}
+1000061682 = {
+	name="Tran"
+	culture = vietnamese
+}	
+1000061683 = {
+	name="Nguyen"
+	culture = vietnamese
+}
+1000061684 = {
+	name="Ly"
+	culture = vietnamese
+}
+1000061685 = {
+	name="Le"
+	culture = vietnamese
+}
+1000061686 = {
+	name="Trung"
+	culture = vietnamese
+}
+1000061687 = {
+	name="Ngo"
+	culture = vietnamese
+}
+1000061688 = {
+	name="Dinh"
+	culture = vietnamese
+}
+1000061689 = {
+	name="Ho"
+	culture = vietnamese
+}
+1000061690 = {
+	name="Bui"
+	culture = vietnamese
+}
+1000061691 = {
+	name="Pham"
+	culture = vietnamese
+}
+1000061692 = {
+	name="Phan"
+	culture = vietnamese
+}	
+1000061693 = {
+	name="Huynh"
+	culture = vietnamese
+}
+1000061694 = {
+	name="Vu"
+	culture = vietnamese
+}
+1000061695 = {
+	name="Dang"
+	culture = vietnamese
+}
+1000061696 = {
+	name="Do"
+	culture = vietnamese
+}
+1000061697 = {
+	name="Duong"
+	culture = vietnamese
+}
+1000061698 = {
+	name="Trinh"
+	culture = vietnamese
+}
+1000061699 = {
+	name="Hoang"
+	culture = vietnamese
+}
+1000091000 = {
+	name="Kong"
+	culture = han
+}
+1000091001 = {
+	name="Ren"
+	culture = han
+}
+1000091002 = {
+	name="Shui"
+	culture = han
+}	
+1000091003 = {
+	name="Yun"
+	culture = han
+}
+1000091004 = {
+	name="Suo"
+	culture = han
+}
+1000091005 = {
+	name="Dan"
+	culture = han
+}
+1000091006 = {
+	name="Mai"
+	culture = han
+}
+1000091007 = {
+	name="Liao"
+	culture = han
+}
+1000091008 = {
+	name="Xian"
+	culture = han
+}
+1000091009 = {
+	name="Ling"
+	culture = han
+}
+1000091010 = {
+	name="Cu"
+	culture = han
+}
+1000091011 = {
+	name="Na"
+	culture = han
+}
+1000091012 = {
+	name="Cen"
+	culture = han
+}	
+1000091013 = {
+	name="Luo"
+	culture = han
+}
+1000091014 = {
+	name="Liu"
+	culture = han
+}
+1000091015 = {
+	name="Zhang"
+	culture = han
+}
+1000091016 = {
+	name="Chen"
+	culture = han
+}
+1000091017 = {
+	name="Li"
+	culture = han
+}
+1000091018 = {
+	name="Wang"
+	culture = han
+}
+1000091019 = {
+	name="Huang"
+	culture = han
+}
+1000091020 = {
+	name="Sakamoto"
+	culture = japanese
+}
+1000091021 = {
+	name="Kido"
+	culture = japanese
+}
+1000091022 = {
+	name="Takasugi"
+	culture = japanese
+}	
+1000091023 = {
+	name="Okazaki"
+	culture = japanese
+}
+1000091024 = {
+	name="Fukube"
+	culture = japanese
+}
+1000091025 = {
+	name="Ibara"
+	culture = japanese
+}
+1000091026 = {
+	name="Fuyumi"
+	culture = japanese
+}
+1000091027 = {
+	name="Togaito"
+	culture = japanese
+}
+1000091028 = {
+	name="Sekitani"
+	culture = japanese
+}
+1000091029 = {
+	name="Jumonji"
+	culture = japanese
+}
+1000091030 = {
+	name="Namgung"
+	culture = korean
+}
+1000091031 = {
+	name="No"
+	culture = korean
+}
+1000091032 = {
+	name="Do"
+	culture = korean
+}	
+1000091033 = {
+	name="Ryu"
+	culture = korean
+}
+1000091034 = {
+	name="Ma"
+	culture = korean
+}
+1000091035 = {
+	name="Mun"
+	culture = korean
+}
+1000091036 = {
+	name="Min"
+	culture = korean
+}
+1000091037 = {
+	name="Byeon"
+	culture = korean
+}
+1000091038 = {
+	name="Bang"
+	culture = korean
+}
+1000091039 = {
+	name="Seo"
+	culture = korean
+}
+1000091040 = {
+	name="Chau"
+	culture = vietnamese
+}
+1000091041 = {
+	name="Nghiem"
+	culture = vietnamese
+}
+1000091042 = {
+	name="Han"
+	culture = vietnamese
+}	
+1000091043 = {
+	name="Thach"
+	culture = vietnamese
+}
+1000091044 = {
+	name="Phung"
+	culture = vietnamese
+}
+1000091045 = {
+	name="Mai"
+	culture = vietnamese
+}
+1000091046 = {
+	name="Thuy"
+	culture = vietnamese
+}
+1000091047 = {
+	name="Dao"
+	culture = vietnamese
+}
+1000091048 = {
+	name="Dang"
+	culture = vietnamese
+}
+1000091049 = {
+	name="Chu"
+	culture = vietnamese
+}
+#Monogatari Series
+1000092100 = {
+	name="Senjougahara"
+	culture = japanese
+}
+1000092101 = {
+	name="Araragi"
+	culture = japanese
+}
+1000092102 = {
+	name="Tsubasa"
+	culture = japanese
+}	
+1000092103 = {
+	name="Oshino"
+	culture = japanese
+}
+1000092104 = {
+	name="Kanbaru"
+	culture = japanese
+}
+1000092105 = {
+	name="Gaen"
+	culture = japanese
+}
+1000092106 = {
+	name="Sengoku"
+	culture = japanese
+}
+1000092107 = {
+	name="Hachikuji"
+	culture = japanese
+}
+1000092108 = {
+	name="Kaiki" #undeniably bestest best girl ever
+	culture = japanese
+}
+1000092109 = {
+	name="Kagenui"
+	culture = japanese
+}
+1000092110 = {
+	name="Ononoki"
+	culture = japanese
+}
+1000092111 = {
+	name="Mizudori"
+	culture = japanese
+}
+1000092112 = {
+	name="Rousokuzawa"
+	culture = japanese
+}
+#Clannad	
+1000092113 = {
+	name="Okazaki"
+	culture = japanese
+}
+1000092114 = {
+	name="Furukawa"
+	culture = japanese
+}
+1000092115 = {
+	name="Fujibayashi" #best girl
+	culture = japanese
+}
+1000092116 = {
+	name="Ichinose"
+	culture = japanese
+}
+1000092117 = {
+	name="Sakagami"
+	culture = japanese
+}
+1000092118 = {
+	name="Ibuki"
+	culture = japanese
+}
+1000092119 = {
+	name="Miyazawa"
+	culture = japanese
+}
+1000092120 = {
+	name="Sagara"
+	culture = japanese
+}
+1000092121 = {
+	name="Yoshino"
+	culture = japanese
+}
+1000092122 = {
+	name="Sunohara"
+	culture = japanese
+}
+#Azumanga Daioh	
+1000092123 = {
+	name="Mihama"
+	culture = japanese
+}
+1000092124 = {
+	name="Kasuga"
+	culture = japanese
+}
+1000092125 = {
+	name="Takino"
+	culture = japanese
+}
+1000092126 = {
+	name="Mizuhara"
+	culture = japanese
+}
+1000092127 = {
+	name="Sakaki"
+	culture = japanese
+}
+1000092128 = {
+	name="Kagura"
+	culture = japanese
+}
+1000092129 = {
+	name="Kaori"
+	culture = japanese
+}
+1000092130 = {
+	name="Tanizaki"
+	culture = japanese
+}
+1000092131 = {
+	name="Kurosawa"
+	culture = japanese
+}
+1000092132 = {
+	name="Kimura"
+	culture = japanese
+}	
+1000092133 = { #technically a dog, I know
+	name="Tadakichi"
+	culture = japanese
+}
+#End references
+1000092134 = {
+	name="Doi"
+	culture = japanese
+}
+1000092135 = {
+	name="Mano"
+	culture = japanese
+}
+1000092136 = {
+	name="Nishibeppu"
+	culture = japanese
+}
+1000092137 = {
+	name="Rinbayashi"
+	culture = japanese
+}
+1000092138 = {
+	name="Miso"
+	culture = japanese
+}
+1000092139 = {
+	name="Shouyu"
+	culture = japanese
+}
+1000092140 = {
+	name="Ushikuso" #means cow poop, some people chose really weird surnames
+	culture = japanese
+}
+1000092141 = {
+	name="Umajiri" #means horse butt, some people chose really weird surnames
+	culture = japanese
+}
+1000092142 = {
+	name="Asano"
+	culture = japanese
+}	
+1000092143 = {
+	name="Akiyama"
+	culture = japanese
+}
+1000092144 = {
+	name="Date"
+	culture = japanese
+}
+1000092145 = {
+	name="Hatakeyama"
+	culture = japanese
+}
+1000092146 = {
+	name="Hojo"
+	culture = japanese
+}
+1000092147 = {
+	name="Honma"
+	culture = japanese
+}
+1000092148 = {
+	name="Ii"
+	culture = japanese
+}
+1000092149 = {
+	name="Imagawa"
+	culture = japanese
+}
+1000092150 = {
+	name="Ito"
+	culture = japanese
+}
+1000092151 = {
+	name="Koga"
+	culture = japanese
+}
+1000092152 = {
+	name="Maeda"
+	culture = japanese
+}	
+1000092153 = {
+	name="Mori"
+	culture = japanese
+}
+1000092154 = {
+	name="Nagao"
+	culture = japanese
+}
+1000092155 = {
+	name="Ota"
+	culture = japanese
+}
+1000092156 = {
+	name="Otomo"
+	culture = japanese
+}
+1000092157 = {
+	name="Saito"
+	culture = japanese
+}
+1000092158 = {
+	name="Sakai"
+	culture = japanese
+}
+1000092159 = {
+	name="Sasaki"
+	culture = japanese
+}
+1000092160 = {
+	name="Shimazu"
+	culture = japanese
+}
+1000092161 = {
+	name="Takeda"
+	culture = japanese
+}
+1000092162 = {
+	name="Tanegashima"
+	culture = japanese
+}	
+1000092163 = {
+	name="Uesugi"
+	culture = japanese
+}
+1000092164 = {
+	name="Watanabe"
+	culture = japanese
+}
+1000092165 = {
+	name="Yuki"
+	culture = japanese
+}
+1000092166 = {
+	name="Soga"
+	culture = japanese
+}
+1000092167 = {
+	name="Hata"
+	culture = japanese
+}
+1000092168 = {
+	name="Ouchi"
+	culture = japanese
+}
+1000092169 = {
+	name="Chosokabe"
+	culture = japanese
+}
+###
+###
+###
+1000092190 = {
+	name="Cao"
+	culture = vietnamese
+}
+1000092191 = {
+	name="Truong"
+	culture = vietnamese
+}
+1000092192 = {
+	name="Bao"
+	culture = vietnamese
+}	
+1000092193 = {
+	name="Vo"
+	culture = vietnamese
+}
+1000092194 = {
+	name="Pho"
+	culture = vietnamese
+}
+1000092195 = {
+	name="Mac"
+	culture = vietnamese
+}
+1000092196 = {
+	name="Hong"
+	culture = vietnamese
+}
+1000092197 = {
+	name="Thuc"
+	culture = vietnamese
+}
+1000092198 = {
+	name="Trieu"
+	culture = vietnamese
+}
+1000092199 = {
+	name="Mai"
+	culture = vietnamese
+}
+###
+###
+###
+1000092480 = {
+	name="Cu"
+	culture = han 
+}
+1000092481 = {
+	name="Yi"
+	culture = han 
+}
+1000092482 = {
+	name="Ling"
+	culture = han 
+}
+1000092483 = {
+	name="Miao"
+	culture = han 
+}
+1000092484 = {
+	name="Xiao"
+	culture = han 
+}
+1000092485 = {
+	name="Liu"
+	culture = han 
+}
+1000092486 = {
+	name="Wang"
+	culture = han 
+}
+1000092487 = {
+	name="Zhang"
+	culture = han 
+}
+1000092488 = {
+	name="Li"
+	culture = han 
+}
+1000092489 = {
+	name="Zhou"
+	culture = han 
+}
+1000092490 = {
+	name="Huang"
+	culture = han 
+}
+1000092491 = {
+	name="Lu"
+	culture = han 
+}
+1000092492 = {
+	name="Chang"
+	culture = han 
+}
+1000092493 = {
+	name="Zhao"
+	culture = han 
+}
+1000092494 = {
+	name="Chan"
+	culture = han 
+}
+1000092495 = {
+	name="Meng"
+	culture = han 
+}
+1000092496 = {
+	name="Yuan"
+	culture = han 
+}
+1000092497 = {
+	name="Mo"
+	culture = han 
+}
+1000092498 = {
+	name="Wu"
+	culture = han 
+}
+1000092499 = {
+	name="Yang"
+	culture = han 
+}
+###
+###
+###
+#Ano Hana - goddamn long-named Japanese media
+1000092580 = {
+	name="Yadomi"
+	culture = japanese
+}
+1000092581 = {
+	name="Honma"
+	culture = japanese
+}
+1000092582 = {
+	name="Anjou"
+	culture = japanese
+}
+1000092583 = {
+	name="Matsuyuki"
+	culture = japanese
+}
+1000092584 = {
+	name="Tsurumi"
+	culture = japanese
+}
+1000092585 = {
+	name="Hisakawa"
+	culture = japanese
+}
+# Usagi Drop - recommended for those with maturer tastes
+1000092586 = {
+	name="Kawachi"
+	culture = japanese
+}
+1000092587 = {
+	name="Kaga"
+	culture = japanese
+}
+1000092588 = {
+	name="Nitani"
+	culture = japanese
+}
+#Skaamiamamammaachi Apollon - I'm running out of ideas, I know
+1000092589 = {
+	name="Nishimi"
+	culture = japanese
+}
+1000092590 = {
+	name="Kawabuchi"
+	culture = japanese
+}
+1000092591 = {
+	name="Mukae"
+	culture = japanese
+}
+1000092592 = {
+	name="Katsuragi"
+	culture = japanese
+}
+1000092593 = {
+	name="Fukahori"
+	culture = japanese
+}
+1000092594 = {
+	name="Maruo"
+	culture = japanese
+}
+1000092595 = {
+	name="Matsuoka"
+	culture = japanese
+}
+#More best girls
+1000092596 = {
+	name="Senjougahara"
+	culture = japanese
+}
+1000092597 = {
+	name="Kaiki"
+	culture = japanese
+}
+1000092598 = {
+	name="Tsubasa"
+	culture = japanese
+}
+1000092599 = {
+	name="Araragi"
+	culture = japanese
+}
+###
+###
+###

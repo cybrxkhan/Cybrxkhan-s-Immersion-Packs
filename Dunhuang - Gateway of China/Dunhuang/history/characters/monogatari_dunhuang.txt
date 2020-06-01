@@ -1,0 +1,6950 @@
+###############################################
+#
+# 
+# 100015907-1000160xx
+#
+#
+###############################################
+
+#Cao Wancheng was a real person and likely a member of the Cao clan in Dunhuang, but uncertain relationship with Cao Yijin
+#He was an official of Zhang Huaishen (?) who was sent to the Tang court (?) around the time of the Huang Chao uprising c.880
+100015907 = {
+	name="Wancheng"
+	dynasty=1055036
+	religion="buddhist"
+	culture="han"
+	father=100015908
+	mother=100016296
+	trait=sympathy_zoroastrianism
+	trait=sympathy_islam
+	trait=sympathy_christendom
+	trait=charismatic_negotiator
+	838.4.13={
+		birth=yes
+	}
+	864.1.1={
+		add_spouse = 100015911
+	}
+	909.9.11 = {
+		death=yes
+	}
+}
+#Cao Yijin's fictional grandfather
+100015908 = {
+	name="Huigong"
+	dynasty=1055036
+	religion="buddhist"
+	culture="han"
+	father=100015909
+	trait=sympathy_zoroastrianism
+	trait=sympathy_islam
+	trait=sympathy_christendom
+	808.2.7={
+		birth=yes
+	}
+	833.1.1={
+		add_spouse = 100016296
+	}
+	870.2.22 = {
+		death=yes
+	}
+}
+#Cao Yijin's fictional great-grandfather
+100015909 = {
+	name="Puluo"
+	dynasty=1055036
+	religion="buddhist"
+	culture="han"
+	father=100015910
+	trait=sympathy_zoroastrianism
+	trait=sympathy_islam
+	trait=sympathy_christendom
+	772.3.19={
+		birth=yes
+	}
+	825.6.12 = {
+		death=yes
+	}
+}
+#Cao Yijin's fictional great-great-grandfather
+100015910 = {
+	name="Shiyuan"
+	dynasty=1055036
+	religion="buddhist"
+	culture="han"
+	trait=sympathy_zoroastrianism
+	trait=sympathy_islam
+	trait=sympathy_christendom
+	father=100015912
+	748.4.15={
+		birth=yes
+		#create_bloodline = {
+		#	type = cao_cao_bloodline
+		#	has_dlc = "Holy Fury"
+		#}
+	}
+	769.1.1 = {
+		add_spouse = 100016317
+	}
+	825.6.29 = {
+		death=yes
+	}
+}
+#Cao Yijin's mother, real name unknown - member of the Yin family, not sure how connected, but made to be Wentong's daughter, given Wentong's role in overthrowing Tibetan rule
+100015911 = {
+	name="Fangyu"
+	dynasty=1000088600
+	female = yes
+	religion="buddhist"
+	culture="han"
+	trait=sympathy_zoroastrianism
+	trait=sympathy_islam
+	trait=sympathy_christendom
+	father=100016182
+	mother=100016315
+	845.4.12={
+		birth=yes
+	}
+	910.5.12 = {
+		death=yes
+	}
+}
+#Cao Yijin's fictional great-great-great-grandfather
+100015912 = {
+	name="Youming"
+	dynasty=1055036
+	religion="buddhist"
+	culture="han"
+	trait=sympathy_zoroastrianism
+	trait=sympathy_islam
+	trait=sympathy_christendom
+	720.2.28={
+		birth=yes
+	}
+	767.5.3 = {
+		death=yes
+	}
+}
+#Cao Yijin's fictional great-great-granduncle
+100015994 = {
+	name="Shixian"
+	dynasty=1055036
+	religion="buddhist"
+	culture="han"	
+	trait=sympathy_zoroastrianism
+	trait=sympathy_islam
+	trait=sympathy_christendom
+	father=100015912
+	750.7.9={
+		birth=yes
+	}
+	#769.1.1 = {
+	#	add_spouse = 100016317
+	#}
+	819.3.18 = {
+		death=yes
+	}
+}
+#Cao Yijin's fictional uncle
+100015999 = {
+	name="Wanluo"
+	dynasty=1055036
+	religion="buddhist"
+	culture="han"	
+	trait=sympathy_zoroastrianism
+	trait=sympathy_islam
+	trait=sympathy_christendom
+	father=100015908
+	mother=100016296
+	849.2.12={
+		birth=yes
+	}
+	911.4.6 = {
+		death=yes
+	}
+}
+#Cao Yijin's fictional aunt
+100016145 = {
+	name="Chunying"
+	dynasty=1055036
+	female=yes
+	religion="buddhist"
+	culture="han"	
+	trait=sympathy_zoroastrianism
+	trait=sympathy_islam
+	trait=sympathy_christendom
+	father=100015908
+	mother=100016296
+	850.7.8={
+		birth=yes
+	}
+	888.8.8 = {
+		death=yes
+	}
+}
+#Cao Yijin's fictional great-great-grandaunt
+100016146 = {
+	name="Anning"
+	dynasty=1055036
+	female=yes
+	religion="buddhist"
+	culture="han"	
+	trait=sympathy_zoroastrianism
+	trait=sympathy_islam
+	trait=sympathy_christendom
+	father=100015912
+	752.3.10={
+		birth=yes
+	}
+	#343.1.1 = {
+	#	add_spouse = 100015921
+	#}
+	818.2.4 = {
+		death=yes
+	}
+}
+#Cao Yijin's fictional grandaunt, Zhang Yichao's wife (can't find source on his actual wife, added here to ensure closer bonds between Cao and Zhang families)
+100016148 = {
+	name="Anning"
+	dynasty=1055036
+	female=yes
+	religion="buddhist"
+	culture="han"
+	father=100015909
+	802.5.23={
+		birth=yes
+	}
+	824.1.1 = {
+		add_spouse = 206811
+	}
+	879.3.30 = {
+		death=yes
+	}
+}
+#Cao Yijin's fictional aunt, Zhang Yichao's daughter-in-law (added here to ensure closer bonds between Cao and Zhang families)
+100016360 = {
+	name="Anning"
+	dynasty=1055036
+	female=yes
+	religion="buddhist"
+	culture="han"
+	father=100015908
+	mother=100016296
+	trait=sympathy_zoroastrianism
+	trait=sympathy_islam
+	trait=sympathy_christendom
+	840.2.16={
+		birth=yes
+	}
+	877.1.9 = {
+		death=yes
+	}
+}
+# Cao Yijin's Uighur wife - "Guomu" is a title meaning "Mother of the Country," couldn't find her real name
+# Likely mother of Cao Yijin's three daughters, although he also had Chinese wives
+100016363 = { 
+	name="Guomu"
+	#dynasty=1000088680
+	female=yes
+	religion="buddhist"
+	culture="uyghur"
+	874.1.1={ #Unknown - to keep consistency
+		birth=yes
+	}
+	889.1.1={
+		add_spouse=1059714
+	}
+	955.1.1 = { #Unknown - lived for many years into Cao Yuanzhong's reign and had much power
+		death=yes
+	}
+}
+# Cao Yijin's daughter - fictitious, but to represent Zhang Huaiqing's marriage into the Cao
+100016304 = {
+	name="Qiumei"
+	dynasty=1055036
+	female=yes
+	religion="buddhist"
+	culture="han"
+	father=1059714
+	mother=100016363
+	913.5.2={ # Unknown
+		birth=yes
+	}
+	967.9.16 = { # Unknown
+		death=yes
+	}
+}
+# Monk of the Cao clan, unknown his exact relationship with them - succeeds the famed Tibetan monk Facheng, his master, as lecturer on the scriptures at the Kaiyuan Temple in Shazhou in 867 - made him Cao Yijin's granduncle
+100016374 = {
+	name="Fajing"
+	dynasty=1055036
+	religion="buddhist"
+	culture="han"
+	father=100015909
+	trait=mastermind_theologian
+	trait=bhikkhu
+	trait=celibate
+	trait=sympathy_zoroastrianism
+	trait=sympathy_islam
+	trait=sympathy_christendom
+	813.5.2={ # Unknown
+		birth=yes
+	}
+	884.9.16 = { # Mention of Cao clan monk official dying in 884, not sure if same as Fajing
+		death=yes
+	}
+}
+
+##########################
+#
+# FORMER LIANG
+# Zhang family - no known relation to Zhang Yichao, therefore made into a separate dynasty
+#
+##########################
+
+
+100015913 = { # Jin Dynasty official
+	name="Gui"
+	dynasty=1000088618
+	religion="taoist"
+	culture="han"
+	255.1.1={
+		birth=yes
+	}
+	314.1.1 = {
+		death=yes
+	}
+}
+100015914 = { # Declared Liang an independent regional state, nominally loyal to Jin
+	name="Shi"
+	dynasty=1000088618
+	religion="taoist"
+	culture="han"
+	father=100015913
+	275.1.1={ #Unknown
+		birth=yes
+	}
+	320.1.1 = {
+		death=yes
+	}
+}
+100015915 = { 
+	name="Mao"
+	dynasty=1000088618
+	religion="taoist"
+	culture="han"
+	father=100015913
+	trait=ambitious
+	trait=humble
+	trait=brave
+	trait=diligent
+	277.1.1={
+		birth=yes
+	}
+	324.1.1 = {
+		death=yes
+	}
+}
+100015916 = { 
+	name="Jun"
+	dynasty=1000088618
+	religion="taoist"
+	culture="han"
+	father=100015914
+	307.1.1={
+		birth=yes
+	}
+	323.1.1 = {
+		add_spouse = 100015917
+	}
+	324.1.1 = {
+			effect = { ROOT = { add_consort = 100015918 } }
+	}
+	325.1.1 = {
+			effect = { ROOT = { add_consort = 100015919 } }
+	}
+	346.1.1 = {
+		death=yes
+	}
+}
+100015917 = { 
+	name="Anmei" #Lady Yan, real name unknown
+	dynasty=1000088616
+	female = yes
+	religion="taoist"
+	culture="han"
+	307.1.1={ #Unknown
+		birth=yes
+	}
+	352.1.1 = { #Unknown
+		death=yes
+	}
+}
+100015918 = { 
+	name="Feiyang" #Lady Ma, real name unknown
+	dynasty=1000088615
+	female = yes
+	religion="taoist"
+	culture="han"
+	308.1.1={ #Unknown
+		birth=yes
+	}
+	352.1.1 = { #Unknown
+		death=yes
+	}
+}
+100015919 = { 
+	name="Xinyi" #Lady Liu, real name unknown
+	dynasty=1000088619
+	female = yes
+	religion="taoist"
+	culture="han"
+	322.1.1={ #Unknown
+		birth=yes
+	}
+	352.1.1 = { #Unknown
+		death=yes
+	}
+}
+100015920 = { 
+	name="Chonghua"
+	dynasty=1000088618
+	religion="taoist"
+	culture="han"
+	father=100015916
+	mother=100015918
+	trait=gamer
+	trait=lustful
+	trait=trusting
+	trait=charitable
+	trait=slothful
+	trait=child_of_consort
+	327.1.1={
+		birth=yes
+	}
+	343.1.1 = {
+		add_spouse = 100015921
+	}
+	345.1.1 = {
+			effect = { ROOT = { add_consort = 100015922 } }
+	}
+	353.1.1 = {
+		death=yes
+	}
+}
+100015921 = { 
+	name="Li" #Princess Pei, real name unknown
+	dynasty=1000088613
+	female = yes
+	religion="taoist"
+	culture="han"
+	325.1.1={ #Unknown
+		birth=yes
+	}
+	354.1.1 = { #Unknown
+		death=yes
+	}
+}
+100015922 = { 
+	name="Ximing" #Lady Guo, real name unknown
+	dynasty=1000088612
+	female = yes
+	religion="taoist"
+	culture="han"
+	328.1.1={ #Unknown
+		birth=yes
+	}
+	363.1.1 = { #Unknown
+		death=yes
+	}
+}
+100015923 = { 
+	name="Yaoling"
+	dynasty=1000088618
+	religion="taoist"
+	culture="han"
+	father=100015920
+	mother=100015921
+	344.1.1={
+		birth=yes
+	}
+	355.1.1 = {
+		death=yes
+	}
+}
+100015924 = { 
+	name="Xuanjing"
+	dynasty=1000088618
+	religion="taoist"
+	culture="han"
+	father=100015920
+	mother=100015922
+	trait=child_of_consort
+	350.1.1={
+		birth=yes
+	}
+	363.1.1 = {
+		death=yes
+	}
+}
+100015925 = { 
+	name="Zuo"
+	dynasty=1000088618
+	religion="taoist"
+	culture="han"
+	father=100015916
+	mother=100015917
+	trait=ambitious
+	trait=deceitful
+	trait=cruel
+	trait=greedy
+	trait=lustful #banged his nieces like a true CK2 lord
+	324.1.1={
+		birth=yes
+	}
+	340.1.1 = {
+		add_spouse = 100015926
+	}
+	355.1.1 = {
+		death=yes
+	}
+}
+100015926 = { 
+	name="Jinping" #Princess Xin, real name unknown
+	dynasty=1000088614
+	female = yes
+	religion="taoist"
+	culture="han"
+	324.1.1={ #Unknown
+		birth=yes
+	}
+	355.1.1 = { #Unknown
+		death=yes
+	}
+}
+100015927 = { 
+	name="Taihe"
+	dynasty=1000088618
+	religion="taoist"
+	culture="han"
+	father=100015925
+	mother=100015926
+	341.1.1={ #Unknown
+		birth=yes
+	}
+	355.1.1 = {
+		death=yes
+	}
+}
+100015928 = { 
+	name="Tingjian"
+	dynasty=1000088618
+	religion="taoist"
+	culture="han"
+	father=100015925
+	mother=100015926
+	343.1.1={ #Unknown
+		birth=yes
+	}
+	355.1.1 = {
+		death=yes
+	}
+}
+100015929 = { 
+	name="Tianxi"
+	dynasty=1000088618
+	religion="taoist"
+	culture="han"
+	father=100015916
+	mother=100015919
+	trait=poet
+	trait=arbitrary
+	trait=cruel
+	trait=lustful
+	trait=erudite
+	trait=child_of_consort
+	346.1.1={
+		birth=yes
+	}
+	364.1.1 = {
+			effect = { ROOT = { add_consort = 100015922 } }
+	}
+	406.1.1 = {
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100015930 = { 
+	name="Yu" #Consort Jiao, real name unknown
+	dynasty=1000088618
+	female = yes
+	religion="taoist"
+	culture="han"
+	348.1.1={ #Unknown
+		birth=yes
+	}
+	426.1.1 = { #Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100015931 = { 
+	name="Dahuai"
+	dynasty=1000088618
+	religion="taoist"
+	culture="han"
+	father=100015929
+	#Mother unknown
+	366.1.1={ #Unknown
+		birth=yes
+	}
+	419.1.1 = { #Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100015932 = { 
+	name="Dayu"
+	dynasty=1000088618
+	religion="taoist"
+	culture="han"
+	father=100015929
+	mother=100015930
+	trait=child_of_consort
+	367.1.1={ #Unknown
+		birth=yes
+	}
+	387.1.1 = {
+		death=yes
+	}
+}
+
+
+##########################
+#
+# LATER LIANG
+# Lü family - of Di ethnicity (who are possibly ancestors of the modern-day Baima)
+#
+##########################
+
+
+100015933 = { # Former Qin minister
+	name="Polou"
+	dynasty=1000088652
+	religion="taoist"
+	culture="di"
+	302.1.1={ #Unknown
+		birth=yes
+	}
+	363.1.1 = { #Unknown
+		death=yes
+	}
+}
+100015934 = { # Founder
+	name="Guang"
+	dynasty=1000088652
+	religion="taoist"
+	culture="di"
+	father=100015933
+	trait=tough_soldier
+	trait=hunter
+	trait=brave
+	trait=ambitious
+	trait=stubborn
+	trait=cruel
+	337.1.1={
+		birth=yes
+	}
+	368.1.1={
+		add_spouse = 100015935
+	}
+	400.1.1 = {
+		death=yes
+	}
+}
+100015935 = {
+	name="Weili" # Consort Shi, real name unknown
+	dynasty=1000088655
+	female = yes
+	religion="taoist"
+	culture="di"
+	350.1.1={
+		birth=yes
+	}
+	394.1.1 = { # Unknown but likely before 396
+		death=yes
+	}
+}
+100015936 = {
+	name="Shao"
+	dynasty=1000088652
+	religion="taoist"
+	culture="di"
+	father=100015934
+	mother=100015935
+	trait=misguided_warrior
+	trait=dull
+	382.1.1={ # Unknown, but not 19 as of 400
+		birth=yes
+	}
+	399.1.1={
+		add_spouse = 100015937
+	}
+	400.2.1 = {
+		death=yes
+	}
+}
+100015937 = {
+	name="Ming" # Lady Zhang, real name unknown
+	dynasty=1000088656
+	female = yes
+	religion="buddhist"
+	culture="di"
+	trait=fair
+	trait=kind
+	trait=chaste
+	trait=humble
+	trait=patient
+	trait=bhikkhuni # Became a nun after husband's death
+	386.1.1={
+		birth=yes
+	}
+	406.1.1 = { # Committed suicide after Lu Long tried to take her for himself following Lu Shao's death
+		death=yes
+	}
+}
+100015938 = {
+	name="Zuan"
+	dynasty=1000088652
+	religion="taoist"
+	culture="di"
+	father=100015934
+	trait=skilled_tactician
+	trait=hunter
+	trait=slothful
+	trait=ambitious
+	trait=cruel
+	trait=brave
+	364.1.1={ # Unknown, but older than Shao
+		birth=yes
+	}
+	396.1.1={
+		add_spouse = 100015939
+	}
+	401.1.1 = {
+		death=yes
+	}
+}
+100015939 = {
+	name="Mu" # Lady Yang
+	dynasty=1000088657
+	female = yes
+	religion="taoist"
+	culture="han"
+	father=100015940
+	trait=fair
+	trait=chaste
+	trait=brave
+	trait=cynical
+	trait=diligent
+	378.1.1={ # Unknown
+		birth=yes
+	}
+	401.2.1 = { # Committed suicide after Lu Chao tried to take her for himself following Lu Zuan's death
+		death=yes
+	}
+}
+100015940 = {
+	name="Huan" # Lady Yang's father
+	dynasty=1000088657
+	religion="taoist"
+	culture="han"
+	trait=cynical
+	trait=greedy
+	trait=ambitious
+	350.1.1={ # Unknown
+		birth=yes
+	}
+	415.1.1 = {# Unknown, but after his daughter
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100015941 = {
+	name="Bao"
+	dynasty=1000088652
+	religion="taoist"
+	culture="di"
+	father=100015933
+	344.1.1={ # Unknown
+		birth=yes
+	}
+	364.1.1={
+		add_spouse = 100015942
+	}
+	392.1.1 = {
+		death=yes
+	}
+}
+100015942 = {
+	name="Niwu" #Lady Wei, real name unknown
+	dynasty=1000088658
+	female = yes
+	religion="taoist"
+	culture="di"
+	344.1.1={ # Unknown
+		birth=yes
+	}
+	414.1.1 = { # Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100015943 = {
+	name="Long"
+	dynasty=1000088652
+	religion="taoist"
+	culture="di"
+	father=100015941
+	mother=100015942
+	trait=tough_soldier
+	trait=fair
+	trait=cruel
+	370.1.1={ # Unknown
+		birth=yes
+	}
+	416.1.1 = {
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100015944 = {
+	name="Chao"
+	dynasty=1000088652
+	religion="taoist"
+	culture="di"
+	father=100015941
+	mother=100015942
+	trait=skilled_tactician
+	trait=ambitious
+	trait=brave
+	trait=diligent
+	trait=deceitful
+	374.1.1={ # Unknown
+		birth=yes
+	}
+	416.1.1 = {
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100015945 = {
+	name="Hong"
+	dynasty=1000088652
+	religion="taoist"
+	culture="di"
+	father=100015934
+	370.1.1={ # Unknown, but older than Shao and younger than Zuan
+		birth=yes
+	}
+	400.1.1 = {
+		death=yes
+	}
+}
+100015946 = {
+	name="Wei"
+	dynasty=1000088652
+	religion="taoist"
+	culture="di"
+	father=100015934
+	mother=100015935
+	379.1.1={ # Unknown, but younger than Shao
+		birth=yes
+	}
+	401.1.1 = {
+		death=yes
+	}
+}
+100015947 = {
+	name="Fu"
+	dynasty=1000088652
+	religion="taoist"
+	culture="di"
+	father=100015934
+	mother=100015935
+	383.1.1={ # Unknown, but younger than Shao
+		birth=yes
+	}
+	415.1.1 = { # Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100015948 = {
+	name="Yan"
+	dynasty=1000088652
+	religion="taoist"
+	culture="di"
+	father=100015933
+	347.1.1={
+		birth=yes
+	}
+	397.1.1 = {
+		death=yes
+	}
+}
+
+##########################
+#
+# LATER LIANG
+# Founded by Duan Ye, later taken by Juqu family of Xiongnu ethnicity - last known independent Xiongnu state
+#
+##########################
+
+
+100015949 = {
+	name="Ye"
+	dynasty=1000088617
+	religion="taoist"
+	culture="han"
+	trait=kind
+	trait=diligent
+	trait=humble
+	trait=trusting
+	trait=zealous
+	350.1.1={ # Unknown
+		birth=yes
+	}
+	401.1.1 = {
+		death=yes
+	}
+}
+100015950 = { #Juqu Mengxun's grandfather
+	name="Chuyue" # Real name unknown
+	dynasty=1000088637
+	religion="taoist"
+	culture="xiongnu"
+	307.1.1={ # Unknown
+		birth=yes
+	}
+	366.1.1 = { # Unknown
+		death=yes
+	}
+}
+100015951 = { #Juqu Mengxun's uncle
+	name="Luochou"
+	dynasty=1000088637
+	religion="taoist"
+	culture="xiongnu"
+	father=100015950
+	331.1.1={ # Unknown
+		birth=yes
+	}
+	397.1.1 = {
+		death=yes
+	}
+}
+100015952 = { #Juqu Mengxun's uncle
+	name="Quzhou"
+	dynasty=1000088637
+	religion="taoist"
+	culture="xiongnu"
+	father=100015950
+	349.1.1={ # Unknown
+		birth=yes
+	}
+	397.1.1 = {
+		death=yes
+	}
+}
+100015953 = { #Juqu Mengxun's cousin, real father unknown
+	name="Quzhou"
+	dynasty=1000088637
+	religion="taoist"
+	culture="xiongnu"
+	father=100015951
+	365.1.1={ # Unknown
+		birth=yes
+	}
+	401.1.1 = {
+		death=yes
+	}
+}
+100015954 = { #Juqu Mengxun's father, real name unknown
+	name="Bolai"
+	dynasty=1000088637
+	religion="taoist"
+	culture="xiongnu"
+	father=100015950
+	336.1.1={ # Unknown
+		birth=yes
+	}
+	364.1.1={
+		add_spouse = 100015955
+	}
+	388.1.1 = { # Unknown
+		death=yes
+	}
+}
+100015955 = { #Juqu Mengxun's mother, real name unknown
+	name="Yuelin"
+	dynasty=1000088638
+	female = yes
+	religion="taoist"
+	culture="xiongnu"
+	345.1.1={ # Unknown
+		birth=yes
+	}
+	413.1.1 = {
+		death=yes
+	}
+}
+100015956 = { #Juqu Mengxun's brother
+	name="Ru"
+	dynasty=1000088637
+	religion="taoist"
+	culture="xiongnu"
+	father=100015954
+	mother=100015955
+	370.1.1={ # Unknown
+		birth=yes
+	}
+	431.1.1 = { # Unknown
+		death=yes
+	}
+}
+100015957 = { #Juqu Mengxun
+	name="Mengxun"
+	dynasty=1000088637
+	religion="taoist"
+	culture="xiongnu"
+	father=100015954
+	mother=100015955
+	trait=brilliant_strategist
+	trait=strategist
+	trait=ambitious
+	trait=cruel
+	trait=arbitrary
+	trait=diligent
+	trait=gregarious
+	368.1.1={
+		birth=yes
+	}
+	400.1.1={
+		add_spouse = 100015958
+	}
+	433.1.1 = {
+		death=yes
+	}
+}
+100015958 = { # Princess Meng, real name unknown
+	name="Xuyu"
+	dynasty=1000088639
+	female = yes
+	religion="taoist"
+	culture="xiongnu"
+	trait=brave
+	381.1.1={ # Unknown
+		birth=yes
+	}
+	436.1.1 = { # Unknown
+		death=yes
+	}
+}
+100015959 = {
+	name="Zhengde"
+	dynasty=1000088637
+	religion="taoist"
+	culture="xiongnu"
+	father=100015957
+	trait=skilled_tactician
+	390.1.1={ # Unknown
+		birth=yes
+	}
+	423.1.1 = {
+		death=yes
+	}
+}
+100015960 = {
+	name="Xingguo"
+	dynasty=1000088637
+	religion="taoist"
+	culture="xiongnu"
+	father=100015957
+	mother=100015958
+	402.1.1={ # Unknown
+		birth=yes
+	}
+	431.1.1 = {
+		death=yes
+	}
+}
+100015961 = {
+	name="Puti"
+	dynasty=1000088637
+	religion="taoist"
+	culture="xiongnu"
+	father=100015957
+	mother=100015958
+	420.1.1={ # Unknown, but considered too young to rule in 433 despite being heir apparent for four years
+		birth=yes
+	}
+	448.1.1 = { # Unknown
+		death=yes
+	}
+}
+100015962 = {
+	name="Yide"
+	dynasty=1000088637
+	religion="taoist"
+	culture="xiongnu"
+	father=100015957
+	424.1.1={ # Unknown
+		birth=yes
+	}
+	460.1.1 = { # Unknown
+		death=yes
+	}
+}
+100015963 = {
+	name="Bing"
+	dynasty=1000088637
+	religion="taoist"
+	culture="xiongnu"
+	father=100015957
+	425.1.1={ # Unknown
+		birth=yes
+	}
+	444.1.1 = {
+		death=yes
+	}
+}
+100015964 = {
+	name="Donglai"
+	dynasty=1000088637
+	religion="taoist"
+	culture="xiongnu"
+	father=100015957
+	422.1.1={ # Unknown
+		birth=yes
+	}
+	460.1.1 = { # Unknown
+		death=yes
+	}
+}
+100015965 = {
+	name="Xingping"
+	dynasty=1000088637
+	female=yes
+	religion="taoist"
+	culture="xiongnu"
+	father=100015957
+	428.1.1={ # Unknown
+		birth=yes
+	}
+	447.1.1 = { # Consort to Emperor Taiwu of Northern Wei, forced to commit suicide 
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100015966 = {
+	name="Luyi" # Real name unknown
+	dynasty=1000088637
+	female=yes
+	religion="taoist"
+	culture="xiongnu"
+	father=100015957
+	395.1.1={ # Unknown
+		birth=yes
+	}
+	441.1.1 = { # Unknown
+		death=yes
+	}
+}
+100015967 = {
+	name="Mujian"
+	dynasty=1000088637
+	religion="taoist"
+	culture="xiongnu"
+	father=100015957
+	trait=erudite
+	trait=kind
+	trait=diligent
+	trait=lustful
+	404.1.1={ # Unknown 100015990
+		birth=yes
+	}
+	421.1.1={
+		add_spouse = 100015990
+	}
+	447.1.1 = {
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100015968 = {
+	name="Fengtan"
+	dynasty=1000088637
+	religion="taoist"
+	culture="xiongnu"
+	father=100015967
+	mother=100015990
+	425.1.1={ # Unknown
+		birth=yes
+	}
+	472.1.1 = { # Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100015969 = {
+	name="Wuwei"
+	dynasty=1000088637
+	female=yes
+	religion="taoist"
+	culture="xiongnu"
+	father=100015967
+	mother=100015990
+	430.1.1={ # Unknown
+		birth=yes
+	}
+	475.1.1 = { # Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100015970 = {
+	name="Wuhui"
+	dynasty=1000088637
+	religion="taoist"
+	culture="xiongnu"
+	father=100015957
+	trait=skilled_tactician
+	409.1.1={ # Unknown
+		birth=yes
+	}
+	444.1.1 = {
+		death=yes
+	}
+}
+100016362 = {
+	name="Ganshou"
+	dynasty=1000088637
+	religion="taoist"
+	culture="xiongnu"
+	father=100015970
+	430.1.1={ # Unknown
+		birth=yes
+	}
+	490.1.1 = { # Unknown, but surrendered to Northern Wei
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100015971 = {
+	name="Anzhou"
+	dynasty=1000088637
+	religion="taoist"
+	culture="xiongnu"
+	father=100015957
+	411.1.1={ # Unknown
+		birth=yes
+	}
+	460.1.1 = {
+		death=yes #Killed by Rouruan
+	}
+}
+100015972 = {
+	name="Tang'er"
+	dynasty=1000088637
+	religion="taoist"
+	culture="xiongnu"
+	father=100015956 #Actual father unknown, but he was a cousin of Mujian
+	406.1.1={ # Unknown
+		birth=yes
+	}
+	441.4.1 = {
+		death=yes #Governor of Dunhuang who rebelled against Northern Wei
+	}
+}
+100015973 = {
+	name="Tianzhou"
+	dynasty=1000088637
+	religion="taoist"
+	culture="xiongnu"
+	father=100015953 #Actual father unknown, but he was a cousin of Mujian
+	392.1.1={ # Unknown
+		birth=yes
+	}
+	467.1.1 = {
+		death = { death_reason = death_in_china_historic }
+	}
+}
+
+
+##########################
+#
+# WESTERN LIANG / LONGXI LI
+# Founded by Li Gao, an ancestor of the Tang Emperors who claimed descent from Han General Li Guang and Laozi
+# Other than the Tang Emperors' direct line, these characters are in a different "dynasty" to prevent wonky stuff happening due to sharing the same dynasty with the Tang
+# 
+##########################
+
+100015974 = {
+	name="Chang"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100015995
+	309.1.1={ 
+		birth=yes
+	}
+	350.1.1={
+		add_spouse = 100015976
+	}
+	353.1.1 = {
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100015975 = { #Founder
+	name="Gao"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100015974
+	mother=100015976
+	trait=midas_touched
+	trait=erudite
+	trait=diligent
+	trait=gregarious
+	trait=just
+	351.1.1={ 
+		birth=yes
+	}
+	417.1.1 = {
+		death=yes
+	}
+}
+100015976 = { #Li Gao's mommy, real name unknown
+	name="Yimei"
+	#dynasty=1051150
+	female=yes
+	religion="taoist"
+	culture="han"
+	330.1.1={ 
+		birth=yes
+	}
+	366.1.1 = {
+		death=yes
+	}
+}
+100015977 = { #Li Gao's stepfather, died when Song Yao was five years old
+	name="Yiguan" # Not sure about name, from Google translated source
+	dynasty=1000088604
+	religion="taoist"
+	culture="han"
+	330.1.1={ 
+		birth=yes
+	}
+	355.1.1={
+		add_spouse = 100015976
+	}
+	366.1.1 = {
+		death=yes
+	}
+}
+100015978 = { #Li Gao's half-brother, later Northern Wei official
+	name="Yao"
+	dynasty=1000088604
+	religion="taoist"
+	culture="han"
+	father=100015977
+	mother=100015976
+	trait=scholarly_theologian
+	trait=scholar
+	trait=erudite
+	trait=patient
+	trait=diligent
+	trait=temperate
+	361.1.1={ 
+		birth=yes
+	}
+	439.1.1 = {
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100015979 = { #Yao's fictional son 
+	name="Shi"
+	dynasty=1000088604
+	religion="taoist"
+	culture="han"
+	father=100015978
+	393.1.1={ 
+		birth=yes
+	}
+	451.1.1 = {
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100015980 = { # Member of the elite Song clan in Dunhuang, unknown relationship to Song Yao in reality. May have been the Duke of Dunhuang, but is not mentioned in major historical records. See article here: https://pdfs.semanticscholar.org/8ca1/c656ac01d96b406874240e188b4aef4d5e34.pdf
+	name="Shaozu"
+	dynasty=1000088604
+	religion="taoist"
+	culture="han"
+	father=100015979
+	422.1.1={ # Unknown
+		birth=yes
+	}
+	477.1.1 = {
+		death=yes
+	}
+}
+100015981 = { # Original heir
+	name="Tan"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100015975
+	368.1.1={
+		birth=yes
+	}
+	404.1.1 = {
+		death=yes
+	}
+}
+100015982 = { # Second ruler
+	name="Xin"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100015975
+	trait=tough_soldier
+	trait=cruel
+	trait=stubborn
+	trait=greedy
+	trait=ambitious
+	369.1.1={ # Unknown
+		birth=yes
+	}
+	420.1.1 = {
+		death=yes
+	}
+}
+100015983 = {
+	name="Rang"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100015975
+	372.1.1={ # Unknown
+		birth=yes
+	}
+	415.1.1 = { # Unknown
+		death=yes
+	}
+}
+100015984 = { #Third and last ruler
+	name="Xun"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100015975
+	377.1.1={ # Unknown
+		birth=yes
+	}
+	421.1.1 = {
+		death=yes
+	}
+}
+100015985 = {
+	name="Fan"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100015975
+	379.1.1={ # Unknown
+		birth=yes
+	}
+	421.1.1 = { # Unknown
+		death=yes
+	}
+}
+100015986 = {
+	name="Yu"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100015975
+	385.1.1={ # Unknown
+		birth=yes
+	}
+	421.1.1 = { # Unknown
+		death=yes
+	}
+}
+100015987 = {
+	name="Hong"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100015975
+	389.1.1={ # Unknown
+		birth=yes
+	}
+	421.1.1 = { # Unknown
+		death=yes
+	}
+}
+100015988 = {
+	name="Tiao"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100015975
+	391.1.1={ # Unknown
+		birth=yes
+	}
+	421.1.1 = { # Unknown
+		death=yes
+	}
+}
+100015989 = {
+	name="Liang"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100015975
+	394.1.1={ # Unknown
+		birth=yes
+	}
+	421.1.1 = { # Unknown
+		death=yes
+	}
+}
+100015990 = {
+	name="Jingshou"
+	dynasty=1051150
+	female=yes
+	religion="taoist"
+	culture="han"
+	father=100015975
+	trait=brave
+	400.1.1={ # Unknown
+		birth=yes
+	}
+	437.1.1 = {
+		death=yes
+	}
+}
+100015991 = { # Later official of Liu Song and Northern Wei
+	name="Chong'er"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100015982
+	389.1.1={
+		birth=yes
+	}
+	460.1.1 = {
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100015992 = { # General of Northern Wei
+	name="Xi"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100015991
+	424.1.1={
+		birth=yes
+	}
+	495.1.1 = { # Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100015993 = { # Official of Northern Wei? Father of Li Hu
+	name="Tianci"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100015992
+	460.1.1={
+		birth=yes
+	}
+	522.1.1 = {
+		death = { death_reason = death_in_china_historic }
+	}
+}
+#100015994 moved to Cao family above
+100015995 = {
+	name="Yan"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100015996
+	282.1.1={
+		birth=yes
+	}
+	358.1.1 = {
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100015996 = {
+	name="Rou"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100015997
+	255.1.1={
+		birth=yes
+	}
+	356.1.1 = { #Seems unlikely but hey
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100015997 = {
+	name="Yong"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100015998
+	228.1.1={
+		birth=yes
+	}
+	309.1.1 = {
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100015998 = {
+	name="Ai"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100016000
+	201.1.1={
+		birth=yes
+	}
+	264.1.1 = {
+		death = { death_reason = death_in_china_historic }
+	}
+}
+#100015999 moved to Cao family above
+100016000 = {
+	name="Long"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100016001
+	174.1.1={
+		birth=yes
+	}
+	250.1.1 = {
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016001 = {
+	name="Gui"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100016002
+	147.1.1={
+		birth=yes
+	}
+	201.1.1 = {
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016002 = {
+	name="Cigong"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100016003
+	92.1.1={
+		birth=yes
+	}
+	160.1.1 = {
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016003 = {
+	name="Ben"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100016004
+	65.1.1={
+		birth=yes
+	}
+	139.1.1 = {
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016004 = {
+	name="Junkuang"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100016005
+	38.1.1={
+		birth=yes
+	}
+	111.1.1 = { #Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016005 = { #Birthdate moved 10 years up so father doesn't have a son as a child
+	name="Zhangzong"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100016006
+	20.1.1={
+		birth=yes
+	}
+	82.1.1 = { #Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+#Earliest ancestor of the Longxi Li that can be depicted in-game due to game engine not supporting BCE dates
+#Great-great-grandson of the Han General Li Guang: https://en.wikipedia.org/wiki/Li_Guang
+100016006 = { #Birthdate moved 14 years up because game can't display BCE dates, boo!
+	name="Xian"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	#father=100016004
+	2.1.1={
+		birth=yes
+		#create_bloodline = {
+		#	type = longxi_li_bloodline
+		#	has_dlc = "Holy Fury"
+		#}
+	}
+	75.1.1 = { # Death date moved up so he can die at the right age, was actually 48 CE
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016007 = { # Northern Wei general and governor of Dunhuang
+	name="Bao"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100015985
+	trait=skilled_tactician
+	407.1.1={
+		birth=yes
+	}
+	459.10.15 = {
+		death=yes
+	}
+}
+100016008 = {
+	name="Huaida"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100015985
+	410.1.1={ #Unknown
+		birth=yes
+	}
+	468.1.1 = { #Unknown
+		death=yes
+	}
+}
+100016009 = {
+	name="Cheng"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100016007
+	trait=quick
+	trait=humble
+	trait=just
+	trait=charitable
+	trait=kind
+	431.1.1={
+		birth=yes
+	}
+	475.1.1 = {
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016010 = {
+	name="Fu"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100016007
+	436.1.1={
+		birth=yes
+	}
+	482.1.1 = {
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016011 = {
+	name="Zuo"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100016007
+	440.1.1={ #Unknown
+		birth=yes
+	}
+	501.1.1 = { #Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016012 = {
+	name="Chong"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100016007
+	trait=fair
+	trait=patient
+	trait=humble
+	450.1.1={
+		birth=yes
+	}
+	498.1.1 = {
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016013 = {
+	name="Shao"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100016009
+	453.1.1={
+		birth=yes
+	}
+	524.1.1 = {
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016014 = {
+	name="Yu"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100016013
+	482.1.1={
+		birth=yes
+	}
+	553.1.1 = {
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016015 = { #Fictitious connection to later Li family members to ensure they are connected to the family
+	name="Shiju"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100016014
+	519.1.1={
+		birth=yes
+	}
+	575.1.1 = {
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016016 = {
+	name="Shilin"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100016014
+	520.1.1={ #Unknown
+		birth=yes
+	}
+	545.1.1 = {
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016017 = {
+	name="Jin"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100016013
+	trait=tough_soldier
+	490.1.1={ 
+		birth=yes
+	}
+	528.1.1 = {
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016018 = {
+	name="Chanzhi"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100016017
+	trait=tough_soldier
+	511.1.1={ #Unknown
+		birth=yes
+	}
+	560.1.1 = { #Unknown, but died at age 49
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016019 = {
+	name="Boxian"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100016018
+	trait=quick
+	536.1.1={
+		birth=yes
+	}
+	565.1.1 = {
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016020 = {
+	name="Yuexiang"
+	dynasty=1051150
+	female=yes
+	religion="taoist"
+	culture="han"
+	father=100016018
+	trait=quick
+	535.1.1={
+		birth=yes
+	}
+	618.1.1 = {
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016021 = {
+	name="Qianzhi"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100016017
+	512.1.1={
+		birth=yes
+	}
+	558.8.19 = {
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016022 = {
+	name="Yuanjian"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100016021
+	542.1.1={
+		birth=yes
+	}
+	577.12.4 = {
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016023 = {
+	name="Liunu"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100016022
+	564.1.1={ #Unknown
+		birth=yes
+	}
+	616.1.1 = { #Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016024 = {
+	name="Yong"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100016022
+	566.1.1={
+		birth=yes
+	}
+	577.12.4 = { #Died 11 years old
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016025 = { 
+	name="Fuzi"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100016022
+	569.1.1={ #Unknown
+		birth=yes
+	}
+	610.1.1 = { #Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016026 = {
+	name="Shouzhi"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100016017
+	513.1.1={ #Unknown
+		birth=yes
+	}
+	567.1.1 = { #Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016027 = {
+	name="Lizhi"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100016017
+	trait=skilled_tactician
+	trait=chaste
+	514.1.1={ #Unknown
+		birth=yes
+	}
+	555.7.15 = {
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016028 = { #Second son
+	name="Wuqing"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100016027
+	540.1.1={ #Unknown
+		birth=yes
+	}
+	607.1.1 = { #Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016029 = {
+	name="Xingzhi"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100016017
+	trait=fortune_builder
+	trait=shy
+	trait=humble
+	trait=content
+	trait=erudite
+	524.1.1={ #Unknown
+		birth=yes
+	}
+	596.1.1 = { #Unknown but died at age 72 during the Sui Dynasty before 600, as he was treated by a Sui doctor, Kai Huang, who died in 600
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016030 = {
+	name="Yidao"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100016029
+	566.1.1={ #Unknown
+		birth=yes
+	}
+	621.1.1 = { #Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016031 = { #Involved in Li Mi's rebellion but spared by Tang Taizong? - also has a number of other descendants but they are Tang officials in China, so not listed here
+	name="Xuandao"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100016029
+	trait=patient
+	trait=brave
+	trait=diligent
+	trait=humble
+	577.1.1={ 
+		birth=yes
+	}
+	645.10.10 = {
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016032 = { #Has a bunch of sons named Li Jun-X
+	name="Ningzhi"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100016017
+	trait=scholarly_theologian
+	trait=physician
+	trait=scholar
+	trait=erudite
+	trait=diligent
+	trait=humble
+	trait=brave
+	526.1.1={ #Unknown
+		birth=yes
+	}
+	604.1.1 = { #Unknown but sometime during the Renshou era of Sui
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016033 = {
+	name="Yan"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100016009
+	trait=diligent
+	456.1.1={ #Unknown
+		birth=yes
+	}
+	524.1.1 = { #Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016034 = {
+	name="Deguang"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100016033
+	trait=tough_soldier
+	trait=wroth
+	trait=temperate
+	trait=brave
+	trait=humble
+	488.1.1={ #Unknown
+		birth=yes
+	}
+	544.1.1 = { #Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016035 = {
+	name="Huiyi"
+	dynasty=1051150
+	female=yes
+	religion="taoist"
+	culture="han"
+	father=100016009
+	trait=humble
+	trait=chaste
+	trait=temperate
+	trait=patient
+	463.1.1={ 
+		birth=yes
+	}
+	533.4.21 = { 
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016036 = {
+	name="Qian"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100016009
+	457.1.1={ 
+		birth=yes
+	}
+	533.12.6 = { 
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016037 = {
+	name="Bing"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100016036
+	491.1.1={ 
+		birth=yes
+	}
+	528.5.17 = { 
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016038 = {
+	name="Xiao"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100016036
+	500.1.1={ # Unknown
+		birth=yes
+	}
+	559.1.1 = { # Unknown but died at age 59
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016039 = {
+	name="Xiao"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100016038
+	531.1.1={ # Unknown
+		birth=yes
+	}
+	598.1.1 = { # Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016040 = {
+	name="Zhongju"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100016038
+	540.1.1={ # Unknown
+		birth=yes
+	}
+	611.1.1 = { # Unknown but served as Sui Dynasty magistrate
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016041 = {
+	name="Jiyuan" # Connection to later Li family members is likely, but exact connections portrayed here are fictitious for game purposes 
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100016038
+	545.1.1={ # Unknown
+		birth=yes
+	}
+	617.1.1 = { # Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016042 = {
+	name="Rui"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100016009
+	464.1.1={ 
+		birth=yes
+	}
+	505.12.20 = { 
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016043 = {
+	name="Zhi"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100016042
+	488.1.1={ #Unknown
+		birth=yes
+	}
+	536.1.1 = { #Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016044 = {
+	name="Yanhua"
+	dynasty=1051150
+	female=yes
+	religion="taoist"
+	culture="han"
+	father=100016043
+	512.1.1={
+		birth=yes
+	}
+	541.11.5 = { 
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016045 = {
+	name="Shi"
+	dynasty=1051150
+	female=yes
+	religion="taoist"
+	culture="han"
+	father=100016043
+	519.1.1={ #Unknown
+		birth=yes
+	}
+	587.11.5 = { #Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016046 = { #Fictitious connection to Li Gui to ensure Li Gui is connected to the family
+	name="Yizhen"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100016042
+	501.1.1={ #Unknown, but youngest of several sons who are not shown here other than Zhi
+		birth=yes
+	}
+	570.1.1 = { #Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016047 = {
+	name="Yanshi"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100016012
+	trait=kind
+	trait=patient
+	trait=humble
+	472.1.1={ #Unknown
+		birth=yes
+	}
+	531.1.1 = {
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016048 = {
+	name="Yu"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100016047
+	497.1.1={ #Unknown
+		birth=yes
+	}
+	557.1.1 = { #Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016049 = { #First son
+	name="Daoduan"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100016048
+	517.1.1={ #Unknown
+		birth=yes
+	}
+	588.1.1 = { #Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016050 = { #Fourth son
+	name="Yixiong"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100016048
+	523.1.1={ #Unknown
+		birth=yes
+	}
+	571.1.1 = { #Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016051 = { #Fifth son, married sister of Yang Jian, founder of Sui
+	name="Licheng"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100016048
+	trait=skilled_tactician
+	trait=scholar
+	trait=patient
+	trait=erudite
+	trait=brave
+	trait=temperate
+	528.1.1={
+		birth=yes
+	}
+	558.1.1={ #Unknown
+		add_spouse = 100016054
+	}
+	590.1.1 = { #Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016052 = { #Sixth son
+	name="Zhiyuan"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100016048
+	529.1.1={
+		birth=yes
+	}
+	575.4.16 = {
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016053 = { #Seventh son
+	name="Xinze"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100016048
+	trait=groomed
+	trait=paranoid
+	trait=temperate
+	trait=patient
+	trait=humble
+	533.1.1={ #Unknown
+		birth=yes
+	}
+	600.1.1 = { #Unknown, but during Kaihuang era of Sui Dynasty (581-600)
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016054 = { #Li Licheng's wife, sister of Yang Jian the founder of Sui, real name unknown
+	name="Anqing"
+	dynasty=105837 # Yang - ruling Sui dynasty
+	female=yes
+	religion="taoist"
+	culture="han"
+	father = 247730 #Yang Zhong, Duke of Sui
+	mother = 247732 #Lü Gutao
+	540.1.1={ #Unknown
+		birth=yes
+	}
+	611.1.1 = { #Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016055 = {
+	name="Shishi"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100016051
+	mother=100016054
+	560.1.1={ #Unknown
+		birth=yes
+	}
+	625.1.1 = { #Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016056 = {
+	name="Shiliang"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100016051
+	mother=100016054
+	566.1.1={ #Unknown
+		birth=yes
+	}
+	624.1.1 = { #Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016057 = {
+	name="Minsu"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100016052
+	551.1.1={ #Unknown
+		birth=yes
+	}
+	563.1.1 = { #Unknown, died age 12
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016058 = {
+	name="Minfan"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100016052
+	552.1.1={ #Unknown
+		birth=yes
+	}
+	637.1.1 = { #Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016361 = {
+	name="Minqi" #Real name unknown
+	dynasty=1051150
+	female=yes
+	religion="taoist"
+	culture="han"
+	father=100016052
+	553.1.1={ #Unknown
+		birth=yes
+	}
+	636.1.1 = { #Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016059 = {
+	name="Minya"
+	dynasty=1051150
+	female=yes
+	religion="taoist"
+	culture="han"
+	father=100016052
+	556.1.1={ #Unknown
+		birth=yes
+	}
+	625.1.1 = { #Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016060 = {
+	name="Minying"
+	dynasty=1051150
+	female=yes
+	religion="taoist"
+	culture="han"
+	father=100016052
+	559.1.1={ #Unknown
+		birth=yes
+	}
+	610.1.1 = { #Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016061 = {
+	name="Minling"
+	dynasty=1051150
+	female=yes
+	religion="taoist"
+	culture="han"
+	father=100016052
+	566.1.1={ #Unknown
+		birth=yes
+	}
+	639.1.1 = { #Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016062 = {
+	name="Bin"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100016047
+	trait=tough_soldier
+	505.1.1={ #Unknown
+		birth=yes
+	}
+	548.1.1 = {
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016063 = {
+	name="Taozhang"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100016062
+	539.1.1={
+		birth=yes
+	}
+	557.7.13 = {
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016064 = {
+	name="Zhang"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100016047
+	trait=tough_soldier
+	510.1.1={
+		birth=yes
+	}
+	531.1.1 = {
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016065 = {
+	name="Shi"
+	dynasty=1051150
+	female=yes
+	religion="taoist"
+	culture="han"
+	father=100016047
+	trait=tough_soldier
+	503.1.1={ #Unknown
+		birth=yes
+	}
+	567.1.1 = { #Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016066 = {
+	name="Xiuzuan"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100016012
+	482.1.1={ #Unknown
+		birth=yes
+	}
+	519.1.1 = { #Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016067 = {
+	name="Ang"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100016066
+	501.1.1={ #Unknown
+		birth=yes
+	}
+	548.1.1 = { #Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016068 = {
+	name="Yankao"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100016012
+	492.1.1={ #Unknown
+		birth=yes
+	}
+	528.5.17 = { #Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016069 = {
+	name="Changchun"
+	dynasty=1051150
+	female=yes
+	religion="taoist"
+	culture="han"
+	father=100016012
+	474.1.1={ #Unknown
+		birth=yes
+	}
+	528.5.17 = { #Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016070 = {
+	name="Zhongyu"
+	dynasty=1051150
+	female=yes
+	religion="taoist"
+	culture="han"
+	father=100016012
+	476.1.1={ #Unknown
+		birth=yes
+	}
+	528.5.17 = { #Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016071 = {
+	name="Lingqi"
+	dynasty=1051150
+	female=yes
+	religion="taoist"
+	culture="han"
+	father=100016012
+	481.1.1={ #Unknown
+		birth=yes
+	}
+	528.5.17 = { #Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016072 = {
+	name="Yuanhua"
+	dynasty=1051150
+	female=yes
+	religion="taoist"
+	culture="han"
+	father=100016012
+	483.1.1={ 
+		birth=yes
+	}
+	524.1.22 = { 
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016073 = {
+	name="Zhihua"
+	dynasty=1051150
+	female=yes
+	religion="taoist"
+	culture="han"
+	father=100016012
+	498.1.1={ 
+		birth=yes
+	}
+	564.1.1 = { 
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016074 = {
+	name="Kang"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100015985
+	418.1.1={ #Unknown
+		birth=yes
+	}
+	500.1.1 = { #Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016075 = {
+	name="Qin"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100015985
+	419.1.1={ #Unknown
+		birth=yes
+	}
+	472.1.1 = { #Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016076 = {
+	name="Simu"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100015985
+	418.1.1={ #Unknown
+		birth=yes
+	}
+	500.1.1 = { #Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016077 = {
+	name="Bin"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100016076
+	459.1.1={ #Unknown
+		birth=yes
+	}
+	516.1.1 = { #Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016078 = {
+	name="Jiang" 
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100016076
+	467.1.1={ #Unknown
+		birth=yes
+	}
+	536.1.1 = { #Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016079 = {
+	name="Gui" #Not the same as Li Gui who founded the state of Liang at the end of the Sui Dynasty
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100016078
+	511.1.1={ #Unknown
+		birth=yes
+	}
+	570.1.1 = { #Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016080 = {
+	name="Junzhi"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100016032
+	551.1.1={ #Unknown
+		birth=yes
+	}
+	619.1.1 = { #Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016081 = {
+	name="Junfan"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100016032
+	554.1.1={ #Unknown
+		birth=yes
+	}
+	625.1.1 = { #Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016082 = {
+	name="Junche"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100016032
+	556.1.1={ #Unknown
+		birth=yes
+	}
+	591.1.1 = { #Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016083 = {
+	name="Junke"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100016032
+	559.1.1={ #Unknown
+		birth=yes
+	}
+	617.1.1 = { #Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016084 = {
+	name="Junyi"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100016032
+	566.1.1={ #Unknown
+		birth=yes
+	}
+	634.1.1 = { #Unknown, but served as a magistrate in Yanliang during the Tang dynasty, so must have lived to at least the 620s
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016085 = {
+	name="Junde"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100016032
+	568.1.1={ #Unknown
+		birth=yes
+	}
+	610.1.1 = { #Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016086 = {
+	name="Junping"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100016032
+	572.1.1={ #Unknown
+		birth=yes
+	}
+	647.1.1 = { #Unknown, but lived to the Tang Dynasty
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016087 = { #Fictitious character to connect Li Yun below to the family tree
+	name="Hong"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100016079
+	546.1.1={ 
+		birth=yes
+	}
+	602.1.1 = { 
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016088 = { #One of Li Gui's main subordinates; unknown if related to the Longxi Li but given they're based in Dunhuang, it's very likely
+	name="Yun"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100016087
+	575.1.1={ #Unknown
+		birth=yes
+	}
+	619.6.29 = { #Unknown if survived
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016089 = { #Fictitious character to connect Li Gui below to the family tree
+	name="Chenhao"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100016046
+	533.1.1={ #Unknown
+		birth=yes
+	}
+	602.1.1 = { #Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016090 = { # Li Gui - actual connection uncertain
+	name="Gui"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100016089
+	trait=skilled_tactician
+	trait=scholar
+	trait=charitable
+	trait=just
+	trait=erudite
+	trait=trusting
+	trait=zealous
+	576.1.1={ #Unknown
+		birth=yes
+	}
+	619.6.29 = {
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016091 = { # Li Gui's elder son
+	name="Boyu"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100016090
+	598.1.1={ #Unknown
+		birth=yes
+	}
+	619.6.29 = {
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016092 = { # Li Gui's younger son
+	name="Zhongyan"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100016090
+	599.1.1={ #Unknown
+		birth=yes
+	}
+	619.6.29 = {
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016093 = { # Li Gui's brother
+	name="Mao"
+	dynasty=1051150
+	religion="taoist"
+	culture="han"
+	father=100016089
+	582.1.1={ #Unknown
+		birth=yes
+	}
+	619.6.29 = {
+		death = { death_reason = death_in_china_historic }
+	}
+}
+
+
+# Below is a separate branch of the Li's who dubiously claimed descent from Li Ling, which is highly unlikely, but whatever. 
+# They are NOT the same dynasty as the Longxi Li in-game to prevent weird behavior.
+# Li Ling was a grandson of Li Guang, who also served as a Han general. He was captured by the Xiongnu and remained with them. 
+# Supposedly, 12 generations later, Li Ling's descendant Li Fu "returned" to China, speficially to Gansu. They're depicted as Mongol early on as a nod to their northern nomad origin.
+# However, in reality their ethnic identity would have been multifaceted and complex. See here for a paper on Li Fu great-grandson's Li Xian's tomb, which briefly touches this issue: http://d-scholarship.pitt.edu/7381/1/WUJuiman_etdPitt2010.pdf
+
+
+100016094 = { # Helped the first Tuoba/Northern Wei Emperor, Taiwu, establish his empire
+	name="Fu"
+	dynasty=1000088605
+	religion="taoist"
+	culture="mongol" 
+	#father=100015984
+	trait=brilliant_strategist
+	401.1.1={ #Unknown
+		birth=yes
+		culture="han"
+	}
+	479.1.1 = { #Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016095 = { # Continued serving under Tuoba Wei like father
+	name="Bin"
+	dynasty=1000088605
+	religion="taoist"
+	culture="mongol"
+	father=100016094
+	trait=skilled_tactician
+	434.1.1={ #Unknown
+		birth=yes
+		culture="han"
+	}
+	501.1.1 = { #Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016096 = { # Died when Li Xian was 14 years old (517)
+	name="Wenbao"
+	dynasty=1000088605
+	religion="taoist"
+	culture="mongol"
+	father=100016095
+	482.1.1={ #Unknown
+		birth=yes
+		culture="han"
+	}
+	517.1.1 = {
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016097 = { # General Li Xian - has a pretty nifty tomb in Gansu. Also very close to the ruling Tuoba Wei family, for instance he and his wife raised two Tuoba princes themselves
+	name="Xian"
+	dynasty=1000088605
+	religion="taoist"
+	culture="han"
+	father=100016096
+	trait=brilliant_strategist
+	trait=shrewd	 	# Father died when young, worked to come to the top
+	trait=ambitious 	# Father died when young, worked to come to the top
+	trait=diligent 		# Father died when young, worked to come to the top
+	trait=proud 		# Descent claim from Li Ling
+	trait=erudite 		# Strong Confucianist, told Emperor to adopt more Confucian approach
+	503.1.1={
+		birth=yes
+	}
+	569.1.1 = {
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016098 = { # Li Yuan - committed suicide due to some sort of scandal or political intrigue sparked by his son, Li Zhi
+	name="Yuan"
+	dynasty=1000088605
+	religion="taoist"
+	culture="han"
+	father=100016096
+	507.1.1={
+		birth=yes
+	}
+	557.1.1 = {
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016099 = { # Li Mu - Li Xuan's younger brother, and ancestor the later characters in Dunhuang, including Li Mingzhen; played a role in the founding of the Sui
+	name="Mu"
+	dynasty=1000088605
+	religion="taoist"
+	culture="han"
+	father=100016096
+	trait=skilled_tactician
+	trait=quick
+	trait=brave
+	trait=humble
+	trait=kind
+	trait=just
+	510.1.1={
+		birth=yes
+	}
+	586.9.1 = {
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016100 = { # General Li Duan, Li Xian's eldest son
+	name="Duan"
+	dynasty=1000088605
+	religion="taoist"
+	culture="han"
+	father=100016097
+	trait=skilled_tactician
+	530.1.1={ # Unknown
+		birth=yes
+	}
+	577.1.1 = {
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016101 = { # General Li Ji
+	name="Ji"
+	dynasty=1000088605
+	religion="taoist"
+	culture="han"
+	father=100016097
+	trait=tough_soldier
+	532.1.1={ # Unknown
+		birth=yes
+	}
+	584.1.1 = { # Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016102 = { # Li Chong, general of the Northern Zhou and Sui dynasties
+	name="Chong"
+	dynasty=1000088605
+	religion="taoist"
+	culture="han"
+	father=100016097
+	trait=tough_soldier
+	536.1.1={ # Unknown
+		birth=yes
+	}
+	583.1.1 = { # Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016103 = { # Li Gui - coincidentally name is written with the exact same characters as the Li Gui who founded the Liang regime at the end of the Sui. However, he is probably not the same because if they are one and the same, he would have been very old by the time he established Liang, and it appears this Li Gui achieved different things in life.
+	name="Gui"
+	dynasty=1000088605
+	religion="taoist"
+	culture="han"
+	father=100016097
+	trait=tough_soldier
+	539.1.1={ # Unknown
+		birth=yes
+	}
+	592.1.1 = { # Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016104 = { # Li Xun - some sort of governor during the Sui period
+	name="Xun"
+	dynasty=1000088605
+	religion="taoist"
+	culture="han"
+	father=100016097
+	trait=fortune_builder
+	trait=administrator
+	540.1.1={ # Unknown
+		birth=yes
+	}
+	612.1.1 = { # Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016105 = { # Li Yin
+	name="Yin"
+	dynasty=1000088605
+	religion="taoist"
+	culture="han"
+	father=100016097
+	544.1.1={ # Unknown
+		birth=yes
+	}
+	624.1.1 = { # Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016106 = { # Li Lun
+	name="Lun"
+	dynasty=1000088605
+	religion="taoist"
+	culture="han"
+	father=100016097
+	545.1.1={ # Unknown
+		birth=yes
+	}
+	609.1.1 = { # Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016107 = { # Li Xiaozhong
+	name="Xiaozhong"
+	dynasty=1000088605
+	religion="taoist"
+	culture="han"
+	father=100016097
+	546.1.1={ # Unknown
+		birth=yes
+	}
+	598.1.1 = { # Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016108 = { # Li Xiaoli
+	name="Xiaoli"
+	dynasty=1000088605
+	religion="taoist"
+	culture="han"
+	father=100016097
+	548.1.1={ # Unknown
+		birth=yes
+	}
+	613.1.1 = { # Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016109 = { # Li Xiaoyi
+	name="Xiaoyi"
+	dynasty=1000088605
+	religion="taoist"
+	culture="han"
+	father=100016097
+	550.1.1={ # Unknown
+		birth=yes
+	}
+	613.1.1 = { # Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016110 = { # Li Zhi - involved in some sort of scandal or intrigue, committed suicide
+	name="Zhi"
+	dynasty=1000088605
+	religion="taoist"
+	culture="han"
+	father=100016098
+	525.1.1={ # Unknown
+		birth=yes
+	}
+	557.1.1 = {
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016111 = { # Li Shuxie - committed suicide because of Li Zhi
+	name="Shuxie"
+	dynasty=1000088605
+	religion="taoist"
+	culture="han"
+	father=100016098
+	524.1.1={ # Unknown
+		birth=yes
+	}
+	557.1.1 = {
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016112 = { # Li Shuqian - committed suicide because of Li Zhi
+	name="Shuqian"
+	dynasty=1000088605
+	religion="taoist"
+	culture="han"
+	father=100016098
+	526.1.1={ # Unknown
+		birth=yes
+	}
+	557.1.1 = {
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016113 = { # Li Shurang - committed suicide because of Li Zhi
+	name="Shurang"
+	dynasty=1000088605
+	religion="taoist"
+	culture="han"
+	father=100016098
+	528.1.1={ # Unknown
+		birth=yes
+	}
+	557.1.1 = {
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016114 = { # Li Ji - spared from committing suicide because he was too young (even though he was 28 at the time???); brother-in-law of the founder of Northern Zhou dynasty
+	name="Ji"
+	dynasty=1000088605
+	religion="taoist"
+	culture="han"
+	father=100016098
+	trait = skilled_tactician
+	trait = robust
+	trait = shrewd
+	trait = gregarious
+	trait = erudite
+	trait = humble
+	trait = just
+	trait = depressed # died because of sadness due to father and brothers' deaths
+	531.1.1={ 
+		birth=yes
+	}
+	561.1.1 = {
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016115 = { # Li Wei - son of Li Ji
+	name="Wei"
+	dynasty=1000088605
+	religion="taoist"
+	culture="han"
+	father=100016114
+	560.1.1={ # Unknown
+		birth=yes
+	}
+	640.1.1 = { # Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016116 = { # Li Dun
+	name="Dun"
+	dynasty=1000088605
+	religion="taoist"
+	culture="han"
+	father=100016099
+	trait=tough_soldier
+	531.1.1={ # Unknown
+		birth=yes
+	}
+	607.1.1 = { # Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016117 = { # Li Yi
+	name="Yi"
+	dynasty=1000088605
+	religion="taoist"
+	culture="han"
+	father=100016099
+	532.1.1={ # Unknown
+		birth=yes
+	}
+	601.1.1 = { # Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016118 = { # Li Ya
+	name="Ya"
+	dynasty=1000088605
+	religion="taoist"
+	culture="han"
+	father=100016099
+	534.1.1={ # Unknown
+		birth=yes
+	}
+	601.1.1 = { # Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016119 = { # Li Heng
+	name="Heng"
+	dynasty=1000088605
+	religion="taoist"
+	culture="han"
+	father=100016099
+	537.1.1={ # Unknown
+		birth=yes
+	}
+	610.1.1 = { # Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016120 = { # Li Rong
+	name="Rong"
+	dynasty=1000088605
+	religion="taoist"
+	culture="han"
+	father=100016099
+	539.1.1={ # Unknown
+		birth=yes
+	}
+	600.1.1 = { # Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016121 = { # Li Zhi
+	name="Zhi"
+	dynasty=1000088605
+	religion="taoist"
+	culture="han"
+	father=100016099
+	543.1.1={ # Unknown
+		birth=yes
+	}
+	579.1.1 = { # Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016122 = { # Li Xiong
+	name="Xiong"
+	dynasty=1000088605
+	religion="taoist"
+	culture="han"
+	father=100016099
+	545.1.1={ # Unknown
+		birth=yes
+	}
+	589.1.1 = { # Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016123 = { # Li Hun - killed fighting the Tang, maybe? Appears to have a number of other recorded descendants, but my Google translate skills have failed me
+	name="Hun"
+	dynasty=1000088605
+	religion="taoist"
+	culture="han"
+	father=100016099
+	546.1.1={ # Unknown
+		birth=yes
+	}
+	615.1.1 = {
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016124 = { # Li Cao - mentioned in the family genealogy in the Li family caves of Dunhuang as son of Li Mu and grandson of Li Xian, but not mentioned in Sui records; here I will assume he's the youngest sibling; he served in Dunhuang as a major official during the Sui Dynasty, so he will be listed as not dying in "China"
+	name="Cao"
+	dynasty=1000088605
+	religion="taoist"
+	culture="han"
+	father=100016099
+	552.1.1={ # Unknown
+		birth=yes
+	}
+	636.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016125 = { # Li Da - Dunhuang Mogao cave dated to the early Tang
+	name="Da"
+	dynasty=1000088605
+	religion="buddhist"
+	culture="han"
+	father=100016124
+	591.1.1={ # Unknown
+		birth=yes
+	}
+	669.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016126 = { # Li Zhi - Dunhuang Mogao cave dated to the early Tang
+	name="Zhi"
+	dynasty=1000088605
+	religion="buddhist"
+	culture="han"
+	father=100016125
+	629.1.1={ # Unknown
+		birth=yes
+	}
+	683.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016127 = { # Li Kerang - alive and well in 698 during Wu Zeitian's reign
+	name="Kerang"
+	dynasty=1000088605
+	religion="buddhist"
+	culture="han"
+	father=100016125
+	640.1.1={ # Unknown
+		birth=yes
+	}
+	711.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016128 = { # Li Gan
+	name="Gan"
+	dynasty=1000088605
+	religion="buddhist"
+	culture="han"
+	father=100016125
+	643.1.1={ # Unknown
+		birth=yes
+	}
+	706.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016129 = { # Name unknown - it's probably around somewhere, but he was Li Zhi's son and Li Dabin's father
+	name="Jiasen"
+	dynasty=1000088605
+	religion="buddhist"
+	culture="han"
+	father=100016126
+	682.1.1={ # Unknown
+		birth=yes
+	}
+	729.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016130 = { # Li Dabin - alive in 777, around the Charlemagne start! 
+	name="Dabin"
+	dynasty=1000088605
+	religion="buddhist"
+	culture="han"
+	father=100016129
+	724.1.1={ # Unknown
+		birth=yes
+	}
+	750.1.1={ #Married Yin Tingjie's daughter
+		add_spouse = 100016187
+	}
+	791.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016131 = { # Li Lingwu - Li Dabin's older brother, who was a renowned monk in the region
+	name="Lingwu"
+	dynasty=1000088605
+	religion="buddhist"
+	culture="han"
+	father=100016129
+	trait=mastermind_theologian
+	trait=bhikkhu
+	trait=temperate
+	trait=gregarious
+	trait=diligent
+	trait=erudite
+	720.1.1={ # Unknown
+		birth=yes
+	}
+	788.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016132 = { # Li Zhirong - Li Dabin's son, also a monk
+	name="Zhirong"
+	dynasty=1000088605
+	religion="buddhist"
+	culture="han"
+	father=100016130
+	mother=100016187
+	trait=scholarly_theologian
+	trait=bhikkhu
+	755.1.1={ # Unknown
+		birth=yes
+	}
+	812.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016133 = { # Li Dabin's other son, name unknown, and Li Mingzhen's grandfather
+	name="Huiyuan"
+	dynasty=1000088605
+	religion="buddhist"
+	culture="han"
+	father=100016130
+	mother=100016187
+	751.1.1={ # Unknown
+		birth=yes
+	}
+	825.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016134 = { # Li Dabin's sister, Yin Tingjie's wife
+	name="Fulin"
+	dynasty=1000088605
+	female=yes
+	religion="buddhist"
+	culture="han"
+	father=100016129
+	715.1.1={ # Unknown
+		birth=yes
+	}
+	788.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016135 = { # Li Mingzhen
+	name="Mingzhen"
+	dynasty=1000088605
+	religion="buddhist"
+	culture="han"
+	father=100016147
+	820.1.1={ # Unknown
+		birth=yes
+	}
+	847.1.1={ #Married Zhang Yichao's daughter (Zhang Yichao was born in 799)
+		add_spouse = 100016314
+	}
+	890.1.1 = { # Wikipedia lists 894 erroneously
+		death=yes
+	}
+}
+100016136 = { # Li Hongding, Mingzhen's son. Not sure if older or younger than brothers, or if he was one of Li Mingzhen's sons involved in the coup against the Zhangs. However, since three of four sons survived after the Zhangs retook control, I'm assuming one was spared or able to survive for whatever reason
+	name="Hongding"
+	dynasty=1000088605
+	religion="buddhist"
+	culture="han"
+	father=100016135
+	mother=100016314
+	trait=fortune_builder
+	trait=quick
+	trait=scholar
+	trait=content
+	trait=kind
+	trait=patient
+	trait=just
+	848.1.1={ # Unknown
+		birth=yes
+	}
+	919.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016137 = { # Li Mingzhen's son, involved in coup - unknown names so name here is fictitious; four known sons, three dead by 900
+	name="Chengda"
+	dynasty=1000088605
+	religion="buddhist"
+	culture="han"
+	father=100016135
+	mother=100016314
+	trait=charismatic_negotiator
+	trait=socializer
+	trait=ambitious
+	trait=greedy
+	trait=cruel
+	trait=charitable
+	849.1.1={ # Unknown
+		birth=yes
+	}
+	896.1.1 = { # Not sure if killed in counter-coup or not
+		death=yes
+	}
+}
+100016138 = { # Li Mingzhen's son, involved in coup - unknown names so name here is fictitious; four known sons, three dead by 900
+	name="Yiwen"
+	dynasty=1000088605
+	religion="buddhist"
+	culture="han"
+	father=100016135
+	mother=100016314
+	trait=intricate_webweaver
+	trait=schemer
+	trait=ambitious
+	trait=deceitful
+	trait=gregarious
+	trait=paranoid
+	850.1.1={ # Unknown
+		birth=yes
+	}
+	896.1.1 = { # Not sure if killed in counter-coup or not
+		death=yes
+	}
+}
+100016139 = { # Li Mingzhen's son, involved in coup - unknown names so name here is fictitious; four known sons, three dead by 900
+	name="Kanyong"
+	dynasty=1000088605
+	religion="buddhist"
+	culture="han"
+	father=100016135
+	mother=100016314
+	trait=misguided_warrior
+	trait=robust
+	trait=dull
+	trait=ambitious
+	trait=brave
+	trait=trusting
+	trait=honest
+	851.1.1={ # Unknown
+		birth=yes
+	}
+	896.1.1 = { # Not sure if killed in counter-coup or not
+		death=yes
+	}
+}
+100016140 = { # Li Hongding's son
+	name="Shaozong"
+	dynasty=1000088605
+	religion="buddhist"
+	culture="han"
+	father=100016136
+	880.1.1={ # Unknown
+		birth=yes
+	}
+	932.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016141 = { # Li Hongding's son
+	name="Fujun"
+	dynasty=1000088605
+	religion="buddhist"
+	culture="han"
+	father=100016136
+	888.1.1={ # Unknown
+		birth=yes
+	}
+	#SPOUSE MARRIAGE ALLIANCE?
+	935.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016142 = { # Real person, unknown connection to rest of family - alive in 927
+	name="Ling"
+	dynasty=1000088605
+	religion="buddhist"
+	culture="han"
+	father=100016140
+	trait=zealous
+	904.6.30={ # Unknown
+		birth=yes
+	}
+	930.1.1={
+		add_spouse=100016207
+		effect = { 
+			add_lover = 100016207
+		}
+	}
+	983.2.4 = { # Unknown
+		death=yes
+	}
+}
+# Real person, unknown connection to rest of family - Li Han'er, Li Xinzhu, and Li Shengzhu received the Eight Precepts from a temple in 983 CE, so they're probably younger than depicted here; anyways I made them brothers for convenience/simplicity
+100016143 = { 
+	name="Han'er"
+	dynasty=1000088605
+	religion="buddhist"
+	culture="han"
+	father=100016142
+	mother=100016207
+	931.5.9={ # Unknown
+		birth=yes
+	}
+	1018.6.16 = { # Unknown
+		death=yes
+	}
+}
+100016144 = { # Li Xiaoliang
+	name="Xiaoliang"
+	dynasty=1000088605
+	religion="taoist"
+	culture="han"
+	father=100016097
+	552.1.1={ # Unknown
+		birth=yes
+	}
+	621.1.1 = { # Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+#100016145 moved to Cao family above
+#100016146 moved to Cao family above
+
+100016147 = { # Li Dabin's grandson, and Li Mingzhen's father - name unknown
+	name="Shu"
+	dynasty=1000088605
+	religion="buddhist"
+	culture="han"
+	father=100016133
+	777.1.1={ # Unknown
+		birth=yes
+	}
+	852.1.1 = { # Unknown
+		death=yes
+	}
+}
+
+#100016148 moved to Cao family above
+#100016149 reserved for any other extra Li family members
+100016149 = { # Li Hongding's fictitious granddaughter
+	name="Maoxiu"
+	dynasty=1000088605
+	female=yes
+	religion="buddhist"
+	culture="han"
+	father=100016140
+	912.7.19={ # Unknown
+		birth=yes
+	}
+	964.8.22 = { # Unknown
+		death=yes
+	}
+}
+# Real person, unknown connection to rest of family - Li Han'er, Li Xinzhu, and Li Shengzhu received the Eight Precepts from a temple in 983 CE, so they're probably younger than depicted here; anyways I made them brothers for convenience/simplicity
+100016370 = { 
+	name="Xinzhu"
+	dynasty=1000088605
+	religion="buddhist"
+	culture="han"
+	father=100016142
+	mother=100016207
+	933.7.8={ # Unknown
+		birth=yes
+	}
+	1002.3.14 = { # Unknown
+		death=yes
+	}
+}
+# Real person, unknown connection to rest of family - Li Han'er, Li Xinzhu, and Li Shengzhu received the Eight Precepts from a temple in 983 CE, so they're probably younger than depicted here; anyways I made them brothers for convenience/simplicity
+100016371 = { 
+	name="Shengzhu"
+	dynasty=1000088605
+	religion="buddhist"
+	culture="han"
+	father=100016142
+	mother=100016207
+	934.8.9={ # Unknown
+		birth=yes
+	}
+	990.10.16 = { # Unknown
+		death=yes
+	}
+}
+# Fictitious sister of the three brothers above
+100016372 = { 
+	name="Yingxiao"
+	dynasty=1000088605
+	religion="buddhist"
+	culture="han"
+	father=100016142
+	mother=100016207
+	trait=strong # Why not lol
+	936.3.1={ # Unknown
+		birth=yes
+	}
+	1017.12.21 = { # Unknown
+		death=yes
+	}
+}
+
+######################################################################
+# 
+# Yin Family - The Loyal Merchants, who learned their lesson after Yin Jian's death and Yin Dan's humiliation. Intermarried with Sogdians, including the Shi families.
+# A number of characters are fictitious, particularly early on, to connect characters
+# 
+######################################################################
+
+
+100016150 = { # Fictional progenitor
+	name="Ren"
+	dynasty=1000088600
+	religion="taoist"
+	culture="han"
+	#father=100016097
+	285.1.1={ # Unknown
+		birth=yes
+		#create_bloodline = {
+		#	type = dunhuang_yin_bloodline
+		#	has_dlc = "Holy Fury"
+		#}
+	}
+	342.1.1 = { # Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016151 = { # Governor of Dunhuang under the Former Liang, expelled from original base in Wuwei after some sort of intrigue and family set up camp in Dunhuang
+	name="Dan"
+	dynasty=1000088600
+	religion="taoist"
+	culture="han"
+	father=100016150
+	305.1.1={ # Unknown
+		birth=yes
+	}
+	369.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016152 = { # Brother of Yin Dan, killed related to incident mentioned above during Zhang Jun's rule
+	name="Jian"
+	dynasty=1000088600
+	religion="taoist"
+	culture="han"
+	father=100016150
+	307.1.1={
+		birth=yes
+	}
+	346.1.1 = {
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016153 = { # Fictitious
+	name="Huan"
+	dynasty=1000088600
+	religion="taoist"
+	culture="han"
+	father=100016151
+	339.1.1={ # Unknown
+		birth=yes
+	}
+	394.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016154 = { # Fictitious
+	name="Chen"
+	dynasty=1000088600
+	religion="taoist"
+	culture="han"
+	father=100016153
+	382.1.1={ # Unknown
+		birth=yes
+	}
+	419.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016155 = { # Fictitious
+	name="Pu"
+	dynasty=1000088600
+	religion="taoist"
+	culture="han"
+	father=100016154
+	411.1.1={ # Unknown
+		birth=yes
+	}
+	466.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016156 = { # Fictitious
+	name="Lihu"
+	dynasty=1000088600
+	religion="taoist"
+	culture="han"
+	father=100016155
+	430.1.1={ # Unknown
+		birth=yes
+	}
+	501.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016157 = { # Fictitious
+	name="Hewang"
+	dynasty=1000088600
+	religion="taoist"
+	culture="han"
+	father=100016156
+	461.1.1={ # Unknown
+		birth=yes
+	}
+	523.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016158 = { # Fictitious
+	name="Chuming"
+	dynasty=1000088600
+	religion="taoist"
+	culture="han"
+	father=100016157
+	496.1.1={ # Unknown
+		birth=yes
+	}
+	561.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016159 = { # Fictitious
+	name="Dai"
+	dynasty=1000088600
+	religion="buddhist"
+	culture="han"
+	father=100016158
+	522.1.1={ # Unknown
+		birth=yes
+	}
+	577.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016160 = { # Fictitious
+	name="Baoyang"
+	dynasty=1000088600
+	religion="buddhist"
+	culture="han"
+	father=100016159
+	548.1.1={ # Unknown
+		birth=yes
+	}
+	614.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016161 = { # Fictitious
+	name="Jun"
+	dynasty=1000088600
+	religion="buddhist"
+	culture="han"
+	father=100016160
+	571.1.1={ # Unknown
+		birth=yes
+	}
+	639.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016162 = { # Historical, early Tang period
+	name="Chou"
+	dynasty=1000088600
+	religion="buddhist"
+	culture="han"
+	father=100016161
+	599.1.1={ # Unknown
+		birth=yes
+	}
+	659.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016163 = { # Unknown connection to rest of family - is Renxi's son in-game, c. 649 CE
+	name="Yiquan"
+	dynasty=1000088600
+	religion="buddhist"
+	culture="han"
+	father=100016201
+	625.1.1={ # Unknown
+		birth=yes
+	}
+	690.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016164 = { # Brother of Yiquan, but otherwise unknown connection to rest of family - is Renxi's son in-game, c. 649 CE
+	name="Yiben"
+	dynasty=1000088600
+	religion="buddhist"
+	culture="han"
+	father=100016201
+	626.1.1={ # Unknown
+		birth=yes
+	}
+	705.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016165 = { # Unknown connection to rest of family - is Yiben's son in-game. Was considered young in 692 when he witnessed an auspicious symbol with his kinsman Sijian
+	name="Shouzhong"
+	dynasty=1000088600
+	religion="buddhist"
+	culture="han"
+	father=100016164
+	trait=mystic
+	670.1.1={ # Unknown
+		birth=yes
+	}
+	758.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016166 = { # Shouzong's son
+	name="Xiuji"
+	dynasty=1000088600
+	religion="buddhist"
+	culture="han"
+	father=100016165
+	703.1.1={ # Unknown
+		birth=yes
+	}
+	779.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016167 = { # Chou's son, name unknown, father of Sijian, Siyuan, Siyu, and Sizhong
+	name="Jia"
+	dynasty=1000088600
+	religion="buddhist"
+	culture="han"
+	father=100016162
+	634.1.1={ # Unknown
+		birth=yes
+	}
+	681.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016168 = { # Chou's son, alive in 695
+	name="Zu"
+	dynasty=1000088600
+	religion="buddhist"
+	culture="han"
+	father=100016162
+	639.1.1={ # Unknown
+		birth=yes
+	}
+	706.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016169 = { # Chou's son, alive during Empress Wu's reign; monk
+	name="Lingyin"
+	dynasty=1000088600
+	religion="buddhist"
+	culture="han"
+	father=100016162
+	trait=bhikkhu
+	645.1.1={ # Unknown
+		birth=yes
+	}
+	712.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016170 = { # Chou's grandson, alive adult in c. 692 - was considered young in 692 when he witnessed an auspicious symbol with his kinsman Shouzhong
+	name="Sijian"
+	dynasty=1000088600
+	religion="buddhist"
+	culture="han"
+	father=100016167
+	trait=mystic
+	668.1.1={ # Unknown
+		birth=yes
+	}
+	726.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016171 = { # Chou's grandson, alive adult in c. 708, commander in chief of the Doulu Army
+	name="Siyuan"
+	dynasty=1000088600
+	religion="buddhist"
+	culture="han"
+	father=100016167
+	trait=skilled_tactician
+	672.1.1={ # Unknown
+		birth=yes
+	}
+	741.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016172 = { # Chou's grandson, given the equivalent title of Viscount or Baron 
+	name="Siyu"
+	dynasty=1000088600
+	religion="buddhist"
+	culture="han"
+	father=100016167
+	675.1.1={ # Unknown
+		birth=yes
+	}
+	741.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016173 = { # Chou's grandson, prefect of Guazhou
+	name="Sizhang"
+	dynasty=1000088600
+	religion="buddhist"
+	culture="han"
+	father=100016167
+	trait=fortune_builder
+	677.1.1={ # Unknown
+		birth=yes
+	}
+	750.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016174 = { # Sizhang's fictional son, to keep things interesting for 769 start
+	name="Qibei"
+	dynasty=1000088600
+	religion="buddhist"
+	culture="han"
+	father=100016173
+	714.1.1={ # Unknown
+		birth=yes
+	}
+	769.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016175 = { # Sizhang's fictional grandson, to keep things interesting for 769 start
+	name="Quan"
+	dynasty=1000088600
+	religion="buddhist"
+	culture="han"
+	father=100016174
+	trait=strong
+	748.1.1={ # Unknown
+		birth=yes
+	}
+	755.1.1={
+		effect = { c_100016177 = { add_friend = ROOT } } # They are just cousins who are friends...
+	}
+	768.1.1={
+		effect = {add_lover = 100016177 } # ... or will Xwedodah be their fate?
+	}
+	809.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016176 = { # Siyu's fictional son, to keep things interesting for 769 start
+	name="Xiejin"
+	dynasty=1000088600
+	religion="buddhist"
+	culture="han"
+	father=100016172
+	702.1.1={ # Unknown
+		birth=yes
+	}
+	768.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016177 = { # Siyu's fictional granddaughter, to keep things interesting for 769 start
+	name="Qianyi"
+	dynasty=1000088600
+	female=yes
+	religion="buddhist"
+	culture="han"
+	father=100016176
+	trait=fair
+	750.1.1={ # Unknown
+		birth=yes
+	}
+	819.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016178 = { # Sijian's son, real name unknown
+	name="Wu"
+	dynasty=1000088600
+	religion="buddhist"
+	culture="han"
+	father=100016170
+	699.1.1={ # Unknown
+		birth=yes
+	}
+	760.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016179 = { # Sijian's grandson, real name unknown
+	name="Ling"
+	dynasty=1000088600
+	religion="buddhist"
+	culture="han"
+	father=100016178
+	723.1.1={ # Unknown
+		birth=yes
+	}
+	769.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016180 = { # Sijian's great-grandson, real name unknown
+	name="Chenxiao"
+	dynasty=1000088600
+	religion="buddhist"
+	culture="han"
+	father=100016179
+	761.1.1={ # Unknown
+		birth=yes
+	}
+	844.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016181 = { # Sijian's great-great-grandson, real name unknown
+	name="Lufeng"
+	dynasty=1000088600
+	religion="buddhist"
+	culture="han"
+	father=100016180
+	788.1.1={ # Unknown
+		birth=yes
+	}
+	829.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016182 = { # Wentong, descendant of Yin Sijian, married to Zhang Yichao's daughter; military official who helped Zhang Yichao to overthrow Tibetan rule
+	name="Wentong"
+	dynasty=1000088600
+	religion="buddhist"
+	culture="han"
+	father=100016181
+	trait=skilled_tactician
+	trait=strategist
+	trait=brave
+	825.1.1={ # Unknown
+		birth=yes
+	}
+	844.1.1={ #Married Zhang Yichao's daughter
+		add_spouse=100016315
+	}
+	909.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016183 = { # Jifeng, not sure where he is in the family tree, placed here for convenience; official under Zhang Yichao
+	name="Jifeng"
+	dynasty=1000088600
+	religion="buddhist"
+	culture="han"
+	father=100016182
+	mother=100016315
+	850.1.1={ # Unknown
+		birth=yes
+	}
+	914.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016184 = { # Jifeng's son, a monk
+	name="Haiyan"
+	dynasty=1000088600
+	religion="buddhist"
+	culture="han"
+	father=100016183
+	trait=bhikkhu
+	trait=celibate
+	872.1.1={ # Unknown, but at least an adult in 901 as the overall overseer of monks
+		birth=yes
+	}
+	933.1.1 = {
+		death=yes
+	}
+}
+100016185 = { # Jifeng's fictional son, to keep 936 start interesting
+	name="Chengfu"
+	dynasty=1000088600
+	religion="buddhist"
+	culture="han"
+	father=100016183
+	900.1.1={ # Unknown
+		birth=yes
+	}
+	952.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016186 = { # Siyuan's son, brother-in-law (and father-in-law!) of Li Dabin and local civil service recruiter in Dunhuang, alive and well in 776
+	name="Tingjie"
+	dynasty=1000088600
+	religion="buddhist"
+	culture="han"
+	father=100016171
+	trait=grey_eminence
+	trait=erudite
+	711.1.1={ # Unknown
+		birth=yes
+	}
+	744.1.1={ # Unknown
+		add_spouse=100016134
+	}
+	793.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016187 = { # Yin Tingjie's daughter who married Li Dabin, name unknown - I'm assuming born to a different woman than Li Dabin's sister
+	name="Jinxing"
+	dynasty=1000088600
+	female=yes
+	religion="buddhist"
+	culture="han"
+	father=100016186
+	733.1.1={ # Unknown
+		birth=yes
+	}
+	806.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016188 = { # Tingjie's son, alive c. 770-780 - fought in the war against the Tibetan attacks, but Yin family later cooperated
+	name="Bolun"
+	dynasty=1000088600
+	religion="buddhist"
+	culture="han"
+	father=100016186
+	trait=skilled_tactician
+	750.1.1={ # Unknown
+		birth=yes
+	}
+	769.1.1={ # Married a Suo lady
+		add_spouse=100016236
+	}
+	820.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016189 = { # Bolun's son, Jiazheng - alive and well in 839
+	name="Jiazheng"
+	dynasty=1000088600
+	religion="buddhist"
+	culture="han"
+	father=100016188
+	mother=100016236
+	782.1.1={ # Unknown
+		birth=yes
+	}
+	856.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016190 = { # Bolun's son, Jiazhen (not the same as Jiazheng!)
+	name="Jiazhen"
+	dynasty=1000088600
+	religion="buddhist"
+	culture="han"
+	father=100016188
+	mother=100016236
+	786.1.1={ # Unknown
+		birth=yes
+	}
+	860.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016191 = { # Bolun's son, Jiaya
+	name="Jiaya"
+	dynasty=1000088600
+	religion="buddhist"
+	culture="han"
+	father=100016188
+	mother=100016236
+	788.1.1={ # Unknown
+		birth=yes
+	}
+	849.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016192 = { # Bolun's son, the monk Lichan
+	name="Lichan"
+	dynasty=1000088600
+	religion="buddhist"
+	culture="han"
+	father=100016188
+	mother=100016236
+	trait=bhikkhu
+	trait=celibate
+	792.1.1={ # Unknown
+		birth=yes
+	}
+	849.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016193 = { # Bolun's daughter, the nun Zhihuixing
+	name="Zhihuixing"
+	dynasty=1000088600
+	female=yes
+	religion="buddhist"
+	culture="han"
+	father=100016188
+	mother=100016236
+	trait=bhikkhuni
+	trait=celibate
+	795.1.1={ # Unknown
+		birth=yes
+	}
+	875.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016194 = { # Jiazheng's nephew, unknown father so Jiazhen will be his father - adult as of 839
+	name="Zhixin"
+	dynasty=1000088600
+	religion="buddhist"
+	culture="han"
+	father=100016190
+	trait=bhikkhu
+	trait=celibate
+	820.1.1={ # Unknown
+		birth=yes
+	}
+	891.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016195 = { # Jiazheng's nephew, unknown father so Jiazhen will be his father - adult as of 839
+	name="Huai'e"
+	dynasty=1000088600
+	religion="buddhist"
+	culture="han"
+	father=100016190
+	trait=bhikkhu
+	trait=celibate
+	821.1.1={ # Unknown
+		birth=yes
+	}
+	901.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016196 = { # Jiazheng's nephew, unknown father so Jiaya will be his father - adult as of 839
+	name="Ciri"
+	dynasty=1000088600
+	religion="buddhist"
+	culture="han"
+	father=100016191
+	trait=bhikkhu
+	trait=celibate
+	819.1.1={ # Unknown
+		birth=yes
+	}
+	878.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016197 = { # Unknown how he's connected to the rest of the family, but alive c. 865, so I made him Jiaya's son
+	name="Chunxiang"
+	dynasty=1000088600
+	religion="buddhist"
+	culture="han"
+	father=100016191
+	825.1.1={ # Unknown
+		birth=yes
+	}
+	911.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016198 = { # Jiaya's fictional granddaughter, wife of ???
+	name="Linyang"
+	dynasty=1000088600
+	female=yes
+	religion="buddhist"
+	culture="han"
+	father=100016191
+	832.1.1={ # Unknown
+		birth=yes
+	}
+	903.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016199 = { # Jiazheng's fictional son, so there will be more people
+	name="Man"
+	dynasty=1000088600
+	religion="buddhist"
+	culture="han"
+	father=100016189
+	815.1.1={ # Unknown
+		birth=yes
+	}
+	890.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016200 = { # Xiuji's fictitious son
+	name="Meng"
+	dynasty=1000088600
+	religion="buddhist"
+	culture="han"
+	father=100016166
+	744.1.1={ # Unknown
+		birth=yes
+	}
+	805.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016201 = { # Historical, early Tang period
+	name="Renxi"
+	dynasty=1000088600
+	religion="buddhist"
+	culture="han"
+	father=100016161
+	603.1.1={ # Unknown
+		birth=yes
+	}
+	648.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016202 = { # Jiazheng's fictitious grandson, so there will be more people
+	name="Xiang"
+	dynasty=1000088600
+	religion="buddhist"
+	culture="han"
+	father=100016199
+	857.1.1={ # Unknown
+		birth=yes
+	}
+	902.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016203 = { # Fictitious, so there will be more people
+	name="Lun"
+	dynasty=1000088600
+	religion="buddhist"
+	culture="han"
+	father=100016202
+	885.1.1={ # Unknown
+		birth=yes
+	}
+	919.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016204 = { # Fictitious wife of Zhai Fengda. Couldn't find her family name, so I've made her a Yin.
+	name="Ying"
+	dynasty=1000088600
+	female=yes
+	religion="buddhist"
+	culture="han"
+	father=100016202
+	#Traits unknown but I figure she must have something that Fengda got along well with
+	trait=quick
+	trait=zealous
+	trait=erudite
+	trait=kind
+	trait=charitable
+	883.1.1={ # Unknown
+		birth=yes
+	}
+	958.1.1 = {
+		death=yes
+	}
+}
+100016205 = { # Fictitious, so there will be more people
+	name="Gonghai"
+	dynasty=1000088600
+	religion="buddhist"
+	culture="han"
+	father=100016203
+	907.4.27={ # Unknown
+		birth=yes
+	}
+	936.1.1={
+		add_spouse=100016357
+	}
+	946.3.5 = { # Unknown
+		death=yes
+	}
+}
+100016206 = { # Fictitious, so there will be more people
+	name="Wenying"
+	dynasty=1000088600
+	female=yes
+	religion="buddhist"
+	culture="han"
+	father=100016203
+	914.3.19={ # Unknown
+		birth=yes
+	}
+	983.5.15 = { # Unknown
+		death=yes
+	}
+}
+100016207 = { # Fictitious, married into Li family
+	name="Xinliang"
+	dynasty=1000088600
+	female=yes
+	religion="buddhist"
+	culture="han"
+	father=100016203
+	913.6.11={ # Unknown
+		birth=yes
+	}
+	978.9.2 = { # Unknown
+		death=yes
+	}
+}
+#100016201-100016209 is reserved for misc. Yin family figures
+
+######################################################################
+# 
+# Suo Family - The Learned and Ancient clan, descended from a long line of famous calligraphers, most prominently Suo Jing.
+# Most important member in CK2 timeframe was Suo Xun, who briefly usurped the Guiyi Circuit in the 890s.
+# Information is extremely scarce, so many of the characters are fictitious
+# 
+######################################################################
+
+100016210 = { # The famous calligrapher during the Three Kingdoms period
+	name="Jing"
+	dynasty=1000088601
+	religion="taoist"
+	culture="han"
+	father=100016218
+	trait=mastermind_theologian
+	trait=genius
+	trait=scholar
+	trait=erudite
+	trait=just
+	trait=diligent
+	trait=humble
+	239.1.1={
+		birth=yes
+	}
+	303.1.1 = {
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016211 = { # Suo Jing's son
+	name="Bian"
+	dynasty=1000088601
+	religion="taoist"
+	culture="han"
+	father=100016210
+	trait=scholar
+	259.1.1={ # Unknown
+		birth=yes
+	}
+	311.1.1 = { # Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016212 = { # Suo Jing's son
+	name="Qian"
+	dynasty=1000088601
+	religion="taoist"
+	culture="han"
+	father=100016210
+	trait=scholar
+	262.1.1={ # Unknown
+		birth=yes
+	}
+	335.1.1 = { # Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016213 = { # Suo Jing's son
+	name="Qiu"
+	dynasty=1000088601
+	religion="taoist"
+	culture="han"
+	father=100016210
+	trait=scholar
+	263.1.1={ # Unknown
+		birth=yes
+	}
+	310.1.1 = { # Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016214 = { # Suo Jing's son
+	name="Yu"
+	dynasty=1000088601
+	religion="taoist"
+	culture="han"
+	father=100016210
+	trait=scholar
+	267.1.1={ # Unknown
+		birth=yes
+	}
+	341.1.1 = { # Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016215 = { # Suo Jing's youngest son
+	name="Chen"
+	dynasty=1000088601
+	religion="taoist"
+	culture="han"
+	father=100016210
+	trait=skilled_tactician
+	trait=quick
+	trait=scholar
+	trait=diligent
+	trait=brave
+	trait=patient
+	trait=just
+	272.1.1={ # Unknown
+		birth=yes
+	}
+	316.1.1 = { # Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016216 = { # Suo Chen's son
+	name="Shiyuan"
+	dynasty=1000088601
+	religion="taoist"
+	culture="han"
+	father=100016215
+	trait=scholar
+	298.1.1={ # Unknown
+		birth=yes
+	}
+	377.1.1 = { # Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016217 = { # Suo Jing's grandfather, name unknown
+	name="Shi"
+	dynasty=1000088601
+	religion="taoist"
+	culture="han"
+	#father=100016210
+	trait=scholar
+	175.1.1={ # Unknown
+		birth=yes
+		create_bloodline = {
+			type = dunhuang_suo_bloodline
+			has_dlc = "Holy Fury"
+		}
+	}
+	230.1.1 = { # Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016218 = { # Suo Jing's father, Suo Zhen
+	name="Zhen"
+	dynasty=1000088601
+	religion="taoist"
+	culture="han"
+	father=100016217
+	trait=scholarly_theologian
+	trait=scholar
+	200.1.1={ # Unknown
+		birth=yes
+	}
+	288.1.1 = { # Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016219 = { # Suo Jing's fictitious uncle
+	name="Qin"
+	dynasty=1000088601
+	religion="taoist"
+	culture="han"
+	father=100016217
+	210.1.1={ # Unknown
+		birth=yes
+	}
+	267.1.1 = { # Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016220 = { # Suo Dan, a Taoist oneiromancer whose fragmentary version of the Laozi is important in the study of early Daoism; his connection to Suo Jing is uncertain
+	name="Dan"
+	dynasty=1000088601
+	religion="taoist"
+	culture="han"
+	father=100016219
+	trait=mastermind_theologian
+	trait=mystic
+	240.1.1={ # Unknown
+		birth=yes
+	}
+	325.1.1 = { # Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016221 = { # Fictitious
+	name="Cheng"
+	dynasty=1000088601
+	religion="taoist"
+	culture="han"
+	father=100016216
+	339.1.1={ # Unknown
+		birth=yes
+	}
+	401.1.1 = { # Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016222 = { # Fictitious
+	name="Ping"
+	dynasty=1000088601
+	religion="taoist"
+	culture="han"
+	father=100016221
+	357.1.1={ # Unknown
+		birth=yes
+	}
+	421.1.1 = { # Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016223 = { # Governor of Dunhuang for the Western Liang, but fled in 420 due to being an asshole - how he is connected to rest of the family is unknown
+	name="Yuanxu"
+	dynasty=1000088601
+	religion="taoist"
+	culture="han"
+	father=100016222
+	trait=cruel
+	trait=proud
+	trait=deceitful
+	trait=wroth
+	383.1.1={ # Unknown
+		birth=yes
+	}
+	456.1.1 = { # Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016224 = { # Fictitious
+	name="Lin"
+	dynasty=1000088601
+	religion="taoist"
+	culture="han"
+	father=100016223
+	407.1.1={ # Unknown
+		birth=yes
+	}
+	477.1.1 = { # Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016225 = { # Fictitious
+	name="Zhao"
+	dynasty=1000088601
+	religion="taoist"
+	culture="han"
+	father=100016224
+	449.1.1={ # Unknown
+		birth=yes
+	}
+	514.1.1 = { # Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016226 = { # Fictitious
+	name="Ang"
+	dynasty=1000088601
+	religion="taoist"
+	culture="han"
+	father=100016225
+	478.1.1={ # Unknown
+		birth=yes
+	}
+	530.1.1 = { # Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016227 = { # Scholar/official at Northern Zhou court c. 550 - how he is connected to rest of the family is unknown
+	name="Chang"
+	dynasty=1000088601
+	religion="taoist"
+	culture="han"
+	father=100016226
+	505.1.1={ # Unknown
+		birth=yes
+	}
+	588.1.1 = { # Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016228 = { # Fictitious
+	name="Ma"
+	dynasty=1000088601
+	religion="taoist"
+	culture="han"
+	father=100016227
+	532.1.1={ # Unknown
+		birth=yes
+	}
+	606.1.1 = { # Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016229 = { # Fictitious
+	name="Chi"
+	dynasty=1000088601
+	religion="taoist"
+	culture="han"
+	father=100016228
+	567.1.1={ # Unknown
+		birth=yes
+	}
+	614.1.1 = { # Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016230 = { # Fictitious
+	name="Tang"
+	dynasty=1000088601
+	religion="taoist"
+	culture="han"
+	father=100016229
+	590.1.1={ # Unknown
+		birth=yes
+	}
+	637.1.1 = { # Unknown
+		death = { death_reason = death_in_china_historic }
+	}
+}
+100016231 = { # Fictitious
+	name="Wu"
+	dynasty=1000088601
+	religion="buddhist"
+	culture="han"
+	father=100016230
+	624.1.1={ # Unknown
+		birth=yes
+	}
+	699.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016232 = { # Fictitious
+	name="Hao"
+	dynasty=1000088601
+	religion="buddhist"
+	culture="han"
+	father=100016231
+	650.1.1={ # Unknown
+		birth=yes
+	}
+	727.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016233 = { # Suo Yuan, mentioned briefly in a Nestorian (!) text from Dunhuang, dated to 720 - as usual, how he is connected to Suo family is uncertain
+	name="Yuan"
+	dynasty=1000088601
+	religion="buddhist"
+	culture="han"
+	father=100016232
+	trait=sympathy_christendom
+	682.1.1={ # Unknown
+		birth=yes
+	}
+	735.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016234 = { # Fictitious
+	name="Xing"
+	dynasty=1000088601
+	religion="buddhist"
+	culture="han"
+	father=100016233
+	710.1.1={ # Unknown
+		birth=yes
+	}
+	761.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016235 = { # Suo Tao, who built Mogao Cave 42 - again, uncertain how he is connected to the rest of the Suo family; probably lived around turn of the 9th century
+	name="Tao"
+	dynasty=1000088601
+	religion="buddhist"
+	culture="han"
+	father=100016234
+	748.1.1={ # Unknown
+		birth=yes
+	}
+	767.1.1={ # Fictional
+		add_spouse=100016247
+	}
+	822.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016236 = { # Suo lady who married Yin Bolun, name unknown - again, uncertain how she is connected to the rest of the Suo family
+	name="Fengchang"
+	dynasty=1000088601
+	female=yes
+	religion="buddhist"
+	culture="han"
+	father=100016234
+	751.1.1={ # Unknown
+		birth=yes
+	}
+	822.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016237 = { # Unnamed brother of the monk Chong'en - again, uncertain... yup, you know the drill
+	name="Deng"
+	dynasty=1000088601
+	religion="buddhist"
+	culture="han"
+	father=100016235
+	mother=100016247
+	777.1.1={ # Unknown
+		birth=yes
+	}
+	849.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016238 = { # Monk Chong'en, died in 840 when his will was written
+	name="Yun"
+	dynasty=1000088601
+	religion="buddhist"
+	culture="han"
+	father=100016235
+	mother=100016247
+	trait=bhikkhu
+	768.1.1={ # Unknown
+		birth=yes
+	}
+	840.1.1 = {
+		death=yes
+	}
+}
+100016239 = { # Chong'en's nephew, the Marquis of Yu - actual name unknown
+	name="Xuan"
+	dynasty=1000088601
+	religion="buddhist"
+	culture="han"
+	father=100016237
+	808.1.1={ # Unknown
+		birth=yes
+	}
+	834.1.1={
+		add_spouse=100016348
+	}
+	872.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016240 = { # Chong'en's nephew, Qi, was alive in 840 and still around c. 860-874
+	name="Qi"
+	dynasty=1000088601
+	religion="buddhist"
+	culture="han"
+	father=100016237
+	815.1.1={ # Unknown
+		birth=yes
+	}
+	880.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016241 = { # Chong'en's nephew, Yingche, was alive in 840
+	name="Yingche"
+	dynasty=1000088601
+	religion="buddhist"
+	culture="han"
+	father=100016237
+	818.1.1={ # Unknown
+		birth=yes
+	}
+	864.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016242 = { # Yiben, uncertain how he is connected to rest of family, but alive c. 869. I have made him Xuan's son
+	name="Yiben"
+	dynasty=1000088601
+	religion="buddhist"
+	culture="han"
+	father=100016239
+	mother=100016348
+	835.1.1={ # Unknown
+		birth=yes
+	}
+	906.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016243 = { # Xun, uncertain how he is connected to rest of family, but alive c. 894. I have made him Yingche's son
+	name="Xun"
+	dynasty=1000088601
+	religion="buddhist"
+	culture="han"
+	father=100016241
+	858.1.1={ # Unknown
+		birth=yes
+	}
+	929.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016244 = { # Jiji, uncertain how he is connected to rest of family, but alive in c. 860 as an adult. I have made him Xuan's son
+	name="Jiji"
+	dynasty=1000088601
+	religion="buddhist"
+	culture="han"
+	father=100016239
+	mother=100016348
+	840.1.1={ # Unknown
+		birth=yes
+	}
+	917.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016245 = { # Xiaoniangzi, uncertain how he/she is connected to rest of family, but alive in c. 865 as an adult. Not sure about gender either. I have made her Yingche's daughter
+	name="Xiaoniangzi"
+	dynasty=1000088601
+	female=yes
+	religion="buddhist"
+	culture="han"
+	father=100016241
+	852.1.1={ # Unknown
+		birth=yes
+	}
+	910.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016246 = { # Fictitious
+	name="Yandang"
+	dynasty=1000088601
+	religion="buddhist"
+	culture="han"
+	father=100016244
+	882.1.1={ # Unknown
+		birth=yes
+	}
+	936.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016247 = { # Suo Tao's fictional wife
+	name="Xianyi"
+	#dynasty=1000088601
+	female=yes
+	religion="buddhist"
+	culture="han"
+	750.1.1={ # Unknown
+		birth=yes
+	}
+	799.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016248 = { # Dunhuang official who led a delegation to the Khotanese king in 956 CE
+	name="Ziqian"
+	dynasty=1000088601
+	religion="buddhist"
+	culture="han"
+	father=100016246
+	trait=grey_eminence
+	trait=socializer
+	trait=gregarious
+	910.4.16={ # Unknown
+		birth=yes
+	}
+	936.1.1={
+		add_spouse=100016254
+		effect = { add_lover = 100016254 }
+	}
+	988.3.30 = { # Unknown
+		death=yes
+	}
+}
+100016249 = { # Fictitious
+	name="Qinxing"
+	dynasty=1000088601
+	female=yes
+	religion="buddhist"
+	culture="han"
+	father=100016246
+	915.1.1={ # Unknown
+		birth=yes
+	}
+	969.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016250 = { # Shierniang, niece of Kang Linghui who had a sister married into the Suos. Alive in 865. Not sure if Shierniang was born to this sister, or another sister but I've put her here because why not.
+	name="Shierniang"
+	dynasty=1000088601
+	female=yes
+	religion="buddhist"
+	culture="sogdian"
+	father=100016239
+	mother=100016348
+	trait=dull #Illiterate
+	844.1.1={ # Unknown
+		birth=yes
+		culture=han
+		set_character_flag = VIET_gfx_do_not_change
+	}
+	920.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016251 = { # Linggui, niece of Kang Linghui whose sister married into the Suos. Alive in 865. Also a nun. Not sure if Linggui was born to this sister, or another sister but I've put her here because why not.
+	name="Linggui"
+	dynasty=1000088601
+	female=yes
+	religion="buddhist"
+	culture="han"
+	father=100016239
+	mother=100016348
+	trait=bhikkhuni
+	trait=celibate
+	839.1.1={ # Unknown
+		birth=yes
+		set_character_flag = VIET_gfx_do_not_change
+	}
+	920.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016252 = { # Fictitious
+	name="Yanhui"
+	dynasty=1000088601
+	religion="buddhist"
+	culture="han"
+	father=100016244
+	872.1.1={ # Unknown
+		birth=yes
+	}
+	919.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016253 = { # Fictitious
+	name="Zifu"
+	dynasty=1000088601
+	religion="buddhist"
+	culture="han"
+	father=100016252
+	902.4.17={ # Unknown
+		birth=yes
+	}
+	945.8.19 = { # Unknown
+		death=yes
+	}
+}
+100016254 = { # Fictitious Sogdian slave girl
+	name="Jingyi"
+	#dynasty=1000088601
+	female=yes
+	religion="buddhist"
+	culture="sogdian"
+	#father=100016252
+	trait=fair
+	914.5.9={ # Unknown
+		birth=yes
+		culture="han"
+	}
+	967.5.24 = { # Unknown
+		death=yes
+	}
+}
+100016255 = { # Member of the Suo clan, relation to the rest unknown but confirmed
+	name="Yibian"
+	dynasty=1000088601
+	religion="buddhist"
+	culture="han"
+	father=100016237
+	trait=scholarly_theologian
+	trait=bhikkhu
+	trait=celibate
+	trait=diligent
+	811.1.1={ # Unknown
+		birth=yes
+	}
+	869.1.1 = {
+		death=yes
+	}
+}
+100016256 = { # Member of the Suo clan, relation to the rest unknown but confirmed
+	name="Zhiyue"
+	dynasty=1000088601
+	religion="buddhist"
+	culture="han"
+	father=100016235
+	mother=100016247
+	trait=scholarly_theologian
+	trait=bhikkhu
+	trait=celibate
+	784.1.1={ # Unknown
+		birth=yes
+	}
+	869.1.1 = { #Coincidentally the same year as Suo Yibian
+		death=yes
+	}
+}
+#100016250-100016259 are reserved for misc Suo family members
+
+
+######################################################################
+# 
+# Zhai Family - Relatively newer clan that came to Dunhuang in the late 6th century.
+# Most important member in CK2 timeframe was Zhai Fengda, who attained high office in the Cao regime.
+# Like usual, some characters are fictitious to plug in the gaps.
+# See Susan Whitfield's "Life Along the Silk Road" for more - she has one chapter devoted entirely to Zhai Fengda!
+# The characterization of Zhai Fengda and his father here is based on Whitfield's quasi-historical's imagining.
+# 
+######################################################################
+
+100016260 = { # Fictitious - the earliest recorded ancestor of Zhai Fengda came in c. 579; might be a tenth generation ancestor, but not sure; though this could theoretically have been Zhai Siyuan below, he would be extremely old by 642 which I find unlikely
+	name="Yi"
+	dynasty=1000088602
+	religion="buddhist"
+	culture="han"
+	#father=100016246
+	551.1.1={ # Unknown
+		birth=yes
+	}
+	609.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016261 = { # Alive in c.642 when the first major Zhai family cave made - Also called Tong; ninth generation ancestor of Zhai Fengda
+	name="Siyuan"
+	dynasty=1000088602
+	religion="buddhist"
+	culture="han"
+	father=100016260
+	585.1.1={ # Unknown
+		birth=yes
+	}
+	657.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016262 = { # Fictitious - eighth generation ancestor
+	name="Lang"
+	dynasty=1000088602
+	religion="buddhist"
+	culture="han"
+	father=100016261
+	613.1.1={ # Unknown
+		birth=yes
+	}
+	669.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016263 = { # Fictitious - seventh generation ancestor
+	name="Cui"
+	dynasty=1000088602
+	religion="buddhist"
+	culture="han"
+	father=100016262
+	645.1.1={ # Unknown
+		birth=yes
+	}
+	719.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016264 = { # Fictitious - sixth generation ancestor
+	name="Jiaqing"
+	dynasty=1000088602
+	religion="buddhist"
+	culture="han"
+	father=100016263
+	689.1.1={ # Unknown
+		birth=yes
+	}
+	756.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016265 = { # Fictitious - fifth generation ancestor
+	name="Yangyun"
+	dynasty=1000088602
+	religion="buddhist"
+	culture="han"
+	father=100016264
+	727.1.1={ # Unknown
+		birth=yes
+	}
+	780.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016266 = { # Fictitious - fourth generation ancestor
+	name="Mi"
+	dynasty=1000088602
+	religion="buddhist"
+	culture="han"
+	father=100016265
+	747.1.1={ # Unknown
+		birth=yes
+	}
+	811.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016267 = { # Fictitious - third generation ancestor
+	name="Liang"
+	dynasty=1000088602
+	religion="buddhist"
+	culture="han"
+	father=100016266
+	777.1.1={ # Unknown
+		birth=yes
+	}
+	844.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016268 = { # Zhai Farong, alive in 860-874 - not sure if he is actually Zhai Fengda's grandfather, but given he was the head of the family of his generation, I find it likely
+	name="Farong"
+	dynasty=1000088602
+	religion="buddhist"
+	culture="han"
+	father=100016267
+	trait = zealous # Head of some lay Buddhist group
+	819.1.1={ # Unknown
+		birth=yes
+	}
+	891.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016269 = { # Alive in 862-867, not sure how he is connected to Farong, but I've made him his younger brother
+	name="Sengtong"
+	dynasty=1000088602
+	religion="buddhist"
+	culture="han"
+	father=100016267
+	822.1.1={ # Unknown
+		birth=yes
+	}
+	880.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016270 = { # Died by 925 - clerk in the local government; characterization loosely based on Whitfield's work
+	name="Huixin"
+	dynasty=1000088602
+	religion="buddhist"
+	culture="han"
+	father=100016268
+	trait=thrifty_clerk
+	trait=ambitious
+	trait=erudite
+	trait=diligent
+	trait=proud
+	849.1.1={ # Unknown
+		birth=yes
+	}
+	921.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016271 = { # Died by 925 - Huixin's brother
+	name="Shende"
+	dynasty=1000088602
+	religion="buddhist"
+	culture="han"
+	father=100016268
+	857.1.1={ # Unknown
+		birth=yes
+	}
+	923.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016272 = { # Died by 925 - Zhai Fengda's older brother
+	name="Wenzi"
+	dynasty=1000088602
+	religion="buddhist"
+	culture="han"
+	father=100016270
+	875.1.1={ # Unknown
+		birth=yes
+	}
+	909.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016273 = { # Zhai Fengda himself
+	name="Fengda"
+	dynasty=1000088602
+	religion="buddhist"
+	culture="han"
+	father=100016270
+	trait=fortune_builder	# Started as a clerk like his father, but much more successful in the long run, and had a better education
+	trait=poet 			# Amateur poet - funnily enough, as an older man, when he found a poem he wrote in his youth, he added the following very relatable note to the poem for anyone who writes: "I was but twenty years when I composed this poem. This year, happening upon it again, I am overcome with shame."
+	trait=scholar		# Most notable scholarly contributions were in terms of calendars and astronomy, and in fact attained extremely rank through this
+	trait=quick			# Did not have the aptitude to pass the Imperial exams, yet was able to achieve high office in Dunhuang partly through his academic and professional career, meaning he must've been intelligent
+	#trait=slothful
+	trait=zealous		# Devout Buddhist
+	trait=kind			# Sponsored some sort of cave for his wife?
+	trait=erudite		# Your classic Confucian scholar-gentry
+	trait=charitable	# Frequently donated to Buddhist monasteries, and once made a large donation to the poor
+	883.1.1={
+		birth=yes
+	}
+	899.1.1={
+		add_spouse=100016204
+		effect = { 
+			add_lover = 100016204
+			add_friend = 100016204
+			add_friend = 1059716
+		}
+	}
+	966.1.1 = {
+		death=yes
+	}
+}
+100016274 = { # Married to Cao Yuanzhong - not sure how she's connected to the family, so I made her Zhai Fengda's daughter so her age aligns with her husband's properly; still alive as of 966; name unknown
+	name="Qingmei"
+	dynasty=1000088602
+	female=yes
+	religion="buddhist"
+	culture="han"
+	father=100016273
+	mother=100016204
+	922.1.1={ # Unknown, but have to put it at this year so Cao Zongshou's birth year would make sense
+		birth=yes
+	}
+	936.1.1={
+		add_spouse = 1059718
+	}
+	988.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016275 = { # Fengda's younger brother - still alive in 925, probably
+	name="Wenzhong"
+	dynasty=1000088602
+	religion="buddhist"
+	culture="han"
+	father=100016270
+	884.1.1={ # Unknown
+		birth=yes
+	}
+	935.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016276 = { # Fengda's son, dead by 925
+	name="Shenkou"
+	dynasty=1000088602
+	religion="buddhist"
+	culture="han"
+	father=100016273
+	mother=100016204
+	900.1.1={ # Unknown
+		birth=yes
+	}
+	924.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016277 = { # Fengda's grandson, also dead by 925 - not sure if Shenkou's son, but have made him Shenkou's son here
+	name="Dingzi"
+	dynasty=1000088602
+	religion="buddhist"
+	culture="han"
+	father=100016276
+	trait=sickly # hypothetical
+	918.1.1={ # Unknown
+		birth=yes
+	}
+	923.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016278 = { # Fengda's fictitious son
+	name="Chu"
+	dynasty=1000088602
+	religion="buddhist"
+	culture="han"
+	father=100016273
+	mother=100016204
+	trait=quick
+	914.1.1={ # Unknown
+		birth=yes
+	}
+	987.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016279 = { # Fengda's fictitious niece
+	name="Fenying"
+	dynasty=1000088602
+	female=yes
+	religion="buddhist"
+	culture="han"
+	father=100016275
+	916.1.1={ # Unknown
+		birth=yes
+	}
+	975.1.1 = { # Unknown
+		death=yes
+	}
+}
+#100016280-100016289 are reserved for misc Suo family members
+
+
+######################################################################
+# 
+# Fan Family - Not that much information available, but apparently one of the major elite families of Dunhuang
+# A lot of fictitious characters to connect the few known ones
+# 
+######################################################################
+
+
+100016290 = { # Wenkai - alive in 667 as an official
+	name="Wenkai"
+	dynasty=1000088603
+	religion="buddhist"
+	culture="han"
+	#father=100016275
+	633.1.1={ # Unknown
+		birth=yes
+	}
+	699.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016291 = { # Chengyan - alive in 699 as an official
+	name="Chengyan"
+	dynasty=1000088603
+	religion="buddhist"
+	culture="han"
+	father=100016290
+	664.1.1={ # Unknown
+		birth=yes
+	}
+	748.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016292 = { # Fictitious
+	name="Du"
+	dynasty=1000088603
+	religion="buddhist"
+	culture="han"
+	father=100016291
+	701.1.1={ # Unknown
+		birth=yes
+	}
+	786.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016293 = { # Fictitious
+	name="Man"
+	dynasty=1000088603
+	religion="buddhist"
+	culture="han"
+	father=100016292
+	727.1.1={ # Unknown
+		birth=yes
+	}
+	789.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016294 = { # Real, but dates unknown - he led an armed rebellion against the Tibetans at some point and was killed
+	name="Guozhong"
+	dynasty=1000088603
+	religion="buddhist"
+	culture="han"
+	father=100016293
+	trait=skilled_tactician
+	trait=shrewd
+	trait=brave
+	trait=zealous
+	trait=diligent
+	trait=ambitious
+	751.1.1={ # Unknown
+		birth=yes
+	}
+	816.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016295 = { # Fictitious surviving grandson of Fan Guozhong
+	name="Nan"
+	dynasty=1000088603
+	religion="buddhist"
+	culture="han"
+	father=100016300
+	trait=quick
+	trait=fair
+	trait=twin
+	trait=kind
+	trait=just
+	trait=patient
+	trait=cynical
+	trait=deceitful
+	811.1.1={ # Unknown
+		birth=yes
+	}
+	880.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016296 = { # Name unknown, grandmother of Cao Yijin - not sure how she was connected to Fan Guozhong if at all, but I've made her Fan Guozhong's fictitious granddaughter
+	name="Nu"
+	dynasty=1000088603
+	female=yes
+	religion="buddhist"
+	culture="han"
+	father=100016300
+	#trait=quick
+	#trait=fair
+	trait=twin
+	trait=kind
+	trait=just
+	trait=wroth
+	trait=trusting
+	trait=proud
+	811.1.1={ # Unknown
+		birth=yes
+	}
+	880.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016297 = { # Fictitious
+	name="Huai"
+	dynasty=1000088603
+	religion="buddhist"
+	culture="han"
+	father=100016295
+	839.1.1={ # Unknown
+		birth=yes
+	}
+	914.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016298 = { # Sangha overseer, not sure if secular or clerical official
+	name="Fugao"
+	dynasty=1000088603
+	religion="buddhist"
+	culture="han"
+	father=100016297
+	861.11.3={ # Unknown
+		birth=yes
+	}
+	917.12.16 = {
+		death=yes
+	}
+}
+100016299 = { # Sangha overseer, not sure if secular or clerical official
+	name="Guanghui"
+	dynasty=1000088603
+	religion="buddhist"
+	culture="han"
+	father=100016298
+	886.12.13={ # Unknown
+		birth=yes
+	}
+	944.5.17 = {
+		death=yes
+	}
+}
+100016300 = { # Fictitious son of Fan Guozhong
+	name="Yiqu"
+	dynasty=1000088603
+	religion="buddhist"
+	culture="han"
+	father=100016294
+	779.1.1={ # Unknown
+		birth=yes
+	}
+	816.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016301 = { # Dunhuang official, sent to Kingdom of Khotan on a mission in 958
+	name="Fuzhu"
+	dynasty=1000088603
+	religion="buddhist"
+	culture="han"
+	father=100016299
+	trait=charismatic_negotiator
+	trait=groomed
+	913.5.7={ # Unknown
+		birth=yes
+	}
+	934.1.1={
+		add_spouse = 100016305
+	}
+	1004.6.15 = { # Unknown
+		death=yes
+	}
+}
+100016302 = { # Fictitious
+	name="Qin"
+	dynasty=1000088603
+	religion="buddhist"
+	culture="han"
+	father=100016301
+	mother=100016305
+	935.1.1={ # Unknown
+		birth=yes
+	}
+	1007.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016303 = { # Fictitious
+	name="Qingxiu"
+	dynasty=1000088603
+	female=yes
+	religion="buddhist"
+	culture="han"
+	father=100016299
+	910.2.4={ # Unknown
+		birth=yes
+	}
+	977.3.23 = { # Unknown
+		death=yes
+	}
+}
+# 100016304 moved to Cao
+100016305 = { # Fictitious Tocharian slave girl
+	name="Fangqing"
+	#dynasty=1000088603
+	female=yes
+	religion="buddhist"
+	culture="tocharian"
+	#father=100016299
+	trait=fair
+	918.12.29={ # Unknown
+		birth=yes
+		culture=han
+	}
+	994.1.30 = { # Unknown
+		death=yes
+	}
+}
+# Unknown relation to rest of family, alive c.928
+100016306 = {
+	name="Tongzi"
+	dynasty=1000088603
+	religion="buddhist"
+	culture="han"
+	father=100016297
+	866.5.14={ # Unknown
+		birth=yes
+	}
+	935.7.4 = { # Unknown
+		death=yes
+	}
+}
+#100016307-100016309 reserved for other Fan family members
+
+###########################################################################
+# 
+# ZHANG FAMILY EXPANSION
+# Other members of the Zhang family
+# 
+# 
+###########################################################################
+
+
+100016310 = { # Zhang Yichao's father, official under Tibetans
+	name="Qianyi"
+	dynasty=1055006
+	religion="buddhist"
+	culture="han"
+	father=100016316
+	trait=charismatic_negotiator
+	trait=administrator
+	trait=shrewd
+	747.5.2={ # Unknown
+		birth=yes
+	}
+	766.1.1={
+		add_spouse = 100016331
+	}
+	825.9.20 = { # Unknown
+		death=yes
+	}
+}
+100016311 = { # Zhang Yichao's older brother - dead by 872 since his son succeeded by Yichao
+	name="Yize"
+	dynasty=1055006
+	religion="buddhist"
+	culture="han"
+	father=100016310
+	mother=100016331
+	trait=charismatic_negotiator
+	795.2.24={ # Unknown
+		birth=yes
+	}
+	820.1.1={ # Unknown
+		add_spouse = 100016336
+	}
+	871.3.19 = { # Unknown
+		death=yes
+	}
+}
+100016312 = { # Zhang Yichao's son or nephew
+	name="Huaiding"
+	dynasty=1055006
+	religion="buddhist"
+	culture="han"
+	father=206811
+	mother=100016148
+	trait=ambitious
+	trait=deceitful
+	841.5.7={ # Unknown
+		birth=yes
+	}
+	859.1.1 = {
+		add_spouse = 100016360
+	}
+	891.6.2 = {
+		death=yes
+	}
+}
+100016313 = { # Zhang Huaiding's son
+	name="Chengfeng"
+	dynasty=1055006
+	religion="buddhist"
+	culture="han"
+	father=100016312
+	mother=100016360
+	860.1.3={ # Unknown
+		birth=yes
+	}
+	910.5.13 = { # Unknown
+		death=yes
+	}
+}
+100016314 = { # Zhang Yichao's daughter, married to Li Mingzhen, one of the leaders of a revolt against Suo Xun when he usurped Dunhuang; name unknown
+	name="Tianqing"
+	dynasty=1055006
+	female=yes
+	religion="buddhist"
+	culture="han"
+	father=206811
+	mother=100016148
+	trait=elusive_shadow
+	trait=brave
+	trait=diligent
+	trait=just
+	trait=stubborn
+	831.1.8={ # Unknown
+		birth=yes
+	}
+	906.4.26 = { # Unknown
+		death=yes
+	}
+}
+100016315 = { # Zhang Yichao's daughter, married to Yin Wentong who was one of his officials/subordinates
+	name="Yingmei"
+	dynasty=1055006
+	female=yes
+	religion="buddhist"
+	culture="han"
+	father=206811
+	mother=100016148
+	824.6.17={ # Unknown
+		birth=yes
+	}
+	901.2.12 = { # Unknown
+		death=yes
+	}
+}
+100016316 = { # Zhang Yichao's fictional grandfather
+	name="Chenghao"
+	dynasty=1055006
+	religion="buddhist"
+	culture="han"
+	710.4.2={ # Unknown
+		birth=yes
+	}
+	768.3.19 = { # Unknown
+		death=yes
+	}
+}
+100016317 = { # Zhang Yichao's fictional aunt
+	name="Xing"
+	dynasty=1055006
+	female=yes
+	religion="buddhist"
+	culture="han"
+	father=100016316
+	749.1.16={ # Unknown
+		birth=yes
+	}
+	821.10.22 = { # Unknown
+		death=yes
+	}
+}
+100016318 = { # Zhang Yichao's fictional uncle
+	name="Qianshu"
+	dynasty=1055006
+	religion="buddhist"
+	culture="han"
+	father=100016316
+	752.9.5={ # Unknown
+		birth=yes
+	}
+	769.1.1 = {
+		add_spouse = 100016146
+	}
+	824.6.27 = { # Unknown
+		death=yes
+	}
+}
+100016319 = { # Member of the Zhang clan alive c. 939, related to the Caos thorugh marriage; unknown relation to the other Zhangs so I made him Zhang Huaiding's grandson
+	name="Huaiqing"
+	dynasty=1055006
+	religion="buddhist"
+	culture="han"
+	father=100016313
+	904.4.4={ # Unknown
+		birth=yes
+	}
+	936.1.1={
+		#employer=1059716
+		add_spouse=100016304
+		#add_spouse=100016304
+		effect = { add_lover = 100016249 } # Just for funsies and drama
+	}
+	966.6.6 = { # Unknown
+		death=yes
+	}
+}
+#Cao Yuande's fictional wife and Zhang Huaiding's granddaughter, of the Zhang family (added here to ensure closer bonds between Cao and Zhang families)
+100016337 = {
+	name="Fuyi"
+	dynasty=1055006
+	female=yes
+	religion="buddhist"
+	culture="han"
+	father=100016313
+	905.7.9={ # Unknown
+		birth=yes
+	}
+	925.1.1 = {
+		add_spouse = 1059716
+	}
+	977.3.5 = { # Unknown
+		death=yes
+	}
+}
+# Zhang Yichao's fictional uncle
+100016364 = {
+	name="Qiantao"
+	dynasty=1055006
+	religion="buddhist"
+	culture="han"
+	father=100016316
+	754.1.1={ # Unknown
+		birth=yes
+	}
+	819.1.1 = { # Unknown
+		death=yes
+	}
+}
+# Prominent member of the literati c. 864, unknown if related to Zhang Yichao, but I've included him so there's more Zhang family members
+100016365 = {
+	name="Qiantao"
+	dynasty=1055006
+	religion="buddhist"
+	culture="han"
+	father=100016364
+	trait=scholarly_theologian
+	trait=erudite
+	trait=scholar
+	trait=poet
+	trait=zealous
+	801.1.1={ # Unknown
+		birth=yes
+	}
+	878.1.1 = { # Unknown
+		death=yes
+	}
+}
+# Important monk official who had good relations with Zhang Yichao, unknown if related to Zhang Yichao, but I've included him so there's more Zhang family members
+100016366 = {
+	name="Xishou"
+	dynasty=1055006
+	religion="buddhist"
+	culture="han"
+	father=100016365
+	trait=scholarly_theologian
+	trait=charitable
+	trait=bhikkhu
+	trait=celibate
+	835.7.19={ # Unknown
+		birth=yes
+	}
+	865.1.1={
+		effect = {
+			add_friend = 206811
+		}	
+	}
+	919.7.23 = { # Unknown
+		death=yes
+	}
+}
+# Important local official, unknown if related to Zhang Yichao, but I've included him as Zhang Huaiding's son so there's more Zhang family members
+100016367 = {
+	name="Baoshan"
+	dynasty=1055006
+	religion="buddhist"
+	culture="han"
+	father=100016312
+	mother=100016360
+	trait=fortune_builder
+	865.10.16={ # Unknown
+		birth=yes
+	}
+	936.3.5 = { # Before the 936 start date lol
+		death=yes
+	}
+}
+# Monk official Zhang Anxin - unknown if related to Zhang Yichao, but I've included him as Zhang Huaiding's son so there's more Zhang family members
+100016377 = {
+	name="Baoshan"
+	dynasty=1055006
+	religion="buddhist"
+	culture="han"
+	father=100016312
+	mother=100016360
+	#trait=administrator
+	trait=bhikkhu
+	trait=celibate
+	867.11.22={ # Unknown
+		birth=yes
+	}
+	945.9.30 = {
+		death=yes
+	}
+}
+# Monk official Zhang Fuqing - unknown if related to Zhang Yichao, but I've included him as Zhang Chengfeng's son so there's more Zhang family members
+100016378 = {
+	name="Fuqing"
+	dynasty=1055006
+	religion="buddhist"
+	culture="han"
+	father=100016313
+	trait=bhikkhu
+	trait=celibate
+	909.1.9={ # Unknown
+		birth=yes
+	}
+	956.2.17 = {
+		death=yes
+	}
+}
+# Zhang Yingrun, devout Buddhist member of the community who sponsored a stupa's decoration and had scriptures copied, alive in 950 - unknown if related to Zhang Yichao, but I've included him as Zhang Baoshan's son so there's more Zhang family members
+100016379 = {
+	name="Yingrun"
+	dynasty=1055006
+	religion="buddhist"
+	culture="han"
+	father=100016367
+	trait=zealous
+	trait=erudite
+	trait=diligent
+	896.5.14={ # Unknown
+		birth=yes
+	}
+	971.6.17 = { # Unknown
+		death=yes
+	}
+}
+# Fictitious wife of Zhang Yingrun
+100016380 = {
+	name="Ae-Cha"
+	female=yes
+	religion="buddhist"
+	culture="korean"
+	901.12.13={ # Unknown
+		birth=yes
+		set_character_flag = VIET_gfx_do_not_change
+	}
+	962.3.19 = { # Unknown
+		death=yes
+	}
+}
+# Zhang Laza, commissioned a painting of Avalokiteshvara as an act of filial piety in 972; unknown relationship to Zhangs so made him Zhang Yingrun's son (name is weird though)
+100016381 = {
+	name="Laza"
+	dynasty=1055006
+	religion="buddhist"
+	culture="han"
+	father=100016379
+	mother=100016380
+	trait=zealous
+	trait=humble
+	trait=just
+	920.6.18={ # Unknown
+		birth=yes
+	}
+	936.1.1={		
+		effect = {
+			add_friend = 100016382
+		}
+	}
+	985.9.22 = { # Unknown
+		death=yes
+	}
+}
+# Zhang Laza's brother, name unknown, who also sponsored with Laza the commission of a painting of Avalokiteshvara as an act of filial piety in 972
+100016382 = {
+	name="Huang"
+	dynasty=1055006
+	religion="buddhist"
+	culture="han"
+	father=100016379
+	mother=100016380
+	trait=zealous
+	trait=humble
+	trait=just
+	927.4.2={ # Unknown
+		birth=yes
+	}
+	979.7.17 = { # Unknown
+		death=yes
+	}
+}
+
+###########################################################
+# 
+# SOGDIAN FAMILIES
+# 
+###########################################################
+
+###########################################################
+# 
+# AN FAMILY
+# Lived in Dunhuang for generations, pretty Sinicized
+# Not to be confused with An Lushan, etc. - An was a common surname given to Iranians, implying those probably originally from Parthia, as it was called Anxi
+# 
+###########################################################
+
+
+100016320 = { # An Zhen, official of the Northern Zhou Dynasty, so alive between 557 and 581
+	name="Zhen"
+	dynasty=1000088681
+	religion="khurmazta"
+	culture="sogdian"
+	#father=206811
+	525.1.1={ # Unknown
+		birth=yes
+		#culture=han
+	}
+	576.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016321 = { # An Anluo, official of the Sui Dynasty
+	name="Anluo"
+	dynasty=1000088681
+	religion="taoist"
+	culture="sogdian"
+	father=100016320
+	551.1.1={ # Unknown
+		birth=yes
+		#culture=han
+	}
+	599.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016322 = { # An Xiuren, an official under Li Gui of the Kingdom of Liang, later plotted against him - also chief of the Xiongnu chiefs (?)
+	name="Xiuren"
+	dynasty=1000088681
+	religion="taoist"
+	culture="sogdian"
+	father=100016321
+	580.1.1={ # Unknown
+		birth=yes
+		culture=han
+	}
+	647.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016323 = { # An Xinggui, an official under the early Tang Dynasty - convinced An Xiuren to scheme against Li Gui
+	name="Xinggui"
+	dynasty=1000088681
+	religion="taoist"
+	culture="sogdian"
+	father=100016321
+	trait=skilled_tactician
+	trait=schemer
+	trait=socializer
+	trait=gregarious
+	trait=deceitful
+	trait=patient
+	trait=diligent
+	581.1.1={ # Unknown
+		birth=yes
+		culture=han
+	}
+	655.1.1 = { # Unknown
+		death=yes
+	}
+}
+100016324 = { # An Xinggui's son
+	name="Yuanshou"
+	dynasty=1000088681
+	religion="taoist"
+	culture="sogdian"
+	father=100016323
+	trait=tough_soldier
+	607.1.1={ 
+		birth=yes
+		culture=han
+	}
+	683.8.31 = {
+		death=yes
+	}
+}
+100016325 = { # An Xinggui's son
+	name="Hengan"
+	dynasty=1000088681
+	religion="taoist"
+	culture="sogdian"
+	father=100016323
+	603.1.1={ 
+		birth=yes
+		culture=han
+	}
+	688.1.1 = {
+		death=yes
+	}
+}
+100016326 = { # An Xinggui's grandson
+	name="Wencheng"
+	dynasty=1000088681
+	religion="taoist"
+	culture="sogdian"
+	father=100016325
+	635.1.1={ 
+		birth=yes
+		culture=han
+	}
+	692.1.1 = {
+		death=yes
+	}
+}
+100016327 = { # An Xinggui's great-grandson/Li Baoyu's grandfather
+	name="Zhongjing"
+	dynasty=1000088681
+	religion="taoist"
+	culture="sogdian"
+	father=100016326
+	661.1.1={ 
+		birth=yes
+		culture=han
+	}
+	726.1.1 = {
+		death=yes
+	}
+}
+100016328 = { # Li Baoyu, born An Chongzhang
+	name="Chongzhang"
+	dynasty=1055016 # Granted imperial surname, as he was ashamed of sharing the same surname as the rebel Lu Anshan
+	religion="taoist"
+	culture="sogdian"
+	father=100016327
+	trait=brilliant_strategist
+	trait=patient
+	trait=content
+	trait=diligent
+	trait=kind
+	trait=humble
+	703.1.1={ 
+		birth=yes
+		culture=han
+		set_character_flag = VIET_gfx_do_not_change
+	}
+	777.4.15 = {
+		death=yes
+	}
+}
+100016329 = { # Fictitious
+	name="Kunming"
+	dynasty=1000088681
+	religion="taoist"
+	culture="sogdian"
+	father=100016327
+	705.1.1={ 
+		birth=yes
+		culture=han
+		set_character_flag = VIET_gfx_do_not_change
+	}
+	761.1.1 = {
+		death=yes
+	}
+}
+100016330 = { # Fictitious
+	name="Shanwang"
+	dynasty=1000088681
+	religion="taoist"
+	culture="sogdian"
+	father=100016329
+	733.1.1={ 
+		birth=yes
+		culture=han
+		set_character_flag = VIET_gfx_do_not_change
+	}
+	806.1.1 = {
+		death=yes
+	}
+}
+100016331 = { # Zhang Yichao's mother, name unknown
+	name="Yinfang"
+	dynasty=1000088681
+	female=yes
+	religion="taoist"
+	culture="sogdian"
+	father=100016330
+	753.1.1={ # Probably born later as Zhang Yichao was born in 799, but this is to make it the age of marriage less awkward in 769
+		birth=yes
+		culture=han
+		set_character_flag = VIET_gfx_do_not_change
+	}
+	812.1.1 = {
+		death=yes
+	}
+}
+100016332 = { # Fictitious
+	name="Xifu"
+	dynasty=1000088681
+	religion="taoist"
+	culture="sogdian"
+	father=100016330
+	758.1.1={
+		birth=yes
+		culture=han
+		set_character_flag = VIET_gfx_do_not_change
+	}
+	831.1.1 = {
+		death=yes
+	}
+}
+100016333 = { # Fictitious
+	name="Penghao"
+	dynasty=1000088681
+	religion="taoist"
+	culture="sogdian"
+	father=100016332
+	790.1.1={
+		birth=yes
+		culture=han
+		set_character_flag = VIET_gfx_do_not_change
+	}
+	862.1.1 = {
+		death=yes
+	}
+}
+100016334 = { # Fictitious
+	name="Zhimu"
+	dynasty=1000088681
+	religion="taoist"
+	culture="sogdian"
+	father=100016333
+	837.1.1={
+		birth=yes
+		culture=han
+		set_character_flag = VIET_gfx_do_not_change
+	}
+	901.1.1 = {
+		death=yes
+	}
+}
+100016335 = { # Fictitious
+	name="Yennai"
+	dynasty=1000088681
+	female=yes
+	religion="taoist"
+	culture="sogdian"
+	father=100016333
+	843.1.1={
+		birth=yes
+		culture=han
+		set_character_flag = VIET_gfx_do_not_change
+	}
+	904.1.1 = {
+		death=yes
+	}
+}
+100016336 = { # Fictitious
+	name="Lumei"
+	dynasty=1000088681
+	female=yes
+	religion="taoist"
+	culture="sogdian"
+	father=100016332
+	802.1.1={
+		birth=yes
+		culture=han
+		set_character_flag = VIET_gfx_do_not_change
+	}
+	873.1.1 = {
+		death=yes
+	}
+}
+#100016337-moved to Zhang
+#100016338-100016339 Reserved for misc An family members
+
+###########################################################
+# 
+# KANG FAMILY
+# Lived in Dunhuang for generations, pretty Sinicized
+# Probably mixing together several separate Kang families here
+# 
+###########################################################
+
+100016340 = { # Sogdian chieftain from Samarkand who established several Sogdian colonies in the eastern Tarim and Dunhuang, alive during 627-649
+	name="Yandian"
+	dynasty=1000088680
+	religion="buddhist"
+	culture="sogdian"
+	#father=100016330
+	601.1.1={ #Unknown
+		birth=yes
+		#culture=han
+		set_character_flag = VIET_gfx_do_not_change
+	}
+	669.1.1 = { #Unknown
+		death=yes
+	}
+}
+100016341 = { # Fictitious
+	name="Senghui"
+	dynasty=1000088680
+	religion="buddhist"
+	culture="sogdian"
+	father=100016340
+	633.1.1={ #Unknown
+		birth=yes
+		#culture=han
+		set_character_flag = VIET_gfx_do_not_change
+	}
+	704.1.1 = { #Unknown
+		death=yes
+	}
+}
+100016342 = { # Sogdian governor in Eastern Tarim, Sogdian name was probably ʾprtmyʾn 
+	name="Fudanyan"
+	dynasty=1000088680
+	religion="buddhist"
+	culture="sogdian"
+	father=100016341
+	662.1.1={ #Unknown
+		birth=yes
+		#culture=han
+		set_character_flag = VIET_gfx_do_not_change
+	}
+	747.1.1 = { #Unknown
+		death=yes
+	}
+}
+100016343 = { # Fudanyan's younger brother, Dishebo
+	name="Fudanyan"
+	dynasty=1000088680
+	religion="buddhist"
+	culture="sogdian"
+	father=100016341
+	667.1.1={ #Unknown
+		birth=yes
+		#culture=han
+		set_character_flag = VIET_gfx_do_not_change
+	}
+	735.1.1 = { #Unknown
+		death=yes
+	}
+}
+100016344 = { # Daoist Abbot in Dunhuang c. 716, not sure how he's related if at all
+	name="Zhiyin"
+	dynasty=1000088680
+	religion="taoist"
+	culture="sogdian"
+	father=100016341
+	trait=zealous
+	671.1.1={ #Unknown
+		birth=yes
+		#culture=han
+		set_character_flag = VIET_gfx_do_not_change
+	}
+	754.1.1 = { #Unknown
+		death=yes
+	}
+}
+100016345 = { # Fictitious
+	name="Sili"
+	dynasty=1000088680
+	religion="buddhist"
+	culture="sogdian"
+	father=100016342
+	701.1.1={ #Unknown
+		birth=yes
+		#culture=han
+		set_character_flag = VIET_gfx_do_not_change
+	}
+	766.1.1 = { #Unknown
+		death=yes
+	}
+}
+100016346 = { # Fictitious
+	name="Yexi"
+	dynasty=1000088680
+	religion="buddhist"
+	culture="sogdian"
+	father=100016345
+	745.1.1={ #Unknown
+		birth=yes
+		culture=han
+		set_character_flag = VIET_gfx_do_not_change
+	}
+	819.1.1 = { #Unknown
+		death=yes
+	}
+}
+100016347 = { # Fictitious
+	name="Zhejie"
+	dynasty=1000088680
+	religion="buddhist"
+	culture="sogdian"
+	father=100016346
+	767.1.1={ #Unknown
+		birth=yes
+		culture=han
+		set_character_flag = VIET_gfx_do_not_change
+	}
+	833.1.1 = { #Unknown
+		death=yes
+	}
+}
+100016348 = { # Sister of the nun Linghui, alive c. 865. Unsure of younger or older sister. Mother of Suo Jiji, Suo Shierniang, and Suo Linggui most likely. Name unknown
+	name="Fuzhitai"
+	dynasty=1000088680
+	female=yes
+	religion="buddhist"
+	culture="sogdian"
+	father=100016347
+	805.1.1={ #Unknown
+		birth=yes
+		culture=han
+		set_character_flag = VIET_gfx_do_not_change
+	}
+	872.1.1 = { #Unknown
+		death=yes
+	}
+}
+100016349 = { # Nun Linghui, who has a will dating to her death in 865
+	name="Linghui"
+	dynasty=1000088680
+	female=yes
+	religion="buddhist"
+	culture="sogdian"
+	father=100016347
+	trait=bhikkhuni
+	trait=celibate
+	803.1.1={ #Unknown
+		birth=yes
+		culture=han
+		set_character_flag = VIET_gfx_do_not_change
+	}
+	865.1.1 = {
+		death=yes
+	}
+}
+100016350 = { # Jingang, Linghui's younger brother
+	name="Jingang"
+	dynasty=1000088680
+	religion="buddhist"
+	culture="han"
+	father=100016347
+	815.1.1={ #Unknown
+		birth=yes
+	}
+	889.1.1 = { #Unknown
+		death=yes
+	}
+}
+100016351 = { # Linghui's niece who received the will, not sure why she was picked over the other relatives. Not sure who was father or mother, so I made her Jingang's daughter.
+	name="Panniang"
+	dynasty=1000088680
+	religion="buddhist"
+	culture="han"
+	father=100016350
+	845.1.1={ #Unknown
+		birth=yes
+	}
+	902.1.1 = { #Unknown
+		death=yes
+	}
+}
+100016352 = { # Linghui's nephew, father uncertain but perhaps Jingang. Witness to her will.
+	name="Tun"
+	dynasty=1000088680
+	religion="buddhist"
+	culture="han"
+	father=100016350
+	839.1.1={ #Unknown
+		birth=yes
+	}
+	919.1.1 = { #Unknown
+		death=yes
+	}
+}
+100016353 = { # Linghui's nephew, father uncertain but perhaps Jingang.  Witness to her will.
+	name="Fusheng"
+	dynasty=1000088680
+	religion="buddhist"
+	culture="han"
+	father=100016350
+	841.1.1={ #Unknown
+		birth=yes
+	}
+	907.1.1 = { #Unknown
+		death=yes
+	}
+}
+100016354 = { # Linghui's nephew, father uncertain but perhaps Jingang. Witness to her will. 
+	name="Shengxian"
+	dynasty=1000088680
+	religion="buddhist"
+	culture="han"
+	father=100016350
+	trait=dull # Basic literacy, could barely write, and wrote his name backwards on the will. Maybe he was just having a bad day?
+	848.1.1={ #Unknown
+		birth=yes
+	}
+	923.1.1 = { #Unknown
+		death=yes
+	}
+}
+100016355 = { # Fictitious
+	name="Yucheng"
+	dynasty=1000088680
+	religion="buddhist"
+	culture="han"
+	father=100016352
+	873.1.1={ #Unknown
+		birth=yes
+	}
+	935.1.1 = { #Unknown
+		death=yes
+	}
+}
+100016356 = { # Prominent member of Dunhuang society and official, uncertain connection to the other Kangs. Alive in 963. Another source lists his name as Kang Qingnu, but I might be confusing two different people.
+	name="Qing"
+	dynasty=1000088680
+	religion="buddhist"
+	culture="han"
+	father=100016355
+	trait=administrator
+	903.4.7={ #Unknown
+		birth=yes
+	}
+	929.1.1={
+		add_spouse=100016383
+	}
+	977.3.26 = { #Unknown
+		death=yes
+	}
+}
+100016357 = { # Kang Qingnu's fictitious sister, married to Yin Gonghai
+	name="Weiying"
+	dynasty=1000088680
+	female=yes
+	religion="buddhist"
+	culture="han"
+	father=100016355
+	909.6.19={ #Unknown
+		birth=yes
+	}
+	981.12.14 = { #Unknown
+		death=yes
+	}
+}
+100016358 = { # Official in Dunhuang, unknown relation to rest of family if any so relationship is probably fictitious
+	name="Tongxin"
+	dynasty=1000088680
+	religion="buddhist"
+	culture="sogdian"
+	father=100016347
+	818.4.28={ #Unknown
+		birth=yes
+		culture=han
+		set_character_flag = VIET_gfx_do_not_change
+	}
+	849.1.1={
+		add_spouse=100016368
+	}
+	881.6.5 = {
+		death=yes
+	}
+}
+100016359 = { # Monastic official in Dunhuang, unknown relation to rest of family if any, or if he was a secular or clerical official, so I've made him a secular son of Tongxin
+	name="Xianzhao"
+	dynasty=1000088680
+	religion="buddhist"
+	culture="sogdian"
+	father=100016358
+	mother=100016368
+	trait=diligent
+	854.2.9={ #Unknown
+		birth=yes
+		culture=han
+		set_character_flag = VIET_gfx_do_not_change
+	}
+	902.9.1 = {
+		death=yes
+	}
+}
+100016368 = { # Tongxin's wife, Xiaozhao's mother, fictitious
+	name="Xiaoying"
+	#dynasty=1000088680
+	female=yes
+	religion="buddhist"
+	culture="sogdian"
+	trait=fair
+	826.4.7={ #Unknown
+		birth=yes
+		culture=han
+		set_character_flag = VIET_gfx_do_not_change
+	}
+	897.2.3 = {
+		death=yes
+	}
+}
+100016369 = { # Fictitious
+	name="Libei"
+	dynasty=1000088680
+	religion="buddhist"
+	culture="han"
+	father=100016359
+	893.2.17={ #Unknown
+		birth=yes
+	}
+	902.11.14 = { #Unknown
+		death=yes
+	}
+}
+100016383 = { # Kang Qingnu's fictitious wife
+	name="Young-Soon"
+	female=yes
+	religion="buddhist"
+	culture="korean"
+	908.11.9={ #Unknown
+		birth=yes
+	}
+	991.2.18 = { #Unknown
+		death=yes
+	}
+}
+
+
+###########################################################
+# 
+# MISC CHARACTERS
+# 
+###########################################################
+
+
+# NOTE: Below in comments are some characters who passed away before the 867 start sadly, but I will mention them just in case
+# Facheng - Tibetan monk who was one of the most influential Dunhuang monks, having taught many disciples who would later become relevant; passed away in 864
+# Wu Hongbian - appointed no later than 830; passed away in 862
+
+
+100016373 = { # Alive c. 867 - head of a major Buddhist (lay?) society in Dunhuang
+	name="Zaiqing"
+	dynasty=1000088606
+	religion="buddhist"
+	culture="han"
+	trait=fortune_builder
+	trait=zealous
+	trait=diligent
+	trait=gregarious
+	837.1.2={ #Unknown
+		birth=yes
+	}
+	866.1.1={
+		employer=206811
+	}
+	901.11.16 = { #Unknown
+		death=yes
+	}
+}
+100016375 = { # One of the most influential monks of Zhang Yichao's time, important literati, diplomat, and monastic leader
+	name="Wuzhen"
+	religion="buddhist"
+	culture="han"
+	trait=quick
+	trait=grey_eminence
+	trait=scholar
+	trait=theologian
+	trait=diligent
+	trait=erudite
+	trait=bhikkhu
+	trait=celibate
+	811.2.19={
+		birth=yes
+	}
+	895.4.26 = {
+		death=yes
+	}
+}
+100016376 = { # Monk official during Cao Yuande's reign, sent to Turfan in 935
+	name="Shanyou"
+	religion="buddhist"
+	culture="han"
+	trait=charismatic_negotiator
+	trait=administrator
+	trait=theologian
+	trait=erudite
+	trait=gregarious
+	trait=bhikkhu
+	trait=celibate
+	891.8.29={ # Unknocn
+		birth=yes
+	}
+	936.1.1={
+		employer=1059716
+	}
+	947.5.15 = { # Unknown
+		death=yes
+	}
+}
+
+#100016384-100016389 misc characters

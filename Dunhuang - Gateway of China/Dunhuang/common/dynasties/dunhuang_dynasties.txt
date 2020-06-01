@@ -1,0 +1,714 @@
+########################################################
+#
+# DUNHUANG DYNASTIES
+#
+# 1000088550-1000088599 Tuyuhun
+# 1000088600-1000088689 Han
+# 1000088690-?????????? Mohe 
+# 
+########################################################
+
+
+1000088550 = {
+	name="Murong"
+	culture = tuyuhun
+	religion="tengri_pagan"
+}
+1000088551 = {
+	name="Suhe"
+	culture = tuyuhun
+	religion="tengri_pagan"
+}
+1000088552 = {
+	name="Ni"
+	culture = tuyuhun
+	religion="tengri_pagan"
+}	
+1000088553 = {
+	name="Helian"
+	culture = tuyuhun
+	religion="tengri_pagan"
+}
+1000088554 = {
+	name="Yao"
+	culture = tuyuhun
+	religion="tengri_pagan"
+}
+1000088555 = {
+	name="An"
+	culture = tuyuhun
+	religion="tengri_pagan"
+}
+1000088556 = {
+	name="Bai"
+	culture = tuyuhun
+	religion="tengri_pagan"
+}
+1000088557 = {
+	name="Mi"
+	culture = tuyuhun
+	religion="tengri_pagan"
+}
+1000088558 = {
+	name="Li"
+	culture = tuyuhun
+	religion="tengri_pagan"
+}
+1000088559 = {
+	name="Yue"
+	culture = tuyuhun
+	religion="tengri_pagan"
+}
+1000088560 = {
+	name="Shi"
+	culture = tuyuhun
+	religion="tengri_pagan"
+}
+1000088561 = {
+	name="Gao"
+	culture = tuyuhun
+	religion="tengri_pagan"
+}
+1000088562 = {
+	name="Lan"
+	culture = tuyuhun
+	religion="tengri_pagan"
+}	
+1000088563 = {
+	name="Fu"
+	culture = tuyuhun
+	religion="tengri_pagan"
+}
+1000088564 = {
+	name="Duan"
+	culture = tuyuhun
+	religion="tengri_pagan"
+}
+1000088565 = {
+	name="Di"
+	culture = tuyuhun
+	religion="tengri_pagan"
+}
+1000088566 = {
+	name="Yu"
+	culture = tuyuhun
+	religion="tengri_pagan"
+}
+1000088567 = {
+	name="Qutu"
+	culture = tuyuhun
+	religion="tengri_pagan"
+}
+1000088568 = {
+	name="Zhangsun"
+	culture = tuyuhun
+	religion="tengri_pagan"
+}
+1000088569 = {
+	name="Gong"
+	culture = tuyuhun
+	religion="tengri_pagan"
+}
+1000088570 = {
+	name="Su"
+	culture = tuyuhun
+	religion="tengri_pagan"
+}
+1000088571 = {
+	name="Yuchi"
+	culture = tuyuhun
+	religion="tengri_pagan"
+}
+1000088572 = {
+	name="Dugu"
+	culture = tuyuhun
+	religion="tengri_pagan"
+}	
+1000088573 = {
+	name="Yuwen"
+	culture = tuyuhun
+	religion="tengri_pagan"
+}
+1000088574 = {
+	name="Poliuhan"
+	culture = tuyuhun
+	religion="tengri_pagan"
+}
+1000088575 = {
+	name="Heba"
+	culture = tuyuhun
+	religion="tengri_pagan"
+}
+1000088576 = {
+	name="Wei"
+	culture = tuyuhun
+	religion="tengri_pagan"
+}
+1000088577 = {
+	name="Xianyu"
+	culture = tuyuhun
+	religion="tengri_pagan"
+}
+1000088578 = {
+	name="Houmochen"
+	culture = tuyuhun
+	religion="tengri_pagan"
+}
+1000088579 = {
+	name="Guo"
+	culture = tuyuhun
+	religion="tengri_pagan"
+}
+1000088580 = {
+	name="Cui"
+	culture = tuyuhun
+	religion="tengri_pagan"
+}
+1000088581 = {
+	name="Poyetou"
+	culture = tuyuhun
+	religion="tengri_pagan"
+}
+1000088582 = {
+	name="Baba"
+	culture = tuyuhun
+	religion="tengri_pagan"
+}	
+1000088583 = {
+	name="Xue"
+	culture = tuyuhun
+	religion="tengri_pagan"
+}
+1000088584 = {
+	name="Kuhan"
+	culture = tuyuhun
+	religion="tengri_pagan"
+}
+1000088585 = {
+	name="Feng"
+	culture = tuyuhun
+	religion="tengri_pagan"
+}
+1000088586 = {
+	name="Zheng"
+	culture = tuyuhun
+	religion="tengri_pagan"
+}
+1000088587 = {
+	name="Yang"
+	culture = tuyuhun
+	religion="tengri_pagan"
+}
+1000088588 = {
+	name="Chen"
+	culture = tuyuhun
+	religion="tengri_pagan"
+}
+1000088589 = {
+	name="Huangfu"
+	culture = tuyuhun
+	religion="tengri_pagan"
+}
+1000088590 = {
+	name="Wang"
+	culture = tuyuhun
+	religion="tengri_pagan"
+}
+1000088591 = {
+	name="Zhu"
+	culture = tuyuhun
+	religion="tengri_pagan"
+}
+1000088592 = {
+	name="Heruo"
+	culture = tuyuhun
+	religion="tengri_pagan"
+}	
+1000088593 = {
+	name="Tuoba"
+	culture = tuyuhun
+	religion="tengri_pagan"
+}
+1000088594 = {
+	name="Daxi"
+	culture = tuyuhun
+	religion="tengri_pagan"
+}
+1000088595 = {
+	name="Moqi"
+	culture = tuyuhun
+	religion="tengri_pagan"
+}
+1000088596 = {
+	name="Erzhu"
+	culture = tuyuhun
+	religion="tengri_pagan"
+}
+1000088597 = {
+	name="Cao"
+	culture = tuyuhun
+	religion="tengri_pagan"
+}
+1000088598 = {
+	name="Yan"
+	culture = tuyuhun
+	religion="tengri_pagan"
+}
+1000088599 = {
+	name="Liu"
+	culture = tuyuhun
+	religion="tengri_pagan"
+}
+1000088600 = {
+	name="Yin"
+	culture = han
+	religion = taoist
+}
+1000088601 = {
+	name="Suo"
+	culture = han
+	religion = taoist
+}
+1000088602 = {
+	name="Zhai"
+	culture = han
+	religion = taoist
+}	
+1000088603 = {
+	name="Fan"
+	culture = han
+	religion = taoist
+}
+1000088604 = {
+	name="Song"
+	culture = han
+	religion = taoist
+}
+1000088605 = {
+	name="Li"
+	culture = han
+	religion = taoist
+}
+1000088606 = {
+	name="Zhu"
+	culture = han
+	religion = taoist
+}
+1000088607 = {
+	name="Jiang"
+	culture = han
+	religion = taoist
+}
+1000088608 = {
+	name="Huang"
+	culture = han
+	religion = taoist
+}
+1000088609 = {
+	name="Liu"
+	culture = han
+	religion = taoist
+}
+1000088610 = {
+	name="Zhang"
+	culture = han
+	religion = taoist
+}
+1000088611 = {
+	name="Liu"
+	culture = han
+	religion = taoist
+}
+1000088612 = {
+	name="Guo"
+	culture = han
+	religion = taoist
+}	
+1000088613 = {
+	name="Pei"
+	culture = han
+	religion = taoist
+}
+1000088614 = {
+	name="Xin"
+	culture = han
+	religion = taoist
+}
+1000088615 = {
+	name="Ma"
+	culture = han
+	religion = taoist
+}
+1000088616 = {
+	name="Yan"
+	culture = han
+	religion = taoist
+}
+1000088617 = {
+	name="Duan"
+	culture = han
+	religion = taoist
+}
+1000088618 = {
+	name="Zhang"
+	culture = han
+	religion = taoist
+}
+1000088619 = {
+	name="Liu"
+	culture = han
+	religion = taoist
+}
+#8862-8863 - Xiongnu
+1000088640 = {
+	name="Jiao"
+	culture = han
+	religion = taoist
+}
+1000088641 = {
+	name="Liu"
+	culture = han
+	religion = taoist
+}
+1000088642 = {
+	name="Guo"
+	culture = han
+	religion = taoist
+}	
+1000088643 = {
+	name="Pei"
+	culture = han
+	religion = taoist
+}
+1000088644 = {
+	name="Xin"
+	culture = han
+	religion = taoist
+}
+1000088645 = {
+	name="Ma"
+	culture = han
+	religion = taoist
+}
+1000088646 = {
+	name="Yan"
+	culture = han
+	religion = taoist
+}
+1000088647 = {
+	name="Duan"
+	culture = han
+	religion = taoist
+}
+1000088648 = {
+	name="Zhang"
+	culture = han
+	religion = taoist
+}
+1000088649 = {
+	name="Liu"
+	culture = han
+	religion = taoist
+}
+#8865 - Di
+
+1000088660 = {
+	name="An"
+	culture = han
+	religion = taoist
+}
+1000088661 = {
+	name="Guan"
+	culture = han
+	religion = taoist
+}
+1000088662 = {
+	name="Liang"
+	culture = han
+	religion = taoist
+}	
+1000088663 = {
+	name="Wei"
+	culture = han
+	religion = taoist
+}
+1000088664 = {
+	name="Xie"
+	culture = han
+	religion = taoist
+}
+1000088665 = {
+	name="Li"
+	culture = han
+	religion = taoist
+}
+1000088666 = {
+	name="Deng"
+	culture = han
+	religion = taoist
+}
+1000088667 = {
+	name="Chang"
+	culture = han
+	religion = taoist
+}
+1000088668 = {
+	name="Sima"
+	culture = han
+	religion = taoist
+}
+1000088669 = {
+	name="Heba"
+	culture = han
+	religion = taoist
+}
+1000088670 = {
+	name="Meng"
+	culture = han
+	religion = taoist
+}
+1000088671 = {
+	name="Wei"
+	culture = han
+	religion = taoist
+}
+1000088672 = {
+	name="Pei"
+	culture = han
+	religion = taoist
+}	
+1000088673 = {
+	name="Mu"
+	culture = han
+	religion = taoist
+}
+1000088674 = {
+	name="Gao"
+	culture = han
+	religion = taoist
+}
+1000088675 = {
+	name="Yuan"
+	culture = han
+	religion = taoist
+}
+1000088676 = {
+	name="Linghu"
+	culture = han
+	religion = taoist
+}
+1000088677 = {
+	name="Deng"
+	culture = han
+	religion = taoist
+}
+1000088679 = {
+	name="Yu"
+	culture = han
+	religion = taoist
+}
+1000088679 = {
+	name="Zhao"
+	culture = han
+	religion = taoist
+}
+1000088680 = {
+	name="Kang"
+	culture = han
+	religion = taoist
+}
+1000088681 = {
+	name="An"
+	culture = han
+	religion = taoist
+}
+1000088682 = {
+	name="Shi"
+	culture = han
+	religion = taoist
+}	
+1000088683 = {
+	name="Cao"
+	culture = han
+	religion = taoist
+}
+1000088684 = {
+	name="Shi"
+	culture = han
+	religion = taoist
+}
+1000088685 = {
+	name="Mi"
+	culture = han
+	religion = taoist
+}
+1000088686 = {
+	name="He"
+	culture = han
+	religion = taoist
+}
+1000088687 = {
+	name="Cheng"
+	culture = han
+	religion = taoist
+}
+1000088689 = {
+	name="Zhou"
+	culture = han
+	religion = taoist
+}
+1000088689 = {
+	name="Liu"
+	culture = han
+	religion = taoist
+}
+1000088690 = {
+	name="Zhang"
+	culture = mohe
+	religion = tengri_pagan
+}
+1000088691 = {
+	name="Qisi"
+	culture = mohe
+	religion = tengri_pagan
+}
+1000088692 = {
+	name="Sumo"
+	culture = mohe
+	religion = tengri_pagan
+}	
+1000088693 = {
+	name="Baishan"
+	culture = mohe
+	religion = tengri_pagan
+}
+1000088694 = {
+	name="Yuluo"
+	culture = mohe
+	religion = tengri_pagan
+}
+1000088695 = {
+	name="Boduo"
+	culture = mohe
+	religion = tengri_pagan
+}
+1000088696 = {
+	name="Funie"
+	culture = mohe
+	religion = tengri_pagan
+}
+1000088697 = {
+	name="Anchegu"
+	culture = mohe
+	religion = tengri_pagan
+}
+1000088698 = {
+	name="Haoshi"
+	culture = mohe
+	religion = tengri_pagan
+}
+1000088699 = {
+	name="Tieli"
+	culture = mohe
+	religion = tengri_pagan
+}
+1000088700 = {
+	name="Heishui"
+	culture = mohe
+	religion = tengri_pagan
+}
+1000088701 = {
+	name="Yuexi"
+	culture = mohe
+	religion = tengri_pagan
+}
+1000088702 = {
+	name="Wanyan"
+	culture = mohe
+	religion = tengri_pagan
+}	
+1000088703 = {
+	name="Shi"
+	culture = mohe
+	religion = tengri_pagan
+}
+1000088704 = {
+	name="Zhao"
+	culture = mohe
+	religion = tengri_pagan
+}
+1000088705 = {
+	name="Liu"
+	culture = mohe
+	religion = tengri_pagan
+}
+1000088706 = {
+	name="Zhang"
+	culture = mohe
+	religion = tengri_pagan
+}
+1000088707 = {
+	name="Han"
+	culture = mohe
+	religion = tengri_pagan
+}
+1000088708 = {
+	name="A"
+	culture = mohe
+	religion = tengri_pagan
+}
+1000088709 = {
+	name="Li"
+	culture = mohe
+	religion = tengri_pagan
+}
+1000088710 = {
+	name="Li"
+	culture = mohe
+	religion = tengri_pagan
+}
+1000088711 = {
+	name="Da"
+	culture = mohe
+	religion = tengri_pagan
+}
+1000088712 = {
+	name="Gao"
+	culture = mohe
+	religion = tengri_pagan
+}	
+1000088713 = {
+	name="A"
+	culture = mohe
+	religion = tengri_pagan
+}
+1000088714 = {
+	name="Tou"
+	culture = mohe
+	religion = tengri_pagan
+}
+1000088715 = {
+	name="Su"
+	culture = mohe
+	religion = tengri_pagan
+}
+1000088716 = {
+	name="Li"
+	culture = mohe
+	religion = tengri_pagan
+}
+1000088717 = {
+	name="Gao"
+	culture = mohe
+	religion = tengri_pagan
+}
+1000088718 = {
+	name="Jin"
+	culture = mohe
+	religion = tengri_pagan
+}
+1000088719 = {
+	name="Ye"
+	culture = mohe
+	religion = tengri_pagan
+}

@@ -1,0 +1,27 @@
+is_dunhuang_sinosphere_trigger = {
+	OR = {
+		culture_group = chinese_group
+		culture_group = serindian # exists in WtWSMS
+		culture = saka
+		culture = tocharian
+		culture = sogdian
+		culture = khitan
+		culture = jurchen
+		culture = mongol
+		culture = uyghur
+		culture = tuyuhun
+		culture = tangut
+	}
+}
+is_dunhuang_owner_trigger = {
+	OR = {
+		has_landed_title = c_jiuquan
+		has_landed_title = c_dunhuang
+		has_landed_title = c_anxi
+		has_landed_title = c_yungguan
+		has_landed_title = c_yumen
+		has_landed_title = d_guiyi
+		has_landed_title = d_jiuquan
+		has_landed_title = k_dunhuang
+	}
+}

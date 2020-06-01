@@ -1,0 +1,49 @@
+altaic = {
+	alternate_start = { NOT = { has_alternate_start_parameter = { key = special_culture value = animal_world } } }
+	graphical_cultures = { turkishgfx mongolgfx muslimgfx }
+	
+	xiongnu = { # For historical record
+		graphical_cultures = { mongolgfx cumangfx muslimgfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		alternate_start = {
+			#OR = {
+			#	year < 1000
+				has_alternate_start_parameter = { key = culture value = full_random }
+			#}
+		}
+		
+		dynasty_name_first = yes
+		
+		horde = yes
+		
+		used_for_random = no
+		
+		color = { 0.28 0.52 0.82 }
+
+		male_names = {
+			
+			#Xiongnu Empire era
+			Anguo Aojian Ba Chang Cheli Cheniu Diaotaomogao Doulouchu Fenghou Han Huchuquan Hulugu Hunie Hutuwusi Huyandi Huzheng Jihoushan Jiyu Juche'er Jumixu Junchen Midi Mo Modu Nangzhiyasi Puhuluzi Punu Qiedi Qiemoju Qinggu Shi Shizi Siuchu Su Sutuhu Tan Touman Tuntuhe Tute Woyanqudi Wudadihou Wushilu Wusi Wuwei Xian Xin Xiuli Xuan Xulihu Xulüquanqu Yilimu Yiti Yizhixie Youliu Yu Yuchujian Yudan Yufulo Zhuobing
+			
+			#Post Xiongnu Empire / Sixteen Kingdoms era
+			Ai An Anzhou Bao Bing Bobo Can Cao Chan Cheng Chi Chong Cong Ding Donglai Duluogu Eloutou Fengtan Fu Ganshou Gao Gaoshengyuan Gong Gui He Heng Hong Hu Huang Hui Ji Jian Jing Kang Kongdu Lang Li Long Luan Lun Luochou Lü Mai Man Mengxun Mujian Nancheng Puti Qinxin Quan Qubei Quzhou Ru Rui Shegan Tugu Weichan Weichen Weiyidai Wuheng Wuhui Wushiba Xi Xingguo Xiwuqi Xu Yan Yao Yi Yide Yin Ying You Yuan Yue Zhengde Zhilidi Zhun Zhuxing
+			#Chang Tan Yu
+		}
+		female_names = {
+			#Xiongnu Empire era
+			Qiang Xubujuciyun Yanzhi
+			
+			#Post Xiongnu Empire / Sixteen Kingdoms era
+			E Fang Guangxian Hongdao Huiguang Jingshou Lihua Poduoluo Shiping Taiwu Wuwei Wuxiao Wuxuan Wuyuan Xianlie Xianrong Xingping Xuanming Ying Yueguang Yuehua
+		}
+		
+		from_dynasty_prefix = "of "
+		#founder_named_dynasties = yes
+
+		allow_looting = yes
+		
+		modifier = default_culture_modifier
+		nomadic_in_alt_start = yes
+	}
+}

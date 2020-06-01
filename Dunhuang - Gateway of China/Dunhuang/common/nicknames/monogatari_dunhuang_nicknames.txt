@@ -1,0 +1,2 @@
+#Triggered Only
+nick_the_expander_of_the_west = {}

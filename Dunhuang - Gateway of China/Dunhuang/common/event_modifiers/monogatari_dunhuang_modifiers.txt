@@ -1,0 +1,283 @@
+##################################################################################################
+# scriptable and usable for event-system below.
+##################################################################################################
+#
+# ICONS:
+#
+# Good 			<=> 		Bad
+#
+#  1 - Martial 				- 19
+#  2 - Learning 			- 20
+#  3 - Diplomacy 			- 21
+#  4 - Stewardship 			- 22
+#  5 - Intrigue 			- 23
+#  6 - Money 				- 24
+#  7 - Prestige 			- 25
+#  8 - Piety 				- 26
+#  9 - Titles 				- 27
+# 10 - Council 				- 28 
+# 11 - Laws 				- 29
+# 12 - Tech 				- 30 
+# 13 - Military 			- 31
+# 14 - Plots 				- 32
+# 15 - Messages 			- 33
+# 16 - Diplomatic actions 	- 34
+# 17 - Church 				- 35
+# 18 - Characters 			- 36
+# 37 - Prison 				- 38
+# 39 - Love 				- 40
+# 41 - Death 				- 42
+# 43 - Indian religion 		- 44
+# 45 - Dog					- 65
+# 46 - Cat					- 66
+# 47 - Owl					- 67
+# 48 - Pagan religion       - 49
+# 50 - Staff of Asclepius   - 51
+# 52 - Mystic               - 53
+# 54 - Bonesaw              - 55
+# 56 - Horseshoe            - 57
+# 58 - Parrot				- 68
+# 59 - Ham					- 60
+# 61 - Anchor				- 62
+# 63 - Jewish religion		- 64
+# 69 - Bed					- 70
+# 71 - Wolf					- 72
+# 73 - Raven				- 74
+# 75 - Demon horns			- 76
+# 77 - Trident				- 78
+# 79 - Stars				- 80
+# 81 - Eye					- 82
+# 83 - Test-tubes			- 84
+# 85 - Science flask		- 86
+# 87 - Flower				- 88
+# 89 - Rats		 			- 90
+# 91 - Otter				- 92
+# 93 - Hedgehog				- 94
+# 95 - Taoist				- 96
+# 97 - Paper				- 98
+# 99 - Bamboo Book			- 100
+# 101 - Pagoda				- 102
+# 103 - Firework			- 104
+# 105 - Torch				- 106
+# 107 - Panda				- 108
+# 109 - Dragon				- 110
+# 111 - Eagle				- 112
+# 113 - Pregnancy			- 114
+# 115 - Evil Sword			- 116
+# 117 - Combat Skill		- 118
+# 119 - Broken Bone			- 120
+# 121 - Chicken				- 122
+# 123 - Combat Skill (New)	- 124
+# 125 - Bear 				- 126
+# 127 - Lion 				- 128
+# 129 - Rain Good           - 130
+# 131 - Rain Storm          - 132
+# 133 - Sun   	            - 134
+
+# game\gfx\interface\modifier_icons.dds
+
+#Variables:
+#  is_visible: trigger, root is viewer, from is holder. Decides if the viewer can see this trait on holder, default is yes
+
+VIET_zhai_fengda_modifier = {
+	learning = 2
+	stewardship = 1
+	general_opinion = 10
+	monthly_character_prestige = 0.05
+	monthly_character_piety = 0.05
+	icon = 99
+}
+VIET_zhai_fengda_modifier_generic = {
+	learning = 2
+	stewardship = 1
+	general_opinion = 10
+	monthly_character_prestige = 0.05
+	monthly_character_piety = 0.05
+	icon = 99
+}
+VIET_built_mogao_cave_normal = {
+	indian_group_opinion = 5
+	dynasty_opinion = 5
+	monthly_character_prestige = 0.05
+	monthly_character_piety = 0.05
+	icon = 101
+}
+VIET_built_mogao_cave_big = {
+	indian_group_opinion = 5
+	dynasty_opinion = 5
+	monthly_character_prestige = 0.1
+	monthly_character_piety = 0.1
+	icon = 101
+}
+VIET_built_mogao_cave_bigger = {
+	indian_group_opinion = 10
+	dynasty_opinion = 10
+	monthly_character_prestige = 0.2
+	monthly_character_piety = 0.2
+	icon = 101
+}
+VIET_built_mogao_cave_biggest = {
+	indian_group_opinion = 10
+	dynasty_opinion = 10
+	monthly_character_prestige = 0.3
+	monthly_character_piety = 0.3
+	icon = 101
+}
+VIET_dunhuang_civilized_eastern_contacts = {
+	diplomacy = 2
+	monthly_character_prestige = 0.2
+	icon = 109
+}
+VIET_dunhuang_civilized_western_contacts = {
+	stewardship = 2
+	diplomacy = 1
+	monthly_character_prestige = 0.05
+	icon = 6
+}
+VIET_dunhuang_barbarian_southern_contacts = {
+	intrigue = 1
+	learning = 1
+	combat_rating = 5
+	monthly_character_prestige = 0.05
+	icon = 43
+}
+VIET_dunhuang_barbarian_northern_contacts = {
+	martial = 2
+	combat_rating = 5
+	monthly_character_prestige = 0.05
+	icon = 56
+}
+VIET_dunhuang_offering_wealth_basic = {
+	monthly_character_wealth = 0.15
+	build_cost_modifier = -0.04
+	icon = 4
+}
+VIET_dunhuang_offering_wealth_greater = {
+	monthly_character_wealth = 0.25
+	build_cost_modifier = -0.08
+	icon = 4
+}
+VIET_dunhuang_offering_prestige_basic = {
+	monthly_character_prestige = 0.15
+	general_opinion = 3
+	icon = 7
+}
+VIET_dunhuang_offering_prestige_greater = {
+	monthly_character_prestige = 0.25
+	general_opinion = 5
+	icon = 7
+}
+VIET_dunhuang_offering_piety_basic = {
+	monthly_character_piety = 0.15
+	build_cost_temple_modifier = -0.05
+	build_time_temple_modifier = -0.05
+	icon = 43
+}
+VIET_dunhuang_offering_piety_greater = {
+	monthly_character_piety = 0.25
+	build_cost_temple_modifier = -0.1
+	build_time_temple_modifier = -0.1
+	icon = 43
+}
+VIET_dunhuang_offering_military_basic = {
+	levy_reinforce_rate = 0.05
+	land_organisation = 0.05
+	global_levy_size = 0.02
+	martial = 1
+	icon = 123
+}
+VIET_dunhuang_offering_military_greater = {
+	levy_reinforce_rate = 0.1
+	land_organisation = 0.1
+	global_levy_size = 0.05
+	martial = 1
+	icon = 123
+}
+VIET_dunhuang_community_unit_spawn_timer = {
+	icon = 123
+}
+VIET_dunhuang_offering_intrigue = {
+	intrigue = 1
+	plot_discovery_chance = 0.03
+	plot_power_modifier = 0.03
+	defensive_plot_power_modifier = 0.03
+	icon = 14
+}
+VIET_cao_yijin_modifier = {
+	martial = 1
+	stewardship = 1
+	combat_rating = 10
+	general_opinion = 10
+	plot_power_modifier = 0.02
+	icon = 109
+}
+held_nadun_festival_cooldown = {
+	icon = 109
+}
+VIET_recently_went_to_nadun_festival = {
+	stewardship = 1
+	learning = 1
+	monthly_character_prestige = 0.05
+	monthly_character_piety = 0.05
+	icon = 103
+}
+VIET_dunhuang_gift_foreign_art = {
+	learning = 1
+	general_opinion = 5
+	monthly_character_prestige = 0.05
+	monthly_character_piety = 0.05
+	icon = 97
+}
+VIET_dunhuang_rhubarb_person = {
+	health = 0.5
+	icon = 87
+}
+VIET_dunhuang_foreign_art_decor = {
+	diplomacy = 1
+	monthly_character_prestige = 0.1
+	icon = 101
+}
+VIET_dunhuang_irrigation_experts = {
+	local_tax_modifier = 0.1
+	icon = 12
+}
+VIET_dunhuang_recent_sogdian_friend_deals = {
+	monthly_character_wealth = 0.5
+	icon = 6
+}
+VIET_dunhuang_pretty_new_iranian_serving_girl = {
+	fertility = 0.1
+	icon = 87
+}
+VIET_dunhuang_inspired_by_cao_cao = {
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	icon = 109
+}
+VIET_dunhuang_li_family_pride = {
+	monthly_character_piety = 0.1
+	monthly_character_prestige = 0.1
+	icon = 95
+}
+VIET_dunhuang_mogao_cave_artist = {
+	learning = 2
+	monthly_character_wealth = 0.1
+	monthly_character_piety = 0.03
+	monthly_character_prestige = 0.03
+	icon = 101
+}
+VIET_dunhuang_mogao_cave_merchant = {
+	stewardship = 2
+	learning = 1
+	monthly_character_wealth = 0.5
+	monthly_character_prestige = 0.05
+	icon = 6
+}
+VIET_dunhuang_sogdian_merchant_visits = {
+	local_tax_modifier = 0.25
+	tradevalue = 2
+	icon = 6
+}

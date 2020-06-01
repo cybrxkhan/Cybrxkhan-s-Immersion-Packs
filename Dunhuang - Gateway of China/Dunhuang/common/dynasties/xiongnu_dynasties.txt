@@ -1,0 +1,101 @@
+
+1000088620 = {
+	name="Da"
+	culture = xiongnu
+	religion="tengri_pagan"
+}
+1000088621 = {
+	name="Zhao"
+	culture = xiongnu
+	religion="tengri_pagan"
+}
+1000088622 = {
+	name="Jin"
+	culture = xiongnu
+	religion="tengri_pagan"
+}	
+1000088623 = {
+	name="Zhuangu"
+	culture = xiongnu
+	religion="tengri_pagan"
+}
+1000088624 = {
+	name="Goulong"
+	culture = xiongnu
+	religion="tengri_pagan"
+}
+1000088625 = {
+	name="Xiuchuge"
+	culture = xiongnu
+	religion="tengri_pagan"
+}
+1000088626 = {
+	name="Chubei"
+	culture = xiongnu
+	religion="tengri_pagan"
+}
+1000088627 = {
+	name="Huyan"
+	culture = xiongnu
+	religion="tengri_pagan"
+}
+1000088628 = {
+	name="Qiulin"
+	culture = xiongnu
+	religion="tengri_pagan"
+}
+1000088629 = {
+	name="Xubu"
+	culture = xiongnu
+	religion="tengri_pagan"
+}
+1000088630 = {
+	name="Liu"
+	culture = xiongnu
+	religion="tengri_pagan"
+}
+1000088631 = {
+	name="Zhang"
+	culture = xiongnu
+	religion="tengri_pagan"
+}
+1000088632 = {
+	name="Bu"
+	culture = xiongnu
+	religion="tengri_pagan"
+}	
+1000088633 = {
+	name="Hu"
+	culture = xiongnu
+	religion="tengri_pagan"
+}
+1000088634 = {
+	name="Helian"
+	culture = xiongnu
+	religion="tengri_pagan"
+}
+1000088635 = {
+	name="Fu"
+	culture = xiongnu
+	religion="tengri_pagan"
+}
+1000088636 = {
+	name="Tiefu"
+	culture = xiongnu
+	religion="tengri_pagan"
+}
+1000088637 = {
+	name="Juqu"
+	culture = xiongnu
+	religion="tengri_pagan"
+}
+1000088638 = {
+	name="Che"
+	culture = xiongnu
+	religion="tengri_pagan"
+}
+1000088639 = {
+	name="Meng"
+	culture = xiongnu
+	religion="tengri_pagan"
+}

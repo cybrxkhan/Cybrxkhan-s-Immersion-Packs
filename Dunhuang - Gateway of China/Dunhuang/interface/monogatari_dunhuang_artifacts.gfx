@@ -1,0 +1,74 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_VIET_dunhuang_han_manuscript"
+		texturefile = "gfx\\interface\\artifacts\\monogatari_dunhuang_manuscript.dds"
+	}
+	spriteType = {
+		name = "GFX_VIET_dunhuang_han_manuscript_small"
+		texturefile = "gfx\\interface\\artifacts\\monogatari_dunhuang_manuscript_small.dds"
+	}
+	spriteType = {
+		name = "GFX_VIET_dunhuang_khitan_manuscript"
+		texturefile = "gfx\\interface\\artifacts\\monogatari_dunhuang_manuscript.dds"
+	}
+	spriteType = {
+		name = "GFX_VIET_dunhuang_khitan_manuscript_small"
+		texturefile = "gfx\\interface\\artifacts\\monogatari_dunhuang_manuscript_small.dds"
+	}
+	spriteType = {
+		name = "GFX_VIET_dunhuang_sogdian_manuscript"
+		texturefile = "gfx\\interface\\artifacts\\monogatari_dunhuang_manuscript.dds"
+	}
+	spriteType = {
+		name = "GFX_VIET_dunhuang_sogdian_manuscript_small"
+		texturefile = "gfx\\interface\\artifacts\\monogatari_dunhuang_manuscript_small.dds"
+	}
+	spriteType = {
+		name = "GFX_VIET_dunhuang_tocharian_manuscript"
+		texturefile = "gfx\\interface\\artifacts\\monogatari_dunhuang_manuscript.dds"
+	}
+	spriteType = {
+		name = "GFX_VIET_dunhuang_tocharian_manuscript_small"
+		texturefile = "gfx\\interface\\artifacts\\monogatari_dunhuang_manuscript_small.dds"
+	}
+	spriteType = {
+		name = "GFX_VIET_dunhuang_khotanese_manuscript"
+		texturefile = "gfx\\interface\\artifacts\\monogatari_dunhuang_manuscript.dds"
+	}
+	spriteType = {
+		name = "GFX_VIET_dunhuang_khotanese_manuscript_small"
+		texturefile = "gfx\\interface\\artifacts\\monogatari_dunhuang_manuscript_small.dds"
+	}
+	spriteType = {
+		name = "GFX_VIET_dunhuang_tibetan_manuscript"
+		texturefile = "gfx\\interface\\artifacts\\monogatari_dunhuang_manuscript.dds"
+	}
+	spriteType = {
+		name = "GFX_VIET_dunhuang_tibetan_manuscript_small"
+		texturefile = "gfx\\interface\\artifacts\\monogatari_dunhuang_manuscript_small.dds"
+	}
+	spriteType = {
+		name = "GFX_VIET_dunhuang_tangut_manuscript"
+		texturefile = "gfx\\interface\\artifacts\\monogatari_dunhuang_manuscript.dds"
+	}
+	spriteType = {
+		name = "GFX_VIET_dunhuang_tangut_manuscript_small"
+		texturefile = "gfx\\interface\\artifacts\\monogatari_dunhuang_manuscript_small.dds"
+	}
+	spriteType = {
+		name = "GFX_VIET_dunhuang_mongol_manuscript"
+		texturefile = "gfx\\interface\\artifacts\\monogatari_dunhuang_manuscript.dds"
+	}
+	spriteType = {
+		name = "GFX_VIET_dunhuang_mongol_manuscript_small"
+		texturefile = "gfx\\interface\\artifacts\\monogatari_dunhuang_manuscript_small.dds"
+	}
+	spriteType = {
+		name = "GFX_VIET_dunhuang_turkic_manuscript"
+		texturefile = "gfx\\interface\\artifacts\\monogatari_dunhuang_manuscript.dds"
+	}
+	spriteType = {
+		name = "GFX_VIET_dunhuang_turkic_manuscript_small"
+		texturefile = "gfx\\interface\\artifacts\\monogatari_dunhuang_manuscript_small.dds"
+	}
+}

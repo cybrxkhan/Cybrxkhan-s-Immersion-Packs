@@ -1,0 +1,1092 @@
+#Stuff;;;;;;;;;;;;;;x
+cao_cao_bloodline;Blood of Cao Cao;xxx;;;;;;;;;;;;x
+cao_cao_bloodline_desc;The Cao family of Dunhuang claim descent from the Chinese warlord Cao Cao of Three Kingdoms fame. He was a ruthless yet brilliant and cultured statesman and poet.;xxx;;;;;;;;;;;;x
+wonder_VIET_dunhuang_mogao_caves;Mogao Caves;xxx;;;;;;;;;;;;x
+wonder_VIET_dunhuang_mogao_caves_desc;For generations, Buddhist devotees have carved so-called Buddha grottoes in the cliffs of Dunhuang.;xxx;;;;;;;;;;;;x
+RULE_GROUP_MONOGATARI;CYBRXKHAN'S IMMERSION PACKS;xxx;;;;;;;;;;;;x
+RULE_DUNHUANG_START_NO;None;xxx;;;;;;;;;;;;x
+RULE_DUNHUANG_START_NO_DESC;Human player(s) will not start as the Tuyuhun chieftains or count-tier vassals of Dunhuang when the game starts at the 769, 867, or 936 start dates.;xxx;;;;;;;;;;;;x
+RULE_DUNHUANG_START;Dunhuang Starting Characters;xxx;;;;;;;;;;;;x
+RULE_DUNHUANG_START_YES;Yes;xxx;;;;;;;;;;;;x
+RULE_DUNHUANG_START_YES_DESC;Human player(s) can opt to play as the Tuyuhun chieftains or count-tier vassals of Dunhuang when the game starts at the 769, 867, or 936 start dates.;xxx;;;;;;;;;;;;x
+longxi_li_bloodline;Blood of Laozi and Li Guang;xxx;;;;;;;;;;;;x
+longxi_li_bloodline_desc;Some Li clans, including the Tang Emperors and several in Dunhuang, claim descent from Han general Li Guang and the Taoist philosopher Laozi.;xxx;;;;;;;;;;;;x
+KINGDOM_LIANG;Liang;xxx;;;;;;;;;;;;x
+KINGDOM_LIANG_ADJ;Liang;xxx;;;;;;;;;;;;x
+KINGDOM_JINSHAN;Jinshan;xxx;;;;;;;;;;;;x
+KINGDOM_JINSHAN_ADJ;Jinshan;xxx;;;;;;;;;;;;x
+KINGDOM_GUIYI;Guiyi;xxx;;;;;;;;;;;;x
+KINGDOM_GUIYI_ADJ;Guiyi;xxx;;;;;;;;;;;;x
+xiongnu;Xiongnu;xxx;;;;;;;;;;;;x
+tuyuhun;Tuyuhun;xxx;;;;;;;;;;;;x
+di;Di;xxx;;;;;;;;;;;;x
+k_dunhuang;Dunhuang;xxx;;;;;;;;;;;;x
+k_dunhuang_adj;Dunhuang;xxx;;;;;;;;;;;;x
+establish_kingdom_of_dunhuang;Establish a Kingdom aruond Dunhuang;xxx;;;;;;;;;;;;x
+establish_kingdom_of_dunhuang_desc;It is time to establish an independent state in the region around Dunhuang.;xxx;;;;;;;;;;;;x
+patronize_mogao_cave;Patronize a Mogao Cave;xxx;;;;;;;;;;;;x
+patronize_mogao_cave_desc;I should spend some funds to make my own contribution to the Mogao Caves that have stood near Dunhuang for centuries.;xxx;;;;;;;;;;;;x
+dunhuang_yin_bloodline;Blood of the Yin Clan;xxx;;;;;;;;;;;;x
+dunhuang_yin_bloodline_desc;The Yin are an old noble clan of Dunhuang, connected to many Sogdian merchant families. Their ancestor Yin Dan fled there after the fall of the Han Dynasty.;xxx;;;;;;;;;;;;x
+dunhuang_suo_bloodline;Blood of the Suo Clan;xxx;;;;;;;;;;;;x
+dunhuang_suo_bloodline_desc;The Suo have lived in Dunhuang since the Han Dynasty. Famed for their learning and culture, their most famous member was the calligrapher Suo Jing.;xxx;;;;;;;;;;;;x
+VIET_zhai_fengda_modifier;Zhai Fengda, the great Calendarist;xxx;;;;;;;;;;;;x
+VIET_zhai_fengda_modifier_desc;Zhai Fengda is well-known in Dunhuang's elite circles for his scholarly work, particularly in regards to calendars and astronomy. Although his lineage is of one of Dunhuang's great clans, his family was not as prosperous when he was born, and his father was a simple clerk. Despite his humble beginnings, he rose to become one of the most respected officials in Dunhuang.;xxx;;;;;;;;;;;;x
+VIET_zhai_fengda_modifier_generic;The Great Calendarist;xxx;;;;;;;;;;;;x
+VIET_zhai_fengda_modifier_generic;[Root.GetTitledName] is well-known in Dunhuang's elite circles for his scholarly work, particularly in regards to calendars and astronomy. Although he was not always one of the best students, he has a natural talent as a calendarist and astronomer, and is rising to become one of the most respected officials in Dunhuang.;xxx;;;;;;;;;;;;x
+VIET_built_mogao_cave_normal;Recently Patronized Mogao Cave;xxx;;;;;;;;;;;;x
+VIET_built_mogao_cave_normal_desc;This character recently patronized the construction of a Buddha Grotto in the Mogao Caves near Dunhuang. This deed will certainly bring them good karmic merit.;xxx;;;;;;;;;;;;x
+VIET_built_mogao_cave_big;Recently Patronized Large Mogao Cave;xxx;;;;;;;;;;;;x
+VIET_built_mogao_cave_big_desc;This character recently patronized the construction of a large Buddha Grotto in the Mogao Caves near Dunhuang. The cave is quite beautiful, and befits that of a member of the elite.;xxx;;;;;;;;;;;;x
+VIET_built_mogao_cave_bigger;Recently Patronized Very Large Mogao Cave;xxx;;;;;;;;;;;;x
+VIET_built_mogao_cave_bigger_desc;This character recently patronized the construction of a very large Buddha Grotto in the Mogao Caves near Dunhuang. The cave is one of the most splendid and largest built in many years, and has won praise and admiration from many.;xxx;;;;;;;;;;;;x
+VIET_built_mogao_cave_biggest;Recently Patronized Grand Mogao Cave;xxx;;;;;;;;;;;;x
+VIET_built_mogao_cave_biggest_desc;This character recently patronized the construction of an extremely grand new Buddha Grotto in the Mogao Caves near Dunhuang. The cave is one of the biggest cave complexes at the entire Mogao site, full of dazzling visuals and breathtaking art.;xxx;;;;;;;;;;;;x
+dunhuang_reinforce_relations;Reinforce Relations with Dunhuang's Communities;xxx;;;;;;;;;;;;x
+dunhuang_reinforce_relations_desc;The Gansu region is home to many different ethnic communities. It would be wise to improve relations with the leaders and elites of one of these communities.;xxx;;;;;;;;;;;;x
+VIET_dunhuang_civilized_eastern_contacts;Contacts with Chinese Elites of Dunhuang;xxx;;;;;;;;;;;;x
+VIET_dunhuang_civilized_eastern_contacts_desc;This character has connections with the Chinese of Dunhuang, and a good relationship with the region's Chinese elites.;xxx;;;;;;;;;;;;x
+VIET_dunhuang_civilized_western_contacts;Contacts with Iranian Elites of Dunhuang;xxx;;;;;;;;;;;;x
+VIET_dunhuang_civilized_western_contacts_desc;This character has connections with the Iranians of Dunhuang, and a good relationship with the region's Iranian elites.;xxx;;;;;;;;;;;;x
+VIET_dunhuang_barbarian_southern_contacts;Contacts with Himalayan Elites of Dunhuang;xxx;;;;;;;;;;;;x
+VIET_dunhuang_barbarian_southern_contacts_desc;This character has connections with the Himalayan peoples living in Dunhuang, and a good relationship with the elites of these communities.;xxx;;;;;;;;;;;;x
+VIET_dunhuang_barbarian_northern_contacts;Contacts with Nomad Elites of Dunhuang;xxx;;;;;;;;;;;;x
+VIET_dunhuang_barbarian_northern_contacts_desc;This character has connections with the steppe nomads living in Dunhuang, and a good relationship with the elites of these communities.;xxx;;;;;;;;;;;;x
+tr_dunhuang_rhubarb_industry;Rhubarb Industry;xxx;;;;;;;;;;;;x
+tr_dunhuang_rhubarb_industry_desc;Rhubarb, a popular vegetable known for its medicinal properties in China, was first cultivated near the city of Jiuquan, and is a major export of the Dunhuang region.;xxx;;;;;;;;;;;;x
+tr_dunhuang_melon_industry;Melon Industry;xxx;;;;;;;;;;;;x
+tr_dunhuang_melon_industry_desc;Dunhuang is famous for its fruits, especially melons. In fact, another name for the Dunhuang region, Guazhou, means Melon Prefecture.;xxx;;;;;;;;;;;;x
+tr_dunhuang_irrigation_infrastructure;Dunhuang Irrigation;xxx;;;;;;;;;;;;x
+tr_dunhuang_irrigation_infrastructure_desc;Dunhuang's original irrigation infrastructure was built under the leadership of Yang Xuan who lived in the 4th century. Recent rulers have made substantial additions to this complicated network of canals, dams, and sluices.;xxx;;;;;;;;;;;;x
+tr_dunhuang_confucian_academy;Confucian Academy;xxx;;;;;;;;;;;;x
+tr_dunhuang_confucian_academy_desc;The teachings of Confucius form a major part of Chinese administration and learning, then and now, and the Chinese community of Dunhuang is home to several academies modeled after their counterparts back in central China.;xxx;;;;;;;;;;;;x
+tr_dunhuang_art_schools;Dunhuang Art Schools;xxx;;;;;;;;;;;;x
+tr_dunhuang_art_schools_desc;The convergence of many different cultural and religious traditions in Dunhuang has over generations given rise to unique styles of art. Many schools of art operate in the area and are employed in the construction of the nearby Mogao caves.;xxx;;;;;;;;;;;;x
+tr_dunhuang_nomad_caravan_guards;Nomad Caravan Guards;xxx;;;;;;;;;;;;x
+tr_dunhuang_nomad_caravan_guards_desc;Nomadic warriors have always made their living as mercenaries to protect caravans. Many of them congregate near Dunhuang, the easternmost urban center of the Silk Road before reaching China.;xxx;;;;;;;;;;;;x
+VIET_cao_yijin_modifier;Cao Yijin, scion of Cao Cao;xxx;;;;;;;;;;;;x
+VIET_cao_yijin_modifier_desc;The Cao family of Dunhuang claim descent from the ambitious, ruthless warlord and prime minister of the Han Dynasty, Cao Cao. However, many say that of all the descendants of Cao Cao throughout the centuries, few match the ambition and ability of Cao Yijin. What mark could he make on Dunhuang's history?;xxx;;;;;;;;;;;;x
+nick_the_expander_of_the_west;the Reclaimer of the West;xxx;;;;;;;;;;;;x
+attend_nadun_festival;Attend Nadun Festival;xxx;;;;;;;;;;;;x
+attend_nadun_festival_desc;The Tuyuhun, also known as the Tu, have a traditional harvest festival called the Nadun. It is a lengthy and joyous occasion. Perhaps I can attend a local celebration this year?;xxx;;;;;;;;;;;;x
+VIET_dunhuang_gift_foreign_art;Recent Gift of Foreign Art;xxx;;;;;;;;;;;;x
+VIET_dunhuang_rhubarb_person;Taking Rhubarb Medicine;xxx;;;;;;;;;;;;x
+VIET_dunhuang_foreign_art_decor;Tarim Basin House Decor;xxx;;;;;;;;;;;;x
+VIET_dunhuang_foreign_art_decor_desc;This character recently decided to upgrade their house with some nice artwork that was made by combining the art styles of various cultures of the Tarim Basin, including Chinese, Tocharian, Sogdian, Khotanese, Tibetan, and more.;xxx;;;;;;;;;;;;x
+VIET_dunhuang_irrigation_experts;Dunhuang Irrigation Systems Repaired;xxx;;;;;;;;;;;;x
+VIET_dunhuang_irrigation_experts_desc;Experts from China were recently hired to come to the Dunhuang region and repair some of its old irrigation systems, which have been around for centuries if not more.;xxx;;;;;;;;;;;;x
+VIET_dunhuang_recent_sogdian_friend_deals;Business Partnership with Sogdian Friend;xxx;;;;;;;;;;;;x
+VIET_dunhuang_recent_sogdian_friend_deals_desc;This character, along with their friend, a Sogdian merchant, recently concluded a lucrative business deal. The Sogdians are infamous among the peoples of the Silk Road for their acumen and cunning when it comes to matter of trade and commerce.;xxx;;;;;;;;;;;;x
+VIET_dunhuang_pretty_new_iranian_serving_girl;New Serving Girl;xxx;;;;;;;;;;;;x
+VIET_dunhuang_pretty_new_iranian_serving_girl_desc;This character recently bought a serving girl who originated from the Iranian or Tocharian peoples of Central Asia. They are known for their beauty, especially in the far east, so it's clear why she was brought into this person's household.;xxx;;;;;;;;;;;;x
+VIET_dunhuang_inspired_by_cao_cao;Inspired by Cao Cao;xxx;;;;;;;;;;;;x
+VIET_dunhuang_inspired_by_cao_cao_desc;This person is inspired by their august ancestor, the cunning and mighty Cao Cao of ancient Chinese history.;xxx;;;;;;;;;;;;x
+VIET_dunhuang_li_family_pride;Li Family Pride;xxx;;;;;;;;;;;;x
+VIET_dunhuang_li_family_pride_desc;This ancient and noble Li clan counts among its numbers the great philosopher Laozi, the illustrious general Li Guang, and all fo the Emperors of the Tang Dynasty. This character hails from this august clan, and has been feeling rather proud about their clan as of late.;xxx;;;;;;;;;;;;x
+reject.VIET.courtiers;We have no need for their help.;xxx;;;;;;;;;;;;x
+VIET_nadun_recent_text;Recently held Nadun Festival;xxx;;;;;;;;;;;;x
+VIET_no_current_dunhuang_focus;Currently not reinforcing ties with any of Dunhuang's communities;xxx;;;;;;;;;;;;x
+VIET_dunhuang_mogao_cave_artist;Mogao Cave Artist;xxx;;;;;;;;;;;;x
+VIET_dunhuang_mogao_cave_merchant;Merchant from Dunhuang;xxx;;;;;;;;;;;;x
+VIET_dunhuang_han_manuscript;Chinese Manuscript;xxx;;;;;;;;;;;;x
+VIET_dunhuang_han_manuscript_desc;A scroll with elegant writing in Chinese characters, using a more artistic, calligraphic style popular in the Middle Kingdom;xxx;;;;;;;;;;;;x
+VIET_dunhuang_khitan_manuscript;Khitan Manuscript;xxx;;;;;;;;;;;;x
+VIET_dunhuang_khitan_manuscript_desc;A scroll with elegant writing in the Khitan script, which is based on but simpler than traditional Chinese characters;xxx;;;;;;;;;;;;x
+VIET_dunhuang_sogdian_manuscript;Sogdian Manuscript;xxx;;;;;;;;;;;;x
+VIET_dunhuang_sogdian_manuscript_desc;A scroll with elegant writing in the Sogdian script, an alphabet commonly used by Sogdian merchants and religious figures;xxx;;;;;;;;;;;;x
+VIET_dunhuang_tocharian_manuscript;Tocharian Manuscript;xxx;;;;;;;;;;;;x
+VIET_dunhuang_tocharian_manuscript_desc;A scroll with elegant writing in the Tocharian script, an alphabet typically used in various cities of the Tarim Basin;xxx;;;;;;;;;;;;x
+VIET_dunhuang_khotanese_manuscript;Khotanese Manuscript;xxx;;;;;;;;;;;;x
+VIET_dunhuang_khotanese_manuscript_desc;A scroll with elegant writing in the Khotanese or Saka script, an alphabet originally from the Silk Road entrepot of Khotan;xxx;;;;;;;;;;;;x
+VIET_dunhuang_persian_manuscript;Persian Manuscript;xxx;;;;;;;;;;;;x
+VIET_dunhuang_persian_manuscript_desc;A scroll with elegant writing in one of the Western Persian languages, which differ from their Eastern Iranian cousins;xxx;;;;;;;;;;;;x
+VIET_dunhuang_tibetan_manuscript;Tibetan Manuscript;xxx;;;;;;;;;;;;x
+VIET_dunhuang_tibetan_manuscript_desc;A scroll with elegant writing in the Tibetan script, used by the various peoples of the rugged Tibetan Plateau;xxx;;;;;;;;;;;;x
+VIET_dunhuang_tangut_manuscript;Tangut Manuscript;xxx;;;;;;;;;;;;x
+VIET_dunhuang_tangut_manuscript_desc;A scroll with elegant writing in the Tangut script, which is based on but more complex than traditional Chinese characters;xxx;;;;;;;;;;;;x
+VIET_dunhuang_mongol_manuscript;Mongol Manuscript;xxx;;;;;;;;;;;;x
+VIET_dunhuang_mongol_manuscript_desc;A scroll with elegant writing in the Mongol script, derived from the Uighur script of the Turkic peoples;xxx;;;;;;;;;;;;x
+VIET_dunhuang_turkic_manuscript;Turkic Manuscript;xxx;;;;;;;;;;;;x
+VIET_dunhuang_turkic_manuscript_desc;A scroll with elegant writing in the Turkic script, which is used for a variety of Turkic languages like Uighur;xxx;;;;;;;;;;;;x
+title_dunhuang_chief_buddhist_controller;Chief Buddhist Controller of Hexi;xxx;;;;;;;;;;;;x
+title_dunhuang_chief_buddhist_controller_desc;This member of the clergy is considered the supreme Buddhist clerical official in the Gansu region, based on a title previously appointed by the imperial court of Tang China. They manage the day-to-day bureaucratic issues of the many monasteries and temples in the area.;xxx;;;;;;;;;;;;x
+title_dunhuang_head_of_donation_office;Head of the Donation Office;xxx;;;;;;;;;;;;x
+title_dunhuang_head_of_donation_office_desc;As the Dunhuang region is filled with Buddhist monasteries and temples, the holder of this title is responsible for handling the administrative side of doling out alms and basic necessities to monks and nuns.;xxx;;;;;;;;;;;;x
+title_dunhuang_grandmaster_imperial_entertainments;Grand Master of Imperial Entertainments;xxx;;;;;;;;;;;;x
+title_dunhuang_grandmaster_imperial_entertainments_desc;Originally a title from the imperial court of Tang China, the holder of this title nominally manages various events like feasts and musical performances.;xxx;;;;;;;;;;;;x
+title_dunhuang_erudite_in_classics;Erudite in the Classics;xxx;;;;;;;;;;;;x
+title_dunhuang_erudite_in_classics_desc;This member of the scholar-gentry is (supposedly) learned in the Confucian classics, and spearheads the schooling system in Dunhuang.;xxx;;;;;;;;;;;;x
+title_dunhuang_honor_crimson_fish_pouch;Honor of the Crimson Fish Pouch;xxx;;;;;;;;;;;;x
+title_dunhuang_honor_crimson_fish_pouch_desc;A fanciful title granted to a scholar or member of the gentry considered important in Dunhuang.;xxx;;;;;;;;;;;;x
+VIET_dunhuang_sogdian_merchant_visits;Sogdian Merchant Visits;xxx;;;;;;;;;;;;x
+VIET_dunhuang_sogdian_merchant_visits_desc;A powerful and wealthy Sogdian merchant, who has many connections across the Silk Road, recently traveled through this province and did some trading with the locals.;xxx;;;;;;;;;;;;x
+xxxxxxxx;xxxxxxxx;xxx;;;;;;;;;;;;x
+dunhuang.0.desc;xxxxx;;;;;;;;;;;x
+dunhuang.0.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.1.desc;xxxxx;;;;;;;;;;;x
+dunhuang.1.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.2.desc;xxxxx;;;;;;;;;;;x
+dunhuang.2.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.3.desc;xxxxx;;;;;;;;;;;x
+dunhuang.3.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.4.desc;xxxxx;;;;;;;;;;;x
+dunhuang.4.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.5.desc;xxxxx;;;;;;;;;;;x
+dunhuang.5.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.6.desc;xxxxx;;;;;;;;;;;x
+dunhuang.6.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.7.desc;xxxxx;;;;;;;;;;;x
+dunhuang.7.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.8.desc;xxxxx;;;;;;;;;;;x
+dunhuang.8.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.9.desc;xxxxx;;;;;;;;;;;x
+dunhuang.9.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.intro.charlemagne;In the heyday of the Tang Dynasty, the flourishing cities of Gansu like Dunhuang, Jiuquan, and Anxi served as the gateway to the Silk Road. Merchants from across the world traveling to and from the east and west traded in exotic goods and wares, while holy men and scholars spread the wisdom and knowledge of different faiths and cultures. However, recent events threaten the stability and prosperity of this region.\n\nThough the An Lushan rebellion in China was crushed years ago, generals and governors turned warlords run rampant across the declining Tang Empire. Furthermore, Tang control is slipping away in frontier regions, and the Tibetan Empire may take advantage of the tenuous situation to conquer wealthy cities like Dunhuang. It is a dangerous era for the gateway of the Silk Road, but one that will surely be full of opportunities.;;;;;;;;;;;x
+dunhuang.intro.oldgods;In the heyday of the Tang Dynasty, the flourishing cities of Gansu like Dunhuang, Jiuquan, and Anxi served as the gateway to the Silk Road. Merchants from across the world traveling to and from the east and west traded in exotic goods and wares, while holy men and scholars spread the wisdom and knowledge of different faiths and cultures. In recent years, there have been some interesting developments.\n\nUnder the leadership of Zhang Yichao, Dunhuang recently threw off the Tibetan yoke, but though Chinese rule has been restored, the Tang Dynasty is collapsing. Zhang Yichao is effectively an independent warlord, while the many families of Dunhuang scheme for greater power. It is a dangerous era for the gateway of the Silk Road, but one that will surely be full of opportunities.;;;;;;;;;;;x
+dunhuang.intro.ironcentury;In the heyday of the Tang Dynasty, the flourishing cities of Gansu like Dunhuang, Jiuquan, and Anxi served as the gateway to the Silk Road. Merchants from across the world traveling to and from the east and west traded in exotic goods and wares, while holy men and scholars spread the wisdom and knowledge of different faiths and cultures. However, that golden age is becoming a distant memory.\n\nYears ago, the great Zhang Yichao overthrew the Tibetan tyrants, but his successors could not maintain control and authority. Parts of the region were even lost to the Uighurs. Eventually, the Cao family stepped in to restore order. Though Dunhuang is weakened, with some luck, the capable Caos might return it to its former glory. It is a dangerous era for the gateway of the Silk Road, but one that is surely full of opportunities.;;;;;;;;;;;x
+dunhuang.10.title;Gateway of the Silk Road;;;;;;;;;;;x
+#dunhuang.10.desc;xxxxx;;;;;;;;;;;x
+dunhuang.10.a;I will lead one of the great Chinese families to glory.;;;;;;;;;;;;;x
+dunhuang.10.b;I will lead one of the Tuyuhun tribes to glory.;;;;;;;;;;;;;x
+dunhuang.10.c;We shall see what fate has in store for the region.;;;;;;;;;;;;;x
+VIET_dunhuang_dont_play_anyone_new;Choose to remain playing as [Root.GetTitledName];;;;;;;;;;;x
+dunhuang.11.tooltip;Choose to play as one of several elite Chinese families in Dunhuang;;;;;;;;;;;x
+dunhuang.11.desc;Dunhuang has been inhabited by Chinese since the days of the Han Dynasty. However, it was only during the era of the Northern and Southern Dynasties that they became more prominent. By the time the Tang Dynasty, elite Chinese families controlled much of the wealth and resources in the region. Heavily connected and intermarried, some of their lineages stretch back centuries, if not more. There are several clans seeking to establish themselves and build for themselves a glorious legacy this western outpost of true civilization:;;;;;;;;;;;x
+dunhuang.11.a;The Zhang, the courageous protectors;;;;;;;;;;;;;x
+dunhuang.11.b;The Cao, the ambitious officials;;;;;;;;;;;;;x
+dunhuang.11.c;The Suo, the ancient scholars;;;;;;;;;;;;;x
+dunhuang.11.d;The Li, of the august lineage;;;;;;;;;;;;;x
+dunhuang.11.e;The Zhai, the patient learners;;;;;;;;;;;;;x
+dunhuang.11.f;The Yin, the cautious merchants;;;;;;;;;;;;;x
+dunhuang.11.g;My legacy will not lie with these families but elsewhere.;;;;;;;;;;;;;x
+dunhuang.12.title;Gateway of the Silk Road;;;;;;;;;;;x
+#dunhuang.12.desc;xxxxx;;;;;;;;;;;x
+dunhuang.12.a;The Zhang shall usher in a new golden age for Dunhuang!;;;;;;;;;;;;;x
+dunhuang.12.b;The ambitions of the Cao cannot be stopped!;;;;;;;;;;;;;x
+dunhuang.12.c;We shall see what fate has in store for the region.;;;;;;;;;;;;;x
+dunhuang.13.desc;xxxxx;;;;;;;;;;;x
+dunhuang.13.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.14.desc;xxxxx;;;;;;;;;;;x
+dunhuang.14.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.15.title;The Tuyuhun;;;;;;;;;;;x
+dunhuang.15.tooltip; \n\nChoose to play one of the remnants of the Tuyuhun Kingdom in Qinghai;;;;;;;;;;;x
+dunhuang.15.desc;We Tuyuhun were once a great, powerful kingdom in the Gansu and Qinghai regions before the Tibetans defeated us generations ago. Now, scattered remnants of our people exist as petty tribes, some other Tibetan control and others under Chinese control.\n\nYou, [Root.GetTitledName], are among the last Tuyuhun chiefs holding any significant amount of power and respectability. Times are tough for the Tuyuhun, and many of our brethren have migrated eastward where they have been slowly assimilating into the dominant Chinese populations. We must be brave and cunning if we are to survive in the current political climate. If heaven favors us, perhaps we may even be able to restore our old kingdom one day.;;;;;;;;;;;x
+dunhuang.15.a;Only time will tell what will happen.;;;;;;;;;;;;;x
+dunhuang.16.tooltip; \n\nThe Zhangs are stalwart defenders of Dunhuang and its people, and have served as officials for many years. They are highly regarded by many.;;;;;;;;;;;x
+dunhuang.16.title;The Courageous Protectors;;;;;;;;;;;x
+dunhuang.16.desc.a;The Zhang family have been one of several elite families in Dunhuang for generations. Only heaven knows why the world is in chaos. In light of recent events, some say the Tang are losing the mandate of heaven, and may never recover. The Tibetans have taken advantage of this situation, and have already seized control of several prefectures. Within a couple decades, they may very well control all of Dunhuang.\n\nGiven our family's abilities as administrators, the Tibetans appointed us as officials in the region. Yet their trust in us is an opportunity. There has already been talk of rebellion against Tibet, but we and other, more level-headed clans, such as the Caos, know that the Tibetans are strong, so we must bide our time. No matter how many generations it takes, we will throw off the yoke of Tibetan rule one day!;;;;;;;;;;;x
+dunhuang.16.desc.b;The Zhang family have been one of several elite families in Dunhuang for generations, but almost two decades ago, we became the greatest of these families when we led Dunhuang and the surrounding prefectures in rebellion against our Tibetan overlords, restoring Chinese rule to the region. Yet all is not calm.\n\nWe are no fools, and know we face dangers from all sides. Though we are not brutish and power-hungry like the other generals and governors, the declining Tang Dynasty's leadership does not trust us. Meanwhile, Turkic nomads covet our lands. Most dangerously of all, perhaps, are Dunhuang's scheming noble families, who have motives of their own. We must be strong and united if Dunhuang is to grow and prosper, but under our family's rule, we have no doubt that great things can be achieved.;;;;;;;;;;;x
+dunhuang.16.a;The Zhang shall usher in a new golden age for Dunhuang!;;;;;;;;;;;;;x
+dunhuang.17.tooltip; \n\nThe Caos are supposedly descended from the warlord and prime minister Cao Cao of the Three Kingdoms period. Like their forebear, they are highly ambitious and cunning.;;;;;;;;;;;x
+dunhuang.17.title;The Ambitious Officials;;;;;;;;;;;x
+dunhuang.17.desc.a;Cao Cao. To some, a ruthless villain who would stop at nothing to satisfy his thirst for power. To others, a cunning and pragmatic hero who did what was needed to bring peace to a world torn by war. To us, however, his blood runs in our veins, and so he is our revered ancestor.\n\nMany years after the era of the Three Kingdoms, our branch of the Cao clan came to Dunhuang, where we became one of the elite families of this land. However, the world is in chaos once more. As the Tang suffer from the aftermath of the An Lushan rebellion, the Tibetans march north with designs on Dunhuang and Jiuquan. We cooperate with them for now, but in due time they shall be overthrown, and these regions restored to Chinese rule. Our great progenitor Cao Cao could not be stopped - just as he restored order to all under heaven, so shall we!;;;;;;;;;;;x
+dunhuang.17.desc.b;Cao Cao. To some, a ruthless villain who would stop at nothing to satisfy his thirst for power. To others, a cunning and pragmatic hero who did what was needed to bring peace to a world torn by war. To us, however, his blood runs in our veins, and so he is our revered ancestor.\n\nOver the years, we have been playing bigger roles in Dunhuang's administration. When Zhang Yichao drove out the Tibetans years ago, we were among his most reliable followers, but we fear what will happen after he dies, as his heirs are unworthy. The Tang are in decline, and the world overrun with misery and devastation, so we must do what it takes to ensure Dunhuang's survival. Our great progenitor Cao Cao could not be stopped - just as he restored order to all under heaven, so shall we!;;;;;;;;;;;x
+dunhuang.17.desc.c;Cao Cao. To some, a ruthless villain who would stop at nothing to satisfy his thirst for power. To others, a cunning and pragmatic hero who did what was needed to bring peace to a world torn by war. To us, however, his blood runs in our veins, and so he is our revered ancestor.\n\nIt took years, but we now rule Dunhuang. Zhang Yichao, who overthrew the Tibetan oppressors, was admirable, but his successors were weak, unable to control the scheming noble clans. Thus, we had to step in to restore order. Let others call us tyrants! Cao Cao was called the same despite his noble ambitions. Now, while China is flung into chaos and civil war, and the world overrun with misery and devastation, it will take a strong hand to protect Dunhuang. Our great progenitor Cao Cao could not be stopped - just as he restored order to all under heaven, so shall we!;;;;;;;;;;;x
+dunhuang.17.a;The ambitions of the Cao cannot be stopped!;;;;;;;;;;;;;x
+dunhuang.18.tooltip; \n\nThe Suos have been here longer than most if not all of Dunhuang's Chinese clans. Among their ancestors is the famed calligrapher Suo Jing, and they are proud of their scholarly heritage.;;;;;;;;;;;x
+dunhuang.18.title;The Ancient Scholars;;;;;;;;;;;x
+dunhuang.18.desc;Our lineage stretches back many centuries. The Suo have been here longer than any of the other noble families, since the days of the Han Dynasty when Dunhuang wasn't even considered part of China! Among our ancestors are Suo Ban, the great general who pacified this region during the Eastern Han, and the famed calligrapher Suo Jing of the Three Kingdoms era.\n\nThe reason for our success is simple: we are a learned and educated clan. After all, our illustrious ancestors include calligraphers, astrologers, teachers, and scholars. Out here in the outpost of civilization, only knowledge and wisdom will keep us alive. In this era when death and destruction roam the land once more, we must be vigilant and foster our intellectual and spiritual growth, lest we fall to barbarism.;;;;;;;;;;;x
+dunhuang.18.a;The Suo family shall endure as it always has!;;;;;;;;;;;;;x
+dunhuang.19.tooltip; \n\nThe Lis have many branches, including that of the Tang Emperors. The branch in Dunhuang is proud of their aristocratic pedigree, though some claim their connection to the other Lis is imaginary and made up.;;;;;;;;;;;x
+dunhuang.19.title;Of the August Lineage;;;;;;;;;;;x
+dunhuang.19.desc;Other noble families in Dunhuang look upon us with envy, and not without good reason: we are the great Li, a clan whose achievements are unmatched and resound through the centuries. Our ancestors include the revered philosopher Laozi and the general Li Guang of the Han Dynasty, and we count the Emperors of the Tang Dynasty as our distant cousins. The other families pale in comparison to our glory.\n\nThough Dunhuang is but an outpost of true civilization, it is an important one nevertheless, and we take our role as an integral part of this community seriously as we always had for generations. Now, when the world is in chaos, and warlords and barbarians lurk around every corner, we must be ever more careful and vigilant if we are to protect our own legacy.;;;;;;;;;;;x
+dunhuang.19.a;The Li are the supreme clan of Dunhuang!;;;;;;;;;;;;;x
+dunhuang.20.tooltip; \n\nThe Zhais were middling officials for many years, and only recently have they been propelled to the realm of Dunhuang's elites. They will have to prove themselves worthy of such prestige.;;;;;;;;;;;x
+dunhuang.20.title;The Patient Learners;;;;;;;;;;;x
+dunhuang.20.desc;While the great houses of Dunhuang schemed against one another, we, the Zhai family, have built for ourselves a solid foundation. Let the snobbish aristocrats sneer at us! Our current patriarch, Zhai Fengda, began his career as a lowly clerk, just like his father. Now he is not only a respected official, but one of the preeminent scholars of this generation, specializing in calendars and astronomy.\n\nThe other noble families see us as noveau riche upstarts, who only recently gained power and wealth, even though ironically we have been high-ranking officials for many generations, and even have a couple of caves in Mogao. Unlike them, it simply took us longer to accumulate vast wealth and status. No matter what, through our hard work and faith, we can achieve great things in a place like Dunhuang.;;;;;;;;;;;x
+dunhuang.20.a;The Zhai shall rise to great heights!;;;;;;;;;;;;;x
+dunhuang.21.tooltip; \n\nThe Yins are one of Dunhuang's older clans and known for their caution when it comes to risky intrigue and ventures, which they learned bitterly from experience. They are a wealthy family and have many connections with the Western foreigners.;;;;;;;;;;;x
+dunhuang.21.title;The Cautious Merchants;;;;;;;;;;;x
+dunhuang.21.desc;We are the ancient Yin family, who have been here for many centuries, and we are proud of such a pedigree. Our illustrious forebear, Yin Dan, fled here in the days of the Jin Dynasty, due to his relatives' unrestrained ambition that nearly annihilated our clan. We know how petty power struggles can ruin the prosperity and influence accumulated from generations of work. Instead, we have focused on trade and making connections with foreign peoples.\n\nIt does not matter who rules this land - whether a Tang Emperor, Tibetan king, Turkic Khan, or Chinese warlord - as long as peace and stability can be maintained, we and the region shall prosper and grow.;;;;;;;;;;;x
+dunhuang.21.a;The Yin shall persevere, even in this age of chaos!;;;;;;;;;;;;;x
+dunhuang.22.desc;xxxxx;;;;;;;;;;;x
+dunhuang.22.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.23.desc;xxxxx;;;;;;;;;;;x
+dunhuang.23.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.24.desc;xxxxx;;;;;;;;;;;x
+dunhuang.24.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.25.desc;xxxxx;;;;;;;;;;;x
+dunhuang.25.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.26.desc;xxxxx;;;;;;;;;;;x
+dunhuang.26.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.27.desc;xxxxx;;;;;;;;;;;x
+dunhuang.27.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.28.desc;xxxxx;;;;;;;;;;;x
+dunhuang.28.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.29.desc;xxxxx;;;;;;;;;;;x
+dunhuang.29.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.30.title;A New Kingdom;;;;;;;;;;;x
+dunhuang.30.desc;Once more, the eastern end of the Silk Road - the gateway to the West, as it were - is home to a powerful, independent kingdom, thanks in part to your leadership and hard work. Centered around the great frontier towns of Dunhuang and Jiuquan that have stood as trade entrepots and an outpost of civilization for centuries, it will surely prosper.\n\nOne question remains: what shall we name this kingdom? In the past, various regimes have called this the Kingdom of Liang, after the old Chinese province of Liang in the region, but there are other names your advisors say you should consider as well.;;;;;;;;;;;x
+dunhuang.30.a;Kingdom of Liang;;;;;;;;;;;;;x
+dunhuang.30.b;Kingdom of Jinshan;;;;;;;;;;;;;x
+dunhuang.30.c;Kingdom of Guiyi;;;;;;;;;;;;;x
+dunhuang.30.d;Kingdom of Dunhuang;;;;;;;;;;;;;x
+VIET_dunhuang_founded_text_liang_li;Our august ancestors, the Li clan, once ruled an independent Kingdom of Liang - who are we if we were not to honor their esteemed choice name?;;;;;;;;;;;x
+VIET_dunhuang_founded_text_liang_not_li;Let us stick with tradition, and emulate our predecessors here who called their realm Liang, for it was the name for the region since the days of the glorious Han Dynasty.;;;;;;;;;;;x
+VIET_dunhuang_founded_text_jinshan;Jinshan, the Golden Mountain - it is a poetic name, and fitting for our state. We shall be prosperous and we shall be firm and unyielding.;;;;;;;;;;;x
+VIET_dunhuang_founded_text_dunhuang;Though there are a few major cities in the region, Dunhuang stands above the rest as a center of trade and religion. Our kingdom should be named after it.;;;;;;;;;;;x
+VIET_dunhuang_founded_text_guiyi;Guiyi is the name of the army that fought against Tibetan rule, meaning the Return to Righteousness Army. It is a fitting name for our state.;;;;;;;;;;;x
+dunhuang.31.title;[From.PrimaryTitle.GetName];;;;;;;;;;;x
+dunhuang.31.desc;Generations ago, during the tumultuous period of China's history known as the Sixteen Kingdoms and the Northern and Southern Dynasties, the Gansu region was home to several kingdoms. Now, under the leadership of [From.GetTitle] [From.GetDynName], the descendants of these kingdoms' old rulers, whether in blood or in spirit, have once again forged a powerful, independent state centered around the great cities of the region like Dunhuang and Jiuquan. It is called the [From.PrimaryTitle.GetName].\n\nWith prosperity from the Silk Road trade, powerful armies, and the Middle Kingdom's sense of culture and refinement, their achievements will surely go down in history.;;;;;;;;;;;x
+dunhuang.31.a;Interesting.;;;;;;;;;;;;;x
+dunhuang.32.desc;xxxxx;;;;;;;;;;;x
+dunhuang.32.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.33.desc;xxxxx;;;;;;;;;;;x
+dunhuang.33.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.34.desc;xxxxx;;;;;;;;;;;x
+dunhuang.34.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.35.desc;xxxxx;;;;;;;;;;;x
+dunhuang.35.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.36.desc;xxxxx;;;;;;;;;;;x
+dunhuang.36.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.37.desc;xxxxx;;;;;;;;;;;x
+dunhuang.37.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.38.desc;xxxxx;;;;;;;;;;;x
+dunhuang.38.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.39.desc;xxxxx;;;;;;;;;;;x
+dunhuang.39.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.40.desc;xxxxx;;;;;;;;;;;x
+dunhuang.40.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.41.desc;xxxxx;;;;;;;;;;;x
+dunhuang.41.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.42.desc;xxxxx;;;;;;;;;;;x
+dunhuang.42.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.43.desc;xxxxx;;;;;;;;;;;x
+dunhuang.43.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.44.desc;xxxxx;;;;;;;;;;;x
+dunhuang.44.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.45.desc;xxxxx;;;;;;;;;;;x
+dunhuang.45.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.46.desc;xxxxx;;;;;;;;;;;x
+dunhuang.46.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.47.desc;xxxxx;;;;;;;;;;;x
+dunhuang.47.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.48.desc;xxxxx;;;;;;;;;;;x
+dunhuang.48.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.49.desc;xxxxx;;;;;;;;;;;x
+dunhuang.49.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.50.title;Mogao Caves;;;;;;;;;;;x
+dunhuang.50.desc;The Mogao Caves have stood for centuries as a testament to the truth of the Dharma as taught by Lord Buddha. Now, I have an opportunity to gain some merit by sponsoring the construction of a new cave. I have found a promising artist who has the experience I need to oversee and manage the sort of work involved with making a new cave at Mogao.\n\nAfter some discussion regarding the logistics of the whole endeavor, we get down to business, discussing what I want for the cave itself. In other words, what will my cave's art will focus on?;;;;;;;;;;;x
+dunhuang.50.a;Showing my and my family's devotion;;;;;;;;;;;;;x
+dunhuang.50.b;Retelling Buddhist fables and parables;;;;;;;;;;;;;x
+dunhuang.50.c;Visions of enlightened beings and deities;;;;;;;;;;;;;x
+VIET_dunhuang_caves_focus_family_text;The world must know of the nobility and righteousness of my lineage and my kin, and how we have contributed much to the flowering of the true way.;;;;;;;;;;;x
+VIET_dunhuang_caves_focus_jataka_text;The Jataka Tales have entertained people for generations, and are still popular - they are a great way to teach everyone right conduct and attitudes.;;;;;;;;;;;x
+VIET_dunhuang_caves_focus_deities_text;What better than to directly honor the Buddhas, Bodhisattvas, and other deities than to focus on them? Let those who see my cave be inspired!;;;;;;;;;;;x
+dunhuang.51.desc;The second and more important matter, of course, is the cost. It will depend on how big I want the cave to be and the level of detail and quality I am expecting. I have already set aside some funds for my cave, but if I want something bigger and grander, I will likely have to spend more. Am I willing to pay extra money?;;;;;;;;;;;x
+dunhuang.51.a;Some, but not too much.;;;;;;;;;;;;;x
+dunhuang.51.b;A lot - this cave will be amazing!;;;;;;;;;;;;;x
+dunhuang.51.c;On second thought, no.;;;;;;;;;;;;;x
+dunhuang.52.desc;Now that negotiations are done, all I can do now is wait until the caves are finished. ;;;;;;;;;;;x
+dunhuang.52.a;What a sight they will be!;;;;;;;;;;;;;x
+dunhuang.53.desc;Finally, after a long wait, the men I commissioned are finished carving out a new cave in the Mogao Caves. It is beautiful and stunning, just as I imagined, and the pictures carved on the murals look so realistic. This cave will proudly stand alongside the rest of the grottoes here for many more centuries, a testament to the holiness and strength of the Three Jewels.;;;;;;;;;;;x
+dunhuang.53.a;A job well done!;;;;;;;;;;;;;x
+dunhuang.54.desc;xxxxx;;;;;;;;;;;x
+dunhuang.54.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.55.desc;My relative, [target_dunhuang_relative_mogao.GetTitledName], commissioned a number of men to carve out a new cave at Mogao shortly before they passed away. Such is the cycle of life and rebirth! Still, while they are no longer here to see this come to fruition, their good deed will earn them much merit in future lives, merit which is surely also shared with the rest of the family as well!;;;;;;;;;;;x
+dunhuang.55.a;A job well done!;;;;;;;;;;;;;x
+dunhuang.56.desc;xxxxx;;;;;;;;;;;x
+dunhuang.56.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.57.desc;xxxxx;;;;;;;;;;;x
+dunhuang.57.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.58.desc;xxxxx;;;;;;;;;;;x
+dunhuang.58.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.59.desc;xxxxx;;;;;;;;;;;x
+dunhuang.59.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.60.desc;While working on the Mogao Cave I commissioned, one of the workmen had a dream one night where he was visited by an unknown Bodhisattva. This can be considered an auspicious sign.;;;;;;;;;;;x
+dunhuang.60.a;Very good!;;;;;;;;;;;;;x
+dunhuang.61.desc;Calamity struck while my men were working on the Mogao Cave. A small sandstorm swept through the area, and though it did not damage much or cause any loss of life, it did destroy some progress on my cave.;;;;;;;;;;;x
+dunhuang.61.a;Unfortunate!;;;;;;;;;;;;;x
+dunhuang.62.desc;The caravans transporting goods and materials used in my Mogao Cave were attacked by nomad bandits. Though we did not lose all of it, this is a blow to the project. Surely those vile men will be reborn in the hell realm in the next life for their evil acts against the Three Jewels!;;;;;;;;;;;x
+dunhuang.62.a;Still, I will have to make up for those losses.;;;;;;;;;;;;;x
+dunhuang.63.desc;One of the local Buddhist lay organizations in Dunhuang has heard about my project to expand the Mogao Caves with my own. They are impressed and offer some funds to help. All they ask is for a little recognition.;;;;;;;;;;;x
+dunhuang.63.a;They shall be depicted in the cave's murals.;;;;;;;;;;;;;x
+dunhuang.63.b;I will give them donations instead as thanks!;;;;;;;;;;;;;x
+dunhuang.63.c;I don't need their support.;;;;;;;;;;;;;x
+dunhuang.64.desc;A prominent monk from one of Dunhuang's monasteries is visiting the construction site today at the Mogao Caves. He had good things to say about what was being done, so I am relieved.;;;;;;;;;;;x
+dunhuang.64.a;I gave him some alms before he left.;;;;;;;;;;;;;x
+dunhuang.65.desc;There have been some delays with my cave at Mogao. By coincidence, my cave is being carved next to another cave under construction, which is being sponsored by an association of merchants. There have been some clashes as to the boundaries between our caves. Though the legal authorities have ruled in my favor, the merchants still seem upset.;;;;;;;;;;;x
+dunhuang.65.a;I'll back off. We should not fight.;;;;;;;;;;;;;x
+dunhuang.65.b;Pay the merchants to back down.;;;;;;;;;;;;;x
+dunhuang.65.c;Forget the merchants! This is my cave!;;;;;;;;;;;;;x
+dunhuang.65.d;Why don't we combine our efforts?;;;;;;;;;;;;;x
+dunhuang.66.tooltip;Surely with one massive cave, together we can both honor the Buddha, Dharma, and Sangha even more so than if we worked separately!;;;;;;;;;;;x
+dunhuang.66.desc;The merchants were surprised by my gesture, and accepted. We all forgave each other for our transgressions, and laughed at how silly our squabble was. The Buddha taught us to not be misled by our afflictive emotions after all, as this causes negative karma. A good thing came out of this thankfully, and the cave will be even bigger and greater than before!;;;;;;;;;;;x
+dunhuang.66.a;A happy ending.;;;;;;;;;;;;;x
+dunhuang.67.desc;After spending some time with the merchant association to sort out the details of our new combined cave, one of them offered his services to me at my court. He is talented and we had gotten along really well, so I would love to have him around to help me.;;;;;;;;;;;x
+dunhuang.67.a;Yes, welcome, my Dharma brother!;;;;;;;;;;;;;x
+dunhuang.68.desc;While working on my Mogao Cave, the workers found a hidden room, leading them to a sealed cave that had been lost for centuries! It is filled with priceless scrolls and other spiritual artifacts.;;;;;;;;;;;x
+dunhuang.68.a;Donate the items to one of the local monasteries.;;;;;;;;;;;;;x
+dunhuang.68.b;Those artifacts would go nicely in my cave.;;;;;;;;;;;;;x
+dunhuang.68.c;I want to bring these back home to study.;;;;;;;;;;;;;x
+dunhuang.68.d;Selling these should net me a nice profit.;;;;;;;;;;;;;x
+dunhuang.69.desc;One of the main artisans in charge of this whole cave project is a foreigner from afar. He is competent and brings a unique foreign influence to his art. That said, though he fluent in our language and customs, he is still awkward at times and has difficulty communicating with the others at times.;;;;;;;;;;;x
+dunhuang.69.a;As long as he does his job, it is no matter to me.;;;;;;;;;;;;;x
+dunhuang.69.b;I'll help him if there are any misunderstandings.;;;;;;;;;;;;;x
+dunhuang.70.desc;The artisan was grateful for my assistance, and, furthermore, tells me that my graciousness has convinced him to stay permanently here after the project is done. Who knows what other things he can help me with?;;;;;;;;;;;x
+dunhuang.70.a;Very good!;;;;;;;;;;;;;x
+dunhuang.71.desc;Today I inspected the site of my Mogao Cave project. The workers seem to be doing their job well, all except for one, who works slower than everyone else. The others say he is tired and recently got sick and that he is usually a good worker.;;;;;;;;;;;x
+dunhuang.71.a;Fire him! He's obviously pretending.;;;;;;;;;;;;;x
+dunhuang.71.b;Let's hope he gets better. Carry on, then.;;;;;;;;;;;;;x
+dunhuang.71.c;I will personally make sure he is given medicine and care.;;;;;;;;;;;;;x
+dunhuang.72.desc;A group of monks from one of the local monasteries near Dunhuang have come to perform some religious ceremonies, chantings and prayers, at my Mogao Cave under construction. Though they often don't ask for it explicitly, it is customary to offer them something afterwards as a sign of appreciation, and for good merit.;;;;;;;;;;;x
+dunhuang.72.a;Why should I? Monks are so greedy.;;;;;;;;;;;;;x
+dunhuang.72.b;Of course. Here are some donations.;;;;;;;;;;;;;x
+dunhuang.72.c;A large donation is what they need!;;;;;;;;;;;;;x
+dunhuang.73.desc;For those who follow the teachings of the Buddha, eating vegetarian food every now and then is a sure way to show our faith, and to gain merit. When you travel to the site of your cave's construction one day, it appears that the workers and everyone involved have organized a vegetarian feast in honor of your visit.;;;;;;;;;;;x
+dunhuang.73.a;I hate vegetarian food. I will merely observe.;;;;;;;;;;;;;x
+dunhuang.73.b;I will eat what I need to, nothing more.;;;;;;;;;;;;;x
+dunhuang.73.c;Delicious! And a great act of merit too.;;;;;;;;;;;;;x
+dunhuang.74.desc;xxxxx;;;;;;;;;;;x
+dunhuang.74.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.75.desc;xxxxx;;;;;;;;;;;x
+dunhuang.75.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.76.desc;xxxxx;;;;;;;;;;;x
+dunhuang.76.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.77.desc;xxxxx;;;;;;;;;;;x
+dunhuang.77.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.78.desc;xxxxx;;;;;;;;;;;x
+dunhuang.78.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.79.desc;xxxxx;;;;;;;;;;;x
+dunhuang.79.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.80.desc;xxxxx;;;;;;;;;;;x
+dunhuang.80.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.81.desc;xxxxx;;;;;;;;;;;x
+dunhuang.81.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.82.desc;xxxxx;;;;;;;;;;;x
+dunhuang.82.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.83.desc;xxxxx;;;;;;;;;;;x
+dunhuang.83.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.84.desc;xxxxx;;;;;;;;;;;x
+dunhuang.84.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.85.desc;xxxxx;;;;;;;;;;;x
+dunhuang.85.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.86.desc;xxxxx;;;;;;;;;;;x
+dunhuang.86.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.87.desc;xxxxx;;;;;;;;;;;x
+dunhuang.87.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.88.desc;xxxxx;;;;;;;;;;;x
+dunhuang.88.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.89.desc;xxxxx;;;;;;;;;;;x
+dunhuang.89.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.90.desc;xxxxx;;;;;;;;;;;x
+dunhuang.90.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.91.desc;xxxxx;;;;;;;;;;;x
+dunhuang.91.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.92.desc;xxxxx;;;;;;;;;;;x
+dunhuang.92.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.93.desc;xxxxx;;;;;;;;;;;x
+dunhuang.93.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.94.desc;xxxxx;;;;;;;;;;;x
+dunhuang.94.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.95.desc;xxxxx;;;;;;;;;;;x
+dunhuang.95.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.96.desc;xxxxx;;;;;;;;;;;x
+dunhuang.96.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.97.desc;xxxxx;;;;;;;;;;;x
+dunhuang.97.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.98.desc;xxxxx;;;;;;;;;;;x
+dunhuang.98.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.99.desc;xxxxx;;;;;;;;;;;x
+dunhuang.99.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.100.desc;Dunhuang has been a melting pot of different peoples for generations, even before the august Han Dynasty established a foothold of Chinese rule in the region. Nowadays, there are flourishing communities with origins from all across Eurasia, and we have decided to wisely improve relations with and perhaps win some allies in one particular community:;;;;;;;;;;;x
+dunhuang.100.a;The cultured Chinese;;;;;;;;;;;;;x
+dunhuang.100.b;The wealthy Iranians;;;;;;;;;;;;;x
+dunhuang.100.c;The Himalayan mountaineers;;;;;;;;;;;;;x
+dunhuang.100.d;The northern steppe nomads;;;;;;;;;;;;;x
+VIET_dunhuang_reinforce_relations_civilized_eastern_chinese;We should look to improving relations with our own Chinese brethren. There are many lesser noble families, and men and women of talent, who we may want to work together with to achieve great things.;;;;;;;;;;;x
+VIET_dunhuang_reinforce_relations_civilized_eastern_not_chinese;Seeking the support and cooperation of the local Chinese inhabitants would be wise. They have played an important role in Dunhuang society for many centuries, and have connections with the Middle Kingdom itself.;;;;;;;;;;;x
+VIET_dunhuang_reinforce_relations_civilized_western;For years, merchants, pilgrims, and travelers from eastern Iran and the Tarim Basin established themselves in Dunhuang. With their wealth and connections, and our status and power, we could together achieve great things.;;;;;;;;;;;x
+VIET_dunhuang_reinforce_relations_barbarian_southern;Tribesmen from the Himalayan Plateau form a sizeable community here in Dunhuang. They are hardy and ferocious, capable warriors and devout followers of their faiths, and so could prove useful allies.;;;;;;;;;;;x
+VIET_dunhuang_reinforce_relations_barbarian_northern;The nomads of the northern steppes are a contentious lot, but several of them live in this region. Though they are not always the most reliable, their skills as warriors and adventurers cannot be ignored.;;;;;;;;;;;x
+dunhuang.101.desc;A promising man from Dunhuang's Chinese community wishes to join our court. For generations, this community has prided themselves as the learned protectors of Dunhuang's unique culture. Regardless of whether he's capable or not, having a connection will be useful.;;;;;;;;;;;x
+dunhuang.101.a;Splendid!;;;;;;;;;;;;;x
+dunhuang.102.desc;A promising man from Dunhuang's Iranian and Tocharian community wishes to join our court. These peoples are infamous for their cunning in business and the beauty of their women. Regardless of whether he's capable or not, having a connection will be useful.;;;;;;;;;;;x
+dunhuang.102.a;Splendid!;;;;;;;;;;;;;x
+dunhuang.103.desc;A promising man from Dunhuang's Himalayan community wishes to join our court. The inhabitants of the Tibetan plateau are rugged and rightly respected for their courage and strength. Regardless of whether he's capable or not, having a connection will be useful.;;;;;;;;;;;x
+dunhuang.103.a;Splendid!;;;;;;;;;;;;;x
+dunhuang.104.desc;A promising man from Dunhuang's nomad community wishes to join our court. Though dismissed as barbarians by some, they are nevertheless feared warriors and horsemen for a reason. Regardless of whether he's capable or not, having a connection will be useful.;;;;;;;;;;;x
+dunhuang.104.a;Splendid!;;;;;;;;;;;;;x
+dunhuang.105.desc;xxxxx;;;;;;;;;;;x
+dunhuang.105.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.106.desc.a;The local Chinese elite families have been competing with each other to win our favor ever since we made efforts to improve relations with them. A number of them have recently just provided us with a gift of gold and other valuables.;;;;;;;;;;;x
+dunhuang.106.desc.b;In light of our recent efforts to build bonds and better relations with the local Western community of Dunhuang, the Iranian and Tocharian elite families have provided us with a gift of gold and other valuables.;;;;;;;;;;;x
+dunhuang.106.desc.c;In light of our recent efforts to build bonds and better relations with the local Himalayan community of Dunhuang, the Tibetan elite families have provided us with a gift of gold and other valuables.;;;;;;;;;;;x
+dunhuang.106.desc.d;In light of our recent efforts to build bonds and better relations with the local community of steppe nomads in Dunhuang, the nomad elite families have provided us with a gift of gold and other valuables.;;;;;;;;;;;x
+dunhuang.106.a;Much appreciated.;;;;;;;;;;;;;x
+dunhuang.107.desc.a;The work we have done building up relations with the local Chinese community of Dunhuang has paid off. They have recently agreed to partner with us in a number of advantageous business deals. Through their networks on the Silk Road, we will surely together earn a great profit.;;;;;;;;;;;x
+dunhuang.107.desc.b;The work we have done building up relations with the local Iranian and Tocharian community of Dunhuang has paid off. They have recently agreed to partner with us in a number of advantageous business deals. Through their networks on the Silk Road, we will surely together earn a great profit.;;;;;;;;;;;x
+dunhuang.107.desc.c;The work we have done building up relations with the local Tibetan community of Dunhuang has paid off. They have recently agreed to partner with us in a number of advantageous business deals. Through their networks on the Silk Road, we will surely together earn a great profit.;;;;;;;;;;;x
+dunhuang.107.desc.d;The work we have done building up relations with the local community of steppe nomads in Dunhuang has paid off. They have recently agreed to partner with us in a number of advantageous business deals. Through their networks on the Silk Road, we will surely together earn a great profit.;;;;;;;;;;;x
+dunhuang.107.a;The silk must flow.;;;;;;;;;;;;;x
+dunhuang.108.desc.a;The local Chinese elites have been most appreciative of our efforts to foster closer relations with them. To celebrate a number of recent successes, a few of their most prominent clans got together and hosted a magnificent feast in our name. It was a great feast, and we all feasted on traditional delicacies such as boiled lamb and pork, medleys of nuts, and crab apples.;;;;;;;;;;;x
+dunhuang.108.desc.b;The local Iranian and Tocharian elites have been most appreciative of our efforts to foster closer relations with them. To celebrate a number of recent successes, a few of their most prominent clans got together and hosted a magnificent feast in our name. It was a great feast, and we all feasted on traditional delicacies such as Ferghana wine, Samarkand peaches, and sangak bread.;;;;;;;;;;;x
+dunhuang.108.desc.c;The local Himalayan chiefs have been most appreciative of our efforts to foster closer relations with them. To celebrate a number of recent successes, a few of their most prominent clans got together and hosted a magnificent feast in our name. It was a great feast, and we all feasted on traditional delicacies such as momo dumplings stuffed with vegetables and meat, tsampa porridge, and butter tea.;;;;;;;;;;;x
+dunhuang.108.desc.d;The local nomad chiefs have been most appreciative of our efforts to foster closer relations with them. To celebrate a number of recent successes, a few of their most prominent clans got together and hosted a magnificent feast in our name. It was a great feast, and we all feasted on traditional delicacies such as cooked mutton, salted horse sausage, and .;;;;;;;;;;;x
+dunhuang.108.a;A wonderful and joyous occasion!;;;;;;;;;;;;;x
+dunhuang.109.desc.a;We have, through our connections with the Chinese elites of Dunhuang, managed to build up a good rapport among their community. Even their commoners think more highly of us than before. This will surely benefit us politically and financially, and earn much honor and acclaim for our dynasty.;;;;;;;;;;;x
+dunhuang.109.desc.b;We have, through our connections with the Iranian and Tocharian elites of Dunhuang, managed to build up a good rapport among their community. Even their commoners think more highly of us than before. This will surely benefit us politically and financially, and earn much honor and acclaim for our dynasty.;;;;;;;;;;;x
+dunhuang.109.desc.c;We have, through our connections with the Himalayan chiefs of Dunhuang, managed to build up a good rapport among their community. Even their commoners think more highly of us than before. This will surely benefit us politically and financially, and earn much honor and acclaim for our dynasty.;;;;;;;;;;;x
+dunhuang.109.desc.d;We have, through our connections with the steppe nomad chiefs of Dunhuang, managed to build up a good rapport among their community. Even their commoners think more highly of us than before. This will surely benefit us politically and financially, and earn much honor and acclaim for our dynasty.;;;;;;;;;;;x
+dunhuang.109.a;We will have to see how long this period of goodwill lasts.;;;;;;;;;;;;;x
+dunhuang.110.desc.a;The leaders of Dunhuang's Chinese community have presented us with a most spectacular gift of [Root.Religion.GetName] religious objects, such as statues inlaid with precious gems, colorful paintings, and other similar items.;;;;;;;;;;;x
+dunhuang.110.desc.b;The leaders of Dunhuang's Iranian and Tocharian community have presented us with a most spectacular gift of [Root.Religion.GetName] religious objects, such as statues inlaid with precious gems, colorful paintings, and other similar items.;;;;;;;;;;;x
+dunhuang.110.desc.c;The Himalayan chiefs of Dunhuang have presented us with a most spectacular gift of [Root.Religion.GetName] religious objects, such as statues inlaid with precious gems, colorful paintings, and other similar items.;;;;;;;;;;;x
+dunhuang.110.desc.d;The steppe nomad chiefs of Dunhuang have presented us with a most spectacular gift of [Root.Religion.GetName] religious objects, such as statues inlaid with precious gems, colorful paintings, and other similar items.;;;;;;;;;;;x
+dunhuang.110.a;A most welcome gift.;;;;;;;;;;;;;x
+dunhuang.111.desc.a;Though our beliefs might not always be the same as all the members of Duhuang's Chinese community, our efforts to reach out to them and cooperate as well as learn from one another has led to a flowering of religions.;;;;;;;;;;;x
+dunhuang.111.desc.b;Though our beliefs might not always be the same as all the members of Duhuang's Iranian and Tocharian community, our efforts to reach out to them and cooperate as well as learn from one another has led to a flowering of religions.;;;;;;;;;;;x
+dunhuang.111.desc.c;Though our beliefs might not always be the same as all the members of Duhuang's Himalayan community, our efforts to reach out to them and cooperate as well as learn from one another has led to a flowering of religions.;;;;;;;;;;;x
+dunhuang.111.desc.d;Though our beliefs might not always be the same as all the members of Duhuang's nomad community, our efforts to reach out to them and cooperate as well as learn from one another has led to a flowering of religions.;;;;;;;;;;;x
+dunhuang.111.a;This bodes well for us.;;;;;;;;;;;;;x
+dunhuang.112.desc;xxxxx;;;;;;;;;;;x
+dunhuang.112.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.113.desc;xxxxx;;;;;;;;;;;x
+dunhuang.113.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.114.desc.a;Leading members of Dunhuang's Chinese community have presented to me a most valuable gift today: a simple but elegant manuscript, filled with literature written in one of their languages.;;;;;;;;;;;x
+dunhuang.114.desc.b;Leading members of Dunhuang's Iranian and Tocharian community have presented to me a most valuable gift today: a simple but elegant manuscript, filled with literature written in one of their languages.;;;;;;;;;;;x
+dunhuang.114.desc.c;Leading members of Dunhuang's Himalayan community have presented to me a most valuable gift today: a simple but elegant manuscript, filled with literature written in one of their languages.;;;;;;;;;;;x
+dunhuang.114.desc.d;Leading members of Dunhuang's nomad community have presented to me a most valuable gift today: a simple but elegant manuscript, filled with literature written in one of their languages.;;;;;;;;;;;x
+dunhuang.114.a;Ah! People of culture, I see.;;;;;;;;;;;;;x
+dunhuang.115.desc.a;Our relations with the local Chinese community of Dunhuang is good enough that a number of their men have pledged loyalty to us, offering their services as warriors and bodyguards.;;;;;;;;;;;x
+dunhuang.115.desc.b;Our relations with the local Iranian and Tocharian community of Dunhuang is good enough that a number of their men have pledged loyalty to us, offering their services as warriors and bodyguards.;;;;;;;;;;;x
+dunhuang.115.desc.c;Our relations with the local Himalayan community of Dunhuang is good enough that a number of their men have pledged loyalty to us, offering their services as warriors and bodyguards.;;;;;;;;;;;x
+dunhuang.115.desc.d;Our relations with the local nomad community of Dunhuang is good enough that a number of their men have pledged loyalty to us, offering their services as warriors and bodyguards.;;;;;;;;;;;x
+dunhuang.115.a;I am most thankful for their support.;;;;;;;;;;;;;x
+dunhuang.116.desc.a;Members of the Chinese community of Dunhuang are keenly aware of mutual external threats to our continued prosperity, and they have provided me with some military supplies and intelligence as a result.;;;;;;;;;;;x
+dunhuang.116.desc.b;Members of the Iranian and Tocharian community of Dunhuang are keenly aware of mutual external threats to our continued prosperity, and they have provided me with some military supplies and intelligence as a result.;;;;;;;;;;;x
+dunhuang.116.desc.c;Members of the Himalayan community of Dunhuang are keenly aware of mutual external threats to our continued prosperity, and they have provided me with some military supplies and intelligence as a result.;;;;;;;;;;;x
+dunhuang.116.desc.d;Members of the nomad community of Dunhuang are keenly aware of mutual external threats to our continued prosperity, and they have provided me with some military supplies and intelligence as a result.;;;;;;;;;;;x
+dunhuang.116.a;Such shows of friendship will not be forgotten.;;;;;;;;;;;;;x
+dunhuang.117.desc.a;Our allies in the Chinese community of Dunhuang have provided us useful information about recent information they learned concerning potential plots and intrigue that threaten our mutual interests.;;;;;;;;;;;x
+dunhuang.117.desc.b;Our allies in the Iranian and Tocharian community of Dunhuang have provided us useful information about recent information they learned concerning potential plots and intrigue that threaten our mutual interests.;;;;;;;;;;;x
+dunhuang.117.desc.c;Our allies in the Himalayan community of Dunhuang have provided us useful information about recent information they learned concerning potential plots and intrigue that threaten our mutual interests.;;;;;;;;;;;x
+dunhuang.117.desc.d;Our allies in the nomad community of Dunhuang have provided us useful information about recent information they learned concerning potential plots and intrigue that threaten our mutual interests.;;;;;;;;;;;x
+dunhuang.117.a;It is good that we can work together like this!;;;;;;;;;;;;;x
+dunhuang.118.desc;A promising young lady from Dunhuang's Chinese community wishes to join our court. For generations, this community has prided themselves as the learned protectors of Dunhuang's unique culture. Regardless of whether she's capable or not, having a connection will be useful.;;;;;;;;;;;x
+dunhuang.118.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.119.desc;A promising young lady from Dunhuang's Iranian and Tocharian community wishes to join our court. These peoples are infamous for their cunning in business and the beauty of their women. Regardless of whether she's capable or not, having a connection will be useful.;;;;;;;;;;;x
+dunhuang.119.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.120.desc;A promising young lady from Dunhuang's Himalayan community wishes to join our court. The inhabitants of the Tibetan plateau are rugged and rightly respected for their courage and strength. Regardless of whether she's capable or not, having a connection will be useful.;;;;;;;;;;;x
+dunhuang.120.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.121.desc;A promising young lady from Dunhuang's nomad community wishes to join our court. Though dismissed as barbarians by some, they are nevertheless feared warriors and horsemen for a reason. Regardless of whether she's capable or not, having a connection will be useful.;;;;;;;;;;;x
+dunhuang.121.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.122.desc;xxxxx;;;;;;;;;;;x
+dunhuang.122.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.123.desc;xxxxx;;;;;;;;;;;x
+dunhuang.123.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.124.desc;xxxxx;;;;;;;;;;;x
+dunhuang.124.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.125.desc;xxxxx;;;;;;;;;;;x
+dunhuang.125.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.126.desc;xxxxx;;;;;;;;;;;x
+dunhuang.126.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.127.desc;xxxxx;;;;;;;;;;;x
+dunhuang.127.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.128.desc;xxxxx;;;;;;;;;;;x
+dunhuang.128.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.129.desc;xxxxx;;;;;;;;;;;x
+dunhuang.129.a;Xxxxxxffff;;;;;;;;;;;;;x
+VIET_recently_went_to_nadun_festival;Recently Attended Nadun Festival;;;;;;;;;;;;;x
+dunhuang.130.desc;I have decided to attend the Nandun festival this year. It is the harvest festival of the Tuyuhun, or Tu peoples, and it will surely be lots of fun! Traditionally, it lasts for around two months, and requires cooperation between many different villages and clans in the area.;;;;;;;;;;;x
+dunhuang.130.a;I can't wait.;;;;;;;;;;;;;x
+dunhuang.131.tooltip;It will only be a matter of time....;;;;;;;;;;;x
+dunhuang.131.title;Nadun;;;;;;;;;;;x
+dunhuang.131.desc;The Nadun festival is starting! I have arrived with my entourage at the host village where this year's Nadun will be held. Sedan chairs and tents have been set up for the comfortable transport and lodgings of various heavenly beings. Sacrificial offerings have been set up, and men from other villages begin to march to the fields belonging to the host village. Bearing colorful banners inscribed with auspicious sayings and blessings, and vibrant drums and gongs, these men make loud noise and music, heralding the start of the Nadun festivities.;;;;;;;;;;;x
+dunhuang.131.a;Wonderful!;;;;;;;;;;;;;x
+dunhuang.132.tooltip;Let the fun start!;;;;;;;;;;;x
+dunhuang.132.desc;At long last, the Nadun festivities have come to a close. I had a great time with the locals, and I hope to attend another one in the future.;;;;;;;;;;;x
+dunhuang.132.a;Until next time.;;;;;;;;;;;;;x
+dunhuang.133.desc;As part of the Nadun festival, good news is chanted to the rhythm of the drum beats, so that everyone - even those in heaven - may learn of what fortunes and joys have happened recently.;;;;;;;;;;;x
+dunhuang.133.a;I, too, share with everyone any good news from my family!;;;;;;;;;;;;;x
+dunhuang.133.b;I observe and listen to what others have to say first.;;;;;;;;;;;;;x
+dunhuang.134.desc;During the Nadun, many dances are performed. Today, a dance has been performed in honor of the heavens. It is an invitation to those in heaven to come down and join in on the excitement.;;;;;;;;;;;x
+dunhuang.134.a;Good.;;;;;;;;;;;;;x
+dunhuang.135.desc;Right before the Nadun, a special sacrificial cake called Supan was prepared as offerings to the gods. Now that Nadun is fully under way, and the heavenly beings have come down (supposedly), we can enjoy these cakes as well.;;;;;;;;;;;x
+dunhuang.135.a;I will eat a fair amount.;;;;;;;;;;;;;x
+dunhuang.135.b;I will eat a lot!;;;;;;;;;;;;;x
+dunhuang.135.c;I will restrain from eating too much.;;;;;;;;;;;;;x
+dunhuang.136.desc;During the Nadun, it is customary to toast those involved in the major dances with big bowls. Today, during one of the dances, everyone is toasting the dancers, and the whole atmosphere is lively and fun.;;;;;;;;;;;x
+dunhuang.136.a;I'll stay back to watch.;;;;;;;;;;;;;x
+dunhuang.136.b;I will toast them as well!;;;;;;;;;;;;;x
+dunhuang.137.desc;Theatrical performances have always played a role in Nadun. Most popular is the performance of a story detailing the struggle of a farming family. At the end, the farmer's son accepts his position as a farmer, showing how the continuity of farming from generation to generation is important.;;;;;;;;;;;x
+dunhuang.137.a;After all, where would we be without our food?;;;;;;;;;;;;;x
+dunhuang.138.desc;Though the people celebrating the Nadun aren't Han Chinese, they take influence from their Chinese neighbors, and theatrical performances of Chinese legends is common. Most popular are stories from the Three Kingdoms period of Chinese history, that era of civil war where heroes and villains fought - both by strength and by wits - to determine the fate of the world. Of these heroes and villains, who do you find most entertaining?;;;;;;;;;;;x
+dunhuang.138.a;Benevolent Liu Bei, and his stalwart Shu Kingdom;;;;;;;;;;;;;x
+dunhuang.138.b;Ambitious Cao Cao, and his prosperous Wei Kingdom;;;;;;;;;;;;;x
+dunhuang.138.c;Clever Sun Quan, and his brave Wu Kingdom;;;;;;;;;;;;;x
+dunhuang.138.d;Cunning Sima Yi, whose victorious descendants established Jin;;;;;;;;;;;;;x
+dunhuang.139.desc;Nadun is an important time for people to visit others and share what knowledge and experiences they had throughout the year. In the host village, I have a number of acquaintances I could visit - shall I enjoy their company?;;;;;;;;;;;x
+dunhuang.139.a;No, I am enjoying the festival as is!;;;;;;;;;;;;;x
+dunhuang.139.b;Yes, that sounds like a good idea.;;;;;;;;;;;;;x
+dunhuang.139.c;I want to meet new friends instead!;;;;;;;;;;;;;x
+dunhuang.140.desc;Because I am a high ranking guest in the host village during Nadun, I am offered a high seat at the feast table, and provided the best foods these peasants can afford to make. It is simple and hardy fare, such as noodles in butter with beef, tea with milk, and fried buns.;;;;;;;;;;;x
+dunhuang.140.a;I am most thankful! Simple food has its appeal.;;;;;;;;;;;;;x
+dunhuang.140.b;I eat better at home, but I don't mind.;;;;;;;;;;;;;x
+dunhuang.140.c;This food tastes very plain and bland.;;;;;;;;;;;;;x
+dunhuang.141.desc;At the Nadun, besides the dancing, there is also much singing of many traditional songs. It is wonderful to hear all the melodies around!;;;;;;;;;;;x
+dunhuang.141.a;A delight for the soul.;;;;;;;;;;;;;x
+dunhuang.142.desc;For young people, Nadun is often when love begins to blossom, as it is a time of merrymaking and socialization. I have observed many young men and women from the village awkwardly but surely making their first steps towards love and perhaps, one day, if their parents are willing, marriage.;;;;;;;;;;;x
+dunhuang.142.a;Ah, young love! It is so wonderful to see.;;;;;;;;;;;;;x
+dunhuang.142.b;Bah, they'll become bitter and jaded with time.;;;;;;;;;;;;;x
+dunhuang.142.c;It is none of my concern.;;;;;;;;;;;;;x
+dunhuang.143.desc;xxxxx;;;;;;;;;;;x
+dunhuang.143.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.144.desc;xxxxx;;;;;;;;;;;x
+dunhuang.144.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.145.desc;xxxxx;;;;;;;;;;;x
+dunhuang.145.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.146.desc;xxxxx;;;;;;;;;;;x
+dunhuang.146.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.147.desc;xxxxx;;;;;;;;;;;x
+dunhuang.147.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.148.desc;xxxxx;;;;;;;;;;;x
+dunhuang.148.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.149.desc;xxxxx;;;;;;;;;;;x
+dunhuang.149.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.150.desc;Ever since I was a child, I have always felt that I would be destined for greater things. In my veins runs the blood of Cao Cao, the mighty warlord and prime minister of the Han Dynasty after all. I look to him as an exemplar, for few could match his daring, his cunning, his brilliance, and above all, his ambition. The entire world, including Dunhuang, is going through a turbulent era just like that of the Three Kingdoms. And so, like him, I will make my mark on the world in this age of chaos!;;;;;;;;;;;x
+dunhuang.150.a;I hope to make him proud.;;;;;;;;;;;;;x
+dunhuang.151.title;Cao Yijin;;;;;;;;;;;x
+dunhuang.151.desc;Cao Yijin, who hails from the Cao clan of Dunhuang's nobility, has recently come of age. Many elites - even those in neighboring realms - have kept an eye on him ever since he was a young child, for he possessed a fire within him unlike any other. He is intelligent, capable, ambitious, and has already become an official in the local administration.\n\nThen again, in his veins runs the blood of Cao Cao, the mighty warlord and prime minister of the Han Dynasty, after all. Few could match Cao Cao's daring, cunning, brilliance, and ambition. In these turbulent times, could Cao Yijin be another Cao Cao, and bring order to what is chaos?;;;;;;;;;;;x
+dunhuang.151.a;Dunhuang awaits to see where this young man will go in life.;;;;;;;;;;;;;x
+dunhuang.152.desc;xxxxx;;;;;;;;;;;x
+dunhuang.152.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.153.title;To Follow Cao Cao;;;;;;;;;;;x
+dunhuang.153.desc;I have been a highly respected member of Dunhuang's elite and administration for many years, and it is clear why. The westernmost corner of Chinese civilization is in chaos, led by inept rulers and overrun by covetous barbarians who seek to take advantage of the decline of the Tang Dynasty, and I am one of the few truly capable leaders here.\n\nCenturies ago, through his ambition and talents, my august ancestor Cao Cao brought order to a world turn asunder by chaos. Though I dare not compare my lacking, inferior self to Cao Cao, I must emulate him if I am to bring order to chaos in this part of the world. I will become ruler of all Dunhuang one day, but must plan carefully and intelligently if I am to realize my ambitions.;;;;;;;;;;;x
+dunhuang.153.a;May my ancestors be proud of me!;;;;;;;;;;;;;x
+dunhuang.154.title;Cao Yijin's Ambition;;;;;;;;;;;x
+dunhuang.154.desc;Times are turbulent, even in Dunhuang, the outpost of Chinese civilization in the west. After Tibetan rule was overthrown not too long ago, there is rising unrest and discontent in Dunhuang among both the elites and commoners, who are increasingly at odds with the ruling classes.\n\nRising to prominence is a certain Cao Yijin, a capable and popular official who claims descent from the ruthless but brilliant Cao Cao of Three Kingdoms fame. Like his ancestor he is ambitious and seeks to bring order to chaos. Whatever happens, one thing is for sure: his power and ambition will likely influence events in the region for years to come.;;;;;;;;;;;x
+dunhuang.154.a;I see.;;;;;;;;;;;;;x
+dunhuang.155.desc;xxxxx;;;;;;;;;;;x
+dunhuang.155.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.156.title;The Calendarist;;;;;;;;;;;x
+dunhuang.156.desc;[target_VIET_zhai_fengda_tombola_courtier_candidate.GetBestName], a scion of the [target_VIET_zhai_fengda_tombola_courtier_candidate.GetOnlyDynastyName] clan in the Dunhuang region, is making a name for himself as a calendarist and astronomer. He is able to read the stars like no other, and alongside his official duties has performed many important functions related to stargazing, calculating state calendars, and interpretation of celestial objects. It has won him much praise and admiration. Hopefully, his talents will be of use to others.;;;;;;;;;;;x
+dunhuang.156.a;We need more educated men in these dangerous times.;;;;;;;;;;;;;x
+dunhuang.157.desc;Though never the best student, I always did my best. As I get older, I find myself more interested in calendars and astronomy, and many praise my skill and knowledge in these fields. Some even claim my talents with these are unmatched. Though I have other duties as an official in the Dunhuang region, I always take time to learn more about the stars and interpreting them.;;;;;;;;;;;x
+dunhuang.157.a;It brings honor - and coin - to my clan, too.;;;;;;;;;;;;;x
+dunhuang.158.title;The Calendarist;;;;;;;;;;;x
+dunhuang.158.desc;[From.GetBestName], a scion of the [From.GetOnlyDynastyName] clan in the Dunhuang region, is making a name for himself as a calendarist and astronomer. He is able to read the stars like no other, and alongside his official duties has performed many important functions related to stargazing, calculating state calendars, and interpretation of celestial objects. It has won him much praise and admiration. Hopefully, his talents will be of use to others.;;;;;;;;;;;x
+dunhuang.158.a;We need more educated men in these dangerous times.;;;;;;;;;;;;;x
+dunhuang.159.desc;xxxxx;;;;;;;;;;;x
+dunhuang.159.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.160.title;Zhang Yichao Dies;;;;;;;;;;;x
+dunhuang.160.desc;Zhang Yichao's heroic leadership will be remembered for generations. As a true upholder of Chinese civilization, he led the people of the Guiyi Circuit to overthrow the barbaric Tibetan tyrants. With his passing, however, there is a power vacuum in the Dunhuang region.\n\nMany are skeptical about his successors. There are rumors that some elite Dunhuang clans are plotting to seize control of the region themselves, while unrest is growing by the day among the commoners without a charismatic leader to guide them. Will the region succumb to lawlessness and disorder, or will another great leader like Zhang Yichao step forward onto the stage of world history?;;;;;;;;;;;x
+dunhuang.160.a;What will happen now?;;;;;;;;;;;;;x
+dunhuang.161.title;A Game of Clans;;;;;;;;;;;x
+dunhuang.161.desc.a;Our great patriarch Zhang Yichao has sadly left this world for the next. Many elite clans have come to pay their respects to him, but we who are his successors know better - behind their false tears and words of comfort are scheming hearts and conniving minds. Times are tumultuous, and they think without Zhang Yichao, we are unable to properly rule Dunhuang.\n\nWe must prepare ourselves lest the other clans get too audacious and make their bids to wrestle control of Dunhuang from us. Zhang Yichao worked hard to restore Dunhuang's honor - it is our duty to make sure his sacrifices were not in vain. Guide us, Zhang Yichao, and we shall not falter!;;;;;;;;;;;x
+dunhuang.161.desc.b;Like many elites in Dunhuang, we came to pay our respects to the deceased Zhang Yichao as soon as we heard of his passing. Now, however, times are tumultuous, and Dunhuang is growing increasingly unstable without a strong and admirable leader.\n\nThe other clans in Dunhuang are aware of our ambitions - it is in our blood. But we are the Caos, the most prestiguous of the clans of Dunhuang after the Zhang. Let the others scheme like little children. We will be the ones to bring order to chaos in the end. Our ambitions will be realized!;;;;;;;;;;;x
+dunhuang.161.desc.c;Like many elites in Dunhuang, we came to pay our respects to the deceased Zhang Yichao as soon as we heard of his passing. Now, however, times are tumultuous, and Dunhuang is growing increasingly unstable without a strong and admirable leader.\n\nWe are the Li family, who are descended from the great sage Laozi and the mighty general Li Guang, and who are distant cousins of the Tang Emperors. It is our duty, as the most venerable of the Dunhuang clans, to step in to restore order if this region falls to chaos. We will bow to no inferior upstarts if they prove themselves unworthy!;;;;;;;;;;;x
+dunhuang.161.desc.d;Like many elites in Dunhuang, we came to pay our respects to the deceased Zhang Yichao as soon as we heard of his passing. Now, however, times are tumultuous, and Dunhuang is growing increasingly unstable without a strong and admirable leader.\n\nFor generations, the Yin clan has been cautious when it came to political affairs. We stayed out of trouble and focused on building our wealth and connections with foreign lands. Sometimes, however, being aggressive is the safest option. We are confident our prudence and acumen are what this region needs if things go awry. And so, we wait patiently. If we need to act, we will.;;;;;;;;;;;x
+dunhuang.161.desc.e;Like many elites in Dunhuang, we came to pay our respects to the deceased Zhang Yichao as soon as we heard of his passing. Now, however, times are tumultuous, and Dunhuang is growing increasingly unstable without a strong and admirable leader.\n\nThe Suo have been in Dunhuang for longer than any of the other clans. There is no one else who deserves to rule Dunhuang more than us. Imbeciles currently control this land - a more intellectual and refined clan such as ourselves is what this region deserves. Without proper care, how can a seed blossom into a beautiful tree?;;;;;;;;;;;x
+dunhuang.161.desc.f;Like many elites in Dunhuang, we came to pay our respects to the deceased Zhang Yichao as soon as we heard of his passing. Now, however, times are tumultuous, and Dunhuang is growing increasingly unstable without a strong and admirable leader.\n\nThough we are one of several great clans of Dunhuang, our time will soon come when we will rise above the rest. Control of Dunhuang is surely within our grasp if we are wise, patient, and decisive. This is an age of opportunity and danger, but our mighty clan will go down in the history books one day for certain!;;;;;;;;;;;x
+dunhuang.161.a;We live in interesting times, no doubt.;;;;;;;;;;;;;x
+dunhuang.162.desc;xxxxx;;;;;;;;;;;x
+dunhuang.162.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.163.desc;xxxxx;;;;;;;;;;;x
+dunhuang.163.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.164.desc;xxxxx;;;;;;;;;;;x
+dunhuang.164.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.165.desc;xxxxx;;;;;;;;;;;x
+dunhuang.165.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.166.desc;xxxxx;;;;;;;;;;;x
+dunhuang.166.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.167.desc;xxxxx;;;;;;;;;;;x
+dunhuang.167.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.168.desc;xxxxx;;;;;;;;;;;x
+dunhuang.168.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.169.desc;xxxxx;;;;;;;;;;;x
+dunhuang.169.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.170.desc;xxxxx;;;;;;;;;;;x
+dunhuang.170.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.171.desc;xxxxx;;;;;;;;;;;x
+dunhuang.171.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.172.desc;xxxxx;;;;;;;;;;;x
+dunhuang.172.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.173.desc;xxxxx;;;;;;;;;;;x
+dunhuang.173.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.174.desc;xxxxx;;;;;;;;;;;x
+dunhuang.174.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.175.desc;xxxxx;;;;;;;;;;;x
+dunhuang.175.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.176.desc;xxxxx;;;;;;;;;;;x
+dunhuang.176.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.177.desc;xxxxx;;;;;;;;;;;x
+dunhuang.177.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.178.desc;xxxxx;;;;;;;;;;;x
+dunhuang.178.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.179.desc;xxxxx;;;;;;;;;;;x
+dunhuang.179.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.180.desc;xxxxx;;;;;;;;;;;x
+dunhuang.180.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.181.desc;xxxxx;;;;;;;;;;;x
+dunhuang.181.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.182.desc;xxxxx;;;;;;;;;;;x
+dunhuang.182.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.183.desc;xxxxx;;;;;;;;;;;x
+dunhuang.183.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.184.desc;xxxxx;;;;;;;;;;;x
+dunhuang.184.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.185.desc;xxxxx;;;;;;;;;;;x
+dunhuang.185.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.186.desc;xxxxx;;;;;;;;;;;x
+dunhuang.186.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.187.desc;xxxxx;;;;;;;;;;;x
+dunhuang.187.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.188.desc;xxxxx;;;;;;;;;;;x
+dunhuang.188.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.189.desc;xxxxx;;;;;;;;;;;x
+dunhuang.189.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.190.desc;xxxxx;;;;;;;;;;;x
+dunhuang.190.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.191.desc;xxxxx;;;;;;;;;;;x
+dunhuang.191.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.192.desc;xxxxx;;;;;;;;;;;x
+dunhuang.192.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.193.desc;xxxxx;;;;;;;;;;;x
+dunhuang.193.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.194.desc;xxxxx;;;;;;;;;;;x
+dunhuang.194.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.195.desc;xxxxx;;;;;;;;;;;x
+dunhuang.195.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.196.desc;xxxxx;;;;;;;;;;;x
+dunhuang.196.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.197.desc;xxxxx;;;;;;;;;;;x
+dunhuang.197.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.198.desc;xxxxx;;;;;;;;;;;x
+dunhuang.198.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.199.desc;xxxxx;;;;;;;;;;;x
+dunhuang.199.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.200.desc;I am visiting one of the Mogao caves near Dunhuang. It shows the entire family of its patron, decked out in the finest clothing. The styles are older, perhaps from a century or two ago.;;;;;;;;;;;x
+dunhuang.200.a;Imagine what life must have been back then!;;;;;;;;;;;;;x
+dunhuang.200.b;They were just normal people like us.;;;;;;;;;;;;;x
+dunhuang.200.c;Such is impermanence! We too will one day be faded memories.;;;;;;;;;;;;;x
+dunhuang.201.desc;While on a day trip to the Mogao caves near Dunhuang to inspect one of my ancestors' caves, I caught sight of someone attractive visiting one of the other caves.;;;;;;;;;;;x
+dunhuang.201.a;Ignore them. I am here for spiritual reasons!;;;;;;;;;;;;;x
+dunhuang.201.b;Approach them for a chat.;;;;;;;;;;;;;x
+dunhuang.202.desc;I pass by a ruined section of the ancient Great Wall in Gansu. The walls, ramparts, and keep were once impressive sights many centuries ago, when soldiers of one of the earlier Chinese dynasties were stationed here. Now, nothing remains but weathered stone, dust, and sand.;;;;;;;;;;;x
+dunhuang.202.a;This is a reminder of the impermanence of all things.;;;;;;;;;;;;;x
+dunhuang.202.b;What a glorious place this must have been!;;;;;;;;;;;;;x
+dunhuang.203.desc;Today you decided to pay a visit to the nearby singing sand dunes of Dunhuang. Since time immemorial, locals have traveled here to admire the singing or drumming sound these sand dunes make when wind blows against them. Some even say this miracle of nature is a gift from heaven.;;;;;;;;;;;x
+dunhuang.203.a;A splendid experience!;;;;;;;;;;;;;x
+dunhuang.204.desc;A number of foreign artists living in the Dunhuang region banded together to present to you some works of art, as a sign of their support for you. The sculptures, paintings, and scrolls they present to you utilize a blend of styles, including Indian, Chinese, Iranian, and Tibetan art.;;;;;;;;;;;x
+dunhuang.204.a;It is a wonderful gift!;;;;;;;;;;;;;x
+dunhuang.205.desc;A renowned, elderly Buddhist nun living in Dunhuang recently passed away. She was your acquaintance, and interestingly enough, in her will she left some of her worldly possessions to you, like silk robes or religious scrolls. Her family wants to dispute this and bring it to the legal authorities, however. Though they will likely side with you, this situation could get messy.;;;;;;;;;;;x
+dunhuang.205.a;Those things are mine! I refuse to go to court!;;;;;;;;;;;;;x
+dunhuang.205.b;They can have those things. I have no need for them.;;;;;;;;;;;;;x
+dunhuang.205.c;We will take this to the courts to be settled honorably.;;;;;;;;;;;;;x
+dunhuang.205.d;I'm not Buddhist - I don't want those heathen items!;;;;;;;;;;;;;x
+dunhuang.206.desc;An elderly monk living in one of Dunhuang's monasteries recently passed away. He had some valuable possessions, but his will was unclear, so his relatives are fighting over the possessions. This is a common situation in Dunhuang, given how many Buddhist monasteries are here, but as this monk is from a renowned clan, we should intervene to restore order given his relatives are powerful themselves and could cause a great disturbance in the community if they fight.;;;;;;;;;;;x
+dunhuang.206.a;I side with the nephew.;;;;;;;;;;;;;x
+dunhuang.206.b;I side with the niece.;;;;;;;;;;;;;x
+dunhuang.206.c;This belongs to the state, actually.;;;;;;;;;;;;;x
+dunhuang.206.d;I should not intervene.;;;;;;;;;;;;;x
+dunhuang.207.desc;Recently, in the Dunhuang region, there has been a trend of people who are Buddhist monks and nuns on paper, but live normal lives with normal jobs and families in practice. It is clear that many people are doing this as a form of tax evasion, as clergy are not taxed. However, we have always been reluctant to do anything lest we anger the religious authorities.;;;;;;;;;;;x
+dunhuang.207.a;Ignore their excuses! Enforce the law and fine the violators!;;;;;;;;;;;;;x
+dunhuang.207.b;Let them be - why do I care? It's not a big deal.;;;;;;;;;;;;;x
+dunhuang.208.desc;I received a gift of juicy Dunhuang melons today. Melons from Dunhuang are very famous for their quality and flavor, and are enjoyed by everyone.;;;;;;;;;;;x
+dunhuang.208.a;Thank you very much!;;;;;;;;;;;;;x
+dunhuang.209.desc;Interesting news from the Mogao caves of Dunhuang! A hidden, sealed off cave was discovered right next to a cave belonging to a monastery under your jurisdiction. Though it is mostly empty of valuables, it contains a number of beautiful rooms decorated with various paintings and artwork.;;;;;;;;;;;x
+dunhuang.209.a;We can restore it to its former glory.;;;;;;;;;;;;;x
+dunhuang.209.b;That is fascinating news indeed.;;;;;;;;;;;;;x
+dunhuang.210.desc;Today I am paying a visit to Crescent Lake, a notable body of water by the deserts of Dunhuang. It is a popular place for people to visit in their free time, where they can see the gorgeous lake and the surrounding pristine, desert landscape.;;;;;;;;;;;x
+dunhuang.210.a;It is really beautiful!;;;;;;;;;;;;;x
+dunhuang.211.desc;Two men appear before you to resolve their dispute. The Sogdian merchant claims the Khotanese monk did not pay in full for his purchase. The Khotanese monk claims the Sogdian cheated him. Who is in the right?;;;;;;;;;;;x
+dunhuang.211.a;The Sogdian merchant made better arguments;;;;;;;;;;;;;x
+dunhuang.211.b;The Khotanese monk is clearly in the right;;;;;;;;;;;;;x
+dunhuang.211.c;This is none of my concern;;;;;;;;;;;;;x
+dunhuang.211.d;Actually, this was merely a misunderstanding, as...;;;;;;;;;;;;;x
+dunhuang.212.desc;You have recently begun to take some rhubarb, a vegetable known to help with maintaining a good digestive system. It was first grown in Jiuquan, not too far from Dunhuang, and the rhubarb from Jiuquan is still of the highest quality.;;;;;;;;;;;x
+dunhuang.212.a;It is good I own land not too far from the main rhubarb farms.;;;;;;;;;;;;;x
+dunhuang.213.desc;A large cave in the Mogao grottoes close to Dunhuang has recently finished with its carving and decorating. It was a joint effort of several monasteries and organizations of lay Buddhists, and boasts several large clay statues of various Buddhas and Bodhisattvas. When I came to inspect the cave myself, I have to admit it was impressive.;;;;;;;;;;;x
+dunhuang.213.a;Not as impressive as my family's caves of course.;;;;;;;;;;;;;x
+dunhuang.213.b;Hopefully good things will come from this.;;;;;;;;;;;;;x
+dunhuang.213.c;The patrons should congratulate themselves for a magnificent result!;;;;;;;;;;;;;x
+dunhuang.214.desc;While visiting one of the Mogao caves near Dunhuang, I come across a large and imposing figure of a reclining Buddha. With its colors and size, it is most impressive and amazing.;;;;;;;;;;;x
+dunhuang.214.a;How did they carve such a thing?;;;;;;;;;;;;;x
+dunhuang.215.desc;Today I am visiting a Mogao grotto near Dunhuang. It was built for a famous nobleman who lived many generations ago. In the cave is a small stelae detailing his life and accomplishments, and why he wanted to dedicate this cave.;;;;;;;;;;;x
+dunhuang.215.a;Will I too, one day, be a forgotten memory like this man?;;;;;;;;;;;;;x
+dunhuang.215.b;His cave is certainly very impressive!;;;;;;;;;;;;;x
+dunhuang.215.c;That stelae is just full of self-important boasting.;;;;;;;;;;;;;x
+dunhuang.216.desc;A foreign artisan recently settled in Dunhuang. He has made a name for himself, creating art that combines the styles of his native land with the Buddhist Chinese, Tibetan, and nomad influences common in Dunhuang. Many are flocking to patronize him.;;;;;;;;;;;x
+dunhuang.216.a;I could sponsor him to make some artwork to decorate my house.;;;;;;;;;;;;;x
+dunhuang.216.b;That is nice to hear, but why should I care?;;;;;;;;;;;;;x
+dunhuang.217.desc;Given how the Silk Road runs through Dunhuang, in the Gansu region, silk is oftentimes a common method of payment. A family dispute within a prominent clan recently happened under your jurisdiction, which led to a number of disturbances and threats to public order. As a result, the family had to pay you a fine for causing such a ruckus.;;;;;;;;;;;x
+dunhuang.217.a;Thank you for the silk.;;;;;;;;;;;;;x
+dunhuang.218.desc;A local Dunhuang nobleman I am acquainted with miscalculated his finances and is spiraling into debt. Even though he's sold off all of his silk, the main form of currency in the Gansu region of the Silk Road, he is still hemorrhaging money. All he has is a pretty female slave, but he is reluctant to give her up as he is very attached to her. He comes to me for advice and help.;;;;;;;;;;;x
+dunhuang.218.a;You need to sell that slave, or else you'll go bankrupt!;;;;;;;;;;;;;x
+dunhuang.218.b;I'll lend you some money, friend.;;;;;;;;;;;;;x
+dunhuang.218.c;I'm interested in the girl. I'll pay more for her than the merchants!;;;;;;;;;;;;;x
+dunhuang.219.desc;Thank goodness! A couple of specialists recently arrived from China to help us maintain the irrigation canals in Dunhuang. Dunhuang's canals are often old and in need of repairs.;;;;;;;;;;;x
+dunhuang.219.a;Their expertise is greatly appreciated.;;;;;;;;;;;;;x
+dunhuang.220.desc;A powerful merchant who is a leader in the local Sogdian community visited me today. We concluded a number of business deals that would benefit both of us greatly. The Sogdians are infamous for their acumen and business know-how, and there are many living in my realm around Dunhuang, so this should be a good thing.;;;;;;;;;;;x
+dunhuang.220.a;Good, good.;;;;;;;;;;;;;x
+dunhuang.221.desc;One of the more erudite and cultured monks from a monastery at Dunhuang that I have connections with has dedicated a lovely poem to me. I read it on the manuscript of paper he wrote it on, and am deeply moved.;;;;;;;;;;;x
+dunhuang.221.a;Very good! Very good poetry!;;;;;;;;;;;;;x
+dunhuang.222.desc;Iranian and Tocharian slave women are popular in the Dunhuang region among wealthier men, especially those from the far east. [target_dunhuang_horny_character.GetTitledName] has recently wasted significant sums of money to buy several beauties for his household, ostensibly as he needs more servants. Ha! Everyone knows he wants to keep his own little harem of exotic beauties to play with. He even married one.;;;;;;;;;;;x
+dunhuang.222.a;[target_dunhuang_horny_character.GetTitledName] is a lascivious fellow, we all know.;;;;;;;;;;;;;x
+dunhuang.223.desc;As a descendant of the great Cao Cao, how can I ever match his stunning successes and brilliant and cunning mind? Am I making him proud, or does he look down on me from the heavens or wherever he is? I must work harder to realize my ambitions, just as he did!;;;;;;;;;;;x
+dunhuang.223.a;The glory of the Cao clan shall live on for generations!;;;;;;;;;;;;;x
+dunhuang.224.desc;In the days of old, at the beginning of the Three Kingdoms era of Chinese history, our august ancestor Cao Cao faced many enemies when the Middle Kingdom was thrown into chaos. Yet he held steady, overcame all challenges, and achieved great things. Recently, I've been thinking about the stories surrounding him, specifically...;;;;;;;;;;;x
+dunhuang.224.a;That time he said his most famous quote about betrayal....;;;;;;;;;;;;;x
+dunhuang.224.b;Oh! All the marvelous poetry he wrote, which are still recited now.;;;;;;;;;;;;;x
+dunhuang.224.c;His devastating defeat at the Battle of Red Cliffs - truly a dark day.;;;;;;;;;;;;;x
+dunhuang.224.d;His bizarre fascination with married women and sleeping with them.;;;;;;;;;;;;;x
+VIET_dunhuang_cao_cao_thoughts_betrayal_quote; \n\n"I rather betray others than have others betray me," so the saying goes. Such a misunderstood phrase, yet one full of penetrating insight!;;;;;;;;;;;x
+VIET_dunhuang_cao_cao_thoughts_great_poetry; \n\nThere is one poem I enjoy in particular - the one he wrote before the Battle of Red Cliffs:\n\n"I lift my drink and sing a song, for who knows if one's life is short or long?\nMan's life is like the morning dew, past days many future days few.\nThe melancholy my heart begets comes from cares I cannot forget.\nWho can unravel these sorrows of mine? I know of only one man, the God of Wine.";;;;;;;;;;;x
+VIET_dunhuang_cao_cao_thoughts_red_cliffs; \n\nHe was overconfident and was defeated by a coalition of skilled generals under the warlords Sun Quan and Liu Bei. Nevertheless, our august ancestor learned much from this bitter lesson, and it made him an even wiser man.;;;;;;;;;;;x
+VIET_dunhuang_cao_cao_thoughts_MILF_fetish; \n\nThere are those who say this is merely slander against our great ancestor, who treated his wives and concubines with unprecedented respect. Others say he was exactly this, a man with a great appetite for women. Who knows what the truth is?;;;;;;;;;;;x
+dunhuang.225.desc;There are those who doubt my family lineage. Let them think what they think! We and our cousins the Tang Emperors descend from one of the greatest lineages of all Chinese history. In our blood flows the wisdom of the great Laozi and the tiger-like courage of the Han Dynasty general Li Guang.;;;;;;;;;;;x
+dunhuang.225.a;I am proud of my ancestors, and I hope they are proud of me!;;;;;;;;;;;;;x
+dunhuang.226.desc;Today the caravan of a powerful Sogdian merchant has arrived in my domain, carrying all manner of commodities from all corners of the silk road. His caravan will do business in our domains for a number of weeks, before moving on.;;;;;;;;;;;x
+dunhuang.226.a;His business is most welcome.;;;;;;;;;;;;;x
+dunhuang.227.desc;Today, I paid a visit to the White Horse Pagoda In the center of Dunhuang. It was built centuries ago by the Buddhist monk Kumarajiva, who despite royal Indian and Kuchean ancestry, devoted his life to translating Buddhist texts into Chinese. The pagoda commemorates his loyal horse, Tianliu, who passed away in Dunhuang during one of Kumarajiva's journeys.;;;;;;;;;;;x
+dunhuang.227.a;How remarkable that this monument still stands today!;;;;;;;;;;;;;x
+dunhuang.227.b;Though I'm of a different faith, the horse's devotion is inspiring.;;;;;;;;;;;;;x
+dunhuang.227.c;It's nice, I suppose, but I don't think it's that special.;;;;;;;;;;;;;x
+dunhuang.228.desc;You were returning home from a short trip within your territories in Dunhuang when you passed by the famed Mogao Caves. You witnessed a few people praying at one of the Buddhist shrines there. After they finished, you asked what they were doing, and they said they are a caravan of pilgrims and merchants, praying to the enlightened beings for protection on their upcoming journey.;;;;;;;;;;;x
+dunhuang.228.a;Ah! I see. Best of luck to you, then!;;;;;;;;;;;;;x
+dunhuang.228.b;Prayer isn't enough. You need diligence and cunning, too.;;;;;;;;;;;;;x
+dunhuang.229.desc;A troupe of acrobats and dancers are visiting from China today. Though we are on the frontier of civilization as far as the inhabitants of the Middle Kingdom are concerned, we still maintain commercial and cultural ties with them. The troupe provided my court and I much amusement, and afterwards I gave them gifts of fine silk, spices, and more for their performance.;;;;;;;;;;;x
+dunhuang.229.a;A most impressive troupe!;;;;;;;;;;;;;x
+dunhuang.230.desc;Music from Kuchea is especially popular around the Dunhuang region. Tonight, I make my way to the streets, and watch several acts by a number of traveling performers from the other parts of the Tarim Basin. The music is sublime, the dancers pleasing in their movements, and the atmosphere a lively one.;;;;;;;;;;;x
+dunhuang.230.a;What good fun!;;;;;;;;;;;;;x
+dunhuang.231.desc;A caravan of important envoys from a foreign kingdom is passing by our territories in Dunhuang, for this region is the last major stop before they entire their ultimate destination: the [offmap_china.GetName] in China. Given this delegation is quite prominent, and no ordinary caravan, your advisors suggest you welcome them warmly - it wouldn't hurt to make some good connections, yes?;;;;;;;;;;;x
+dunhuang.231.a;Throw a feast for them and give them supplies for the road.;;;;;;;;;;;;;x
+dunhuang.231.b;Letting foreigners pass through our land is courtesy enough.;;;;;;;;;;;;;x
+dunhuang.232.desc;xxxxx;;;;;;;;;;;x
+dunhuang.232.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.233.desc;xxxxx;;;;;;;;;;;x
+dunhuang.233.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.234.desc;xxxxx;;;;;;;;;;;x
+dunhuang.234.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.235.desc;xxxxx;;;;;;;;;;;x
+dunhuang.235.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.236.desc;xxxxx;;;;;;;;;;;x
+dunhuang.236.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.237.desc;xxxxx;;;;;;;;;;;x
+dunhuang.237.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.238.desc;xxxxx;;;;;;;;;;;x
+dunhuang.238.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.239.desc;xxxxx;;;;;;;;;;;x
+dunhuang.239.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.240.desc;xxxxx;;;;;;;;;;;x
+dunhuang.240.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.241.desc;xxxxx;;;;;;;;;;;x
+dunhuang.241.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.242.desc;xxxxx;;;;;;;;;;;x
+dunhuang.242.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.243.desc;xxxxx;;;;;;;;;;;x
+dunhuang.243.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.244.desc;xxxxx;;;;;;;;;;;x
+dunhuang.244.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.245.desc;xxxxx;;;;;;;;;;;x
+dunhuang.245.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.246.desc;xxxxx;;;;;;;;;;;x
+dunhuang.246.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.247.desc;xxxxx;;;;;;;;;;;x
+dunhuang.247.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.248.desc;xxxxx;;;;;;;;;;;x
+dunhuang.248.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.249.desc;xxxxx;;;;;;;;;;;x
+dunhuang.249.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.250.desc;xxxxx;;;;;;;;;;;x
+dunhuang.250.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.251.desc;xxxxx;;;;;;;;;;;x
+dunhuang.251.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.252.desc;xxxxx;;;;;;;;;;;x
+dunhuang.252.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.253.desc;xxxxx;;;;;;;;;;;x
+dunhuang.253.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.254.desc;xxxxx;;;;;;;;;;;x
+dunhuang.254.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.255.desc;xxxxx;;;;;;;;;;;x
+dunhuang.255.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.256.desc;xxxxx;;;;;;;;;;;x
+dunhuang.256.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.257.desc;xxxxx;;;;;;;;;;;x
+dunhuang.257.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.258.desc;xxxxx;;;;;;;;;;;x
+dunhuang.258.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.259.desc;xxxxx;;;;;;;;;;;x
+dunhuang.259.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.260.desc;xxxxx;;;;;;;;;;;x
+dunhuang.260.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.261.desc;xxxxx;;;;;;;;;;;x
+dunhuang.261.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.262.desc;xxxxx;;;;;;;;;;;x
+dunhuang.262.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.263.desc;xxxxx;;;;;;;;;;;x
+dunhuang.263.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.264.desc;xxxxx;;;;;;;;;;;x
+dunhuang.264.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.265.desc;xxxxx;;;;;;;;;;;x
+dunhuang.265.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.266.desc;xxxxx;;;;;;;;;;;x
+dunhuang.266.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.267.desc;xxxxx;;;;;;;;;;;x
+dunhuang.267.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.268.desc;xxxxx;;;;;;;;;;;x
+dunhuang.268.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.269.desc;xxxxx;;;;;;;;;;;x
+dunhuang.269.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.270.desc;xxxxx;;;;;;;;;;;x
+dunhuang.270.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.271.desc;xxxxx;;;;;;;;;;;x
+dunhuang.271.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.272.desc;xxxxx;;;;;;;;;;;x
+dunhuang.272.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.273.desc;xxxxx;;;;;;;;;;;x
+dunhuang.273.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.274.desc;xxxxx;;;;;;;;;;;x
+dunhuang.274.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.275.desc;xxxxx;;;;;;;;;;;x
+dunhuang.275.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.276.desc;xxxxx;;;;;;;;;;;x
+dunhuang.276.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.277.desc;xxxxx;;;;;;;;;;;x
+dunhuang.277.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.278.desc;xxxxx;;;;;;;;;;;x
+dunhuang.278.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.279.desc;xxxxx;;;;;;;;;;;x
+dunhuang.279.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.280.desc;xxxxx;;;;;;;;;;;x
+dunhuang.280.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.281.desc;xxxxx;;;;;;;;;;;x
+dunhuang.281.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.282.desc;xxxxx;;;;;;;;;;;x
+dunhuang.282.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.283.desc;xxxxx;;;;;;;;;;;x
+dunhuang.283.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.284.desc;xxxxx;;;;;;;;;;;x
+dunhuang.284.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.285.desc;xxxxx;;;;;;;;;;;x
+dunhuang.285.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.286.desc;xxxxx;;;;;;;;;;;x
+dunhuang.286.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.287.desc;xxxxx;;;;;;;;;;;x
+dunhuang.287.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.288.desc;xxxxx;;;;;;;;;;;x
+dunhuang.288.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.289.desc;xxxxx;;;;;;;;;;;x
+dunhuang.289.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.290.desc;xxxxx;;;;;;;;;;;x
+dunhuang.290.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.291.desc;xxxxx;;;;;;;;;;;x
+dunhuang.291.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.292.desc;xxxxx;;;;;;;;;;;x
+dunhuang.292.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.293.desc;xxxxx;;;;;;;;;;;x
+dunhuang.293.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.294.desc;xxxxx;;;;;;;;;;;x
+dunhuang.294.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.295.desc;xxxxx;;;;;;;;;;;x
+dunhuang.295.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.296.desc;xxxxx;;;;;;;;;;;x
+dunhuang.296.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.297.desc;xxxxx;;;;;;;;;;;x
+dunhuang.297.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.298.desc;xxxxx;;;;;;;;;;;x
+dunhuang.298.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.299.desc;xxxxx;;;;;;;;;;;x
+dunhuang.299.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.300.desc;xxxxx;;;;;;;;;;;x
+dunhuang.300.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.301.desc;xxxxx;;;;;;;;;;;x
+dunhuang.301.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.302.desc;xxxxx;;;;;;;;;;;x
+dunhuang.302.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.303.desc;xxxxx;;;;;;;;;;;x
+dunhuang.303.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.304.desc;xxxxx;;;;;;;;;;;x
+dunhuang.304.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.305.desc;xxxxx;;;;;;;;;;;x
+dunhuang.305.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.306.desc;xxxxx;;;;;;;;;;;x
+dunhuang.306.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.307.desc;xxxxx;;;;;;;;;;;x
+dunhuang.307.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.308.desc;xxxxx;;;;;;;;;;;x
+dunhuang.308.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.309.desc;xxxxx;;;;;;;;;;;x
+dunhuang.309.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.310.desc;xxxxx;;;;;;;;;;;x
+dunhuang.310.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.311.desc;xxxxx;;;;;;;;;;;x
+dunhuang.311.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.312.desc;xxxxx;;;;;;;;;;;x
+dunhuang.312.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.313.desc;xxxxx;;;;;;;;;;;x
+dunhuang.313.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.314.desc;xxxxx;;;;;;;;;;;x
+dunhuang.314.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.315.desc;xxxxx;;;;;;;;;;;x
+dunhuang.315.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.316.desc;xxxxx;;;;;;;;;;;x
+dunhuang.316.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.317.desc;xxxxx;;;;;;;;;;;x
+dunhuang.317.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.318.desc;xxxxx;;;;;;;;;;;x
+dunhuang.318.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.319.desc;xxxxx;;;;;;;;;;;x
+dunhuang.319.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.320.desc;xxxxx;;;;;;;;;;;x
+dunhuang.320.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.321.desc;xxxxx;;;;;;;;;;;x
+dunhuang.321.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.322.desc;xxxxx;;;;;;;;;;;x
+dunhuang.322.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.323.desc;xxxxx;;;;;;;;;;;x
+dunhuang.323.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.324.desc;xxxxx;;;;;;;;;;;x
+dunhuang.324.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.325.desc;xxxxx;;;;;;;;;;;x
+dunhuang.325.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.326.desc;xxxxx;;;;;;;;;;;x
+dunhuang.326.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.327.desc;xxxxx;;;;;;;;;;;x
+dunhuang.327.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.328.desc;xxxxx;;;;;;;;;;;x
+dunhuang.328.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.329.desc;xxxxx;;;;;;;;;;;x
+dunhuang.329.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.330.desc;xxxxx;;;;;;;;;;;x
+dunhuang.330.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.331.desc;xxxxx;;;;;;;;;;;x
+dunhuang.331.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.332.desc;xxxxx;;;;;;;;;;;x
+dunhuang.332.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.333.desc;xxxxx;;;;;;;;;;;x
+dunhuang.333.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.334.desc;xxxxx;;;;;;;;;;;x
+dunhuang.334.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.335.desc;xxxxx;;;;;;;;;;;x
+dunhuang.335.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.336.desc;xxxxx;;;;;;;;;;;x
+dunhuang.336.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.337.desc;xxxxx;;;;;;;;;;;x
+dunhuang.337.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.338.desc;xxxxx;;;;;;;;;;;x
+dunhuang.338.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.339.desc;xxxxx;;;;;;;;;;;x
+dunhuang.339.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.340.desc;xxxxx;;;;;;;;;;;x
+dunhuang.340.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.341.desc;xxxxx;;;;;;;;;;;x
+dunhuang.341.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.342.desc;xxxxx;;;;;;;;;;;x
+dunhuang.342.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.343.desc;xxxxx;;;;;;;;;;;x
+dunhuang.343.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.344.desc;xxxxx;;;;;;;;;;;x
+dunhuang.344.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.345.desc;xxxxx;;;;;;;;;;;x
+dunhuang.345.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.346.desc;xxxxx;;;;;;;;;;;x
+dunhuang.346.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.347.desc;xxxxx;;;;;;;;;;;x
+dunhuang.347.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.348.desc;xxxxx;;;;;;;;;;;x
+dunhuang.348.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.349.desc;xxxxx;;;;;;;;;;;x
+dunhuang.349.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.350.desc;xxxxx;;;;;;;;;;;x
+dunhuang.350.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.351.desc;xxxxx;;;;;;;;;;;x
+dunhuang.351.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.352.desc;xxxxx;;;;;;;;;;;x
+dunhuang.352.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.353.desc;xxxxx;;;;;;;;;;;x
+dunhuang.353.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.354.desc;xxxxx;;;;;;;;;;;x
+dunhuang.354.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.355.desc;xxxxx;;;;;;;;;;;x
+dunhuang.355.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.356.desc;xxxxx;;;;;;;;;;;x
+dunhuang.356.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.357.desc;xxxxx;;;;;;;;;;;x
+dunhuang.357.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.358.desc;xxxxx;;;;;;;;;;;x
+dunhuang.358.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.359.desc;xxxxx;;;;;;;;;;;x
+dunhuang.359.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.360.desc;xxxxx;;;;;;;;;;;x
+dunhuang.360.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.361.desc;xxxxx;;;;;;;;;;;x
+dunhuang.361.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.362.desc;xxxxx;;;;;;;;;;;x
+dunhuang.362.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.363.desc;xxxxx;;;;;;;;;;;x
+dunhuang.363.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.364.desc;xxxxx;;;;;;;;;;;x
+dunhuang.364.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.365.desc;xxxxx;;;;;;;;;;;x
+dunhuang.365.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.366.desc;xxxxx;;;;;;;;;;;x
+dunhuang.366.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.367.desc;xxxxx;;;;;;;;;;;x
+dunhuang.367.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.368.desc;xxxxx;;;;;;;;;;;x
+dunhuang.368.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.369.desc;xxxxx;;;;;;;;;;;x
+dunhuang.369.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.370.desc;xxxxx;;;;;;;;;;;x
+dunhuang.370.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.371.desc;xxxxx;;;;;;;;;;;x
+dunhuang.371.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.372.desc;xxxxx;;;;;;;;;;;x
+dunhuang.372.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.373.desc;xxxxx;;;;;;;;;;;x
+dunhuang.373.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.374.desc;xxxxx;;;;;;;;;;;x
+dunhuang.374.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.375.desc;xxxxx;;;;;;;;;;;x
+dunhuang.375.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.376.desc;xxxxx;;;;;;;;;;;x
+dunhuang.376.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.377.desc;xxxxx;;;;;;;;;;;x
+dunhuang.377.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.378.desc;xxxxx;;;;;;;;;;;x
+dunhuang.378.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.379.desc;xxxxx;;;;;;;;;;;x
+dunhuang.379.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.380.desc;xxxxx;;;;;;;;;;;x
+dunhuang.380.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.381.desc;xxxxx;;;;;;;;;;;x
+dunhuang.381.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.382.desc;xxxxx;;;;;;;;;;;x
+dunhuang.382.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.383.desc;xxxxx;;;;;;;;;;;x
+dunhuang.383.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.384.desc;xxxxx;;;;;;;;;;;x
+dunhuang.384.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.385.desc;xxxxx;;;;;;;;;;;x
+dunhuang.385.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.386.desc;xxxxx;;;;;;;;;;;x
+dunhuang.386.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.387.desc;xxxxx;;;;;;;;;;;x
+dunhuang.387.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.388.desc;xxxxx;;;;;;;;;;;x
+dunhuang.388.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.389.desc;xxxxx;;;;;;;;;;;x
+dunhuang.389.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.390.desc;xxxxx;;;;;;;;;;;x
+dunhuang.390.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.391.desc;xxxxx;;;;;;;;;;;x
+dunhuang.391.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.392.desc;xxxxx;;;;;;;;;;;x
+dunhuang.392.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.393.desc;xxxxx;;;;;;;;;;;x
+dunhuang.393.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.394.desc;xxxxx;;;;;;;;;;;x
+dunhuang.394.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.395.desc;xxxxx;;;;;;;;;;;x
+dunhuang.395.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.396.desc;xxxxx;;;;;;;;;;;x
+dunhuang.396.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.397.desc;xxxxx;;;;;;;;;;;x
+dunhuang.397.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.398.desc;xxxxx;;;;;;;;;;;x
+dunhuang.398.a;Xxxxxxffff;;;;;;;;;;;;;x
+dunhuang.399.desc;xxxxx;;;;;;;;;;;x
+dunhuang.399.a;Xxxxxxffff;;;;;;;;;;;;;x
+xxxxx;xxxxxx;xxx;;;;;;;;;;;;x

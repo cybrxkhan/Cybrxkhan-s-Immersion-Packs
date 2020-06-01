@@ -1,0 +1,291 @@
+########################################################
+# MINOR TITLES
+# Characters can have any number of these
+########################################################
+#	grant_limit: Max number of holders.
+#	realm_in_name: Append the name of the country after the title (Queen [of Sweden])
+#	allowed_to_hold: conditions for the character to hold the title
+#	allowed_to_grant: conditions for a ruler to grant the title
+#	regent: This is the title for regents (not really "minor")
+#	gain_effect: fires when the title is granted
+#	lose_effect: fires when a title is lost through most causes
+#	retire_effect: fires when a title is lost due to the character stepping down
+#	death_effect: fires when a title is lost due to the character dying
+#	message: should fire a message to the its owner when set
+#	The other fields are all character modifiers.
+
+
+title_dunhuang_chief_buddhist_controller = {
+	dignity = 0.5
+	grant_limit = 1
+	opinion_effect = 10
+	
+	monthly_salary = 0.08
+	monthly_prestige = 0.8
+	
+	allowed_to_hold = {
+		NOT = { 
+			primary_title = { temporary = yes } 
+		}
+		is_adult = yes
+		religion = buddhist
+		OR = { 
+			male_can_hold_minor_title_trigger = yes
+			female_can_hold_minor_title_trigger = yes
+		}
+		OR = {
+			trait = bhikkhu
+			trait = bhikkhuni
+			is_priest = yes
+			has_character_flag = guru
+		}
+		NOT = { trait = incapable } 
+	}
+	
+	allowed_to_grant = {
+		#is_feudal = yes
+		OR = {
+			has_landed_title = k_dunhuang
+			AND = {
+				NOT = { has_global_flag = VIET_kingdom_dunhuang_established }
+				OR = {
+					has_landed_title = d_guiyi
+					has_landed_title = d_jiuquan				
+				}
+			}
+		}
+		OR = {
+			religion = buddhist
+			religion = taoist
+			is_dunhuang_sinosphere_trigger = yes
+		}
+	}
+	
+	gain_effect = {
+	}
+	lose_effect = {
+	}
+
+	message = yes
+}
+title_dunhuang_head_of_donation_office = {
+	dignity = 0.1
+	grant_limit = 1
+	opinion_effect = 5
+	
+	monthly_salary = 0.03
+	monthly_prestige = 0.2
+	
+	allowed_to_hold = {
+		NOT = { 
+			primary_title = { temporary = yes } 
+		}
+		is_adult = yes
+		OR = {
+			religion = buddhist
+			religion = taoist
+		}
+		OR = { 
+			male_can_hold_minor_title_trigger = yes
+			female_can_hold_minor_title_trigger = yes
+		}
+		OR = {
+			trait = detached_priest
+			trait = martial_cleric
+			trait = scholarly_theologian
+			trait = mastermind_theologian
+			trait = theologian
+			trait = bhikkhu
+			trait = bhikkhuni
+			is_priest = yes
+			has_character_flag = guru
+		}
+		NOT = { trait = incapable } 
+	}
+	
+	allowed_to_grant = {
+		#is_feudal = yes
+		OR = {
+			has_landed_title = k_dunhuang
+			AND = {
+				NOT = { has_global_flag = VIET_kingdom_dunhuang_established }
+				OR = {
+					has_landed_title = d_guiyi
+					has_landed_title = d_jiuquan				
+				}
+			}
+		}
+		OR = {
+			religion = buddhist
+			religion = taoist
+			is_dunhuang_sinosphere_trigger = yes
+		}
+	}
+	
+	gain_effect = {
+	}
+	lose_effect = {
+	}
+
+	message = yes
+}
+title_dunhuang_grandmaster_imperial_entertainments = {
+	dignity = 0.08
+	grant_limit = 1
+	opinion_effect = 5
+	
+	monthly_salary = 0.03
+	monthly_prestige = 0.5
+	
+	allowed_to_hold = {
+		NOT = { 
+			primary_title = { temporary = yes } 
+		}
+		is_adult = yes
+		#OR = {
+		#	religion = buddhist
+		#	religion = taoist
+		#	is_dunhuang_sinosphere_trigger = yes
+		#}
+		OR = { 
+			male_can_hold_minor_title_trigger = yes
+			female_can_hold_minor_title_trigger = yes
+		}
+		NOT = { trait = incapable } 
+	}
+	
+	allowed_to_grant = {
+		#is_feudal = yes
+		OR = {
+			has_landed_title = k_dunhuang
+			AND = {
+				NOT = { has_global_flag = VIET_kingdom_dunhuang_established }
+				OR = {
+					has_landed_title = d_guiyi
+					has_landed_title = d_jiuquan				
+				}
+			}
+		}
+		OR = {
+			religion = buddhist
+			religion = taoist
+			is_dunhuang_sinosphere_trigger = yes
+		}
+	}
+	
+	gain_effect = {
+	}
+	lose_effect = {
+	}
+
+	message = yes
+}
+title_dunhuang_erudite_in_classics = {
+	dignity = 0.05
+	grant_limit = 1
+	opinion_effect = 5
+	
+	monthly_salary = 0.02
+	monthly_prestige = 0.4
+	
+	allowed_to_hold = {
+		NOT = { 
+			primary_title = { temporary = yes } 
+		}
+		is_adult = yes
+		OR = {
+			culture_group = chinese_group
+			culture = khitan
+		}
+		OR = { 
+			male_can_hold_minor_title_trigger = yes
+			female_can_hold_minor_title_trigger = yes
+		}
+		NOT = { trait = incapable } 
+	}
+	
+	allowed_to_grant = {
+		#is_feudal = yes
+		OR = {
+			has_landed_title = k_dunhuang
+			AND = {
+				NOT = { has_global_flag = VIET_kingdom_dunhuang_established }
+				OR = {
+					has_landed_title = d_guiyi
+					has_landed_title = d_jiuquan				
+				}
+			}
+		}
+		OR = {
+			culture_group = chinese_group
+			culture = khitan
+		}
+	}
+	
+	gain_effect = {
+	}
+	lose_effect = {
+	}
+
+	message = yes
+}
+title_dunhuang_honor_crimson_fish_pouch = { # Tbh not sure about the importance of this title, other than it was granted to Zhai Fengda, so I've made it a "You're a cool nerd!" title
+	dignity = 0.02
+	grant_limit = 1
+	opinion_effect = 5
+	
+	monthly_salary = 0
+	monthly_prestige = 0.2
+	
+	allowed_to_hold = {
+		NOT = { 
+			primary_title = { temporary = yes } 
+		}
+		is_adult = yes
+		OR = {
+			culture_group = chinese_group
+			culture = khitan
+		}
+		OR = { 
+			male_can_hold_minor_title_trigger = yes
+			female_can_hold_minor_title_trigger = yes
+		}
+		NOT = { trait = incapable }
+		OR = {
+			learning = 10
+			trait = scholar
+			trait = theologian
+			trait = genius
+			trait = quick
+			has_character_modifier = VIET_zhai_fengda_modifier_generic
+			has_character_modifier = VIET_zhai_fengda_modifier
+		}
+		# Don't want a complete idiot
+		learning = 7
+	}
+	
+	allowed_to_grant = {
+		#is_feudal = yes
+		OR = {
+			has_landed_title = k_dunhuang
+			AND = {
+				NOT = { has_global_flag = VIET_kingdom_dunhuang_established }
+				OR = {
+					has_landed_title = d_guiyi
+					has_landed_title = d_jiuquan				
+				}
+			}
+		}
+		OR = {
+			culture_group = chinese_group
+			culture = khitan
+		}
+	}
+	
+	gain_effect = {
+	}
+	lose_effect = {
+	}
+
+	message = yes
+}

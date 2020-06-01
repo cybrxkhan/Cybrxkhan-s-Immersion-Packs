@@ -1,0 +1,51 @@
+
+1000088650 = {
+	name="Li"
+	culture = di
+	religion="taoist"
+}
+1000088651 = {
+	name="Fu"
+	culture = di
+	religion="taoist"
+}
+1000088652 = {
+	name="Lü"
+	culture = di
+	religion="taoist"
+}	
+1000088653 = {
+	name="Yang"
+	culture = di
+	religion="taoist"
+}
+1000088654 = {
+	name="Pu"
+	culture = di
+	religion="taoist"
+}
+1000088655 = {
+	name="Shi"
+	culture = di
+	religion="taoist"
+}
+1000088656 = {
+	name="Zhang"
+	culture = di
+	religion="taoist"
+}
+1000088657 = {
+	name="Yang"
+	culture = di
+	religion="taoist"
+}
+1000088658 = {
+	name="Wei"
+	culture = di
+	religion="taoist"
+}
+1000088659 = {
+	name="Jiang"
+	culture = di
+	religion="taoist"
+}

@@ -1,0 +1,137 @@
+trade_post = {
+	
+	### DUNHUANG TRADE POST SPECIAL BUILDINGS
+	
+	### RHUBARB INDUSTRY
+	tr_dunhuang_rhubarb_industry = {
+		potential = {
+			trade_route = silk_road
+			silk_road_trade_post_trigger = yes
+			province_id = 1448
+		}
+		desc = tr_dunhuang_rhubarb_industry_desc
+		trigger = {
+			TECH_CONSTRUCTION = 1
+		}
+		gold_cost = 150
+		build_time = 182
+		ai_creation_factor = 95
+		
+		trade_route_wealth = 1.5
+		tradevalue = 50
+		monthly_character_prestige = 0.1
+		add_number_to_name = no
+		
+		extra_tech_building_start = 10.0 # Never get at start of game
+	}	
+	### MELON INDUSTRY
+	tr_dunhuang_melon_industry = {
+		potential = {
+			trade_route = silk_road
+			silk_road_trade_post_trigger = yes
+			province_id = 1448
+		}
+		desc = tr_dunhuang_melon_industry_desc
+		trigger = {
+			TECH_CONSTRUCTION = 1
+		}
+		gold_cost = 150
+		build_time = 182
+		ai_creation_factor = 95
+		
+		trade_route_wealth = 1.5
+		tradevalue = 50
+		monthly_character_prestige = 0.1
+		add_number_to_name = no
+		
+		extra_tech_building_start = 10.0 # Never get at start of game
+	}
+	### IRRIGATION INFRASTRUCTURE
+	tr_dunhuang_irrigation_infrastructure = {
+		potential = {
+			trade_route = silk_road
+			silk_road_trade_post_trigger = yes
+			province_id = 1448
+		}
+		desc = tr_dunhuang_irrigation_infrastructure_desc
+		trigger = {
+			TECH_CONSTRUCTION = 1
+		}
+		gold_cost = 250
+		build_time = 365
+		ai_creation_factor = 95
+		
+		tax_income = 1.5
+		economy_techpoints = 0.03
+		monthly_character_prestige = 0.2
+		add_number_to_name = no
+		
+		extra_tech_building_start = 10.0 # Never get at start of game
+	}
+	### CONFUCIAN ACADEMY
+	tr_dunhuang_confucian_academy = {
+		potential = {
+			trade_route = silk_road
+			silk_road_trade_post_trigger = yes
+			province_id = 1448
+		}
+		desc = tr_dunhuang_confucian_academy_desc
+		trigger = {
+			TECH_CONSTRUCTION = 1
+		}
+		gold_cost = 175
+		build_time = 274
+		ai_creation_factor = 95
+		
+		tech_growth_modifier = 0.2
+		monthly_character_prestige = 0.25
+		monthly_character_piety = 0.25
+		add_number_to_name = no
+		
+		extra_tech_building_start = 10.0 # Never get at start of game
+	}
+	### DUNHUANG ART SCHOOLS
+	tr_dunhuang_art_schools = {
+		potential = {
+			trade_route = silk_road
+			silk_road_trade_post_trigger = yes
+			province_id = 1448
+		}
+		desc = tr_dunhuang_art_schools_desc
+		trigger = {
+			TECH_CONSTRUCTION = 1
+		}
+		gold_cost = 175
+		build_time = 274
+		ai_creation_factor = 95
+		
+		culture_techpoints = 0.03
+		monthly_character_piety = 0.2
+		tradevalue = 20
+		add_number_to_name = no
+		
+		extra_tech_building_start = 10.0 # Never get at start of game
+	}
+	### NOMAD CARAVAN GUARDS
+	tr_dunhuang_nomad_caravan_guards = {
+		potential = {
+			trade_route = silk_road
+			silk_road_trade_post_trigger = yes
+			province_id = 1448
+		}
+		desc = tr_dunhuang_nomad_caravan_guards_desc
+		trigger = {
+			TECH_CONSTRUCTION = 1
+		}
+		gold_cost = 175
+		build_time = 274
+		ai_creation_factor = 95
+		
+		military_techpoints = 0.03
+		garrison_size = 4
+		tradevalue = 10
+		add_number_to_name = no
+		
+		extra_tech_building_start = 10.0 # Never get at start of game
+	}
+}
