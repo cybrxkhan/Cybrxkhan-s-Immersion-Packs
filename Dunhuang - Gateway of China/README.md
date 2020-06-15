@@ -25,19 +25,32 @@ In this Immersion Pack, step back to the heyday of the Silk Road to take reins o
 
 ## SOURCES AND FURTHER READING
 
+The below is NOT a comprehensive list of all the sources I've used, but should cover a significant amount of the reading I did for this Immersion Pack. I also used Wikipedia (including English, Chinese, Japanese, Korean, and Vietnamese Wikipedia) where needed to fill in gaps, though I did so with discretion and caution.
+
 ### Scholarly Articles
 
 - [An Introduction to the Material Culture of Dunhuang Buddhism: Putting the Object in Its Place](https://www2.ihp.sinica.edu.tw/file/1459GDUCCCN.pdf), Sarah E. Fraser
 - [Composite Manuscripts in Medieval China: The Case of Scroll P.3720 from Dunhuang](http://frogbear.org/wp-content/uploads/2016/10/9783110496956-One-Volume-Libraries-Composite-and-Multiple-Text-Manuscripts-Composite-Manuscripts-in-Medieval-China-The-Case-of-Scroll-P.3720-from-Dunhuang.pdf), Imre Galambos
+- [Studies in Chinese Manuscripts: From the Warring States Period to the 20th Century](http://shahon.org/wp-content/uploads/2010/02/Galambos-2013-ed.-Studies-in-Chinese-manuscripts.pdf), Imre Galambos
+- [Buddhist Litigants in Public Court: A Case Study of Legal Practices in Tibetan-ruled Dunhuang (786–848)](https://scholar.harvard.edu/files/cuilanliu/files/16-liu-jaos139.1.pdf), Cuilan Liu
 - [Merit-Making or Financial Fraud? Litigating Buddhist Nuns in Early 10th Century Dunhuang](https://scholar.harvard.edu/files/cuilanliu/files/jiabs41006.pdf), Cuilan Liu
 - [The Order of the Birds in Guiyi Dunhuang](http://www.eastasianhistory.org/sites/default/files/article-content/20/EAH20_01.pdf), Lewis Mayo
+- [Guiyijun and Buddhism at Dunhuang: A Year by Year Chronicle](https://omp.ub.rub.de/index.php/BuddhistRoad/catalog/download/125/111/629-1?inline=1), Henrik H. Sørensen
+- [Perspectives on Buddhism in Dunhuang During the Tang and Five Dynasties Period](https://en.unesco.org/silkroad/sites/silkroad/files/knowledge-bank-article/perspectives%20on%20buddhism%20in%20dunhuang%20during%20the%20tang%20and%20five%20dynasties%20period.pdf), Henrik H. Sørensen
+- [Dialogue Among the Civilizations: the Origin of the Three Guardian Deities’ Images in Cave 285, Mogao Grottoes](http://www.silkroadfoundation.org/newsletter/vol6num2/srjournal_v6n2.pdf), Yuanlin Zhang
 
 ### Scholarly Books
 
-- [Surviving Nirvana: Death of the Buddha in Chinese Visual Culture](https://books.google.com/books?id=PRoAyvEv3_IC), Sonya S. Lee.
+- [Dunhuang Art: Through the Eyes of Duan Wenjie](https://books.google.com/books?id=0SdXEVaFTJ0C), Wenjie Duan ([Alternate site](http://ignca.nic.in/eBooks/India_world_ks_19.pdf))
+- [The Dunhuang Grottoes and Global Education: Philosophical, Spiritual, Scientific, and Aesthetic Insights](https://books.google.com/books?id=9LyYDwAAQBAJ), Xu Di
+- [Surviving Nirvana: Death of the Buddha in Chinese Visual Culture](https://books.google.com/books?id=PRoAyvEv3_IC), Sonya S. Lee
+- [Art, Religion, and Politics in Medieval China: The Dunhuang Cave of the Zhai Family](https://books.google.com/books?id=o62gkAg8WX0C), Qiang Ning
+- [Eighteen Lectures on Dunhuang](https://books.google.com/books?id=HvIa9sere_8C), Xinjiang Rong
+- [Life Along the Silk Road, Second Edition](https://books.google.com/books/about/Life_Along_the_Silk_Road.html?id=36owDwAAQBAJ), Susan Whitfield ([Amazon Purchase Link](https://www.amazon.com/Life-along-Silk-Road-Second/dp/0520280598))
 
-### Online Websites
+### Online Websites or Articles
 
 - [Dunhuang Studies: Chronology and History](http://www.silkroadfoundation.org/dunhuang/dhhistory.html)
+- [Dunhuang Timeline](https://www.evl.uic.edu/samt/silkshrine/Silkscript.txt.txt)
 - [Notes on the History of Dunhuang](https://depts.washington.edu/silkroad/cities/china/dh/dhhist.html)
 
