@@ -79,9 +79,9 @@ decisions = {
 			}
 			set_character_flag = do_not_disturb
 		}
-		revoke_allowed = {
-			always = no
-		}
+		#revoke_allowed = {
+		#	always = no
+		#}
 		ai_will_do = {
 			factor = 0.5         # Reduce chances of happening
 			modifier = {

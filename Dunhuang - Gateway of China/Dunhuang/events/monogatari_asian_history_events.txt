@@ -77,7 +77,7 @@ character_event =  {
 			limit = {
 				year = 1009 # Rise of the Ly Dynasty
 			}
-			set_global_flag = VIET_collapse_of_silla
+			set_global_flag = VIET_rise_of_the_ly
 		}
 		if = {
 			limit = {
@@ -104,8 +104,6 @@ character_event =  {
 # Vietnam wins independence against China - will reduce the chances of Vietnamese courtier spawn
 character_event = {
 	id = azn.1
-	
-	hide_window = yes
 
 	only_playable = yes
 	religion = catholic
@@ -181,10 +179,6 @@ character_event = {
 			}
 		}
 	}
-	
-	option = {
-		name = OK
-	}
 }
 
 # Vietnam wins independence against China narrative event
@@ -200,6 +194,7 @@ narrative_event = {
 
 	option = {
 		name = azn.2.a
+		custom_tooltip = { text = azn.2.tooltip }
 	}
 }
 
@@ -244,7 +239,7 @@ character_event = {
 	}
 	
 	immediate = {
-		set_global_flag = VIET_VIET_independence
+		set_global_flag = VIET_balhae_destruction
 		hidden_tooltip = {
 			#narrative_event = { id = azn.4 }
 			any_playable_ruler = {
@@ -279,6 +274,7 @@ narrative_event = {
 
 	option = {
 		name = azn.4.a
+		custom_tooltip = { text = azn.4.tooltip }
 	}
 }
 
@@ -363,6 +359,7 @@ narrative_event = {
 
 	option = {
 		name = azn.6.a
+		custom_tooltip = { text = azn.6.tooltip }
 	}
 }
 
@@ -455,6 +452,7 @@ narrative_event = {
 
 	option = {
 		name = azn.8.a
+		custom_tooltip = { text = azn.8.tooltip }
 	}
 }
 
@@ -535,6 +533,7 @@ narrative_event = {
 
 	option = {
 		name = azn.10.a
+		custom_tooltip = { text = azn.10.tooltip }
 	}
 }
 
@@ -614,6 +613,7 @@ narrative_event = {
 
 	option = {
 		name = azn.12.a
+		custom_tooltip = { text = azn.12.tooltip }
 	}
 }
 
@@ -658,7 +658,7 @@ character_event = {
 	}
 	
 	immediate = {
-		set_global_flag = VIET_anarchy_of_12_warlords
+		set_global_flag = VIET_rise_of_the_ly
 		hidden_tooltip = {
 			#narrative_event = { id = azn.14 }
 			any_playable_ruler = {
@@ -693,6 +693,7 @@ narrative_event = {
 
 	option = {
 		name = azn.14.a
+		custom_tooltip = { text = azn.14.tooltip }
 	}
 }
 
@@ -709,7 +710,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		year = 880
+		year = 900
 		NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
 		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
 		NOT = { has_global_flag = VIET_demise_of_nanzhao }
@@ -720,19 +721,19 @@ character_event = {
 		days = 1
 		modifier = {
 			factor = 1.5
-			year = 890
-		}
-		modifier = {
-			factor = 2
-			year = 900
-		}
-		modifier = {
-			factor = 3
 			year = 910
 		}
 		modifier = {
-			factor = 4
+			factor = 2
 			year = 920
+		}
+		modifier = {
+			factor = 3
+			year = 930
+		}
+		modifier = {
+			factor = 4
+			year = 940
 		}
 		modifier = {
 			factor = 3
@@ -783,6 +784,7 @@ narrative_event = {
 
 	option = {
 		name = azn.16.a
+		custom_tooltip = { text = azn.16.tooltip }
 	}
 }
 
@@ -862,6 +864,7 @@ narrative_event = {
 
 	option = {
 		name = azn.18.a
+		custom_tooltip = { text = azn.18.tooltip }
 	}
 }
 

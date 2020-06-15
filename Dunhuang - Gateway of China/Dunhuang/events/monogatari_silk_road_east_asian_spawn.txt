@@ -52,7 +52,7 @@ character_event = {
 		months = 6666
 		
 		modifier = {
-			factor = 3
+			factor = 4
 			has_global_flag = VIET_japanese_samurai_rise
 		}
 		
@@ -334,6 +334,7 @@ character_event = {
 			factor = 2
 			has_global_flag = VIET_VIET_independence
 			NOT = { has_global_flag = VIET_anarchy_of_12_warlords }
+			NOT = { has_global_flag = VIET_rise_of_the_ly }
 		}
 		
 		modifier = {

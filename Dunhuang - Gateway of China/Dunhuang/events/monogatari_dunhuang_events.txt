@@ -272,6 +272,12 @@ character_event =  {
 			}	
 		}
 
+		if = {
+			limit = {
+				year = 1000
+			}
+			set_global_flag = VIET_zhai_fengda_spawn_event_flag
+		}
 
 		#Generate Tuyuhun count of Fuqi and Delingha
 		if = {
@@ -325,6 +331,7 @@ character_event =  {
 			}
 			d_guiyi = {
 				owner = {
+					character_event = { id = dunhuang.2 } # As a safety measure in case relatives are elsewhere
 					character_event = { id = dunhuang.3 }
 				}
 			}
@@ -336,20 +343,11 @@ character_event =  {
 			}
 			d_guiyi = {
 				owner = {
+					character_event = { id = dunhuang.2 } # As a safety measure in case relatives are elsewhere
 					character_event = { id = dunhuang.4 }
 				}
-			}
-		}
-		
-		
-		# MISCELLANEOUS STUFF
-		
-		if = {
-			limit = {
-				year = 900
-				NOT = { year = 1000 }
-			}
-			set_global_flag = VIET_zhai_fengda_spawn_event_flag
+			}		
+			# MISCELLANEOUS STUFF
 			c_100016273 = {
 				add_character_modifier = {
 					name = VIET_zhai_fengda_modifier
@@ -683,6 +681,18 @@ character_event = {
 				title = b_guazhou
 				type = city
 			}
+		}	
+		1448 = {
+			build_holding = {
+				title = b_yueyaquan
+				type = city
+			}
+		}	
+		1513 = {
+			build_holding = {
+				title = b_fulu
+				type = castle
+			}
 		}
 		#Cao family as counts of Jiuquan
 		#Yin family as counts of Yumen
@@ -692,7 +702,7 @@ character_event = {
 		#Fan family as mayors of Shouchang 
 		#Kang family as mayors of Guazhou
 		#An family as mayors of Fangpan
-		#
+		#Zhu family as mayors of Yueyaquan
 		c_100015907 = { # Give Jiuquan to Cao Wancheng
 			#Give some starting mana like a normal Count so they won't be completely helpless
 			wealth = 40
@@ -708,7 +718,7 @@ character_event = {
 			}
 			character_event = { id = dunhuang.2 }
 		}	
-		c_100016239 = { # Give Anxi to Suo Xuan
+		c_100016243 = { # Give Anxi to Suo Xun
 			#Give some starting mana like a normal Count so they won't be completely helpless
 			wealth = 40
 			prestige = 20
@@ -753,7 +763,18 @@ character_event = {
 			}
 			character_event = { id = dunhuang.2 }
 		}	
-		c_100016268 = { # Give Suzhou to Zhai Farong
+		c_100016268 = { # Give Fulu to Zhai Farong - as baron his family has a slightly higher chance of surviving
+			b_fulu = {
+				grant_title_no_opinion = PREV
+			}
+			c_jiuquan = {
+				holder_scope = {
+					set_defacto_vassal = PREVPREV
+				}
+			}
+			character_event = { id = dunhuang.2 }
+		}	
+		c_100016386 = { # Give Suzhou to Zhang Qiu
 			b_suzhou = {
 				grant_title_no_opinion = PREV
 			}
@@ -808,17 +829,28 @@ character_event = {
 			}
 			#character_event = { id = dunhuang.2 }
 		}
-		#c_100016373 = { # Give Shouchang to Zhu Zaiqing
-		#	b_shouchang = {
-		#		grant_title_no_opinion = PREV
-		#	}
-		#	c_dunhuang = {
-		#		holder_scope = {
-		#			set_defacto_vassal = PREVPREV
-		#		}
-		#	}
-		#	character_event = { id = dunhuang.2 }
-		#}
+		c_100016374 = { # Give Shouchang to Cao Fajing, an important monk official of the Cao family
+			b_kongtong = {
+				grant_title_no_opinion = PREV
+			}
+			c_jiuquan = {
+				holder_scope = {
+					set_defacto_vassal = PREVPREV
+				}
+			}
+			#character_event = { id = dunhuang.2 }
+		}
+		c_100016373 = { # Give Yueyaquan to Zhu Zaiqing, a Dunhuang nobleman and important leader of the Buddhist lay community
+			b_yueyaquan = {
+				grant_title_no_opinion = PREV
+			}
+			c_dunhuang = {
+				holder_scope = {
+					set_defacto_vassal = PREVPREV
+				}
+			}
+			#character_event = { id = dunhuang.2 }
+		}
 	}
 }
 
@@ -842,8 +874,6 @@ character_event = {
 				title = b_yueyaquan
 				type = city
 			}
-		}	
-		1448 = {
 			build_holding = {
 				title = b_yumenquan
 				type = castle
@@ -899,6 +929,7 @@ character_event = {
 					set_defacto_vassal = PREVPREV
 				}
 			}
+			add_pressed_claim = d_guiyi
 			character_event = { id = dunhuang.2 }
 		}
 		c_100016205 = { # Give city of Shouchang to Yin Gonghai
@@ -1039,6 +1070,17 @@ character_event = {
 		}	
 		c_100016235 = { # Give Dunhuang to Suo Tao
 			b_dunhuang = {
+				grant_title_no_opinion = PREV
+			}
+			e_china_west_governor = {
+				holder_scope = {
+					set_defacto_vassal = PREVPREV
+				}
+			}
+			character_event = { id = dunhuang.2 }
+		}		
+		c_100016131 = { # Give Mogao to Li Lingwu
+			b_mogao = {
 				grant_title_no_opinion = PREV
 			}
 			e_china_west_governor = {
@@ -5514,7 +5556,7 @@ character_event = {
 			add_character_modifier = {
 				name = VIET_dunhuang_community_unit_spawn_timer
 				duration = 3650
-				#hidden = yes
+				hidden = yes
 			}
 		}
 		if = {
@@ -5838,7 +5880,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	option = { # Ok
-		name = dunhuang.119.a
+		name = dunhuang.101.a
 		prestige = 10
 		random_list = {
 			# 25% Persian
@@ -6092,7 +6134,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	option = { # Ok
-		name = dunhuang.120.a
+		name = dunhuang.101.a
 		prestige = 10
 		random_list = {
 			# 40% Bodpa
@@ -6269,7 +6311,7 @@ character_event = {
 	is_triggered_only = yes
 	
 	option = { # Ok
-		name = dunhuang.121.a
+		name = dunhuang.101.a
 		prestige = 10
 		random_list = {
 			# 40% uyghur
@@ -6661,6 +6703,7 @@ character_event = {
 		add_character_modifier = {
 			name = held_nadun_festival_cooldown
 			duration = 1825
+			hidden = yes
 		}
 	}
 	
@@ -6952,6 +6995,8 @@ character_event = {
 # 159 - Zhang Yichao passes away, hidden event
 # 160 - Zhang Yichao passes away, narrative vent
 # 161 - Zhang Yichao passes away, other families' reactions
+# 162 - Zhang Yichao passes away - ping event
+# 163 - Cao Yijin 
 # 
 # ??? - Zhangs or a Chinese character who owns Duchies of Dunhuang, Jiuquan, or Kingdom of Dunhuang gets some event troops and help in the fight against Tibet
 # 
@@ -7003,7 +7048,7 @@ long_character_event = {
 			limit = {
 				trait = charismatic_negotiator
 			}
-			remove_trait = underhanded_rogue
+			remove_trait = charismatic_negotiator
 			add_trait = grey_eminence
 		}
 		if = {

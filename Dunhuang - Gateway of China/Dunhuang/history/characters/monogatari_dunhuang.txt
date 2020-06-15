@@ -19,6 +19,7 @@
 	trait=sympathy_islam
 	trait=sympathy_christendom
 	trait=charismatic_negotiator
+	trait=shrewd
 	838.4.13={
 		birth=yes
 	}
@@ -287,6 +288,9 @@
 	trait=sympathy_zoroastrianism
 	trait=sympathy_islam
 	trait=sympathy_christendom
+	trait=theologian
+	trait=gregarious
+	trait=erudite
 	813.5.2={ # Unknown
 		birth=yes
 	}
@@ -3463,6 +3467,9 @@
 	}
 	750.1.1={ #Married Yin Tingjie's daughter
 		add_spouse = 100016187
+		effect = {
+			add_friend = 100016186
+		}
 	}
 	791.1.1 = { # Unknown
 		death=yes
@@ -3476,6 +3483,7 @@
 	father=100016129
 	trait=mastermind_theologian
 	trait=bhikkhu
+	trait=celibate
 	trait=temperate
 	trait=gregarious
 	trait=diligent
@@ -3531,7 +3539,9 @@
 		death=yes
 	}
 }
-100016135 = { # Li Mingzhen
+# Li Mingzhen
+# Either he or his sons were involved in the coup against Suo Xun, who happened to be both his wife's nephew AND his wife's brother-in-law somehow
+100016135 = {
 	name="Mingzhen"
 	dynasty=1000088605
 	religion="buddhist"
@@ -3539,6 +3549,7 @@
 	father=100016147
 	820.1.1={ # Unknown
 		birth=yes
+		set_character_flag = VIET_gfx_do_not_change
 	}
 	847.1.1={ #Married Zhang Yichao's daughter (Zhang Yichao was born in 799)
 		add_spouse = 100016314
@@ -4235,13 +4246,14 @@
 	trait=skilled_tactician
 	trait=strategist
 	trait=brave
-	825.1.1={ # Unknown
+	trait=content
+	810.5.25={ # Unknown
 		birth=yes
 	}
 	844.1.1={ #Married Zhang Yichao's daughter
 		add_spouse=100016315
 	}
-	909.1.1 = { # Unknown
+	901.8.25 = { # Unknown
 		death=yes
 	}
 }
@@ -4294,7 +4306,10 @@
 	culture="han"
 	father=100016171
 	trait=grey_eminence
+	trait=administrator
 	trait=erudite
+	trait=gregarious
+	trait=diligent
 	711.1.1={ # Unknown
 		birth=yes
 	}
@@ -4986,6 +5001,10 @@
 	religion="buddhist"
 	culture="han"
 	father=100016234
+	trait=scholar
+	trait=zealous
+	trait=diligent
+	trait=proud
 	748.1.1={ # Unknown
 		birth=yes
 	}
@@ -5045,13 +5064,13 @@
 	religion="buddhist"
 	culture="han"
 	father=100016237
-	808.1.1={ # Unknown
+	799.1.1={ # Unknown
 		birth=yes
 	}
-	834.1.1={
+	820.1.1={
 		add_spouse=100016348
 	}
-	872.1.1 = { # Unknown
+	853.1.1 = { # Unknown
 		death=yes
 	}
 }
@@ -5061,7 +5080,7 @@
 	religion="buddhist"
 	culture="han"
 	father=100016237
-	815.1.1={ # Unknown
+	808.1.1={ # Unknown
 		birth=yes
 	}
 	880.1.1 = { # Unknown
@@ -5074,7 +5093,7 @@
 	religion="buddhist"
 	culture="han"
 	father=100016237
-	818.1.1={ # Unknown
+	810.1.1={ # Unknown
 		birth=yes
 	}
 	864.1.1 = { # Unknown
@@ -5088,23 +5107,37 @@
 	culture="han"
 	father=100016239
 	mother=100016348
-	835.1.1={ # Unknown
+	821.1.1={ # Unknown
 		birth=yes
 	}
-	906.1.1 = { # Unknown
+	843.1.1={
+		add_spouse=100016384
+	}
+	866.1.1 = { # Unknown
 		death=yes
 	}
 }
-100016243 = { # Xun, uncertain how he is connected to rest of family, but alive c. 894. I have made him Yingche's son
+# Suo Xun, uncertain how he is connected to rest of family, so I have made him Xuan's grandson and Yiben's son. He was the man who led a coup against the Zhang and overthrew them for a few years but was killed in c. 894.
+# His maternal aunt was a daughter of Zhang Yichao who was married to Li Mingzhen, i.e. his mother was Zhang Yichao's daughter.
+# However, he was also a son-in-law of Zhang Yichao, meaning he married another daughter of Zhang Yichao, meaning he married his aunt.
+100016243 = { 
 	name="Xun"
 	dynasty=1000088601
 	religion="buddhist"
 	culture="han"
-	father=100016241
-	858.1.1={ # Unknown
+	father=100016242
+	mother=100016384
+	trait=ambitious
+	trait=deceitful
+	844.1.1={ # Unknown 
 		birth=yes
+		set_character_flag = VIET_gfx_do_not_change
 	}
-	929.1.1 = { # Unknown
+	864.1.1={
+		add_spouse=100016385
+		effect = { add_lover = 100016385 }
+	}
+	894.1.1 = {
 		death=yes
 	}
 }
@@ -5115,10 +5148,10 @@
 	culture="han"
 	father=100016239
 	mother=100016348
-	840.1.1={ # Unknown
+	830.1.1={ # Unknown
 		birth=yes
 	}
-	917.1.1 = { # Unknown
+	892.1.1 = { # Unknown
 		death=yes
 	}
 }
@@ -5129,7 +5162,7 @@
 	religion="buddhist"
 	culture="han"
 	father=100016241
-	852.1.1={ # Unknown
+	842.1.1={ # Unknown
 		birth=yes
 	}
 	910.1.1 = { # Unknown
@@ -5204,8 +5237,9 @@
 	culture="sogdian"
 	father=100016239
 	mother=100016348
+	trait=naive_appeaser #Illiterate
 	trait=dull #Illiterate
-	844.1.1={ # Unknown
+	840.1.1={ # Unknown
 		birth=yes
 		culture=han
 		set_character_flag = VIET_gfx_do_not_change
@@ -5224,7 +5258,7 @@
 	mother=100016348
 	trait=bhikkhuni
 	trait=celibate
-	839.1.1={ # Unknown
+	835.1.1={ # Unknown
 		birth=yes
 		set_character_flag = VIET_gfx_do_not_change
 	}
@@ -5305,6 +5339,22 @@
 		birth=yes
 	}
 	869.1.1 = { #Coincidentally the same year as Suo Yibian
+		death=yes
+	}
+}
+# Fictitious wife of Zhu Zaiqing, a prominent member of the local lay community
+100016257 = { 
+	name="Jinxian"
+	dynasty=1000088601
+	female=yes
+	religion="buddhist"
+	culture="han"
+	father=100016242
+	mother=100016384
+	848.1.1={ # Unknown 
+		birth=yes
+	}
+	907.1.1 = {
 		death=yes
 	}
 }
@@ -5432,10 +5482,10 @@
 	culture="han"
 	father=100016267
 	trait = zealous # Head of some lay Buddhist group
-	819.1.1={ # Unknown
+	822.1.1={ # Unknown
 		birth=yes
 	}
-	891.1.1 = { # Unknown
+	869.1.1 = { # died young(ish)
 		death=yes
 	}
 }
@@ -6032,6 +6082,7 @@
 	religion="buddhist"
 	culture="han"
 	father=100016313
+	trait=content
 	904.4.4={ # Unknown
 		birth=yes
 	}
@@ -6137,7 +6188,7 @@
 }
 # Monk official Zhang Anxin - unknown if related to Zhang Yichao, but I've included him as Zhang Huaiding's son so there's more Zhang family members
 100016377 = {
-	name="Baoshan"
+	name="Anxin"
 	dynasty=1055006
 	religion="buddhist"
 	culture="han"
@@ -6238,6 +6289,38 @@
 		birth=yes
 	}
 	979.7.17 = { # Unknown
+		death=yes
+	}
+}
+# Zhang Yichao's daughter, mother of Suo Xun, so I made her married to Suo Yiben (who is Suo Xun's father, though the two men's actual relationship is unknown)
+100016384 = { 
+	name="Ruying"
+	dynasty=1055006
+	female=yes
+	religion="buddhist"
+	culture="han"
+	father=206811
+	mother=100016148
+	826.2.9={ # Unknown
+		birth=yes
+	}
+	900.12.13 = { # Unknown
+		death=yes
+	}
+}
+# Zhang Yichao's daughter, wife of Suo Xun (apparently he married his aunt as he was both Zhang Yichao's grandson and son-in-law)
+100016385 = { 
+	name="Bingyi"
+	dynasty=1055006
+	female=yes
+	religion="buddhist"
+	culture="han"
+	father=206811
+	mother=100016148
+	845.9.15={ # Unknown
+		birth=yes
+	}
+	928.10.14 = { # Unknown
 		death=yes
 	}
 }
@@ -6660,7 +6743,7 @@
 	religion="buddhist"
 	culture="sogdian"
 	father=100016347
-	805.1.1={ #Unknown
+	796.1.1={ #Unknown
 		birth=yes
 		culture=han
 		set_character_flag = VIET_gfx_do_not_change
@@ -6898,9 +6981,11 @@
 	trait=gregarious
 	837.1.2={ #Unknown
 		birth=yes
+		set_character_flag = VIET_gfx_do_not_change
 	}
 	866.1.1={
 		employer=206811
+		add_spouse=100016257
 	}
 	901.11.16 = { #Unknown
 		death=yes
@@ -6920,6 +7005,7 @@
 	trait=celibate
 	811.2.19={
 		birth=yes
+		set_character_flag = VIET_gfx_do_not_change
 	}
 	895.4.26 = {
 		death=yes
@@ -6936,8 +7022,9 @@
 	trait=gregarious
 	trait=bhikkhu
 	trait=celibate
-	891.8.29={ # Unknocn
+	891.8.29={ # Unknown
 		birth=yes
+		set_character_flag = VIET_gfx_do_not_change
 	}
 	936.1.1={
 		employer=1059716
@@ -6946,5 +7033,106 @@
 		death=yes
 	}
 }
+# Zhang Qiu - also known as Zhang Jingqiu
+# Eminent local literati, seems to not be connected to the main Zhang clan, so I've made him from a separate clan. Alive in c. 864
+# Wrote a number of manuscripts and steles, including several celebrating the lives and deeds of various prominent figures in Dunhuang.
+# This includes some information regarding the chaotic situation post Zhang Yichao.
+# He seems to have been quite friendly towards Zhang Huaishen.
+100016386 = {
+	name="Qiu"
+	dynasty=1000088648
+	religion="buddhist"
+	culture="han"
+	trait=charismatic_negotiator
+	trait=scholar
+	trait=quick
+	trait=erudite
+	trait=poet
+	trait=humble
+	trait=patient
+	trait=kind
+	838.2.18={ # Unknown
+		birth=yes
+		set_character_flag = VIET_gfx_do_not_change
+	}
+	864.1.1={
+		add_spouse=100016387
+		effect = { 
+			add_lover = 100016387
+			add_friend = 100016387
+			add_friend = 244004 # Zhang Huaishen
+		}
+	}
+	911.12.2 = { # Unknown
+		death=yes
+	}
+}
+100016387 = { # Zhang Qiu's fictitious wife
+	name="Hyun-Ok"
+	female=yes
+	dynasty=1000088648
+	religion="buddhist"
+	culture="korean"
+	trait=charismatic_negotiator
+	trait=scholar
+	trait=poet
+	trait=fair
+	trait=kind
+	845.1.17={ # Unknown
+		birth=yes
+		set_character_flag = VIET_gfx_do_not_change
+	}
+	924.12.4 = { # Unknown
+		death=yes
+	}
+}
+100016388 = { # Zhang Qiu's fictitious child
+	name="Qingli"
+	female=yes
+	dynasty=1000088648
+	religion="buddhist"
+	culture="han"
+	trait=quick
+	father=100016386
+	mother=100016387
+	866.11.19={ # Unknown
+		birth=yes
+		set_character_flag = VIET_gfx_do_not_change
+	}
+	931.10.9 = { # Unknown
+		death=yes
+	}
+}
+100016389 = { # Zhang Qiu's fictitious child
+	name="Zhaoding"
+	dynasty=1000088648
+	religion="buddhist"
+	culture="han"
+	trait=quick
+	father=100016386
+	mother=100016387
+	865.2.28={ # Unknown
+		birth=yes
+		set_character_flag = VIET_gfx_do_not_change
+	}
+	934.3.15 = { # Unknown
+		death=yes
+	}
+}
+100016390 = { # Zhu Zaiqing's fictitious child
+	name="Rong"
+	dynasty=1000088606
+	religion="buddhist"
+	culture="han"
+	father=100016373
+	mother=100016257
+	866.10.17={ # Unknown
+		birth=yes
+		set_character_flag = VIET_gfx_do_not_change
+	}
+	922.1.3 = { # Unknown
+		death=yes
+	}
+}
 
-#100016384-100016389 misc characters
+#100016391-100016399 misc characters

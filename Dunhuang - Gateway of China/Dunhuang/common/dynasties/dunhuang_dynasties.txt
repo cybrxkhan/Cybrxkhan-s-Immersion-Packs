@@ -1,4 +1,4 @@
-########################################################
+ ########################################################
 #
 # DUNHUANG DYNASTIES
 #
@@ -502,7 +502,7 @@
 	culture = han
 	religion = taoist
 }
-1000088679 = {
+1000088678 = {
 	name="Yu"
 	culture = han
 	religion = taoist
@@ -552,7 +552,7 @@
 	culture = han
 	religion = taoist
 }
-1000088689 = {
+1000088688 = {
 	name="Zhou"
 	culture = han
 	religion = taoist
