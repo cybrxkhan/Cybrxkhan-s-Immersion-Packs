@@ -25,18 +25,18 @@ In this Immersion Pack, step back to the heyday of the Silk Road to take reins o
 
 ## SOURCES AND FURTHER READING
 
-# Scholarly Articles
+### Scholarly Articles
 
 - [An Introduction to the Material Culture of Dunhuang Buddhism: Putting the Object in Its Place](https://www2.ihp.sinica.edu.tw/file/1459GDUCCCN.pdf), Sarah E. Fraser
 - [Composite Manuscripts in Medieval China: The Case of Scroll P.3720 from Dunhuang](http://frogbear.org/wp-content/uploads/2016/10/9783110496956-One-Volume-Libraries-Composite-and-Multiple-Text-Manuscripts-Composite-Manuscripts-in-Medieval-China-The-Case-of-Scroll-P.3720-from-Dunhuang.pdf), Imre Galambos
 - [Merit-Making or Financial Fraud? Litigating Buddhist Nuns in Early 10th Century Dunhuang](https://scholar.harvard.edu/files/cuilanliu/files/jiabs41006.pdf), Cuilan Liu
 - [The Order of the Birds in Guiyi Dunhuang](http://www.eastasianhistory.org/sites/default/files/article-content/20/EAH20_01.pdf), Lewis Mayo
 
-# Scholarly Books
+### Scholarly Books
 
 - [Surviving Nirvana: Death of the Buddha in Chinese Visual Culture](https://books.google.com/books?id=PRoAyvEv3_IC), Sonya S. Lee.
 
-# Online Websites
+### Online Websites
 
 - [Dunhuang Studies: Chronology and History](http://www.silkroadfoundation.org/dunhuang/dhhistory.html)
 - [Notes on the History of Dunhuang](https://depts.washington.edu/silkroad/cities/china/dh/dhhist.html)
