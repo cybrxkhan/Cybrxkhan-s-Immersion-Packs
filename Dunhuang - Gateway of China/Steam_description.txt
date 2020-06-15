@@ -1,0 +1,52 @@
+[h1]Dunhuang Immersion Pack: Gateway of China (Released 6/14/20)[/h1]
+[B]Please see the [url=https://forum.paradoxplaza.com/forum/index.php?threads/mods-cybrxkhans-immersion-packs-a-library-of-small-modular-flavor-mods.1141718/]forum thread[/url] for more info on Cybrxkhan's Immersion Packs[/B]
+[B]Manual download available [url=https://github.com/cybrxkhan/Cybrxkhan-s-Immersion-Packs/blob/master/Dunhuang%20-%20Gateway%20of%20China/Dunhuang%20-%20Gateway%20of%20China.rar]here on Github[/url][/b]
+[B][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1601450410]Go to the official Collection[/url] to download all the Immersion Packs[/b]
+
+
+For those in China, Dunhuang was the furthest edge of the civilized world; for outsiders coming from the West by land, it was the final major stop before they entered the Middle Kingdom. This gateway of the Silk Road stood proud for centuries, a trade entrepot and melting pot of Eurasia, as well as a religious center home to the great Buddha Grottoes of Mogao. In the early medieval period, under the leadership of first the Zhang and then the Cao families, Dunhuang enjoyed a degree of independence and power it would never see again… but maybe you can alter the course of history.
+
+In this Immersion Pack, step back to the heyday of the Silk Road to take reins of China's great frontier city. Interact with the multicultural inhabitants of this region, and enshrine your name for posterity by contributing to the ever expanding network of caves in Mogao. Lead one of several elite Chinese families with noble lineages stretching back centuries, such as the Cao who claimed descent from Cao Cao of Three Kingdoms fame, or the Li who claimed descent from Laozi and a distant relation with the Tang Emperors. Whether as Chinese gentry, nomad Khans, or Tuyuhun tribal chieftains, there is adventure to be had in this frontier of East and West!
+
+[B]NOTE: The Jade Dragon and Rajas of India DLCS are not required, but if you don't have either of these, some features that require Buddhism or Taoism will not be accessible.[/B]
+
+
+[h1]Features:[/h1]
+
+For a full explanation of features, tips and tricks, see the [url=https://docs.google.com/document/d/e/2PACX-1vSuIWce_YWuVqZpOR0hm6FOM_kFNz0BJYt3f4VvrRzaFyEjxF6DP3mZONpVP7U8m7siNKfSVkE1Hg8b/pub][b]Dunhuang Immersion Pack Guide[/b][/url].
+
+[LIST]
+[*]Vastly expanded character and title history, including more playable historical Chinese families in Dunhuang who have unique story events and bloodlines, such as the Cao, who claim descent from Cao Cao of Three Kingdoms fame. [B]The new playable families are added and selectable via event at game-start for maximum compatiblity.[/B]
+[*]Patronize and cooperate with various local ethnic communities in multicultural Dunhuang
+[*]Patronize a new Mogao Cave in Dunhuang for the glory of Buddhism or your family
+[*]New cultures:
+	[*]Xiongnu and Di for the history files
+	[*]Tuyuhun for the remnants of the Tuyuhun Kingdom
+	[*]Korean, Japanese, Vietnamese, Mohe, Bai, and Yi, who may spawn via events
+[*]Nadun Festival for Tuyuhun characters
+[*]Nowruz Feast decision for Iranian or Mazdean characters and provinces
+[*]Unique buildings for the Silk Road trade post in Dunhuang
+[*]Several new narrative events about Asian history
+[*]30 generic flavor events about everyday life in Dunhuang
+[*]Kingdom of Dunhuang formable via special decisions and events
+[*]A whole slew of miscellaneous flavor such as: minor titles, new Chinese dynasty names, 15 Chinese themed music tracks, and more!
+[/LIST]
+
+
+[h1]What Are Cybrxkhan's Immersion Packs?[/h1]
+
+Cybrxkhan’s Immersion Packs are a collection of small, modular mini-mods designed to add some fun to various, often neglected cultures and regions. These Immersion Packs were loosely inspired by EUIV's, and generally include some flavor events and simple mechanics. While I strive for as much historical authenticity as I can, I will make many compromises as needed to increase flavor and fun.
+
+For those who don’t know me, I was the creator of CPR and VIET, part of the HIP collection of mods, though I no longer work on hat since my retirement a few years ago. Some of stuff here I’ve done for my own personal pleasure over the years after retirement. Consider them a spiritual successor to my VIET Immersion mod, on a smaller scale.
+
+I won’t be making a lot of stuff like I used to; I don’t have time nor energy. Thus, [b]THESE MODS ARE OFFERED AS IS AND I WILL NOT COMBINE THEM INTO ONE MOD[/b]. I am only sharing them now as a resource for modders and for those who want a bit of flavor in their games and/or are old VIETerans who miss the good old days. I’ll only go back or add stuff to these packs when I feel like it or if there are bugs.
+
+Please see the PI forum page for more, or the Steam workshop collection to download all of them.
+
+Please feel free to use my mods in your work, all I ask is that I am credited.
+
+
+
+
+
+

@@ -104,6 +104,8 @@ character_event =  {
 # Vietnam wins independence against China - will reduce the chances of Vietnamese courtier spawn
 character_event = {
 	id = azn.1
+	
+	hide_window = yes
 
 	only_playable = yes
 	religion = catholic

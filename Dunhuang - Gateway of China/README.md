@@ -7,7 +7,7 @@ In this Immersion Pack, step back to the heyday of the Silk Road to take reins o
 
 ## FEATURES
 
-- Vastly expanded character and title history, including more playable historical Chinese families in Dunhuang who have unique story events and bloodlines, such as the Cao, who claim descent from Cao Cao of Three Kingdoms fame
+- Vastly expanded character and title history, including more playable historical Chinese families in Dunhuang who have unique story events and bloodlines, such as the Cao, who claim descent from Cao Cao of Three Kingdoms fame. The new playable families are added and selectable via event at game-start for maximum compatiblity.
 - Patronize and cooperate with various local ethnic communities in multicultural Dunhuang
 - Patronize a new Mogao Cave in Dunhuang for the glory of Buddhism or your family
 - New cultures:
