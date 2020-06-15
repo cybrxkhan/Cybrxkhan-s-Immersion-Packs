@@ -25,7 +25,9 @@ In this Immersion Pack, step back to the heyday of the Silk Road to take reins o
 
 ## SOURCES AND FURTHER READING
 
-The below is NOT a comprehensive list of all the sources I've used, but should cover a significant amount of the reading I did for this Immersion Pack. I also used Wikipedia (including English, Chinese, Japanese, Korean, and Vietnamese Wikipedia) where needed to fill in gaps, though I did so with discretion and caution.
+The below is NOT a comprehensive list of all the sources I've used, but should cover a significant amount of the reading I did for this Immersion Pack. I also used Wikipedia (including English, Chinese, Japanese, Korean, and Vietnamese language Wikipedia) where needed, though I did so with discretion and caution.
+
+Of all the sources, the one I recommend the most would be Susan Whitfield's [Life Along the Silk Road, Second Edition](https://www.amazon.com/Life-along-Silk-Road-Second/dp/0520280598)). It is a fairly accessible and entertaining text for laymen and specialists alike, and takes a more "first person" POV of life along the Silk Road, including one chapter dedicated to the Dunhuang official Zhai Fengda, who is playable at the 936 CE startdate in this mod.
 
 ### Scholarly Articles
 
