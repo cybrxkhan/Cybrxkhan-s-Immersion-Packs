@@ -1,0 +1,7 @@
+
+opinion_patron = {
+	opinion = 30
+}
+opinion_new_courtier = {
+	opinion = 10
+}

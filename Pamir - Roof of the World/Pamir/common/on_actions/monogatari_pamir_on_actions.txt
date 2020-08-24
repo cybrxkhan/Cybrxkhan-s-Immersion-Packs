@@ -1,0 +1,58 @@
+#character
+on_startup = {
+	events = {
+		pamir.0
+		pamir.4
+		pamir.1
+		pamir.2
+	}
+}
+#character
+on_yearly_pulse = {
+	random_events = {
+		pamir_generic_events = {
+		
+			delay = 38
+			
+			7000 = 0	
+
+			30 = pamir.100	# Come across juniper forest
+			20 = pamir.101	# Hunters in the Pamirs argue and ask you to resolve argument
+			30 = pamir.102	# Gift of lapis lazuli from locals
+			20 = pamir.103	# Lapis lazuli miners complain about harsh taskmasters
+			30 = pamir.104	# Found a beautiful lake in the Pamirs
+			30 = pamir.105	# Find a petroglyph of hunters, animals, and nature
+			30 = pamir.106	# Find a petroglyph of people and text
+			10 = pamir.107	# Pamir hot spring found
+			20 = pamir.108	# Visiting a Pamir hot spring
+			30 = pamir.109	# Passing through the Wakhan Corridor
+			10 = pamir.110	# A few families of nomads move into a Pamir province
+			10 = pamir.111	# Pamir nomads offer military services
+			30 = pamir.112	# Pamir herder gifts a bowl made from the horn of the Marco Polo sheep
+			30 = pamir.113	# Learning about Marco Polo sheep from a local herder
+			10 = pamir.114	# Feud between two Burusho clans
+			20 = pamir.115	# Burusho peasant offers humble gift
+			30 = pamir.116	# Burusho headman offers food before a meeting
+			20 = pamir.117	# Craving of baht porridge
+			30 = pamir.118	# What to use mulberries for?
+			20 = pamir.119	# Planting a mulberry tree before beginning construction
+			30 = pamir.120	# Pamiri villagers provide some humble food to you
+			30 = pamir.121	# Come across an Oston, a lone sacred tree
+			30 = pamir.122	# Come across a qadamgoh, a special place where a saint visited
+			20 = pamir.123	# Come across an ancient rock carving depicting a Buddha
+			10 = pamir.124	# Meeting with a Burusho shaman
+			10 = pamir.125	# Local woman accused of being a Belas spirit
+			20 = pamir.126	# Village headsman tells family legend about being descended from local fairies
+			20 = pamir.127	# Hear about the ancient Hephthalites
+			20 = pamir.128	# Villager explains the Pamiri concept of "huk"
+			30 = pamir.129	# Enter a gorgeous valley in the Pamirs
+		
+			# 30 x 14 = 420
+			# 20 x 10 = 200
+			# 10 x 6 = 60
+			# Total = 680
+		
+		}
+	}
+}
+

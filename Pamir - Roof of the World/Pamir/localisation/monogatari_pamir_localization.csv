@@ -1,0 +1,743 @@
+#Stuff;;;;;;;;;;;;;;x
+pamiri;Pamiri;;;;;;;;;;;;;x
+kashmiri;Kashmiri;;;;;;;;;;;;;x
+burusho;Burusho;;;;;;;;;;;;;x
+VIET_mines_of_sar_i_sang;Lapis Lazuli Mines of Sar-i Sang;;;;;;;;;;;;;x
+VIET_mines_of_sar_i_sang_desc;This region is home to the famed mines of Sar-i Sang, which has for centuries produced the overwhelming majority of the world's lapis luzuli, which is a beautiful blue stone that has been highly valued by cultures across the world since ancient times.;;;;;;;;;;;;;x
+VIET_pamir_invest_lapis_lazuli_mines;Investments in Lapis Lazuli Mines;;;;;;;;;;;;;x
+VIET_pamir_invest_lapis_lazuli_mines_desc;The local rulers of this region have recently made some investments in improving the infrastructure of the mines of Sar-i Sang, which produce the vast majority of the world's prized lapis lazuli. This should boost the economy of the region greatly.;;;;;;;;;;;;;x
+VIET_wakhan_watchposts_maintained;Watchposts of Wakhan Being Maintained;;;;;;;;;;;;;x
+VIET_wakhan_watchposts_maintained_desc;The network of watchposts along the Wakhan Corridor, which have been in use by various powers, including local rulers and the Tibetan and Chinese Empires, are currently being maintained. They stand guard over several key passes and routes along the Silk Road to ensure the region's security and prosperity.;;;;;;;;;;;;;x
+VIET_wakhan_watchposts_ruined;Watchposts of Wakhan in Ruins;;;;;;;;;;;;;x
+VIET_wakhan_watchposts_ruined_desc;The network watchposts along the Wakhan Corridor are not being maintained currently, and either lie in ruin or are underutilized by the military of the current regime. They once stood guard over several key passes and routes along the Silk Road.;;;;;;;;;;;;;x
+VIET_karakoram_watchposts_maintained;Watchposts of the Karakoram Mountains Being Maintained;;;;;;;;;;;;;x
+VIET_karakoram_watchposts_maintained_desc;The network of watchposts along the Karakoram Mountains, which have been in use by various powers, including local rulers and the Tibetan and Chinese Empires, are currently being maintained. They stand guard over several key passes and routes along the Silk Road to ensure the region's security and prosperity.;;;;;;;;;;;;;x
+VIET_karakoram_watchposts_ruined;Watchposts of Karakoram in Ruins;;;;;;;;;;;;;x
+VIET_karakoram_watchposts_ruined_desc;The network watchposts along the Karakoram Mountains are not being maintained currently, and either lie in ruin or are underutilized by the military of the current regime. They once stood guard over several key passes and routes along the Silk Road.;;;;;;;;;;;;;x
+invest_in_lapis_lazuli_mines;Invest in Lapis Lazuli Mines;;;;;;;;;;;;;x
+invest_in_lapis_lazuli_mines_desc;We could invest in the famed Lapis Lazuli mines of Sar-i Sang, located in Badakhshan, to improve the local economy.;;;;;;;;;;;;;x
+restore_watchposts_of_wakhan;Repair the Watchposts of the Wakhan Corridor;;;;;;;;;;;;;x
+restore_watchposts_of_wakhan_desc;We should repair the network of watchposts in the Wakhan Corridor to protect the Silk Road trade routes passing through its valleys and passes, and improve the local defenses.;;;;;;;;;;;;;x
+restore_watchposts_of_karakoram;Repair the Watchposts of the Karakoram Mountains;;;;;;;;;;;;;x
+restore_watchposts_of_karakoram_desc;We should repair the network of watchposts in the Karakoram Mountains to protect the Silk Road trade routes passing through its valleys and passes, and improve the local defenses.;;;;;;;;;;;;;x
+attend_chinir_festival;Attend Chinir Festival;;;;;;;;;;;;;x
+attend_chinir_festival_desc;The Iranian-speaking peoples of the Pamirs, or the Pamiris, have long celebrated a harvest festival called the Chinir Festival - it's time we attended one such festivity!;;;;;;;;;;;;;x
+VIET_ate_kurut_cheese;Ate Kurut Cheese;;;;;;;;;;;;;x
+VIET_ate_kurut_cheese_desc;According to Pamiri lore, a man who eats enough kurut, a local variety of cheese curds, will start to feel particularly amorous....;;;;;;;;;;;;;x
+azur_jamshid_bloodline;Blood of Azur Jamshid;;;;;;;;;;;;;x
+azur_jamshid_bloodline_desc;He was the legendary son of an Iranian fairy spirit who defeated and freed the people of Gilgit from the tyrannical rule of King Shri Badat, a heathen cannibal king.;;;;;;;;;;;;;x
+VIET_gold_mines_gilgit;Gold Mines of Gilgit;;;;;;;;;;;;;x
+VIET_gold_mines_gilgit_desc;For centuries, Gilgit has been famed for being a source of gold. The ancient Greek historian Herodutus, for instance, tells fanciful legends about gold-digging ants in this region.;;;;;;;;;;;;;x
+VIET_pamir_juniper;Collected Juniper;;;;;;;;;;;;;x
+VIET_pamir_spring_found;Pamir Mountain Spring;;;;;;;;;;;;;x
+VIET_pamir_spring_found_desc;A mountain spring in this part of the Pamir Mountains has recently gained popularity, as it is claimed to have miraculous healing powers.;;;;;;;;;;;;;x
+VIET_visited_pamir_spring;Recently Visited Spring in the Pamir Mountains;;;;;;;;;;;;;x
+VIET_pamir_nomad_clans_good;Nomads Recently Moved In (Good);;;;;;;;;;;;;x
+VIET_pamir_nomad_clans_good_desc;A few nomad clans recently migrated to this part of the Pamir Mountains. They get along with the locals and help contribute to the local community.;;;;;;;;;;;;;x
+VIET_pamir_nomad_clans_bad;Nomads Recently Moved In (Bad);;;;;;;;;;;;;x
+VIET_pamir_nomad_clans_bad_desc;A few nomad clans recently migrated to this part of the Pamir Mountains. They and the locals often get into arguments and clashes, leading to instability in the local community.;;;;;;;;;;;;;x
+VIET_pamir_nomad_training;Nomads Training Local Troops;;;;;;;;;;;;;x
+VIET_burusho_feud;Burusho Feud;;;;;;;;;;;;;x
+VIET_burusho_feud_desc;A couple local Burusho clans in this region are engaging in a massive feud.;;;;;;;;;;;;;x
+VIET_ate_baht_porridge;Ate Baht Porridge;;;;;;;;;;;;;x
+VIET_burusho_fairy_advice;Received Advice from Pari;;;;;;;;;;;;;x
+VIET_burusho_fairy_advice_desc;This character supposedly, with the help fo a local shaman, received help from a Pari - the name for a kind of fairy spirit among the Pamiri and Burusho peoples.;;;;;;;;;;;;;x
+VIET_in_pamir_mountain_region_trigger_text;In the Pamir Plateau region (i.e. Pamir, Tashkurgan, Vakhan, Badakhshan, Gilgit, or Skardu);;;;;;;;;;;;;x
+VIET_recently_attended_chinir_text;Has not recently attended the Chinir Festival;;;;;;;;;;;;;x
+opinion_saved_me_belas;Saved Me From Accusers;;;;;;;;;;;;;x
+VIET_accused_belas;Accused of being a Belas;;;;;;;;;;;;;x
+VIET_accused_belas_desc;This woman was accused of being a Belas by her village and had to find refuge elsewhere. In the traditional folklore of the Pamir plateau region, the Belas refers to the vengeful spirit of a living woman who brings harm to men in general, or women she particularly despises.;;;;;;;;;;;;;x
+VIET_recent_lapis_lazuli_mine_investment;Recently invested in lapis lazuli mines;;;;;;;;;;;;;x
+xxxxx;xxxxx;;;;;;;;;;;;;x
+pamir.0.desc;xxxxx;;;;;;;;;;;x
+pamir.0.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.1.title;The Patola Shahi;;;;;;;;;;;x
+pamir.1.desc;The Patola Shahi, renowned for their pious devotion to Buddhism, have ruled the Pamir Mountains for generations and have been comfortable playing off their Chinese and Tibetan overlords against one another. Still, their grip on the region is growing increasingly tenuous by the day with the power vacuum and some say that the current ruler, Vikrama, could be the last to hold sway over the region if things don't change. In light of this, Vikrama has decided to delegate some of his territories to the rule of another, hopefully capable chieftain, who will serve as his vassal. Only time will tell if Vikrama can continue his dynasty's illustrious legacy in the Roof of the World.;;;;;;;;;;;x
+pamir.1.a;Continue playing as [Root.GetTitledName].;;;;;;;;;;;;;x
+pamir.1.b;Continue playing as Vikrama of the Patola Shahi.;;;;;;;;;;;;;x
+pamir.1.c;Play as the petty King of Skardu, Vikrama's cousin.;;;;;;;;;;;;;x
+pamir.1.d;Play as the head Chieftain of the Pamirs.;;;;;;;;;;;;;x
+#pamir.1.b;His cousin was delegated the territory;;;;;;;;;;;;;x
+#pamir.1.c;His cousin was delegated the territory - his story seems more interesting!;;;;;;;;;;;;;x
+#pamir.1.d;A local chieftain was delegated the territory;;;;;;;;;;;;;x
+#pamir.1.e;A local chieftain was delegated the territory - his story seems more interesting!;;;;;;;;;;;;;x
+pamir.2.title;Badakhshan;;;;;;;;;;;x
+pamir.2.desc.a;The mountains of Eastern Afghanistan have been most famous since ancient times for its lapis lazuli mines. Warlords and kings are struggling for supremacy in the politically unstable situation caused by recent Arab incursions and the withdrawal of Chinese influence in the region.\n\nOne of the more powerful lords is al-Muqanna, a self-proclaimed prophet of a new religion combining elements of Zoroastrianism and Islam. However, his grip is slipping on Badakhshan where lies the world's chief source of lapis lazuli - the mines of Sar-i Sang - and the Puteshan Kings, who previously traditionally ruled here for generations, are reasserting their power.;;;;;;;;;;;x
+pamir.2.desc.b;The mountains of Eastern Afghanistan have been most famous since ancient times for its lapis lazuli mines. Warlords and kings are struggling for supremacy in the politically unstable situation caused by recent Arab incursions and the withdrawal of Chinese influence in the region.\n\nAmong the most influential of these warlords are the Banijurids, but even their grip on power is tenuous. Their control over the lucrative lapis lazuli trade - based on the mines of Sar-i Sang - is slipping from their fingers by the day, as they are challenged in particular by the Puteshan Kings, who had traditionally ruled here for generations.;;;;;;;;;;;x
+pamir.2.desc.c;The mountains of Eastern Afghanistan have been most famous since ancient times for its lapis lazuli mines. Warlords and kings are struggling for supremacy in the politically unstable situation caused by recent Arab incursions and the withdrawal of Chinese influence in the region.\n\nAt the moment, the region is a mess of various local lords and petty chiefs, following the decline of the Abbasid Caliphate. Lapis lazuli, that lucrative product from the mines of Sar-i Sang, is sure to attract would be conquerors and warlords. It is currently controlled by the declining remnants of the Puteshan Kings, who have ruled here for generations. Even the chiefs of Wakhan grow restless and may prove a thorn in the side of the Banijurids as well.;;;;;;;;;;;x
+pamir.2.a;Our story is with al-Muqanna, the Veiled One...;;;;;;;;;;;;;x
+pamir.2.b;Our story is with the Banijurids...;;;;;;;;;;;;;x
+pamir.2.c;Our story is with the chiefs of Wakhan...;;;;;;;;;;;;;x
+pamir.2.d;Our story is with the Puteshan Kings...;;;;;;;;;;;;;x
+pamir.2.e;Our story is with the chiefs of Wakhan...;;;;;;;;;;;;;x
+#pamir.3.tooltip.a;You will now play as §Y[target_VIET_new_pamir_chief.GetFullName]§!, the new ruler of the County of §YPamir§!.;;;;;;;;;;;x
+#pamir.3.tooltip.b;You will now play as §Y[target_VIET_new_pamir_chief.GetFullName]§!, the new ruler of the County of §YBadakhshan§!.;;;;;;;;;;;x
+pamir.3.title;A New Day;;;;;;;;;;;x
+pamir.3.desc.a;You were surprised when Vikrama, the current Patola Shahi ruler, appointed you as the leading chieftain of the various tribes in the region. Still, you accepted his offer. It will be a difficult road ahead, given you now rule the more rugged, isolated parts of the Pamir Mountains, but you hope you are up to the task!;;;;;;;;;;;x
+pamir.3.desc.b;It wasn't too difficult reasserting your rightful place as ruler of Badakhshan. Your ancestors, the Puteshan Kings, have ruled the area for generations, and were even referenced glowingly by travelers like the Korean Buddhist pilgrim Hyecho a few decades ago. Indeed, the Puteshan Kings are most famous for their patronage of Buddhism. With control of the lapis lazuli mines, surely this region will prosper, though we must be wary of outsiders, whether they are Arab, Tibetan, Turkic, or something else.;;;;;;;;;;;x
+pamir.3.desc.c;You are a relative of the Patola Shahi kings. The region you rule was once fought over by the Chinese and Tibetans, and your father was even exiled to China as part of these machinations, but times are changing. It's evident that the power and influence of the Patola Shahi, once supreme in the pristine Pamir Mountains, is in decline, as they must pay tribute to mighty Tibet, while petty chieftains in the Pamirs grow more and more restless and rebellious. It is up to us whether we will support our cousin, the King, or go our own path.;;;;;;;;;;;x
+pamir.3.desc.d;Your family is one of the last remnants of the once powerful Hephthalite nomad. Because your branch has dominated the Wakhan region for many generations, the chiefs and elders of Wakhan deem you the most prestigious among them. The withdrawal of Chinese and Tibetan forces from the region has definitely left a power vacuum, but in the remote valleys of the Wakhan Corridor, you are mostly undisturbed so long as you do not cause any trouble to your Muslim overlords, but it is hard to say how long such a state of affairs may last.;;;;;;;;;;;x
+pamir.3.a;Who knows what fate lies in store for this region?;;;;;;;;;;;;;x
+pamir.4.desc;xxxxx;;;;;;;;;;;x
+pamir.4.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.5.desc;xxxxx;;;;;;;;;;;x
+pamir.5.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.6.desc;xxxxx;;;;;;;;;;;x
+pamir.6.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.7.desc;xxxxx;;;;;;;;;;;x
+pamir.7.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.8.desc;xxxxx;;;;;;;;;;;x
+pamir.8.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.9.desc;xxxxx;;;;;;;;;;;x
+pamir.9.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.10.desc;xxxxx;;;;;;;;;;;x
+pamir.10.a;xxxx;;;;;;;;;;;;;x
+pamir.11.desc;A warrior hailing from a Burusho clan arrives at your court, offering you his services. The Burusho, also known as the Hunza, live in the valleys of our territories in the Pamir and Karakoram Mountains and speak a unique language unlike any other. They are an isolated people who mostly keep to themselves, but are known as fierce if stubborn warriors.;;;;;;;;;;;x
+pamir.11.a;He will serve us well!;;;;;;;;;;;;;x
+pamir.11.b;Stubborn? Doesn't sound good. We'll politely decline.;;;;;;;;;;;;;x
+VIET_burusho_warrior_spawn_tooltip;A Burusho warrior joins your court. He may be accompanied by a family.;;;;;;;;;;;x
+VIET_burusho_spawn_tooltip;Several Burusho locals join your court. They may be accompanied by their families.;;;;;;;;;;;x
+pamir.12.desc;A few people belonging to a Burusho clan arrive at your court, offering you their services. The Burusho, also known as the Hunza, live in the valleys of our territories in the Pamir and Karakoram Mountains and speak a unique language unlike any other. They are an isolated people who mostly keep to themselves, but are known for being fierce and hardy.;;;;;;;;;;;x
+pamir.12.a;Yes, welcome them to our court.;;;;;;;;;;;;;x
+pamir.12.b;Fierce and hardy? Sounds dangerous. No thanks.;;;;;;;;;;;;;x
+pamir.13.desc;xxxxx;;;;;;;;;;;x
+pamir.13.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.14.desc;xxxxx;;;;;;;;;;;x
+pamir.14.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.15.desc;xxxxx;;;;;;;;;;;x
+pamir.15.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.16.desc;xxxxx;;;;;;;;;;;x
+pamir.16.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.17.desc;xxxxx;;;;;;;;;;;x
+pamir.17.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.18.desc;xxxxx;;;;;;;;;;;x
+pamir.18.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.19.desc;xxxxx;;;;;;;;;;;x
+pamir.19.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.20.desc;Since time immemorial, the region of Badakhshan in Afghanistan has served as the world's chief source of lapis lazuli, a precious stone prized for its striking blue color. The majority of this lapis lazuli comes from the settlement of Sar-i Sang, specifically. It would be wise for us to invest in improving the infrastructure of these mines to increase their productivity and profit to help the local economy - and ourselves, of course.;;;;;;;;;;;x
+pamir.20.a;Invest a small amount of funds;;;;;;;;;;;;;x
+pamir.20.b;Invest a medium amount of funds;;;;;;;;;;;;;x
+pamir.20.c;Invest a large amount of funds;;;;;;;;;;;;;x
+pamir.20.d;On second thought, never mind.;;;;;;;;;;;;;x
+pamir.21.desc;The Wakhan Corridor, which straddles the Pamir Mountains, links together many parts of the Silk Road. Over the centuries, various rulers - from local kings to the Tibetan and Chinese Empires - have maintained a network of defensive watchposts along the narrow, long valleys to protect caravans and guide armies moving through the area. These old watchposts have are in a state of disrepair, so it's time to fund repairs.;;;;;;;;;;;x
+pamir.21.a;Spend a small amount of funds;;;;;;;;;;;;;x
+pamir.21.b;Spend a medium amount of funds;;;;;;;;;;;;;x
+pamir.21.c;Spend a large amount of funds;;;;;;;;;;;;;x
+pamir.21.d;On second thought, never mind.;;;;;;;;;;;;;x
+pamir.22.desc;xxxxx;;;;;;;;;;;x
+pamir.22.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.23.desc;The passes of the Karakoram Mountains, south of the Pamirs, link together many parts of the Silk Road. Over the centuries, various rulers - from local kings to the Tibetan and Chinese Empires - have maintained a network of defensive watchposts along the narrow, long valleys to protect caravans and guide armies moving through the area. These old watchposts have are in a state of disrepair, so it's time to fund repairs.;;;;;;;;;;;x
+pamir.23.a;Spend a small amount of funds;;;;;;;;;;;;;x
+pamir.23.b;Spend a medium amount of funds;;;;;;;;;;;;;x
+pamir.23.c;Spend a large amount of funds;;;;;;;;;;;;;x
+pamir.23.d;On second thought, never mind.;;;;;;;;;;;;;x
+pamir.24.desc;xxxxx;;;;;;;;;;;x
+pamir.24.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.25.desc;xxxxx;;;;;;;;;;;x
+pamir.25.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.26.desc;xxxxx;;;;;;;;;;;x
+pamir.26.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.27.desc;xxxxx;;;;;;;;;;;x
+pamir.27.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.28.desc;xxxxx;;;;;;;;;;;x
+pamir.28.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.29.desc;xxxxx;;;;;;;;;;;x
+pamir.29.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.30.desc;xxxxx;;;;;;;;;;;x
+pamir.30.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.31.desc;xxxxx;;;;;;;;;;;x
+pamir.31.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.32.desc;xxxxx;;;;;;;;;;;x
+pamir.32.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.33.desc;xxxxx;;;;;;;;;;;x
+pamir.33.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.34.desc;xxxxx;;;;;;;;;;;x
+pamir.34.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.35.desc;xxxxx;;;;;;;;;;;x
+pamir.35.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.36.desc;xxxxx;;;;;;;;;;;x
+pamir.36.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.37.desc;xxxxx;;;;;;;;;;;x
+pamir.37.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.38.desc;xxxxx;;;;;;;;;;;x
+pamir.38.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.39.desc;xxxxx;;;;;;;;;;;x
+pamir.39.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.40.desc;xxxxx;;;;;;;;;;;x
+pamir.40.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.41.desc;xxxxx;;;;;;;;;;;x
+pamir.41.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.42.desc;xxxxx;;;;;;;;;;;x
+pamir.42.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.43.desc;xxxxx;;;;;;;;;;;x
+pamir.43.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.44.desc;xxxxx;;;;;;;;;;;x
+pamir.44.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.45.desc;xxxxx;;;;;;;;;;;x
+pamir.45.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.46.desc;xxxxx;;;;;;;;;;;x
+pamir.46.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.47.desc;xxxxx;;;;;;;;;;;x
+pamir.47.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.48.desc;xxxxx;;;;;;;;;;;x
+pamir.48.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.49.desc;xxxxx;;;;;;;;;;;x
+pamir.49.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.50.desc;The Chinir Festival is the harvest festival traditionally celebrated by many of the peoples living in the rugged, mountainous regions of the Pamirs. It is a festival where social interaction and the sharing of food and good cheer is encouraged. The day of the festival will soon be upon us, and you have decided to meet the commoners and contribute to the festivities this year!;;;;;;;;;;;x
+pamir.50.a;Harvesting season will soon be upon us!;;;;;;;;;;;;;x
+pamir.51.desc;The Chinir Festival has just begun, and you have arrived at one of the local towns to take part of the celebrations. Chinir is a joyous occasion, as it marks the end of the so-called months of hunger, when locals have to ration limited stores of food before the harvest, so everyone can eat and be merry!;;;;;;;;;;;x
+pamir.51.a;It's harvesting season!;;;;;;;;;;;;;x
+pamir.52.desc;As the head of your household, you go out into the fields and take a small bit of harvested barley and take it to the local mill to be turned into flour. You then ritually shake this flour onto the pillars of your house and tie what remains of the barley to the pillar of the "chikish," or the kitchen. Afterwards, you and your entire household gather around a bowl, the eponymous "chinir" itself, which is filled with yogurt. You bow your heads, and say [Root.Religion.GetName] prayers to [Root.Religion.GetHighGodName]. Following this, everyone eats a bit of the yogurt.;;;;;;;;;;;x
+pamir.52.a;A good beginning!;;;;;;;;;;;;;x
+pamir.53.desc;The next part of the Chinir is a big gathering among those of your gender. As a [Root.GetManWoman], you meet with several other [Root.GetMaleFemale]s of the community - from prominent nobles to lowly peasants - in a large meeting hall to partake in a great feast.;;;;;;;;;;;x
+pamir.53.a;The food smells good!;;;;;;;;;;;;;x
+pamir.54.desc;After the Chinir feast, it is customary for a [Root.GetManWoman] like myself to visit the houses of other [Root.GetMaleFemale]s in the community, to share our food and partake in some of the yogurt from each house's chinir bowl. You have already visited several households, and have time to visit one more. You decide to visit the household of a...;;;;;;;;;;;x
+pamir.54.a;Humble, diligent farmer;;;;;;;;;;;;;x
+pamir.54.b;Hard-working craftsperson;;;;;;;;;;;;;x
+pamir.54.c;Wise, articulate scholar;;;;;;;;;;;;;x
+pamir.54.d;Powerful local noble[Root.GetManWoman];;;;;;;;;;;;;x
+pamir.55.desc;At the end of the Chinir Festival, it is customary to symbolically assist in the harvesting of crops, even if you aren't a farmer. After all, it is important that you show your bonds with the community, even if you are a [Root.GetTitle].;;;;;;;;;;;x
+pamir.55.a;I am no toiling peasant! I won't do anything.;;;;;;;;;;;;;x
+pamir.55.b;I will help a bit, but not too much.;;;;;;;;;;;;;x
+pamir.55.c;I want to help as much as I can for the day.;;;;;;;;;;;;;x
+pamir.56.desc;During the first batch of harvesting done at the Chinir Festival, everyone - even  children - participates in the cutting of the grain crops, but there are clear roles to be observed. Men use small scythes called "thutr" to cut the grain, while women tie the grain stalks into bundles ready for threshing. You'll all spend a couple hours doing this, before returning to the festivities.;;;;;;;;;;;x
+pamir.56.a;As a man, it is my duty to help cut the grain.;;;;;;;;;;;;;x
+pamir.56.b;As a woman, I will assist with tying the stalks.;;;;;;;;;;;;;x
+pamir.57.desc;At last, the Chinir Festival is over. You had a good time, and got to share food, pleasant talk, and happy memories with others who attended. Hopefully, you will be able to do this again in the future.;;;;;;;;;;;x
+pamir.57.a;It is definitely a good harvesting season.;;;;;;;;;;;;;x
+pamir.58.desc;During the main feast of the Chinir, food is shared in collective bowls. You are about to reach for the last piece of meat in one bowl, when another attendee is about to do the same. You look at each other awkwardly, unsure of what to do.;;;;;;;;;;;x
+pamir.58.a;Please, go ahead and enjoy it, my friend.;;;;;;;;;;;;;x
+pamir.58.b;This belongs to me! I'm the [Root.GetTitle]!;;;;;;;;;;;;;x
+pamir.59.desc;During the Chinir Festival, it is customary for people to bring bowls of sweetened wheat porridge made at their household to the feast, along with some bread and meats, to share with other families. As the highest ranked member of the community present, it would look good on you if you showed your generosity during the feast.;;;;;;;;;;;x
+pamir.59.a;Bah! They should be giving ME food!;;;;;;;;;;;;;x
+pamir.59.b;I only came with a modest amount of food.;;;;;;;;;;;;;x
+pamir.59.c;I brought with me a lot of good food for all!;;;;;;;;;;;;;x
+pamir.59.d;I have so much food with me it's ridiculous.;;;;;;;;;;;;;x
+pamir.60.desc;The more religiously devout members of the community will typically utter many prayers under their breath during the feast. Some, however, see this as contrary to the festival's spirit of interacting and sharing with other members of the community.;;;;;;;;;;;x
+pamir.60.a;I myself am saying many [Root.Religion.GetName] prayers.;;;;;;;;;;;;;x
+pamir.60.b;I think a balance of prayer and socialization is fine.;;;;;;;;;;;;;x
+pamir.60.c;Socializing is important! Why don't they realize this?;;;;;;;;;;;;;x
+pamir.61.desc;The reason for the main feast during the Chinir is to encourage sharing among people, and for everyone to remember how the community can only survive if people depend on each other. People mingle together to connect and celebrate good things in life.;;;;;;;;;;;x
+pamir.61.a;These are lessons I must do my best to remember.;;;;;;;;;;;;;x
+pamir.62.desc;Kurut, a kind of curd cheese from the Pamirs, is a popular snack or side dish throughout the year, including at the Chinir festival. It is customary before the festival for elderly women to tease the men, especially newly married young men, to consume a lot of kurut, as it is believed to increase a man's desire for intimacy.;;;;;;;;;;;x
+pamir.62.a;Obviously I will eat some!;;;;;;;;;;;;;x
+pamir.62.b;I am not in the mood for much.;;;;;;;;;;;;;x
+pamir.62.c;I hope my husband eats a lot.;;;;;;;;;;;;;x
+pamir.62.d;I hope my husband doesn't eat much.;;;;;;;;;;;;;x
+pamir.62.e;I'll make sure to poke fun of the men about this later.;;;;;;;;;;;;;x
+pamir.63.desc;One of the popular dishes at the Chinir feast is moch, which is made by mixing cheese curds with water and pouring it over cooked vegetables. It is popular as it is believed to be good for warming up the body and maintaining one's strength during the colder autumn and winter months.;;;;;;;;;;;x
+pamir.63.a;Eating it makes me feel warm already!;;;;;;;;;;;;;x
+pamir.64.desc;While partaking in the Chinir feast, you observe the house you are in. The owner and host has decorated it with several strands of grain, as is custom, but they have done so in such a way that it is extremely aesthetic.;;;;;;;;;;;x
+pamir.64.a;Observe quietly with wonder.;;;;;;;;;;;;;x
+pamir.64.b;Praise the host in front of everyone.;;;;;;;;;;;;;x
+pamir.65.desc;During the Chinir Feast, you engage in a pretty good conversation with one of the attendees. You are learning a lot about each others' experiences, as you swap tales and share your thoughts about life.;;;;;;;;;;;x
+pamir.65.a;Very interesting, my friend!;;;;;;;;;;;;;x
+pamir.66.desc;Though you are enjoying the Chinir Feast, not everyone can come. Those who are too old and feeble, or are ill, often cannot come for obvious reasons. Therefore, it is customary for some people to volunteer to bring some food to the elderly and those who are sick during the feast. It can be an arduous thing, though, and you fear if you help, you might catch someone's illness.;;;;;;;;;;;x
+pamir.66.a;Hopefully someone will help - but not me.;;;;;;;;;;;;;x
+pamir.66.b;I will volunteer! I need to set an example.;;;;;;;;;;;;;x
+pamir.67.desc;As part of the harvest, women and children go to the orchards and gather baskets full of fruits. You are observing some as they do this. Plump apricots and mulberries seem especially popular, and this is a more relaxed part of the harvest, where women and children take their time to socialize.;;;;;;;;;;;x
+pamir.67.a;Merely observe and enjoy the scenery.;;;;;;;;;;;;;x
+pamir.67.b;Help them out!;;;;;;;;;;;;;x
+pamir.67.c;Help them out, even though I'm a man.;;;;;;;;;;;;;x
+pamir.68.desc;During the harvest, after the women and children start harvesting fruits from the orchards and groves, it is acceptable for people to start snacking on the fruits that are being picked within reason. You see a basket full of apricots and are tempted to eat some.;;;;;;;;;;;x
+pamir.68.a;I am hungry - it's time to feast!;;;;;;;;;;;;;x
+pamir.68.b;I should restrain and eat just one.;;;;;;;;;;;;;x
+pamir.69.desc;During the harvesting season of the Chinir Festival, women and children are gathering fruits into baskets, and these will be used for many things. Some of the fruit, for example, is turned into khundah, a sticky fruit sauce used in a variety of foods. One of the village woman gives you some khundah to sample, and it is delicious.;;;;;;;;;;;x
+pamir.69.a;It tastes so sweet.;;;;;;;;;;;;;x
+pamir.70.desc;It is common tradition that during the Chinir Festival, whenever a person helps someone outside their household with the harvest, that the one being helped offer some sheep or goat meat. The farmer whom you are helping harvest the crops for is offering you some.;;;;;;;;;;;x
+pamir.70.a;Thank you!;;;;;;;;;;;;;x
+pamir.71.desc;By assisting the farmers with the harvesting of grains during the Chinir Festival, you have learned quite a bit about some aspects of agriculture and various aspects of village life.;;;;;;;;;;;x
+pamir.71.a;It's most enlightening.;;;;;;;;;;;;;x
+pamir.72.desc;During the harvesting season, it is custom for people to start gathering leaves and putting them in sacks. Later, during the winter, these will be used as fodder for animals. This can start as early as the Chinir Festival, and you wonder if you should help those who have been assigned to this task in the village. It is an important thing, after all, so maybe you should contribute.;;;;;;;;;;;x
+pamir.72.a;Sure, why not? It sounds fun.;;;;;;;;;;;;;x
+pamir.72.b;I am not doing peasants' work.;;;;;;;;;;;;;x
+pamir.73.desc;You are enjoying some nigan and baat - flour porridge and liquid butter. It is a simple meal, yet integral to the chinir celebrations.;;;;;;;;;;;x
+pamir.73.a;It may be simple, but it's hearty and delicious!;;;;;;;;;;;;;x
+pamir.73.b;I'm not too fond of peasant food, but must keep up appearances.;;;;;;;;;;;;;x
+pamir.74.desc;xxxxx;;;;;;;;;;;x
+pamir.74.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.75.desc;xxxxx;;;;;;;;;;;x
+pamir.75.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.76.desc;xxxxx;;;;;;;;;;;x
+pamir.76.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.77.desc;xxxxx;;;;;;;;;;;x
+pamir.77.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.78.desc;xxxxx;;;;;;;;;;;x
+pamir.78.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.79.desc;xxxxx;;;;;;;;;;;x
+pamir.79.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.80.desc;xxxxx;;;;;;;;;;;x
+pamir.80.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.81.desc;xxxxx;;;;;;;;;;;x
+pamir.81.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.82.desc;xxxxx;;;;;;;;;;;x
+pamir.82.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.83.desc;xxxxx;;;;;;;;;;;x
+pamir.83.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.84.desc;xxxxx;;;;;;;;;;;x
+pamir.84.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.85.desc;xxxxx;;;;;;;;;;;x
+pamir.85.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.86.desc;xxxxx;;;;;;;;;;;x
+pamir.86.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.87.desc;xxxxx;;;;;;;;;;;x
+pamir.87.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.88.desc;xxxxx;;;;;;;;;;;x
+pamir.88.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.89.desc;xxxxx;;;;;;;;;;;x
+pamir.89.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.90.desc;xxxxx;;;;;;;;;;;x
+pamir.90.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.91.desc;xxxxx;;;;;;;;;;;x
+pamir.91.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.92.desc;xxxxx;;;;;;;;;;;x
+pamir.92.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.93.desc;xxxxx;;;;;;;;;;;x
+pamir.93.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.94.desc;xxxxx;;;;;;;;;;;x
+pamir.94.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.95.desc;xxxxx;;;;;;;;;;;x
+pamir.95.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.96.desc;xxxxx;;;;;;;;;;;x
+pamir.96.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.97.desc;xxxxx;;;;;;;;;;;x
+pamir.97.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.98.desc;xxxxx;;;;;;;;;;;x
+pamir.98.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.99.desc;xxxxx;;;;;;;;;;;x
+pamir.99.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.100.desc;You and your entourage got lost for a bit in a forest while traveling in the Pamir Mountains in your realm. However, on the bright side, you did come across large numbers of juniper, which grow in this region. You decided to collect some to use for various religious and herbal uses.;;;;;;;;;;;x
+pamir.100.a;In a way, it was good we got lost.;;;;;;;;;;;;;x
+pamir.101.desc;The most rugged parts of the Pamir plateau often have no human inhabitants, and are only visited by hunters from nearby local villages. Two hunters recently got into a scuffle in one of these remote regions, and claim the other stole each other's quarry.;;;;;;;;;;;x
+pamir.101.a;The hunter from the north has a more convincing case.;;;;;;;;;;;;;x
+pamir.101.b;The hunter from the south has a more convincing case.;;;;;;;;;;;;;x
+pamir.101.c;They're both phonies, tricking me for a nefarious reason!;;;;;;;;;;;;;x
+pamir.101.d;I have no time for these commoners' problems.;;;;;;;;;;;;;x
+pamir.102.desc;Ah, lapis lazuli, the precious blue stone, valued since ancient times. The majority of the world's supply comes from Badakhshan in the Pamir Plateau, so locals will often present you gifts of tribute in the form of lapis lazuli, as they have today.;;;;;;;;;;;x
+pamir.102.a;The gift is much appreciated.;;;;;;;;;;;;;x
+pamir.103.desc;Today you are inspecting the lapis lazuli mines of Sar-i Sang, a source of much wealth for the region. Some of the miners have recently said the taskmasters are ruthless and overwork them, even causing unnecessary injuries among the workers in some cases. With nowhere to turn to, they appeal to you. Both sides present their cases, but both sides are convincing, alas.;;;;;;;;;;;x
+pamir.103.a;Clearly the taskmasters are wrong. You cannot overwork people.;;;;;;;;;;;;;x
+pamir.103.b;Clearly the miners are wrong. They are lazy and want less work!;;;;;;;;;;;;;x
+pamir.103.c;Help both sides negotiate an agreement before any conflict arises.;;;;;;;;;;;;;x
+pamir.104.desc;Though it may be hard for some to imagine, picturesque lakes can be found in the pristine Pamir Mountains. You come across one today while traveling to someplace in your realm's territories in the Pamirs. The lake is of the bluest color, like lapis lazuli or the sky, and surrounded by a gorgeous visage of flora.;;;;;;;;;;;x
+pamir.104.a;Such are the wonders of nature!;;;;;;;;;;;;;x
+pamir.105.desc;Petroglyphs are a common sight in the Pamir Mountains. People have passed through this region for centuries, so it's unsurprising that I've come across one in my travels. This one appears to have drawings of hunters, animals, and various aspects of nature like the sun and the trees. Despite its simplicity, there is a timeless charm to it.;;;;;;;;;;;x
+pamir.105.a;A testament to those who came before us.;;;;;;;;;;;;;x
+pamir.106.desc;Petroglyphs are a common sight in the Pamir Mountains. People have passed through this region for centuries, so it's unsurprising that I've come across one in my travels. This one appears to be more recent, and depicts people going about their business. It also includes a few inscriptions in the [Root.Culture.GetName] language.;;;;;;;;;;;x
+pamir.106.a;The text is worn out, however, so it's hard to read.;;;;;;;;;;;;;x
+pamir.107.desc;There are a few hot springs up in the remote but settled parts of the Pamir Mountains. One such spring is becoming popular in one of our territories. It has become renowned for its supposed healing properties, though learned men of medicine in our realm debate whether this is actually true or not.;;;;;;;;;;;x
+pamir.107.a;Good to hear. Maybe I'll visit one day.;;;;;;;;;;;;;x
+pamir.108.desc;The Pamir Plateau is host to a number of hot springs, and I decided to go visit one today. It was really relaxing, and helped take my mind of things, if only for a little while.;;;;;;;;;;;x
+pamir.108.a;I am glad to have made the trip.;;;;;;;;;;;;;x
+pamir.109.desc;The Wakhan Corridor is one of the most remote yet awe-inspiring places on this earth, it must seem. While passing through it today to travel to one of my realm's settlements, I saw above me a sky of palest blue. In front of me, an endless stretch of green and fawn colored plain. At my sides, two imposing, ancient rows of mountains that flanked the valley.;;;;;;;;;;;x
+pamir.109.a;So many passed through here over the centuries….;;;;;;;;;;;;;x
+pamir.110.desc;Several clans of nomads have recently moved into one of the valleys under our jurisdiction in the Pamir Plateau. This isn't an uncommon occurrence, as the summer pastures of the region are often attractive destinations for these nomads. Sometimes, the settled locals are fine with this and may even befriend the nomads. Other times, conflict arises between the two groups.;;;;;;;;;;;x
+pamir.110.a;Hopefully things go well this time.;;;;;;;;;;;;;x
+pamir.111.desc;A clan of nomads have moved into a part of the Pamir Plateau under our jurisdiction as there are plenty of summer pastures that attract these nomads. While this happens frequently, this clan of nomads is experienced in war, and have offered you their services as warriors under your service. It is an appealing offer, if not one that might be questioned by skeptical locals.;;;;;;;;;;;x
+pamir.111.a;Take them on as an auxiliary unit in my forces.;;;;;;;;;;;;;x
+pamir.111.b;Better they serve as local militia and train my troops.;;;;;;;;;;;;;x
+pamir.111.c;I have no need for their services for now.;;;;;;;;;;;;;x
+pamir.112.desc;The breed of sheep native to the Pamir region, known locally by names such as nakhjipar or ramapoy, is famed for its large horns. Shepherds here often make simple but beautiful large bowls out of such horns. I have just been given a few today by the locals, which should be put to good use for any feasts I may host.;;;;;;;;;;;x
+pamir.112.a;They are definitely beautiful bowls.;;;;;;;;;;;;;x
+pamir.113.desc;I am traveling through a part of my domain in the Pamir Mountains, and am resting for a while at the residence of one of the local shepards. He happily discusses with me his flock of the local breed of sheep, called nakhjipar or ramapoy in the local tongues, which are known for their big horns. These are so big that the pen he uses to enclose his flock is made using these horns!;;;;;;;;;;;x
+pamir.113.a;Fascinating information.;;;;;;;;;;;;;x
+pamir.114.desc;The Burusho - a small but powerful peoples of the Pamir Plateau - are famed for their fighting prowess. Unfortunately, two Burusho clans in our territories are starting to engage in the feud. It will likely lead to a lot of disorder and unnecessary conflict between the locals if allowed to spread.;;;;;;;;;;;x
+pamir.114.a;Is there nothing we can do? Please tell them to stop.;;;;;;;;;;;;;x
+pamir.114.b;I will use my diplomatic skills to resolve the conflict.;;;;;;;;;;;;;x
+pamir.114.c;I will use cunning and trickery to resolve the conflict.;;;;;;;;;;;;;x
+pamir.114.d;I will use military threats to resolve the conflict.;;;;;;;;;;;;;x
+pamir.115.desc;I passed through a Pamir valley in my realm inhabited by the remote Burusho people. There, I came across a poor peasant on the dirt path, a farmer or a herder. He supplicated before me, and offered me half of his bread, known as Diram Fitti, the traditional sweet tasting wheat bread of the Burusho, mixed with a little butter. It was all he had other than his clothes on his back.;;;;;;;;;;;x
+pamir.115.a;Thank you, you are a good man.;;;;;;;;;;;;;x
+pamir.115.b;I cannot accept this - you need it more than me.;;;;;;;;;;;;;x
+pamir.115.c;How dare you offer me such a pathetic gift!;;;;;;;;;;;;;x
+pamir.115.d;I must refuse. Take this gold instead to feed your family.;;;;;;;;;;;;;x
+pamir.116.desc;You are visiting a local Burusho headman. The Burusho have lived in the remote valleys of the Pamir region for generations and centuries, and it is important you establish good relations with the ones living in your territory. The headman offers you Burusho delicacies like mamtu (spicy dumplings filled with mutton), harissa (wheat and boiled meat), and simple plain yogurt.;;;;;;;;;;;x
+pamir.116.a;Thank you. Let us enjoy some good food first!;;;;;;;;;;;;;x
+pamir.116.b;I'm not in the mood to eat - let's talk business.;;;;;;;;;;;;;x
+pamir.117.desc;I have a sudden craving for baht porridge, a traditional delicacy of the Pamiri people despite its simple nature. It is made using rush-kakht, a rare type of red wheat that only grows in specific parts of the Pamir mountains. It tastes sweet, in a subtle yet rich manner, but due to the rarity of this kind of wheat, it will not be cheap for my cooks to make it.;;;;;;;;;;;x
+pamir.117.a;I will just eat a little to appease my desire.;;;;;;;;;;;;;x
+pamir.117.b;I need a lot of it! It tastes so good.;;;;;;;;;;;;;x
+pamir.118.desc;Mulberries are popular among the Pamiri peoples, and sometimes, poorer families might subsist entirely on it for weeks on end. I have just received a large shipment for myself, and my cooks are asking what we should use most of it for, as there are many things mulberries are good for that outsiders might not be aware of.;;;;;;;;;;;x
+pamir.118.a;We should eat them fresh as soon as possible!;;;;;;;;;;;;;x
+pamir.118.b;Fruit jams and syrups sound good to me.;;;;;;;;;;;;;x
+pamir.118.c;Make pikht, dried mulberry flour, for use in breads;;;;;;;;;;;;;x
+pamir.119.desc;A local Pamiri nobleman is about to begin the building of his new residence. As is custom among the Pamiri, he must plant a mulberry tree at the property before construction can begin. I am there to witness the ceremony, being one of his distinguished guests.;;;;;;;;;;;x
+pamir.119.a;I hope all goes well.;;;;;;;;;;;;;x
+pamir.120.desc;I am visiting one of the Pamiri villages in my realm. The inhabitants are poor but are welcoming and hospitable. They offer me several humble dishes, such as osh, noodles made using various grains and beans, as well as the famed shiroghan, a dish of milk and butter considered holy due how it is associated with a Pamiri fable about the importance of generosity and humility.;;;;;;;;;;;x
+pamir.120.a;I accept their food happily.;;;;;;;;;;;;;x
+pamir.120.b;I prefer some tastier food!;;;;;;;;;;;;;x
+pamir.121.desc;In the Pamiri dominated regions of my realm, it is common to see so-called ostons, lone trees considered spiritually potent that are decorated with strips of cloth or beautiful stones. I have come across one in my travels - perhaps it might be wise to leave something by this oston in order to receive some blessings from [Root.Religion.GetHighGodName]?;;;;;;;;;;;x
+pamir.121.a;Move on without leaving anything;;;;;;;;;;;;;x
+pamir.121.b;Leave behind a strip of cloth;;;;;;;;;;;;;x
+pamir.121.c;Leave behind some common stones;;;;;;;;;;;;;x
+pamir.121.d;Leave behind a precious stone;;;;;;;;;;;;;x
+pamir.122.desc;While traveling in the Pamiri dominated parts of my realm, our local guide stops us when we come across a qadamgoh. These are places where local saints or holy people are said to have visited generations ago, and are typically indicated with a special marking on a grove of trees or a rock. Our guide hurries over to where the marking is and says some prayers.;;;;;;;;;;;x
+pamir.122.a;Wait impatiently for the guide to finish;;;;;;;;;;;;;x
+pamir.122.b;Join the guide in saying some prayers;;;;;;;;;;;;;x
+pamir.123.desc;It is said that many, many generations ago, the kings of the Pamir Mountains were some of the most devout Buddhists in the land, and traces of their influence can still be seen to this day. You were going to one of the local villages in the parts of your realm in the Pamir Mountains, when you pass by an ancient rock carving depicting a Buddha.;;;;;;;;;;;x
+pamir.123.a;Pray a bit then move on.;;;;;;;;;;;;;x
+pamir.123.b;Ignore it and continue along.;;;;;;;;;;;;;x
+pamir.123.c;Infidel blasphemies! Bah!;;;;;;;;;;;;;x
+pamir.123.d;It is a fascinating work of art!;;;;;;;;;;;;;x
+pamir.124.desc;I am at one of the larger Burusho villages of my realm in the Pamirs. The Burusho are a remote and distinct peoples, but the ones in my realm do work to establish a good relationship with me. For instance, I am currently visiting one of their shamans, or a dayal. Once in a trance, he communicates with a fairy (called a Pari), that says it wants to give me some important advice.;;;;;;;;;;;x
+pamir.124.a;I politely decline the advice. I am no heathen idolater!;;;;;;;;;;;;;x
+pamir.124.b;Very well! Please tell me what I must know.;;;;;;;;;;;;;x
+pamir.125.desc;A girl from the Pamiri villages of my realm is brought before me. Locals accuse her of being a Belas, the vengeful spirit of a living woman who attacks men and women she hates at night. The girl swears she's innocent and that she's being framed by her rivals. Her fiance has broken off their engagement, and she is ostracized by the village, which demands she be punished.;;;;;;;;;;;x
+pamir.125.a;This superstitious stupidity is not my concern!;;;;;;;;;;;;;x
+pamir.125.b;No doubt she is innocent. Let her go.;;;;;;;;;;;;;x
+pamir.125.c;She is truly a Belas! Imprison her for this!;;;;;;;;;;;;;x
+pamir.125.d;I cannot let her go back - she can stay with me.;;;;;;;;;;;;;x
+pamir.126.desc;While visiting one of the villages under my rule in the Pamir mountains, the village headsman tells me a story about how his distant ancestor supposedly met and fell in love with a Pari, the local name for a fairy spirit. She bore him several sons before disappearing. "I'm not sure if the story is true," he says with a laugh, "but I like to think it is!";;;;;;;;;;;x
+pamir.126.a;It explains why you and your family are so charming!;;;;;;;;;;;;;x
+pamir.126.b;True, it is probably just some fanciful fantasy.;;;;;;;;;;;;;x
+pamir.127.desc;You are hearing local Pamiri elders tell you tales of the great and mighty Hephthalites. The Hephthalite hordes once called the Pamir Mountains their home, but now they are no more, a people whose numbers have dwindled and have been absorbed by other cultures around them.;;;;;;;;;;;x
+pamir.127.a;They were truly feared warriors with few equals.;;;;;;;;;;;;;x
+pamir.127.b;They were also traders and explorers, too.;;;;;;;;;;;;;x
+pamir.128.desc;"Every land has its 'huk,' [Root.GetTitledFirstName]," the Pamiri village elder explains. "It means the spirit of the land in our tongue. Huk can come from the water, or the soil. Everyone in the village, man and woman, young and old, shares its huk. Differences in huk explain why our village people are gentle and polite, but those of the village downstream are rude and angry.";;;;;;;;;;;x
+pamir.128.a;A wise observation, dear elder.;;;;;;;;;;;;;x
+pamir.128.b;I met the other village and they are not like that!;;;;;;;;;;;;;x
+pamir.128.c;This sounds like silly peasant superstition.;;;;;;;;;;;;;x
+pamir.128.d;Though superstitious, the idea has some merit.;;;;;;;;;;;;;x
+pamir.129.desc;Though the Pamir mountains can be cold and desolate, it has hidden beauty as well. As you travel one day in your territories, you come across a valley where the grass is of greenest color, full of blooming flower meadows, and there are a few lakes with water almost as blue as the sky. You gaze in awe at the vision of paradise before you, the kind one can only witness at the roof of the world.;;;;;;;;;;;x
+pamir.129.a;Amazing.;;;;;;;;;;;;;x
+pamir.130.desc;xxxxx;;;;;;;;;;;x
+pamir.130.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.131.desc;xxxxx;;;;;;;;;;;x
+pamir.131.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.132.desc;xxxxx;;;;;;;;;;;x
+pamir.132.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.133.desc;xxxxx;;;;;;;;;;;x
+pamir.133.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.134.desc;xxxxx;;;;;;;;;;;x
+pamir.134.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.135.desc;xxxxx;;;;;;;;;;;x
+pamir.135.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.136.desc;xxxxx;;;;;;;;;;;x
+pamir.136.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.137.desc;xxxxx;;;;;;;;;;;x
+pamir.137.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.138.desc;xxxxx;;;;;;;;;;;x
+pamir.138.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.139.desc;xxxxx;;;;;;;;;;;x
+pamir.139.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.140.desc;xxxxx;;;;;;;;;;;x
+pamir.140.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.141.desc;xxxxx;;;;;;;;;;;x
+pamir.141.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.142.desc;xxxxx;;;;;;;;;;;x
+pamir.142.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.143.desc;xxxxx;;;;;;;;;;;x
+pamir.143.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.144.desc;xxxxx;;;;;;;;;;;x
+pamir.144.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.145.desc;xxxxx;;;;;;;;;;;x
+pamir.145.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.146.desc;xxxxx;;;;;;;;;;;x
+pamir.146.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.147.desc;xxxxx;;;;;;;;;;;x
+pamir.147.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.148.desc;xxxxx;;;;;;;;;;;x
+pamir.148.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.149.desc;xxxxx;;;;;;;;;;;x
+pamir.149.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.150.desc;xxxxx;;;;;;;;;;;x
+pamir.150.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.151.desc;xxxxx;;;;;;;;;;;x
+pamir.151.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.152.desc;xxxxx;;;;;;;;;;;x
+pamir.152.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.153.desc;xxxxx;;;;;;;;;;;x
+pamir.153.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.154.desc;xxxxx;;;;;;;;;;;x
+pamir.154.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.155.desc;xxxxx;;;;;;;;;;;x
+pamir.155.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.156.desc;xxxxx;;;;;;;;;;;x
+pamir.156.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.157.desc;xxxxx;;;;;;;;;;;x
+pamir.157.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.158.desc;xxxxx;;;;;;;;;;;x
+pamir.158.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.159.desc;xxxxx;;;;;;;;;;;x
+pamir.159.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.160.desc;xxxxx;;;;;;;;;;;x
+pamir.160.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.161.desc;xxxxx;;;;;;;;;;;x
+pamir.161.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.162.desc;xxxxx;;;;;;;;;;;x
+pamir.162.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.163.desc;xxxxx;;;;;;;;;;;x
+pamir.163.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.164.desc;xxxxx;;;;;;;;;;;x
+pamir.164.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.165.desc;xxxxx;;;;;;;;;;;x
+pamir.165.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.166.desc;xxxxx;;;;;;;;;;;x
+pamir.166.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.167.desc;xxxxx;;;;;;;;;;;x
+pamir.167.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.168.desc;xxxxx;;;;;;;;;;;x
+pamir.168.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.169.desc;xxxxx;;;;;;;;;;;x
+pamir.169.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.170.desc;xxxxx;;;;;;;;;;;x
+pamir.170.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.171.desc;xxxxx;;;;;;;;;;;x
+pamir.171.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.172.desc;xxxxx;;;;;;;;;;;x
+pamir.172.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.173.desc;xxxxx;;;;;;;;;;;x
+pamir.173.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.174.desc;xxxxx;;;;;;;;;;;x
+pamir.174.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.175.desc;xxxxx;;;;;;;;;;;x
+pamir.175.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.176.desc;xxxxx;;;;;;;;;;;x
+pamir.176.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.177.desc;xxxxx;;;;;;;;;;;x
+pamir.177.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.178.desc;xxxxx;;;;;;;;;;;x
+pamir.178.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.179.desc;xxxxx;;;;;;;;;;;x
+pamir.179.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.180.desc;xxxxx;;;;;;;;;;;x
+pamir.180.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.181.desc;xxxxx;;;;;;;;;;;x
+pamir.181.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.182.desc;xxxxx;;;;;;;;;;;x
+pamir.182.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.183.desc;xxxxx;;;;;;;;;;;x
+pamir.183.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.184.desc;xxxxx;;;;;;;;;;;x
+pamir.184.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.185.desc;xxxxx;;;;;;;;;;;x
+pamir.185.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.186.desc;xxxxx;;;;;;;;;;;x
+pamir.186.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.187.desc;xxxxx;;;;;;;;;;;x
+pamir.187.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.188.desc;xxxxx;;;;;;;;;;;x
+pamir.188.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.189.desc;xxxxx;;;;;;;;;;;x
+pamir.189.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.190.desc;xxxxx;;;;;;;;;;;x
+pamir.190.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.191.desc;xxxxx;;;;;;;;;;;x
+pamir.191.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.192.desc;xxxxx;;;;;;;;;;;x
+pamir.192.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.193.desc;xxxxx;;;;;;;;;;;x
+pamir.193.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.194.desc;xxxxx;;;;;;;;;;;x
+pamir.194.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.195.desc;xxxxx;;;;;;;;;;;x
+pamir.195.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.196.desc;xxxxx;;;;;;;;;;;x
+pamir.196.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.197.desc;xxxxx;;;;;;;;;;;x
+pamir.197.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.198.desc;xxxxx;;;;;;;;;;;x
+pamir.198.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.199.desc;xxxxx;;;;;;;;;;;x
+pamir.199.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.200.desc;xxxxx;;;;;;;;;;;x
+pamir.200.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.201.desc;xxxxx;;;;;;;;;;;x
+pamir.201.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.202.desc;xxxxx;;;;;;;;;;;x
+pamir.202.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.203.desc;xxxxx;;;;;;;;;;;x
+pamir.203.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.204.desc;xxxxx;;;;;;;;;;;x
+pamir.204.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.205.desc;xxxxx;;;;;;;;;;;x
+pamir.205.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.206.desc;xxxxx;;;;;;;;;;;x
+pamir.206.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.207.desc;xxxxx;;;;;;;;;;;x
+pamir.207.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.208.desc;xxxxx;;;;;;;;;;;x
+pamir.208.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.209.desc;xxxxx;;;;;;;;;;;x
+pamir.209.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.210.desc;xxxxx;;;;;;;;;;;x
+pamir.210.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.211.desc;xxxxx;;;;;;;;;;;x
+pamir.211.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.212.desc;xxxxx;;;;;;;;;;;x
+pamir.212.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.213.desc;xxxxx;;;;;;;;;;;x
+pamir.213.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.214.desc;xxxxx;;;;;;;;;;;x
+pamir.214.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.215.desc;xxxxx;;;;;;;;;;;x
+pamir.215.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.216.desc;xxxxx;;;;;;;;;;;x
+pamir.216.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.217.desc;xxxxx;;;;;;;;;;;x
+pamir.217.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.218.desc;xxxxx;;;;;;;;;;;x
+pamir.218.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.219.desc;xxxxx;;;;;;;;;;;x
+pamir.219.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.220.desc;xxxxx;;;;;;;;;;;x
+pamir.220.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.221.desc;xxxxx;;;;;;;;;;;x
+pamir.221.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.222.desc;xxxxx;;;;;;;;;;;x
+pamir.222.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.223.desc;xxxxx;;;;;;;;;;;x
+pamir.223.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.224.desc;xxxxx;;;;;;;;;;;x
+pamir.224.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.225.desc;xxxxx;;;;;;;;;;;x
+pamir.225.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.226.desc;xxxxx;;;;;;;;;;;x
+pamir.226.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.227.desc;xxxxx;;;;;;;;;;;x
+pamir.227.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.228.desc;xxxxx;;;;;;;;;;;x
+pamir.228.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.229.desc;xxxxx;;;;;;;;;;;x
+pamir.229.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.230.desc;xxxxx;;;;;;;;;;;x
+pamir.230.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.231.desc;xxxxx;;;;;;;;;;;x
+pamir.231.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.232.desc;xxxxx;;;;;;;;;;;x
+pamir.232.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.233.desc;xxxxx;;;;;;;;;;;x
+pamir.233.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.234.desc;xxxxx;;;;;;;;;;;x
+pamir.234.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.235.desc;xxxxx;;;;;;;;;;;x
+pamir.235.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.236.desc;xxxxx;;;;;;;;;;;x
+pamir.236.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.237.desc;xxxxx;;;;;;;;;;;x
+pamir.237.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.238.desc;xxxxx;;;;;;;;;;;x
+pamir.238.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.239.desc;xxxxx;;;;;;;;;;;x
+pamir.239.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.240.desc;xxxxx;;;;;;;;;;;x
+pamir.240.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.241.desc;xxxxx;;;;;;;;;;;x
+pamir.241.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.242.desc;xxxxx;;;;;;;;;;;x
+pamir.242.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.243.desc;xxxxx;;;;;;;;;;;x
+pamir.243.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.244.desc;xxxxx;;;;;;;;;;;x
+pamir.244.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.245.desc;xxxxx;;;;;;;;;;;x
+pamir.245.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.246.desc;xxxxx;;;;;;;;;;;x
+pamir.246.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.247.desc;xxxxx;;;;;;;;;;;x
+pamir.247.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.248.desc;xxxxx;;;;;;;;;;;x
+pamir.248.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.249.desc;xxxxx;;;;;;;;;;;x
+pamir.249.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.250.desc;xxxxx;;;;;;;;;;;x
+pamir.250.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.251.desc;xxxxx;;;;;;;;;;;x
+pamir.251.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.252.desc;xxxxx;;;;;;;;;;;x
+pamir.252.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.253.desc;xxxxx;;;;;;;;;;;x
+pamir.253.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.254.desc;xxxxx;;;;;;;;;;;x
+pamir.254.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.255.desc;xxxxx;;;;;;;;;;;x
+pamir.255.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.256.desc;xxxxx;;;;;;;;;;;x
+pamir.256.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.257.desc;xxxxx;;;;;;;;;;;x
+pamir.257.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.258.desc;xxxxx;;;;;;;;;;;x
+pamir.258.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.259.desc;xxxxx;;;;;;;;;;;x
+pamir.259.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.260.desc;xxxxx;;;;;;;;;;;x
+pamir.260.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.261.desc;xxxxx;;;;;;;;;;;x
+pamir.261.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.262.desc;xxxxx;;;;;;;;;;;x
+pamir.262.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.263.desc;xxxxx;;;;;;;;;;;x
+pamir.263.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.264.desc;xxxxx;;;;;;;;;;;x
+pamir.264.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.265.desc;xxxxx;;;;;;;;;;;x
+pamir.265.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.266.desc;xxxxx;;;;;;;;;;;x
+pamir.266.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.267.desc;xxxxx;;;;;;;;;;;x
+pamir.267.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.268.desc;xxxxx;;;;;;;;;;;x
+pamir.268.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.269.desc;xxxxx;;;;;;;;;;;x
+pamir.269.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.270.desc;xxxxx;;;;;;;;;;;x
+pamir.270.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.271.desc;xxxxx;;;;;;;;;;;x
+pamir.271.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.272.desc;xxxxx;;;;;;;;;;;x
+pamir.272.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.273.desc;xxxxx;;;;;;;;;;;x
+pamir.273.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.274.desc;xxxxx;;;;;;;;;;;x
+pamir.274.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.275.desc;xxxxx;;;;;;;;;;;x
+pamir.275.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.276.desc;xxxxx;;;;;;;;;;;x
+pamir.276.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.277.desc;xxxxx;;;;;;;;;;;x
+pamir.277.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.278.desc;xxxxx;;;;;;;;;;;x
+pamir.278.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.279.desc;xxxxx;;;;;;;;;;;x
+pamir.279.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.280.desc;xxxxx;;;;;;;;;;;x
+pamir.280.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.281.desc;xxxxx;;;;;;;;;;;x
+pamir.281.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.282.desc;xxxxx;;;;;;;;;;;x
+pamir.282.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.283.desc;xxxxx;;;;;;;;;;;x
+pamir.283.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.284.desc;xxxxx;;;;;;;;;;;x
+pamir.284.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.285.desc;xxxxx;;;;;;;;;;;x
+pamir.285.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.286.desc;xxxxx;;;;;;;;;;;x
+pamir.286.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.287.desc;xxxxx;;;;;;;;;;;x
+pamir.287.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.288.desc;xxxxx;;;;;;;;;;;x
+pamir.288.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.289.desc;xxxxx;;;;;;;;;;;x
+pamir.289.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.290.desc;xxxxx;;;;;;;;;;;x
+pamir.290.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.291.desc;xxxxx;;;;;;;;;;;x
+pamir.291.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.292.desc;xxxxx;;;;;;;;;;;x
+pamir.292.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.293.desc;xxxxx;;;;;;;;;;;x
+pamir.293.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.294.desc;xxxxx;;;;;;;;;;;x
+pamir.294.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.295.desc;xxxxx;;;;;;;;;;;x
+pamir.295.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.296.desc;xxxxx;;;;;;;;;;;x
+pamir.296.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.297.desc;xxxxx;;;;;;;;;;;x
+pamir.297.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.298.desc;xxxxx;;;;;;;;;;;x
+pamir.298.a;Xxxxxxffff;;;;;;;;;;;;;x
+pamir.299.desc;xxxxx;;;;;;;;;;;x
+pamir.299.a;Xxxxxxffff;;;;;;;;;;;;;x
+xxxxxxxx;xxxxxxxx;;;;;;;;;;;;;x

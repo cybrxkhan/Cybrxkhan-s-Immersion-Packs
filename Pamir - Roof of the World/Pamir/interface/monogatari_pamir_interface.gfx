@@ -1,0 +1,22 @@
+##################################
+# Pamir Graphics			  	 #
+##################################
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_invest_in_lapis_lazuli_mines"
+		texturefile = "gfx\\interface\\decision_icon_invest_in_lapis_lazuli_mines.dds"
+	}
+	spriteType = {
+		name = "GFX_restore_watchposts_of_wakhan"
+		texturefile = "gfx\\interface\\decision_icon_restore_watchposts_of_wakhan.dds"
+	}
+	spriteType = {
+		name = "GFX_restore_watchposts_of_karakoram"
+		texturefile = "gfx\\interface\\decision_icon_restore_watchposts_of_karakoram.dds"
+	}
+	spriteType = {
+		name = "GFX_attend_chinir_festival"
+		texturefile = "gfx\\interface\\decision_icon_attend_chinir_festival.dds"
+	}
+}

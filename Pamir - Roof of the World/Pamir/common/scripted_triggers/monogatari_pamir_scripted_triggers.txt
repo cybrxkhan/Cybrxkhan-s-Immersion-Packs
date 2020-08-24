@@ -1,0 +1,10 @@
+is_pamir_mountain_trigger = {
+	OR = {
+		province_id = 1465
+		province_id = 1511
+		province_id = 1543
+		province_id = 1547
+		province_id = 1466
+		province_id = 1464
+	}
+}

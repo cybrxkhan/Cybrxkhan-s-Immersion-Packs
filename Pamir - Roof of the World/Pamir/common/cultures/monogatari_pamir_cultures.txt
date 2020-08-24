@@ -1,0 +1,111 @@
+
+iranian = {
+	alternate_start = { NOT = { has_alternate_start_parameter = { key = special_culture value = animal_world } } }
+	graphical_cultures = { muslimgfx }
+		
+	pamiri = { #pamiri/wakhi
+		graphical_cultures = { persiangfx turkishgfx muslimgfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		color = { 0.43 0.32 0.32 }
+		
+		male_names = {
+			Gurak Divashtich Yodkhsetak Tuhun Tarkhun Urak Turghar Lushan Nanaifarn Avyaman Yechi Chaki Mechun Tishifan Wupoyan
+			Tarxun Wanxanak Nawekat Wiyus Uxushukan Bharxuman Skatch Sheshch Chaxren Ramch Shaw Maxak Ramtish Axushfarn Bhurz Chukshak Fudanyan Dishebo Vandak Khudayfarn Sili Tishrat Chunakk Namdar Xutawch Pisak Karz Nijat Chatfaratsaran Dewastich 
+			Varzakk Nanai-thvar Chuzakk Khwatawch Karzh Nizat Nanaikuch Ukhwan Pator Wakhushuvirt Maniakh Watch Shafnoshak 
+			Akhurmaztakk Akhushfarn_Akhushfarn Anghatnaw Anghatspadh Anushirvan_Anushirvan Ardavan_Ardavan Ardeshir_Ardeshir Armatsach Arsach Artikhuvandakh 
+			Artivan_Ardavan Aspandhat Astken Aurang_Aurang Avyaman-yan_Avyaman-yan Avyaman_Avyaman Avyamanch_Avyamanch Avyamanvandak Babak_Babak Bahram_Bahram 
+			Banda Barak_Barak Bharkhuman_Bharkhuman Bhurz_Bhurz Buddhadasa Chakar_Chakar Chakhapak Chakhren_Chakhren Cher_Cher Chetvandak Dariush_Darius 
+			Devadasa Dewashtich_Dewashtich Dhakh Dhruwaspvandak Esfandiar_Esfandiar Eskander_Alexander Ewakhsh Faramarz_Faramarz Farhad_Farhad Farn Farnaghat 
+			Farnch Farnkhund Farroukh_Farroukh Farrukhzad_Farrukhzad Farzad_Farzad Fatmiwach Ferdows_Ferdows Fereedun_Feridun Frikhwataw Ghawtus Ghobad_Ghobad 
+			Ghoshfarn Ghotamsach Godarz_Godarz Goshtasb_Goshtasb Hazarasp_Hazarasp Hormazd_Hormazd Hormoz_Hormoz Induk Irkin_Irkin Jamshid_Jamshid Jiamut 
+			Jimatvande_Jimatvande Kanak_Kanak Kanakk_Kanak Kartir Karzhtik Kavoos_Kavoos Kaway Kharstrang Khosrow_Khosrow Khun Khurshid_Khurshid Khwadhawanakk 
+			Khwarmew Khwasaw Khwasawch Kund Kundakk Kurush_Cyrus Kushan Kushanakanak Makhak_Makhak Marti Marzuban_Marzuban Maymarghch Methakan Mew Miren 
+			Muqanna Nanai Nanaidhvar Nanaifarn_Nanaifarn Nanaikhsay Nanaithvar_Nanaydvar Nanaizanch Nanayakk Nanevante_Nanevante Narisaf Narshakhi Nawchirth 
+			Nibothak_Nibothak Nipak_Nipak Nithan_Nithan Ot-tegin_Ot-tegin Papakk Parsak Parviz_Parviz Pashang_Pashang Patrodhan Pekako Peroz_Peroz Pesakk 
+			Pujman_Pujman Qishiq_Qishiq Ramtish_Ramtish Rashdhes Razmwanwan Resan Rewdhvar Rokhshan_Rokhshan Rostam_Rostam Rutha Sagharak Sas Sasan Satasp 
+			Sesh_Sesh Shahbaz_Shahbaz Shahin_Shahin Shahrokh_Sharokh Shans Shapur_Shapur Shaw_Shaw Shennu_Shennu Shirch Sina_Sina Spadh Spadhkharsh Srawakk 
+			Stayidh Suryakk Tahmasb_Tahmasb Takhsich Takhsichvandak Takut Tarkhun_Tarkhun Taw Tir Tishtrya_Tishtrya Tishvandak Turghar_Turghar Ukhushukan_Ukhushukan 
+			Urak_Urak Vagh Vaghrew Vahhab_Vahhab Varshasb_Varshasb Varzak_Varzak Varzirak Vishtasb_Vishtasb Viyus_Viyus Vuvva Wakhunam Wakhushakk Wakhushu Wanenak 
+			Wankaway Wankhanak_Wankhanak Wanrazmak Wanwans Wishaghn Xeykhosrow_Keykhosrow Y'n_Y'n Zand_Zand Zartosht_Zartosht Zymt_Zymt
+		}
+		female_names = {
+			Nana Upach An Kang Aghatzak Anakhit Arghavan_Arghavan Banafsheh_Banafsheh Chat_Chat Chatis Chet Chinanch Darya_Darya Funa_Funa Furuzan_Furuzan Ghamze_Ghamze Ghoncheh_Ghoncheh 
+			Golbahar_Golbahar Golshan_Golshan Khansch Makh Mah_Mah Mahtab_Mahtab Miwnay Nana_Nana Nanai_Nanai Nanaidhat Navvaba_Navvaba Nazgol_Nazgol 
+			Nazilla_Nazilla Parvaneh_Parvaneh Parvin_Parvin Ranisa Roxana_Roxana Sanakhram Shahrzad_Shahrzad Shahzadeh_Shahzadeh Shayn Shirin_Shirin Touran_Touran 
+			Yasaman_Yasmin Yena_Yena
+		}
+		
+		dukes_called_kings = yes
+		founder_named_dynasties = yes
+
+		from_dynasty_prefix = "m "
+		male_patronym = " Petr" # Wakhi
+		female_patronym = " Thegd" # Wakhi
+
+		modifier = default_culture_modifier
+	}
+
+	burusho = { # Hunza / Burusho people, speakers of Burushaski
+		graphical_cultures = { persiangfx muslimgfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		color = { 0.39 0.31 0.47 }
+		
+		male_names = {
+			Ayash Baaz Bayoo Bayu Bepat Beyenom Bilchon Bras Bula Chaghurum Chindar Chumo Czolom Daltás Dan Dast Dohom Donesh Fooh Gachir Gaganom Garmun Gert Ghaan Ghamo Ghosanom Giye Glinom Gochachom Gonoolanas Guuro Haghur Halden Hasto Heyom Hirqarqaamuc Huk Jee Katar Larokores Matum Meenis Moltan Niyo Os Oulus Oveljiyeshom Parish Partaawuus Qhulpi Sa Samandar Sar Sawo Shadi Shapik Sher Shoqom Showa Sorqon Ta Tal Tambalichom Thakthak Thas Tish Toll Tootaan Uyúm
+		}
+		female_names = {
+			Asomoon Axo Baardum Batbat Belis Bilas Bilchon Bulbul Burum Buseiko Bush Buwa Cel Chin Czan Czapayom Daltás Diyaarchom Donesh Du Echoghon Fooh Gaganom Galgi Garom Gashoskin Ghashep Ghasichom Ghughundil Girkis Gusparish Hal Halanz Haralt Heyom Jee Khorong Larokores Malthash Odel Oveljiyeshom Partaawuus Sheghesom Shekark Shoqom Showa Tik Toll Tsil Ut Yatal
+		}
+		
+		dukes_called_kings = yes
+		#founder_named_dynasties = yes
+		
+		allow_looting = yes
+
+		modifier = default_culture_modifier
+	}	
+	
+}
+
+indo_aryan_group = {
+	alternate_start = { NOT = { has_alternate_start_parameter = { key = special_culture value = animal_world } } }
+	graphical_cultures = { indiangfx muslimgfx }
+
+	kashmiri = { # Kashmir
+		graphical_cultures = { indiangfx bodpagfx muslimgfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		color = { 1.0 0.3 0.3 }
+		
+		male_names = {
+			Abhimanyu Ajjaka Ananta Bhiksacara Bhimagupta Bhoja Bhuvanaraja Bulla Chippatajayapida Dhammata Domba Durlabhvardhana 
+			Gargachandra Gulhana Gulla Gunga Hariraja Harsa Jagadeva Jassaraja Jayamalla Jayapida Jayaraja Jayasimha Jonaraja Kalhana Kalasha Kantiraja Kshemgupta Ksitiraja
+			Lalitaditya Laksmandadeva Lothana Malla Mallarjuna Nandigupta Paramanuka Pravaragupta Radda Rajadeva Ralhana Ramadeva 
+			Salhana Samgramaraja Shamkaravarman Shrivara Simharaja Suhadeva Sussala Tanvangaraja Tribhuvanagupta Tulla Tunga 
+			Uccala Udayaraja Utkarsa Utpalaka Vantideva Vigraharaja Vijayamalla Vijayaraja Viradeva Yasaskara Yashovarman 
+
+		}
+		female_names = {
+			Bappika Didda Keyya Kota Nanda Padmasri Radda Ramalekha Shrilakha Suryamati Vasantalekha
+
+		}
+		
+		dynasty_title_names = yes
+		founder_named_dynasties = yes
+	
+		castes = yes		
+
+		pat_grf_name_chance = 35
+		mat_grf_name_chance = 20
+		father_name_chance = 25
+		
+		pat_grm_name_chance = 25
+		mat_grm_name_chance = 25
+		mother_name_chance = 5
+		
+		modifier = default_culture_modifier
+	}
+	
+}

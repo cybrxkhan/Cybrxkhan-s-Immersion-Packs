@@ -1,0 +1,453 @@
+#####################################################################
+#
+# silkroad #0-9999 reserved
+#
+# 0-99 sogdians misc
+# 100-199 Silk Road History Stuff
+# 200-299 Courtier Spawn
+# 300-399 Nowruz
+# 400-499 Sogdian festivals
+#
+#####################################################################
+
+namespace = silkroad
+
+###################################################
+# Nowruz
+###################################################
+
+
+# Nowruz Preparations
+character_event = {
+	id = silkroad.300
+	desc = silkroad.300.desc
+	picture = GFX_evt_iranian_settlement_nowruz
+	
+	is_triggered_only = yes
+	
+	option = { #ok
+		name = "silkroad.300.a"
+		set_character_flag = VIET_nowruz
+		character_event = { id = silkroad.301 days = 7 tooltip = silkroad.301.tooltip }
+	}
+}
+
+# Waking up
+character_event = {
+	id = silkroad.301
+	desc = silkroad.301.desc
+	picture = GFX_evt_iranian_settlement_nowruz
+	
+	is_triggered_only = yes
+	
+	option = { #ok
+		name = "silkroad.301.a"
+		narrative_event = { id = silkroad.302 tooltip = silkroad.302.tooltip }
+	}
+}
+
+# Nowruz Begins
+narrative_event = {
+	id = silkroad.302
+	title = silkroad.302.name
+	desc = silkroad.302.desc
+	picture = GFX_evt_feast
+	
+	is_triggered_only = yes
+	
+	option = { #ok
+		name = "silkroad.302.a"
+		add_character_modifier =  {
+			name = VIET_celebrating_nowruz
+			duration = -1
+		}
+		narrative_event = { id = silkroad.303 tooltip = silkroad.303.tooltip }
+		hidden_tooltip = { #le random events
+			random_list = {
+				25 = { character_event = { id = silkroad.305 days = 5 random = 10 } }
+				75 = { }
+			}
+			random_list = {
+				25 = { character_event = { id = silkroad.306 days = 5 random = 10 } }
+				75 = { }
+			}
+			random_list = {
+				25 = { character_event = { id = silkroad.307 days = 5 random = 10 } }
+				75 = { }
+			}
+			random_list = {
+				25 = { character_event = { id = silkroad.308 days = 5 random = 10 } }
+				75 = { }
+			}
+			random_list = {
+				25 = { character_event = { id = silkroad.309 days = 5 random = 10 } }
+				75 = { }
+			}
+			random_list = {
+				25 = { character_event = { id = silkroad.310 days = 5 random = 10 } }
+				75 = { }
+			}
+		}
+	}
+}
+
+# Nowruz Song and Music
+narrative_event = {
+	id = silkroad.303
+	title = silkroad.303.name
+	desc = silkroad.303.desc
+	picture = GFX_evt_jugglers
+	
+	is_triggered_only = yes
+	
+	option = { #ok
+		name = "silkroad.303.a"
+		prestige = 10
+		narrative_event = { id = silkroad.304 tooltip = silkroad.304.tooltip days = 21 }
+	}	
+	option = { #ok
+		name = "silkroad.303.b"
+		piety = 10
+		narrative_event = { id = silkroad.304 tooltip = silkroad.304.tooltip days = 21 }
+	}	
+	option = { #ok
+		name = "silkroad.303.c"
+		prestige = 3
+		piety = 7
+		narrative_event = { id = silkroad.304 tooltip = silkroad.304.tooltip days = 21 }
+	}	
+	option = { #ok
+		name = "silkroad.303.d"
+		prestige = 7
+		piety = 3
+		narrative_event = { id = silkroad.304 tooltip = silkroad.304.tooltip days = 21 }
+	}
+}
+
+
+# Nowruz Over
+narrative_event = {
+	id = silkroad.304
+	title = silkroad.304.name
+	desc = silkroad.304.desc
+	picture = GFX_evt_iranian_settlement_nowruz
+	
+	is_triggered_only = yes
+	
+	option = { #ok
+		name = "silkroad.304.a"
+		prestige = 50
+		remove_character_modifier = VIET_celebrating_nowruz
+		clr_character_flag = VIET_nowruz
+		clr_character_flag = do_not_disturb
+		add_character_modifier =  {
+			name = VIET_nowruz_timer
+			duration = 1825
+			hidden = yes
+		}
+		add_character_modifier =  {
+			name = VIET_celebrated_nowruz
+			duration = 730
+		}
+	}
+}
+
+# Sugar
+character_event = {
+	id = silkroad.305
+	desc = silkroad.305.desc
+	picture = GFX_evt_feast
+	
+	is_triggered_only = yes
+	
+	option = { #ok
+		name = "silkroad.305.a"
+		wealth = -20
+		any_courtier = {
+			limit = {
+				OR = {
+					is_close_relative = ROOT
+					is_friend = ROOT
+					opinion = { who = ROOT value = 80 }
+				}
+			}
+			opinion = {
+				modifier = opinion_nowruz_present_large
+				who = ROOT
+				years = 1
+			}			
+		}
+	}	
+	option = { #ok
+		name = "silkroad.305.b"
+		wealth = -10
+		any_courtier = {
+			limit = {
+				OR = {
+					is_close_relative = ROOT
+					is_friend = ROOT
+					opinion = { who = ROOT value = 80 }
+				}
+			}
+			opinion = {
+				modifier = opinion_nowruz_present_medium
+				who = ROOT
+				years = 1
+			}			
+		}
+	}	
+	option = { #ok
+		name = "silkroad.305.c"
+		wealth = -5
+		any_courtier = {
+			limit = {
+				OR = {
+					is_close_relative = ROOT
+					is_friend = ROOT
+					opinion = { who = ROOT value = 80 }
+				}
+			}
+			opinion = {
+				modifier = opinion_nowruz_present_small
+				who = ROOT
+				years = 1
+			}			
+		}
+	}
+}
+
+# Water pouring day
+character_event = {
+	id = silkroad.306
+	desc = silkroad.306.desc
+	picture = GFX_evt_courtiers_talking
+	
+	is_triggered_only = yes
+	
+	option = { #ok
+		name = "silkroad.306.a"
+		prestige = 5
+	}
+}
+
+# Eggs
+character_event = {
+	id = silkroad.307
+	desc = silkroad.307.desc
+	picture = GFX_evt_jugglers
+	
+	is_triggered_only = yes
+	
+	option = { #Magnificent
+		name = "silkroad.307.a"
+		prestige = 5
+	}
+}
+
+# Fires
+character_event = {
+	id = silkroad.308
+	desc = silkroad.308.desc
+	picture = GFX_evt_jugglers
+	
+	is_triggered_only = yes
+	
+	option = { #ok
+		name = "silkroad.308.a"
+		prestige = 5
+		if = {
+			limit = {
+				NOT = { religion_group = muslim }
+			}
+			piety = 5
+		}
+	}	
+	option = { #ok
+		name = "silkroad.308.b"
+		trigger = {
+			religion_group = muslim
+		}
+		piety = -5
+		prestige = 5
+	}
+}
+
+# Drink
+character_event = {
+	id = silkroad.309
+	desc = silkroad.309.desc
+	picture = GFX_evt_drunk
+	
+	is_triggered_only = yes
+	
+	option = { #ok
+		name = "silkroad.309.a"
+		prestige = 5
+	}		
+	option = { #ok
+		name = "silkroad.309.b"
+		prestige = 10
+		random = {
+			chance = 5
+			add_trait = drunkard
+		}
+	}	
+	option = { #ok
+		name = "silkroad.309.c"
+		trigger = {
+			religion_group = muslim
+		}
+		piety = 5
+		prestige = -5
+		random = {
+			chance = 10
+			add_trait = zealous
+		}
+	}
+}
+
+# Mir-e Nowruzi set-up
+character_event = {
+	id = silkroad.310
+	#desc = silkroad.310.desc
+	
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		random_courtier = {
+			limit = {
+				is_adult = yes
+				NOT = { trait = incapable }
+				is_female = no
+				NOT = { is_close_relative = ROOT }
+			}
+			character_event = { id = silkroad.311 }
+		}
+	}
+}
+
+# Mir-e Nowruzi set-up 2
+character_event = {
+	id = silkroad.311
+	#desc = silkroad.311.desc
+	
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		FROM = { narrative_event = { id = silkroad.312 } }
+	}
+}
+
+# Mir-e Nowruzi start
+narrative_event = {
+	id = silkroad.312
+	title = silkroad.312.name
+	desc = silkroad.312.desc
+	picture = GFX_evt_jugglers
+	
+	is_triggered_only = yes
+	
+	option = { #ok
+		name = "silkroad.312.a"
+		FROM = { character_event = { id = silkroad.313 tooltip = silkroad.313.tooltip } }
+	}
+}
+
+# Mir-e Nowruzi hoho
+character_event = {
+	id = silkroad.313
+	#desc = silkroad.313.desc
+	
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		FROM = { character_event = { id = silkroad.315 days = 4 } }
+		if = {
+			limit = {
+				NOT = { opinion = { who = FROM value = 25 } }
+			}
+			random_list = {
+				30 = { }
+				70 = { FROM = { character_event = { id = silkroad.314 days = 2 } } } 
+			}
+		}	
+		if = {
+			limit = {
+				opinion = { who = FROM value = 25 }
+			}
+			random_list = {
+				70 = { }
+				30 = { FROM = { character_event = { id = silkroad.314 days = 2 } } } 
+			}
+		}		
+	}
+}
+
+# Le Embarassment!
+character_event = {
+	id = silkroad.314
+	desc = silkroad.314.desc
+	picture = GFX_evt_scandal
+	
+	is_triggered_only = yes
+	
+	option = { #ok
+		name = "silkroad.314.a"
+		prestige = -20
+		opinion = {
+			modifier = opinion_nowruz_shamed_me
+			who = FROM
+			years = 1
+		}
+	}
+}
+
+# Mir-e Nowruzi Over
+character_event = {
+	id = silkroad.315
+	desc = silkroad.315.desc
+	picture = GFX_evt_jugglers
+	
+	is_triggered_only = yes
+	
+	option = { #ok
+		name = "silkroad.315.a"
+		FROM = {
+			prestige = -20
+		}
+		reverse_opinion = {
+			modifier = opinion_nowruz_no_sympathy_for_me
+			who = FROM
+			years = 1
+		}
+	}	
+	option = { #ok
+		name = "silkroad.315.b"
+		trigger = {
+			NOT = { trait = cruel }
+			NOT = { trait = envious }
+			NOT = { trait = arbitrary }
+			OR = {
+				trait = kind
+				trait = trusting
+				trait = charitable
+				trait = patient
+				trait = just
+			}
+		}
+		FROM = {
+			prestige = -20
+		}
+		reverse_opinion = {
+			modifier = opinion_nowruz_sympathy_for_me
+			who = FROM
+			years = 1
+		}
+	}
+}

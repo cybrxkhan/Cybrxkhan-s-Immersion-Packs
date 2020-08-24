@@ -1,0 +1,10 @@
+azur_jamshid_bloodline = {
+	picture = GFX_bloodlines_symbol_zoroastrian
+	inheritance = patrilineal
+	allow_bastards = yes
+	iranian_opinion = 3
+	indo_aryan_group_opinion = 3
+	combat_rating = 5
+	monthly_character_prestige = 0.05
+	flags = { historical_bloodline }
+}

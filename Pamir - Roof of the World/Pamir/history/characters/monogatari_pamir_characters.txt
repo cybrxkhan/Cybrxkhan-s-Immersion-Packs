@@ -1,0 +1,342 @@
+###############################################
+#
+# 
+# 100016400-100016419
+#
+#
+###############################################
+
+
+
+######################################################################################################################################################
+# 
+# PATOLA SHAHI DYNASTY
+#
+# 100016400-100016419 reserved
+#
+# Most are historical and attested (mainly in Chinese records), though relationships between them are unclear as to whether
+# the rulers of Great Balor vs Little Balor were divergent branches of the Patola Shahis or entirely separate dynasties.
+# However, for the sake of simplicity and time, I made simplifications and fictitious connections as needed.
+# I also simplified some of the names, as I was unable to find sources on what was the actual name vs. the title proper.
+# 
+######################################################################################################################################################
+
+# Mo-ching-mang or Mut-kin-mang in Middle Chinese
+# Most recent king before Vikrama, the last known king
+# Attested c. 721-722 as the ruler of Little Balor rather than Great Balor
+# Therefore I've made him an uncle of Vikrama
+100016400 = {
+	name="Mo-ching-mang" # Chinese name
+	dynasty=105848
+	religion="buddhist"
+	culture="kashmiri"
+	father=100016402
+	694.5.19={
+		birth=yes
+	}
+	762.12.6 = {
+		death=yes
+	}
+}
+# Surendraditya
+# Attested c. 720
+100016401 = {
+	name="Surendra"
+	dynasty=105848
+	religion="buddhist"
+	culture="kashmiri"
+	father=100016402
+	693.2.24={
+		birth=yes
+	}
+	765.4.3 = {
+		death=yes
+	}
+}
+# Sufushelijilini
+# That's the name in Chinese, I didn't bother simplifying
+# As I couldn't figure out the potential transliteration it was based on
+# Attested c. 717-719
+100016402 = {
+	name="Sufushelijilini"
+	dynasty=105848
+	religion="buddhist"
+	culture="kashmiri"
+	father=100016403
+	673.1.3={
+		birth=yes
+	}
+	719.7.17 = {
+		death=yes
+	}
+}
+# Nandivikramadityanandi
+# Attested 714
+100016403 = {
+	name="Nandi"
+	dynasty=105848
+	religion="buddhist"
+	culture="kashmiri"
+	father=100016404
+	654.9.13={
+		birth=yes
+	}
+	716.1.5 = {
+		death=yes
+	}
+}
+# Jayamangala-vikrama-ditya-nandin
+# Attested late 600s to early 700s
+100016404 = {
+	name="Jayamangala"
+	dynasty=105848
+	religion="buddhist"
+	culture="kashmiri"
+	father=100016405
+	633.4.27={
+		birth=yes
+	}
+	709.8.7 = {
+		death=yes
+	}
+}
+# Navasurendra-ditya-nandin
+# Attested between 644-655 as ruler of Little Balor
+100016405 = {
+	name="Navasurendra"
+	dynasty=105848
+	religion="buddhist"
+	culture="kashmiri"
+	father=100016406
+	mother=100016407
+	606.6.20={
+		birth=yes
+	}
+	679.5.14 = {
+		death=yes
+	}
+}
+# Vajraditayanandi
+# Reigned around 600, earliest Patola Shahi monarch I could find
+# Possible Hephthalite connection? (given many mountain kings of the region had Hephthalite ancestry or connections)
+# Interestingly it apepars his queen Mangalahamsika is also reasonably attested (for an obscure dynasty)
+100016406 = {
+	name="Vajradityanandi"
+	dynasty=105848
+	religion="buddhist"
+	culture="kashmiri"
+	582.6.16={
+		birth=yes
+	}
+	600.1.1={
+		add_spouse=100016407
+	}
+	639.12.13 = {
+		death=yes
+	}
+}
+# Queen Mangalahamsika
+# Senior queen of the King Vajraditayanandi above
+# Commissioned some of the earliest datable Buddha statues from the Patola Shahi kingdom
+# This is very important for the study of the region's history as the Patola Shahis were major patrons of Buddhism in the region for a couple centuries
+100016407 = {
+	name="Mangalahamsika"
+	female=yes
+	religion="buddhist"
+	culture="saka" # Unknown ancestry, so I'll assume she has Hephthalite or Tarim Basin blood somewhere
+	trait=zealous
+	582.5.28={
+		birth=yes
+	}
+	642.11.11 = {
+		death=yes
+	}
+}
+# Second of Mo-ching-mang - Nan-ni
+# Attested 731, yet ruled before his older brother???
+100016408 = {
+	name="Nanni"
+	dynasty=105848
+	religion="buddhist"
+	culture="kashmiri"
+	father=100016400
+	711.1.5={
+		birth=yes
+	}
+	740.2.6 = {
+		death=yes
+	}
+}
+# Eldest son of Mo-ching-mang - exiled to China
+100016409 = {
+	name="Mahaolai"
+	dynasty=105848
+	religion="buddhist"
+	culture="kashmiri"
+	father=100016400
+	709.3.12={
+		birth=yes
+	}
+	765.9.19 = {
+		death = { death_reason = death_in_china_historic }
+	}
+}
+# Fictitious wife of the last known Patola Shahi king, Vikrama
+100016410 = {
+	name="Vaninda"
+	female=yes
+	religion="buddhist"
+	culture="saka" # Hephthalite
+	737.2.1={
+		birth=yes
+	}
+	756.1.1={
+		add_spouse=247692
+	}
+	816.7.24 = {
+		death=yes
+	}
+}
+# Fictitious son of Mahaolai
+100016411 = {
+	name="Nanmoxi"
+	dynasty=105848
+	religion="buddhist"
+	culture="kashmiri"
+	father=100016409
+	744.2.17={
+		birth=yes
+	}
+	802.9.30 = {
+		death=yes
+	}
+}
+
+
+
+######################################################################################################################################################
+# 
+# WAKHANSHAH EXTENSION
+#
+# 100016411-100016416 reserved
+#
+# Extending the Wakhan Shah rulers
+# 
+######################################################################################################################################################
+
+
+# Fictitious son of the Wakhan Shah from the 769 start date
+100016412 = {
+	name="Kujula"
+	dynasty=1059100
+	religion="buddhist"
+	culture="pamiri"
+	father=248302
+	789.1.23={
+		birth=yes
+	}
+	842.2.4 = {
+		death=yes
+	}
+}
+# Fictitious grandson of the Wakhan Shah from the 769 start date
+100016413 = {
+	name="Narendra"
+	dynasty=1059100
+	religion="buddhist"
+	culture="pamiri"
+	father=100016412
+	825.5.28={
+		birth=yes
+	}
+	904.1.14 = {
+		death=yes
+	}
+}
+# Fictitious great-grandson of the Wakhan Shah from the 769 start date
+100016414 = {
+	name="Vima"
+	dynasty=1059100
+	religion="buddhist"
+	culture="pamiri"
+	father=100016413
+	mother=100016415
+	850.6.26={
+		birth=yes
+	}
+	911.7.12 = {
+		death=yes
+	}
+}
+# Fictitious wife of Narendra
+100016415 = {
+	name="Kurdiyah"
+	female=yes
+	#dynasty=1059100
+	religion="buddhist"
+	culture="pamiri"
+	825.11.5={
+		birth=yes
+	}
+	842.1.1={
+		add_spouse=100016413
+	}
+	901.8.8 = {
+		death=yes
+	}
+}
+# Fictitious great-granddaughter of the Wakhan Shah from the 769 start date
+100016416 = {
+	name="Rudaba"
+	female=yes
+	dynasty=1059100
+	religion="buddhist"
+	culture="pamiri"
+	father=100016413
+	mother=100016415
+	854.3.21={
+		birth=yes
+	}
+	906.7.8 = {
+		death=yes
+	}
+}
+# Fictitious great-granddaughter of the Wakhan Shah from the 769 start date
+100016417 = {
+	name="Parvanak"
+	female=yes
+	dynasty=1059100
+	religion="buddhist"
+	culture="pamiri"
+	father=100016413
+	mother=100016415
+	845.9.10={
+		birth=yes
+	}
+	902.12.18 = {
+		death=yes
+	}
+}
+# Fictitious sister of the Wakhan Shah from the 769 start date
+100016418 = {
+	name="Manizheh"
+	female=yes
+	dynasty=1059100
+	religion="buddhist"
+	culture="pamiri"
+	trait=sympathy_indian
+	trait=sympathy_pagans
+	father=248300
+	744.1.19={
+		birth=yes
+	}
+	836.7.26 = {
+		death=yes
+	}
+}
+
+
+
+
+
+

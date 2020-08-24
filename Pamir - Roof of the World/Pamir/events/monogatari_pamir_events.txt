@@ -1,0 +1,5758 @@
+##########################################################################
+#
+# PAMIR IMMERSION PACK: ROOF OF THE WORLD
+#
+# pamir.00-09	# Startup and introduction events
+# pamir.10-19	# burusho courtier spawn
+# pamir.20-29	# Various province decision events: Lapis lazuli mines, Wakhan watchposts, etc.
+# pamir.30-49	# ????
+# pamir.50-99	# Chinir Festival
+# pamir.100-199	# Generic flavor events
+# 
+# The Pamir Immersion Pack will be my final CK2 mod project after 8 eventful years (some spent in retirement).
+# Modding CK2 was an important part of my life for almost a decade, and a great source of joy (and frustration).
+# A lot has happened in the modding world and my life since I made my first couple mods during the summer of 2012.
+# So, to anyone who is reading this, thank you for all your support and kindness over these many years.
+# Hopefully, I'll be able to mod some fun stuff in CK3 soon.
+# 
+# Cheers, and enjoy as always,
+# cybrxkhan
+# 
+##########################################################################
+
+namespace = pamir
+
+#Set up Pamir/Kashmir area provinces, flags, etc - fires on the Pope
+character_event =  {
+	id = pamir.0
+	
+	hide_window = yes
+	is_triggered_only = yes
+	
+	only_playable = yes
+	religion = catholic
+
+	trigger = {
+		is_save_game = no
+		has_landed_title = k_papal_state # Pope's always around
+		NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	immediate = {
+	
+		set_global_flag = VIET_pamir_mod_on
+		
+		#############################################################################
+		# 
+		# DE JURE KINGDOM OF PAMIR CHANGE
+		# 
+		#############################################################################
+		
+		
+		
+		#############################################################################
+		# 
+		# HISTORICAL CHARACTERS/DYNASTIES
+		# 
+		#############################################################################
+		
+
+		# Patola Shahi Misc
+		c_100016401 = {
+			save_event_target_as = target_vikrama_father
+		}
+		c_247692 = {
+			set_father = event_target:target_vikrama_father
+		}
+		c_100016410 = {
+			save_event_target_as = target_vikrama_waifu
+		}
+		c_247693 = {
+			set_mother = event_target:target_vikrama_waifu
+		}
+			
+		#Give Skardu to Vikrama's cousin
+		if = {
+			limit = {
+				NOT = { year = 800 }
+			}
+			c_100016411 = {
+				hidden_tooltip = {
+					wealth = 40
+					prestige = 20
+					piety = 10			
+				}
+				c_skardu = {
+					grant_title_no_opinion = PREV
+					set_defacto_liege = d_pamir
+				}
+			}
+		}
+		
+			
+		#Give Wakhan to fictitious named Wakhan Shahs at the 867 start date
+		if = {
+			limit = {
+				year = 800
+				NOT = { year = 900 }
+			}
+			c_100016413 = {
+				hidden_tooltip = {
+					wealth = 40
+					prestige = 20
+					piety = 10			
+				}
+				c_vakhan = {
+					grant_title_no_opinion = PREV
+				}
+			}
+		}
+		
+		# Azur Jamshid
+		if = {
+			limit = {
+				has_dlc = "Holy Fury"
+				year = 800
+			}
+			c_247698 = {
+				father_even_if_dead = {
+					create_bloodline = {
+						type = azur_jamshid_bloodline
+					}				
+				}
+			}
+			c_247696 = {
+				father_even_if_dead = {
+					add_trait = cannibal_trait			
+				}			
+			}
+		}
+		
+		#############################################################################
+		# 
+		# PROVINCE CULTURE CHANGES AND MODIFIERS
+		# 
+		#############################################################################		
+
+		#Kashmiri
+		1161 = { culture = kashmiri }
+		1180 = { culture = kashmiri }
+		1190 = { culture = kashmiri }
+		1341 = { culture = kashmiri }
+		1464 = { # Gilgit (where this part of the Karakoram mountains are)
+			culture = kashmiri
+			add_province_modifier = { 
+				name = VIET_karakoram_watchposts_ruined # VIET_karakoram_watchposts_maintained
+				duration = -1
+			}
+			add_province_modifier = { 
+				name = VIET_gold_mines_gilgit # Gold mines of Gilgit
+				duration = -1
+			}			
+		}
+		1466 = { culture = kashmiri }
+		
+		#Pamiri/Wakhi
+		1465 = { culture = pamiri }
+		1511 = { culture = pamiri }
+		1543 = { # Vakhan/Wakhan
+			culture = pamiri
+			add_province_modifier = {
+				name = VIET_wakhan_watchposts_ruined # VIET_wakhan_watchposts_maintained
+				duration = -1
+			}
+		}
+		1547 = { # Badakhshan
+			culture = pamiri			
+			add_province_modifier = {
+				name = VIET_mines_of_sar_i_sang
+				duration = -1
+			}
+		}
+		
+
+		
+		#############################################################################
+		# 
+		# CHARACTER CULTURE CHANGES
+		# 
+		#############################################################################
+		
+
+		#Kashmiri
+		1161 = {
+			any_province_character = {
+				limit = {
+					OR = {
+						culture_group = indo_aryan_group
+						culture_group = dravidian_group
+						dynasty = 105848
+					}
+					#lower_tier_than = king
+				}
+				culture = kashmiri
+				set_graphical_culture = kashmiri
+			}
+		}
+		1180 = {
+			any_province_character = {
+				limit = {
+					OR = {
+						culture_group = indo_aryan_group
+						culture_group = dravidian_group
+						dynasty = 105848
+					}
+					#lower_tier_than = king
+				}
+				culture = kashmiri
+				set_graphical_culture = kashmiri
+			}
+		}
+		1341 = {
+			any_province_character = {
+				limit = {
+					OR = {
+						culture_group = indo_aryan_group
+						culture_group = dravidian_group
+						dynasty = 105848
+					}
+					#lower_tier_than = king
+				}
+				culture = kashmiri
+				set_graphical_culture = kashmiri
+			}
+		}
+		1464 = {
+			any_province_character = {
+				limit = {
+					OR = {
+						culture_group = indo_aryan_group
+						culture_group = dravidian_group
+						dynasty = 105848
+					}
+					#lower_tier_than = king
+				}
+				culture = kashmiri
+				set_graphical_culture = kashmiri
+			}
+		}
+		1466 = {
+			any_province_character = {
+				limit = {
+					OR = {
+						culture_group = indo_aryan_group
+						culture_group = dravidian_group
+						dynasty = 105848
+					}
+					#lower_tier_than = king
+				}
+				culture = kashmiri
+				set_graphical_culture = kashmiri
+			}
+		}
+		
+
+		#pamiri
+		any_independent_ruler = {
+			any_realm_province = {
+				limit = {
+					culture = pamiri
+				}
+				any_province_character = {
+					limit = {
+						OR = {
+							culture_group = iranian
+							culture_group = serindian
+						}
+						NOT = { dynasty = 105848 }
+					}
+					culture = pamiri
+					set_graphical_culture = pamiri
+					any_dynasty_member = {
+						limit = {
+							OR = {
+								culture_group = iranian
+								culture_group = serindian
+							}
+							NOT = { dynasty = 105848 }
+						}
+						culture = pamiri
+						set_graphical_culture = pamiri
+					}
+				}
+			}
+		}		
+		1511 = {
+			any_province_character = {
+				limit = {
+					OR = {
+						culture_group = iranian
+						culture = panjabi
+						culture_group = serindian
+						NOT = { dynasty = 105848 }
+					}
+				}
+				culture = pamiri
+				set_graphical_culture = pamiri
+			}
+		}
+		
+
+		
+		#############################################################################
+		# 
+		# CHARACTER SPAWN AT GAME START
+		# 
+		#############################################################################	
+
+		
+		# burusho courtiers
+		random_playable_ruler = {
+			limit = {
+				capital_scope = {
+					OR = {
+						province_id = 1465
+						province_id = 1511
+						province_id = 1543
+						province_id = 1547
+						province_id = 1466
+					}
+				}
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = actually_culture
+				religion = liege
+				culture = burusho
+				historical = yes
+				#flag = ai_flag_refuse_conversion
+			}
+			new_character = {
+				set_character_flag = VIET_spawned_courtier
+				random_list = {
+					60 = { }
+					10 = { set_graphical_culture = panjabi }
+					10 = { set_graphical_culture = polish }
+					10 = { set_graphical_culture = croatian }
+					10 = { set_graphical_culture = levantine_arabic }
+					10 = { set_graphical_culture = armenian }
+					10 = { set_graphical_culture = bodpa }
+				}
+				random = {
+					character_event = { id = pamir.10 }
+					chance = 50
+				}
+			}
+		}
+		random_playable_ruler = {
+			limit = {
+				capital_scope = {
+					OR = {
+						province_id = 1465
+						province_id = 1511
+						province_id = 1543
+						province_id = 1547
+						province_id = 1466
+					}
+				}
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = actually_culture
+				religion = liege
+				culture = burusho
+				historical = yes
+				#flag = ai_flag_refuse_conversion
+			}
+			new_character = {
+				set_character_flag = VIET_spawned_courtier
+				random_list = {
+					60 = { }
+					10 = { set_graphical_culture = panjabi }
+					10 = { set_graphical_culture = polish }
+					10 = { set_graphical_culture = croatian }
+					10 = { set_graphical_culture = levantine_arabic }
+					10 = { set_graphical_culture = armenian }
+					10 = { set_graphical_culture = bodpa }
+				}
+				random = {
+					character_event = { id = pamir.10 }
+					chance = 50
+				}
+			}
+		}
+		random_playable_ruler = {
+			limit = {
+				capital_scope = {
+					OR = {
+						province_id = 1465
+						province_id = 1511
+						province_id = 1543
+						province_id = 1547
+						province_id = 1466
+					}
+				}
+			}
+			create_character = {
+				female = yes
+				random_traits = yes
+				dynasty = actually_culture
+				religion = liege
+				culture = burusho
+				historical = yes
+				#flag = ai_flag_refuse_conversion
+			}
+			new_character = {
+				set_character_flag = VIET_spawned_courtier
+				random_list = {
+					60 = { }
+					10 = { set_graphical_culture = panjabi }
+					10 = { set_graphical_culture = polish }
+					10 = { set_graphical_culture = croatian }
+					10 = { set_graphical_culture = levantine_arabic }
+					10 = { set_graphical_culture = armenian }
+					10 = { set_graphical_culture = bodpa }
+				}
+			}
+		}
+	}
+}
+
+
+# Event to set up the Patola Shahi dynasty for 769 start date, as well as the local rulers of Pamir and Skardu.
+# Vikrama is the name of the last known King of the Palola Shahi, attested in 749 CE.
+# The ruler depicted in CK2 has a fictitious name, and is likely much younger than the actual Vikrama would've been.
+# Oddly, they actually seem to have the real Vikrama in the game under the Chinese transliteration of his name.
+# Therefore, I changed his name to Vikrama. I also give him a fictitious wife, and linked him to other historical Patola Shahi rulers.
+narrative_event =  {
+	id = pamir.1
+	desc = pamir.1.desc
+	title = pamir.1.title
+	picture = GFX_evt_pamir_valley
+	
+	is_triggered_only = yes
+	
+	only_playable = yes
+
+	trigger = {
+		is_save_game = no
+		year = 765
+		NOT = { year = 770 }
+		OR = {
+			has_landed_title = d_pamir
+			liege = {
+				has_landed_title = d_pamir
+			}
+		}
+		NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	immediate = {
+		hidden_tooltip = { # To hide portraits in event options
+			if = {
+				limit = {
+					has_landed_title = d_pamir
+				}
+				culture = kashmiri
+				set_graphical_culture = kashmiri
+				any_dynasty_member = {
+					culture = kashmiri
+					set_graphical_culture = kashmiri
+				}
+				add_age = 10
+				set_name = "Vikrama"
+			}
+			c_100016411 = {
+				save_event_target_as = target_VIET_skardu_chief
+			}
+			c_pamir = {
+				holder_scope = {
+					save_event_target_as = target_VIET_new_pamir_chief
+				}				
+			}			
+		}
+	}
+	
+	option = {
+		name = "pamir.1.a"
+		trigger = {
+			NOT = { has_landed_title = d_pamir }
+		}
+	}		
+	option = {
+		name = "pamir.1.b"
+		trigger = {
+			has_landed_title = d_pamir
+		}
+	}	
+	option = { # Play as the fictitious cousin of Vikrama in Skardu
+		name = "pamir.1.c"
+		trigger = {
+			has_landed_title = d_pamir
+		}
+		set_player_character = event_target:target_VIET_skardu_chief
+		event_target:target_VIET_skardu_chief = {
+			narrative_event = { id = pamir.3 }		
+		}	
+	}	
+	option = { # Play as the randomly generated local ruler in Pamir
+		name = "pamir.1.d"
+		trigger = {
+			has_landed_title = d_pamir
+		}
+		set_player_character = event_target:target_VIET_new_pamir_chief
+		event_target:target_VIET_new_pamir_chief = {
+			narrative_event = { id = pamir.3 }		
+		}	
+	}
+}
+
+
+# Event to set up the Kings of Badakhshan, or Puteshan in Chinese transliteration, for the 769 and 867 start dates, as well as the Wahkan Shah remnants in 867.
+# I couldn't find their names but they're referenced in various sources like the records of the Korean monk and pilgrim Hyecho.
+# Thus, they're generated via a mini-CYOA
+narrative_event =  {
+	id = pamir.2
+	#desc = pamir.2.desc
+	title = pamir.2.title
+	picture = GFX_evt_wakhan_corridor
+	
+	# 769 start date
+	desc = {
+		text = pamir.2.desc.a
+		trigger = {
+			NOT = { year = 800 }
+		}
+	}	
+	# 867 start date
+	desc = {
+		text = pamir.2.desc.b
+		trigger = {
+			year = 800
+			#NOT = { year = 900 }
+		}
+	}	
+	# 936 start date
+	#desc = {
+	#	text = pamir.2.desc.c
+	#	trigger = {
+	#		year = 900
+	#	}
+	#}
+	
+	is_triggered_only = yes
+	
+	only_playable = yes
+
+	trigger = {
+		is_save_game = no
+		year = 765
+		NOT = { year = 900 }
+		has_landed_title = c_badakhshan
+		NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	immediate = {
+		hidden_tooltip = {
+			if = {
+				limit = {
+					NOT = { year = 800 }
+				}
+				c_100016418 = {
+					save_event_target_as = target_VIET_wakhan_waifu_charlemagne
+				}
+			}
+			if = {
+				limit = {
+					year = 800
+					NOT = { year = 900 }
+				}
+				c_100016417 = {
+					save_event_target_as = target_VIET_wakhan_waifu_old_gods
+				}
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = 1000088070
+				religion = buddhist
+				culture = pamiri
+				historical = yes
+			}
+			new_character = {
+				set_character_flag = VIET_puteshan_king
+				#Appearance randomizer
+				random_list = {
+					70 = { }
+					10 = { set_graphical_culture = panjabi }
+					10 = { set_graphical_culture = polish }
+					10 = { set_graphical_culture = croatian }
+					10 = { set_graphical_culture = levantine_arabic }
+					10 = { set_graphical_culture = armenian }
+					10 = { set_graphical_culture = bodpa }
+				}
+				if = {
+					limit = {
+						NOT = { year = 800 }
+					}				
+					add_spouse = event_target:target_VIET_wakhan_waifu_charlemagne
+				}
+				if = {
+					limit = {
+						year = 800
+						NOT = { year = 900 }
+					}				
+					add_spouse = event_target:target_VIET_wakhan_waifu_old_gods
+				}
+				#character_event = { id = pamir.10 }
+				c_badakhshan = {
+					grant_title_no_opinion = PREV
+				}
+			}
+			# Holder of Rustaq
+			create_character = {
+				random_traits = yes
+				dynasty = actually_culture
+				religion = buddhist
+				culture = pamiri
+				historical = yes
+			}
+			new_character = {
+				#Appearance randomizer
+				random_list = {
+					70 = { }
+					10 = { set_graphical_culture = panjabi }
+					10 = { set_graphical_culture = polish }
+					10 = { set_graphical_culture = croatian }
+					10 = { set_graphical_culture = levantine_arabic }
+					10 = { set_graphical_culture = armenian }
+					10 = { set_graphical_culture = bodpa }
+				}
+				b_rustaq = {
+					grant_title_no_opinion = PREV
+				}
+			}
+			# Holder of Ishkashim
+			create_character = {
+				random_traits = yes
+				dynasty = actually_culture
+				religion = buddhist
+				culture = pamiri
+				historical = yes
+			}
+			new_character = {
+				#Appearance randomizer
+				random_list = {
+					70 = { }
+					10 = { set_graphical_culture = panjabi }
+					10 = { set_graphical_culture = polish }
+					10 = { set_graphical_culture = croatian }
+					10 = { set_graphical_culture = levantine_arabic }
+					10 = { set_graphical_culture = armenian }
+					10 = { set_graphical_culture = bodpa }
+				}
+				b_ishkashim = {
+					grant_title_no_opinion = PREV
+				}
+			}
+		}
+
+	}
+	
+	option = {
+		name = "pamir.2.a"
+		trigger = {
+			NOT = { year = 800 }
+		}
+	}		
+	option = {
+		name = "pamir.2.b"
+		trigger = {
+			year = 800
+			NOT = { year = 900 }
+		}
+	}		
+	option = {
+		name = "pamir.2.c"
+		trigger = {
+			year = 900
+		}
+	}	
+	option = { # Change leader to the Puteshan King
+		name = "pamir.2.d"
+		hidden_tooltip = {
+			c_badakhshan = {
+				holder_scope = {
+					save_event_target_as = target_VIET_puteshan_king
+				}				
+			}		
+		}
+		set_player_character = event_target:target_VIET_puteshan_king
+		event_target:target_VIET_puteshan_king = {
+			hidden_tooltip = {
+				wealth = 40
+				prestige = 20
+				piety = 10			
+			}
+			narrative_event = { id = pamir.3 }		
+		}
+	}	
+	option = { # Change leader to the Wakhan Shah
+		name = "pamir.2.e"
+		trigger = {
+			year = 800
+			NOT = { year = 900 }
+		}
+		hidden_tooltip = {
+			c_vakhan = {
+				holder_scope = {
+					save_event_target_as = target_VIET_wakhanshah_new
+					#any_vassal = {
+					#	religion = buddhist
+					#}
+				}				
+			}		
+		}
+		set_player_character = event_target:target_VIET_wakhanshah_new
+		event_target:target_VIET_wakhanshah_new = {
+			hidden_tooltip = {
+				wealth = 40
+				prestige = 20
+				piety = 10
+			}
+			narrative_event = { id = pamir.3 }		
+		}
+	}
+}
+
+
+# Intro event for the Chief of Pamir at the 769 start and the Puteshan Kings at the 769 and 867 start dates and the Wakhan Shahs at the 867 start dates
+narrative_event =  {
+	id = pamir.3
+	#desc = pamir.3.desc
+	title = pamir.3.title
+	picture = GFX_evt_wakhan_corridor
+	
+	# Pamir Chieftain
+	desc = {
+		text = pamir.3.desc.a
+		trigger = {
+			has_landed_title = c_pamir
+		}
+	}	
+	# Puteshan King
+	desc = {
+		text = pamir.3.desc.b
+		trigger = {
+			has_landed_title = c_badakhshan
+		}
+	}	
+	# King of Skardu
+	desc = {
+		text = pamir.3.desc.c
+		trigger = {
+			has_landed_title = c_skardu
+		}
+	}	
+	# New Wakhanshah
+	desc = {
+		text = pamir.3.desc.d
+		trigger = {
+			has_landed_title = c_vakhan
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_tooltip = {
+			#b_rustaq = {
+			#	holder_scope = {
+			#		religion = buddhist
+			#		culture = pamiri
+			#	}
+			#}
+			b_jerm = {
+				holder_scope = {
+					religion = buddhist
+					culture = pamiri
+				}
+			}
+			#b_ishkashim = {
+			#	holder_scope = {
+			#		religion = buddhist
+			#		culture = pamiri
+			#	}
+			#}
+			b_daritubat = {
+				holder_scope = {
+					religion = buddhist
+					culture = pamiri
+				}
+			}
+			#any_realm_character = {
+			#	culture = ROOT
+			#	religion = buddhist
+			#}
+			# Generate a bunch of courtiers
+			create_character = {
+				#age = 18
+				random_traits = yes
+				dynasty = actually_culture
+				religion = buddhist
+				culture = pamiri
+			}
+			new_character = {
+				#Appearance randomizer
+				random_list = {
+					70 = { }
+					10 = { set_graphical_culture = panjabi }
+					10 = { set_graphical_culture = polish }
+					10 = { set_graphical_culture = croatian }
+					10 = { set_graphical_culture = levantine_arabic }
+					10 = { set_graphical_culture = armenian }
+					10 = { set_graphical_culture = bodpa }
+				}
+			}
+			create_character = {
+				#age = 18
+				random_traits = yes
+				dynasty = none
+				religion = buddhist
+				culture = pamiri
+			}
+			new_character = {
+				#Appearance randomizer
+				random_list = {
+					70 = { }
+					10 = { set_graphical_culture = panjabi }
+					10 = { set_graphical_culture = polish }
+					10 = { set_graphical_culture = croatian }
+					10 = { set_graphical_culture = levantine_arabic }
+					10 = { set_graphical_culture = armenian }
+					10 = { set_graphical_culture = bodpa }
+				}
+			}
+			create_character = {
+				#age = 18
+				random_traits = yes
+				dynasty = none
+				religion = buddhist
+				culture = pamiri
+			}
+			new_character = {
+				#Appearance randomizer
+				random_list = {
+					70 = { }
+					10 = { set_graphical_culture = panjabi }
+					10 = { set_graphical_culture = polish }
+					10 = { set_graphical_culture = croatian }
+					10 = { set_graphical_culture = levantine_arabic }
+					10 = { set_graphical_culture = armenian }
+					10 = { set_graphical_culture = bodpa }
+				}
+			}	
+			create_character = {
+				#age = 18
+				female=yes
+				random_traits = yes
+				dynasty = none
+				religion = buddhist
+				culture = pamiri
+			}
+			new_character = {
+				#Appearance randomizer
+				random_list = {
+					70 = { }
+					10 = { set_graphical_culture = panjabi }
+					10 = { set_graphical_culture = polish }
+					10 = { set_graphical_culture = croatian }
+					10 = { set_graphical_culture = levantine_arabic }
+					10 = { set_graphical_culture = armenian }
+					10 = { set_graphical_culture = bodpa }
+				}
+			}	
+			create_character = {
+				#age = 18
+				random_traits = yes
+				dynasty = none
+				religion = buddhist
+				culture = kashmiri
+			}
+			new_character = {
+				#Appearance randomizer
+				random_list = {
+					40 = { }
+					40 = { set_graphical_culture = pamiri }
+					10 = { set_graphical_culture = bodpa }
+					10 = { set_graphical_culture = levantine_arabic }
+				}
+			}	
+			create_character = {
+				#age = 18
+				female=yes
+				random_traits = yes
+				dynasty = none
+				religion = buddhist
+				culture = kashmiri
+			}
+			new_character = {
+				#Appearance randomizer
+				random_list = {
+					40 = { }
+					40 = { set_graphical_culture = pamiri }
+					10 = { set_graphical_culture = bodpa }
+					10 = { set_graphical_culture = levantine_arabic }
+				}
+			}	
+			create_character = {
+				#age = 18
+				random_traits = yes
+				dynasty = actually_culture
+				religion = buddhist
+				culture = kashmiri
+			}
+			new_character = {
+				#Appearance randomizer
+				random_list = {
+					40 = { }
+					40 = { set_graphical_culture = pamiri }
+					10 = { set_graphical_culture = bodpa }
+					10 = { set_graphical_culture = levantine_arabic }
+				}
+			}		
+		}
+	}
+	
+	option = {
+		name = "pamir.3.a"
+	}
+}
+
+
+#Set up fictional Pamir Chieftain
+character_event =  {
+	id = pamir.4
+	
+	hide_window = yes
+	is_triggered_only = yes
+	
+	only_playable = yes
+
+	trigger = {
+		is_save_game = no
+		year = 765
+		NOT = { year = 770 }
+		has_landed_title = d_pamir
+		NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	immediate = {
+		# New Pamiri Chieftain
+		create_character = {
+			#age = 18
+			random_traits = yes
+			dynasty = actually_culture
+			religion = buddhist
+			culture = pamiri
+			historical = yes
+		}
+		new_character = {
+			set_character_flag = VIET_new_potential_pamiri_chief
+			#Appearance randomizer
+			random_list = {
+				70 = { }
+				10 = { set_graphical_culture = panjabi }
+				10 = { set_graphical_culture = polish }
+				10 = { set_graphical_culture = croatian }
+				10 = { set_graphical_culture = levantine_arabic }
+				10 = { set_graphical_culture = armenian }
+				10 = { set_graphical_culture = bodpa }
+			}
+			wealth = 40
+			prestige = 20
+			piety = 10
+			character_event = { id = pamir.10 }
+			character_event = { id = pamir.5 }
+		}	
+	}
+}
+
+#Set up fictional Pamir Chieftain cont'd
+character_event =  {
+	id = pamir.5
+	
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		c_pamir = {
+			grant_title_no_opinion = PREV
+		}		
+	}
+}
+
+
+
+###############################################################################
+# 
+# BURUSHO CHARACTER SPAWN
+# pamir.10-pamir.19
+# 
+###############################################################################
+
+
+
+# Give courtiers waifus and children
+character_event =  {
+	id = pamir.10
+	
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = {
+	
+		random_list = {
+			50 = { #young waifu no kids
+				create_character = {
+					age = 18
+					random_traits = yes
+					dynasty = none
+					female = yes
+					religion = ROOT
+					culture = ROOT
+					flag = ai_flag_refuse_conversion
+					historical = yes
+				}
+				new_character = {
+					set_character_flag = VIET_spawned_courtier	
+					add_spouse = ROOT	
+					random = {
+						add_trait = fair
+						chance = 10
+					}	
+					#Appearance randomizer
+					random_list = {
+						60 = { }
+						10 = { set_graphical_culture = panjabi }
+						10 = { set_graphical_culture = polish }
+						10 = { set_graphical_culture = croatian }
+						10 = { set_graphical_culture = levantine_arabic }
+						10 = { set_graphical_culture = armenian }
+						10 = { set_graphical_culture = bodpa }
+					}	
+				}			
+			}
+
+			25 = { #young waifu with kid
+				create_character = {
+					age = 25
+					random_traits = yes
+					dynasty = none
+					female = yes
+					religion = ROOT
+					culture = ROOT
+					flag = ai_flag_refuse_conversion
+					historical = yes
+				}
+				new_character = {
+					set_character_flag = VIET_spawned_courtier	
+					add_spouse = ROOT	
+					random = {
+						add_trait = fair
+						chance = 10
+					}
+					#Appearance randomizer
+					random_list = {
+						60 = { }
+						10 = { set_graphical_culture = panjabi }
+						10 = { set_graphical_culture = polish }
+						10 = { set_graphical_culture = croatian }
+						10 = { set_graphical_culture = levantine_arabic }
+						10 = { set_graphical_culture = armenian }
+						10 = { set_graphical_culture = bodpa }
+					}
+					save_event_target_as = target_VIET_new_mommy
+				}	
+				create_character = {
+					age = 6
+					dynasty = ROOT
+					random_traits = yes
+					female = 50
+					religion = ROOT
+					culture = ROOT
+					genetic_father = ROOT
+					genetic_mother = event_target:target_VIET_new_mommy
+					historical = yes
+				}
+				new_character = {
+					set_father = ROOT
+					set_mother = event_target:target_VIET_new_mommy
+					random_list = {
+						10 = { set_graphical_culture = mother }
+						10 = { set_graphical_culture = father }
+					}
+				}				
+			}
+
+			25 = { #middle aged waifu with no kid
+				modifier = {
+					NOT = { age = 30 }
+					factor = 0.5
+				}
+				modifier = {
+					NOT = { age = 35 }
+					factor = 0.1
+				}
+				create_character = {
+					age = 35
+					random_traits = yes
+					dynasty = none
+					female = yes
+					religion = ROOT
+					culture = ROOT
+					flag = ai_flag_refuse_conversion
+					historical = yes
+				}
+				new_character = {
+					set_character_flag = VIET_spawned_courtier	
+					add_spouse = ROOT	
+					random = {
+						add_trait = fair
+						chance = 10
+					}	
+					#Appearance randomizer
+					random_list = {
+						60 = { }
+						10 = { set_graphical_culture = panjabi }
+						10 = { set_graphical_culture = polish }
+						10 = { set_graphical_culture = croatian }
+						10 = { set_graphical_culture = levantine_arabic }
+						10 = { set_graphical_culture = armenian }
+						10 = { set_graphical_culture = bodpa }
+					}	
+				}			
+			}
+
+			25 = { #middle aged waifu with adult kid
+				modifier = {
+					NOT = { age = 40 }
+					factor = 0
+				}
+				modifier = {
+					age = 40
+					factor = 3
+				}
+				create_character = {
+					age = 44
+					random_traits = yes
+					dynasty = none
+					female = yes
+					religion = ROOT
+					culture = ROOT
+					flag = ai_flag_refuse_conversion
+					historical = yes
+				}
+				new_character = {
+					set_character_flag = VIET_spawned_courtier	
+					add_spouse = ROOT
+					random = {
+						add_trait = fair
+						chance = 10
+					}
+					#Appearance randomizer
+					random_list = {
+						60 = { }
+						10 = { set_graphical_culture = panjabi }
+						10 = { set_graphical_culture = polish }
+						10 = { set_graphical_culture = croatian }
+						10 = { set_graphical_culture = levantine_arabic }
+						10 = { set_graphical_culture = armenian }
+						10 = { set_graphical_culture = bodpa }
+					}
+					save_event_target_as = target_VIET_new_mommy					
+				}
+				create_character = {
+					age = 20
+					random_traits = yes
+					dynasty = ROOT
+					female = 50
+					religion = ROOT
+					culture = ROOT
+					genetic_father = ROOT
+					genetic_mother = event_target:target_VIET_new_mommy
+					historical = yes
+				}
+				new_character = {
+					set_father = ROOT
+					set_mother = event_target:target_VIET_new_mommy
+					random_list = {
+						10 = { set_graphical_culture = mother }
+						10 = { set_graphical_culture = father }
+					}
+				}				
+			}
+
+			50 = { # adult child only
+				modifier = {
+					NOT = { age = 40 }
+					factor = 0
+				}
+				create_character = {
+					age = 18
+					random_traits = yes
+					dynasty = ROOT
+					female = 50
+					religion = ROOT
+					culture = ROOT
+					flag = ai_flag_refuse_conversion
+					genetic_father = ROOT
+					historical = yes
+				}
+				new_character = {
+					set_character_flag = VIET_spawned_courtier
+					#Appearance randomizer
+					random_list = {
+						60 = { }
+						10 = { set_graphical_culture = panjabi }
+						10 = { set_graphical_culture = polish }
+						10 = { set_graphical_culture = croatian }
+						10 = { set_graphical_culture = levantine_arabic }
+						10 = { set_graphical_culture = armenian }
+						10 = { set_graphical_culture = bodpa }
+					}	
+				}				
+			}
+		}		
+	}
+}
+
+
+#Spawn burusho warrior
+character_event = {
+	id = pamir.11
+	desc = pamir.11.desc
+	picture = GFX_evt_pamir_valley
+
+	prisoner = no
+	only_playable = yes
+	capable_only = yes
+	
+	trigger = {
+		NOT = { is_inaccessible_trigger = yes }
+		NOT = { culture = burusho }
+		NOT = {
+			any_courtier = {
+				has_character_flag = VIET_burusho_courtier
+			}
+		}
+		any_demesne_province = {
+			OR = {
+				province_id = 1465
+				province_id = 1511
+				province_id = 1543
+				province_id = 1547
+				province_id = 1466
+			}	
+		}
+		NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	mean_time_to_happen = {
+		months = 8000
+		
+		modifier = {
+			factor = 2
+			any_courtier = {
+				culture = burusho
+			}
+		}	
+		
+		modifier = {
+			factor = 1.5
+			NOR = {
+				culture_group = iranian
+				culture_group = altaic
+				culture_group = indo_aryan_group
+				culture_group = dravidian_group
+				culture_group = serindian
+				culture_group = tibetan_group
+				culture_group = chinese_group
+			}
+		}
+
+		modifier = {
+			factor = 5
+			any_courtier = {
+				has_character_flag = VIET_spawned_courtier
+			}
+		}
+		
+	}
+	
+	option = { #Ok
+		name = "pamir.11.a"
+		custom_tooltip = { text = VIET_burusho_warrior_spawn_tooltip }
+		
+		hidden_tooltip = {
+
+			random_list = {
+				40 = { #random bloke
+					create_random_soldier = {
+						random_traits = yes
+						dynasty = actually_culture
+						female = no
+						religion = ROOT
+						culture = burusho
+						historical = yes
+						flag = ai_flag_refuse_conversion
+					}
+					new_character = {
+						set_character_flag = VIET_spawned_courtier
+						set_character_flag = VIET_burusho_courtier
+						remove_trait = slow
+						remove_trait = imbecile
+						remove_trait = dull
+						random_list = {
+							20 = { add_trait = duelist }
+							10 = { add_trait = strategist }
+							70 = {}
+						}
+						random = {
+							add_trait = strong
+							chance = 15
+						}
+						random_list = {
+							75 = {}
+							15 = { add_trait = shrewd }
+							7 = { add_trait = quick }
+							3 = { add_trait = genius }
+						}
+						random = {
+							character_event = { id = pamir.10 }
+							chance = 33
+						}
+						#Appearance randomizer
+						random_list = {
+							60 = { }
+							10 = { set_graphical_culture = panjabi }
+							10 = { set_graphical_culture = polish }
+							10 = { set_graphical_culture = croatian }
+							10 = { set_graphical_culture = levantine_arabic }
+							10 = { set_graphical_culture = armenian }
+							10 = { set_graphical_culture = bodpa }
+						}	
+					}			
+				}
+				40 = { # decent soldier
+					create_random_soldier = {
+						random_traits = yes
+						dynasty = actually_culture
+						female = no
+						religion = ROOT
+						culture = burusho
+						historical = yes
+						flag = ai_flag_refuse_conversion
+						attributes = {
+							diplomacy = 5
+							martial = 8
+							stewardship = 4
+							intrigue = 6
+							learning = 4
+						}
+					}
+					new_character = {
+						set_character_flag = VIET_spawned_courtier
+						set_character_flag = VIET_burusho_courtier
+						remove_trait = slow
+						remove_trait = imbecile
+						remove_trait = dull
+						random_list = {
+							20 = { add_trait = duelist }
+							10 = { add_trait = strategist }
+							70 = {}
+						}
+						random = {
+							add_trait = strong
+							chance = 15
+						}
+						random_list = {
+							75 = {}
+							15 = { add_trait = shrewd }
+							7 = { add_trait = quick }
+							3 = { add_trait = genius }
+						}
+						random = {
+							character_event = { id = pamir.10 }
+							chance = 33
+						}
+						#Appearance randomizer
+						random_list = {
+							60 = { }
+							10 = { set_graphical_culture = panjabi }
+							10 = { set_graphical_culture = polish }
+							10 = { set_graphical_culture = croatian }
+							10 = { set_graphical_culture = levantine_arabic }
+							10 = { set_graphical_culture = armenian }
+							10 = { set_graphical_culture = bodpa }
+						}	
+					}			
+				}
+				20 = { # great soldier
+					create_random_soldier = {
+						random_traits = yes
+						dynasty = actually_culture
+						female = no
+						religion = ROOT
+						culture = burusho
+						historical = yes
+						flag = ai_flag_refuse_conversion
+						attributes = {
+							diplomacy = 8
+							martial = 10
+							stewardship = 7
+							intrigue = 9
+							learning = 7
+						}
+					}
+					new_character = {
+						set_character_flag = VIET_spawned_courtier
+						set_character_flag = VIET_burusho_courtier
+						remove_trait = slow
+						remove_trait = imbecile
+						remove_trait = dull
+						random_list = {
+							20 = { add_trait = duelist }
+							10 = { add_trait = strategist }
+							70 = {}
+						}
+						random = {
+							add_trait = strong
+							chance = 15
+						}
+						random_list = {
+							75 = {}
+							15 = { add_trait = shrewd }
+							7 = { add_trait = quick }
+							3 = { add_trait = genius }
+						}
+						random = {
+							character_event = { id = pamir.10 }
+							chance = 33
+						}
+						#Appearance randomizer
+						random_list = {
+							60 = { }
+							10 = { set_graphical_culture = panjabi }
+							10 = { set_graphical_culture = polish }
+							10 = { set_graphical_culture = croatian }
+							10 = { set_graphical_culture = levantine_arabic }
+							10 = { set_graphical_culture = armenian }
+							10 = { set_graphical_culture = bodpa }
+						}		
+					}			
+				}
+			}	
+		}	
+	}
+	
+	option = {
+		name = "pamir.11.b"
+	}
+
+}
+
+
+# Normal burusho spawn
+character_event = {
+	id = pamir.12
+	desc = pamir.12.desc
+	picture = GFX_evt_pamir_valley
+	
+	prisoner = no
+	only_rulers = yes
+	capable_only = yes
+	
+	trigger = {
+		NOT = { is_inaccessible_trigger = yes }
+		NOT = { culture = burusho }
+		NOT = {
+			any_courtier = {
+				has_character_flag = VIET_burusho_courtier
+			}
+		}
+		any_demesne_province = {
+			OR = {
+				province_id = 1465
+				province_id = 1511
+				province_id = 1543
+				province_id = 1547
+				province_id = 1466
+			}	
+		}
+		NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+	}
+	
+	mean_time_to_happen = {
+		months = 8000
+		
+		modifier = {
+			factor = 2
+			any_courtier = {
+				culture = burusho
+			}
+		}	
+		
+		modifier = {
+			factor = 1.5
+			NOR = {
+				culture_group = iranian
+				culture_group = altaic
+				culture_group = indo_aryan_group
+				culture_group = dravidian_group
+				culture_group = serindian
+				culture_group = tibetan_group
+				culture_group = chinese_group
+			}
+		}
+		
+		modifier = {
+			factor = 2
+			trait = cruel
+		}
+
+		modifier = {
+			factor = 1.5
+			trait = envious
+		}
+		
+		modifier = {
+			factor = 1.5
+			trait = arbitrary
+		}
+		
+		modifier = {
+			factor = 0.9
+			trait = cynical
+		}
+		
+		modifier = {
+			factor = 0.9
+			trait = kind
+		}
+		
+		modifier = {
+			factor = 0.9
+			trait = diligent
+		}		
+		
+		modifier = {
+			factor = 0.9
+			trait = scholar
+		}
+		
+		modifier = {
+			factor = 0.9
+			trait = ambitious
+		}
+		
+		modifier = {
+			factor = 0.9
+			trait = charitable
+		}
+		
+		modifier = {
+			factor = 0.9
+			trait = trusting
+		}
+		
+		modifier = {
+			factor = 0.9
+			trait = greedy
+		}
+		
+	}
+	
+	option = {
+		name = "pamir.12.a"
+		custom_tooltip = { text = VIET_burusho_spawn_tooltip }
+		hidden_tooltip = {		
+			create_character = {
+				female = yes
+				random_traits = yes
+				dynasty = actually_culture
+				religion = ROOT
+				culture = burusho
+				historical = yes
+				flag = ai_flag_refuse_conversion
+			}
+			new_character = {
+				set_character_flag = VIET_spawned_courtier
+				opinion = {
+					modifier = opinion_patron
+					who = ROOT
+					years = 20
+				}
+				reverse_opinion = {
+					modifier = opinion_new_courtier
+					who = ROOT
+					years = 5
+				}
+				#Appearance randomizer
+				random_list = {
+					60 = { }
+					10 = { set_graphical_culture = panjabi }
+					10 = { set_graphical_culture = polish }
+					10 = { set_graphical_culture = croatian }
+					10 = { set_graphical_culture = levantine_arabic }
+					10 = { set_graphical_culture = armenian }
+					10 = { set_graphical_culture = bodpa }
+				}				
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = actually_culture
+				religion = ROOT
+				culture = burusho
+				historical = yes
+				attributes = {
+					diplomacy = 5
+					martial = 5
+					stewardship = 5
+					intrigue = 5
+					learning = 5
+				}
+				flag = ai_flag_refuse_conversion
+			}
+			new_character = {
+				set_character_flag = VIET_spawned_courtier
+				opinion = {
+					modifier = opinion_patron
+					who = ROOT
+					years = 20
+				}
+				reverse_opinion = {
+					modifier = opinion_new_courtier
+					who = ROOT
+					years = 5
+				}	
+				#Appearance randomizer
+				random_list = {
+					60 = { }
+					10 = { set_graphical_culture = panjabi }
+					10 = { set_graphical_culture = polish }
+					10 = { set_graphical_culture = croatian }
+					10 = { set_graphical_culture = levantine_arabic }
+					10 = { set_graphical_culture = armenian }
+					10 = { set_graphical_culture = bodpa }
+				}
+				random = {
+					character_event = { id = pamir.10 }
+					chance = 33
+				}
+			}
+			random_list = {
+				50 = {}
+				50 = {
+					create_character = {
+						random_traits = yes
+						dynasty = actually_culture
+						religion = ROOT
+						culture = burusho
+						historical = yes
+						attributes = {
+							diplomacy = 7
+							martial = 7
+							stewardship = 7
+							intrigue = 7
+							learning = 7
+						}
+						flag = ai_flag_refuse_conversion
+					}
+					new_character = {
+						set_character_flag = VIET_spawned_courtier
+						opinion = {
+							modifier = opinion_patron
+							who = ROOT
+							years = 20
+						}
+						reverse_opinion = {
+							modifier = opinion_new_courtier
+							who = ROOT
+							years = 5
+						}	
+						#Appearance randomizer
+						random_list = {
+							60 = { }
+							10 = { set_graphical_culture = panjabi }
+							10 = { set_graphical_culture = polish }
+							10 = { set_graphical_culture = croatian }
+							10 = { set_graphical_culture = levantine_arabic }
+							10 = { set_graphical_culture = armenian }
+							10 = { set_graphical_culture = bodpa }
+						}
+						random = {
+							character_event = { id = pamir.10 }
+							chance = 33
+						}				
+					}
+				}
+			}
+			random_list = {
+				70 = {}
+				30 = {
+					create_character = {
+						random_traits = yes
+						dynasty = actually_culture
+						religion = ROOT
+						culture = burusho
+						historical = yes
+						attributes = {
+							diplomacy = 8
+							martial = 8
+							stewardship = 8
+							intrigue = 8
+							learning = 8
+						}
+						flag = ai_flag_refuse_conversion
+					}
+					new_character = {
+						set_character_flag = VIET_spawned_courtier
+						opinion = {
+							modifier = opinion_patron
+							who = ROOT
+							years = 20
+						}
+						reverse_opinion = {
+							modifier = opinion_new_courtier
+							who = ROOT
+							years = 5
+						}	
+						#Appearance randomizer
+						random_list = {
+							60 = { }
+							10 = { set_graphical_culture = panjabi }
+							10 = { set_graphical_culture = polish }
+							10 = { set_graphical_culture = croatian }
+							10 = { set_graphical_culture = levantine_arabic }
+							10 = { set_graphical_culture = armenian }
+							10 = { set_graphical_culture = bodpa }
+						}
+						random = {
+							character_event = { id = pamir.10 }
+							chance = 33
+						}					
+					}
+				}
+			}
+			random_list = {
+				90 = {}
+				10 = {
+					create_character = {
+						random_traits = yes
+						dynasty = actually_culture
+						religion = ROOT
+						culture = burusho
+						historical = yes
+						attributes = {
+							diplomacy = 10
+							martial = 10
+							stewardship = 10
+							intrigue = 10
+							learning = 10
+						}
+						flag = ai_flag_refuse_conversion
+					}
+					new_character = {
+						set_character_flag = VIET_spawned_courtier
+						opinion = {
+							modifier = opinion_patron
+							who = ROOT
+							years = 20
+						}
+						reverse_opinion = {
+							modifier = opinion_new_courtier
+							who = ROOT
+							years = 5
+						}		
+						#Appearance randomizer
+						random_list = {
+							60 = { }
+							10 = { set_graphical_culture = panjabi }
+							10 = { set_graphical_culture = polish }
+							10 = { set_graphical_culture = croatian }
+							10 = { set_graphical_culture = levantine_arabic }
+							10 = { set_graphical_culture = armenian }
+							10 = { set_graphical_culture = bodpa }
+						}
+						random = {
+							character_event = { id = pamir.10 }
+							chance = 33
+						}				
+					}
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "pamir.12.b"
+	}	
+	
+}
+
+
+
+###############################################################################
+# 
+# VARIOUS PROVINCE DECISION EVENTS
+# pamir.20-pamir.29
+# 
+###############################################################################
+
+
+
+# Investing in Lapis Lazuli mines
+province_event = {
+	id = pamir.20
+	desc = pamir.20.desc
+	picture = GFX_evt_lapis_lazuli
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "pamir.20.a"
+		owner = {
+			wealth = -25
+			clr_character_flag = VIET_investing_in_lapis_lazuli_mines_currently
+		}
+		add_province_modifier = {
+			name = VIET_pamir_invest_lapis_lazuli_mines
+			duration = 1460 # 4 Years
+		}
+		add_province_modifier = {
+			name = VIET_pamir_lapis_lazuli_investment_timer
+			duration = 3285 # 9 Years - 5 year cooldown
+			hidden = yes
+		}
+	}
+	
+	option = {
+		name = "pamir.20.b"
+		trigger = {
+			owner = {
+				OR = {
+					ai = no
+					wealth = 50
+				}			
+			}
+		}
+		owner = {
+			wealth = -50
+			clr_character_flag = VIET_investing_in_lapis_lazuli_mines_currently
+		}
+		add_province_modifier = {
+			name = VIET_pamir_invest_lapis_lazuli_mines
+			duration = 3650 # 10 Years
+		}
+		add_province_modifier = {
+			name = VIET_pamir_lapis_lazuli_investment_timer
+			duration = 5475 # 15 Years - 5 year cooldown
+			hidden = yes
+		}
+	}
+	
+	option = {
+		name = "pamir.20.c"
+		trigger = {
+			owner = {
+				OR = {
+					ai = no
+					wealth = 75
+				}			
+			}
+		}
+		owner = {
+			wealth = -75
+			clr_character_flag = VIET_investing_in_lapis_lazuli_mines_currently
+		}
+		add_province_modifier = {
+			name = VIET_pamir_invest_lapis_lazuli_mines
+			duration = 5840 # 16 Years
+		}
+		add_province_modifier = {
+			name = VIET_pamir_lapis_lazuli_investment_timer
+			duration = 7665 # 21 Years - 5 year cooldown
+			hidden = yes
+		}
+	}
+	#option = { #Test option
+	#	name = "pamir.20.d"
+	#	trigger = {
+	#		ai = no
+	#	}
+	#	add_province_modifier = {
+	#		name = VIET_pamir_invest_lapis_lazuli_mines
+	#		duration = 10 # 10 days
+	#	}
+	#	add_province_modifier = {
+	#		name = VIET_pamir_lapis_lazuli_investment_timer
+	#		duration = 30 # 20 day cooldown
+	#	}
+	#}
+	option = { # Never mind
+		name = "pamir.20.d"
+		owner = {
+			clr_character_flag = VIET_investing_in_lapis_lazuli_mines_currently
+		}
+	}
+}
+
+# Wakhan Watchpost Network
+province_event = {
+	id = pamir.21
+	desc = pamir.21.desc
+	picture = GFX_evt_wakhan_corridor
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "pamir.21.a"
+		owner = {
+			wealth = -30
+			clr_character_flag = VIET_currently_repairing_wakhan_watchposts
+		}
+		remove_province_modifier = VIET_wakhan_watchposts_ruined
+		add_province_modifier = {
+			name = VIET_wakhan_watchposts_maintained
+			duration = 1460 # 4 Years
+		}
+		hidden_tooltip = {
+			province_event = { id = pamir.22 days = 1461 }
+		}
+	}	
+	option = {
+		name = "pamir.21.b"
+		trigger = {
+			owner = {
+				OR = {
+					ai = no
+					wealth = 60
+				}			
+			}
+		}
+		owner = {
+			wealth = -60
+			clr_character_flag = VIET_currently_repairing_wakhan_watchposts
+		}
+		remove_province_modifier = VIET_wakhan_watchposts_ruined
+		add_province_modifier = {
+			name = VIET_wakhan_watchposts_maintained
+			duration = 3650 # 10 Years
+		}
+		hidden_tooltip = {
+			province_event = { id = pamir.22 days = 3651 }
+		}
+	}	
+	option = {
+		name = "pamir.21.c"
+		trigger = {
+			owner = {
+				OR = {
+					ai = no
+					wealth = 80
+				}			
+			}
+		}
+		owner = {
+			wealth = -80
+			clr_character_flag = VIET_currently_repairing_wakhan_watchposts
+		}
+		remove_province_modifier = VIET_wakhan_watchposts_ruined
+		add_province_modifier = {
+			name = VIET_wakhan_watchposts_maintained
+			duration = 7300 # 20 Years
+		}
+		hidden_tooltip = {
+			province_event = { id = pamir.22 days = 7301 }
+		}
+	}
+	#option = { #Test option
+	#	name = "pamir.21.d"
+	#	trigger = {
+	#		owner = {
+	#			ai = no			
+	#		}
+	#	}
+	#	remove_province_modifier = VIET_wakhan_watchposts_ruined
+	#	add_province_modifier = {
+	#		name = VIET_wakhan_watchposts_maintained
+	#		duration = 10 # 10 days
+	#	}
+	#	hidden_tooltip = {
+	#		province_event = { id = pamir.22 days = 11 }
+	#	}
+	#}
+	option = { # Never mind
+		name = "pamir.21.d"
+		owner = {
+			clr_character_flag = VIET_currently_repairing_wakhan_watchposts
+		}
+	}
+	
+}
+
+# Wakhan Watchpost Network - hidden event to make them ruined again
+province_event = {
+	id = pamir.22
+	
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		add_province_modifier = {
+			name = VIET_wakhan_watchposts_ruined
+			duration = -1
+		}
+	}
+}
+
+# Karakoram Mountain Watchpost Network
+province_event = {
+	id = pamir.23
+	desc = pamir.23.desc
+	picture = GFX_evt_wakhan_corridor
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "pamir.23.a"
+		owner = {
+			wealth = -30
+			clr_character_flag = VIET_currently_repairing_karakoram_watchposts
+		}
+		remove_province_modifier = VIET_karakoram_watchposts_ruined
+		add_province_modifier = {
+			name = VIET_karakoram_watchposts_maintained
+			duration = 1460 # 4 Years
+		}
+		hidden_tooltip = {
+			province_event = { id = pamir.24 days = 1461 }
+		}
+	}	
+	option = {
+		name = "pamir.23.b"
+		trigger = {
+			owner = {
+				OR = {
+					ai = no
+					wealth = 60
+				}			
+			}
+		}
+		owner = {
+			wealth = -60
+			clr_character_flag = VIET_currently_repairing_karakoram_watchposts
+		}
+		remove_province_modifier = VIET_karakoram_watchposts_ruined
+		add_province_modifier = {
+			name = VIET_karakoram_watchposts_maintained
+			duration = 3650 # 10 Years
+		}
+		hidden_tooltip = {
+			province_event = { id = pamir.24 days = 3651 }
+		}
+	}	
+	option = {
+		name = "pamir.23.c"
+		trigger = {
+			owner = {
+				OR = {
+					ai = no
+					wealth = 80
+				}			
+			}
+		}
+		owner = {
+			wealth = -80
+			clr_character_flag = VIET_currently_repairing_karakoram_watchposts
+		}
+		remove_province_modifier = VIET_karakoram_watchposts_ruined
+		add_province_modifier = {
+			name = VIET_karakoram_watchposts_maintained
+			duration = 7300 # 20 Years
+		}
+		hidden_tooltip = {
+			province_event = { id = pamir.24 days = 7301 }
+		}
+	}
+	#option = { #Test option
+	#	name = "pamir.23.d"
+	#	trigger = {
+	#		owner = { ai = no }
+	#	}
+	#	remove_province_modifier = VIET_karakoram_watchposts_ruined
+	#	add_province_modifier = {
+	#		name = VIET_karakoram_watchposts_maintained
+	#		duration = 10 # 10 days
+	#	}
+	#	hidden_tooltip = {
+	#		province_event = { id = pamir.24 days = 11 }
+	#	}
+	#}
+	option = { # Never mind
+		name = "pamir.23.d"
+		owner = {
+			clr_character_flag = VIET_currently_repairing_karakoram_watchposts
+		}
+	}
+	
+}
+
+# Karakoram Mountain Network - hidden event to make them ruined again
+province_event = {
+	id = pamir.24
+	
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		add_province_modifier = {
+			name = VIET_karakoram_watchposts_ruined
+			duration = -1
+		}
+	}
+}
+
+
+#########################################################################################################
+# 
+# CHINIR FESTIVAL EVENTS
+# pamir.50-99 reserved
+# 
+#########################################################################################################
+
+
+
+# Chinir Festival Intro
+character_event = {
+	id = pamir.50
+	desc = pamir.50.desc
+	picture = GFX_evt_pamir_valley
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "pamir.50.a"
+		hidden_tooltip = {
+			character_event = { id = pamir.51 days = 7 }
+		}
+	}	
+}
+
+# Chinir Festival Starts
+character_event = {
+	id = pamir.51
+	desc = pamir.51.desc
+	picture = GFX_evt_small_town_pamiri
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "pamir.51.a"
+		hidden_tooltip = {
+			long_character_event = { id = pamir.52 days = 2 random = 2 }
+		}
+	}	
+}
+
+# Prayers and eating the yogurt from the Chinir bowl
+# Traditionally this ceremoy is led by the senior male member of the household, but changed to the character for simplicity
+long_character_event = {
+	id = pamir.52
+	desc = pamir.52.desc
+	picture = GFX_evt_pamir_altar
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "pamir.52.a"
+		hidden_tooltip = {
+			character_event = { id = pamir.53 days = 2 random = 2 }
+		}
+	}	
+}
+
+# Chinir Feast
+# Traditionally, men participate in the feast and women meet informally
+# However for simplicity the text describes two different feasts, one for men and one for women
+character_event = {
+	id = pamir.53
+	desc = pamir.53.desc
+	picture = GFX_evt_feast
+	
+	## Male
+	#desc = {
+	#	text = pamir.53.desc.a
+	#	trigger = {
+	#		is_female = no	
+	#	}
+	#}
+	#
+	## Female
+	#desc = {
+	#	text = pamir.53.desc.a
+	#	trigger = {
+	#		is_female = no	
+	#	}
+	#}
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "pamir.53.a"
+		hidden_tooltip = {
+			#Feast events randomizer
+			random = {
+				character_event = { id = pamir.58 days = 2 random = 5 }
+				chance = 20
+			}
+			random = {
+				character_event = { id = pamir.59 days = 2 random = 5 }
+				chance = 20
+			}
+			random = {
+				character_event = { id = pamir.60 days = 2 random = 5 }
+				chance = 20
+			}
+			random = {
+				character_event = { id = pamir.61 days = 2 random = 5 }
+				chance = 20
+			}
+			random = {
+				character_event = { id = pamir.62 days = 2 random = 5 }
+				chance = 20
+			}
+			random = {
+				character_event = { id = pamir.63 days = 2 random = 5 }
+				chance = 20
+			}
+			random = {
+				character_event = { id = pamir.64 days = 2 random = 5 }
+				chance = 20
+			}
+			random = {
+				character_event = { id = pamir.65 days = 2 random = 5 }
+				chance = 20
+			}
+			random = {
+				character_event = { id = pamir.66 days = 2 random = 5 }
+				chance = 20
+			}
+			random = {
+				character_event = { id = pamir.73 days = 2 random = 5 }
+				chance = 20
+			}
+			character_event = { id = pamir.54 days = 9 } # After feast
+		}
+	}	
+}
+
+# Visiting other households after the feast
+character_event = {
+	id = pamir.54
+	desc = pamir.54.desc
+	picture = GFX_evt_small_town_pamiri
+
+	is_triggered_only = yes
+	
+	option = { # Visit peasant
+		name = "pamir.54.a"
+		piety = 10
+		hidden_tooltip = {
+			character_event = { id = pamir.55 days = 2 random = 2 }
+		}
+	}	
+	option = { # Visit craftsman
+		name = "pamir.54.b"
+		random_list = {
+			75 = { prestige = 10 }
+			25 = { piety = 10 }
+		}
+		hidden_tooltip = {
+			character_event = { id = pamir.55 days = 2 random = 2 }
+		}
+	}	
+	option = { # Visit scholar
+		name = "pamir.54.c"
+		random_list = {
+			75 = { piety = 10 }
+			25 = { prestige = 10 }
+		}
+		hidden_tooltip = {
+			character_event = { id = pamir.55 days = 2 random = 2 }
+		}
+	}	
+	option = { # Visit noble
+		name = "pamir.54.d"
+		prestige = 10
+		hidden_tooltip = {
+			character_event = { id = pamir.55 days = 2 random = 2 }
+		}
+	}	
+}
+
+# Partake in the harvesting of the crops
+character_event = {
+	id = pamir.55
+	desc = pamir.55.desc
+	picture = GFX_evt_central_asian_herd
+
+	is_triggered_only = yes
+	
+	option = { # NO!
+		name = "pamir.55.a"
+		trigger = {
+			trait = proud
+		}
+		tooltip_info = proud
+		piety = -5
+		hidden_tooltip = {
+			character_event = { id = pamir.57 days = 5 } # Skip to end
+		}
+	}	
+	option = { # NO!
+		name = "pamir.55.a"
+		trigger = {
+			trait = slothful
+			NOT = { trait = proud }
+		}
+		tooltip_info = slothful
+		piety = -5
+		hidden_tooltip = {
+			character_event = { id = pamir.57 days = 5 } # Skip to end
+		}
+	}
+	option = { # A little
+		name = "pamir.55.b"
+		prestige = -10
+		piety = 10
+		hidden_tooltip = {
+			character_event = { id = pamir.56 days = 2 }
+		}
+	}
+	option = { # A lot
+		name = "pamir.55.c"
+		trigger = {
+			NOT = { trait = proud }
+		}
+		prestige = -30
+		piety = 20
+		random = {
+			add_trait = charitable
+			chance = 15
+		}
+		hidden_tooltip = {
+			character_event = { id = pamir.56 days = 2 }
+		}
+	}
+}
+
+# Helping harvest first batch of crops
+character_event = {
+	id = pamir.56
+	desc = pamir.56.desc
+	picture = GFX_evt_small_town_pamiri
+
+	is_triggered_only = yes
+	
+	option = { # Male
+		name = "pamir.56.a"
+		trigger = {
+			is_female = no
+		}
+		hidden_tooltip = {
+			character_event = { id = pamir.57 days = 8 }
+			#Fruit picking events randomizer
+			random = {
+				character_event = { id = pamir.67 days = 2 random = 4 }
+				chance = 25
+			}
+			random = {
+				character_event = { id = pamir.68 days = 2 random = 4 }
+				chance = 25
+			}
+			random = {
+				character_event = { id = pamir.69 days = 2 random = 4 }
+				chance = 25
+			}
+			random = {
+				character_event = { id = pamir.70 days = 2 random = 4 }
+				chance = 25
+			}
+			random = {
+				character_event = { id = pamir.71 days = 2 random = 4 }
+				chance = 25
+			}
+			random = {
+				character_event = { id = pamir.72 days = 2 random = 4 }
+				chance = 25
+			}
+		}
+	}	
+	option = { # Female
+		name = "pamir.56.b"
+		trigger = {
+			is_female = yes
+		}
+		hidden_tooltip = {
+			character_event = { id = pamir.57 days = 8 }
+			#Fruit picking events randomizer
+			random = {
+				character_event = { id = pamir.67 days = 2 random = 4 }
+				chance = 25
+			}
+			random = {
+				character_event = { id = pamir.68 days = 2 random = 4 }
+				chance = 25
+			}
+			random = {
+				character_event = { id = pamir.69 days = 2 random = 4 }
+				chance = 25
+			}
+			random = {
+				character_event = { id = pamir.70 days = 2 random = 4 }
+				chance = 25
+			}
+			random = {
+				character_event = { id = pamir.71 days = 2 random = 4 }
+				chance = 25
+			}
+			random = {
+				character_event = { id = pamir.72 days = 2 random = 4 }
+				chance = 25
+			}
+		}
+	}
+}
+
+# Chinir ends
+character_event = {
+	id = pamir.57
+	desc = pamir.57.desc
+	picture = GFX_evt_pamir_valley
+
+	is_triggered_only = yes
+	
+	option = { # ok
+		name = "pamir.57.a"
+		clr_character_flag = VIET_holding_chinir_festival
+		clr_character_flag = do_not_disturb
+		add_character_modifier = {
+			name = VIET_chinir_timer
+			duration = 1825
+			hidden = yes
+		}
+	}
+}
+
+
+# There is only one piece of meat left
+character_event = {
+	id = pamir.58
+	desc = pamir.58.desc
+	picture = GFX_evt_hunza_food
+
+	is_triggered_only = yes
+	
+	option = { # Let them have it
+		name = "pamir.58.a"
+		piety = 5
+		random = {
+			add_trait = charitable
+			chance = 25
+		}
+	}	
+	option = { # Take it for yourself!
+		name = "pamir.58.b"
+		trigger = {
+			NOT = { trait = charitable }
+		}
+		random = {
+			add_trait = greedy
+			chance = 25
+		}
+	}
+}
+
+# Show generosity by bringing sweet wheat porridge and other foods to the feast?
+character_event = {
+	id = pamir.59
+	desc = pamir.59.desc
+	picture = GFX_evt_hunza_food
+
+	is_triggered_only = yes
+	
+	option = { # They should give *me* food!
+		name = "pamir.59.a"
+		trigger = {
+			NOT = { trait = charitable }
+		}
+		prestige = -10
+		random_list = {
+			70 = { }
+			20 = { add_trait = greedy }
+			5 = { add_trait = gluttonous }
+			5 = { add_trait = slothful }
+		}
+	}	
+	option = { # Give a modest amount of food
+		name = "pamir.59.b"
+		wealth = -5
+	}
+	option = { # Give a lots of food
+		name = "pamir.59.c"
+		prestige = 10
+		wealth = -10
+		random = {
+			add_trait = charitable
+			chance = 25
+		}
+	}
+	option = { # Give so much food it's crazy
+		name = "pamir.59.d"
+		trigger = {
+			trait = charitable
+		}
+		tooltip_info = charitable
+		prestige = 25
+		wealth = -25
+	}
+}
+
+
+# Saying prayers during the Chinir feast?
+character_event = {
+	id = pamir.60
+	desc = pamir.60.desc
+	picture = GFX_evt_pamir_altar
+
+	is_triggered_only = yes
+	
+	option = { # say prayers
+		name = "pamir.60.a"
+		piety = 5
+		prestige = -5
+	}	
+	option = { # balance
+		name = "pamir.60.b"
+	}	
+	option = { # socialize!
+		name = "pamir.60.c"
+		prestige = 5
+		piety = -5
+	}
+}
+
+
+
+# People should remember about cooperation within a community
+character_event = {
+	id = pamir.61
+	desc = pamir.61.desc
+	picture = GFX_evt_small_town_pamiri
+
+	is_triggered_only = yes
+	
+	option = { # ok
+		name = "pamir.61.a"
+		piety = 5
+	}
+}
+
+
+# Kurut, the horny curd cheese
+character_event = {
+	id = pamir.62
+	desc = pamir.62.desc
+	picture = GFX_evt_hunza_food
+
+	is_triggered_only = yes
+	
+	option = { # ok
+		name = "pamir.62.a"
+		trigger = {
+			is_female = no
+		}
+		add_character_modifier = {
+			name = VIET_ate_kurut_cheese
+			duration = 365
+		}
+		random = {
+			add_trait = lustful
+			chance = 15
+		}
+	}	
+	option = { # not in the mood
+		name = "pamir.62.b"
+		trigger = {
+			is_female = no
+		}
+		piety = 5
+		random_list = {
+			80 = { }
+			10 = { add_trait = patient }
+			10 = { add_trait = chaste }
+		}
+	}	
+	option = { # hope husband eats some
+		name = "pamir.62.c"
+		trigger = {
+			is_female = yes
+			is_married = yes
+		}
+		random = {
+			add_trait = lustful
+			chance = 15
+		}
+		any_spouse = {
+			limit = {
+				ai = yes
+				NOT = { trait = incapable }				
+			}
+			add_character_modifier = {
+				name = VIET_ate_kurut_cheese
+				duration = 365
+			}
+		}
+	}	
+	option = { # hope husband doesn't eat any
+		name = "pamir.62.d"
+		trigger = {
+			is_female = yes
+			is_married = yes
+		}
+		piety = 5
+	}	
+	option = { # tease the men later
+		name = "pamir.62.e"
+		trigger = {
+			is_female = yes
+		}
+		prestige = 5
+		random = {
+			add_trait = gregarious
+			chance = 20
+		}
+	}
+}
+
+# Moch - soup made with cheese curds and vegetables, 
+character_event = {
+	id = pamir.63
+	desc = pamir.63.desc
+	picture = GFX_evt_hunza_food
+
+	is_triggered_only = yes
+	
+	option = { # ok
+		name = "pamir.63.a"
+		random = {
+			health = 0.2
+			chance = 25
+		}
+	}
+}
+
+
+# Observing the house of the host you are in
+character_event = {
+	id = pamir.64
+	desc = pamir.64.desc
+	picture = GFX_evt_pamir_altar
+
+	is_triggered_only = yes
+	
+	option = { # observe with wonder
+		name = "pamir.64.a"
+		piety = 5
+	}	
+	option = { # praise the host
+		name = "pamir.64.b"
+		prestige = 5
+	}
+}
+
+
+# Learning about others' experiences
+character_event = {
+	id = pamir.65
+	desc = pamir.65.desc
+	picture = GFX_evt_feast
+
+	is_triggered_only = yes
+	
+	option = { # ok
+		name = "pamir.65.a"
+		random_list = {
+			60 = { }
+			10 = { change_diplomacy = 1 }
+			10 = { change_martial = 1 }
+			10 = { change_stewardship = 1 }
+			10 = { change_intrigue = 1 }
+			10 = { change_learning = 1 }
+		}
+	}
+}
+
+
+# Help bring food to the elderly and ill
+character_event = {
+	id = pamir.66
+	desc = pamir.66.desc
+	picture = GFX_evt_feast
+
+	is_triggered_only = yes
+	
+	option = { # nope
+		name = "pamir.66.a"
+		random_list = {
+			70 = { }
+			10 = { add_trait = slothful }
+			10 = { add_trait = paranoid }
+			10 = { add_trait = greedy }
+		}
+	}	
+	option = { # yes
+		name = "pamir.66.b"
+		piety = 5
+		prestige = 5
+		random_list = {
+			70 = { }
+			10 = { health = -0.1 }
+			10 = { health = -0.2 }
+			10 = { health = -0.3 }
+		}
+		random_list = {
+			70 = { }
+			10 = { add_trait = charitable }
+			10 = { add_trait = kind }
+			10 = { add_trait = humble }
+		}
+	}
+}
+
+
+
+# Help pick some fruits?
+character_event = {
+	id = pamir.67
+	desc = pamir.67.desc
+	picture = GFX_evt_skyrim_forest_pamiri
+
+	is_triggered_only = yes
+	
+	option = { # nope
+		name = "pamir.67.a"
+	}	
+	option = { # help
+		name = "pamir.67.b"
+		trigger = {
+			is_female = yes
+		}
+		prestige = -5
+		piety = 5		
+		random = {
+			add_trait = humble
+			chance = 20
+		}		
+	}	
+	option = { # help as man
+		name = "pamir.67.c"
+		trigger = {
+			is_female = no
+		}
+		prestige = -10
+		piety = 5		
+		random = {
+			add_trait = humble
+			chance = 33
+		}		
+	}
+}
+
+
+
+# Snacking on the fruits
+character_event = {
+	id = pamir.68
+	desc = pamir.68.desc
+	picture = GFX_evt_skyrim_forest_pamiri
+
+	is_triggered_only = yes
+	
+	option = { # ok
+		name = "pamir.68.a"
+		prestige = 5
+		random = {
+			add_trait = gregarious
+			chance = 10
+		}
+		random = {
+			add_trait = gluttonous
+			chance = 10
+		}
+	}	
+	option = { # restrain self
+		name = "pamir.68.b"
+		piety = 5
+		random = {
+			add_trait = temperate
+			chance = 10
+		}
+	}
+}
+
+# Sticky fruit sauce
+character_event = {
+	id = pamir.69
+	desc = pamir.69.desc
+	picture = GFX_evt_small_town_pamiri
+
+	is_triggered_only = yes
+	
+	option = { # ok
+		name = "pamir.69.a"
+		piety = 5
+	}
+}
+
+
+# Offering of goat or sheep meat
+character_event = {
+	id = pamir.70
+	desc = pamir.70.desc
+	picture = GFX_evt_small_town_pamiri
+
+	is_triggered_only = yes
+	
+	option = { # ok
+		name = "pamir.70.a"
+		prestige = 5
+	}
+}
+
+# Learning about village agricultural life
+character_event = {
+	id = pamir.71
+	desc = pamir.71.desc
+	picture = GFX_evt_small_town_pamiri
+
+	is_triggered_only = yes
+	
+	option = { # ok
+		name = "pamir.71.a"
+		random_list = {
+			70 = { }
+			10 = { change_diplomacy = 1 }
+			10 = { change_martial = 1 }
+			10 = { change_stewardship = 1 }
+			10 = { change_intrigue = 1 }
+			10 = { change_learning = 1 }
+		}
+	}
+}
+
+
+# Gathering leaves to use as animal fodder in the winter
+character_event = {
+	id = pamir.72
+	desc = pamir.72.desc
+	picture = GFX_evt_central_asian_herd
+
+	is_triggered_only = yes
+	
+	option = { # ok
+		name = "pamir.72.a"
+		prestige = -5
+		random = {
+			add_trait = diligent
+			chance = 20
+		}
+	}	
+	option = { # ok
+		name = "pamir.72.b"
+		piety = -5
+		random = {
+			add_trait = proud
+			chance = 20
+		}
+	}
+}
+
+
+
+# Eating nigan and baat
+character_event = {
+	id = pamir.73
+	desc = pamir.73.desc
+	picture = GFX_evt_hunza_food
+
+	is_triggered_only = yes
+	
+	option = { # Yes
+		name = "pamir.73.a"
+		random = {
+			piety = 5
+			chance = 50
+		}
+		random = {
+			add_trait = humble
+			chance = 25
+		}
+	}	
+	option = { # No
+		name = "pamir.73.b"
+		random = {
+			prestige = 5
+			chance = 50
+		}
+		random = {
+			add_trait = proud
+			chance = 25
+		}
+	}
+}
+
+
+
+
+####################################################################################
+# 
+# GENERIC FLAVOR EVENTS
+# pamir.100-199 reserved
+# 
+####################################################################################
+
+
+# Come across juniper forest
+character_event = {
+	id = pamir.100
+	desc = pamir.100.desc
+	picture = GFX_evt_skyrim_forest_pamiri
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		any_demesne_province = {
+			is_pamir_mountain_trigger = yes
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1	
+		modifier = {
+			factor = 1.2
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.8
+			trait = diligent
+		}
+		modifier = {
+			factor = 1.2
+			trait = wroth
+		}
+		modifier = {
+			factor = 0.8
+			trait = patient
+		}
+		modifier = {
+			factor = 1.2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.8
+			trait = paranoid
+		}
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+	}
+	
+	option = { # ok
+		name = pamir.100.a
+		add_character_modifier = {
+			name = VIET_pamir_juniper
+			duration = 1095
+		}
+	}
+}
+
+
+# Hunters in the Pamirs argue and ask you to resolve argument
+character_event = {
+	id = pamir.101
+	desc = pamir.101.desc
+	picture = GFX_evt_wakhan_corridor
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		any_demesne_province = {
+			is_pamir_mountain_trigger = yes
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1	
+		modifier = {
+			factor = 1.2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.8
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.2
+			trait = just
+		}
+		modifier = {
+			factor = 0.8
+			trait = arbitrary
+		}
+		modifier = {
+			factor = 1.2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.8
+			trait = cruel
+		}
+		modifier = {
+			factor = 1.2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.8
+			trait = paranoid
+		}
+	}
+	
+	option = { # ok
+		name = pamir.101.a
+		random_list = {
+			50 = { prestige = 10 }
+			50 = { prestige = -10 }
+		}
+	}	
+	option = { # ok
+		name = pamir.101.b
+		random_list = {
+			50 = { prestige = 10 }
+			50 = { prestige = -10 }
+		}
+	}	
+	option = { # ok
+		name = pamir.101.c
+		random = {
+			add_trait = paranoid
+			chance = 25
+		}
+	}	
+	option = { # ok
+		name = pamir.101.d
+		piety = -5
+		random_list = {
+			70 = { }
+			10 = { add_trait = proud }
+			10 = { add_trait = stubborn }
+			10 = { add_trait = wroth }
+		}
+	}
+}
+
+
+# Gift of lapis lazuli from locals
+character_event = {
+	id = pamir.102
+	desc = pamir.102.desc
+	picture = GFX_evt_lapis_lazuli
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		has_landed_title = c_badakhshan
+	}
+	
+	weight_multiplier = {
+		days = 1	
+		modifier = {
+			factor = 1.2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.8
+			trait = proud
+		}
+		modifier = {
+			factor = 1.2
+			trait = just
+		}
+		modifier = {
+			factor = 0.8
+			trait = arbitrary
+		}
+		modifier = {
+			factor = 1.2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.8
+			trait = cruel
+		}
+		modifier = {
+			factor = 1.2
+			trait = charitable
+		}
+		modifier = {
+			factor = 0.8
+			trait = greedy
+		}
+	}
+	
+	option = { # ok
+		name = pamir.102.a
+		wealth = 10
+		prestige = 10
+	}
+}
+
+
+# Lapis lazuli miners complain about harsh taskmasters
+character_event = {
+	id = pamir.103
+	desc = pamir.103.desc
+	picture = GFX_evt_lapis_lazuli
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		has_landed_title = c_badakhshan
+	}
+	
+	weight_multiplier = {
+		days = 1	
+		modifier = {
+			factor = 1.2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.8
+			trait = proud
+		}
+		modifier = {
+			factor = 1.2
+			trait = just
+		}
+		modifier = {
+			factor = 0.8
+			trait = arbitrary
+		}
+		modifier = {
+			factor = 1.2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.8
+			trait = cruel
+		}
+		modifier = {
+			factor = 1.2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}
+	}
+	
+	option = { # ok
+		name = pamir.103.a
+		random_list = {
+			70 = { }
+			10 = { add_trait = kind }
+			10 = { add_trait = trusting }
+			10 = { add_trait = patient }
+		}
+	}
+	
+	option = { # ok
+		name = pamir.103.b
+		random_list = {
+			70 = { }
+			10 = { add_trait = paranoid }
+			10 = { add_trait = greedy }
+			10 = { add_trait = proud }
+		}
+	}
+	
+	option = { # ok
+		name = pamir.103.c
+		trigger = {
+			diplomacy = 11
+		}
+		tooltip_info = diplomacy
+		random = {
+			add_trait = just
+			chance = 33
+		}
+		prestige = 15
+	}
+}
+
+
+
+# Found a beautiful lake in the Pamirs
+character_event = {
+	id = pamir.104
+	desc = pamir.104.desc
+	picture = GFX_evt_pamir_valley
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		any_demesne_province = {
+			is_pamir_mountain_trigger = yes
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1	
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = content
+		}
+		modifier = {
+			factor = 0.8
+			trait = ambitious
+		}
+		modifier = {
+			factor = 1.2
+			trait = zealous
+		}
+		modifier = {
+			factor = 0.8
+			trait = cynical
+		}
+		modifier = {
+			factor = 1.2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}
+	}
+	
+	option = { # ok
+		name = pamir.104.a
+		random_list = {
+			50 = { prestige = 5 }
+			50 = { piety = 5 }
+		}
+	}
+}
+
+
+
+# Find a petroglyph of hunters, animals, and nature
+character_event = {
+	id = pamir.105
+	desc = pamir.105.desc
+	picture = GFX_evt_pamir_valley
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		any_demesne_province = {
+			is_pamir_mountain_trigger = yes
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1	
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = content
+		}
+		modifier = {
+			factor = 0.8
+			trait = ambitious
+		}
+		modifier = {
+			factor = 1.2
+			trait = zealous
+		}
+		modifier = {
+			factor = 0.8
+			trait = cynical
+		}
+		modifier = {
+			factor = 1.2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}
+	}
+	
+	option = { # ok
+		name = pamir.105.a
+		piety = 5
+	}
+}
+
+
+
+
+# Find a petroglyph of people and text
+character_event = {
+	id = pamir.106
+	desc = pamir.106.desc
+	picture = GFX_evt_wakhan_corridor
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		any_demesne_province = {
+			is_pamir_mountain_trigger = yes
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1	
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = content
+		}
+		modifier = {
+			factor = 0.8
+			trait = ambitious
+		}
+		modifier = {
+			factor = 1.2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.8
+			trait = paranoid
+		}
+		modifier = {
+			factor = 1.2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}
+	}
+	
+	option = { # ok
+		name = pamir.106.a
+		prestige = 5
+	}
+}
+
+
+# Pamir hot spring found
+character_event = {
+	id = pamir.107
+	desc = pamir.107.desc
+	picture = GFX_evt_skyrim_forest_pamiri
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		any_demesne_province = {
+			is_pamir_mountain_trigger = yes
+			NOT = {
+				has_province_modifier = VIET_pamir_spring_found
+			}
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1	
+		modifier = {
+			factor = 1.2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.8
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.2
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.8
+			trait = content
+		}
+		modifier = {
+			factor = 1.2
+			trait = just
+		}
+		modifier = {
+			factor = 0.8
+			trait = arbitrary
+		}
+		modifier = {
+			factor = 1.2
+			trait = erudite
+		}
+		modifier = {
+			factor = 0.8
+			trait = stubborn
+		}
+	}
+	
+	option = { # ok
+		name = pamir.107.a
+		random_demesne_province = {
+			limit = {
+				is_pamir_mountain_trigger = yes
+			}
+			add_province_modifier = {
+				name = VIET_pamir_spring_found
+				duration = 3650
+			}
+		}
+	}
+}
+
+
+# Visiting a Pamir hot spring
+character_event = {
+	id = pamir.108
+	desc = pamir.108.desc
+	picture = GFX_evt_skyrim_forest_pamiri
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		any_demesne_province = {
+			is_pamir_mountain_trigger = yes
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1	
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = content
+		}
+		modifier = {
+			factor = 0.8
+			trait = ambitious
+		}
+		modifier = {
+			factor = 1.2
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.8
+			trait = diligent
+		}
+		modifier = {
+			factor = 1.2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.8
+			trait = proud
+		}
+	}
+	
+	option = { # ok
+		name = pamir.108.a
+		add_character_modifier = {
+			name = VIET_visited_pamir_spring
+			duration = 730
+		}
+	}
+}
+
+
+
+# Passing through the Wakhan Corridor
+character_event = {
+	id = pamir.109
+	desc = pamir.109.desc
+	picture = GFX_evt_wakhan_corridor
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		has_landed_title = c_vakhan
+		#any_demesne_province = {
+		#	is_pamir_mountain_trigger = yes
+		#}
+	}
+	
+	weight_multiplier = {
+		days = 1	
+		modifier = {
+			factor = 1.2
+			trait = zealous
+		}
+		modifier = {
+			factor = 0.8
+			trait = cynical
+		}
+		modifier = {
+			factor = 1.2
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.8
+			trait = content
+		}
+		modifier = {
+			factor = 1.2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.8
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.2
+			trait = just
+		}
+		modifier = {
+			factor = 0.8
+			trait = arbitrary
+		}
+	}
+	
+	option = { # ok
+		name = pamir.109.a
+		piety = 5
+	}
+}
+
+
+# A few families of nomads move into a Pamir province
+character_event = {
+	id = pamir.110
+	desc = pamir.110.desc
+	picture = GFX_evt_wakhan_corridor
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		any_demesne_province = {
+			is_pamir_mountain_trigger = yes
+			NOT = { has_province_modifier = VIET_pamir_nomad_clans_good }
+			NOT = { has_province_modifier = VIET_pamir_nomad_clans_bad }
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1	
+		modifier = {
+			factor = 1.2
+			trait = zealous
+		}
+		modifier = {
+			factor = 0.8
+			trait = cynical
+		}
+		modifier = {
+			factor = 1.2
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.8
+			trait = content
+		}
+		modifier = {
+			factor = 1.2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.8
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.2
+			trait = just
+		}
+		modifier = {
+			factor = 0.8
+			trait = arbitrary
+		}
+	}
+	
+	option = { # ok
+		name = pamir.110.a
+		random_demesne_province = {
+			limit = {
+				is_pamir_mountain_trigger = yes
+			}
+			random_list = {
+				50 = {
+					add_province_modifier = {
+						name = VIET_pamir_nomad_clans_good
+						duration = 1825
+					}
+				}
+				50 = {
+					add_province_modifier = {
+						name = VIET_pamir_nomad_clans_bad
+						duration = 1825
+					}
+				}
+			}
+		}
+	}
+}
+
+
+# Pamir nomads offer military services
+character_event = {
+	id = pamir.111
+	desc = pamir.111.desc
+	picture = GFX_evt_wakhan_corridor
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		any_demesne_province = {
+			is_pamir_mountain_trigger = yes
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1	
+		modifier = {
+			factor = 1.2
+			trait = brave
+		}
+		modifier = {
+			factor = 0.8
+			trait = craven
+		}
+		modifier = {
+			factor = 1.2
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.8
+			trait = content
+		}
+		modifier = {
+			factor = 1.2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.8
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.2
+			trait = charitable
+		}
+		modifier = {
+			factor = 0.8
+			trait = greedy
+		}
+	}
+	
+	option = { # ok
+		name = pamir.111.a
+		trigger = {
+			OR = {
+				ai = no
+				wealth = 30
+			}
+		}
+		prestige = -20
+		wealth = -30
+		capital_scope = {
+			PREV = {
+				spawn_unit = {
+					owner = ROOT
+					province = PREV
+					home = PREV
+					troops = {
+						archers = { 50 50 }
+						light_infantry = { 100 100 }
+						light_cavalry = { 125 125 }
+						knights = { 25 25 }
+						horse_archers = { 150 150 }
+					}
+					attrition = 1.0
+					#disband_on_peace = yes
+					maintenance_multiplier = 0.1
+				}
+			}
+		}
+	}
+	
+	option = { # ok
+		name = pamir.111.b
+		trigger = {
+			OR = {
+				ai = no
+				wealth = 10
+			}
+		}
+		prestige = -20
+		wealth = -10
+		add_province_modifier = {
+			name = VIET_pamir_nomad_training
+			duration = 1825
+		}
+	}
+	
+	option = { # ok
+		name = pamir.111.c
+	}
+}
+
+
+
+# Pamir herder gifts a bowl made from the horn of the Marco Polo sheep
+character_event = {
+	id = pamir.112
+	desc = pamir.112.desc
+	picture = GFX_evt_central_asian_herd
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		any_demesne_province = {
+			is_pamir_mountain_trigger = yes
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1	
+		modifier = {
+			factor = 1.2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.8
+			trait = envious
+		}
+		modifier = {
+			factor = 1.2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.8
+			trait = proud
+		}
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = charitable
+		}
+		modifier = {
+			factor = 0.8
+			trait = greedy
+		}
+	}
+	
+	option = { # ok
+		name = pamir.112.a
+		random_list = {
+			50 = { prestige = 5 }
+			50 = { piety = 5 }
+		}
+	}
+}
+
+
+# Learning about Marco Polo sheep from a local herder
+character_event = {
+	id = pamir.113
+	desc = pamir.113.desc
+	picture = GFX_evt_central_asian_herd
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		any_demesne_province = {
+			is_pamir_mountain_trigger = yes
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1	
+		modifier = {
+			factor = 1.2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.8
+			trait = envious
+		}
+		modifier = {
+			factor = 1.2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.8
+			trait = proud
+		}
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.8
+			trait = paranoid
+		}
+	}
+	
+	option = { # ok
+		name = pamir.113.a
+		piety = 5
+	}
+}
+
+
+
+# Feud between two Burusho clans
+character_event = {
+	id = pamir.114
+	desc = pamir.114.desc
+	picture = GFX_evt_small_town_pamiri
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		any_demesne_province = {
+			is_pamir_mountain_trigger = yes
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1	
+		modifier = {
+			factor = 1.2
+			trait = wroth
+		}
+		modifier = {
+			factor = 0.8
+			trait = patient
+		}
+		modifier = {
+			factor = 1.2
+			trait = arbitrary
+		}
+		modifier = {
+			factor = 0.8
+			trait = just
+		}
+		modifier = {
+			factor = 1.2
+			trait = content
+		}
+		modifier = {
+			factor = 0.8
+			trait = ambitious
+		}
+		modifier = {
+			factor = 1.2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.8
+			trait = paranoid
+		}
+	}
+	
+	option = { # ok
+		name = pamir.114.a
+		random_demesne_province = {
+			limit = {
+				is_pamir_mountain_trigger = yes
+			}
+			random = {
+				add_province_modifier = {
+					name = VIET_burusho_feud
+					duration = 3650
+				}
+				chance = 70
+			}
+		}
+	}	
+	option = { # ok
+		name = pamir.114.b
+		trigger = {
+			diplomacy = 10
+		}
+		tooltip_info = diplomacy
+		prestige = -10
+	}
+	option = { # ok
+		name = pamir.114.c
+		trigger = {
+			intrigue = 10
+		}
+		tooltip_info = intrigue
+		prestige = -10
+	}
+	option = { # ok
+		name = pamir.114.d
+		trigger = {
+			martial = 10
+		}
+		tooltip_info = martial
+		prestige = -10
+	}
+}
+
+
+
+# Burusho peasant offers humble gift
+character_event = {
+	id = pamir.115
+	desc = pamir.115.desc
+	picture = GFX_evt_pamir_valley
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		any_demesne_province = {
+			is_pamir_mountain_trigger = yes
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1	
+		modifier = {
+			factor = 1.2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.8
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.2
+			trait = brave
+		}
+		modifier = {
+			factor = 0.8
+			trait = craven
+		}
+		modifier = {
+			factor = 1.2
+			trait = honest
+		}
+		modifier = {
+			factor = 0.8
+			trait = deceitful
+		}
+		modifier = {
+			factor = 1.2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.8
+			trait = paranoid
+		}
+	}
+	
+	option = { # ok
+		name = pamir.115.a
+		prestige = 5
+	}	
+	option = { # ok
+		name = pamir.115.b
+		piety = 5
+		random = {
+			add_trait = charitable
+			chance = 20
+		}
+	}
+	option = { # ok
+		name = pamir.115.c
+		trigger = {
+			NOR = {
+				trait = kind
+				trait = humble
+				trait = charitable
+				trait = trusting
+				trait = patient
+			}
+		}
+		piety = -5
+		random_list = {
+			60 = { }
+			10 = { add_trait = wroth }
+			10 = { add_trait = cruel }
+			10 = { add_trait = proud }
+			10 = { add_trait = arbitrary }
+		}
+	}
+	option = { # ok
+		name = pamir.115.d
+		trigger = {
+			trait = charitable
+		}
+		tooltip_info = charitable
+		wealth = -3
+		piety = 10
+	}
+}
+
+
+
+
+
+# Burusho headman offers food before a meeting
+character_event = {
+	id = pamir.116
+	desc = pamir.116.desc
+	picture = GFX_evt_hunza_food
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		any_demesne_province = {
+			is_pamir_mountain_trigger = yes
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1	
+		modifier = {
+			factor = 1.2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.8
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}
+		modifier = {
+			factor = 1.2
+			trait = just
+		}
+		modifier = {
+			factor = 0.8
+			trait = arbitrary
+		}
+	}
+	
+	option = { # ok
+		name = pamir.116.a
+		prestige = 5
+		random = {
+			add_trait = gregarious
+			chance = 15
+		}
+	}	
+	option = { # ok
+		name = pamir.116.b
+		piety = -5
+		random = {
+			add_trait = diligent
+			chance = 15
+		}
+		random = {
+			add_trait = shy
+			chance = 15
+		}
+	}
+}
+
+
+
+# Craving of baht porridge
+character_event = {
+	id = pamir.117
+	desc = pamir.117.desc
+	picture = GFX_evt_hunza_food
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		OR = {
+			culture = pamiri
+			any_demesne_province = {
+				is_pamir_mountain_trigger = yes
+			}
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1	
+		modifier = {
+			factor = 1.2
+			trait = gluttonous
+		}
+		modifier = {
+			factor = 0.8
+			trait = temperate
+		}
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = wroth
+		}
+		modifier = {
+			factor = 0.8
+			trait = patient
+		}
+		modifier = {
+			factor = 1.2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.8
+			trait = proud
+		}
+	}
+	
+	option = { # ok
+		name = pamir.117.a
+	}	
+	option = { # ok
+		name = pamir.117.b
+		trigger = {
+			OR = {
+				wealth = 5
+				ai = no
+			}
+		}
+		wealth = -5
+		random = {
+			health = 0.2
+			chance = 25
+		}
+		add_character_modifier = {
+			name = VIET_ate_baht_porridge
+			duration = 365
+		}
+	}
+}
+
+
+# What to use mulberries for?
+character_event = {
+	id = pamir.118
+	desc = pamir.118.desc
+	picture = GFX_evt_small_town_pamiri
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		OR = {
+			culture = pamiri
+			any_demesne_province = {
+				is_pamir_mountain_trigger = yes
+			}
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1	
+		modifier = {
+			factor = 1.2
+			trait = gluttonous
+		}
+		modifier = {
+			factor = 0.8
+			trait = temperate
+		}
+		modifier = {
+			factor = 1.2
+			trait = greedy
+		}
+		modifier = {
+			factor = 0.8
+			trait = charitable
+		}
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = lustful
+		}
+		modifier = {
+			factor = 0.8
+			trait = chaste
+		}
+	}
+	
+	option = { # ok
+		name = pamir.118.a
+		piety = 5
+	}
+	
+	option = { # ok
+		name = pamir.118.b
+		piety = 5
+	}
+	
+	option = { # ok
+		name = pamir.118.c
+		piety = 5
+	}
+}
+
+
+
+# Planting a mulberry tree before beginning construction
+character_event = {
+	id = pamir.119
+	desc = pamir.119.desc
+	picture = GFX_evt_small_town_pamiri
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		OR = {
+			culture = pamiri
+			any_demesne_province = {
+				OR = {
+					is_pamir_mountain_trigger = yes
+					culture = pamiri
+				}
+			}
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1	
+		modifier = {
+			factor = 1.2
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.8
+			trait = content
+		}
+		modifier = {
+			factor = 1.2
+			trait = deceitful
+		}
+		modifier = {
+			factor = 0.8
+			trait = honest
+		}
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = charitable
+		}
+		modifier = {
+			factor = 0.8
+			trait = greedy
+		}
+	}
+	
+	option = { # ok
+		name = pamir.119.a
+		prestige = 5
+	}
+}
+
+
+# Pamiri villagers provide some humble food to you
+character_event = {
+	id = pamir.120
+	desc = pamir.120.desc
+	picture = GFX_evt_hunza_food
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		OR = {
+			culture = pamiri
+			any_demesne_province = {
+				OR = {
+					is_pamir_mountain_trigger = yes
+					culture = pamiri
+				}
+			}
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1	
+		modifier = {
+			factor = 1.2
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.8
+			trait = content
+		}
+		modifier = {
+			factor = 1.2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.8
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = brave
+		}
+		modifier = {
+			factor = 0.8
+			trait = craven
+		}
+	}
+	
+	option = { # ok
+		name = pamir.120.a
+		piety = 5
+		prestige = -5
+	}	
+	option = { # ok
+		name = pamir.120.b
+		trigger = {
+			NOT = { trait = humble }
+		}
+		random = {
+			add_trait = proud
+			chance = 33
+		}
+	}
+}
+
+
+
+
+# Come across an Oston, a lone sacred tree
+character_event = {
+	id = pamir.121
+	desc = pamir.121.desc
+	picture = GFX_evt_skyrim_forest_pamiri
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		OR = {
+			culture = pamiri
+			any_demesne_province = {
+				OR = {
+					is_pamir_mountain_trigger = yes
+					culture = pamiri
+				}
+			}
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1	
+		modifier = {
+			factor = 1.2
+			trait = zealous
+		}
+		modifier = {
+			factor = 0.8
+			trait = cynical
+		}
+		modifier = {
+			factor = 1.2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.8
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.2
+			trait = chaste
+		}
+		modifier = {
+			factor = 0.8
+			trait = lustful
+		}
+		modifier = {
+			factor = 1.2
+			trait = brave
+		}
+		modifier = {
+			factor = 0.8
+			trait = craven
+		}
+	}
+	
+	option = { # ok
+		name = pamir.121.a
+		trigger = {
+			NOT = { trait = zealous }
+		}
+		piety = -5
+	}	
+	option = { # ok
+		name = pamir.121.b
+		wealth = -5
+		piety = 5
+	}	
+	option = { # ok
+		name = pamir.121.c
+		trigger = {
+			OR = {
+				wealth = 10
+				ai = no
+			}
+		}
+		wealth = -10
+		piety = 15
+	}	
+	option = { # ok
+		name = pamir.121.d
+		trigger = {
+			OR = {
+				wealth = 20
+				ai = no
+			}
+		}
+		wealth = -20
+		piety = 30
+	}
+}
+
+
+
+# Come across a qadamgoh, a special place where a saint visited
+character_event = {
+	id = pamir.122
+	desc = pamir.122.desc
+	picture = GFX_evt_pamir_valley
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		OR = {
+			culture = pamiri
+			any_demesne_province = {
+				OR = {
+					is_pamir_mountain_trigger = yes
+					culture = pamiri
+				}
+			}
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1	
+		modifier = {
+			factor = 1.2
+			trait = zealous
+		}
+		modifier = {
+			factor = 0.8
+			trait = cynical
+		}
+		modifier = {
+			factor = 1.2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.8
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.8
+			trait = envious
+		}
+		modifier = {
+			factor = 1.2
+			trait = brave
+		}
+		modifier = {
+			factor = 0.8
+			trait = craven
+		}
+	}
+	
+	option = { # ok
+		name = pamir.122.a
+		trigger = {
+			NOT = { trait = zealous }
+		}
+	}	
+	option = { # ok
+		name = pamir.122.b
+		prestige = -5
+		piety = 5
+	}
+}
+
+
+# Come across an ancient rock carving depicting a Buddha
+character_event = {
+	id = pamir.123
+	desc = pamir.123.desc
+	picture = GFX_evt_wakhan_corridor
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		any_demesne_province = {
+			is_pamir_mountain_trigger = yes
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1	
+		modifier = {
+			factor = 1.2
+			trait = paranoid
+		}
+		modifier = {
+			factor = 0.8
+			trait = trusting
+		}
+		modifier = {
+			factor = 1.2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.8
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.2
+			trait = erudite
+		}
+		modifier = {
+			factor = 0.8
+			trait = stubborn
+		}
+		modifier = {
+			factor = 1.2
+			trait = brave
+		}
+		modifier = {
+			factor = 0.8
+			trait = craven
+		}
+	}
+	
+	option = { # ok
+		name = pamir.123.a
+		trigger = {
+			religion = buddhist
+		}
+		piety = 5
+	}	
+	option = { # ok
+		name = pamir.123.b
+		if = {
+			limit = {
+				religion = buddhist
+			}
+			piety = -5
+		}
+		else = {
+			prestige = 5
+		}
+	}
+	option = { # ok
+		name = pamir.123.c
+		trigger = {
+			NOT = { religion = buddhist }
+			NOT = { trait = sympathy_indian }
+		}
+		piety = 5
+	}
+	option = { # ok
+		name = pamir.123.d
+		prestige = 5
+		if = {
+			limit = {
+				NOT = { religion = buddhist }
+				NOT = { trait = sympathy_indian }				
+			}
+			random = {
+				add_trait = sympathy_indian
+				chance = 25
+			}
+		}
+	}
+}
+
+
+
+
+# Meeting with a Burusho shaman
+character_event = {
+	id = pamir.124
+	desc = pamir.124.desc
+	picture = GFX_evt_pamir_altar
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		any_demesne_province = {
+			is_pamir_mountain_trigger = yes
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1	
+		modifier = {
+			factor = 1.2
+			trait = just
+		}
+		modifier = {
+			factor = 0.8
+			trait = arbitrary
+		}
+		modifier = {
+			factor = 1.2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.8
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.8
+			trait = proud
+		}
+		modifier = {
+			factor = 1.2
+			trait = brave
+		}
+		modifier = {
+			factor = 0.8
+			trait = craven
+		}
+	}
+	
+	option = { # ok
+		name = pamir.124.a
+		trigger = {
+			NOR = {
+				religion_group = indian_group
+				religion_group = pagan_group
+			}
+		}
+		piety = 10
+	}	
+	option = { # ok
+		name = pamir.124.b
+		if = {
+			limit = {
+				NOR = {
+					religion_group = indian_group
+					religion_group = pagan_group
+				}			
+			}
+			piety = -20
+		}
+		add_character_modifier = {
+			name = VIET_burusho_fairy_advice
+			duration = 1825
+		}
+	}
+}
+
+
+# Local woman accused of being a Belas spirit
+character_event = {
+	id = pamir.125
+	desc = pamir.125.desc
+	picture = GFX_evt_pamir_altar
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		any_demesne_province = {
+			OR = {
+				is_pamir_mountain_trigger = yes
+				culture = pamiri
+				culture = burusho
+			}
+		}
+		NOT = { has_character_flag = VIET_pamir_belas_event_recruited }
+	}
+	
+	weight_multiplier = {
+		days = 1	
+		modifier = {
+			factor = 1.2
+			trait = just
+		}
+		modifier = {
+			factor = 0.8
+			trait = arbitrary
+		}
+		modifier = {
+			factor = 1.2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.8
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.2
+			trait = zealous
+		}
+		modifier = {
+			factor = 0.8
+			trait = cynical
+		}
+		modifier = {
+			factor = 1.2
+			trait = patient
+		}
+		modifier = {
+			factor = 0.8
+			trait = wroth
+		}
+	}
+	
+	option = { # ok
+		name = pamir.125.a
+		prestige = 5
+		random_list = {
+			70 = { }
+			15 = { add_trait = cynical }
+			15 = { add_trait = wroth }
+		}
+	}	
+	option = { # ok
+		name = pamir.125.b
+		piety = 5
+		random_list = {
+			70 = { }
+			10 = { add_trait = just }
+			10 = { add_trait = trusting }
+			10 = { add_trait = content }
+		}
+	}	
+	option = { # ok
+		name = pamir.125.c
+		random_list = {
+			50 = { prestige = 5 }
+			50 = { piety = 5 }
+		}
+		random_list = {
+			70 = { }
+			10 = { add_trait = paranoid }
+			10 = { add_trait = zealous }
+			10 = { add_trait = cruel }
+		}
+	}
+	option = { # ok
+		name = pamir.125.d
+		trigger = {
+			trait = kind
+			NOT = { trait = charitable }
+			NOT = { trait = just }
+		}
+		prestige = -20
+		piety = 10
+		set_character_flag = VIET_pamir_belas_event_recruited
+		create_character = {
+			female = yes
+			random_traits = no
+			dynasty = none
+			religion = ROOT
+			culture = pamiri
+			historical = yes
+			#flag = ai_flag_refuse_conversion
+		}
+		new_character = {
+			set_character_flag = VIET_spawned_courtier
+			opinion = {
+				modifier = opinion_saved_me_belas
+				who = ROOT
+				years = 20
+			}
+			reverse_opinion = {
+				modifier = opinion_new_courtier
+				who = ROOT
+				years = 5
+			}
+			#Appearance randomizer
+			random_list = {
+				60 = { }
+				10 = { set_graphical_culture = panjabi }
+				10 = { set_graphical_culture = polish }
+				10 = { set_graphical_culture = croatian }
+				10 = { set_graphical_culture = levantine_arabic }
+				10 = { set_graphical_culture = armenian }
+				10 = { set_graphical_culture = bodpa }
+			}		
+			#Traits
+			add_random_education_trait = yes
+			add_trait = depressed
+			random_list = {
+				70 = { } #Nothing
+				28 = { add_scarred_tiered_effect = yes }
+				2 = { 
+					trigger = { has_dlc = Reapers }
+					add_trait = one_eyed
+				}
+			}
+			add_character_modifier = {
+				name = VIET_accused_belas
+				duration = -1
+			}
+			random_list = {
+				40 = { add_trait = fair }
+				40 = { }
+				20 = { add_trait = ugly }
+			}
+			#Personality archetypes
+			random_list = {
+				10 = { # Innocent and pure of heart
+					add_trait = fair
+					add_trait = kind
+					add_trait = trusting
+					add_trait = shy
+					add_trait = chaste
+					add_trait = humble
+				}
+				10 = { # Scared and timid
+					add_trait = craven
+					add_trait = paranoid
+					add_trait = shy
+					add_trait = temperate
+					add_trait = humble
+				}
+				10 = { # an actual asshole
+					add_trait = envious
+					add_trait = cruel
+					add_trait = wroth
+					add_trait = stubborn
+					add_trait = honest
+				}
+				10 = { # promiscuous
+					add_trait = fair
+					add_trait = lustful
+					add_trait = gregarious
+					add_trait = charitable
+					add_trait = proud
+					add_trait = hedonist
+				}
+				10 = { # tomboy
+					add_trait = brave
+					add_trait = proud
+					add_trait = gregarious
+					add_trait = diligent
+					add_trait = stubborn
+				}
+				10 = { # articulate and refined
+					add_trait = erudite
+					add_trait = patient
+					add_trait = diligent
+					add_trait = proud
+					add_trait = chaste
+				}
+				10 = { # antisocial weirdo
+					add_trait = shy
+					add_trait = content
+					add_trait = slothful
+					add_trait = gluttonous
+					add_trait = chaste
+				}
+			}
+		}
+	}
+	option = { # ok
+		name = pamir.125.d
+		trigger = {
+			trait = charitable
+			NOT = { trait = just }
+		}
+		prestige = -20
+		piety = 10
+		set_character_flag = VIET_pamir_belas_event_recruited
+		create_character = {
+			female = yes
+			random_traits = no
+			dynasty = none
+			religion = ROOT
+			culture = pamiri
+			historical = yes
+			#flag = ai_flag_refuse_conversion
+		}
+		new_character = {
+			set_character_flag = VIET_spawned_courtier
+			opinion = {
+				modifier = opinion_saved_me_belas
+				who = ROOT
+				years = 20
+			}
+			reverse_opinion = {
+				modifier = opinion_new_courtier
+				who = ROOT
+				years = 5
+			}
+			#Appearance randomizer
+			random_list = {
+				60 = { }
+				10 = { set_graphical_culture = panjabi }
+				10 = { set_graphical_culture = polish }
+				10 = { set_graphical_culture = croatian }
+				10 = { set_graphical_culture = levantine_arabic }
+				10 = { set_graphical_culture = armenian }
+				10 = { set_graphical_culture = bodpa }
+			}		
+			#Traits
+			add_random_education_trait = yes
+			add_trait = depressed
+			random_list = {
+				70 = { } #Nothing
+				28 = { add_scarred_tiered_effect = yes }
+				2 = { 
+					trigger = { has_dlc = Reapers }
+					add_trait = one_eyed
+				}
+			}
+			add_character_modifier = {
+				name = VIET_accused_belas
+				duration = -1
+			}
+			random_list = {
+				40 = { add_trait = fair }
+				40 = { }
+				20 = { add_trait = ugly }
+			}
+			#Personality archetypes
+			random_list = {
+				10 = { # Innocent and pure of heart
+					add_trait = fair
+					add_trait = kind
+					add_trait = trusting
+					add_trait = shy
+					add_trait = chaste
+					add_trait = humble
+				}
+				10 = { # Scared and timid
+					add_trait = craven
+					add_trait = paranoid
+					add_trait = shy
+					add_trait = temperate
+					add_trait = humble
+				}
+				10 = { # an actual asshole
+					add_trait = envious
+					add_trait = cruel
+					add_trait = wroth
+					add_trait = stubborn
+					add_trait = honest
+				}
+				10 = { # promiscuous
+					add_trait = fair
+					add_trait = lustful
+					add_trait = gregarious
+					add_trait = charitable
+					add_trait = proud
+					add_trait = hedonist
+				}
+				10 = { # tomboy
+					add_trait = brave
+					add_trait = proud
+					add_trait = gregarious
+					add_trait = diligent
+					add_trait = stubborn
+				}
+				10 = { # articulate and refined
+					add_trait = erudite
+					add_trait = patient
+					add_trait = diligent
+					add_trait = proud
+					add_trait = chaste
+				}
+				10 = { # antisocial weirdo
+					add_trait = shy
+					add_trait = content
+					add_trait = slothful
+					add_trait = gluttonous
+					add_trait = chaste
+				}
+			}
+		}
+	}
+	option = { # ok
+		name = pamir.125.d
+		trigger = {
+			trait = just
+		}
+		prestige = -20
+		piety = 10
+		set_character_flag = VIET_pamir_belas_event_recruited
+		create_character = {
+			female = yes
+			random_traits = no
+			dynasty = none
+			religion = ROOT
+			culture = pamiri
+			historical = yes
+			#flag = ai_flag_refuse_conversion
+		}
+		new_character = {
+			set_character_flag = VIET_spawned_courtier
+			opinion = {
+				modifier = opinion_saved_me_belas
+				who = ROOT
+				years = 20
+			}
+			reverse_opinion = {
+				modifier = opinion_new_courtier
+				who = ROOT
+				years = 5
+			}
+			#Appearance randomizer
+			random_list = {
+				60 = { }
+				10 = { set_graphical_culture = panjabi }
+				10 = { set_graphical_culture = polish }
+				10 = { set_graphical_culture = croatian }
+				10 = { set_graphical_culture = levantine_arabic }
+				10 = { set_graphical_culture = armenian }
+				10 = { set_graphical_culture = bodpa }
+			}		
+			#Traits
+			add_random_education_trait = yes
+			add_trait = depressed
+			random_list = {
+				70 = { } #Nothing
+				28 = { add_scarred_tiered_effect = yes }
+				2 = { 
+					trigger = { has_dlc = Reapers }
+					add_trait = one_eyed
+				}
+			}
+			add_character_modifier = {
+				name = VIET_accused_belas
+				duration = -1
+			}
+			random_list = {
+				40 = { add_trait = fair }
+				40 = { }
+				20 = { add_trait = ugly }
+			}
+			#Personality archetypes
+			random_list = {
+				10 = { # Innocent and pure of heart
+					add_trait = fair
+					add_trait = kind
+					add_trait = trusting
+					add_trait = shy
+					add_trait = chaste
+					add_trait = humble
+				}
+				10 = { # Scared and timid
+					add_trait = craven
+					add_trait = paranoid
+					add_trait = shy
+					add_trait = temperate
+					add_trait = humble
+				}
+				10 = { # an actual asshole
+					add_trait = envious
+					add_trait = cruel
+					add_trait = wroth
+					add_trait = stubborn
+					add_trait = honest
+				}
+				10 = { # promiscuous
+					add_trait = fair
+					add_trait = lustful
+					add_trait = gregarious
+					add_trait = charitable
+					add_trait = proud
+					add_trait = hedonist
+				}
+				10 = { # tomboy
+					add_trait = brave
+					add_trait = proud
+					add_trait = gregarious
+					add_trait = diligent
+					add_trait = stubborn
+				}
+				10 = { # articulate and refined
+					add_trait = erudite
+					add_trait = patient
+					add_trait = diligent
+					add_trait = proud
+					add_trait = chaste
+				}
+				10 = { # antisocial weirdo
+					add_trait = shy
+					add_trait = content
+					add_trait = slothful
+					add_trait = gluttonous
+					add_trait = chaste
+				}
+			}
+		}
+	}
+}
+
+
+
+# Village headsman tells family legend about being descended from local fairies
+character_event = {
+	id = pamir.126
+	desc = pamir.126.desc
+	picture = GFX_evt_skyrim_forest_pamiri
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		any_demesne_province = {
+			is_pamir_mountain_trigger = yes
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1	
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = content
+		}
+		modifier = {
+			factor = 0.8
+			trait = ambitious
+		}
+		modifier = {
+			factor = 1.2
+			trait = zealous
+		}
+		modifier = {
+			factor = 0.8
+			trait = cynical
+		}
+		modifier = {
+			factor = 1.2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.8
+			trait = proud
+		}
+	}
+	
+	option = { # ok
+		name = pamir.126.a
+		random = {
+			add_trait = gregarious
+			chance = 20
+		}
+	}	
+	option = { # ok
+		name = pamir.126.b
+		random = {
+			add_trait = cynical
+			chance = 20
+		}
+	}
+}
+
+
+
+# Hear about the ancient Hephthalites
+character_event = {
+	id = pamir.127
+	desc = pamir.127.desc
+	picture = GFX_evt_pamir_altar
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		any_demesne_province = {
+			is_pamir_mountain_trigger = yes
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1	
+		modifier = {
+			factor = 1.2
+			trait = erudite
+		}
+		modifier = {
+			factor = 0.8
+			trait = stubborn
+		}
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = brave
+		}
+		modifier = {
+			factor = 0.8
+			trait = craven
+		}
+		modifier = {
+			factor = 1.2
+			trait = content
+		}
+		modifier = {
+			factor = 0.8
+			trait = ambitious
+		}
+	}
+	
+	option = { # ok
+		name = pamir.127.a
+		prestige = 5
+	}	
+	option = { # ok
+		name = pamir.127.b
+		piety = 5
+	}
+}
+
+
+# Villager explains the Pamiri concept of "huk"
+character_event = {
+	id = pamir.128
+	desc = pamir.128.desc
+	picture = GFX_evt_pamir_valley
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		any_demesne_province = {
+			is_pamir_mountain_trigger = yes
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1	
+		modifier = {
+			factor = 1.2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.8
+			trait = shy
+		}
+		modifier = {
+			factor = 1.2
+			trait = trusting
+		}
+		modifier = {
+			factor = 0.8
+			trait = paranoid
+		}
+		modifier = {
+			factor = 1.2
+			trait = zealous
+		}
+		modifier = {
+			factor = 0.8
+			trait = cynical
+		}
+		modifier = {
+			factor = 1.2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.8
+			trait = proud
+		}
+	}
+	
+	option = { # ok
+		name = pamir.128.a
+		random = {
+			add_trait = trusting
+			chance = 25
+		}
+	}	
+	option = { # ok
+		name = pamir.128.b
+		random_list = {
+			70 = { }
+			10 = { add_trait = humble }
+			10 = { add_trait = cynical }
+			10 = { add_trait = kind }
+		}
+	}	
+	option = { # ok
+		name = pamir.128.c
+		random_list = {
+			70 = { }
+			15 = { add_trait = cynical }
+			15 = { add_trait = proud }
+		}
+	}	
+	option = { # ok
+		name = pamir.128.d
+		random = {
+			add_trait = trusting
+			chance = 15
+		}
+	}
+}
+
+
+# Enter a gorgeous valley in the Pamirs
+character_event = {
+	id = pamir.129
+	desc = pamir.129.desc
+	picture = GFX_evt_pamir_valley
+	
+	is_triggered_only = yes
+
+	min_age = 16
+	only_rulers = yes
+	capable_only = yes
+	prisoner = no
+	#war = no
+	
+	trigger = {
+		in_command = no
+		#NOT = { has_alternate_start_parameter = { key = religion_names value = random } }
+		#NOT = { has_alternate_start_parameter = { key = culture_names value = random } }
+		any_demesne_province = {
+			is_pamir_mountain_trigger = yes
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1	
+		modifier = {
+			factor = 1.2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.8
+			trait = slothful
+		}
+		modifier = {
+			factor = 1.2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.8
+			trait = envious
+		}
+		modifier = {
+			factor = 1.2
+			trait = chaste
+		}
+		modifier = {
+			factor = 0.8
+			trait = lustful
+		}
+		modifier = {
+			factor = 1.2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.8
+			trait = proud
+		}
+	}
+	
+	option = { # ok
+		name = pamir.129.a
+		piety = 5
+	}
+}
+
+

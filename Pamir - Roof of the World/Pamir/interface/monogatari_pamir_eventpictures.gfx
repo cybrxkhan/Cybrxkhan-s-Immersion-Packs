@@ -1,0 +1,144 @@
+spriteTypes = {
+	#spriteType = {
+	#	name = "GFX_evt_bactrian_ruins"
+	#	texturefile = "gfx\\event_pictures\\bactrian_ruins.tga"
+	#	allwaystransparent = yes
+	#}
+	#spriteType = {
+	#	name = "GFX_evt_ancient_cairn_pamiri"
+	#	texturefile = "gfx\\event_pictures\\bactrian_ruins.tga"
+	#	allwaystransparent = yes
+	#}
+	#spriteType = {
+	#	name = "GFX_evt_ancient_cairn_burusho"
+	#	texturefile = "gfx\\event_pictures\\bactrian_ruins.tga"
+	#	allwaystransparent = yes
+	#}
+	spriteType = {
+		name = "GFX_evt_central_asian_herd"
+		texturefile = "gfx\\event_pictures\\central_asian_herd.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_pamir_valley"
+		texturefile = "gfx\\event_pictures\\pamir_valley.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_tuscan_country_pamiri"
+		texturefile = "gfx\\event_pictures\\pamir_valley.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_tuscan_country_afghan"
+		texturefile = "gfx\\event_pictures\\pamir_valley.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_tuscan_country_burusho"
+		texturefile = "gfx\\event_pictures\\pamir_valley.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_tuscan_country_kashmiri"
+		texturefile = "gfx\\event_pictures\\pamir_valley.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_tuscan_country_sogdian"
+		texturefile = "gfx\\event_pictures\\pamir_valley.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_tuscan_country_khorasani"
+		texturefile = "gfx\\event_pictures\\pamir_valley.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_skyrim_forest_pamiri"
+		texturefile = "gfx\\event_pictures\\skyrim_forest_pamiri.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_skyrim_forest_burusho"
+		texturefile = "gfx\\event_pictures\\skyrim_forest_pamiri.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_skyrim_forest_kashmiri"
+		texturefile = "gfx\\event_pictures\\skyrim_forest_pamiri.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_skyrim_forest_sogdian"
+		texturefile = "gfx\\event_pictures\\skyrim_forest_pamiri.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_skyrim_forest_afghan"
+		texturefile = "gfx\\event_pictures\\skyrim_forest_pamiri.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_skyrim_forest_khorasani"
+		texturefile = "gfx\\event_pictures\\skyrim_forest_pamiri.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_small_town_pamiri"
+		texturefile = "gfx\\event_pictures\\small_town_pamiri.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_small_town_burusho"
+		texturefile = "gfx\\event_pictures\\small_town_pamiri.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_small_town_kashmiri"
+		texturefile = "gfx\\event_pictures\\small_town_pamiri.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_small_town_afghan"
+		texturefile = "gfx\\event_pictures\\small_town_pamiri.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_wakhan_corridor"
+		texturefile = "gfx\\event_pictures\\wakhan_corridor.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_lapis_lazuli"
+		texturefile = "gfx\\event_pictures\\lapis_lazuli.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_hunza_food"
+		texturefile = "gfx\\event_pictures\\hunza_food.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_VIET_food_burusho"
+		texturefile = "gfx\\event_pictures\\hunza_food.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_VIET_food_pamiri"
+		texturefile = "gfx\\event_pictures\\hunza_food.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_VIET_food_kashmiri"
+		texturefile = "gfx\\event_pictures\\hunza_food.tga"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_pamir_altar"
+		texturefile = "gfx\\event_pictures\\pamir_altar.tga"
+		allwaystransparent = yes
+	}
+}
+
+

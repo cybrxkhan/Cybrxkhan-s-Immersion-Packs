@@ -1,0 +1,124 @@
+# Middle Eastern and Central Asian Music - more likely to play for those of Middle Eastern, Central Asian, or Indo-Aryan culture groups, or those whose capitals have such cultures
+#
+# Tracks and sources:
+# 
+# 
+# Shisha and Duduk
+# Oriental Vibe
+# https://soundcloud.com/orientalvibe/shisha-and-duduk
+# 
+# Flute Ney
+# Ahmed Kano
+# https://soundcloud.com/ahmed-kano/flute-ney
+# 
+# Mighty Steppe
+# Europa Barbarorum Mod for Rome/Medieval II Total War
+# https://www.europabarbarorum.com/
+# 
+# Land of the Ephedra
+# Europa Barbarorum Mod for Rome/Medieval II Total War
+# https://www.europabarbarorum.com/
+# 
+# Watching the Herd
+# Europa Barbarorum Mod for Rome/Medieval II Total War
+# https://www.europabarbarorum.com/
+# 
+
+
+song = {
+	name = "burusho_hunter.ogg"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			OR = {
+				culture_group = iranian
+				culture_group = altaic
+				culture_group = serindian
+				culture_group = tibetan_group
+				culture_group = chinese_group
+				religion = tengri_pagan
+				religion = tengri_pagan_reformed
+				capital_scope = { culture_group = iranian }
+				capital_scope = { culture_group = altaic }
+				capital_scope = { culture_group = serindian }
+				capital_scope = { culture_group = tibetan_group }
+				capital_scope = { culture_group = chinese_group }
+			}
+		}
+	}		
+}
+song = {
+	name = "remote_wakhan_valley.ogg"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			OR = {
+				culture_group = iranian
+				culture_group = altaic
+				culture_group = serindian
+				culture_group = tibetan_group
+				culture_group = chinese_group
+				religion = tengri_pagan
+				religion = tengri_pagan_reformed
+				capital_scope = { culture_group = iranian }
+				capital_scope = { culture_group = altaic }
+				capital_scope = { culture_group = serindian }
+				capital_scope = { culture_group = tibetan_group }
+				capital_scope = { culture_group = chinese_group }
+			}
+		}
+	}		
+}
+song = {
+	name = "top_of_the_pamirs.ogg"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			OR = {
+				culture_group = iranian
+				culture_group = altaic
+				culture_group = serindian
+				culture_group = tibetan_group
+				culture_group = chinese_group
+				religion = tengri_pagan
+				religion = tengri_pagan_reformed
+				capital_scope = { culture_group = iranian }
+				capital_scope = { culture_group = altaic }
+				capital_scope = { culture_group = serindian }
+				capital_scope = { culture_group = tibetan_group }
+				capital_scope = { culture_group = chinese_group }
+			}
+		}
+	}		
+}
+song = {
+	name = "desert_sky_spirit.ogg"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 2
+			OR = {
+				culture_group = iranian
+				culture_group = altaic
+				culture_group = serindian
+				culture_group = arabic
+				culture_group = byzantine
+				culture_group = north_african
+				culture_group = indo_aryan
+				capital_scope = { culture_group = iranian }
+				capital_scope = { culture_group = altaic }
+				capital_scope = { culture_group = arabic }
+				capital_scope = { culture_group = byzantine }
+				capital_scope = { culture_group = north_african }
+				capital_scope = { culture_group = indo_aryan }
+			}
+		}
+	}		
+}

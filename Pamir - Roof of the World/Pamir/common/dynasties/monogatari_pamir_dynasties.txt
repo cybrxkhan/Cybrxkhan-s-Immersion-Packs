@@ -1,0 +1,735 @@
+#####################################################################
+# 
+# 1000033140-1000033169		Kashmiri
+# 1000033750-1000033789		Kashmiri
+# 1000088070-1000088089		Pamiri
+# 1000088720-1000088729		More Pamiri
+# 1000088730-1000088809		Burusho
+# 
+#####################################################################
+
+
+1000033140 = {
+	name="Lohara"
+	culture = kashmiri
+}
+1000033141 = {
+	name="Shahmiri"
+	culture = kashmiri
+}
+1000033142 = {
+	name="Dogra"
+	culture = kashmiri
+}	
+1000033143 = {
+	name="Karkota"
+	culture = kashmiri
+}
+1000033144 = {
+	name="Nehru"
+	culture = kashmiri
+}
+1000033145 = {
+	name="Kaif"
+	culture = kashmiri
+}
+1000033146 = {
+	name="Bhatta"
+	culture = kashmiri
+}
+1000033147 = {
+	name="Chadurah"
+	culture = kashmiri
+}
+1000033148 = {
+	name="Butt"
+	culture = kashmiri
+}
+1000033149 = {
+	name="Dar"
+	culture = kashmiri
+}
+1000033150 = {
+	name="Lone"
+	culture = kashmiri
+}
+1000033151 = {
+	name="Mattoo"
+	culture = kashmiri
+}
+1000033152 = {
+	name="Rathore"
+	culture = kashmiri
+}	
+1000033153 = {
+	name="Pandit"
+	culture = kashmiri
+}
+1000033154 = {
+	name="Butt"
+	culture = kashmiri
+}
+1000033155 = {
+	name="Sapru"
+	culture = kashmiri
+}
+1000033156 = {
+	name="Qasba"
+	culture = kashmiri
+}
+1000033157 = {
+	name="Baqal"
+	culture = kashmiri
+}
+1000033158 = {
+	name="Wani"
+	culture = kashmiri
+}
+1000033159 = {
+	name="Khawaja"
+	culture = kashmiri
+}
+1000033160 = {
+	name="Mir"
+	culture = kashmiri
+}
+1000033161 = {
+	name="Kaul"
+	culture = kashmiri
+}
+1000033162 = {
+	name="Rayna"
+	culture = kashmiri
+}	
+1000033163 = {
+	name="Bhauta"
+	culture = kashmiri
+}
+1000033164 = {
+	name="Nadiri"
+	culture = kashmiri
+}
+1000033165 = {
+	name="Rinchanid"
+	culture = kashmiri
+}
+1000033166 = {
+	name="Dhar"
+	culture = kashmiri
+}
+1000033167 = {
+	name="Bilhana"
+	culture = kashmiri
+}
+1000033168 = {
+	name="Sudhan"
+	culture = kashmiri
+}
+1000033169 = {
+	name="Kallata"
+	culture = kashmiri
+}
+################
+
+1000033750 = {
+	name="Shaikh"
+	culture = kashmiri
+}
+1000033751 = {
+	name="Dar"
+	culture = kashmiri
+}
+1000033752 = {
+	name="Butt"
+	culture = kashmiri
+}	
+1000033753 = {
+	name="Qureshi"
+	culture = kashmiri
+}
+1000033754 = {
+	name="Khan"
+	culture = kashmiri
+}
+1000033755 = {
+	name="Khawaja"
+	culture = kashmiri
+}
+1000033756 = {
+	name="Kichlu"
+	culture = kashmiri
+}
+1000033757 = {
+	name="Lone"
+	culture = kashmiri
+}
+1000033758 = {
+	name="Mir"
+	culture = kashmiri
+}
+1000033759 = {
+	name="Malik"
+	culture = kashmiri
+}
+1000033760 = {
+	name="Rathore"
+	culture = kashmiri
+}
+1000033761 = {
+	name="Vani"
+	culture = kashmiri
+}
+1000033762 = {
+	name="Bhat"
+	culture = kashmiri
+}	
+1000033763 = {
+	name="Dhar"
+	culture = kashmiri
+}
+1000033764 = {
+	name="Haksar"
+	culture = kashmiri
+}
+1000033765 = {
+	name="Kak"
+	culture = kashmiri
+}
+1000033766 = {
+	name="Kaul"
+	culture = kashmiri
+}
+1000033767 = {
+	name="Koul"
+	culture = kashmiri
+}
+1000033768 = {
+	name="Mattoo"
+	culture = kashmiri
+}
+1000033769 = {
+	name="Pandit"
+	culture = kashmiri
+}
+1000033770 = {
+	name="Sapru"
+	culture = kashmiri
+}
+1000033771 = {
+	name="Wani"
+	culture = kashmiri
+}
+1000033772 = {
+	name="Hakim"
+	culture = kashmiri
+}	
+1000033773 = {
+	name="Raina"
+	culture = kashmiri
+}
+1000033774 = {
+	name="Teng"
+	culture = kashmiri
+}
+1000033775 = {
+	name="Tantre"
+	culture = kashmiri
+}
+1000033776 = {
+	name="Magre"
+	culture = kashmiri
+}
+1000033777 = {
+	name="Mantu"
+	culture = kashmiri
+}
+1000033778 = {
+	name="Wayne"
+	culture = kashmiri
+}
+1000033779 = {
+	name="Nayak"
+	culture = kashmiri
+}
+1000033780 = {
+	name="Parry"
+	culture = kashmiri
+}
+1000033781 = {
+	name="Rather"
+	culture = kashmiri
+}
+1000033782 = {
+	name="Yatoo"
+	culture = kashmiri
+}	
+1000033783 = {
+	name="Ganai"
+	culture = kashmiri
+}
+1000033784 = {
+	name="Lun"
+	culture = kashmiri
+}
+1000033785 = {
+	name="Pare"
+	culture = kashmiri
+}
+1000033786 = {
+	name="Shah"
+	culture = kashmiri
+}
+1000033787 = {
+	name="Wain"
+	culture = kashmiri
+}
+1000033788 = {
+	name="Karkota"
+	culture = kashmiri
+}
+1000033789 = {
+	name="Rishi"
+	culture = kashmiri
+}
+##############
+1000088070 = {
+	name="Puteshan" # Fictitious name for the real Kings of Puteshan/Badakhshan during the middle Tang period, c. mid 700s per the records of the Korean monk Hyecho
+	culture = pamiri
+	used_for_random=no
+}
+1000088071 = {
+	name="Ishkashimi"
+	culture = pamiri
+}
+1000088072 = {
+	name="Ishkomani"
+	culture = pamiri
+}	
+1000088073 = {
+	name="Chiporsuni"
+	culture = pamiri
+}
+1000088074 = {
+	name="Gojali"
+	culture = pamiri
+}
+1000088075 = {
+	name="Yasini"
+	culture = pamiri
+}
+1000088076 = {
+	name="Sarikoli"
+	culture = pamiri
+}
+1000088077 = {
+	name="Rafidite"
+	culture = pamiri
+}
+1000088078 = {
+	name="Ghalcha"
+	culture = pamiri
+}
+1000088079 = {
+	name="Chalachigu"
+	culture = pamiri
+}
+1000088080 = {
+	name="Zebaki"
+	culture = pamiri
+}
+1000088081 = {
+	name="Gharani"
+	culture = pamiri
+}
+1000088082 = {
+	name="Ziaki"
+	culture = pamiri
+}	
+1000088083 = {
+	name="Zorkuli"
+	culture = pamiri
+}
+1000088084 = {
+	name="Taghdumbash"
+	culture = pamiri
+}
+1000088085 = {
+	name="Murghabi"
+	culture = pamiri
+}
+1000088086 = {
+	name="Sarytash"
+	culture = pamiri
+}
+1000088087 = {
+	name="Chaqmaqtin"
+	culture = pamiri
+}
+1000088088 = {
+	name="Yashikul"
+	culture = pamiri
+}
+1000088089 = {
+	name="Panjeh"
+	culture = pamiri
+}
+1000088720 = {
+	name="Bartan"
+	culture = pamiri
+}
+1000088721 = {
+	name="Shaimak"
+	culture = pamiri
+}
+1000088722 = {
+	name="Tegermansu"
+	culture = pamiri
+}	
+1000088723 = {
+	name="Wakhi"
+	culture = pamiri
+}
+1000088724 = {
+	name="Ishkashimi"
+	culture = pamiri
+}
+1000088725 = {
+	name="Shaksgam"
+	culture = pamiri
+}
+1000088726 = {
+	name="Shugnan"
+	culture = pamiri
+}
+1000088727 = {
+	name="Roshtkala"
+	culture = pamiri
+}
+1000088728 = {
+	name="Rushani"
+	culture = pamiri
+}
+1000088729 = {
+	name="Vanj"
+	culture = pamiri
+}
+1000088730 = {
+	name="Yasin"
+	culture = burusho
+}
+1000088731 = {
+	name="Nagar"
+	culture = burusho
+}
+1000088732 = {
+	name="Werchikwar"
+	culture = burusho
+}	
+1000088733 = {
+	name="Baltit"
+	culture = burusho
+}
+1000088734 = {
+	name="Worshigum"
+	culture = burusho
+}
+1000088735 = {
+	name="Selgaan"
+	culture = burusho
+}
+1000088736 = {
+	name="Thoi"
+	culture = burusho
+}
+1000088737 = {
+	name="Darkut"
+	culture = burusho
+}
+1000088738 = {
+	name="Karur"
+	culture = burusho
+}
+1000088739 = {
+	name="Katoor"
+	culture = burusho
+}
+1000088740 = {
+	name="Rakaposhi"
+	culture = burusho
+}
+1000088741 = {
+	name="Dumani"
+	culture = burusho
+}
+1000088742 = {
+	name="Gojal"
+	culture = burusho
+}	
+1000088743 = {
+	name="Shimshal"
+	culture = burusho
+}
+1000088744 = {
+	name="Misgar"
+	culture = burusho
+}
+1000088745 = {
+	name="Chipursan"
+	culture = burusho
+}
+1000088746 = {
+	name="Yishkuk"
+	culture = burusho
+}
+1000088747 = {
+	name="Avgarch"
+	culture = burusho
+}
+1000088748 = {
+	name="Gircha"
+	culture = burusho
+}
+1000088749 = {
+	name="Sost"
+	culture = burusho
+}
+1000088750 = {
+	name="Shishkat"
+	culture = burusho
+}
+1000088751 = {
+	name="Gulmit"
+	culture = burusho
+}
+1000088752 = {
+	name="Passu"
+	culture = burusho
+}	
+1000088753 = {
+	name="Diran"
+	culture = burusho
+}
+1000088754 = {
+	name="Miachar"
+	culture = burusho
+}
+1000088755 = {
+	name="Ishkoman"
+	culture = burusho
+}
+1000088756 = {
+	name="Pakkora"
+	culture = burusho
+}
+1000088757 = {
+	name="Ghizer"
+	culture = burusho
+}
+1000088758 = {
+	name="Kunjut"
+	culture = burusho
+}
+1000088759 = {
+	name="Spantik"
+	culture = burusho
+}
+1000088760 = {
+	name="Buroong"
+	culture = burusho
+}
+1000088761 = {
+	name="Baratilang"
+	culture = burusho
+}
+1000088762 = {
+	name="Khurukut"
+	culture = burusho
+}	
+1000088763 = {
+	name="Thamos"
+	culture = burusho
+}
+1000088764 = {
+	name="Uyongko"
+	culture = burusho
+}
+1000088765 = {
+	name="Akabirting"
+	culture = burusho
+}
+1000088766 = {
+	name="Bar"
+	culture = burusho
+}
+1000088767 = {
+	name="Bare"
+	culture = burusho
+}
+1000088768 = {
+	name="Sis"
+	culture = burusho
+}
+1000088769 = {
+	name="Baldakuyo"
+	culture = burusho
+}
+1000088770 = {
+	name="Tsilgalasho"
+	culture = burusho
+}
+1000088771 = {
+	name="Bericho"
+	culture = burusho
+}
+1000088772 = {
+	name="Ganish"
+	culture = burusho
+}	
+1000088773 = {
+	name="Rosh"
+	culture = burusho
+}
+1000088774 = {
+	name="Shalanga"
+	culture = burusho
+}
+1000088775 = {
+	name="Ghulapee"
+	culture = burusho
+}
+1000088776 = {
+	name="Bhuthe"
+	culture = burusho
+}
+1000088777 = {
+	name="Shamir"
+	culture = burusho
+}
+1000088778 = {
+	name="Faratu"
+	culture = burusho
+}
+1000088779 = {
+	name="Matham"
+	culture = burusho
+}
+1000088780 = {
+	name="Shahthurai"
+	culture = burusho
+}
+1000088781 = {
+	name="Ghauin"
+	culture = burusho
+}
+1000088782 = {
+	name="Dhathu"
+	culture = burusho
+}	
+1000088783 = {
+	name="Laghan"
+	culture = burusho
+}
+1000088784 = {
+	name="Jerovf"
+	culture = burusho
+}
+1000088785 = {
+	name="Jaturi"
+	culture = burusho
+}
+1000088786 = {
+	name="Dhudu"
+	culture = burusho
+}
+1000088787 = {
+	name="Khanjafa"
+	culture = burusho
+}
+1000088788 = {
+	name="Lachur"
+	culture = burusho
+}
+1000088789 = {
+	name="Abdulali"
+	culture = burusho
+}
+1000088790 = {
+	name="Masak"
+	culture = burusho
+}
+1000088791 = {
+	name="Moan"
+	culture = burusho
+}
+1000088792 = {
+	name="Sort"
+	culture = burusho
+}	
+1000088793 = {
+	name="Mushkil"
+	culture = burusho
+}
+1000088794 = {
+	name="Baghorik"
+	culture = burusho
+}
+1000088795 = {
+	name="Jinu"
+	culture = burusho
+}
+1000088796 = {
+	name="Bathu"
+	culture = burusho
+}
+1000088797 = {
+	name="Bulush"
+	culture = burusho
+}
+1000088798 = {
+	name="Toq"
+	culture = burusho
+}
+1000088799 = {
+	name="Attakuz"
+	culture = burusho
+}
+1000088800 = {
+	name="Galyu"
+	culture = burusho
+}
+1000088801 = {
+	name="Habib"
+	culture = burusho
+}
+1000088802 = {
+	name="Noormuhammed"
+	culture = burusho
+}	
+1000088803 = {
+	name="Almaaz"
+	culture = burusho
+}
+1000088804 = {
+	name="Mumbara"
+	culture = burusho
+}
+1000088805 = {
+	name="Su"
+	culture = burusho
+}
+1000088806 = {
+	name="Adai"
+	culture = burusho
+}
+1000088807 = {
+	name="Muyo"
+	culture = burusho
+}
+1000088808 = {
+	name="Aman"
+	culture = burusho
+}
+1000088809 = {
+	name="Pashu"
+	culture = burusho
+}
